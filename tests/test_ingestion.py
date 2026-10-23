@@ -176,6 +176,19 @@ class IngestionTests(unittest.TestCase):
         self.assertEqual(result["methods"], ["其他"])
         self.assertNotIn("brain-disorders", result["topics"])
 
+    def test_keyword_only_method_is_not_evidence_of_actual_imaging(self):
+        result = self.classify("Translational research in autism", "This chapter reviews model systems and brain circuitry for patients with autism.", keywords=["EEG"])
+        self.assertEqual(result["methods"], ["其他"])
+        self.assertNotIn("brain-disorders", result["topics"])
+
+    def test_correction_is_not_original_clinical_research(self):
+        result = self.classify("Correction: fMRI brain connectivity in patients with depression", "Patients with depression underwent fMRI.", publication_types=["Published Erratum"])
+        self.assertNotIn("brain-disorders", result["topics"])
+
+    def test_mouse_study_does_not_become_human_from_background_patients(self):
+        result = self.classify("EEG in a mouse model of depression", "Patients with depression show cognitive deficits. We recorded EEG and brain activity in mice to investigate neural mechanisms.")
+        self.assertNotIn("brain-disorders", result["topics"])
+
 
 if __name__ == "__main__":
     unittest.main()

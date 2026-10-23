@@ -85,13 +85,20 @@ def method_text(paper):
     match = re.search(r"(?:^|[.!?]\s+)(?:materials and methods|methods|methodology)\s*:?\s+(.+?)(?=\b(?:results|findings|conclusions?|discussion)\s*:?\s+|$)", abstract, re.I)
     if match:
         return searchable_text(paper["title"] + " " + match.group(1))
-    return paper_text(paper)
+    # Keywords can list a technique discussed in a review, or can be copied to
+    # an erratum. They are insufficient evidence that the study used it.
+    return searchable_text(paper["title"] + " " + abstract)
 
 
 def clinical_imaging_study(paper):
     """Conservative evidence gate, not a claim of full-text or human review."""
     text = searchable_text(f"{paper['title']} {paper.get('abstract', '')}")
+    types = " ".join(paper.get("publication_types", [])).lower()
+    if re.search(r"review|erratum|correction|editorial|comment|letter|protocol", types) or re.match(r"(?:correction|corrigendum|erratum|retraction)\b", paper["title"], re.I):
+        return False
     if paper.get("is_review") or re.search(r"\b(meta analys\w*|systematic review|scoping review|study protocol)\b", text):
+        return False
+    if re.search(r"\bthis (?:chapter|review)\b|\b(?:this|the present) (?:article|paper) (?:reviews|summarizes|provides an overview)\b|\bwe review\b", text):
         return False
     if not any(x in detect_modalities(method_text(paper)) for x in ("fMRI", "DTI", "EEG", "MEG", "颅内电生理", "fNIRS")):
         return False
@@ -99,8 +106,8 @@ def clinical_imaging_study(paper):
     if not re.search(clinical, text):
         return False
     animal = re.search(r"\b(mice|rats|rodents?|murine|mouse model|rat model|zebrafish)\b", text)
-    human = re.search(r"\b(patients?|survivors?|participants|children|adults|adolescents|people|men|women)\b", text)
-    return not animal or bool(human) or "Humans" in paper.get("mesh_terms", [])
+    human_data = re.search(r"\b\d+\s+(?:(?:adult|adolescent|pediatric|stroke)\s+)?(?:patients|survivors|participants|children|adults|adolescents|subjects|healthy controls)\b|\b(?:recruited|enrolled)\b.{0,80}\b(?:patients|participants|children|adults)\b", text)
+    return not animal or bool(human_data) or "Humans" in paper.get("mesh_terms", [])
 
 
 def classify(paper, topics):

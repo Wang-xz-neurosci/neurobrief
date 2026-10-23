@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 研究脑疾病人群的认知与脑属性；优先原始人群研究</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 07:40:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:49:39 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -295,16 +295,6 @@ Background Auditory hallucination experiences are an understudied but clinically
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>The Importance of Translational Research for Neurodevelopmental Disorders and Autism Spectrum Disorders.</title>
-      <link>https://doi.org/10.1007/7854_2026_617</link>
-      <guid isPermaLink="false">doi:10.1007/7854_2026_617</guid>
-      <description>Current topics in behavioral neurosciences
-
-Translational research is the process of transforming fundamental biological discoveries into safe and efficacious interventions for patients. This specialized field is of particular importance for neurodevelopmental disorders (NDDs), a broad class of behaviorally defined conditions including autism spectrum disorder (ASD), attention deficit/hyperactivity disorder (ADHD), intellectual and developmental disabilities (IDDs), and related disorders. NDDs present unique translational challenges including (i) a lack of biological diagnostic markers; (ii) the fact that they are diagnosed exclusively by behavioral criteria; (iii) their involvement of dysfunction in complex brain circuitry; and (iv) that there is no single unifying biological mechanism. This chapter reviews the current landscape of translational neuroscience for NDDs, examining the strengths and limitations of preclinical model systems, including rodent models humanized mice, human induced pluripotent stem cells (iPSCs) 3D spheroids and brain organoids. This work emphasizes that research emanating from the varying preclinical experimental systems above should be leveraged and their complementary strengths integrated, coordinated, and considered collaboratively, to strengthen current knowledge, identify the remaining research gaps, and prioritize future research. We also emphasize the importance of rigorous, reproducible methodology and conservative interpretation of behavioral and functional outcomes. Discussion is presented on key translational bridges or connections that are urgently required to advance the field: bridging non-human model systems to humanized models, identifying and validating translational biomarkers, bridging in vitro and in vivo findings, and developing corroborative alternatives to animal models. It is our stance that integrating multiple complementary model systems, limiting erroneous behavioral inferences, relying on evolutionarily conserved circuits, and prioritizing robust and reproducible outcome measures will reduce failures in the translational pipeline and accelerate the development of meaningful therapies for individuals with NDDs.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
       <title>A Chronnectogram-ICA Framework for Tracking Continuously Evolving and Overlapping Functional Brain States</title>
       <link>https://doi.org/10.64898/2026.10.14.759150</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.14.759150</guid>
@@ -408,17 +398,6 @@ Objective Lafora disease (LD) is a rare, fatal neurodegenerative epilepsy with n
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Exploring the Neural Mechanisms of Acupuncture Stimulation in Autism Spectrum Disorder: Protocol for a Randomized, Sham-Controlled, Multimodal Neuroimaging Trial.</title>
-      <link>https://doi.org/10.2196/97910</link>
-      <guid isPermaLink="false">doi:10.2196/97910</guid>
-      <description>JMIR research protocols
-
-Background Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by restricted and repetitive behaviors and disturbances in social communication and interaction. Currently, there is no fundamental treatment for ASD, with only a few medications available for use on a limited basis to manage concomitant neuropsychiatric symptoms. The primary therapeutic goal of such treatments is to alleviate symptoms while maximizing the functional independence and quality of life of affected individuals. Many complementary and alternative medicine therapies have been reported to have effects on ASD symptoms; however, evidence is insufficient to confirm their clinical effectiveness. Acupuncture has traditionally been used as a complementary intervention to manage various neurological and neuropsychiatric diseases, including ASD, in East Asia. However, how acupuncture stimulation modulates neural activity at the macroscale level in individuals with ASD remains largely unknown. Objective This study aims to elucidate disease-related brain alterations and explore the acute neural mechanisms underlying acupuncture stimulation in patients with ASD and in typically developing (TD) individuals, using a multimodal neuroimaging approach. Methods This study was designed as a randomized, sham-controlled trial. In this stratified 2×2 design, 70 participants, including individuals with ASD (n=35) and TD controls (n=35), will each be randomly assigned to either the verum or sham acupuncture group, resulting in 4 groups. The verum acupuncture group will receive stimulation at specific acupoints clinically indicated for ASD, eliciting a deqi sensation. The sham acupuncture group will receive superficial needling at nonacupoints unrelated to ASD symptoms. Each group will undergo clinical assessments and multimodal neuroimaging measurements, including functional near-infrared spectroscopy and electroencephalography, before and after acupuncture stimulation. The primary outcome will be differences in resting state network metrics and relative band power in frontal areas by disease status. Secondary outcomes will include differences in these neural markers following acupuncture stimulation between the verum and sham groups, reflecting the group × intervention interaction. Exploratory outcomes will focus on identifying neural markers that correlate with clinical indicators of ASD. Results Recruitment began in April 2025. To date, 23 individuals with ASD and 21 TD individuals have participated in this study. The recruitment process is expected to continue until December 2026. Conclusions ASD presents a significant socioeconomic burden, with no definitive treatment established to date. Although acupuncture is a widely applied intervention for various neurological conditions, including ASD, its large-scale neural mechanisms remain poorly understood. By using multimodal neuroimaging, the present study aims to investigate the immediate neural substrates underlying acupuncture stimulation in patients with ASD. These findings are expected to provide a robust neurobiological foundation for future longitudinal research and the development of evidence-based integrative strategies.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
       <title>Altered prefrontal suppression of striatal activity during intrusive images in obsessive-compulsive disorder.</title>
       <link>https://doi.org/10.1111/pcn.70155</link>
       <guid isPermaLink="false">doi:10.1111/pcn.70155</guid>
@@ -515,23 +494,43 @@ Abstract Objective To explore the clinical value of video‑electroencephalograp
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Passive Language Mapping With High-Gamma Modulations.</title>
-      <link>https://doi.org/10.1097/wnp.0000000000001296</link>
-      <guid isPermaLink="false">doi:10.1097/wnp.0000000000001296</guid>
-      <description>Journal of clinical neurophysiology : official publication of the American Electroencephalographic Society
-
-Summary Passive language mapping using high-gamma modulation (HGM) has emerged as a valuable tool in both presurgical evaluation for epilepsy and neuroscientific discovery. HGM mapping leverages task-related synchronization in high-gamma frequencies to identify language areas without the risks associated with electrical stimulation mapping. This review outlines the principles and techniques used in the field of HGM-based mapping, including electrode types, referencing schemes, power analysis, and localization techniques. We survey a range of cognitive tasks-speech production, auditory processing, reading, and memory-that elicit language-related HGM responses and discuss their relevance to comprehensive language mapping. We examine perspectives on methodologic challenges, including artifact management, variability across patients, and spatial sampling. We assess validation studies comparing HGM with electrical stimulation mapping and neuropsychological outcomes, noting HGM's unique role in identifying language cortex in pediatric and cognitively impaired populations. Finally, we speculate on the future directions of the field, including integration with corticocortical evoked potentials and the potential for HGM-informed speech synthesis. As the field matures, HGM mapping is poised to contribute to improved clinical outcomes and enhance our understanding of the dynamics and development of the human language network.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与大脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
       <title>Profound Tacrolimus-Induced Catatonic Encephalopathy in a Kidney Transplant Recipient With Mitochondrial Myopathy: A Cautionary Case of Reversible Neurotoxicity.</title>
       <link>https://doi.org/10.1016/j.transproceed.2026.09.022</link>
       <guid isPermaLink="false">doi:10.1016/j.transproceed.2026.09.022</guid>
       <description>Transplantation proceedings
 
 Introduction Maternally inherited diabetes and deafness (MIDD) is a multisystem mitochondrial disorder most commonly caused by the m.3243A&gt;G pathogenic variant in the MT-TL1 gene. Kidney transplantation in affected individuals presents unique perioperative and immunosuppressive management challenges due to underlying metabolic, neurologic, cardiac, and neuromuscular vulnerability. Case report We report a 64-year-old woman with end-stage renal disease secondary to insulin-dependent diabetes and MIDD (m.3243A&gt;G) who underwent unrelated living donor kidney transplantation. The immediate postoperative period was complicated by diabetic ketoacidosis with lactic acidosis, transient slow graft function, and profound encephalopathy with catatonic features. Neuroimaging showed no acute abnormalities, and electroencephalography demonstrated severe diffuse encephalopathy without epileptiform activity. Tacrolimus levels were supratherapeutic in the early postoperative period. Given concern for calcineurin inhibitor neurotoxicity superimposed on mitochondrial dysfunction, tacrolimus was discontinued, and immunosuppression was switched to cyclosporine. Neurologic status gradually improved, and kidney allograft function fully normalized. Discussion This case highlights the substantial perioperative metabolic and neurologic risks associated with kidney transplantation in patients with MIDD. Patients with compensated cardiac dysfunction and manageable neuromuscular impairment should not be excluded from transplantation solely on the basis of mitochondrial cytopathy.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Dorsolateral prefrontal TMS-evoked N100 as a neurophysiological correlate of symptom change in adolescent depression.</title>
+      <link>https://doi.org/10.1016/j.jpsychires.2026.10.013</link>
+      <guid isPermaLink="false">doi:10.1016/j.jpsychires.2026.10.013</guid>
+      <description>Journal of psychiatric research
+
+Background Major depressive disorder (MDD) is highly prevalent in adolescence. Up to 30% of patients insufficiently benefit from first-line treatments, underscoring the need for improved treatment strategies and better understanding of pathophysiology. In depression, an imbalance between cortical excitation and inhibition in the dorsolateral prefrontal cortex (DLPFC), assessed by the TMS-evoked N100 potential, is suggested as one of several contributing neurobiological mechanisms. While elevated N100 amplitudes have been observed in depressed adults and adolescents, its association with symptom change remains insufficiently investigated. Methods In a randomized controlled trial, N = 54 adolescents (38 girls, 16 boys) with MDD received six weeks of whole body vibration training (exercising on a vibrating plate that triggers involuntary muscle contractions through a neurological reflex) or light stretching as add-on treatments to treatment as usual. TMS-EEG was applied before and after the intervention to assess N100 amplitudes over the left and right DLPFC. Depressive symptoms were measured using the Children's Depression Rating Scale-Revised. Changes in N100 amplitudes were analyzed using repeated measures ANOVA. Multiple regression analyses with intervention group as predictor examined associations between changes in N100 amplitudes and depressive symptoms, including sex as moderator and a subsequent girls-only analysis. Results Across both groups, N100 amplitudes significantly decreased from pre-to post-intervention. No differential effects between interventions were observed. Reductions in right-hemispheric N100 amplitudes were significantly associated with improvements in depressive symptoms. This association reached statistical significance in girls. Conclusions Our findings support the N100 as a candidate neurophysiological correlate of depressive symptom improvement.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Analysis choices can produce apparent rich-club differences: an Alzheimer's disease EEG case study.</title>
+      <link>https://doi.org/10.1016/j.jneumeth.2026.110927</link>
+      <guid isPermaLink="false">doi:10.1016/j.jneumeth.2026.110927</guid>
+      <description>Journal of neuroscience methods
+
+Background The weighted rich-club coefficient tests whether a network's most strongly connected nodes are preferentially interconnected. Its interpretation depends on two often-implicit choices: how the randomised comparison networks are constructed, and whether the hubs are re-identified in each comparison network or held fixed at those of the observed network. When hubs are defined by connection strength, these choices change what the coefficient tests. New method We examined how these choices affect inference using resting-state EEG from 20 people with Alzheimer's disease and 20 controls. Holding the data fixed, we compared four analysis pipelines, crossing two ways of building the comparison networks (global weight reshuffle or strength-conditioned null) with the two hub choices, and ran a calibration study using data constructed to contain no preferential hub coupling beyond nodal strength. Results An apparent eyes-open group difference in rich-club organisation appeared only under the pipeline combining a global weight reshuffle with re-identified hubs. Under the empirical resampling ensemble, that pipeline reported a group difference in 43% of pseudo-studies, always higher in the Alzheimer's disease group, while the other three stayed near the expected 5%. Comparison with existing methods Unlike global weight reshuffling, strength-conditioned nulls approximately preserve nodal strengths; fixing observed hubs also retains the identity of the core being tested. Conclusions The same data can support or dissolve an apparent rich-club difference depending on these choices. No single choice is universally correct, but reporting which were made, and why they fit the question being asked, is essential to interpreting the result.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Post-Traumatic Stress Disorder Recognition Using the fNIRS Dual-Attention Network.</title>
+      <link>https://doi.org/10.1016/j.jneumeth.2026.110925</link>
+      <guid isPermaLink="false">doi:10.1016/j.jneumeth.2026.110925</guid>
+      <description>Journal of neuroscience methods
+
+Background Post-traumatic stress disorder (PTSD) is a prevalent psychological disorder that can impair daily functioning and mental health. Current clinical assessment mainly relies on structured interviews and symptom scales, which may introduce subjectivity and inter-rater variability. Functional near-infrared spectroscopy (fNIRS) provides a noninvasive approach for measuring task-evoked hemodynamic responses and may offer objective physiological information for auxiliary PTSD recognition. New method This study proposes an end-to-end deep learning framework, the fNIRS Dual Attention Network (FDANet), for PTSD recognition. Ten PTSD patients and ten healthy controls (HC) were recruited, and prefrontal hemodynamic signals, including oxyhemoglobin (HbO), deoxyhemoglobin (HbR), and total hemoglobin (HbT), were recorded during fear and neutral facial-expression stimuli. The three hemodynamic signals were concatenated along the channel dimension to form the model input. FDANet combines Transformer-based temporal modeling, one-dimensional temporal-channel attention, and convolutional feature extraction to learn discriminative representations from multichannel fNIRS signals. Results The model was evaluated using subject-wise nested cross-validation with five outer folds. At the trial level, FDANet achieved an accuracy of 79.4%. At the subject level, FDANet achieved an accuracy of 95.0%. Comparison with existing methods Compared with the evaluated traditional machine-learning and deep-learning baseline methods, FDANet achieved higher classification accuracy at both trial and subject levels. Conclusions These findings indicate that task-evoked prefrontal fNIRS signals contain discriminative information for PTSD recognition. Given the portability and noninvasive measurement characteristics of fNIRS, FDANet may support the future development of objective auxiliary screening tools for PTSD, although further validation with larger and independent samples is required.</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
     </item>
