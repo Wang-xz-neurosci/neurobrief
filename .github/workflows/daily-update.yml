@@ -2,6 +2,11 @@ name: Update papers and publish
 
 on:
   workflow_dispatch:
+    inputs:
+      retry_rejected:
+        description: 'Manually retry held pilot items; existing successful summaries are kept'
+        type: boolean
+        default: false
   schedule:
     # 08:17 Asia/Shanghai. GitHub schedules can run late.
     - cron: '17 0 * * *'
@@ -39,7 +44,7 @@ jobs:
       - name: Generate or attach the capped Chinese-summary pilot
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python scripts/summarize_papers.py
+        run: python scripts/summarize_papers.py ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
       - name: Checkpoint summary cache and spending ledger
         if: always()
         run: |

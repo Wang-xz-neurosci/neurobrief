@@ -79,7 +79,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 ## 中文概览试阅与密钥
 
 - 当前为 **两轮共 24 篇跨方向试阅**，入口为“中文总结试阅”。默认展示本轮新增的 12 篇 150–200 字精简概览，可切换上轮 12 篇原版或全部试阅。上轮缓存保留原样。概览默认显示在题目与作者下方，原始摘要可展开核对。其余文章继续显示英文原始摘要。
-- 模型为 `deepseek-flash`，关闭思考和工具调用，每篇最多 650 输出 tokens；固定系统提示词置于最前，保存一次生成的结果，浏览器访问不会调用模型。
+- 模型为 `deepseek-flash`，关闭思考和工具调用，每篇最多 550 输出 tokens；固定系统提示词置于最前，保存一次生成的结果，浏览器访问不会调用模型。
 - 仅传送单篇题目与摘要，不传送 API Key 之外的个人资料，也不把历史聊天传给模型。完整、有效摘要才生成；内容过长时跳过，不静默截断。
 - Secret 名称为 **DEEPSEEK_API_KEY**，只配置在 GitHub → Settings → Secrets and variables → Actions。不得把实际值写入代码、JSON、`.env`、命令参数或仓库。更新 Secret 不要求修改代码，也不要求把密钥贴到公开位置。
 - 本地需要生成时运行 `python scripts/summarize_papers.py --key-stdin`，在隐藏输入提示中粘贴；普通本地预览用 `--attach-only`，不需要 Key。

@@ -129,7 +129,8 @@ def generate_one(p, cache, settings, key, cache_path, day):
     Never retry an ambiguous network failure or edit an accepted cached summary.
     """
     source = json.dumps({"title": p["title"], "abstract": p["abstract"]}, ensure_ascii=False)
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": source}]
+    instruction = "只写一段约175字的中文概览，重点讲最主要的结果。对象和核心方法合并为简短一句，不写样本量、年龄范围、具体数值，不罗列方法参数或多个次要发现。请用自然流畅的中文，英文缩写仅保留理解结论必需的部分。以下是唯一事实来源：\n"
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": instruction + source}]
     for repair in range(settings.get("max_length_retries", 0) + 1):
         reserve = estimate_reservation(messages, settings)
         if not within_budget(cache, day, reserve, settings):
@@ -150,6 +151,8 @@ def generate_one(p, cache, settings, key, cache_path, day):
             if choice.get("finish_reason") != "stop":
                 raise ValueError("Incomplete model output")
             content = json.loads(choice["message"]["content"])
+            if isinstance(content.get("summary_zh"), str):
+                ledger["summary_chars"] = len(re.sub(r"\s+", " ", content["summary_zh"]).strip())
             summary = validate_summary(content.get("summary_zh"), p["title"] + " " + p["abstract"],
                                        settings["min_summary_chars"], settings["max_summary_chars"])
             cache["entries"][p["id"]] = {"status": "success", "summary_zh": summary, "source_hash": source_hash(p),
@@ -171,9 +174,13 @@ def generate_one(p, cache, settings, key, cache_path, day):
                         {"paper_id": p["id"], "reason": type(exc).__name__, "candidate": candidate})
             atomic_json(cache_path, cache)
             if isinstance(exc, SummaryLengthError) and repair < settings.get("max_length_retries", 0):
+                length = ledger["summary_chars"]
+                target = (settings['min_summary_chars'] + settings['max_summary_chars']) // 2
+                adjustment = (f"当前过长，请压缩约{length-target}个字符，删去细节，保留最主要结果。" if length > settings['max_summary_chars'] else
+                              f"当前过短，请增加约{target-length}个字符，稍微展开摘要中已报告的核心结果或关键解释，不得添加外部事实或套话。")
                 messages += [{"role": "assistant", "content": candidate}, {"role": "user", "content":
-                    f"上一版有{len(content['summary_zh'].strip())}个字符，长度不合要求。请重新概括主要发现，严格保持{settings['min_summary_chars']}至{settings['max_summary_chars']}字，目标170至185字；省略非必要细节，保持原意，不得补充事实。只返回相同结构的json。"}]
-                print("Requesting a bounded length correction; prior call recorded.", flush=True)
+                    f"程序实测上一版有{length}个字符（含标点和英文字符），长度不合要求。{adjustment}请重新概括主要发现，目标{target}个字符，必须在{settings['min_summary_chars']}至{settings['max_summary_chars']}之间，保持原意。只返回相同结构的json。"}]
+                print(f"Requesting a bounded length correction ({length} characters); prior call recorded.", flush=True)
                 continue
             print("Pilot item held for review: " + type(exc).__name__, flush=True)
             return "rejected"

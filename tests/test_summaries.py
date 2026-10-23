@@ -103,6 +103,16 @@ class SummaryTests(unittest.TestCase):
         self.assertEqual(len(cache['ledger']),1)
         self.assertGreater(cache['ledger'][0]['budget_charge_cny'],0)
 
+    def test_short_return_gets_an_expansion_instruction(self):
+        p, cache, settings = self.fixture()
+        with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder:
+            with patch.object(m,'complete',side_effect=[self.response('文'*140),self.response('文'*175)]) as api:
+                self.assertEqual(m.generate_one(p,cache,settings,'test-key',Path(folder)/'cache.json','2026-10-23'),'success')
+                correction = api.call_args.args[0][-1]['content']
+                self.assertIn('当前过短',correction)
+                self.assertIn('增加约35个字符',correction)
+        self.assertEqual(len(cache['entries']['new']['summary_zh']),175)
+
     def test_pilot_generation_skips_existing_success_and_keeps_its_metadata(self):
         p, cache, settings = self.fixture()
         old = {'id':'old','title':'Old study','abstract':'old abstract '*30}
