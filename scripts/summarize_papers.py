@@ -46,9 +46,13 @@ def source_hash(p):
 
 
 def numeric_evidence(source):
+    # Publisher formatting can separate the decimal point in PM2 .5, etc.
+    source = re.sub(r"(?<=\d)\s*\.\s*(?=\d)", ".", source)
     numbers = set(re.findall(r"\d+(?:\.\d+)?", source))
     units = dict(zip("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(), range(20)))
     units.update(dict(zip("twenty thirty forty fifty sixty seventy eighty ninety".split(), range(20,100,10))))
+    units.update(dict(zip("first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth fourteenth fifteenth sixteenth seventeenth eighteenth nineteenth".split(), range(1,20))))
+    units.update(dict(zip("twentieth thirtieth fortieth fiftieth sixtieth seventieth eightieth ninetieth".split(), range(20,100,10))))
     word = "(?:" + "|".join(units) + ")"
     for match in re.finditer(r"\b" + word + r"(?:[ -]+" + word + r")?\b", source.lower()):
         parts = match.group().replace("-", " ").split()

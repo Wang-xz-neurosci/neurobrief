@@ -99,6 +99,10 @@ class SummaryTests(unittest.TestCase):
     def test_spelled_out_numbers(self):
         self.assertTrue({'17','97','7'}<=m.numeric_evidence('Seventeen patients and ninety-seven controls, in seven regions.'))
         self.assertNotIn('3',m.numeric_evidence('one and two'))
+    def test_publisher_decimal_spacing_and_spelled_ordinals(self):
+        source='Ambient PM2 .5 and PM10. Diagnostic Manual, Fifth Edition; scale Fourth Edition.'
+        self.assertTrue({'2.5','10','5','4'}<=m.numeric_evidence(source))
+        self.assertEqual(m.validate_summary('本研究考察PM2.5和PM10，并依据DSM-5分类。',source),'本研究考察PM2.5和PM10，并依据DSM-5分类。')
     def test_no_abstract_means_no_provider_call(self):
         self.assertEqual(self.run_batch([self.paper(abstract='')],dict(entries={},ledger=[]),[]),0)
     def test_resumed_content_review_includes_corrective_context(self):
