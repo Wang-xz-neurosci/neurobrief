@@ -1,0 +1,217 @@
+{
+  "lookback_days": 90,
+  "classification_version": "2026-10-four-topics-v1",
+  "topics": [
+    {
+      "id": "language",
+      "name": "语言与大脑",
+      "short_name": "语言与大脑",
+      "description": "言语、语义、句法、阅读与语篇理解的脑机制",
+      "query": "(TITLE_ABS:\"language processing\" OR TITLE_ABS:\"speech perception\" OR TITLE_ABS:\"speech production\" OR TITLE_ABS:\"semantic processing\" OR TITLE_ABS:\"syntactic processing\" OR TITLE_ABS:\"sentence comprehension\" OR TITLE_ABS:\"reading network\" OR TITLE_ABS:\"language network\" OR TITLE_ABS:neurolinguistic* OR TITLE_ABS:\"aphasia\" OR TITLE_ABS:\"narrative comprehension\" OR TITLE_ABS:\"discourse comprehension\") AND (TITLE_ABS:\"brain\" OR TITLE_ABS:\"neural\" OR TITLE_ABS:\"cortical\" OR TITLE_ABS:\"fmri\" OR TITLE_ABS:\"eeg\" OR TITLE_ABS:magnetoencephalograph* OR TITLE_ABS:neuroimag*) NOT (TITLE_ABS:\"natural language processing\")",
+      "evidence_terms": [
+        "language processing",
+        "speech perception",
+        "speech production",
+        "semantic processing",
+        "syntactic processing",
+        "sentence comprehension",
+        "reading network",
+        "language network",
+        "neurolinguistic",
+        "aphasia",
+        "narrative comprehension",
+        "discourse comprehension"
+      ],
+      "required_term_groups": [
+        [
+          "language processing",
+          "speech perception",
+          "speech production",
+          "semantic processing",
+          "syntactic processing",
+          "sentence comprehension",
+          "reading network",
+          "language network",
+          "neurolinguistic",
+          "aphasia",
+          "narrative comprehension",
+          "discourse comprehension"
+        ],
+        [
+          "brain",
+          "neural",
+          "cortical",
+          "fmri",
+          "eeg",
+          "magnetoencephalograph",
+          "neuroimag"
+        ]
+      ],
+      "exclude_terms": [
+        "natural language processing"
+      ]
+    },
+    {
+      "id": "structure-function",
+      "name": "结构与功能",
+      "short_name": "结构与功能",
+      "description": "白质纤维束、脑结构连接及结构对功能的支持与约束；纯功能研究不纳入此类",
+      "query": "(TITLE_ABS:\"white matter\" OR TITLE_ABS:\"white-matter\" OR TITLE_ABS:\"tractography\" OR TITLE_ABS:\"fasciculus\" OR TITLE_ABS:\"structural connectivity\" OR TITLE_ABS:\"structural connectome\" OR TITLE_ABS:\"structure-function coupling\" OR TITLE_ABS:\"structural-functional coupling\" OR TITLE_ABS:\"structure function coupling\" OR TITLE_ABS:\"structure-function decoupling\" OR TITLE_ABS:\"structure-function relationship\" OR TITLE_ABS:\"structural constraints\" OR TITLE_ABS:\"cortical thickness\" OR TITLE_ABS:\"brain morphology\" OR TITLE_ABS:\"fixel-based\") AND (TITLE_ABS:\"brain\" OR TITLE_ABS:\"cerebral\" OR TITLE_ABS:\"cortical\" OR TITLE_ABS:\"neural\" OR TITLE_ABS:\"connectome\")",
+      "evidence_terms": [
+        "white matter",
+        "white-matter",
+        "tractography",
+        "fasciculus",
+        "structural connectivity",
+        "structural connectome",
+        "structure-function coupling",
+        "structural-functional coupling",
+        "structure function coupling",
+        "structure-function decoupling",
+        "structure-function relationship",
+        "structural constraints",
+        "cortical thickness",
+        "brain morphology",
+        "fixel-based"
+      ],
+      "required_term_groups": [
+        [
+          "white matter",
+          "white-matter",
+          "tractography",
+          "fasciculus",
+          "structural connectivity",
+          "structural connectome",
+          "structure-function coupling",
+          "structural-functional coupling",
+          "structure function coupling",
+          "structure-function decoupling",
+          "structure-function relationship",
+          "structural constraints",
+          "cortical thickness",
+          "brain morphology",
+          "fixel-based"
+        ],
+        [
+          "brain",
+          "cerebral",
+          "cortical",
+          "neural",
+          "connectome"
+        ]
+      ],
+      "exclude_terms": []
+    },
+    {
+      "id": "brain-disorders",
+      "name": "脑疾病机理",
+      "short_name": "脑疾病机理",
+      "description": "自闭症、抑郁与焦虑、认知障碍、ADHD、中风等精神与神经疾病的脑机制",
+      "query": "(TITLE_ABS:autis* OR TITLE_ABS:\"depression\" OR TITLE_ABS:\"major depressive\" OR TITLE_ABS:\"anxiety disorder\" OR TITLE_ABS:alzheimer* OR TITLE_ABS:\"dementia\" OR TITLE_ABS:\"adhd\" OR TITLE_ABS:\"attention deficit\" OR TITLE_ABS:\"attention-deficit\" OR TITLE_ABS:\"stroke\" OR TITLE_ABS:schizophren* OR TITLE_ABS:parkinson* OR TITLE_ABS:\"epilepsy\" OR TITLE_ABS:\"bipolar disorder\" OR TITLE_ABS:\"multiple sclerosis\" OR TITLE_ABS:\"traumatic brain injury\") AND (TITLE_ABS:\"brain\" OR TITLE_ABS:\"cerebral\" OR TITLE_ABS:\"cortical\" OR TITLE_ABS:\"neural\" OR TITLE_ABS:\"neuronal\" OR TITLE_ABS:hippocamp* OR TITLE_ABS:\"amygdala\") AND (TITLE_ABS:mechanism* OR TITLE_ABS:\"connectivity\" OR TITLE_ABS:circuit* OR TITLE_ABS:neuroimag* OR TITLE_ABS:pathophysiolog* OR TITLE_ABS:synap* OR TITLE_ABS:microglia* OR TITLE_ABS:\"fmri\" OR TITLE_ABS:\"eeg\" OR TITLE_ABS:\"white matter\" OR TITLE_ABS:\"cortical thickness\")",
+      "evidence_terms": [
+        "autis",
+        "depression",
+        "major depressive",
+        "anxiety disorder",
+        "alzheimer",
+        "dementia",
+        "adhd",
+        "attention deficit",
+        "attention-deficit",
+        "stroke",
+        "schizophren",
+        "parkinson",
+        "epilepsy",
+        "bipolar disorder",
+        "multiple sclerosis",
+        "traumatic brain injury"
+      ],
+      "required_term_groups": [
+        [
+          "autis",
+          "depression",
+          "major depressive",
+          "anxiety disorder",
+          "alzheimer",
+          "dementia",
+          "adhd",
+          "attention deficit",
+          "attention-deficit",
+          "stroke",
+          "schizophren",
+          "parkinson",
+          "epilepsy",
+          "bipolar disorder",
+          "multiple sclerosis",
+          "traumatic brain injury"
+        ],
+        [
+          "brain",
+          "cerebral",
+          "cortical",
+          "neural",
+          "neuronal",
+          "hippocamp",
+          "amygdala"
+        ],
+        [
+          "mechanism",
+          "connectivity",
+          "circuit",
+          "neuroimag",
+          "pathophysiolog",
+          "synap",
+          "microglia",
+          "fmri",
+          "eeg",
+          "white matter",
+          "cortical thickness"
+        ]
+      ],
+      "exclude_terms": []
+    },
+    {
+      "id": "rest-naturalistic",
+      "name": "静息态与自然刺激",
+      "short_name": "静息态与自然刺激",
+      "description": "静息态，以及电影、故事、自然语音与语篇理解中的脑活动",
+      "query": "(TITLE_ABS:\"resting state\" OR TITLE_ABS:\"resting-state\" OR TITLE_ABS:\"naturalistic\" OR TITLE_ABS:\"movie watching\" OR TITLE_ABS:\"movie-watching\" OR TITLE_ABS:\"film viewing\" OR TITLE_ABS:\"narrative comprehension\" OR TITLE_ABS:\"discourse comprehension\" OR TITLE_ABS:\"story listening\" OR TITLE_ABS:\"natural speech\") AND (TITLE_ABS:\"brain\" OR TITLE_ABS:\"neural\" OR TITLE_ABS:\"cortical\" OR TITLE_ABS:\"fmri\" OR TITLE_ABS:\"eeg\" OR TITLE_ABS:magnetoencephalograph* OR TITLE_ABS:neuroimag*)",
+      "evidence_terms": [
+        "resting state",
+        "resting-state",
+        "naturalistic",
+        "movie watching",
+        "movie-watching",
+        "film viewing",
+        "narrative comprehension",
+        "discourse comprehension",
+        "story listening",
+        "natural speech"
+      ],
+      "required_term_groups": [
+        [
+          "resting state",
+          "resting-state",
+          "naturalistic",
+          "movie watching",
+          "movie-watching",
+          "film viewing",
+          "narrative comprehension",
+          "discourse comprehension",
+          "story listening",
+          "natural speech"
+        ],
+        [
+          "brain",
+          "neural",
+          "cortical",
+          "fmri",
+          "eeg",
+          "magnetoencephalograph",
+          "neuroimag"
+        ]
+      ],
+      "exclude_terms": []
+    }
+  ]
+}

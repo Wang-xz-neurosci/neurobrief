@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173e35">
+  <meta name="description" content="追踪语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激四个方向。真实文献、原始摘要与可追溯来源。">
+  <title>NeuroBrief · 认知神经科学文献站</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="alternate" type="application/rss+xml" title="NeuroBrief 最新文献" href="./feed.xml">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到文献列表</a>
+<aside class="sidebar">
+  <a class="brand" href="./" aria-label="NeuroBrief 首页">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M8 29 12 10 28 8 33 24 21 32 12 10 33 24 8 29 28 8"/><circle cx="8" cy="29" r="3"/><circle cx="12" cy="10" r="3"/><circle cx="28" cy="8" r="3"/><circle cx="33" cy="24" r="3"/><circle cx="21" cy="32" r="3"/></svg>
+    <span>NeuroBrief<small>认知神经科学文献站</small></span>
+  </a>
+  <div class="sidebar-rule"></div>
+  <p class="nav-label">文献库 <span>LIBRARY</span></p>
+  <nav aria-label="文献分类" id="navigation">
+    <button class="nav-item active" data-view="all"><span class="nav-icon">▤</span><span>全部文献</span><span class="count" id="count-all">—</span></button>
+    <button class="nav-item" data-view="saved"><span class="nav-icon">◇</span><span>本机收藏</span><span class="count" id="count-saved">0</span></button>
+    <p class="nav-label topics-label">研究方向 <span>TOPICS</span></p>
+    <button class="nav-item topic-nav" data-view="language"><span class="topic-dot language"></span><span>语言与大脑</span><span class="count" id="count-language">—</span></button>
+    <button class="nav-item topic-nav" data-view="structure-function"><span class="topic-dot structure-function"></span><span>结构与功能</span><span class="count" id="count-structure-function">—</span></button>
+    <button class="nav-item topic-nav" data-view="brain-disorders"><span class="topic-dot brain-disorders"></span><span>脑疾病机理</span><span class="count" id="count-brain-disorders">—</span></button>
+    <button class="nav-item topic-nav" data-view="rest-naturalistic"><span class="topic-dot rest-naturalistic"></span><span>静息态与自然刺激</span><span class="count" id="count-rest-naturalistic">—</span></button>
+  </nav>
+  <div class="sidebar-bottom">
+    <div class="lab-note"><span class="small-orbit" aria-hidden="true">✳</span><p>语言 · 结构 · 疾病 · 自然刺激<br>为每一次组会，积累线索。</p></div>
+    <button id="about-button" class="about-button">数据来源与收录说明 <span>↗</span></button>
+    <span class="version">LAB EDITION <span>10 / 2026</span></span>
+  </div>
+</aside>
+
+<main id="main" class="main">
+  <header class="topbar"><span class="eyebrow">A READING SPACE FOR THE LAB</span><span id="as-of" class="top-date">正在载入文献</span></header>
+  <section class="intro" aria-labelledby="page-title">
+    <div><p class="kicker"><span></span> NEUROSCIENCE, IN FOCUS</p><h1 id="page-title">文献观察<span class="title-dot">.</span></h1><p id="page-description" class="intro-copy">从语言与连接，到疾病与自然情境。为组内阅读，持续积累研究线索。</p></div>
+    <div class="intro-mark" aria-hidden="true"><svg viewBox="0 0 180 120"><g fill="none" stroke="currentColor" stroke-width=".75"><ellipse cx="90" cy="60" rx="73" ry="35" transform="rotate(-25 90 60)"/><ellipse cx="90" cy="60" rx="73" ry="35" transform="rotate(25 90 60)"/><ellipse cx="90" cy="60" rx="73" ry="35" transform="rotate(65 90 60)"/><path d="M22 46 61 93 135 24 156 69 52 25 90 107"/></g><g fill="currentColor"><circle cx="22" cy="46" r="3"/><circle cx="61" cy="93" r="3"/><circle cx="135" cy="24" r="3"/><circle cx="156" cy="69" r="3"/><circle cx="52" cy="25" r="3"/><circle cx="90" cy="107" r="3"/></g></svg></div>
+  </section>
+
+  <section class="overview" aria-label="收录概览"><div><span class="stat-label">近 7 天发表</span><strong id="stat-week">—</strong><span class="stat-unit">篇</span></div><div><span class="stat-label">累计收录</span><strong id="stat-total">—</strong><span class="stat-unit">篇 · 已去重</span></div><div class="update-stat"><span class="stat-label">最近成功采集</span><strong id="stat-updated">—</strong><span class="stat-unit" id="update-mode">自动更新待启用</span></div></section>
+
+  <section class="filters" aria-label="文献筛选">
+    <div class="search-row"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜索标题、作者、DOI、关键词或纤维束…" aria-label="搜索文献" autocomplete="off"><kbd>/</kbd></label><button id="export-button" class="export-button" title="将当前筛选结果导出为 RIS，可导入 Zotero">导出 RIS <span>↗</span></button></div>
+    <div class="filter-row"><div class="periods" role="group" aria-label="发表时间"><button data-days="7">近 7 天</button><button data-days="30" class="selected">近 30 天</button><button data-days="90">近 90 天</button><button data-days="all">全部</button></div><div class="selects"><label><span class="sr-only">文献类型</span><select id="type"><option value="all">全部类型</option><option value="journal">期刊文章</option><option value="preprint">预印本</option><option value="review">综述</option></select></label><label><span class="sr-only">方法筛选</span><select id="method"><option value="all">全部方法</option><option>fMRI</option><option>dMRI / DTI</option><option>EEG</option><option>MEG</option><option>颅内电生理</option><option>纤维追踪</option><option>脑刺激</option></select></label><label><span class="sr-only">排序</span><select id="sort"><option value="published">发表时间 ↓</option><option value="added">本站收录 ↓</option></select></label></div></div>
+  </section>
+
+  <div id="notice" class="notice" hidden></div>
+  <section class="results-section" aria-label="文献列表"><div class="results-heading"><h2 id="list-title">最新文献 <span id="result-count">—</span></h2><span class="results-note">原始摘要 · <a id="topic-feed" href="./feed.xml">RSS 订阅 ↗</a></span></div><div id="papers" aria-live="polite" aria-busy="true"><div class="loading">正在读取文献库…</div></div><button id="load-more" class="load-more" hidden>继续阅读 <span>↓</span></button></section>
+  <footer><p>保持好奇，也保留判断。<span>关键词筛选尚未经组内校准，入选不代表质量评价。</span><span class="footer-links"><a href="./feed.xml">RSS 订阅</a> · <a href="https://github.com/Wang-xz-neurosci/neurobrief/actions" target="_blank" rel="noopener">更新记录 ↗</a></span></p><span>NEUROBRIEF / LAB EDITION</span></footer>
+</main>
+
+<dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">ABOUT THIS LIBRARY</span><button id="close-about" aria-label="关闭说明">×</button></div><h2 id="about-title">把来源与边界说清楚。</h2><p>第一版从 <a href="https://europepmc.org/RestfulWebService" target="_blank" rel="noopener">Europe PMC 官方接口 ↗</a> 获取 PubMed 记录和预印本，不代表所有期刊的完整覆盖。初次回溯 90 天，此后保留历史记录，并补查延迟收录的文献。</p><h3>筛选如何工作</h3><p>使用四个方向的英文检索式，按 DOI 或来源编号去重，并按标题与摘要重新归类。结构与功能类要求出现白质、纤维追踪、结构连接等结构证据；仅有功能连接不会进入此类。一篇文章可以属于多个方向；卡片中的命中词只解释检索依据，不代表文章质量或研究结论。方法标签来自标题与摘要的关键词，可能表示背景介绍。</p><p>第一版尚未自动关联 DOI 不同的预印本和正式发表版本，两者可能分别出现。</p><h3>摘要与日期</h3><p>展示来源提供的原始摘要，未使用 AI 生成中文结论，也未默认读取全文。“发表时间”为来源记录的首次发表日期；“本站收录”为首次被本程序采集的时间。缺少摘要时会如实标记。</p><h3>收藏与使用</h3><p>收藏仅保存在当前浏览器，不会与组员或其他设备同步。RIS 导出包含当前筛选结果，可导入 Zotero 等文献管理器。访问原文时，全文是否开放取决于出版方。</p><h3>更新状态</h3><p id="about-update">当前为实际采集的数据快照。每日自动更新程序已准备，待连接 GitHub 后启用。</p><p class="about-meta" id="about-meta"></p><a href="./data.json" target="_blank" rel="noopener" class="data-link">查看原始数据与完整检索式 ↗</a></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

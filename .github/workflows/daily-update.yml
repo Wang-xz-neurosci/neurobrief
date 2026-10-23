@@ -1,0 +1,69 @@
+name: Update papers and publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:17 Asia/Shanghai. GitHub schedules can run late.
+    - cron: '17 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - 'config/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/daily-update.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: neurobrief-update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test ingestion safeguards
+        run: python -m unittest discover -s tests -v
+      - name: Collect papers
+        run: python scripts/update_papers.py
+      - name: Build RSS subscriptions
+        run: python scripts/build_feeds.py
+      - name: Compress website data
+        run: python scripts/build_public_data.py
+      - name: Validate website and data
+        run: python scripts/check_site.py
+      - name: Preserve updated literature archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data.json dist/feed*.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Update literature archive"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
