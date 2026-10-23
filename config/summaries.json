@@ -1,8 +1,8 @@
 {
   "mode": "pilot",
   "model": "deepseek-flash",
-  "prompt_version": "zh-overview-v1",
-  "pilot_total_limit": 12,
+  "prompt_version": "zh-overview-v2",
+  "pilot_total_limit": 24,
   "pilot_ids": [
     "doi:10.1016/j.tins.2026.09.001",
     "doi:10.1016/j.neuroimage.2026.122292",
@@ -15,10 +15,22 @@
     "doi:10.1093/brain/awag359",
     "doi:10.64898/2026.10.21.760815",
     "doi:10.64898/2026.10.20.760497",
-    "doi:10.1016/j.neuroimage.2026.122304"
+    "doi:10.1016/j.neuroimage.2026.122304",
+    "doi:10.1162/imag.a.1388",
+    "doi:10.1016/j.neuropsychologia.2026.109604",
+    "doi:10.1523/jneurosci.0581-26.2026",
+    "doi:10.1162/imag.a.1385",
+    "doi:10.1126/sciadv.aee7989",
+    "doi:10.1073/pnas.2609630123",
+    "doi:10.1073/pnas.2617358123",
+    "doi:10.1016/j.biopsych.2026.09.021",
+    "doi:10.1016/j.neuroimage.2026.122278",
+    "doi:10.1016/j.neubiorev.2026.107056",
+    "doi:10.1523/jneurosci.0388-26.2026",
+    "doi:10.1523/jneurosci.1605-25.2026"
   ],
   "max_per_run": 12,
-  "max_output_tokens": 650,
+  "max_output_tokens": 550,
   "max_abstract_chars": 12000,
   "daily_budget_cny": 0.35,
   "annual_budget_cny": 150,
@@ -28,5 +40,12 @@
     "input_hit": 0.04,
     "output": 8
   },
-  "pricing_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+  "pricing_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "accepted_prompt_versions": [
+    "zh-overview-v1",
+    "zh-overview-v2"
+  ],
+  "min_summary_chars": 150,
+  "max_summary_chars": 200,
+  "max_length_retries": 2
 }

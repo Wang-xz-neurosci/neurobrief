@@ -10,6 +10,7 @@ root = Path(__file__).resolve().parents[1]
 for name in ["index.html", "styles.css", "app.js", "favicon.svg", "brain-mark.svg", "data.json"]:
     assert (root / "dist" / name).is_file(), f"Missing {name}"
 data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
+summary_settings = json.loads((root / "config" / "summaries.json").read_text(encoding="utf-8"))
 assert gzip.decompress((root / "dist" / "data.json.gz").read_bytes()) == (root / "dist" / "data.json").read_bytes(), "Compressed dataset differs from archive"
 assert data["schema_version"] == 1
 assert data["update_status"] == "success"
@@ -56,7 +57,9 @@ for p in data["papers"]:
         assert len(p["summary_zh"]) <= 420 and p.get("summary_meta", {}).get("source_hash")
         expected = updater.hashlib.sha256((p["title"] + "\n" + p["abstract"]).encode()).hexdigest()
         assert p["summary_meta"]["source_hash"] == expected, "Summary does not match the current abstract"
-assert sum(bool(p.get("summary_zh")) for p in data["papers"]) <= 12, "Pilot exceeded its limit"
+        if p["summary_meta"]["prompt_version"] == summary_settings["prompt_version"]:
+            assert summary_settings["min_summary_chars"] <= len(p["summary_zh"]) <= summary_settings["max_summary_chars"], "New summary exceeds the requested length"
+assert sum(bool(p.get("summary_zh")) for p in data["papers"]) <= summary_settings["pilot_total_limit"], "Pilot exceeded its limit"
 for path in [*root.joinpath("dist").glob("*"), *root.joinpath("config").glob("*.json"), *root.joinpath("data").glob("*.json")]:
     if path.is_file() and path.suffix != ".gz":
         assert not updater.re.search(r"sk-[a-zA-Z0-9]{24,}", path.read_text(encoding="utf-8")), "Credential-like text in public files"

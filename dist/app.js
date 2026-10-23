@@ -10,6 +10,7 @@
   const state = {
     view: allowedViews.includes(requestedView) ? requestedView : "all",
     days: ["7", "30", "90", "all"].includes(url.searchParams.get("days")) ? url.searchParams.get("days") : "30",
+    summaryVersion: ["zh-overview-v1", "zh-overview-v2", "all"].includes(url.searchParams.get("summary")) ? url.searchParams.get("summary") : "zh-overview-v2",
     q: url.searchParams.get("q") || "", type: "all", method: "all", journalScope: "all", sort: "published", limit: 15,
   };
   const today = new Intl.DateTimeFormat("en-CA", {timeZone:"Asia/Shanghai", year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
@@ -30,6 +31,7 @@
     const terms = state.q.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     return data.papers.filter(p =>
       (state.view === "all" || (state.view === "saved" ? saved.has(p.id) : state.view === "summary-preview" ? Boolean(p.summary_zh) : p.topics.includes(state.view))) &&
+      (state.view !== "summary-preview" || state.summaryVersion === "all" || p.summary_meta?.prompt_version === state.summaryVersion) &&
       withinDays(p, state.days) &&
       (state.type === "all" || (state.type === "preprint" ? p.is_preprint : state.type === "journal" ? !p.is_preprint : p.is_review)) &&
       (state.method === "all" || p.methods.includes(state.method)) &&
@@ -54,6 +56,7 @@
     for (const [key, value, defaultValue] of [["topic",state.view,"all"],["days",state.days,"30"],["q",state.q,""]]) {
       if (value === defaultValue) u.searchParams.delete(key); else u.searchParams.set(key,value);
     }
+    if (state.view === "summary-preview" && state.summaryVersion !== "zh-overview-v2") u.searchParams.set("summary",state.summaryVersion); else u.searchParams.delete("summary");
     try { history.replaceState(null,"",u); } catch { /* Some browsers restrict history on local HTML files. */ }
   }
   function render() {
@@ -64,7 +67,9 @@
     $("list-title").firstChild.textContent = state.view === "saved" ? "本机收藏 " : "最新文献 ";
     const current = topicMap[state.view];
     $("page-title").innerHTML = `${escape(current?.short_name || (state.view === 'saved' ? '我的阅读清单' : state.view === 'summary-preview' ? '中文总结试阅' : '文献观察'))}<span class="title-dot">.</span>`;
-    $("page-description").textContent = current?.description || (state.view === "summary-preview" ? "先读这 12 篇中文概览，展开原始摘要，看看总结是否合用。" : state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "不知道怎么做的时候，就来看文献了。");
+    $("page-description").textContent = current?.description || (state.view === "summary-preview" ? "本轮新增 12 篇精简概览，上轮 12 篇保留原样。可切换对比，展开原始摘要核对。" : state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "不知道该怎么做的时候，就来看文献吧。");
+    $("summary-batches").hidden = state.view !== "summary-preview";
+    document.querySelectorAll("[data-summary-version]").forEach(b => { const active = b.dataset.summaryVersion === state.summaryVersion; b.classList.toggle("selected",active); b.setAttribute("aria-pressed",active); });
     document.querySelectorAll("[data-view]").forEach(b => { const active = b.dataset.view === state.view; b.classList.toggle("active", active); b.setAttribute("aria-pressed", active); });
     document.querySelectorAll("[data-days]").forEach(b => { const active = b.dataset.days === state.days; b.classList.toggle("selected", active); b.setAttribute("aria-pressed", active); });
     $("count-saved").textContent = data.papers.filter(p=>saved.has(p.id)).length;
@@ -97,6 +102,7 @@
   }
   document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{state.view=b.dataset.view;if(state.view==="summary-preview"){state.days="all";state.q="";state.type="all";state.method="all";state.journalScope="all";$("search").value="";$("type").value="all";$("method").value="all";$("journal-scope").value="all";}state.limit=15;render();}));
   document.querySelectorAll("[data-days]").forEach(b=>b.addEventListener("click",()=>{state.days=b.dataset.days;state.limit=15;render();}));
+  document.querySelectorAll("[data-summary-version]").forEach(b=>b.addEventListener("click",()=>{state.summaryVersion=b.dataset.summaryVersion;state.limit=15;render();}));
   $("search").value=state.q;
   $("search").addEventListener("input",e=>{state.q=e.target.value;state.limit=15;render();});
   for (const key of ["type","method","sort"]) $(key).addEventListener("change",e=>{state[key]=e.target.value;state.limit=15;render();});
@@ -144,7 +150,6 @@
     $("stat-updated").title=`最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）`;
     $("update-mode").textContent=`本日收录文献 ${data.update_summary?.new_papers ?? 0} 篇`;
     $("update-mode").title="按北京时间统计该更新日首次进入本站的去重文献；包含延迟收录的文章，不等于当天发表数量。";
-    $("as-of").textContent=`检索截至 ${data.as_of.replaceAll('-',' / ')}`;
     $("about-meta").textContent=`首次回溯起点：${data.initial_coverage_start}。最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）。`;
     if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 08:17 自动采集并部署，电脑关机也会运行；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。"; }
     const age=(Date.now()-stamp.getTime())/86400000;

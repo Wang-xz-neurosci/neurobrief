@@ -64,7 +64,7 @@ jobs:
                    f"New today (Asia/Shanghai, deduplicated): {s['new_papers']}",
                    f"New this run: {s['new_in_run']}; total: {len(d['papers'])}",
                    f"Latest publication date: {s['latest_publication']}",
-                   f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / 12 pilot; no bulk backfill"]
+                   f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / {d.get('summary_status', {}).get('pilot_limit', 0)} pilot; no bulk backfill"]
           for t in d['topics']:
               lines.append(f"- {t['name']}: {sum(t['id'] in p['topics'] for p in d['papers'])}")
           for q in d['queries']:
