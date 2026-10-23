@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 研究脑疾病人群的认知与脑属性；优先原始人群研究</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 07:36:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:40:07 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -295,6 +295,16 @@ Background Auditory hallucination experiences are an understudied but clinically
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>The Importance of Translational Research for Neurodevelopmental Disorders and Autism Spectrum Disorders.</title>
+      <link>https://doi.org/10.1007/7854_2026_617</link>
+      <guid isPermaLink="false">doi:10.1007/7854_2026_617</guid>
+      <description>Current topics in behavioral neurosciences
+
+Translational research is the process of transforming fundamental biological discoveries into safe and efficacious interventions for patients. This specialized field is of particular importance for neurodevelopmental disorders (NDDs), a broad class of behaviorally defined conditions including autism spectrum disorder (ASD), attention deficit/hyperactivity disorder (ADHD), intellectual and developmental disabilities (IDDs), and related disorders. NDDs present unique translational challenges including (i) a lack of biological diagnostic markers; (ii) the fact that they are diagnosed exclusively by behavioral criteria; (iii) their involvement of dysfunction in complex brain circuitry; and (iv) that there is no single unifying biological mechanism. This chapter reviews the current landscape of translational neuroscience for NDDs, examining the strengths and limitations of preclinical model systems, including rodent models humanized mice, human induced pluripotent stem cells (iPSCs) 3D spheroids and brain organoids. This work emphasizes that research emanating from the varying preclinical experimental systems above should be leveraged and their complementary strengths integrated, coordinated, and considered collaboratively, to strengthen current knowledge, identify the remaining research gaps, and prioritize future research. We also emphasize the importance of rigorous, reproducible methodology and conservative interpretation of behavioral and functional outcomes. Discussion is presented on key translational bridges or connections that are urgently required to advance the field: bridging non-human model systems to humanized models, identifying and validating translational biomarkers, bridging in vitro and in vivo findings, and developing corroborative alternatives to animal models. It is our stance that integrating multiple complementary model systems, limiting erroneous behavioral inferences, relying on evolutionarily conserved circuits, and prioritizing robust and reproducible outcome measures will reduce failures in the translational pipeline and accelerate the development of meaningful therapies for individuals with NDDs.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>A Chronnectogram-ICA Framework for Tracking Continuously Evolving and Overlapping Functional Brain States</title>
       <link>https://doi.org/10.64898/2026.10.14.759150</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.14.759150</guid>
@@ -522,16 +532,6 @@ Summary Passive language mapping using high-gamma modulation (HGM) has emerged a
       <description>Transplantation proceedings
 
 Introduction Maternally inherited diabetes and deafness (MIDD) is a multisystem mitochondrial disorder most commonly caused by the m.3243A&gt;G pathogenic variant in the MT-TL1 gene. Kidney transplantation in affected individuals presents unique perioperative and immunosuppressive management challenges due to underlying metabolic, neurologic, cardiac, and neuromuscular vulnerability. Case report We report a 64-year-old woman with end-stage renal disease secondary to insulin-dependent diabetes and MIDD (m.3243A&gt;G) who underwent unrelated living donor kidney transplantation. The immediate postoperative period was complicated by diabetic ketoacidosis with lactic acidosis, transient slow graft function, and profound encephalopathy with catatonic features. Neuroimaging showed no acute abnormalities, and electroencephalography demonstrated severe diffuse encephalopathy without epileptiform activity. Tacrolimus levels were supratherapeutic in the early postoperative period. Given concern for calcineurin inhibitor neurotoxicity superimposed on mitochondrial dysfunction, tacrolimus was discontinued, and immunosuppression was switched to cyclosporine. Neurologic status gradually improved, and kidney allograft function fully normalized. Discussion This case highlights the substantial perioperative metabolic and neurologic risks associated with kidney transplantation in patients with MIDD. Patients with compensated cardiac dysfunction and manageable neuromuscular impairment should not be excluded from transplantation solely on the basis of mitochondrial cytopathy.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>A homozygous GABRA2 variant associated with infantile spasms evolving to Lennox-Gastaut syndrome alters receptor gating.</title>
-      <link>https://doi.org/10.1016/j.nbd.2026.107650</link>
-      <guid isPermaLink="false">doi:10.1016/j.nbd.2026.107650</guid>
-      <description>Neurobiology of disease
-
-Variants in GABAA receptor subunits are increasingly implicated in developmental and epileptic encephalopathies. Although GABRA2 variants have been associated with early-onset epilepsy, the functional consequences of individual variants, particularly those located outside canonical ligand-binding and transmembrane pore-forming regions, remain incompletely understood. We identified a homozygous GABRA2p.A407K variant in a patient with infantile epileptic spasms syndrome (IESS) evolving to Lennox-Gastaut syndrome (LGS). Functional effects were assessed using two-electrode voltage clamp in Xenopus laevis oocytes and whole-cell patch clamp recordings in HEK293T cells expressing α2 β3 γ2 GABAA receptors. A Gabra2p.A407K/A407K knock-in mouse model was generated to examine neuronal membrane properties, provoked seizure responses, and behavioral phenotypes. The p.A407K variant did not impair receptor trafficking but slowed receptor desensitization. In hippocampal slices from adult knock-in mice, CA1 pyramidal neurons exhibited a more depolarized resting membrane potential and were positioned closer to action potential threshold, while action potential threshold itself was unchanged. In a limited adult EEG cohort of Gabra2p.A407K/A407K mice, no spontaneous seizures or overt epileptiform activity were detected. However, mutant mice showed prolonged seizure duration following 6 Hz corneal stimulation. Behavioral analyses revealed increased locomotor activity and altered exploratory behavior. These findings show that a rare homozygous GABRA2 intracellular loop variant alters α2-containing GABAA receptor gating and produces measurable neuronal, behavioral, and provoked seizure-response effects in a knock-in mouse model. The model does not reproduce the full human developmental epileptic encephalopathy phenotype but supports the conclusion that p.A407K is functionally consequential and provides a platform for studying variant-specific effects of GABRA2 dysfunction.</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
     </item>
