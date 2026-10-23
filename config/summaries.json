@@ -1,0 +1,32 @@
+{
+  "mode": "pilot",
+  "model": "deepseek-flash",
+  "prompt_version": "zh-overview-v1",
+  "pilot_total_limit": 12,
+  "pilot_ids": [
+    "doi:10.1016/j.tins.2026.09.001",
+    "doi:10.1016/j.neuroimage.2026.122292",
+    "doi:10.1016/j.bandl.2026.105852",
+    "doi:10.1016/j.neuroimage.2026.122305",
+    "doi:10.1016/j.neuroimage.2026.122297",
+    "doi:10.1038/s41593-026-02461-3",
+    "doi:10.64898/2026.10.19.26365651",
+    "doi:10.4103/nrr.nrronline-d-26-00811",
+    "doi:10.1093/brain/awag359",
+    "doi:10.64898/2026.10.21.760815",
+    "doi:10.64898/2026.10.20.760497",
+    "doi:10.1016/j.neuroimage.2026.122304"
+  ],
+  "max_per_run": 12,
+  "max_output_tokens": 650,
+  "max_abstract_chars": 12000,
+  "daily_budget_cny": 0.35,
+  "annual_budget_cny": 150,
+  "pricing_verified": "2026-10-23",
+  "pricing_cny_per_million": {
+    "input_miss": 2,
+    "input_hit": 0.04,
+    "output": 8
+  },
+  "pricing_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+}

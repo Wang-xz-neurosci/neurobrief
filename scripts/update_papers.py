@@ -166,10 +166,13 @@ def request_json(params):
             time.sleep(2 ** (attempt + 1))
 
 
-def fetch_topic(topic, start, end, index_start, full_scan=True):
+def fetch_topic(topic, start, end, index_start, full_scan=False, publication_windows=None):
     dates = f"FIRST_PDATE:[{start} TO {end}]"
     if not full_scan:
-        dates += f" AND (FIRST_PDATE:[{index_start} TO {end}] OR FIRST_IDATE:[{index_start} TO {end}] OR UPDATE_DATE:[{index_start} TO {end}])"
+        windows = publication_windows or [(index_start, end)]
+        changed = [f"FIRST_PDATE:[{a} TO {b}]" for a, b in windows]
+        changed += [f"FIRST_IDATE:[{index_start} TO {end}]", f"UPDATE_DATE:[{index_start} TO {end}]"]
+        dates += " AND (" + " OR ".join(changed) + ")"
     query = f"({topic_query(topic)}) AND {dates} AND (SRC:MED OR SRC:PPR) sort_date:y"
     cursor, rows = "*", []
     total = None
@@ -188,6 +191,28 @@ def fetch_topic(topic, start, end, index_start, full_scan=True):
     else:
         raise RuntimeError(f"Pagination limit exceeded for {topic['id']}; old data preserved")
     return rows, {"topic": topic["id"], "query": query, "candidate_count": total, "request_url": API + "?" + urlencode({"query": query, "format": "json", "resultType": "core"})}
+
+
+def collection_plan(today, old, config):
+    """Daily changes + previous calendar week on Monday; no automatic backfill."""
+    start = config["coverage_start"]
+    stamp = old.get("updated_at")
+    last = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date() if stamp else today
+    overlap = config.get("update_policy", {}).get("daily_overlap_days", 1)
+    daily_start = max(start, (min(last, today) - dt.timedelta(days=overlap)).isoformat())
+    windows = [(daily_start, today.isoformat())]
+    monday = today - dt.timedelta(days=today.weekday())
+    previous_sunday = (monday - dt.timedelta(days=1)).isoformat()
+    reviewed = old.get("weekly_review_through")
+    # A missed Monday is recovered on the next successful run after an earlier
+    # weekly review. Installing this policy on Friday does not trigger backfill.
+    weekly_due = (today.weekday() == 0 or bool(reviewed and reviewed < previous_sunday)) and reviewed != previous_sunday
+    if weekly_due and previous_sunday >= start:
+        windows.append((max(start, (monday - dt.timedelta(days=7)).isoformat()), previous_sunday))
+        reviewed = previous_sunday
+    return {"mode": "daily-plus-previous-week" if len(windows) > 1 else "daily-incremental",
+            "change_start": daily_start, "publication_windows": windows,
+            "weekly_review_through": reviewed, "coverage_start": start}
 
 
 METHODS = [
@@ -299,10 +324,10 @@ def build_dataset(old, topic_results, config, today, now):
     # Reclassify the entire archive, not only newly retrieved rows. Retired tags
     # must never survive a taxonomy change, and old first_seen dates stay intact.
     classified = [classify(p, config["topics"]) for p in papers.values()]
-    journal_issns = {j["issn"] for j in config.get("monitored_journals", [])}
-    journal_names = {j["name"].lower() for j in config.get("monitored_journals", [])}
     for p in classified:
-        p["is_monitored_journal"] = bool(set(p.get("journal_issns", [])) & journal_issns) or p["journal"].lower() in journal_names
+        matches = [j for j in config.get("monitored_journals", []) if set(p.get("journal_issns", [])) & {j["issn"], *j.get("other_issns", [])} or p["journal"].casefold().rstrip(" .") in {j["name"].casefold(), *[x.casefold() for x in j.get("aliases", [])]}]
+        p["is_monitored_journal"] = bool(matches)
+        p["journal_groups"] = sorted({j.get("group", "cognitive") for j in matches})
     start = config.get("coverage_start") or (dt.date.fromisoformat(today) - dt.timedelta(days=config["lookback_days"] - 1)).isoformat()
     items = sorted((p for p in classified if p["topics"] and p.get("published") and start <= p["published"] <= today), key=lambda x: (x.get("published") or "", x["id"]), reverse=True)
     local_date = dt.datetime.fromisoformat(now.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
@@ -334,14 +359,11 @@ def main():
     config = json.loads((ROOT / "config" / "topics.json").read_text(encoding="utf-8"))
     old = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else {}
     start = config["coverage_start"]
-    same_rules = old.get("classification_fingerprint") == classification_fingerprint(config)
-    last_success = valid_date((old.get("updated_at") or "")[:10]) if same_rules else None
-    index_start = max(start, (dt.date.fromisoformat(last_success) - dt.timedelta(days=7)).isoformat()) if last_success else start
-    last_full = valid_date(old.get("last_full_scan")) if same_rules else None
-    full_scan = not last_full or (today - dt.date.fromisoformat(last_full)).days >= config.get("full_scan_every_days", 7)
+    plan = collection_plan(today, old, config)
+    index_start = plan["change_start"]
     results = []
     for topic in config["topics"]:
-        rows, report = fetch_topic(topic, start, today.isoformat(), index_start, full_scan)
+        rows, report = fetch_topic(topic, start, today.isoformat(), index_start, publication_windows=plan["publication_windows"])
         print(f"{topic['id']}: {len(rows)} candidates", flush=True)
         results.append((topic, rows, report))
         time.sleep(0.5)
@@ -350,16 +372,15 @@ def main():
     journals = config.get("monitored_journals", [])
     if journals:
         sweep = {"id": "journal-sweep", "evidence_terms": [], "query": "(" + " OR ".join(f'ISSN:"{j["issn"]}"' for j in journals) + ")"}
-        rows, report = fetch_topic(sweep, start, today.isoformat(), index_start, full_scan)
-        if full_scan and not rows:
-            raise RuntimeError("Journal sweep unexpectedly empty; check source query fields")
+        rows, report = fetch_topic(sweep, start, today.isoformat(), index_start, publication_windows=plan["publication_windows"])
         report["journals"] = [j["name"] for j in journals]
         results.append((sweep, rows, report))
         print(f"journal-sweep: {len(rows)} candidates", flush=True)
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     dataset = build_dataset(old, results, config, today.isoformat(), now)
-    dataset["last_full_scan"] = today.isoformat() if full_scan else last_full
-    dataset["scan_mode"] = "full" if full_scan else "incremental-with-overlap"
+    dataset["scan_mode"] = plan["mode"]
+    dataset["collection_plan"] = plan
+    dataset["weekly_review_through"] = plan["weekly_review_through"]
     for report in dataset["queries"]:
         if report["topic"] in {t["id"] for t in config["topics"]}:
             report["retained_topic_count"] = sum(report["topic"] in p["topics"] for p in dataset["papers"])

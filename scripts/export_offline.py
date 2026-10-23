@@ -1,5 +1,6 @@
 """Produce a self-contained, double-clickable HTML snapshot and clean source zip."""
 import argparse
+import base64
 import json
 import re
 from pathlib import Path
@@ -18,6 +19,9 @@ data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
 embedded = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 html = html.replace('<link rel="stylesheet" href="./styles.css">', '<style>' + css + '</style>')
 html = html.replace('<link rel="icon" href="./favicon.svg" type="image/svg+xml">', '<link rel="icon" href="data:,">')
+if (root / "dist" / "brain-mark.svg").exists():
+    brain = base64.b64encode((root / "dist" / "brain-mark.svg").read_bytes()).decode()
+    html = html.replace('src="./brain-mark.svg"', 'src="data:image/svg+xml;base64,' + brain + '"')
 html = html.replace('<script defer src="./app.js"></script>', '')
 html = html.replace('</body>', '<script type="application/json" id="snapshot-data">' + embedded + '</script><script>' + js.replace('</script', '<\\/script') + '</script></body>')
 offline = args.output / "NeuroBrief-离线文献站.html"
@@ -25,7 +29,7 @@ offline.write_text(html, encoding="utf-8")
 shutil.copyfile(root / "README.md", args.output / "NeuroBrief-使用与部署说明.md")
 archive = args.output / "NeuroBrief-网站源码.zip"
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
-    for rel in ["dist", "config", "scripts", "tests", ".github"]:
+    for rel in ["dist", "config", "scripts", "tests", "data", ".github"]:
         for p in (root / rel).rglob("*"):
             if p.is_file() and "__pycache__" not in p.parts and p.suffix not in (".pyc", ".tmp"):
                 z.write(p, p.relative_to(root))

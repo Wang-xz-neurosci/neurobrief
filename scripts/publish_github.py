@@ -59,7 +59,7 @@ def main():
         raise RuntimeError("Expected main branch")
     git("config", "user.name", account["login"])
     git("config", "user.email", f"{account['id']}+{account['login']}@users.noreply.github.com")
-    git("add", "dist", "config", "scripts", "tests", ".github", ".gitignore", "README.md")
+    git("add", "dist", "config", "scripts", "tests", "data", ".github", ".gitignore", "README.md")
     if git("diff", "--cached", "--name-only"):
         git("commit", "-m", "Prepare NeuroBrief public website")
     remote = api(f"repos/{repo}/git/ref/heads/main", allow404=True)

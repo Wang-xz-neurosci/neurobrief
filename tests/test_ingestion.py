@@ -190,5 +190,30 @@ class IngestionTests(unittest.TestCase):
         self.assertNotIn("brain-disorders", result["topics"])
 
 
+class CollectionPlanTests(unittest.TestCase):
+    def test_monday_reviews_only_previous_calendar_week(self):
+        config={"coverage_start":"2026-09-01"}
+        plan=m.collection_plan(m.dt.date(2026,10,26),{"updated_at":"2026-10-25T00:30:00Z"},config)
+        self.assertEqual(plan["publication_windows"],[("2026-10-24","2026-10-26"),("2026-10-19","2026-10-25")])
+        self.assertEqual(plan["weekly_review_through"],"2026-10-25")
+        self.assertNotIn(("2026-09-01","2026-10-26"),plan["publication_windows"])
+
+    def test_friday_rule_change_does_not_restart_september(self):
+        old={"updated_at":"2026-10-23T07:00:00Z","classification_fingerprint":"old-rules"}
+        plan=m.collection_plan(m.dt.date(2026,10,23),old,{"coverage_start":"2026-09-01"})
+        self.assertEqual(plan["mode"],"daily-incremental")
+        self.assertEqual(plan["publication_windows"],[("2026-10-22","2026-10-23")])
+
+    def test_same_monday_rerun_does_not_repeat_weekly_scan(self):
+        old={"updated_at":"2026-10-26T01:00:00Z","weekly_review_through":"2026-10-25"}
+        plan=m.collection_plan(m.dt.date(2026,10,26),old,{"coverage_start":"2026-09-01"})
+        self.assertEqual(len(plan["publication_windows"]),1)
+
+    def test_failed_monday_weekly_review_can_recover_tuesday(self):
+        old={"updated_at":"2026-10-25T01:00:00Z","weekly_review_through":"2026-10-18"}
+        plan=m.collection_plan(m.dt.date(2026,10,27),old,{"coverage_start":"2026-09-01"})
+        self.assertIn(("2026-10-19","2026-10-25"),plan["publication_windows"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -36,6 +36,21 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Collect papers
         run: python scripts/update_papers.py
+      - name: Generate or attach the capped Chinese-summary pilot
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/summarize_papers.py
+      - name: Checkpoint summary cache and spending ledger
+        if: always()
+        run: |
+          if [ ! -f data/summary_cache.json ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/summary_cache.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save Chinese summary cache"
+            git push
+          fi
       - name: Summarize collection
         run: |
           python - <<'PY'
@@ -45,10 +60,11 @@ jobs:
           s = d['update_summary']
           lines = ['## NeuroBrief daily collection',
                    f"Coverage: {d['initial_coverage_start']} to {d['as_of']}",
-                   f"Scan: {d['scan_mode']}; last full scan: {d['last_full_scan']}",
+                   f"Scan: {d['scan_mode']}; previous-week review through: {d.get('weekly_review_through')}",
                    f"New today (Asia/Shanghai, deduplicated): {s['new_papers']}",
                    f"New this run: {s['new_in_run']}; total: {len(d['papers'])}",
-                   f"Latest publication date: {s['latest_publication']}"]
+                   f"Latest publication date: {s['latest_publication']}",
+                   f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / 12 pilot; no bulk backfill"]
           for t in d['topics']:
               lines.append(f"- {t['name']}: {sum(t['id'] in p['topics'] for p in d['papers'])}")
           for q in d['queries']:

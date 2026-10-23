@@ -346,55 +346,246 @@
     }
   ],
   "coverage_start": "2026-09-01",
-  "full_scan_every_days": 7,
   "monitored_journals": [
     {
       "name": "Nature Communications",
-      "issn": "2041-1723"
+      "issn": "2041-1723",
+      "group": "cognitive"
     },
     {
       "name": "Nature Human Behaviour",
-      "issn": "2397-3374"
+      "issn": "2397-3374",
+      "group": "cognitive"
     },
     {
       "name": "Nature Neuroscience",
-      "issn": "1097-6256"
+      "issn": "1097-6256",
+      "group": "cognitive"
     },
     {
       "name": "Science Advances",
-      "issn": "2375-2548"
+      "issn": "2375-2548",
+      "group": "cognitive"
     },
     {
       "name": "Trends in Neurosciences",
-      "issn": "0166-2236"
+      "issn": "0166-2236",
+      "group": "cognitive"
     },
     {
       "name": "Trends in Cognitive Sciences",
-      "issn": "1364-6613"
+      "issn": "1364-6613",
+      "group": "cognitive"
     },
     {
       "name": "NeuroImage",
-      "issn": "1053-8119"
+      "issn": "1053-8119",
+      "group": "imaging"
     },
     {
       "name": "Cerebral Cortex",
-      "issn": "1047-3211"
+      "issn": "1047-3211",
+      "group": "imaging"
     },
     {
       "name": "Brain",
-      "issn": "0006-8950"
+      "issn": "0006-8950",
+      "group": "clinical",
+      "aliases": [
+        "Brain : a journal of neurology"
+      ]
     },
     {
       "name": "Human Brain Mapping",
-      "issn": "1065-9471"
+      "issn": "1065-9471",
+      "group": "imaging"
     },
     {
       "name": "The Journal of Neuroscience",
-      "issn": "0270-6474"
+      "issn": "0270-6474",
+      "group": "cognitive",
+      "aliases": [
+        "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+        "Journal of Neuroscience"
+      ]
     },
     {
       "name": "Brain and Language",
-      "issn": "0093-934X"
+      "issn": "0093-934X",
+      "group": "cognitive"
+    },
+    {
+      "name": "Neuroscience & Biobehavioral Reviews",
+      "issn": "0149-7634",
+      "group": "cognitive",
+      "aliases": [
+        "Neuroscience and biobehavioral reviews"
+      ],
+      "other_issns": [
+        "1873-7528"
+      ]
+    },
+    {
+      "name": "Nature Reviews Neuroscience",
+      "issn": "1471-003X",
+      "group": "cognitive",
+      "aliases": [
+        "Nature reviews. Neuroscience"
+      ],
+      "other_issns": [
+        "1471-0048"
+      ]
+    },
+    {
+      "name": "Nature",
+      "issn": "0028-0836",
+      "group": "cognitive",
+      "aliases": [
+        "Nature"
+      ],
+      "other_issns": [
+        "1476-4687"
+      ]
+    },
+    {
+      "name": "Science",
+      "issn": "0036-8075",
+      "group": "cognitive",
+      "aliases": [
+        "Science (New York, N.Y.)"
+      ],
+      "other_issns": [
+        "1095-9203"
+      ]
+    },
+    {
+      "name": "PNAS",
+      "issn": "0027-8424",
+      "group": "cognitive",
+      "aliases": [
+        "Proceedings of the National Academy of Sciences of the United States of America"
+      ],
+      "other_issns": [
+        "1091-6490"
+      ]
+    },
+    {
+      "name": "Current Biology",
+      "issn": "0960-9822",
+      "group": "cognitive",
+      "aliases": [
+        "Current biology : CB"
+      ],
+      "other_issns": [
+        "1879-0445"
+      ]
+    },
+    {
+      "name": "Journal of Cognitive Neuroscience",
+      "issn": "0898-929X",
+      "group": "cognitive",
+      "aliases": [
+        "Journal of cognitive neuroscience"
+      ],
+      "other_issns": [
+        "1530-8898"
+      ]
+    },
+    {
+      "name": "Neuropsychologia",
+      "issn": "0028-3932",
+      "group": "cognitive",
+      "aliases": [
+        "Neuropsychologia"
+      ],
+      "other_issns": [
+        "1873-3514"
+      ]
+    },
+    {
+      "name": "Network Neuroscience",
+      "issn": "2472-1751",
+      "group": "imaging",
+      "aliases": [
+        "Network neuroscience (Cambridge, Mass.)"
+      ],
+      "other_issns": []
+    },
+    {
+      "name": "Imaging Neuroscience",
+      "issn": "2837-6056",
+      "group": "imaging",
+      "aliases": [
+        "Imaging neuroscience (Cambridge, Mass.)"
+      ],
+      "other_issns": []
+    },
+    {
+      "name": "Biological Psychiatry",
+      "issn": "0006-3223",
+      "group": "clinical",
+      "aliases": [
+        "Biological psychiatry"
+      ],
+      "other_issns": [
+        "1873-2402"
+      ]
+    },
+    {
+      "name": "Molecular Psychiatry",
+      "issn": "1359-4184",
+      "group": "clinical",
+      "aliases": [
+        "Molecular psychiatry"
+      ],
+      "other_issns": [
+        "1476-5578"
+      ]
+    },
+    {
+      "name": "JAMA Psychiatry",
+      "issn": "2168-622X",
+      "group": "clinical",
+      "aliases": [
+        "JAMA psychiatry"
+      ],
+      "other_issns": [
+        "2168-6238"
+      ]
+    },
+    {
+      "name": "JAMA Neurology",
+      "issn": "2168-6149",
+      "group": "clinical",
+      "aliases": [
+        "JAMA neurology"
+      ],
+      "other_issns": [
+        "2168-6157"
+      ]
+    },
+    {
+      "name": "The Lancet Neurology",
+      "issn": "1474-4422",
+      "group": "clinical",
+      "aliases": [
+        "Lancet neurology",
+        "The Lancet. Neurology"
+      ],
+      "other_issns": [
+        "1474-4465"
+      ]
+    },
+    {
+      "name": "Brain Stimulation",
+      "issn": "1935-861X",
+      "group": "clinical",
+      "aliases": [
+        "Brain stimulation"
+      ],
+      "other_issns": [
+        "1876-4754"
+      ]
     }
   ],
   "coverage_sentinels": [
@@ -403,5 +594,11 @@
       "topic": "language",
       "title": "The dynamics of functional connectivity-based language lateralization across timescales."
     }
-  ]
+  ],
+  "update_policy": {
+    "daily_overlap_days": 1,
+    "weekly_review": "previous-calendar-week-on-Monday",
+    "automatic_full_backfill": false
+  },
+  "journal_selection_note": "关注期刊按四方向相关性与组内阅读价值维护，不以影响因子设硬门槛，也不表示文章质量认证；名单可查看、可调整。"
 }
