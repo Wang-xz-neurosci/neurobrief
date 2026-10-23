@@ -4,13 +4,12 @@
   const escape = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const safeUrl = (value) => { try { const u = new URL(value); return u.protocol === "https:" ? escape(u.href) : "#"; } catch { return "#"; } };
   const url = new URL(location.href);
-  const allowedViews = ["all", "saved", "summary-preview", "language", "structure-function", "brain-disorders", "rest-naturalistic"];
-  const legacyView = {"coupling":"structure-function", "white-matter":"structure-function"};
+  const allowedViews = ["all", "saved", "language", "structure-function", "brain-disorders", "rest-naturalistic"];
+  const legacyView = {"coupling":"structure-function", "white-matter":"structure-function", "summary-preview":"all"};
   const requestedView = legacyView[url.searchParams.get("topic")] || url.searchParams.get("topic");
   const state = {
     view: allowedViews.includes(requestedView) ? requestedView : "all",
     days: ["7", "30", "90", "all"].includes(url.searchParams.get("days")) ? url.searchParams.get("days") : "30",
-    summaryVersion: ["zh-overview-v1", "zh-overview-v2", "all"].includes(url.searchParams.get("summary")) ? url.searchParams.get("summary") : "zh-overview-v2",
     q: url.searchParams.get("q") || "", type: "all", method: "all", journalScope: "all", sort: "published", limit: 15,
   };
   const today = new Intl.DateTimeFormat("en-CA", {timeZone:"Asia/Shanghai", year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
@@ -30,8 +29,7 @@
   function filterPapers() {
     const terms = state.q.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     return data.papers.filter(p =>
-      (state.view === "all" || (state.view === "saved" ? saved.has(p.id) : state.view === "summary-preview" ? Boolean(p.summary_zh) : p.topics.includes(state.view))) &&
-      (state.view !== "summary-preview" || state.summaryVersion === "all" || p.summary_meta?.prompt_version === state.summaryVersion) &&
+      (state.view === "all" || (state.view === "saved" ? saved.has(p.id) : p.topics.includes(state.view))) &&
       withinDays(p, state.days) &&
       (state.type === "all" || (state.type === "preprint" ? p.is_preprint : state.type === "journal" ? !p.is_preprint : p.is_review)) &&
       (state.method === "all" || p.methods.includes(state.method)) &&
@@ -47,8 +45,8 @@
     const topicTags = p.topics.map(t => `<span class="tag ${escape(t)}">${escape(topicMap[t]?.short_name || t)}</span>`).join("");
     const methods = p.methods.slice(0,3).map(m => `<span class="tag method">${escape(m)}</span>`).join("");
     const matched = [...new Set(Object.values(p.evidence).flat())];
-    const abstract = p.abstract || "来源尚未提供摘要，请前往原文页面查看。";
-    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览 · 基于摘要</span><p>${escape(p.summary_zh)}</p></div>` : `<p class="abstract-preview">${escape(abstract)}</p>`;
+    const abstract = p.abstract || "来源尚未提供摘要，暂无法生成中文概览，请点击题目阅读原文。";
+    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览</span><p>${escape(p.summary_zh)}</p></div>` : `<p class="abstract-preview">${escape(abstract)}</p>`;
     return `<article class="paper"><div class="paper-date" aria-label="发表日期 ${escape(p.published || '未提供')}">${stamp}</div><div class="paper-body"><div class="paper-meta"><span class="journal">${escape(p.journal)}</span><span class="type-badge ${p.is_preprint ? 'preprint' : ''}">${p.is_preprint ? '预印本' : '期刊文章'}</span>${p.is_review ? '<span class="type-badge">综述</span>' : ''}</div><h3><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${escape(p.title)}</a></h3><div class="authors" title="${escape(p.authors)}">${escape(p.authors || '来源未提供作者')}</div>${overview}<div class="paper-tags">${topicTags}${methods}</div><details><summary>原始摘要与收录依据</summary><div class="detail-content"><p class="full-abstract">${escape(abstract)}</p><p class="evidence">检索命中：${escape(matched.join(' · ') || '匹配本方向检索式，详见原始数据')}。<br>方法标签按标题与摘要推断，优先使用方法部分，并非人工核实。本站首次收录：${escape(p.first_seen?.slice(0,10) || '—')}；来源收录：${escape(p.indexed || '未提供')}。</p>${p.tracts.length ? `<p class="evidence">相关纤维束：${escape(p.tracts.join(' · '))}</p>` : ''}<div class="detail-links"><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">前往原文 ↗</a><a href="${safeUrl(p.source_url)}" target="_blank" rel="noopener">Europe PMC 记录 ↗</a></div><p class="doi-line">${p.doi ? 'DOI: ' + escape(p.doi) : '来源编号: ' + escape(p.source + ':' + p.source_id)}</p></div></details></div><button class="bookmark" data-id="${escape(p.id)}" aria-pressed="${saved.has(p.id)}" aria-label="${saved.has(p.id) ? '取消收藏' : '收藏'}：${escape(p.title)}" title="${saved.has(p.id) ? '取消本机收藏' : '保存到本机收藏'}">${saved.has(p.id) ? '◆' : '◇'}</button></article>`;
   }
   function syncUrl() {
@@ -56,7 +54,7 @@
     for (const [key, value, defaultValue] of [["topic",state.view,"all"],["days",state.days,"30"],["q",state.q,""]]) {
       if (value === defaultValue) u.searchParams.delete(key); else u.searchParams.set(key,value);
     }
-    if (state.view === "summary-preview" && state.summaryVersion !== "zh-overview-v2") u.searchParams.set("summary",state.summaryVersion); else u.searchParams.delete("summary");
+    u.searchParams.delete("summary");
     try { history.replaceState(null,"",u); } catch { /* Some browsers restrict history on local HTML files. */ }
   }
   function render() {
@@ -66,10 +64,8 @@
     $("result-count").textContent = `${filtered.length} 篇`;
     $("list-title").firstChild.textContent = state.view === "saved" ? "本机收藏 " : "最新文献 ";
     const current = topicMap[state.view];
-    $("page-title").innerHTML = `${escape(current?.short_name || (state.view === 'saved' ? '我的阅读清单' : state.view === 'summary-preview' ? '中文总结试阅' : '文献观察'))}<span class="title-dot">.</span>`;
-    $("page-description").textContent = current?.description || (state.view === "summary-preview" ? "本轮新增 12 篇精简概览，上轮 12 篇保留原样。可切换对比，展开原始摘要核对。" : state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "不知道该怎么做的时候，就来看文献吧。");
-    $("summary-batches").hidden = state.view !== "summary-preview";
-    document.querySelectorAll("[data-summary-version]").forEach(b => { const active = b.dataset.summaryVersion === state.summaryVersion; b.classList.toggle("selected",active); b.setAttribute("aria-pressed",active); });
+    $("page-title").innerHTML = `${escape(current?.short_name || (state.view === 'saved' ? '我的阅读清单' : '文献观察'))}<span class="title-dot">.</span>`;
+    $("page-description").textContent = current?.description || (state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "不知道该怎么做？来看最新的前沿进展");
     document.querySelectorAll("[data-view]").forEach(b => { const active = b.dataset.view === state.view; b.classList.toggle("active", active); b.setAttribute("aria-pressed", active); });
     document.querySelectorAll("[data-days]").forEach(b => { const active = b.dataset.days === state.days; b.classList.toggle("selected", active); b.setAttribute("aria-pressed", active); });
     $("count-saved").textContent = data.papers.filter(p=>saved.has(p.id)).length;
@@ -100,9 +96,8 @@
     const blob = new Blob([records],{type:"application/x-research-info-systems;charset=utf-8"});
     const objectUrl = URL.createObjectURL(blob); const a = document.createElement("a"); a.href=objectUrl; a.download=`neurobrief-${today}-${filtered.length}.ris`; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(objectUrl),30000); toast(`已导出 ${filtered.length} 篇，可导入 Zotero`);
   }
-  document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{state.view=b.dataset.view;if(state.view==="summary-preview"){state.days="all";state.q="";state.type="all";state.method="all";state.journalScope="all";$("search").value="";$("type").value="all";$("method").value="all";$("journal-scope").value="all";}state.limit=15;render();}));
+  document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{state.view=b.dataset.view;state.limit=15;render();}));
   document.querySelectorAll("[data-days]").forEach(b=>b.addEventListener("click",()=>{state.days=b.dataset.days;state.limit=15;render();}));
-  document.querySelectorAll("[data-summary-version]").forEach(b=>b.addEventListener("click",()=>{state.summaryVersion=b.dataset.summaryVersion;state.limit=15;render();}));
   $("search").value=state.q;
   $("search").addEventListener("input",e=>{state.q=e.target.value;state.limit=15;render();});
   for (const key of ["type","method","sort"]) $(key).addEventListener("change",e=>{state[key]=e.target.value;state.limit=15;render();});
@@ -138,7 +133,6 @@
       dataLink.download='neurobrief-data.json';dataLink.textContent='下载当前文献数据 ↗';
       document.querySelector('.brand').href=location.pathname;
     }
-    $("count-summary-preview").textContent=data.papers.filter(p=>p.summary_zh).length;
     const journalGroups={cognitive:"综合与认知神经",imaging:"脑影像与连接",clinical:"临床神经与精神"};
     $("journal-guide-title").textContent=`关注期刊如何选择？查看 ${data.monitored_journals.length} 本名单`;
     $("journal-list").innerHTML=Object.entries(journalGroups).map(([id,label])=>`<div><h3>${label}</h3><p>${data.monitored_journals.filter(j=>j.group===id).map(j=>escape(j.name)).join(" · ")}</p></div>`).join("");

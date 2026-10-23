@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       retry_rejected:
-        description: 'Manually retry held pilot items; existing successful summaries are kept'
+        description: 'Manually retry held or failed summaries; valid cached summaries are kept'
         type: boolean
         default: false
   schedule:
@@ -44,16 +44,18 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Collect papers
         run: python scripts/update_papers.py
-      - name: Generate or attach the capped Chinese-summary pilot
+      - name: Generate or attach automatic Chinese overviews
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python scripts/summarize_papers.py ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
+        run: python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
       - name: Back up summary cache before committing
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: summary-cache-${{ github.run_id }}
-          path: data/summary_cache.json
+          path: |
+            data/summary_cache.json
+            .local/rejected-*.json
           retention-days: 3
           if-no-files-found: ignore
       - name: Checkpoint summary cache and spending ledger
@@ -81,7 +83,7 @@ jobs:
                    f"New today (Asia/Shanghai, deduplicated): {s['new_papers']}",
                    f"New this run: {s['new_in_run']}; total: {len(d['papers'])}",
                    f"Latest publication date: {s['latest_publication']}",
-                   f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / {d.get('summary_status', {}).get('pilot_limit', 0)} pilot; no bulk backfill"]
+                   f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / {d.get('summary_status', {}).get('eligible', 0)} available abstracts; no abstract: {d.get('summary_status', {}).get('no_abstract', 0)}"]
           for t in d['topics']:
               lines.append(f"- {t['name']}: {sum(t['id'] in p['topics'] for p in d['papers'])}")
           for q in d['queries']:

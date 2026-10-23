@@ -54,15 +54,17 @@ for p in data["papers"]:
     assert "<script" not in p["abstract"].lower()
     assert p["topics"] == updater.classify(p, config["topics"])["topics"], "Paper classification is out of date"
     if p.get("summary_zh"):
-        assert len(p["summary_zh"]) <= 420 and p.get("summary_meta", {}).get("source_hash")
+        assert p["summary_zh"].strip() and p.get("summary_meta", {}).get("source_hash")
         expected = updater.hashlib.sha256((p["title"] + "\n" + p["abstract"]).encode()).hexdigest()
         assert p["summary_meta"]["source_hash"] == expected, "Summary does not match the current abstract"
-        if p["summary_meta"]["prompt_version"] == summary_settings["prompt_version"]:
-            assert summary_settings["min_summary_chars"] <= len(p["summary_zh"]) <= summary_settings["max_summary_chars"], "New summary exceeds the requested length"
-assert sum(bool(p.get("summary_zh")) for p in data["papers"]) <= summary_settings["pilot_total_limit"], "Pilot exceeded its limit"
+        assert p["summary_meta"]["prompt_version"] in summary_settings["accepted_prompt_versions"]
+assert data["summary_status"]["mode"] == "automatic"
+assert data["summary_status"]["ready"] == sum(bool(p.get("summary_zh")) for p in data["papers"])
+assert data["summary_status"]["eligible"] == sum(bool(p.get("abstract", "").strip()) for p in data["papers"])
+assert data["summary_status"]["no_abstract"] + data["summary_status"]["eligible"] == len(data["papers"])
 for path in [*root.joinpath("dist").glob("*"), *root.joinpath("config").glob("*.json"), *root.joinpath("data").glob("*.json")]:
     if path.is_file() and path.suffix != ".gz":
         assert not updater.re.search(r"sk-[a-zA-Z0-9]{24,}", path.read_text(encoding="utf-8")), "Credential-like text in public files"
-print(f"Validated {len(data['papers'])} real literature records, Chinese pilot summaries and static assets.")
+print(f"Validated {len(data['papers'])} real literature records, automatic Chinese overviews and static assets.")
 for t in data["topics"]:
     print(f"{t['id']}: {sum(t['id'] in p['topics'] for p in data['papers'])}")

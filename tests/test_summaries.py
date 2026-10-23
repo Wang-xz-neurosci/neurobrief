@@ -1,141 +1,105 @@
-import importlib.util
-from pathlib import Path
-import unittest
 import copy
+import importlib.util
 import json
+from pathlib import Path
 import tempfile
+import unittest
 from unittest.mock import patch
 from urllib.error import URLError
 
-spec = importlib.util.spec_from_file_location('summaries', Path(__file__).resolve().parents[1]/'scripts/summarize_papers.py')
-m = importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
-TEMP_ROOT = Path(__file__).resolve().parents[1] / '.local'
-
+ROOT=Path(__file__).resolve().parents[1]
+spec=importlib.util.spec_from_file_location('summaries',ROOT/'scripts/summarize_papers.py')
+m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+TEMP_ROOT=ROOT/'.local'
 
 class SummaryTests(unittest.TestCase):
     @classmethod
-    def setUpClass(cls):
-        TEMP_ROOT.mkdir(exist_ok=True)
-
-    def test_cache_hash_changes_when_abstract_changes(self):
-        self.assertNotEqual(m.source_hash({'title':'A','abstract':'one'}),m.source_hash({'title':'A','abstract':'two'}))
-
-    def test_budget_uses_daily_and_annual_limits(self):
-        settings={'daily_budget_cny':.35,'annual_budget_cny':150}
-        cache={'ledger':[{'date':'2026-10-23','budget_charge_cny':.34}]}
+    def setUpClass(cls): TEMP_ROOT.mkdir(exist_ok=True)
+    def settings(self):
+        return dict(model='test-model',prompt_version='v3',accepted_prompt_versions=['v1','v2','v3'],mode='automatic',max_per_run=100,max_output_tokens=800,max_abstract_chars=12000,workers=1,max_run_seconds=30,max_content_repairs=1,daily_budget_cny=.35,annual_budget_cny=150,pricing_cny_per_million=dict(input_miss=2,input_hit=.04,output=8))
+    def paper(self,pid='new',abstract='A short abstract.'):
+        return dict(id=pid,title='Imaging study '+pid,abstract=abstract,published='2026-10-23',first_seen='2026-10-23T05:00:00Z')
+    def response(self,text='本研究关注语言加工的脑网络，结果显示不同任务情境下的网络联系会发生变化。'):
+        return dict(choices=[dict(finish_reason='stop',message=dict(content=json.dumps(dict(summary_zh=text))))],usage=dict(prompt_tokens=1000,completion_tokens=200))
+    def run_batch(self,papers,cache,responses,settings=None,day='2026-10-23'):
+        with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder,patch.object(m,'ROOT',Path(folder)):
+            with patch.object(m,'complete',side_effect=responses) as api:
+                m.generate_all(papers,cache,settings or self.settings(),'test-key',Path(folder)/'cache.json',day)
+                return api.call_count
+    def test_source_hash_changes(self):
+        self.assertNotEqual(m.source_hash(self.paper(abstract='one')),m.source_hash(self.paper(abstract='two')))
+    def test_word_counts_are_not_acceptance_gates(self):
+        for size in (20,90,149,150,200,201,320,600): self.assertEqual(m.validate_summary('文'*size,''),'文'*size)
+        for value in ('','  ','English only',None):
+            with self.assertRaises(ValueError):m.validate_summary(value,'')
+    def test_outside_target_never_causes_paid_retry(self):
+        cache=dict(entries={},ledger=[])
+        calls=self.run_batch([self.paper(str(n)) for n in range(3)],cache,[self.response('文'*n) for n in (90,250,600)])
+        self.assertEqual(calls,3);self.assertEqual(len(cache['ledger']),3)
+        self.assertEqual(sorted(len(e['summary_zh']) for e in cache['entries'].values()),[90,250,600])
+    def test_daily_and_annual_budget_limits(self):
+        settings=self.settings();cache=dict(ledger=[dict(date='2026-10-23',budget_charge_cny=.34)])
         self.assertFalse(m.within_budget(cache,'2026-10-23',.02,settings))
         self.assertTrue(m.within_budget(cache,'2026-10-24',.02,settings))
-        self.assertFalse(m.within_budget({'ledger':[{'date':'2026-01-01','budget_charge_cny':150}]},'2026-10-23',.01,settings))
-
-    def test_cached_input_is_billed_separately_from_output(self):
-        cost=m.usage_cost({'prompt_tokens':1000,'prompt_cache_hit_tokens':500,'completion_tokens':200},{'input_miss':2,'input_hit':.04,'output':8})
-        self.assertAlmostEqual(cost,.00262)
-
-    def test_stale_summary_is_not_attached(self):
-        p={'id':'a','title':'A','abstract':'new','summary_zh':'old'}
-        data={'papers':[p]}
-        m.attach(data,{'entries':{'a':{'status':'success','source_hash':'old'}}},{'prompt_version':'v1','mode':'pilot','pilot_total_limit':12})
+        self.assertFalse(m.within_budget(dict(ledger=[dict(date='2026-01-01',budget_charge_cny=150)]),'2026-10-23',.01,settings))
+    def test_backfill_separate_from_daily_but_inside_annual_budget(self):
+        settings=self.settings();settings['backfill']=dict(id='initial',through_date='2026-10-23',budget_cny=20)
+        cache=dict(ledger=[dict(date='2026-10-23',budget_charge_cny=.35),dict(date='2026-10-23',budget_charge_cny=19.9,budget_group='initial')])
+        self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings))
+        self.assertTrue(m.within_budget(cache,'2026-10-23',.05,settings,'initial'))
+        self.assertFalse(m.within_budget(cache,'2026-10-23',.11,settings,'initial'))
+        self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings,'unknown'))
+        self.assertEqual(m.budget_group(self.paper(),settings),'initial')
+        newer=self.paper();newer['first_seen']='2026-10-23T16:01:00Z';self.assertIsNone(m.budget_group(newer,settings))
+        settings['annual_budget_cny']=20;self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings,'initial'))
+    def test_cache_input_pricing(self):
+        self.assertAlmostEqual(m.usage_cost(dict(prompt_tokens=1000,prompt_cache_hit_tokens=500,completion_tokens=200),self.settings()['pricing_cny_per_million']),.00262)
+    def test_stale_summary_and_missing_abstract_have_distinct_counts(self):
+        p=self.paper();p['summary_zh']='stale';data=dict(papers=[p,self.paper('blank','')])
+        m.attach(data,dict(entries={'new':dict(status='success',source_hash='old')}),self.settings())
         self.assertNotIn('summary_zh',p)
-        self.assertEqual(data['summary_status']['ready'],0)
-
-    def test_hallucinated_number_is_rejected(self):
-        with self.assertRaisesRegex(ValueError,'unsupported number'):
-            m.validate_summary('本研究纳入999名参与者，使用功能磁共振分析语言加工。结果显示不同脑区之间存在功能联系，研究提示语言加工依赖分布式网络。上述结果来自摘要报告的相关性分析，仍需要更多研究验证。','10 participants with fMRI')
-
-    def test_spelled_out_sample_sizes_are_supported(self):
-        self.assertTrue({'17','97','7'} <= m.numeric_evidence('Seventeen patients and ninety-seven controls, in seven regions.'))
-        self.assertNotIn('3',m.numeric_evidence('one and two'))
-
-    def test_new_length_limits_reject_instead_of_truncating(self):
-        for size in (150, 200):
-            text = '文' * size
-            self.assertEqual(m.validate_summary(text, '', 150, 200), text)
-        for size in (149, 201):
-            with self.assertRaises(m.SummaryLengthError):
-                m.validate_summary('文' * size, '', 150, 200)
-
-    def test_legacy_summary_still_attaches_without_modification(self):
-        p = {'id':'old', 'title':'A', 'abstract':'B'}
-        entry = {'status':'success','summary_zh':'文'*318, 'source_hash':m.source_hash(p),
-                 'prompt_version':'v1','model':'prior-model','generated_at':'prior-time'}
-        cache = {'entries':{'old':entry}}
-        before = copy.deepcopy(cache)
-        m.attach({'papers':[p]}, cache, {'prompt_version':'v2','accepted_prompt_versions':['v1','v2'],
-                                      'mode':'pilot','pilot_total_limit':24})
-        self.assertEqual(p['summary_zh'], entry['summary_zh'])
-        self.assertEqual(p['summary_meta']['prompt_version'], 'v1')
-        self.assertEqual(cache, before)
-
-    def fixture(self):
-        return ({'id':'new','title':'An imaging study','abstract':'A research abstract.'},
-                {'entries':{},'ledger':[]},
-                {'model':'test-model','prompt_version':'v2','min_summary_chars':150,'max_summary_chars':200,
-                 'max_length_retries':2,'max_output_tokens':550,'daily_budget_cny':.35,'annual_budget_cny':150,
-                 'pricing_cny_per_million':{'input_miss':2,'input_hit':.04,'output':8}})
-
-    def response(self, text):
-        return {'choices':[{'finish_reason':'stop','message':{'content':json.dumps({'summary_zh':text})}}],
-                'usage':{'prompt_tokens':1000,'completion_tokens':200}}
-
-    def test_length_correction_is_bounded_and_every_call_is_charged(self):
-        p, cache, settings = self.fixture()
-        with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder, patch.object(m,'ROOT',Path(folder)):
-            path = Path(folder)/'cache.json'
-            with patch.object(m,'complete',side_effect=[self.response('文'*250),self.response('文'*180)]) as api:
-                self.assertEqual(m.generate_one(p,cache,settings,'test-key',path,'2026-10-23'),'success')
-                self.assertEqual(api.call_count,2)
-            self.assertEqual(len(cache['entries']['new']['summary_zh']),180)
-            self.assertEqual(len(cache['ledger']),2)
-            self.assertTrue(all(x['budget_charge_cny']>0 for x in cache['ledger']))
-            cache['entries'].clear();cache['ledger'].clear()
-            with patch.object(m,'complete',return_value=self.response('文'*250)) as api:
-                self.assertEqual(m.generate_one(p,cache,settings,'test-key',path,'2026-10-23'),'rejected')
-                self.assertEqual(api.call_count,3)
-            self.assertEqual(len(cache['ledger']),3)
-            self.assertNotIn('summary_zh',cache['entries']['new'])
-
-    def test_ambiguous_network_error_is_not_retried(self):
-        p, cache, settings = self.fixture()
+        self.assertEqual(data['summary_status']['pending'],1);self.assertEqual(data['summary_status']['no_abstract'],1)
+        self.assertEqual(data['summary_status']['eligible'],1)
+    def test_valid_old_success_and_metadata_are_not_rewritten(self):
+        p=self.paper();entry=dict(status='success',summary_zh='原'*318,source_hash=m.source_hash(p),prompt_version='v1',model='old',generated_at='then',review_status='reviewed')
+        cache=dict(entries={'new':entry},ledger=[]);before=copy.deepcopy(cache)
+        self.assertEqual(self.run_batch([p],cache,[]),0)
+        m.attach(dict(papers=[p]),cache,self.settings());self.assertEqual(p['summary_zh'],entry['summary_zh']);self.assertEqual(cache,before)
+    def test_changed_abstract_is_summarized_again(self):
+        p=self.paper();entry=dict(status='success',summary_zh='原',source_hash=m.source_hash(p),prompt_version='v1');p['abstract']='Updated abstract.'
+        cache=dict(entries={'new':entry},ledger=[]);self.assertEqual(self.run_batch([p],cache,[self.response()]),1)
+        self.assertEqual(cache['entries']['new']['source_hash'],m.source_hash(p))
+    def test_reserve_written_before_call(self):
+        cache=dict(entries={},ledger=[])
         with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder:
-            with patch.object(m,'complete',side_effect=URLError('connection lost')) as api:
-                self.assertEqual(m.generate_one(p,cache,settings,'test-key',Path(folder)/'cache.json','2026-10-23'),'stop')
-                self.assertEqual(api.call_count,1)
-        self.assertEqual(len(cache['ledger']),1)
+            path=Path(folder)/'cache.json'
+            def provider(*args):
+                saved=json.loads(path.read_text(encoding='utf-8'));self.assertEqual(saved['ledger'][0]['status'],'reserved');self.assertGreater(saved['ledger'][0]['budget_charge_cny'],0);return self.response()
+            with patch.object(m,'complete',side_effect=provider):m.generate_all([self.paper()],cache,self.settings(),'test-key',path,'2026-10-23')
+        self.assertEqual(cache['ledger'][0]['status'],'success')
+    def test_concurrent_reservations_cannot_overspend(self):
+        settings=self.settings();settings['workers']=2;settings['daily_budget_cny']=m.estimate_reservation(m.messages_for(self.paper('a')),settings)*1.5
+        cache=dict(entries={},ledger=[])
+        self.assertEqual(self.run_batch([self.paper('a'),self.paper('b')],cache,[self.response()],settings),1)
+        self.assertLessEqual(sum(e['budget_charge_cny'] for e in cache['ledger']),settings['daily_budget_cny'])
+    def test_uncertain_network_retains_reserve_no_immediate_retry(self):
+        cache=dict(entries={},ledger=[]);p=self.paper()
+        self.assertEqual(self.run_batch([p],cache,[URLError('connection lost')]),1)
         self.assertGreater(cache['ledger'][0]['budget_charge_cny'],0)
-
-    def test_short_return_gets_an_expansion_instruction(self):
-        p, cache, settings = self.fixture()
-        with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder:
-            with patch.object(m,'complete',side_effect=[self.response('文'*140),self.response('文'*175)]) as api:
-                self.assertEqual(m.generate_one(p,cache,settings,'test-key',Path(folder)/'cache.json','2026-10-23'),'success')
-                correction = api.call_args.args[0][-1]['content']
-                self.assertIn('当前过短',correction)
-                self.assertIn('增加约35个字符',correction)
-        self.assertEqual(len(cache['entries']['new']['summary_zh']),175)
-
-    def test_pilot_generation_skips_existing_success_and_keeps_its_metadata(self):
-        p, cache, settings = self.fixture()
-        old = {'id':'old','title':'Old study','abstract':'old abstract '*30}
-        p['abstract'] *= 20
-        entry = {'status':'success','summary_zh':'原'*318,'source_hash':m.source_hash(old),
-                 'prompt_version':'v1','model':'prior-model','generated_at':'prior-time','review_status':'reviewed'}
-        cache['entries']['old'] = entry
-        before = copy.deepcopy(entry)
-        settings.update(mode='pilot',accepted_prompt_versions=['v1','v2'],pilot_ids=['old','new'],
-                        pilot_total_limit=24,max_per_run=12,max_abstract_chars=12000)
-        with tempfile.TemporaryDirectory(dir=TEMP_ROOT) as folder, patch.object(m,'ROOT',Path(folder)):
-            root = Path(folder);(root/'config').mkdir()
-            m.atomic_json(root/'config/summaries.json',settings)
-            m.atomic_json(root/'data.json',{'papers':[old,p]})
-            m.atomic_json(root/'cache.json',cache)
-            with patch('sys.argv',['summarize','--data',str(root/'data.json'),'--cache',str(root/'cache.json')]), \
-                 patch.dict('os.environ',{'DEEPSEEK_API_KEY':'test-key'}), \
-                 patch.object(m,'complete',return_value=self.response('文'*180)) as api:
-                m.main()
-                self.assertEqual(api.call_count,1)
-            after = json.loads((root/'cache.json').read_text(encoding='utf-8'))
-            self.assertEqual(after['entries']['old'],before)
-            self.assertEqual(len(after['entries']),2)
-
+        self.assertEqual(self.run_batch([p],cache,[]),0)
+        self.assertEqual(self.run_batch([p],cache,[self.response()],day='2026-10-24'),1)
+    def test_missing_usage_keeps_reserve(self):
+        cache=dict(entries={},ledger=[]);response=self.response();response.pop('usage')
+        self.run_batch([self.paper()],cache,[response]);self.assertGreater(cache['ledger'][0]['budget_charge_cny'],.01)
+    def test_content_error_is_repaired_once(self):
+        with self.assertRaisesRegex(ValueError,'unsupported number'):m.validate_summary('本研究纳入999名参与者。','10 participants')
+        cache=dict(entries={},ledger=[])
+        self.assertEqual(self.run_batch([self.paper()],cache,[self.response('本研究纳入999名参与者。'),self.response()]),2)
+        self.assertEqual(cache['entries']['new']['status'],'success');self.assertEqual([e['content_repair'] for e in cache['ledger']],[0,1])
+    def test_spelled_out_numbers(self):
+        self.assertTrue({'17','97','7'}<=m.numeric_evidence('Seventeen patients and ninety-seven controls, in seven regions.'))
+        self.assertNotIn('3',m.numeric_evidence('one and two'))
+    def test_no_abstract_means_no_provider_call(self):
+        self.assertEqual(self.run_batch([self.paper(abstract='')],dict(entries={},ledger=[]),[]),0)
 
 if __name__=='__main__':unittest.main()
