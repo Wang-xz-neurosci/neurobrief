@@ -31,6 +31,7 @@ SYSTEM_PROMPT = """你是认知神经科学文献编辑，只根据用户提供�
 
 
 USER_INSTRUCTION = "写一段简短、自然的中文概览，重点讲最主要的结果。对象和核心方法合并为简短一句，不写样本量、年龄范围、具体数值，不罗列方法参数或多个次要发现。通常150至200字左右即可，可以略长或略短。以下是唯一事实来源：\n"
+CONTENT_CORRECTION = "上一版未通过内容或格式检查。请只根据原始题目和摘要重新概括，省略所有非必要的阿拉伯数字，不添加摘要以外的信息，只返回合法json。字数是大致目标，不需凑字或压缩。"
 
 
 def atomic_json(path, data):
@@ -219,7 +220,13 @@ def generate_all(papers, cache, settings, key, cache_path, day, retry_rejected=F
     candidates.sort(key=lambda p: (p.get("published", ""), p["id"]), reverse=True)
     candidates = candidates[:settings["max_per_run"]]
     deadline = time.monotonic() + settings.get("max_run_seconds", 660)
-    queue = [(p, messages_for(p), 0) for p in candidates]
+    queue = []
+    for p in candidates:
+        messages = messages_for(p)
+        entry = cache["entries"].get(p["id"], {})
+        if entry.get("reason") and entry.get("source_hash") == source_hash(p):
+            messages.append({"role": "user", "content": CONTENT_CORRECTION})
+        queue.append((p, messages, 0))
     active, cursor, completed, successes = {}, 0, 0, 0
     stopped = False
     blocked_groups = set()
@@ -267,8 +274,7 @@ def generate_all(papers, cache, settings, key, cache_path, day, retry_rejected=F
                                 {"paper_id": p["id"], "reason": reason, "candidate": candidate})
                     # Correct content/format failures once, never character counts.
                     if repair < settings.get("max_content_repairs", 1):
-                        correction = "上一版未通过内容或格式检查。请只根据原始题目和摘要重新概括，省略所有非必要的阿拉伯数字，不添加摘要以外的信息，只返回合法json。字数是大致目标，不需凑字或压缩。"
-                        queue.append((p, messages_for(p) + [{"role": "user", "content": correction}], repair + 1))
+                        queue.append((p, messages_for(p) + [{"role": "user", "content": CONTENT_CORRECTION}], repair + 1))
                     else:
                         print("Overview held for content review: " + p["id"], flush=True)
                 except Exception as exc:

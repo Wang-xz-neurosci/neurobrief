@@ -101,5 +101,12 @@ class SummaryTests(unittest.TestCase):
         self.assertNotIn('3',m.numeric_evidence('one and two'))
     def test_no_abstract_means_no_provider_call(self):
         self.assertEqual(self.run_batch([self.paper(abstract='')],dict(entries={},ledger=[]),[]),0)
+    def test_resumed_content_review_includes_corrective_context(self):
+        p=self.paper();cache=dict(entries={'new':dict(status='pending',source_hash=m.source_hash(p),prompt_version='v3',reason='Summary introduced an unsupported number')},ledger=[])
+        def provider(messages,*args):
+            self.assertEqual(messages[-1]['content'],m.CONTENT_CORRECTION)
+            return self.response()
+        self.assertEqual(self.run_batch([p],cache,provider),1)
+        self.assertEqual(cache['entries']['new']['status'],'success')
 
 if __name__=='__main__':unittest.main()

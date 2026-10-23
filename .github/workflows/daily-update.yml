@@ -58,6 +58,7 @@ jobs:
             .local/rejected-*.json
           retention-days: 3
           if-no-files-found: ignore
+          include-hidden-files: true
       - name: Checkpoint summary cache and spending ledger
         if: always()
         run: |
