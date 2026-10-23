@@ -36,6 +36,26 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Collect papers
         run: python scripts/update_papers.py
+      - name: Summarize collection
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          d = json.loads(Path('dist/data.json').read_text())
+          s = d['update_summary']
+          lines = ['## NeuroBrief daily collection',
+                   f"Coverage: {d['initial_coverage_start']} to {d['as_of']}",
+                   f"Scan: {d['scan_mode']}; last full scan: {d['last_full_scan']}",
+                   f"New today (Asia/Shanghai, deduplicated): {s['new_papers']}",
+                   f"New this run: {s['new_in_run']}; total: {len(d['papers'])}",
+                   f"Latest publication date: {s['latest_publication']}"]
+          for t in d['topics']:
+              lines.append(f"- {t['name']}: {sum(t['id'] in p['topics'] for p in d['papers'])}")
+          for q in d['queries']:
+              lines.append(f"- {q['topic']} fetched {q['candidate_count']} candidates")
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('\n\n'.join(lines) + '\n')
+          PY
       - name: Build RSS subscriptions
         run: python scripts/build_feeds.py
       - name: Compress website data

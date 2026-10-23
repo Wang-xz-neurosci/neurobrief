@@ -22,6 +22,14 @@ spec = importlib.util.spec_from_file_location("updater", root / "scripts" / "upd
 updater = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(updater)
 assert data.get("classification_fingerprint") == updater.classification_fingerprint(config), "Run collection after changing topic rules"
+assert data["initial_coverage_start"] == config["coverage_start"]
+assert len(data["queries"]) == len(config["topics"]) + 1, "Missing journal safety sweep"
+assert data["queries"][-1]["topic"] == "journal-sweep"
+assert data["queries"][-1]["candidate_count"] > 0 or data["scan_mode"] != "full", "Empty journal sweep"
+for sentinel in config.get("coverage_sentinels", []):
+    assert any(p["doi"] == sentinel["doi"] and sentinel["topic"] in p["topics"] for p in data["papers"]), "Known coverage example is missing"
+seen_day = lambda p: updater.dt.datetime.fromisoformat(p["first_seen"].replace("Z", "+00:00")).astimezone(updater.dt.timezone(updater.dt.timedelta(hours=8))).date().isoformat()
+assert data["update_summary"]["new_papers"] == sum(seen_day(p) == data["update_summary"]["date"] for p in data["papers"])
 html = (root / "dist" / "index.html").read_text(encoding="utf-8")
 for topic_id in topic_ids:
     assert f'data-view="{topic_id}"' in html, f"Missing topic navigation: {topic_id}"
@@ -33,6 +41,12 @@ for p in data["papers"]:
     assert p["title"] and p["first_seen"]
     assert set(p["topics"]) <= topic_ids and p["topics"]
     assert not p["published"] or p["published"] <= data["as_of"]
+    assert p["published"] and p["published"] >= config["coverage_start"]
+    assert p["methods"] and set(p["methods"]) <= {"fMRI", "DTI", "EEG", "MEG", "颅内电生理", "其他"}
+    assert p["methods"] == updater.detect_methods(updater.method_text(p)), "Stale method labels"
+    assert "其他" not in p["methods"] or p["methods"] == ["其他"]
+    if "brain-disorders" in p["topics"]:
+        assert updater.clinical_imaging_study(p), "Clinical imaging gate bypassed"
     assert urlparse(p["url"]).scheme == "https"
     assert urlparse(p["source_url"]).netloc == "europepmc.org"
     assert "<script" not in p["abstract"].lower()

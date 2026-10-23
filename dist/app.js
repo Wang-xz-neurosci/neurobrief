@@ -10,7 +10,7 @@
   const state = {
     view: allowedViews.includes(requestedView) ? requestedView : "all",
     days: ["7", "30", "90", "all"].includes(url.searchParams.get("days")) ? url.searchParams.get("days") : "30",
-    q: url.searchParams.get("q") || "", type: "all", method: "all", sort: "published", limit: 15,
+    q: url.searchParams.get("q") || "", type: "all", method: "all", journalScope: "all", sort: "published", limit: 15,
   };
   const today = new Intl.DateTimeFormat("en-CA", {timeZone:"Asia/Shanghai", year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
   let data, filtered = [], saved = new Set(), toastTimer;
@@ -33,6 +33,7 @@
       withinDays(p, state.days) &&
       (state.type === "all" || (state.type === "preprint" ? p.is_preprint : state.type === "journal" ? !p.is_preprint : p.is_review)) &&
       (state.method === "all" || p.methods.includes(state.method)) &&
+      (state.journalScope === "all" || p.is_monitored_journal) &&
       (!terms.length || terms.every(term => searchable(p).includes(term)))
     ).sort((a,b) => {
       const key = state.sort === "added" ? "first_seen" : "published";
@@ -64,7 +65,7 @@
     $("topic-feed").href = current ? `./feed-${current.id}.xml` : "./feed.xml";
     $("topic-feed").textContent = current ? "订阅本方向 ↗" : "RSS 订阅 ↗";
     $("page-title").innerHTML = `${escape(current?.short_name || (state.view === 'saved' ? '我的阅读清单' : '文献观察'))}<span class="title-dot">.</span>`;
-    $("page-description").textContent = current?.description || (state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "从语言与连接，到疾病与自然情境。为组内阅读，持续积累研究线索。");
+    $("page-description").textContent = current?.description || (state.view === "saved" ? "留住值得再读的研究。收藏仅保存在当前浏览器。" : "迷茫的时候就来读文献吧。");
     document.querySelectorAll("[data-view]").forEach(b => { const active = b.dataset.view === state.view; b.classList.toggle("active", active); b.setAttribute("aria-pressed", active); });
     document.querySelectorAll("[data-days]").forEach(b => { const active = b.dataset.days === state.days; b.classList.toggle("selected", active); b.setAttribute("aria-pressed", active); });
     $("count-saved").textContent = data.papers.filter(p=>saved.has(p.id)).length;
@@ -74,7 +75,7 @@
     } else {
       const emptySaved = state.view === "saved" && !data.papers.some(p=>saved.has(p.id));
       $("papers").innerHTML = `<div class="empty"><strong>${emptySaved ? '给下一次阅读留个位置。' : '暂时没有匹配的文献。'}</strong><p>${emptySaved ? '点击论文右侧的 ◇，把它加入当前浏览器的收藏。' : '可以扩大时间范围，或减少关键词和方法筛选。'}</p><button id="reset-filters">${emptySaved ? '浏览全部文献' : '清除筛选'}</button></div>`;
-      $("reset-filters").addEventListener("click", () => { if (emptySaved) state.view = "all"; state.days = "all"; state.q = ""; state.type = "all"; state.method = "all"; state.limit = 15; $("search").value = ""; $("type").value = "all"; $("method").value = "all"; render(); });
+      $("reset-filters").addEventListener("click", () => { if (emptySaved) state.view = "all"; state.days = "all"; state.q = ""; state.type = "all"; state.method = "all"; state.journalScope = "all"; state.limit = 15; $("search").value = ""; $("type").value = "all"; $("method").value = "all"; $("journal-scope").value = "all"; render(); });
     }
     $("load-more").hidden = filtered.length <= state.limit;
     $("load-more").innerHTML = `继续阅读 · 还有 ${Math.max(0,filtered.length-state.limit)} 篇 <span>↓</span>`;
@@ -100,6 +101,7 @@
   $("search").value=state.q;
   $("search").addEventListener("input",e=>{state.q=e.target.value;state.limit=15;render();});
   for (const key of ["type","method","sort"]) $(key).addEventListener("change",e=>{state[key]=e.target.value;state.limit=15;render();});
+  $("journal-scope").addEventListener("change",e=>{state.journalScope=e.target.value;state.limit=15;render();});
   $("papers").addEventListener("click",e=>{const b=e.target.closest(".bookmark");if(b)saveBookmark(b);});
   $("load-more").addEventListener("click",()=>{state.limit+=15;render();});
   $("export-button").addEventListener("click",exportRis);
@@ -125,8 +127,7 @@
     if(d.schema_version!==1||!Array.isArray(d.papers))throw new Error("Invalid dataset");
     data=d;data.topics.forEach(t=>topicMap[t.id]=t);
     if (embedded) {
-      $("update-mode").textContent="离线数据快照";
-      $("about-update").textContent="这是可直接打开的离线快照，不会自行更新。联网网站与每日采集程序在源码包中，待连接 GitHub 后启用。";
+      $("about-update").textContent="这是可直接打开的离线快照，不会自行更新。请打开在线网站查看每日更新。";
       const dataLink=document.querySelector('.data-link');
       dataLink.href=URL.createObjectURL(new Blob([embedded.textContent],{type:'application/json'}));
       dataLink.download='neurobrief-data.json';dataLink.textContent='下载当前文献数据 ↗';
@@ -136,10 +137,13 @@
     $("stat-week").textContent=data.papers.filter(p=>withinDays(p,"7")).length;
     for(const t of data.topics)$("count-"+t.id).textContent=data.papers.filter(p=>p.topics.includes(t.id)).length;
     const stamp=new Date(data.updated_at);
-    $("stat-updated").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).format(stamp);
-    $("as-of").textContent=`数据截至 ${data.as_of.replaceAll('-',' / ')}`;
+    $("stat-updated").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit"}).format(stamp)+" 已更新";
+    $("stat-updated").title=`最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）`;
+    $("update-mode").textContent=`本日收录文献 ${data.update_summary?.new_papers ?? 0} 篇`;
+    $("update-mode").title="按北京时间统计该更新日首次进入本站的去重文献；包含延迟收录的文章，不等于当天发表数量。";
+    $("as-of").textContent=`检索截至 ${data.as_of.replaceAll('-',' / ')}`;
     $("about-meta").textContent=`首次回溯起点：${data.initial_coverage_start}。最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）。`;
-    if(data.update_mode==="github-actions"){ $("update-mode").textContent="由 GitHub 任务更新";$("about-update").textContent="此数据由 GitHub Actions 更新。定时任务可能延迟；以页面的最近成功采集时间为准。"; }
+    if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 08:17 自动采集并部署，电脑关机也会运行；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。"; }
     const age=(Date.now()-stamp.getTime())/86400000;
     if(age>2){$("notice").hidden=false;$("notice").textContent=`文献库已超过 ${Math.floor(age)} 天未成功更新。当前显示已保存的数据，请检查更新任务。`;}
     render();
