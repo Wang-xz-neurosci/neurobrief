@@ -108,7 +108,7 @@ def main():
     if remote and remote["object"]["sha"] not in git("rev-list", "HEAD").splitlines():
         raise RuntimeError("Remote has new or unrelated history; inspect and synchronize before publishing")
     pending = git("rev-list", "--reverse", "HEAD" if not remote else remote["object"]["sha"] + "..HEAD").splitlines()
-    uploaded = set()
+    uploaded = {line.split()[2] for line in git("ls-tree", "-r", remote["object"]["sha"]).splitlines()} if remote else set()
     for commit in pending:
         entries = []
         for line in git("ls-tree", "-r", commit).splitlines():
@@ -149,8 +149,10 @@ def main():
     print("Published main: https://github.com/" + repo, flush=True)
     pages = api(f"repos/{repo}/pages", allow404=True)
     api(f"repos/{repo}/pages", "POST" if pages is None else "PUT", {"build_type": "workflow"})
-    # REST ref updates may race Pages setup; request a known workflow explicitly.
-    api(f"repos/{repo}/actions/workflows/daily-update.yml/dispatches", "POST", {"ref": "main"})
+    # An OAuth-authenticated ref update triggers the push workflow. Dispatch only
+    # when no source changed, avoiding a duplicate full collection on each publish.
+    if not pending:
+        api(f"repos/{repo}/actions/workflows/daily-update.yml/dispatches", "POST", {"ref": "main"})
     print("Pages configured; deployment requested.", flush=True)
 
 

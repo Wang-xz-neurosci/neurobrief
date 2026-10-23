@@ -18,6 +18,7 @@ https://wang-xz-neurosci.github.io/neurobrief/
 - 初次回溯 90 天，此后保留历史；补查最近收录的记录，减少来源收录延迟造成的漏检。
 - 四方向筛选、标题／作者／DOI／原始摘要搜索、日期／方法／文献类型筛选。
 - DOI／来源编号去重，预印本与综述标记，本机收藏，RIS 导出到 Zotero。
+- 网站优先读取压缩文献数据，原始 JSON 保留供核对。
 - 总 RSS `feed.xml` 和四个分方向 RSS，每份提供最近 50 篇。
 - GitHub Actions 每天北京时间 08:17 更新数据并发布到 GitHub Pages。
 - 任何方向抓取失败或分页不完整时，保留上一次成功数据；页面显示最近成功时间，超过两天未更新会提醒。
@@ -36,7 +37,7 @@ https://wang-xz-neurosci.github.io/neurobrief/
 powershell -ExecutionPolicy Bypass -File scripts/publish_github.ps1
 ```
 
-脚本会核对登录账号、初始化当前目录的 Git 仓库、创建或检查指定公开仓库、开启 Pages、推送 main。遇到已存在且不属于本项目的远端历史会停止，不强制覆盖。初次发布可能需要几分钟。
+脚本会核对登录账号、初始化当前目录的 Git 仓库、创建或检查指定公开仓库，通过 GitHub 官方 REST 接口上传并核对文件哈希、开启 Pages、发布 main。遇到已存在且不属于本项目的远端历史会停止，不强制覆盖。初次发布可能需要几分钟。
 
 仓库和网页均公开。账号登录和发布不要求在聊天里提供密码或令牌。
 
@@ -48,6 +49,7 @@ powershell -ExecutionPolicy Bypass -File scripts/publish_github.ps1
 python -m unittest discover -s tests -v
 python scripts/update_papers.py
 python scripts/build_feeds.py
+python scripts/build_public_data.py
 python scripts/check_site.py
 node --check dist/app.js
 python -m http.server 8765 --bind 127.0.0.1 --directory dist
@@ -78,3 +80,4 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 - https://europepmc.org/RestfulWebService
 - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 - https://docs.github.com/en/billing/concepts/product-billing/github-actions
+
