@@ -15,6 +15,10 @@ m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 
 
 class ApiCourtesyTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        (ROOT/'.local').mkdir(exist_ok=True)
+
     def error(self,code,retry=None):
         headers=Message()
         if retry is not None:headers['Retry-After']=str(retry)
