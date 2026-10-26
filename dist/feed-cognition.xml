@@ -114,16 +114,6 @@ How does the human brain represent the meaning of abstract symbols? Some theorie
       <category>其他认知与脑</category>
     </item>
     <item>
-      <title>Ultrarapid decision-making in an avian brain.</title>
-      <link>https://doi.org/10.1126/science.aed6459</link>
-      <guid isPermaLink="false">doi:10.1126/science.aed6459</guid>
-      <description>Science (New York, N.Y.)
-
-Perceptual decision-making is well studied in mammals, but its operation in other vertebrates remains unclear. We show that carrion crows (Corvus corone ) make deliberate decisions in a classic visual motion discrimination task with unprecedented speed, reporting choices in approximately 235 milliseconds on average, which is roughly twice as fast as has been observed in monkeys or humans and without sacrificing accuracy. Recordings from the pallial endbrain reveal that direction-selective neurons encode the upcoming choice as early as about 70 milliseconds after stimulus onset and about 170 milliseconds before the response, with ramping activity scaling with sensory evidence and converging at response onset. These findings highlight the extraordinary efficiency of avian decision-making circuitry, possibly shaped by evolutionary pressures for rapid visuomotor control.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
       <title>Clinically unresponsive patients with acute brain injury activate a brain-computer interface.</title>
       <link>https://doi.org/10.1093/brain/awag210</link>
       <guid isPermaLink="false">doi:10.1093/brain/awag210</guid>
@@ -207,7 +197,6 @@ Schizophrenia disrupts both how people perceive the world and how they express a
       <category>语言与脑</category>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Predicting upcoming visual features during eye movements yields scene representations aligned with human visual cortex.</title>
@@ -339,32 +328,6 @@ Major depressive disorder (MDD) is highly comorbid with physical diseases, sugge
       <category>其他认知与脑</category>
     </item>
     <item>
-      <title>EEG Resting-State Beta Band Dynamic Functional Connectivity Reveals State-Dependent Disruption of Language Network Lateralisation in First-Episode Schizophrenia.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109612</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109612</guid>
-      <description>Neuropsychologia
-
-Language disorganisation is a core feature of schizophrenia with significant functional consequences. However, its neurophysiological substrates remain poorly characterised, particularly in the early stages of the illness. This study investigated whether first-episode schizophrenia (FES) is associated with disruption in the organisation of language-network lateralisation, using both static and dynamic functional connectivity metrics in the EEG beta band. Thirty-one FES patients and 32 age-matched healthy volunteer subjects (HVS) underwent resting-state 64-channel EEG. Source-level connectivity was estimated using the weighted phase lag index with sliding windows, yielding 979 connectivity matrices per participant. Brain network states (BNS) were identified via k-means clustering. Static connectivity was obtained by time-averaging. Temporal features, graph-theoretical metrics, and language-network laterality indices were extracted for both whole-network and language-specific analyses. Group comparisons used permutation-based tests with family-wise error correction. Static connectivity yielded no significant group differences in any metric. Dynamic analysis identified six BNS. FES showed a significant increase in the variability of the temporal dynamics and graph-theory features of BNS5, a state characterised by parieto-occipital dominance. The core language network laterality index was significantly reduced in FES within BNS1, a state characterised by auditory-visual dominance. BNS1 occurrence correlated negatively with language disorganisation scores. Dynamic BNS-specific language network metrics correlated with verbal fluency performance exclusively in FES. These findings demonstrate that language dysfunction in early psychosis is expressed as state-dependent disruption of brain network stability and language lateralisation, detectable only through dynamic connectivity analysis.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>A shape deformation-based framework for constructing individualized subcortical morphological networks.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122305</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122305</guid>
-      <description>NeuroImage
-
-Individualized morphological brain networks have emerged as an important framework for imaging-based connectomics. However, existing methods have focused predominantly on the cerebral cortex, leaving subcortical structures largely unexplored despite their central roles in cognition and neuropsychiatric disorders. Here, we developed a novel framework for constructing individualized subcortical morphological networks from structural magnetic resonance imaging. Specifically, subcortical surfaces were reconstructed using a Point2Mesh-optimized multilayer perceptron architecture and vertex-wise shape deformation was quantified as the signed Euclidean distance between each vertex on an individual mesh and the corresponding vertex on the group-average template mesh. Interregional morphological connectivity in local shape deformation distributions was subsequently estimated using Jensen-Shannon Divergence. Applying this approach to the Human Connectome Project dataset, we found that subcortical morphological networks exhibited complex topological organization, including small-world architecture, modular organization, and highly connected hubs, which were consistently preserved at finer subregional scales. Analyses using an independent test-retest dataset further demonstrated fair-to-good reliability of these network properties. Importantly, these shape deformation-based networks showed significant coupling with subcortical functional networks estimated from resting-state functional magnetic resonance imaging. Leveraging large-scale multisite clinical datasets, we further demonstrated alterations of subcortical morphological networks in schizophrenia and major depressive disorder. Schizophrenia was characterized predominantly by right caudate-centered disruptions in morphological connectivity and nodal centrality, whereas major depressive disorder exhibited alterations only in nodal centrality of the right amygdala. Together, these findings establish a novel and reliable framework for investigating subcortical morphological network organization in the human brain across both healthy and psychiatric populations.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
       <title>Amplitude-conditioned brain dynamics reveal widespread negative modulation and targeted positive modulation of functional networks.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122304</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122304</guid>
@@ -465,17 +428,6 @@ Duchenne and Becker muscular dystrophies (DMD, BMD) are caused by genetic varian
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Midlife and Late-Life Alzheimer Disease Blood Biomarkers and 11-Year Cognitive Decline.</title>
-      <link>https://doi.org/10.1212/wnl.0000000000218692</link>
-      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218692</guid>
-      <description>Neurology
-
-Background and objectives Plasma biomarkers of Alzheimer disease (AD) neuropathology (amyloid-β42 to amyloid β40 [Aβ42/40] ratio, phosphorylated tau at threonine [p-tau181]), neurodegeneration (neurofilament light [NfL]), and neuroinflammation (glial fibrillary acidic protein [GFAP]) in late-life are associated with cognitive decline. Whether these biomarkers in midlife are predictive of subsequent cognitive decline, and whether they are associated with different cognitive domains, is uncertain. In this study, we investigated associations of midlife and late-life plasma Aβ42/40, p-tau181, NfL, and GFAP with late-life change in domain-specific (memory, language, and executive function) and global cognitive function. Methods We performed a prospective cohort analysis of the Atherosclerosis Risk in Communities Neurocognitive Study (ARIC-NCS). Outcome follow-up was from ARIC visit 5 (2011-2013) to visit 9 (2021-2022). We included all individuals from ARIC field centers (Jackson, Mississippi; Forsyth County, North Carolina; Washington County, Maryland; and Minneapolis suburbs, Minnesota) with biomarkers measured from stored specimens in midlife (visit 3, 1993-1995, mean age 59.0 years) and late-life (visit 5, 2011-2013, mean age 76.8 years). Aβ42/40, p-tau181, NfL, and GFAP were measured with the Quanterix Simoa platform and standardized to visit 3 to facilitate cross-biomarker comparisons of their rate of change from midlife to late-life. We estimated change in memory, language, executive function, and global cognition factor scores from visit 5 to visit 9 with linear mixed-effect models. Results In 1,515 included participants, 60.7% (n = 920) were female and 25.5% (n = 387) were Black. Each SD increase in p-tau181 in midlife was significantly associated with faster late-life memory decline (β = -0.030 [95% CI -0.059 to -0.001] SD. Midlife Aβ42/40, NfL, and GFAP were not associated with subsequent decline in any cognitive domain. In late-life, p-tau181, NfL, and GFAP were significantly associated with faster decline in different cognitive domains, with the strongest associations seen with memory (β = -0.091 [95% CI -0.123 to -0.058] SD; β = -0.064 [95% CI -0.106 to -0.023] SD; and β = -0.048 [95% CI -0.082 to -0.013] SD, respectively). Discussion Midlife p-tau181 was associated with faster 11-year memory decline beginning 20 years later in the ARIC cohort, which underscores a potentially long prodromal phase of cognitive decline that could precede dementia onset. In late-life, biomarkers for AD, neurodegeneration, and neuroinflammation were associated with faster decline across different cognitive domains, but associations remained strongest for p-tau181 and memory.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
       <title>Mentalizing from self and friend perspectives: Relations between inter-brain neural similarity, affective similarity and social anxiety symptoms.</title>
       <link>https://doi.org/10.1162/imag.a.1403</link>
       <guid isPermaLink="false">doi:10.1162/imag.a.1403</guid>
@@ -549,6 +501,46 @@ Posttraumatic stress disorder (PTSD) is characterized by re-experiencing trauma 
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Mitochondrial carbonic anhydrase–VB inhibition rescues brain endothelial stress and memory in Alzheimer’s disease models</title>
+      <link>https://europepmc.org/article/PMC/PMC13665925</link>
+      <guid isPermaLink="false">PMC:PMC13665925</guid>
+      <description>Science advances
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Learning to infer transitively on a mental line in premotor cortex</title>
+      <link>https://europepmc.org/article/PMC/PMC13665924</link>
+      <guid isPermaLink="false">PMC:PMC13665924</guid>
+      <description>Science advances
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Auditory paradigm-dependent EEG feature screening and representation for distinguishing consciousness states in male patients with disorders of consciousness</title>
+      <link>https://europepmc.org/article/PMC/PMC13661486</link>
+      <guid isPermaLink="false">PMC:PMC13661486</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers</title>
+      <link>https://europepmc.org/article/PMC/PMC13661320</link>
+      <guid isPermaLink="false">PMC:PMC13661320</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>
