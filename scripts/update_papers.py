@@ -15,6 +15,8 @@ import time
 from html.parser import HTMLParser
 from urllib.parse import urlencode, quote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
+from email.utils import parsedate_to_datetime
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
@@ -78,8 +80,17 @@ def paper_text(paper):
     return searchable_text(" ".join([paper["title"], paper.get("abstract", ""), *paper.get("keywords", [])]))
 
 
+def is_review_paper(paper):
+    types = searchable_text(" ".join(paper.get("publication_types", [])))
+    text = searchable_text(paper["title"] + " " + paper.get("abstract", ""))
+    return bool(paper.get("is_review") or re.search(r"\breview\b|\bmeta analys", types)
+                or re.search(r"\b(?:systematic|scoping|narrative) review\b|\bmeta analys\w*\b|\bthis review\b|\bwe review\b", text))
+
+
 def method_text(paper):
     abstract = paper.get("abstract", "")
+    if is_review_paper(paper):
+        return searchable_text(paper["title"] + " " + abstract)
     # When a structured abstract explicitly states Methods, do not take a
     # modality mentioned only in Background as the method used in this study.
     match = re.search(r"(?:^|[.!?]\s+)(?:materials and methods|methods|methodology)\s*:?\s+(.+?)(?=\b(?:results|findings|conclusions?|discussion)\s*:?\s+|$)", abstract, re.I)
@@ -94,20 +105,22 @@ def clinical_imaging_study(paper):
     """Conservative evidence gate, not a claim of full-text or human review."""
     text = searchable_text(f"{paper['title']} {paper.get('abstract', '')}")
     types = " ".join(paper.get("publication_types", [])).lower()
-    if re.search(r"review|erratum|correction|editorial|comment|letter|protocol", types) or re.match(r"(?:correction|corrigendum|erratum|retraction)\b", paper["title"], re.I):
+    if re.search(r"erratum|correction|editorial|comment|letter|protocol", types) or re.match(r"(?:correction|corrigendum|erratum|retraction)\b", paper["title"], re.I):
         return False
-    if paper.get("is_review") or re.search(r"\b(meta analys\w*|systematic review|scoping review|study protocol)\b", text):
+    if re.search(r"\b(?:study|review|trial) protocol\b", text):
         return False
-    if re.search(r"\bthis (?:chapter|review)\b|\b(?:this|the present) (?:article|paper) (?:reviews|summarizes|provides an overview)\b|\bwe review\b", text):
+    if re.search(r"\bthis chapter\b", text):
         return False
     if not any(x in detect_modalities(method_text(paper)) for x in ("fMRI", "DTI", "EEG", "MEG", "颅内电生理", "fNIRS")):
         return False
     clinical = r"\b(patients?|survivors?|clinical (?:cohort|sample|group)|(?:individuals|participants|children|adults|adolescents|people|subjects|boys|girls) (?:diagnosed |living )?with|(?:asd|mdd|adhd|sz|ad|pd) (?:group|patients|participants))\b"
-    if not re.search(clinical, text):
+    review = is_review_paper(paper)
+    human_context = bool(re.search(r"\bhumans?\b|\b(?:patients|children|adults|adolescents) with\b|\bclinical (?:studies|research|populations)\b", text) or "Humans" in paper.get("mesh_terms", []))
+    if not re.search(clinical, text) and not (review and human_context):
         return False
     animal = re.search(r"\b(mice|rats|rodents?|murine|mouse model|rat model|zebrafish)\b", text)
     human_data = re.search(r"\b\d+\s+(?:(?:adult|adolescent|pediatric|stroke)\s+)?(?:patients|survivors|participants|children|adults|adolescents|subjects|healthy controls)\b|\b(?:recruited|enrolled)\b.{0,80}\b(?:patients|participants|children|adults)\b", text)
-    return not animal or bool(human_data) or "Humans" in paper.get("mesh_terms", [])
+    return not animal or bool(human_data) or "Humans" in paper.get("mesh_terms", []) or (review and bool(re.search(r"\bhumans?\b", text)))
 
 
 def classify(paper, topics):
@@ -135,7 +148,7 @@ def classify(paper, topics):
         if all(any(term_present(term, text) for term in group) for group in groups):
             evidence[topic["id"]] = [term for term in topic["evidence_terms"] if term_present(term, text)]
     methods_text = method_text(paper)
-    return {**paper, "topics": list(evidence), "evidence": evidence, "methods": detect_methods(methods_text), "modalities": detect_modalities(methods_text)}
+    return {**paper, "is_review": is_review_paper(paper), "topics": list(evidence), "evidence": evidence, "methods": detect_methods(methods_text), "modalities": detect_modalities(methods_text)}
 
 
 def classification_fingerprint(config):
@@ -150,16 +163,54 @@ def valid_date(value):
         return None
 
 
+_last_request_started = 0.0
+
+
+def source_cooldown(seconds, reason):
+    path = ROOT / "data/source_cooldown.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    value = {"retry_after": (dt.datetime.now(dt.timezone.utc) + dt.timedelta(seconds=seconds)).isoformat(timespec="seconds"), "reason": reason}
+    path.write_text(json.dumps(value, separators=(",", ":")) + "\n", encoding="utf-8")
+
+
+def retry_after_seconds(value):
+    try:
+        return max(0, float(value))
+    except (TypeError, ValueError):
+        try:
+            return max(0, (parsedate_to_datetime(value) - dt.datetime.now(dt.timezone.utc)).total_seconds())
+        except (TypeError, ValueError, OverflowError):
+            return None
+
+
 def request_json(params):
+    global _last_request_started
     url = API + "?" + urlencode(params)
     for attempt in range(4):
         try:
-            req = Request(url, headers={"User-Agent": "NeuroBrief/1.0 (academic literature tracker)", "Accept": "application/json"})
+            wait_seconds = 1.0 - (time.monotonic() - _last_request_started)
+            if wait_seconds > 0:
+                time.sleep(wait_seconds)
+            _last_request_started = time.monotonic()
+            req = Request(url, headers={"User-Agent": "NeuroBrief/1.1 (+https://github.com/Wang-xz-neurosci/neurobrief; academic literature updates)", "Accept": "application/json"})
             with urlopen(req, timeout=60) as response:
                 data = json.load(response)
             if "hitCount" not in data or not isinstance(data.get("resultList", {}).get("result"), list):
                 raise ValueError("Unexpected Europe PMC response schema")
             return data
+        except HTTPError as exc:
+            if exc.code in (401, 403):
+                source_cooldown(6 * 3600, f"HTTP {exc.code}; requests paused")
+                raise
+            if 400 <= exc.code < 500 and exc.code != 429:
+                raise
+            delay = retry_after_seconds(exc.headers.get("Retry-After")) if exc.headers else None
+            if delay is not None and delay > 60:
+                source_cooldown(delay, f"HTTP {exc.code}; Retry-After")
+                raise
+            if attempt == 3:
+                raise
+            time.sleep(max(2 ** (attempt + 1), delay or 0))
         except Exception:
             if attempt == 3:
                 raise
@@ -275,7 +326,7 @@ def normalize(row, topic, today, seen):
         "keywords": [plain(k) for k in row.get("keywordList", {}).get("keyword", [])],
         "mesh_terms": [plain(k.get("descriptorName")) for k in row.get("meshHeadingList", {}).get("meshHeading", [])],
         "publication_types": types,
-        "is_review": any("review" in s.lower() for s in types),
+        "is_review": any("review" in s.lower() or "meta-analysis" in s.lower() for s in types),
         "is_open_access": row.get("isOpenAccess") == "Y",
         "topics": [topic["id"]], "evidence": {topic["id"]: matches},
         "methods": detect_methods(text), "modalities": detect_modalities(text),
@@ -395,6 +446,7 @@ def main():
     temp = args.output.with_suffix(".json.tmp")
     temp.write_text(json.dumps(dataset, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     os.replace(temp, args.output)
+    (ROOT / "data/source_cooldown.json").write_text('{"retry_after":null}\n', encoding="utf-8")
     print(f"Saved {len(dataset['papers'])} unique papers to {args.output}")
 
 

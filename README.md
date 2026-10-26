@@ -5,9 +5,9 @@ https://wang-xz-neurosci.github.io/neurobrief/
 
 ## 四个研究方向
 
-- 语言与大脑：言语、语义、句法、阅读与语篇理解的脑机制。
+- 语言与大脑：语言的神经机制与结构基础。
 - 结构与功能：白质纤维束、脑结构连接、结构—功能耦合，以及结构如何支持或约束功能。纯功能研究不进入此类。
-- 脑疾病机理：使用 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 等研究疾病人群的认知与脑属性。要求临床人群证据，排除综述、研究方案、勘误、仅动物研究和仅 T1 结构像研究；词表不能替代人工核实实际方法。
+- 脑疾病机理：使用 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 等研究疾病人群的认知与脑属性。要求人脑或临床人群证据，纳入符合成像与认知／脑属性要求的综述和荟萃分析，排除研究方案、勘误、仅动物研究和仅 T1 结构像研究；词表不能替代人工核实实际方法。
 - 静息态与自然刺激：静息态，以及电影、故事、自然语音和语篇等自然刺激研究。
 
 一篇文献可以进入多个方向。英文检索式和分类证据写在 `config/topics.json`，不是人工质量评审。结构类要求结构证据，但摘要中的背景介绍也可能命中，需要后续用组内样例调整。
@@ -15,15 +15,15 @@ https://wang-xz-neurosci.github.io/neurobrief/
 ## 已实现
 
 - 通过 Europe PMC 官方接口免费获取 PubMed 记录和预印本；仅中文概览使用单独配置的 DeepSeek API。
-- 固定从 **2026-09-01 首次发表**的文献开始追踪，较早或缺少有效首次发表日期的记录不展示。以后每日更新并积累，不是滚动删除到仅剩一个月。
+- 固定从 **2026-09-01 首次发表**的文献开始追踪，较早或缺少有效首次发表日期的记录不展示。现阶段每日更新并积累；归档安排另由维护者决定，目前没有自动删减历史文献。
 - 每日查询来源新入库、变更与最近发表记录，并重叠 1 天以覆盖时区和收录延迟。每周一只补查上一自然周（周一至周日）的文章；周一失败后可补执行。**不再定期从 9 月 1 日重抓，规则变更也不会自动触发历史全量查询。**停机后的日常增量从上次成功日期接续。
 - 28 本关注期刊另做独立 ISSN 扫描，再判断相关性。按“综合与认知神经”“脑影像与连接”“临床神经与精神”分组，名单公开显示在页面中，不按影响因子设置硬门槛。包含 Neuroscience & Biobehavioral Reviews 与 Trends in Cognitive Sciences。
-- 四方向筛选、标题／作者／DOI／原始摘要搜索、日期／方法／文献类型筛选。
+- 四方向筛选、标题／作者／DOI／原始摘要搜索、日期／方法／文献类型筛选。“今日收录”按北京时间的首次收录日期筛选当前方向，包含此前发表但今天补收的文章，默认按本站收录时间排序；不受发表时间近七天限制。
 - 可切换“全部期刊／关注期刊／三个方向分组”。方法菜单为 fMRI、DTI、EEG、MEG、颅内电生理、其他。DTI 是合并展示标签，包含扩散成像与纤维追踪；仅 T1 结构像和 fNIRS 归为其他。
 - DOI／来源编号去重，预印本与综述标记，本机收藏，RIS 导出到 Zotero。
 - 网站优先读取压缩文献数据，原始 JSON 保留供核对。
 - RSS 文件继续供已有阅读器使用，每份最近 50 篇；页面已移除 RSS 入口，普通读者不必打开原始 XML。
-- GitHub Actions 每天北京时间 08:17 更新数据并发布到 GitHub Pages。
+- 自 2026-10-27 起以北京时间 08:00 左右完成日更为目标。GitHub Actions 在 03:10–10:55 每 15 分钟轻量检查，07:50 前不采集；首次可用时隙执行当天一次采集，成功后其他检查跳过。早发出的事件可在调度延迟后补位，仍不能保证整点。采集已保存而发布失败时仅重试发布，不重复检索或调用模型。
 - 显示“MM/DD 已更新，本日收录文献 N 篇”。N 是该更新日按北京时间首次进入本站的去重文献数，含延迟收录记录；同日重跑不重复计数。当天新发表数和新收录数不同。
 - 任何方向抓取失败或分页不完整时，保留上一次成功数据；页面显示最近成功时间，超过两天未更新会提醒。
 
@@ -32,7 +32,7 @@ https://wang-xz-neurosci.github.io/neurobrief/
 1. 创建公开仓库 `Wang-xz-neurosci/neurobrief`，默认分支 `main`。
 2. 将本目录的 `dist`、`config`、`data`、`scripts`、`tests`、`.github`、`.gitignore` 和 README 放到仓库根目录。不要遗漏隐藏的 `.github/workflows/daily-update.yml`。
 3. 在 Settings → Pages 将 Source 设为 **GitHub Actions**。
-4. 首次 push 或 Actions → Update papers and publish → Run workflow 会采集并发布。`update` 与 `deploy` 都成功后，才算上线。
+4. push 默认只发布保存的数据，不再次采集。Actions → Run workflow 勾选 collect_now 可显式立即采集；正常日更由日期门控执行。`update` 与 `deploy` 都成功后，才算上线。
 5. 在 https://github.com/Wang-xz-neurosci/neurobrief/actions 查看运行记录，在 Pages 设置页查看正式地址。
 
 也可以在已登录 GitHub CLI 的本机运行：
@@ -51,7 +51,7 @@ powershell -ExecutionPolicy Bypass -File scripts/publish_github.ps1
 
 ```powershell
 python -m unittest discover -s tests -v
-python scripts/update_papers.py
+python scripts/refresh_metadata.py
 python scripts/summarize_papers.py --attach-only
 python scripts/build_feeds.py
 python scripts/build_public_data.py
@@ -64,7 +64,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 
 ## 调整分类与信源
 
-编辑 `config/topics.json` 的 `required_term_groups`、`evidence_terms`、`clinical_imaging_only` 与 `monitored_journals`，然后重新运行采集和生成 RSS。`*` 明确表示词尾通配，连字符在本地匹配时按空格处理。
+编辑 `config/topics.json` 的 `required_term_groups`、`evidence_terms`、`clinical_imaging_only` 与 `monitored_journals`，然后用 refresh_metadata.py 更新已保存记录并生成 RSS；后续联网采集继续按日常增量执行。`*` 明确表示词尾通配，连字符在本地匹配时按空格处理。
 
 同一组词表自动生成 Europe PMC 的 TITLE_ABS／KW 查询，同时用于本地分类；不再手工维护两份容易不一致的检索式。远端 KW 包含 MeSH，用于提高候选召回；本地相关性与方法判定使用标题、摘要和作者关键词，避免仅凭宽泛的 MeSH 标签误收。
 
@@ -97,6 +97,8 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 - 分类来自标题、摘要和作者关键词；方法标签要求标题或摘要证据（优先 Methods 部分），可能命中背景内容，不能替代阅读原文。临床人群研究的自动筛选也会有误报与漏报。
 - 收藏只保存在当前浏览器，不跨设备同步；可导出 RIS 长期保留。
 - GitHub 定时任务可能延迟；公开仓库 60 天无活动时任务可能暂停，以页面时间与 Actions 记录为准。
+- 归档卡片目前只作提示，预计 2027/01/01；尚未实现自动归档、删文献或清理本机收藏。
+- Europe PMC 使用官方 REST API，不批量抓取主站 HTML；串行请求最多约每秒一次。遇到 429／503 尊重 Retry-After，较长限流保存冷却状态；401／403 不反复请求并暂停 6 小时。普通网页访问只读取自己的静态数据，不增加 Europe PMC 请求。
 - 使用免费公开 Pages 和标准 Ubuntu Actions 运行器；没有付费域名或服务器；DeepSeek 按实际 token 用量计费。平台免费政策与额度以官方说明为准。
 
 官方资料：
@@ -107,3 +109,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 
 - https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
 - https://api-docs.deepseek.com/guides/kv_cache/
+
+日更门控见 config/update_policy.json、scripts/update_gate.py；dist/update-status.json 是轻量成功采集标记，随 Pages 一起发布。页面与数据源的已采集时间一致后，当天不再抓取。data/source_cooldown.json 保存来源限流／拒绝后的冷却状态。修改页面和本地分类不会改变真实采集时间及首次收录日期。
+
+官方说明：https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule ；https://europepmc.org/help 。60 天无仓库活动可能暂停定时工作流，不是清除仓库或已发布网站。日常成功采集会真实提交数据更新。

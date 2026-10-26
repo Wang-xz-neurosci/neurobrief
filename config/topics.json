@@ -1,11 +1,11 @@
 {
-  "classification_version": "2026-10-recall-clinical-v2.3",
+  "classification_version": "2026-10-recall-clinical-v2.4-reviews",
   "topics": [
     {
       "id": "language",
       "name": "语言与大脑",
       "short_name": "语言与大脑",
-      "description": "言语、语义、句法、阅读与语篇理解的脑机制",
+      "description": "语言的神经机制与结构基础",
       "evidence_terms": [
         "language",
         "speech",
@@ -156,7 +156,7 @@
       "id": "brain-disorders",
       "name": "脑疾病机理",
       "short_name": "脑疾病机理",
-      "description": "以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 研究脑疾病人群的认知与脑属性；优先原始人群研究",
+      "description": "以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 等研究脑疾病人群的认知与脑属性，包含相关人脑研究综述",
       "evidence_terms": [
         "autis*",
         "depress*",

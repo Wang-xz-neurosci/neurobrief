@@ -3,7 +3,7 @@
   <channel>
     <title>NeuroBrief · 脑疾病机理</title>
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
-    <description>以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 研究脑疾病人群的认知与脑属性；优先原始人群研究</description>
+    <description>以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 等研究脑疾病人群的认知与脑属性，包含相关人脑研究综述</description>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 26 Oct 2026 04:54:53 +0000</lastBuildDate>
     <ttl>1440</ttl>
@@ -269,6 +269,17 @@ Understanding the role of peer feedback, particularly rejection, is critical for
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Adult aphasic status epilepticus: A systematic review and patient-level synthesis of clinical phenotypes and multimodal diagnostic evidence.</title>
+      <link>https://doi.org/10.1016/j.yebeh.2026.111349</link>
+      <guid isPermaLink="false">doi:10.1016/j.yebeh.2026.111349</guid>
+      <description>Epilepsy &amp; behavior : E&amp;B
+
+Background Aphasic status epilepticus (ASE) is an uncommon manifestation of focal status epilepticus in which aphasia is the sole or predominant clinical feature. Recognition may be difficult because consciousness can be relatively preserved, convulsive activity may be absent, and the presentation can mimic acute stroke. Objective To characterize diagnostic phenotypes of adult ASE and synthesize clinical, electrographic, and neuroimaging features across published cases. Methods We conducted a systematic review and patient-level synthesis of adult ASE cases. Eligible patients were adjudicated as definite or probable ASE using prespecified criteria. Clinical phenotype, electroencephalographic (EEG) findings, neuroimaging, initial diagnostic impressions, treatment, and language outcomes were extracted. Results Ninety-nine publications contributed 168 adults with ASE, including 89 definite and 79 probable cases. Aphasia was the sole manifestation in 42.9% and predominant in 57.1%, while consciousness was preserved in 78.0%. Ictal EEG activity or electrographic status epilepticus was documented in 53.0%, and 41.7% had supportive epileptiform abnormalities. Among cases with interpretable EEG laterality, 92.7% were left-lateralized. Peri-ictal MRI abnormalities occurred in 41.2% of performed interpretable studies. Among 55 patients with interpretable functional perfusion or metabolic imaging, hyperperfusion was reported in 32. FDG-PET hypermetabolism was treated as a distinct metabolic finding. Stroke or transient ischemic attack was the most frequent reported initial impression (44.2%). Complete language recovery was reported in 77.4% of evaluable patients. Conclusions Published adult ASE cases show a heterogeneous phenotype in which recognition commonly rests on concordance between language disturbance and focal EEG abnormalities, with peri-ictal imaging providing complementary evidence. These findings do not establish diagnostic accuracy of individual features or multimodal combinations.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与大脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Gamma-band network segregation links corollary discharge dysfunction and anomalous self-experiences in schizophrenia.</title>
       <link>https://doi.org/10.1016/j.schres.2026.09.038</link>
       <guid isPermaLink="false">doi:10.1016/j.schres.2026.09.038</guid>
@@ -520,16 +531,6 @@ Abstract GBA1-associated Parkinson’s disease (GBA1-PD) is a biologically disti
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>ADHDeepNet: An Explainable Framework for EEG-Based ADHD Detection From Raw Signals.</title>
-      <link>https://doi.org/10.1088/2057-1976/aeb67a</link>
-      <guid isPermaLink="false">doi:10.1088/2057-1976/aeb67a</guid>
-      <description>Biomedical physics &amp; engineering express
-
-Attention Deficit Hyperactivity Disorder (ADHD) is a common brain disorder in children that can persist into adulthood, affecting social, academic, and career life. Early diagnosis is crucial for managing these impacts on patients and the healthcare system but is often labor-intensive and time-consuming. This paper presents a novel method to improve ADHD diagnosis precision and timeliness by leveraging Deep Learning (DL) approaches and electroencephalogram (EEG) signals. We introduce ADHDeepNet, a deep learning model that utilizes comprehensive temporal-spatial characterization, attention modules, and explainability techniques optimized for EEG signals. ADHDeepNet integrates feature extraction and refinement processes to enhance ADHD diagnosis. The model was trained and validated on a dataset of 121 participants (61 ADHD, 60 Healthy Controls), employing nested cross-validation for robust performance. The proposed two-stage methodology uses a 10-fold cross-subject validation strategy. Initially, each iteration optimizes the model's hyper-parameters with inner 2-fold cross-validation. Then, Additive Gaussian Noise (AGN) with various standard deviations and magnification levels is applied for data augmentation. ADHDeepNet achieved 100% sensitivity and 99.17% accuracy in classifying ADHD/HC subjects. To clarify model explainability and identify key brain regions and frequency bands for ADHD diagnosis, we analyzed the learned weights and activation patterns of the model's primary layers. Additionally, t-distributed Stochastic Neighbor Embedding (t-SNE) visualized high-dimensional data, aiding in interpreting the model's decisions. This study highlights the potential of deep learning and EEG in enhancing ADHD diagnosis accuracy and efficiency.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>

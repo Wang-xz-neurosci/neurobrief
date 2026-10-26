@@ -7,9 +7,15 @@ on:
         description: 'Manually retry held or failed summaries; valid cached summaries are kept'
         type: boolean
         default: false
+      collect_now:
+        description: 'Explicitly collect now; otherwise publish the saved literature only'
+        type: boolean
+        default: false
   schedule:
-    # 08:17 Asia/Shanghai. GitHub schedules can run late.
-    - cron: '17 0 * * *'
+    # Lightweight checks before/around morning compensate for delayed events.
+    # The gate permits only one successful collection/day, not before 07:50.
+    - cron: '10,25,40,55 3-10 * * *'
+      timezone: 'Asia/Shanghai'
   push:
     branches: [main]
     paths:
@@ -29,7 +35,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+    outputs:
+      collect: ${{ steps.decision.outputs.collect }}
+      deploy: ${{ steps.decision.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            scripts/update_gate.py
+            config/update_policy.json
+            dist/update-status.json
+            data/source_cooldown.json
+          sparse-checkout-cone-mode: false
+      - id: decision
+        env:
+          NEUROBRIEF_EVENT: ${{ github.event_name }}
+        run: python3 scripts/update_gate.py ${{ inputs.collect_now && '--force' || '' }}
   update:
+    needs: gate
+    if: needs.gate.outputs.deploy == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -43,11 +73,19 @@ jobs:
       - name: Test ingestion safeguards
         run: python -m unittest discover -s tests -v
       - name: Collect papers
+        if: needs.gate.outputs.collect == 'true'
         run: python scripts/update_papers.py
+      - name: Refresh saved classifications and collection status
+        run: python scripts/refresh_metadata.py
       - name: Generate or attach automatic Chinese overviews
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
+        run: |
+          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ]; then
+            python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
+          else
+            python scripts/summarize_papers.py --attach-only
+          fi
       - name: Back up summary cache before committing
         if: always()
         uses: actions/upload-artifact@v4
@@ -65,7 +103,7 @@ jobs:
           if [ ! -f data/summary_cache.json ]; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/summary_cache.json
+          git add data/summary_cache.json data/source_cooldown.json
           if ! git diff --cached --quiet; then
             git commit -m "Save Chinese summary cache"
             git pull --rebase --autostash origin main
@@ -82,7 +120,7 @@ jobs:
                    f"Coverage: {d['initial_coverage_start']} to {d['as_of']}",
                    f"Scan: {d['scan_mode']}; previous-week review through: {d.get('weekly_review_through')}",
                    f"New today (Asia/Shanghai, deduplicated): {s['new_papers']}",
-                   f"New this run: {s['new_in_run']}; total: {len(d['papers'])}",
+                   f"New in last successful collection: {s['new_in_run']}; total: {len(d['papers'])}",
                    f"Latest publication date: {s['latest_publication']}",
                    f"Chinese summaries: {d.get('summary_status', {}).get('ready', 0)} / {d.get('summary_status', {}).get('eligible', 0)} available abstracts; no abstract: {d.get('summary_status', {}).get('no_abstract', 0)}"]
           for t in d['topics']:
@@ -102,7 +140,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/data.json dist/feed*.xml
+          git add dist/data.json dist/update-status.json dist/feed*.xml
           if ! git diff --cached --quiet; then
             git commit -m "Update literature archive"
             git pull --rebase --autostash origin main

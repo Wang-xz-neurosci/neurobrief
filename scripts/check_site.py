@@ -7,10 +7,12 @@ from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 
 root = Path(__file__).resolve().parents[1]
-for name in ["index.html", "styles.css", "app.js", "favicon.svg", "brain-mark.svg", "data.json"]:
+for name in ["index.html", "styles.css", "app.js", "favicon.svg", "brain-mark.svg", "data.json", "update-status.json"]:
     assert (root / "dist" / name).is_file(), f"Missing {name}"
 data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
 summary_settings = json.loads((root / "config" / "summaries.json").read_text(encoding="utf-8"))
+status = json.loads((root / "dist/update-status.json").read_text(encoding="utf-8"))
+assert status["collection_date"] == data["update_summary"]["date"] and status["collected_at"] == data["updated_at"], "Collection status must reflect the genuine saved collection"
 assert gzip.decompress((root / "dist" / "data.json.gz").read_bytes()) == (root / "dist" / "data.json").read_bytes(), "Compressed dataset differs from archive"
 assert data["schema_version"] == 1
 assert data["update_status"] == "success"

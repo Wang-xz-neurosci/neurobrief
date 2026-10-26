@@ -124,11 +124,25 @@ class IngestionTests(unittest.TestCase):
         self.assertEqual(result["methods"], ["其他"])
         self.assertIn("fNIRS", result["modalities"])
 
-    def test_animal_eeg_and_review_are_not_clinical_population_studies(self):
+    def test_animal_eeg_is_excluded_but_human_imaging_review_is_allowed(self):
         animal = self.classify("EEG networks in an epilepsy mouse model", "Mice were recorded to test neural oscillations and brain connectivity.")
         review = self.classify("fMRI of patients with depression", "Brain connectivity and cognition in patients with depression.", is_review=True)
         self.assertNotIn("brain-disorders", animal["topics"])
-        self.assertNotIn("brain-disorders", review["topics"])
+        self.assertIn("brain-disorders", review["topics"])
+
+    def test_human_systematic_review_and_meta_analysis_are_allowed(self):
+        for kind in ('Review','Meta-Analysis'):
+            result=self.classify('Human fMRI in autism: a systematic review and meta-analysis', 'This review synthesizes functional brain connectivity and cognitive findings from neuroimaging studies in humans with autism.', publication_types=[kind])
+            self.assertIn('brain-disorders',result['topics']);self.assertTrue(result['is_review'])
+
+    def test_review_methods_can_describe_search_rather_than_scanning(self):
+        result=self.classify('Brain connectivity in patients with depression: a systematic review', 'Background: fMRI assesses brain connectivity. Methods: We searched publication databases. Results: Human clinical studies report altered cortical networks.', publication_types=['Review'])
+        self.assertIn('brain-disorders',result['topics']);self.assertEqual(result['methods'],['fMRI'])
+
+    def test_animal_only_review_and_review_protocol_are_excluded(self):
+        animal=self.classify('EEG in mouse models of depression: a review','Patients with depression have cognitive problems. This review synthesizes neural activity studies in mice.',publication_types=['Review'])
+        protocol=self.classify('fMRI in patients with depression: a systematic review protocol','We plan to summarize human brain imaging and cognition.',publication_types=['Review'])
+        self.assertNotIn('brain-disorders',animal['topics']);self.assertNotIn('brain-disorders',protocol['topics'])
 
     def test_clinical_fmri_patient_study_is_eligible(self):
         result = self.classify("Functional connectivity and memory in Alzheimer disease", "We recruited 40 patients with Alzheimer disease and healthy controls for fMRI to investigate brain connectivity and cognitive performance.")

@@ -1,0 +1,7 @@
+{
+  "timezone": "Asia/Shanghai",
+  "target_time": "08:00",
+  "not_before": "07:50",
+  "effective_from": "2026-10-27",
+  "published_status_url": "https://wang-xz-neurosci.github.io/neurobrief/update-status.json"
+}
