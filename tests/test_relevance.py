@@ -38,6 +38,16 @@ class RelevanceTests(unittest.TestCase):
         d=r.apply_reviews(self.dataset(),self.cache(),self.settings,self.config)
         self.assertIn('structure-function',d['papers'][0]['topics'])
         self.assertNotIn('DTI',d['papers'][0]['methods'])
+    def test_gray_functional_review_does_not_inherit_structural_topic(self):
+        p={**self.paper,'title':'Language lateralization across timescales',
+           'abstract':'We review human language functional connectivity and its developmental reorganization.'}
+        d=r.apply_reviews(self.dataset(p),self.cache(topics=['language','structure-function','cognition'],p=p),self.settings,self.config)
+        self.assertEqual(d['papers'][0]['topics'],['language','cognition'])
+    def test_regional_structural_volume_remains_eligible(self):
+        p={**self.paper,'title':'Infant hippocampal volume and emotion development',
+           'abstract':'MRI measured hippocampal volume in human infants and related it to emerging emotion regulation.'}
+        d=r.apply_reviews(self.dataset(p),self.cache(p=p),self.settings,self.config)
+        self.assertIn('structure-function',d['papers'][0]['topics'])
     def test_journal_limits_are_per_topic_and_apply_after_ai(self):
         p={**self.paper,'journal':'Unlisted','journal_issns':[]}
         d=r.apply_reviews(self.dataset(p),self.cache(topics=['language','cognition','brain-disorders'],p=p),self.settings,self.config)
@@ -93,6 +103,45 @@ class RelevanceTests(unittest.TestCase):
         budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
         ledger={'ledger':[{'date':'2026-10-26','budget_charge_cny':budget['daily_budget_cny'],'task':'relevance'}]}
         self.assertFalse(summaries.within_budget(ledger,'2026-10-26',.001,budget))
+    def test_new_candidates_are_reviewed_once_and_paid_usage_is_shared(self):
+        budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
+        budget['run_budget_group']=self.settings['migration_id']
+        result=self.cache()['entries'][self.paper['id']]['result']
+        response={'usage':{'prompt_tokens':100,'prompt_cache_hit_tokens':50,'completion_tokens':60},
+                  'choices':[{'finish_reason':'stop','message':{'content':json.dumps(result)}}]}
+        cache={'entries':{}};ledger={'entries':{},'ledger':[]}
+        with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp,patch.object(r,'ROOT',Path(tmp)),patch.object(summaries,'complete',return_value=response) as api:
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-26')
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-27')
+            self.assertEqual(api.call_count,1)
+            self.assertTrue(r.valid(self.paper,cache['entries'][self.paper['id']],self.settings))
+            self.assertEqual(ledger['ledger'][0]['task'],'relevance')
+            self.assertEqual(ledger['ledger'][0]['status'],'success')
+            self.assertLess(ledger['ledger'][0]['budget_charge_cny'],.001)
+    def test_invalid_quote_fails_open_without_repeated_paid_calls(self):
+        budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
+        budget['run_budget_group']=self.settings['migration_id']
+        result={**self.cache()['entries'][self.paper['id']]['result'],'evidence':'invented quote'}
+        response={'usage':{'prompt_tokens':100,'completion_tokens':60},'choices':[{'finish_reason':'stop','message':{'content':json.dumps(result)}}]}
+        cache={'entries':{}};ledger={'entries':{},'ledger':[]}
+        with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp,patch.object(r,'ROOT',Path(tmp)),patch.object(summaries,'complete',return_value=response) as api:
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-26')
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-27')
+            self.assertEqual(api.call_count,1)
+        self.assertEqual(cache['entries'][self.paper['id']]['result']['decision'],'uncertain')
+        self.assertTrue(r.apply_reviews(self.dataset(),cache,self.settings,self.config)['papers'])
+    def test_explicit_format_repair_happens_only_once(self):
+        budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
+        budget['run_budget_group']=self.settings['migration_id']
+        cache=self.cache(decision='uncertain',topics=[])
+        cache['entries'][self.paper['id']]['result']['reason']='AI 判定的格式或引文未通过核对，暂按主题证据保留。'
+        ledger={'entries':{},'ledger':[]}
+        response={'usage':{'prompt_tokens':100,'completion_tokens':60},'choices':[{'finish_reason':'stop','message':{'content':'invalid'}}]}
+        with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp,patch.object(r,'ROOT',Path(tmp)),patch.object(summaries,'complete',return_value=response) as api:
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-26',repair_invalid=True)
+            r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-27',repair_invalid=True)
+            self.assertEqual(api.call_count,1)
+        self.assertTrue(cache['entries'][self.paper['id']]['format_repair'])
     def test_versioned_catalog_search_and_details_preserve_source(self):
         d=r.apply_reviews(self.dataset(),self.cache(),self.settings,self.config)
         with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp:

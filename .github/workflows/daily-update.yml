@@ -11,6 +11,10 @@ on:
         description: 'Explicitly collect now; otherwise publish the saved literature only'
         type: boolean
         default: false
+      repair_reviews:
+        description: 'One-time repair of unverified review output; valid decisions and summaries stay cached'
+        type: boolean
+        default: false
   schedule:
     # Lightweight checks before/around morning compensate for delayed events.
     # The gate permits only one successful collection/day, not before 07:50.
@@ -81,8 +85,8 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ]; then
-            python scripts/review_papers.py --checkpoint-every 200 ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }}
+          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+            python scripts/review_papers.py --checkpoint-every 200 ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }} ${{ inputs.repair_reviews && '--repair-invalid' || '' }}
           else
             python scripts/review_papers.py --attach-only
           fi
@@ -92,8 +96,8 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ]; then
-            python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }} ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }}
+          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+            python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }} ${{ (needs.gate.outputs.migration == 'true' || inputs.repair_reviews) && '--migration' || '' }}
           else
             python scripts/summarize_papers.py --attach-only
           fi

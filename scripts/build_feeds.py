@@ -43,7 +43,7 @@ def main():
     for topic in [None, *data["topics"]]:
         name, payload = make_feed(data, site, topic)
         (ROOT / "dist" / name).write_bytes(payload)
-    print("Built main RSS and four topic feeds.")
+    print(f"Built main RSS and {len(data['topics'])} topic feeds.")
 
 
 if __name__ == "__main__":

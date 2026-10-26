@@ -156,8 +156,15 @@ def mark_journal(paper, config):
 
 def allowed_topics(paper, topic_ids, config):
     restricted = {t["id"] for t in config["topics"] if t.get("monitored_only")}
-    return [t["id"] for t in config["topics"] if t["id"] in topic_ids
-            and (t["id"] not in restricted or paper.get("is_monitored_journal", False))]
+    labels = [t["id"] for t in config["topics"] if t["id"] in topic_ids
+              and (t["id"] not in restricted or paper.get("is_monitored_journal", False))]
+    text = paper_text(paper)
+    # A model can over-tag a functional-network paper as structural. Require
+    # actual structural/white-matter vocabulary; white-matter BOLD qualifies.
+    structure = next((t for t in config['topics'] if t['id']=='structure-function'),None)
+    if 'structure-function' in labels and structure and not any(term_present(t,text) for t in structure['evidence_terms']):
+        labels.remove('structure-function')
+    return labels
 
 
 def classification_fingerprint(config):

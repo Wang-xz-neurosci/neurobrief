@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 import re
 import time
+import unicodedata
 from urllib.error import HTTPError
 import summarize_papers as summaries
 import update_papers as updater
@@ -51,7 +52,9 @@ def validate(value, paper, config):
     for key in ('reason', 'evidence'):
         if not isinstance(value.get(key), str) or len(value[key]) > 1200 or re.search(r'<[^>]+>|sk-[a-zA-Z0-9]{24,}', value[key]):
             raise ValueError("Invalid review evidence")
-    normalized = lambda s: re.sub(r'\s+', ' ', s).strip().casefold()
+    def normalized(s):
+        s=unicodedata.normalize('NFKC',s).translate(str.maketrans({'’':"'",'‘':"'",'“':'"','”':'"','–':'-','—':'-','‑':'-','−':'-'}))
+        return re.sub(r'\s+',' ',s).strip().casefold()
     quote = normalized(value['evidence'])
     if value['decision'] != 'uncertain' and not quote:
         raise ValueError("Missing supporting quote")
@@ -110,11 +113,18 @@ def apply_reviews(data, cache, settings, config):
     return output
 
 
-def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoint_every=0):
+def needs_format_repair(entry):
+    return (entry.get('result',{}).get('reason') == 'AI 判定的格式或引文未通过核对，暂按主题证据保留。'
+            and not entry.get('format_repair'))
+
+
+def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoint_every=0, repair_invalid=False):
     candidates = [p for p in papers if p.get('abstract','').strip() and not updater.basic_exclusion(p)
-                  and len(p['abstract']) <= settings['max_abstract_chars'] and not valid(p,cache['entries'].get(p['id'],{}),settings)
-                  and not (cache['entries'].get(p['id'],{}).get('attempt_date') == day
-                           and cache['entries'].get(p['id'],{}).get('fingerprint') == fingerprint(p,settings))]
+                  and len(p['abstract']) <= settings['max_abstract_chars']
+                  and ((repair_invalid and needs_format_repair(cache['entries'].get(p['id'],{})))
+                       or (not repair_invalid and not valid(p,cache['entries'].get(p['id'],{}),settings)
+                           and not (cache['entries'].get(p['id'],{}).get('attempt_date') == day
+                                    and cache['entries'].get(p['id'],{}).get('fingerprint') == fingerprint(p,settings))))]
     candidates = candidates[:settings['max_per_run']]
     deadline = time.monotonic() + settings['max_run_seconds']
     active, cursor, completed, stopped = {}, 0, 0, False
@@ -126,7 +136,8 @@ def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoi
                     stopped = True
                     break
                 p = candidates[cursor]; cursor += 1
-                messages = [{'role':'system','content':SYSTEM_PROMPT}, {'role':'user','content':json.dumps({'title':p['title'],'abstract':p['abstract']},ensure_ascii=False)}]
+                messages = [{'role':'system','content':SYSTEM_PROMPT}, {'role':'user','content':
+                            '请保持输出简短。reason只写一句；evidence仅逐字摘录连续约5–15个英文单词，不用省略号、不拼接、不改写。以下是唯一文献来源：\n'+json.dumps({'title':p['title'],'abstract':p['abstract']},ensure_ascii=False)}]
                 reservation = summaries.reserve_call(p,messages,ledger,budget,ledger_path,day)
                 if reservation is None:
                     stopped = True
@@ -140,7 +151,8 @@ def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoi
             done,_ = wait(active,return_when=FIRST_COMPLETED)
             for future in done:
                 p,reservation = active.pop(future)
-                entry = {'fingerprint':fingerprint(p,settings),'version':settings['version'],'attempt_date':day}
+                entry = {'fingerprint':fingerprint(p,settings),'version':settings['version'],'attempt_date':day,'format_repair':repair_invalid}
+                response = None
                 try:
                     response = future.result()
                     usage = response.get('usage',{})
@@ -153,9 +165,12 @@ def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoi
                     result = validate(json.loads(choice['message']['content']),p,config)
                     entry.update(status='success',result=result,model=settings['model'])
                     reservation['status'] = 'success'
-                except (ValueError,KeyError,TypeError,IndexError):
+                except (ValueError,KeyError,TypeError,IndexError) as exc:
                     entry.update(status='success',result={'decision':'uncertain','topics':[],
                                  'reason':'AI 判定的格式或引文未通过核对，暂按主题证据保留。','evidence':''})
+                    entry['validation_issue'] = str(exc)[:160]
+                    if response and response.get('choices'):
+                        entry['candidate_response'] = response['choices'][0].get('message',{}).get('content','')[:4000]
                     reservation['status'] = 'invalid-review'
                 except Exception as exc:
                     entry.update(status='error',reason='Provider unavailable; no automatic paid retry')
@@ -177,6 +192,7 @@ def main():
     parser.add_argument('--attach-only',action='store_true')
     parser.add_argument('--migration',action='store_true')
     parser.add_argument('--checkpoint-every',type=int,default=0)
+    parser.add_argument('--repair-invalid',action='store_true',help='One explicit format/evidence repair, never repeat valid semantic decisions')
     args = parser.parse_args()
     read = lambda p: json.loads((ROOT/p).read_text(encoding='utf-8'))
     config, settings, budget = read('config/topics.json'),read('config/relevance.json'),read('config/summaries.json')
@@ -188,12 +204,12 @@ def main():
     budget['max_output_tokens'] = settings['max_output_tokens']
     budget['prompt_version'] = settings['version']
     # Screening and summaries share one ledger, annual limit and daily limit.
-    if args.migration: budget['run_budget_group'] = settings['migration_id']
+    if args.migration or args.repair_invalid: budget['run_budget_group'] = settings['migration_id']
     else: budget.pop('backfill',None)
     key = os.environ.get('DEEPSEEK_API_KEY','')
     day = dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
     if key and not args.attach_only:
-        generate(prepare_candidates(data,config),cache,settings,config,ledger,budget,key,day,args.checkpoint_every)
+        generate(prepare_candidates(data,config),cache,settings,config,ledger,budget,key,day,args.checkpoint_every,args.repair_invalid)
     if args.migration:
         remaining=[p for p in data['papers'] if p.get('abstract','').strip() and not updater.basic_exclusion(p)
                    and len(p['abstract'])<=settings['max_abstract_chars'] and not valid(p,cache['entries'].get(p['id'],{}),settings)]

@@ -13,6 +13,7 @@ parser.add_argument("--output", type=Path, required=True)
 args = parser.parse_args()
 args.output.mkdir(parents=True, exist_ok=True)
 html = (root / "dist" / "index.html").read_text(encoding="utf-8")
+html = re.sub(r'<!-- initial-data:start -->.*?<!-- initial-data:end -->', '', html, flags=re.S)
 css = (root / "dist" / "styles.css").read_text(encoding="utf-8")
 js = (root / "dist" / "app.js").read_text(encoding="utf-8")
 data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
@@ -28,9 +29,12 @@ offline = args.output / "NeuroBrief-离线文献站.html"
 offline.write_text(html, encoding="utf-8")
 shutil.copyfile(root / "README.md", args.output / "NeuroBrief-使用与部署说明.md")
 archive = args.output / "NeuroBrief-网站源码.zip"
+current_version = json.loads((root/'dist/manifest.json').read_text(encoding='utf-8'))['version']
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
     for rel in ["dist", "config", "scripts", "tests", "data", ".github"]:
         for p in (root / rel).rglob("*"):
+            if 'assets-data' in p.parts and current_version not in p.parts:
+                continue
             if p.is_file() and "__pycache__" not in p.parts and p.suffix not in (".pyc", ".tmp"):
                 z.write(p, p.relative_to(root))
     for rel in ["README.md", ".gitignore"]:

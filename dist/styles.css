@@ -20,3 +20,4 @@
 @media(max-width:760px){.footer-archive p{font-size:12px}}
 
 .topic-dot.cognition{background:#8b7c98}.tag.cognition{color:#6a5b77;background:#efebf2}
+#journal-list{display:block;max-width:1050px}
