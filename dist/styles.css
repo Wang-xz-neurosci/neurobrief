@@ -15,6 +15,6 @@
 
 @media(max-width:760px){.evidence{font-size:12px}}
 
-/* Archive notice only; this is a reminder, not an automatic deletion rule. */
-.sidebar{overflow-y:auto}.archive-note{border:1px solid #ffffff26;border-radius:7px;background:#ffffff07;padding:12px 13px;margin:24px 4px 0;color:#d0dccd}.archive-note p{font-size:12px;line-height:1.8;margin:0}.archive-note .archive-date{margin-top:10px;font-size:11px;line-height:1.7}.archive-note strong{font-weight:600;color:#eef3e7}.archive-note-mobile{display:none}.periods{flex-wrap:wrap}
-@media(max-width:760px){footer .archive-note-mobile{display:block;background:#eaf0e5;border-color:#d3ddce;color:#5c6d57;margin:20px 0 0;max-width:540px}.archive-note-mobile strong{color:#35533c}.archive-note-mobile p{font-size:12px}.archive-note-mobile .archive-date{font-size:11px}}
+/* Full-width archive reminder in the footer. */
+.periods{flex-wrap:wrap}footer{display:block}.footer-archive p{font-size:13px;line-height:1.9;color:var(--muted);margin:0}.footer-archive .archive-date{margin-top:8px}.footer-archive strong{font-weight:700;color:#50694e}footer .footer-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:9px;margin-top:12px}footer .footer-about{padding:0}
+@media(max-width:760px){.footer-archive p{font-size:12px}}

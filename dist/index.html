@@ -29,7 +29,6 @@
     <button class="nav-item topic-nav" data-view="rest-naturalistic"><span class="topic-dot rest-naturalistic"></span><span>静息态与自然刺激</span><span class="count" id="count-rest-naturalistic">—</span></button>
   </nav>
   <div class="sidebar-bottom">
-    <div class="archive-note" role="note"><p>因本站旨在帮助您快速浏览近期研究，而非作为长期文献数据库使用。为保持数据简洁，往期文献将定期归档保存，并从页面中清除。本机收藏的文献请及时保存至本地，以免遗失。</p><p class="archive-date">预计下一次归档时间：<strong>2027/01/01</strong></p></div>
     <div class="lab-note"><p><span>您今天还是没看文献吗？</span><span>点击题目跳转原文链接，</span><span>快去看看吧～</span></p></div>
     <button id="about-button" class="about-button">数据来源与收录说明 <span>↗</span></button>
   </div>
@@ -56,7 +55,7 @@
 
   <div id="notice" class="notice" hidden></div>
   <section class="results-section" aria-label="文献列表"><div class="results-heading"><h2 id="list-title">最新文献 <span id="result-count">—</span></h2><span class="results-note">摘要概览 · 点击题目阅读原文</span></div><div id="papers" aria-live="polite" aria-busy="true"><div class="loading">正在读取最新文献…</div></div><button id="load-more" class="load-more" hidden>继续阅读 <span>↓</span></button></section>
-  <footer><p>保持好奇，也保留判断。<span>关键词筛选尚未经组内校准，入选不代表质量评价。</span><span class="footer-links"><a href="https://github.com/Wang-xz-neurosci/neurobrief/actions" target="_blank" rel="noopener">更新记录 ↗</a></span></p></footer>
+  <footer><div class="footer-archive" role="note"><p>因本站旨在帮助您快速浏览近期研究，而非作为长期文献数据库使用。为保持数据简洁，往期文献将定期归档保存，并从页面中清除。本机收藏的文献请及时保存至本地，以免遗失。</p><p class="archive-date"><strong>预计下一次归档时间：2027/01/01</strong></p></div><div class="footer-links"><a href="https://github.com/Wang-xz-neurosci/neurobrief/actions" target="_blank" rel="noopener">更新记录 ↗</a></div></footer>
 </main>
 
 <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">ABOUT THIS READING SPACE</span><button id="close-about" aria-label="关闭说明">×</button></div><h2 id="about-title">收录来源与检索机制</h2><p>从 <a href="https://europepmc.org/RestfulWebService" target="_blank" rel="noopener">Europe PMC 官方接口 ↗</a> 获取 PubMed 记录和预印本，收录自 2026 年 9 月 1 日起发表的文献。每天检查来源新增、变更和最近发表记录，每周一仅补查上一自然周的文章；同时扫描关注期刊。保留已收录档案，仍不代表完整覆盖。</p><h3>筛选如何工作</h3><p>四个方向的英文词表同时用于远端检索和本地分类，减少两套规则不一致带来的漏检；远端检索结合标题、摘要及关键词（含 MeSH），本地归类要求标题、摘要或作者关键词的证据，再按 DOI 或来源编号去重。结构与功能类要求出现白质、纤维追踪、结构连接等结构证据；仅有功能连接不会进入此类。脑疾病机理限定 EEG、MEG、fMRI、DWI/DTI、fNIRS 或颅内电生理，并要求有人群与认知／脑属性证据，排除研究方案、勘误和仅动物研究。仍可能把背景中提及的方法判为实际使用，需要阅读摘要或原文确认。一篇文章可以属于多个方向；卡片中的命中词只解释检索依据，不代表文章质量或研究结论。方法分为 fMRI、DTI、EEG、MEG、颅内电生理、其他，可同时命中多项。DTI 是本站扩散成像方法的合并标签，包含 DWI、dMRI 和纤维追踪，不表示这些技术完全等同；仅 T1 结构像、fNIRS、脑刺激或无法确定方法的记录归入“其他”。方法标签要求标题或摘要证据，优先使用摘要 Methods 部分；仅关键词提及不足以确认实际使用，仍可能误判背景内容。</p><h3>摘要与日期</h3><p>中文概览由 DeepSeek 仅基于题目与原始摘要生成，适用于全部有摘要文献及后续新增文章，通常为 150–200 字左右，以自然表达和准确概括为先，不限制个别文章的长短。概览可能遗漏或误解信息，请展开原始摘要并阅读原文核对；未默认读取全文。未生成概览的文章继续显示原始摘要。“发表时间”为来源记录的首次发表日期；“本站收录”为首次被本程序采集的时间。缺少摘要时会如实标记，不仅根据题目编造研究结果。</p><h3>收藏与使用</h3><p>收藏仅保存在当前浏览器，不会与组员或其他设备同步。RIS 导出包含当前筛选结果，可导入 Zotero 等文献管理器。访问原文时，全文是否开放取决于出版方。</p><h3>更新状态</h3><p id="about-update">由 GitHub Actions 每天北京时间 08:00 左右自动采集并部署；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。</p><p class="about-meta" id="about-meta"></p></dialog>

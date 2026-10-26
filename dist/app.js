@@ -10,7 +10,7 @@
   const state = {
     view: allowedViews.includes(requestedView) ? requestedView : "all",
     days: ["7", "30", "90", "all", "today"].includes(url.searchParams.get("days")) ? url.searchParams.get("days") : "30",
-    q: url.searchParams.get("q") || "", type: "all", method: "all", journalScope: "all", sort: ["published","added"].includes(url.searchParams.get("sort")) ? url.searchParams.get("sort") : url.searchParams.get("days") === "today" ? "added" : "published", limit: 15,
+    q: url.searchParams.get("q") || "", type: "all", method: "all", journalScope: "all", sort: ["published","added"].includes(url.searchParams.get("sort")) ? url.searchParams.get("sort") : "published", limit: 15,
   };
   const beijingDate = new Intl.DateTimeFormat("en-CA", {timeZone:"Asia/Shanghai", year:"numeric",month:"2-digit",day:"2-digit"});
   const today = beijingDate.format(new Date());
@@ -57,7 +57,7 @@
   }
   function syncUrl() {
     const u = new URL(location.href);
-    for (const [key, value, defaultValue] of [["topic",state.view,"all"],["days",state.days,"30"],["q",state.q,""],["sort",state.sort,state.days === "today" ? "added" : "published"]]) {
+    for (const [key, value, defaultValue] of [["topic",state.view,"all"],["days",state.days,"30"],["q",state.q,""],["sort",state.sort,"published"]]) {
       if (value === defaultValue) u.searchParams.delete(key); else u.searchParams.set(key,value);
     }
     u.searchParams.delete("summary");
@@ -103,7 +103,7 @@
     const objectUrl = URL.createObjectURL(blob); const a = document.createElement("a"); a.href=objectUrl; a.download=`neurobrief-${today}-${filtered.length}.ris`; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(objectUrl),30000); toast(`已导出 ${filtered.length} 篇，可导入 Zotero`);
   }
   document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{state.view=b.dataset.view;state.limit=15;render();}));
-  document.querySelectorAll("[data-days]").forEach(b=>b.addEventListener("click",()=>{state.days=b.dataset.days;if(state.days==="today"){state.sort="added";$("sort").value="added";}state.limit=15;render();}));
+  document.querySelectorAll("[data-days]").forEach(b=>b.addEventListener("click",()=>{state.days=b.dataset.days;state.limit=15;render();}));
   $("search").value=state.q;
   $("sort").value=state.sort;
   $("search").addEventListener("input",e=>{state.q=e.target.value;state.limit=15;render();});
@@ -116,9 +116,7 @@
   $("close-about").addEventListener("click",()=>$("about-dialog").close());
   $("about-dialog").addEventListener("click",e=>{if(e.target===$("about-dialog"))$("about-dialog").close();});
   // A mobile-accessible copy of the source information link.
-  const aboutFooter = document.createElement("button"); aboutFooter.textContent="数据来源与收录说明 ↗"; aboutFooter.className="footer-about"; aboutFooter.addEventListener("click",()=>$("about-dialog").showModal()); document.querySelector("footer p").append(aboutFooter);
-  const archiveNote = document.querySelector(".archive-note");
-  if (archiveNote) { const archiveMobile = archiveNote.cloneNode(true); archiveMobile.classList.add("archive-note-mobile"); document.querySelector("footer").append(archiveMobile); }
+  const aboutFooter = document.createElement("button"); aboutFooter.textContent="数据来源与收录说明 ↗"; aboutFooter.className="footer-about"; aboutFooter.addEventListener("click",()=>$("about-dialog").showModal()); document.querySelector("footer .footer-links").append(aboutFooter);
   document.addEventListener("keydown",e=>{if(e.key==="/"&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&!$("about-dialog").open){e.preventDefault();$("search").focus();}});
   const embedded = document.getElementById("snapshot-data");
   async function loadDataset() {
