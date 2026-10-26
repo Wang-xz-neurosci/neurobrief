@@ -267,11 +267,11 @@
       if(!manifest)throw error;
       latest=manifest;
     }
-    manifest=latest;
-    if(cached?.version===latest.version){installDataset(cached);return;}
+    if(cached?.version===latest.version){manifest=latest;installDataset(cached);return;}
     if(!data?.partial && data?.version===latest.version)return;
     const catalog=await readJSON(latest.catalog,true);
     if(catalog.version!==latest.version)throw new Error("Mismatched catalog version");
+    manifest=latest;
     installDataset(catalog);
     cachedCatalog(catalog);
   }
