@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>NeuroBrief · 其他认知与脑</title>
+    <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
+    <description>除语言外，其他认知功能的神经机制与结构基础</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 09:04:16 +0000</lastBuildDate>
+    <ttl>1440</ttl>
+    <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A robust adversarial learning framework for EEG emotion recognition</title>
+      <link>https://europepmc.org/article/PMC/PMC13690544</link>
+      <guid isPermaLink="false">PMC:PMC13690544</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Action features dominate cortical representation during natural vision.</title>
+      <link>https://doi.org/10.1073/pnas.2625018123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2625018123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Cortical resources are allocated into systems specialized for processing ecologically relevant features of the world. These features are typically studied in isolation using controlled experimental stimuli, making it difficult to assess the relative importance of different kinds of features that tend to overlap during natural vision. In the current study, we evaluated the relative contributions of action, agent, and scene features in predicting cortical activity while participants viewed a 1-h nature documentary. We tested four sets of model features: semantic vectors capturing the observed action, agent, and scene features derived from an annotation of the stimulus, as well as low-level visual motion-energy features. We used banded ridge regression to fit vertex-wise encoding models from the combination of all four sets of features. While each set of features predicted neural activity in the expected areas, the action features predicted more widespread activity. A variance partitioning analysis revealed that the action features captured the most unique variance in neural activity across a much larger extent of cortex than the agent or scene features. Our findings suggest that cortical activity during dynamic, natural vision is dominated by features for understanding the actions of others.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Multimodal associations between posterior hippocampus glutamate metabolism, visual cortex connectivity, and intrusive trauma reexperiencing symptoms.</title>
+      <link>https://doi.org/10.1038/s41380-026-03936-2</link>
+      <guid isPermaLink="false">doi:10.1038/s41380-026-03936-2</guid>
+      <description>Molecular psychiatry
+
+Hippocampal dysfunction is implicated in posttraumatic stress disorder (PTSD), particularly intrusive reexperiencing symptoms, and may be mediated by glutamatergic excitotoxicity. Markers of glutamate dysfunction (higher glutamate to N-acetyl aspartate levels; Glu/NAA) in the hippocampus (HPC) have been linked to reexperiencing symptoms. However, the HPC demonstrates heterogeneity along its anterior-posterior axis, with different functional connectivity patterns and PTSD symptom associations, motivating investigations into glutamate metabolism in anterior and posterior HPC subregions (a/pHPC). To this end, 121 symptomatic trauma-exposed adults with current trauma reexperiencing symptoms completed magnetic resonance spectroscopy and resting-state functional magnetic resonance imaging to examine the regional specificity of HPC Glu/NAA associations with reexperiencing symptoms and the link to a/pHPC functional connectivity. PTSD symptoms were assessed with the Clinician-Administered PTSD Scale for DSM-5. Reexperiencing symptom severity was associated with greater Glu/NAA in the pHPC, but not aHPC. pHPC Glu/NAA was further linked to stronger functional connectivity between the pHPC and visual cortex (VC), which in turn correlated with more severe reexperiencing symptoms. This strengthened pHPC-VC connectivity explained the shared variance between pHPC Glu/NAA and reexperiencing severity, suggesting dysregulated glutamate metabolism in the pHPC may contribute to reexperiencing symptoms through functional connectivity with the VC. These findings replicate prior work linking HPC Glu/NAA to trauma reexperiencing symptoms and provide novel evidence of this association in the pHPC, but not aHPC, which is mediated by its functional connectivity with the VC. This multimodal investigation supports translational models of glutamatergic dysfunction in trauma-related disorders and highlights new targets for pharmacological and neuromodulatory interventions.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Decoding individual differences in mental information from human brain responses predicted by deep neural networks.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122312</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122312</guid>
+      <description>NeuroImage
+
+Brain decoding using functional magnetic resonance imaging (fMRI) has high potential for evaluating unobservable mental information that varies across individuals in everyday situations. Although estimating individual differences in mental information using brain decoding could be effective for social applications, especially in neuromarketing, the physical constraints and high costs of fMRI limit the practical application in real-world settings. To overcome these limitations, we propose a framework to estimate individual differences in decodable mental information using brain responses predicted by deep neural networks (DNNs). In this framework, DNN-based models are trained to predict fMRI responses to natural movie scenes. Then, additional fMRI measurements are no longer required because mental information for new movie scenes can be decoded from the predicted responses instead of the measured ones. A large-scale analysis revealed that the proposed predicted-response decoding captures individual difference patterns consistent with those derived from conventional measured-response decoding across various cognitive domains. Of the 88 cognitive labels associated with movie scenes, individual difference patterns could be captured for more than 70% of the labels. This framework offers a promising approach for evaluating personal mental information with substantially reduced reliance on fMRI, thereby expanding the potential for social applications of brain decoding.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Digital Twin Control Framework Uncovers Individualized Cross-Scale Links Between Functional Connectivity Deviations, Communication Impairment, and Molecular Mechanisms in Autism.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122311</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122311</guid>
+      <description>NeuroImage
+
+Background Autism spectrum disorder (ASD) is hallmarked by pronounced inter-individual heterogeneity in brain function and clinical manifestations. Conventional neuroimaging studies yield highly inconsistent findings, as extrinsic confounding factors and intrinsic disease heterogeneity mask ASD-specific functional connectivity (FC) signatures, hampering the identification of individualized neural mechanisms linked to symptom severity. Methods We developed a digital twin control analytical framework based on deep contrastive learning. By comparing each ASD participant with their matched digital twin control, we quantified individual-specific FC deviations. Principal component analysis was applied to extract the core aberrant pattern, followed by multi-dimensional analyses and validation including clinical correlation, transcriptomic decoding, neurotransmitter and mitochondrial co-localization, as well as disease and cognitive enrichment. Results The model effectively disentangled disease‑related from non‑disease‑related variations. The identified dominant aberrant FC pattern was significantly associated with Autism Diagnostic Observation Schedule (ADOS) communication scores, suggesting its associated with to communication impairment. This pattern showed convergent associations with synaptic pathways, excitatory/inhibitory neuronal signatures, critical developmental windows and subcortical structures, and exhibited negative spatial association with multiple neurotransmitter systems and mitochondrial respiratory complexes. Biological validation further supported its ASD specificity and communication‑related cognitive relevance. Conclusions Leveraging the twin control analytical framework, this study provides an exploratory cross-scale framework linking individualized FC deviations with clinical, transcriptomic, neurochemical, and mitochondrial maps. The findings indicate that communication difficulties in ASD may partly arise from multi-scale disturbances in neural integration, social-perceptual processing and activity-dependent cellular energy regulation.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Coarse motor-state structure across paired preoperative fMRI and intraoperative ECoG in patients with brain tumors.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122310</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122310</guid>
+      <description>NeuroImage
+
+Presurgical motor mapping in patients with tumors near eloquent motor cortex is commonly based on task-evoked activation maps, yet local BOLD responses may be difficult to interpret in lesion-affected tissue because of anatomical distortion, altered vascular coupling, and variability in task performance. In this study, we used a four-state motor paradigm spanning Action, kinesthetic motor imagery (IMG), Watch, and recent-action recall (REC) - to test whether coarse task-state relationships are preserved across paired preoperative fMRI and intraoperative ECoG in10 patients with brain tumors. Activation summaries and preoperative task familiarization were used to support task engagement, representational similarity analysis (RSA) was used to characterize within-modality state geometry, and cross-modal RSA was used to assess shared organization. Across modalities, Action and IMG showed relatively similar response patterns, Watch was more distinct, and REC occupied an intermediate position that should be interpreted cautiously because of the fixed task order. Cross-modal RSA showed positive correspondence between fMRI and ECoG representational dissimilarity matrices, supporting a shared coarse state structure rather than fine-grained equivalence between modalities. These findings support a hypothesis-generating, relation-based complementary framework for interpreting functional organization in patients with brain tumors, while the limited state space, clinically determined ECoG coverage, fixed task order, and indirect verification of internally generated states warrant cautious interpretation.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>The Visual Cortex and Beyond: Investigating Long-Term Cortical Plasticity Following Monocular Deprivation.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122289</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122289</guid>
+      <description>NeuroImage
+
+Aim To characterise short- and long-term plastic changes in cortical and subcortical structures induced by ultra-long (five-day) monocular deprivation (MD), and to assess the extent and regional specificity of structural changes and their reversibility following the restoration of binocular vision. Methods In this single-arm longitudinal study, 21 healthy adults underwent five structural MRI sessions: at baseline, during MD on days 1, 3 and 5, and after a seven-day recovery period (day 12). MD was induced by occluding the right eye with a translucent eye patch for five consecutive days. Grey matter volume (GMV) changes were analysed using voxel-based morphometry (VBM) for whole-brain effects and generalised estimating equations (GEE) to model temporal trajectories in predefined cortical and subcortical regions. Results Ultra-long MD induced dynamic GMV changes in primary and higher visual cortices, with exploratory changes also in subcortical and cerebellar structures. VBM showed cumulative volume increases in bilateral occipital cortex, including calcarine, lateral occipital and fusiform regions, and adjacent cerebellar lobules, peaking between days 3 and 5. Region-wise modelling resolved the temporal build-up of these changes across visual, subcortical and sensorimotor regions; after correction for multiple comparisons, a time-dependent effect remained in occipital and ventral occipito-temporal cortex (occipital pole, fusiform and calcarine cortex), converging with the voxel-wise result. Following binocular restoration, an exploratory GMV decrease was observed selectively in the left middle occipital gyrus, while an exploratory increase was observed in the left hippocampus, compatible with persistent plasticity in associative memory networks. Conclusion Prolonged sensory imbalance via ultra-long MD induces rapid, region-specific and possibly persistent GMV plasticity in the adult brain. These changes follow temporally stratified trajectories across visual, subcortical and integrative systems, consistent with models of homeostatic and hierarchical plasticity. Corrected evidence supports cumulative occipital plasticity during deprivation; whether the exploratory extra-visual and post-recovery changes reflect persistent adaptation requires confirmation. MD-based paradigms thus offer a controlled window on structural plasticity in both healthy individuals and clinical populations.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Aperiodic EEG activity is a domain-specific marker of attentional aging in neurotypical adults.</title>
+      <link>https://doi.org/10.1523/jneurosci.1306-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1306-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Aperiodic neural activity has been reliably shown to be reduced among older adults, and these reductions are associated with age-related cognitive decline. These results suggest that aperiodic activity, as measured by the spectral exponent, might be a viable electrophysiological biomarker for cognitive aging. However, this has not been tested longitudinally, within participants, during normal aging. Here, we used a longitudinal cohort of either sex to test whether changes in aperiodic activity between two sessions, approximately 5 years apart, track behavioral change across two domains: sustained attention (Psychomotor Vigilance Test) and executive function (modified Simon task). We found that aperiodic activity declined within individuals after the interval, independent of age at baseline. This within-person change tracked concurrent changes in reaction times during sustained attention but was not associated with changes in any Simon task measure. Within a resampling framework, the aperiodic-PVT association was stable across cohort resamples and independently fitted partitions, though it was not confirmed in a small, frozen held-out set. These findings suggest the longitudinal decline in aperiodic activity tracks attentional processing speed rather than executive function, supporting its potential as a domain-specific biomarker of attentional aging in neurotypical populations.Significance Statement Aperiodic (non-oscillatory) neural activity, indexed by the aperiodic exponent, is known to decline in older adults, but whether this happens within individuals over just a few years, and in step with cognitive change, remains unclear. Here we leveraged scalp EEG and cognitive-behavioral data from 276 neurotypical adults, tested twice approximately five years apart, and found that the aperiodic exponent declines within individuals over this interval, independent of age at baseline. This decline tracked concurrent slowing on a sustained attention task, but not change on an executive function task, and only in EEG recorded before, not after, cognitive testing. Based on this dissociation, we propose that aperiodic exponent decline indexes attentional processing speed rather than general cognitive decline in neurotypical aging.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Probing the neural geometry of conscious object perception in time.</title>
+      <link>https://doi.org/10.1523/jneurosci.0843-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0843-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Conscious object recognition is a critical brain function, key to making sense of the plethora of visual inputs and guiding adaptive behavior. Yet, the sequence of neural processing underlying conscious object recognition remains unclear. Existing proposals alternatively suggest that conscious object recognition proceeds in a "coarse-to-fine" sequence or a "fine-to-coarse" sequence. Here, we recorded high-density EEG while participants of both sexes performed a threshold-level object recognition task under different viewing conditions. Both superordinate and basic-level category information emerged early in neural activity, followed by a late superordinate category representation in an abstract format that is disentangled from low-level object features. Strikingly, in the early period, while basic-level category information positively correlated with perceptual awareness, superordinate category information negatively predicted perceptual awareness. By contrast, both superordinate and basic-level category information positively correlated with objective categorization accuracy in the early period. In the late period, both levels of category information positively correlated with awareness. These results suggest that neural processing underlying conscious object perception proceeds from the basic to the superordinate category level.Significance statement Despite significant interests, the sequence of neural processing underlying conscious perception remains unclear. Here, we investigated the unfolding of neural events in time that support perceptual awareness of visual objects. Using a threshold-level object perception task involving three image conditions (normal, low-pass filtered, masked) and high-density EEG, we reveal that basic and superordinate category information both emerge early in the neural activity (at ∼100 ms), but only the basic-level category representation positively contributes to awareness. By contrast, the early superordinate category representation negatively correlates with perceptual awareness. At ∼300 ms, an abstract superordinate category representation emerges, which also positively correlates with perceptual awareness. Therefore, category-level neural processing underlying conscious object perception proceeds from the basic to the superordinate level.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>A cortical semantic map integrates fractions and integers in the human brain.</title>
+      <link>https://doi.org/10.1371/journal.pbio.3003820</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pbio.3003820</guid>
+      <description>PLoS biology
+
+How does the human brain represent the meaning of abstract symbols? Some theories postulate the existence of semantic spaces where concepts occupy positions that reflect their conceptual relationships. In the number domain, psychological evidence suggests that integers are represented along a mental number line which, with education, integrates higher-level number concepts such as fractions. To test this hypothesis, we recorded whole-brain 7T fMRI responses to integer and fraction symbols during an active magnitude comparison task designed to engage magnitude processing. Consistent with predictions, we found both behavioral and neural numerical distance effects. Activation vectors in intraparietal, inferior temporal, prefrontal, hippocampal, and parahippocampal cortices formed a two-dimensional semantic space organized by numerical magnitude and domain (fractions versus integers). Gaussian fits revealed a topographic map of numerical preferences in the anterior inferior parietal cortex, common to both domains. Our results suggest that, when educated adults engage in an explicit magnitude comparison task, their brain can construct an ordered representation that integrates fractions and integers, with a topographic organization in the anterior IPS/IPL.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Ultrarapid decision-making in an avian brain.</title>
+      <link>https://doi.org/10.1126/science.aed6459</link>
+      <guid isPermaLink="false">doi:10.1126/science.aed6459</guid>
+      <description>Science (New York, N.Y.)
+
+Perceptual decision-making is well studied in mammals, but its operation in other vertebrates remains unclear. We show that carrion crows (Corvus corone ) make deliberate decisions in a classic visual motion discrimination task with unprecedented speed, reporting choices in approximately 235 milliseconds on average, which is roughly twice as fast as has been observed in monkeys or humans and without sacrificing accuracy. Recordings from the pallial endbrain reveal that direction-selective neurons encode the upcoming choice as early as about 70 milliseconds after stimulus onset and about 170 milliseconds before the response, with ramping activity scaling with sensory evidence and converging at response onset. These findings highlight the extraordinary efficiency of avian decision-making circuitry, possibly shaped by evolutionary pressures for rapid visuomotor control.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Clinically unresponsive patients with acute brain injury activate a brain-computer interface.</title>
+      <link>https://doi.org/10.1093/brain/awag210</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag210</guid>
+      <description>Brain : a journal of neurology
+
+Brain activation to verbal commands can be detected by EEG in clinically unresponsive patients. These patients with cognitive motor dissociation (CMD) are unable to communicate with the environment despite preserved consciousness. Advanced brain-computer interfaces (BCI) are promising to support motor function in patients with motor neuron disease or spinal cord injury. Our primary objective was to determine if clinically unresponsive patients can control a self-paced, one-way BCI early after acute brain injury. Secondarily, we assessed the association of BCI control with short- and long-term outcomes. We conducted a prospective single-centre cohort study in 41 clinically unresponsive, critically ill and acutely brain injured patients, as well as in a convenience sample of 8 healthy volunteers and 22 conscious critically ill patients. The self-paced BCI analysed EEG in real time and modulated frequency and pitch of a tone that patients controlled by attempting a motor task: patients were provided with instructions 'to make the beep sound faster, keep opening and closing your right hand' alternating with 'to make the beep sound slower, stop opening and closing your right hand'. CMD was detected by applying machine learning to EEG recorded while patients listened to motor commands. Clinical outcomes were recovery of consciousness by hospital discharge, assessed with the Coma Recovery Scale-Revised, and recovery of functional independence at 12 months, defined as a Glasgow Outcome Scale-Extended score of 4 or higher (denoting the ability to function independently for 8 h or more). Additionally, we invited conscious patients as well as family members of conscious and clinically unresponsive patients to complete a survey on perceived utility and challenges associated with the BCI. In this study, 13 clinically unresponsive patients (32%) achieved BCI control and 8 of 41 (20%) were CMD-positive. All healthy volunteers and nine conscious patients (41%) were able to control the BCI. Median signal delay for BCI control was 49.8 [interquartile range (IQR) 39.9-75.6] seconds for clinically unresponsive patients, 17.1 (IQR 7.8-19.9) for conscious patients and 15.5 (IQR 12.9-21.2) for healthy volunteers. In the group of 41 clinically unresponsive patients, 4 of 13 patients with (31%) and 1 of 28 without BCI control (4%) recovered clinical consciousness at hospital discharge [odds ratio (OR) 21.2; 95% confidence interval (CI) 2.3-930.7]. At 12 months, 6 of 13 patients with (46%) and 2 of 28 without BCI control (7%) recovered functional independence (OR 9.9; 95% CI 1.8-81.6). None of the patients that were unable to control the BCI and were CMD-negative recovered. Patients with BCI control had shorter times to recovery of functional independence by 12 months than those who did not (hazards ratio 6.0; 95% CI 1.2-30.6). All respondents of the BCI survey (n = 37) expressed strong support for the potential future use of BCI devices. These results suggest that BCI control is a strong predictor of outcomes following acute brain injury and provide initial evidence that a bedside, EEG-based BCI system might permit bidirectional communication in critically ill unresponsive patients.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Teen depression and anxiety predicted by childhood brain development.</title>
+      <link>https://doi.org/10.1038/d41586-026-03357-9</link>
+      <guid isPermaLink="false">doi:10.1038/d41586-026-03357-9</guid>
+      <description>Nature
+
+来源未提供摘要。</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Structural brain correlates of symptom severity in stress-induced exhaustion.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122307</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122307</guid>
+      <description>NeuroImage
+
+Exhaustion due to chronic stress, a hallmark feature of burnout, represents a substantial and growing public health burden, yet its structural brain correlates remain poorly understood. We used voxel-based morphometry (VBM) to examine associations between regional gray matter volume and symptom severity in a cohort of 300 individuals on self-reported sick leave due to the Swedish medical condition stress-induced exhaustion disorder (ED), characterized by debilitating fatigue following prolonged stress exposure. Symptom severity was assessed using the Shirom-Melamed Burnout Questionnaire (SMBQ-18) and its subscales. Overall symptom severity (SMBQ-18 total score) and Physical Exhaustion (PE) were negatively associated with gray matter volume in the medial prefrontal cortex (mPFC), a region implicated in stress regulation and affective control, which remained significant when adjusting for depressive symptoms. An exploratory finding was that Listlessness was negatively associated with gray matter volume in the bilateral hippocampi and right middle temporal gyrus after adjustment for depressive symptoms. These results provide evidence from a large cohort for brain-symptom associations in chronic stress and highlight the value of dimensional approaches for capturing heterogeneity in stress-related conditions.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Quantifying dexterity and grip strength associations between age, cognitive function (MoCA), and cerebellar gray matter volume in healthy adults across the adult lifespan.</title>
+      <link>https://doi.org/10.1007/s00429-026-03213-6</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03213-6</guid>
+      <description>Brain structure &amp; function
+
+Cerebellar Crus I/II gray matter volume (GMV) is a structural marker of cognitive aging, and motor performance predicts age-related cognitive decline. Whether grip strength and manual dexterity dissociate in their cerebellar and cognitive correlates is unknown. We computed Pearson partial correlations (age, sex, and race covaried) between grip strength, Nine-Hole Peg Test (9HPT) dexterity, cerebellar Crus I/II GMV, and Montreal Cognitive Assessment (MoCA) subscores in 304 healthy adults aged 20-79 from the University of South Carolina Aging Brain Cohort. GMV was derived from T1-weighted MRI using CAT12 with the AAL3 atlas. After false discovery rate (FDR) correction, dominant 9HPT time correlated with MoCA total score (r=-.240) and memory index (r=-.220; both pFDR&lt;0.001). Grip strength was unrelated to any MoCA measure but correlated bilaterally with Crus II GMV (r=.156-.224, all pFDR≤0.041). Bootstrapped mediation indicated that dexterity statistically accounted for 28.8% of the age-cognition association and Crus II volume for 34.4-41.4% of the age-grip association. Dichotomizing at the MoCA cut-off of 26, each additional second of peg time carried 17.6% higher odds of scoring below cut-off (odds ratio = 1.176, 95% CI [1.062,1.302]) while grip strength carried none. Grip strength, but not dexterity, was independently associated with Crus II GMV, whereas dexterity, but not grip, was associated with cognition. Grip strength and dexterity are therefore not interchangeable indices of motor function. Because the design is cross-sectional, mediation estimates describe shared variance rather than causal pathways, and the pronounced MoCA ceiling likely attenuated the cognitive associations.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>A mechanistic theory of planning in prefrontal cortex.</title>
+      <link>https://doi.org/10.7554/elife.109757</link>
+      <guid isPermaLink="false">doi:10.7554/elife.109757</guid>
+      <description>eLife
+
+Planning is critical for adaptive behaviour in a changing world, because it lets us anticipate the future and adjust our actions accordingly. While prefrontal cortex is crucial for this process, it remains unknown how planning is implemented in neural circuits. Prefrontal representations were recently discovered in simpler sequence memory tasks, where different populations of neurons represent different future time points. We demonstrate that combining such representations with the ubiquitous principle of neural attractor dynamics allows circuits to solve much richer problems, including planning. This is achieved by embedding the environment structure directly in synaptic connections to implement an attractor network that infers desirable futures. The resulting 'spacetime attractor' excels at planning in challenging tasks known to depend on the prefrontal cortex. Recurrent neural networks trained by gradient descent on such tasks learn a solution that precisely recapitulates the spacetime attractor - in representation, in dynamics, and in connectivity. Analyses of networks trained across different environment structures reveal a generalisation mechanism that rapidly reconfigures the world model used for planning, without the need for synaptic plasticity. The spacetime attractor is a testable mechanistic theory of planning. If true, it would provide a path towards detailed mechanistic understanding of how prefrontal cortex structures adaptive behaviour.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Strong mnemonic prediction errors increase cognitive control, attention, and arousal.</title>
+      <link>https://doi.org/10.7554/elife.109678</link>
+      <guid isPermaLink="false">doi:10.7554/elife.109678</guid>
+      <description>eLife
+
+Ongoing experience is continuously processed in the context of past events. Divergence between current experience and memory-based predictions (i.e., a mnemonic prediction error; MPE) is theorized to be a signal that encoding, as opposed to retrieval, should be prioritized. We asked how MPEs place demands on control and attention-related processes, and whether these demands differ as a function of prediction strength. We investigated these questions across two experiments, wherein we recorded scalp electroencephalography and/or pupillometry as 101 young human adults performed an associative memory task. Strong MPEs, more so than weak MPEs, increased physiological indices of cognitive control (frontal theta), attention (posterior alpha and pupil size), and arousal (pupil size). Greater cognitive control (frontal theta) during strong MPEs promoted better learning of prediction-violating (i.e., unexpected) stimuli. Collectively, these findings reveal multiple pathways through which the mind and brain respond adaptively to violations of strong mnemonic predictions.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Dopamine Modulates Striatal Activity When Controlling the Output of Working Memory.</title>
+      <link>https://doi.org/10.1523/jneurosci.0200-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0200-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Cognitive control depends on capacity-limited mechanisms that require selection. Working memory (WM) therefore relies on an input-gate to filter information into WM and an output-gate to transform current WM representations into a prioritized state to guide behavior. According to current theory, such WM gating processes are modulated by dopamine in the striatum, yet empirical evidence for this hypothesis remains sparse. We fill this gap by directly testing the role of dopamine for both WM input- and output-gating in a double-blind, placebo-controlled within-subject functional magnetic resonance imaging study (N = 34; 23 female, 11 male human subjects), using a 400 mg oral dose of the dopamine D2 receptor antagonist sulpiride. In our cued delayed-response task, which separated input- from output-gating, sulpiride altered neural activity in the striatum during output-gating. This effect was accompanied by a sulpiride-induced decrease in the neural stimulus-selectivity of gated sensory representations in visual association cortex, with greater decreases in stimulus-selectivity correlating with reduced behavioral accuracy in the task. Together, the results establish a role for striatal dopamine during the control of cortical outflow of WM.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Neurophysiological dynamics related to perception, action, and language in schizophrenia.</title>
+      <link>https://doi.org/10.1126/sciadv.aeh5819</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aeh5819</guid>
+      <description>Science advances
+
+Schizophrenia disrupts both how people perceive the world and how they express and act on their thoughts, yet these symptoms are usually studied separately. Using magnetoencephalography during multisensory and motor tasks, we tested whether reduced event-related beta-band (15 to 30 hertz) modulation, a signal implicated in predictive control, provides a candidate neural marker across these domains. Compared to healthy individuals, patients showed diminished beta changes during sensory processing and movement completion, suggesting reduced flexibility in updating internal models. This neural pattern covaried with audiovisual simultaneity-judgment behavior, disorganized natural speech, and greater clinical severity. These findings suggest that distributed beta modulation may serve as a candidate cross-domain marker associated with perceptual, motor, and language disturbances in schizophrenia, motivating future studies that directly test predictive updating mechanisms.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Predicting upcoming visual features during eye movements yields scene representations aligned with human visual cortex.</title>
+      <link>https://doi.org/10.1126/sciadv.aee1955</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aee1955</guid>
+      <description>Science advances
+
+Natural scenes are complex arrangements of objects, surfaces, and backgrounds. For the brain's visual system to effectively operate, it needs to extract not only what objects are present but also their spatial and semantic relations. We hypothesize that such structures may be learned, in a self-supervised fashion, by exploiting temporal regularities of natural active vision: Each fixation reveals a glimpse that is related to the previous one via co-occurrence and saccade-conditioned spatial regularities. We instantiate this idea with glimpse prediction networks (GPNs), recurrent models trained to predict the embedding of the next glimpse along human-like scanpaths. GPNs are shown to successfully extract complex scene information, including object co-occurrences and spatial object arrangements, and integrate information across glimpses. GPN representations align strongly with human fMRI responses in mid- and higher-level visual cortex and match, often outperform, alternative state-of-the-art ANN models, establishing next-glimpse-prediction as a biologically plausible route toward brain-aligned scene representations.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Naturalistic spatial education engages distinct neural processes for mental rotation, cognitive load, and linguistic demands.</title>
+      <link>https://doi.org/10.1073/pnas.2601206123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2601206123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Neuroscience studies typically isolate spatial cognition using simplified tasks targeting a single cognitive process. However, during formal spatial education, the brain rarely performs one cognitive operation at a time. Here, we used functional magnetic resonance imaging (fMRI) to assess neural systems involved in dynamically processing an educational spatial visualization lesson. We quantified lesson content using an instructional-design framework capturing variation in spatial complexity, cognitive load, and verbal density. We then characterized how instructional demands modulated brain function using content-evoked responses, functional connectivity, and network-centrality. Spatial transformations during instruction robustly recruited parietal and premotor regions, which were linearly modulated by spatial complexity. This parietal dominance aligns with theories that these areas encode geometric and quantitative dimensions. In contrast, domain-general frontal activity tracked overall processing demands, and language regions tracked verbal density. Activity also varied with learners' spatial abilities: higher spatial performers showed stronger modulation of parietal and premotor regions as spatial demands increased, and greater domain-general modulation across content types. Thus, the same circuitry representing spatial transformations during instruction also reflects individual variation in spatial cognition. Parietal regions showed the highest centrality and strongest within-network coherence, marking them as the central hub of the system, and distinguishing them from less central and less coherent domain-general regions. Together, the findings reveal how the brain dynamically decomposes complex spatial instruction, preserving parietal-centered spatial processing, while coordinating support from premotor, domain-general, and language systems. These findings begin to reveal how spatial cognition operates within the complexity of formal instruction.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Functional architecture of the human insula.</title>
+      <link>https://doi.org/10.1038/s41586-026-11175-2</link>
+      <guid isPermaLink="false">doi:10.1038/s41586-026-11175-2</guid>
+      <description>Nature
+
+The insular cortex has a central role in pain1,2 , interoception3,4 and feelings5,6 , yet its functional architecture and causal electrophysiological relationships among its subregions remain poorly understood. Here we combine intracranial electrical stimulation and task-based electroencephalography recordings with connectivity mapping within a cytoarchitectonic atlas of the human insula7-10 in 87 participants implanted with intracranial electrodes, and identify a quadripartite functional architecture comprising four distinct regions: (1) a dorsal-posterior region encoding somatotopically organized nociceptive/thermoceptive and somatosensory signals; (2) a ventral-posterior region with access to somatic information across multiple body parts; (3) a mid-anterior region associated with visceral sensations and anxiety states; and (4) an anterior-polar region, largely silent to direct stimulation, yet showing robust activation during salience detection and change of action mode. Critically, this anterior region, with its strong connections with the prefrontal cortex, including the anterior cingulate cortex, exerts strong and direct influence over other insular regions, while receiving less-strong indirect inputs from them, revealing an electrophysiological pathway for cognitive modulation of pain and bodily perception. Together, these findings define a functional architecture of the human insula that links cytoarchitecture to directed and asymmetric electrophysiological interactions, with mechanistic implications for cognitive modulation of pain and interoceptive experience.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>When brain networks crash: connectivity, slow-wave activity and neural replay in Alzheimer's disease.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107053</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107053</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Brain connectivity disruption is a hallmark of neurodegenerative disorders, including Alzheimer's disease (AD), yet how network breakdown gives rise to cognitive deficits remains unclear. Here, we review the evidence bearing on three interconnected processes that have been proposed to link molecular pathology to cognitive decline. First, we summarize evidence that misfolded proteins propagate along brain connectivity pathways, making the connectome the biological substrate for disease progression. Second, we discuss the divergent trajectory reported across the AD continuum, an initial compensatory hyperconnectivity followed by progressive hypoconnectivity and network collapse, together with the accompanying oscillatory changes (intrusion of slow-wave activity and suppression of fast oscillatory rhythms). Third, we examine the proposal that these oscillatory alterations compromise neural replay mechanisms, critical for memory consolidation, representing the potential link between network dysfunction and cognitive decline. By integrating evidence from human neuroimaging, electrophysiology, and animal models in the AD field, this framework offers new perspectives for therapeutic interventions targeting brain connectivity and replay mechanisms in neurodegenerative diseases.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Thalamocortical dysconnectivity shapes cortical hierarchy disruption across illness durations in schizophrenia.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.010</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.010</guid>
+      <description>Biological psychiatry
+
+Background Schizophrenia is increasingly conceptualized as a disorder of circuit-level dysfunction. However, how thalamocortical abnormalities differ across cohorts with varying illness durations and relate to large-scale cortical hierarchical organization remains unclear. Methods We analyzed resting-state functional magnetic resonance imaging data from 1,223 patients with schizophrenia and 1,224 matched healthy controls across 12 datasets. The datasets were grouped as early-, middle-, and late-stage cohorts. Connectivity gradient mapping was applied to characterize thalamocortical organization, and computational modeling evaluated simulated hierarchical changes after modifying thalamic-salience connectivity. Results We identified a schizophrenia-relevant sensorimotor-salience-association axis that captures systematic differences in thalamocortical abnormality profiles across the stage cohorts. Along this axis, case-control effects in association regions were positive in the early-stage cohort but negative in the middle- and late-stage cohorts, whereas sensorimotor regions showed the converse pattern. This cross-cohort pattern was accompanied by reduced cortical hierarchical separation in cohorts with longer illness duration. In contrast, salience-related thalamic regions showed negative case-control effects in all three stage cohorts, with larger effect sizes in the middle- and late-stage cohorts, and these alterations were associated with clinical symptoms. Computational modification of thalamic-salience connectivity increased simulated cortical hierarchical differentiation, particularly in the middle-stage cohort. Conclusions These findings indicate that thalamocortical dysconnectivity, centered on disrupted thalamic-salience interactions, is associated with systematic differences in cortical hierarchical organization across cohorts. The cross-cohort pattern of salience-related abnormalities highlights thalamic-salience coupling as a circuit-level link to cortical hierarchical differentiation and a candidate for future mechanistic and interventional investigation.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>An insular-orbitofrontal pathway supporting awareness of respiratory effort.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.09.011</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.09.011</guid>
+      <description>Trends in neurosciences
+
+In a recent study using human intracranial EEG recordings during inspiratory loading, Assi and colleagues identified parallel pathways for respiratory compensation and awareness. The anterior insula signals a neuromechanical mismatch to the orbitofrontal cortex for conscious appraisal, while high-frequency insular-frontal coupling enables ventilatory adjustments. The findings are highly relevant for disorders of altered respiratory perception.</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Interpersonal neural synchrony and parent-child behaviors during naturalistic interactions: A systematic review.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107056</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107056</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Interpersonal neural synchrony (INS), defined as the temporal alignment of neural activity between socially interacting individuals, has been proposed as an index of parent-child interaction quality. However, its relationship with moment-to-moment adjustment of parent-child behavior remains insufficiently understood. This systematic review examined associations between INS and observable behavior during naturalistic parent-child interactions, the factors influencing these associations, and the methods used to investigate them. Following PRISMA guidelines, systematic searches of Scopus, PubMed, and ScienceDirect identified 15 peer-reviewed empirical studies involving children from preschool age to early adolescence. INS-behavior associations were heterogeneous across studies. Higher INS was most consistently associated with mutual engagement, shared positive affect, and supportive parenting, whereas findings concerning reciprocity, responsiveness, and child agency were more context-dependent. Time-resolved analyses further indicated that INS fluctuated in relation to specific behavioral events and revealed temporally asymmetric patterns in which parent or child neural activity preceded that of the interaction partner. However, these patterns do not establish causal directionality and may partly reflect shared exposure to task-related or interactional inputs. Task structure and the availability of direct social cues appeared to shape INS-behavior associations, while parental stress and child social functioning emerged as potential sources of variability in INS. Methodologically, the findings highlight the value of combining micro- and macro-level behavioral coding with time-resolved and directionality-sensitive analyses, alongside stronger controls for spurious synchrony and common inputs. Given the limited number and methodological heterogeneity of available studies, the findings should be regarded as preliminary and primarily hypothesis-generating.</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Late Integration of Prior Expectations During Precision-Weighted Perceptual Decisions.</title>
+      <link>https://doi.org/10.1523/jneurosci.0612-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0612-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Adaptive perceptual decision-making relies on the ability to combine sensory evidence with prior expectations in a precision-weighted manner. Although Bayesian inference provides a clear normative account of how such integration should occur, the neural mechanisms through which the brain represents and combines priors and likelihoods remain poorly understood. Across two preregistered experiments, we investigated how the precision of learned priors and sensory likelihoods influence visual motion judgements and associated neural activity patterns during a random-dot motion estimation task. Neurotypical adult participants (N=80, 58 female) reported directions of visual motion stimuli, with motion coherence varying randomly across trials. Prior expectations over the continuous motion direction space were manipulated block-wise by implicitly varying the probabilities with which different motion directions were presented. Consistent with precision-weighted inference, response accuracy improved as motion coherence increased with robust response biases toward the expected motion direction. Neural activity measured using electroencephalography (EEG) revealed reliable effects of prior expectation on the univariate central-parietal positivity (CPP), consistent with reduced accumulation of sensory evidence under informative priors. Multivariate analysis using inverted-encoding models revealed robust effects of prior precision on stimulus-specific neural representations, but only late, during response planning stages. Together, these findings suggest that priors learned over a continuous space do not modulate the encoding of sensory evidence and are instead integrated later in the decision-process.Significance Statement Perceptual decisions require combining noisy sensory input with prior expectations about what is likely to occur. It remains unclear how the brain integrates prior expectations with incoming sensory evidence. Using a visual motion task and concurrent brain imaging, we show that expectations do not alter early stimulus-encoding, but are instead integrated at later stages of decision formation and action planning. These findings add nuance to influential theories proposing that learned expectations directly affect stimulus representations and instead highlight their contribution to later decision-related processes. This work advances understanding of how the brain uses experience to optimise perceptual decisions under uncertainty.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Representation of emotional expressions across the face and voice brain networks.</title>
+      <link>https://doi.org/10.1523/jneurosci.0366-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0366-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Recognizing emotions from faces and voices is fundamental to successful social interaction, yet how the brain represents emotional information across sensory systems remains unclear. Here, we systematically mapped the contribution of individually-defined face- and voice-selective cortical regions in 24 human participants of either sex to unimodal and crossmodal emotion expressions. Using multivariate pattern classification, we show that emotional expressions are robustly decodable from the dominant sensory modality across all individually defined face- and voice-selective areas, and that these representations cannot be accounted for by low- and mid-level stimulus properties alone. Strikingly, emotional information from the non-dominant modality-vocal expressions within face networks and facial expressions within voice networks-was also represented throughout the network, with the exception of the occipital face areas. Crossmodal decoding further revealed a shared neural code for facial and vocal emotions in the temporal voice areas, posterior superior temporal sulcus, and precentral gyrus, indicating that these regions contain emotion representations that generalize across sensory modalities. Furthermore, in most face- and voice-selective regions, audiovisual emotional expressions could be distinguished from representations elicited by the dominant unimodal modality, indicating that bimodal signals are not simply represented as their strongest sensory component. Together, these findings reveal that emotion representations are distributed broadly across face- and voice-selective regions and identify temporo-frontal regions as key sites supporting modality-independent emotion representations.Significance statement Recognizing emotions from faces and voices is essential for everyday social interaction, yet the brain mechanisms that integrate these signals remain poorly understood. Using functional MRI (fMRI) and advanced pattern analyses, we show that emotional expressions are represented widely across both face- and voice-selective brain regions-even when conveyed through a non-preferred sensory modality. Strikingly, specific temporo-frontal regions encode facial and vocal emotions using a partially shared, modality-independent neural code. We further demonstrate that seeing and hearing emotions together reshapes how emotional information is organized in the brain, revealing a graded transition from sensory-specific to multisensory representations. These findings challenge strictly segregated models of emotion processing and provide a more integrated account of how the brain supports social understanding.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>An amygdala-mediated simulation-to-decision cascade aligns interbrain dynamics to solve social dilemmas.</title>
+      <link>https://doi.org/10.1038/s41593-026-02473-z</link>
+      <guid isPermaLink="false">doi:10.1038/s41593-026-02473-z</guid>
+      <description>Nature neuroscience
+
+Mutual cooperation (MC) requires independent decision-makers to coordinate under uncertainty about each other's intentions. Using simultaneous intracranial electroencephalography from epilepsy-patient dyads playing a real-time iterated prisoner's dilemma, we identified neurocognitive mechanisms that enable interacting brains to align during mutual cooperation. Amygdala interbrain representational alignment (IBRA), similarity in fine-grained neural spectral patterns across partners, emerged selectively during MC and predicted trial-by-trial outcomes. Early θ-suppression-characterized IBRA reflected rapid, history-sensitive alignment, whereas later IBRA, characterized by low-frequency suppression and γ increases, supported coordinated commitment and action. Furthermore, mutual cooperation relied on an amygdala-mediated, simulation-to-decision cascade, operationalized here as a model-based prospective estimate of partner cooperation that guided self-choice. Amygdala low-frequency suppression tracked this prospective estimate of partner cooperation and θ-γ coupling linked this partner estimate to self-decision processes. Conditional cooperators strategically relied on partner tracking, whereas unconditional cooperators leveraged dispositional tolerance of uncertainty to transition into anticipatory neural alignment. These findings reveal the neural interdependency underpinning MC, redefining cooperation not as isolated decision-making but as a dynamic, interbrain, cognitive alignment.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Shared cortical morphometry and molecular signatures across depression and physical diseases.</title>
+      <link>https://doi.org/10.1038/s41380-026-03928-2</link>
+      <guid isPermaLink="false">doi:10.1038/s41380-026-03928-2</guid>
+      <description>Molecular psychiatry
+
+Major depressive disorder (MDD) is highly comorbid with physical diseases, suggesting shared neurobiological mechanisms. However, the common structural and molecular substrates underlying this comorbidity remain poorly understood. We analyzed multimodal MRI data from 577 patients (MDD, asthma, fibromyalgia, gastroesophageal reflux disease, type 2 diabetes) and 275 healthy controls, constructed individual morphometric similarity networks (MSN) to identify shared cortical alterations, and applied principal component analysis with multiscale molecular annotation (transcriptomic, cell-type, neurotransmitter, and cognitive mapping) to characterize underlying mechanisms. All patient groups exhibited regional MSN abnormalities. A shared MSN pattern emerged, featuring increased similarity in visual and somatomotor regions and decreased similarity in ventral attention, limbic, and default mode networks, and was replicated in independent cohorts. This pattern was significantly associated with spatial gene expression enriched for synaptic signaling, membrane potential regulation, and neuronal architecture, with predominant expression in excitatory/inhibitory neurons and astrocytes. It further mapped onto specific neurotransmitter systems, with exploratory cognitive decoding suggesting possible relevance to emotion and social cognition. Related genes overlapped with known risk loci for Alzheimer's disease and bipolar disorder. These findings identify a robust across diseases cortical MSN phenotype linked to convergent molecular and neurochemical correlates, offering a framework for studying shared vulnerability and transdiagnostic mechanisms across depression and physical diseases.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Audio long read: How to stay smart in the age of AI - the science of critical thinking.</title>
+      <link>https://doi.org/10.1038/d41586-026-03228-3</link>
+      <guid isPermaLink="false">doi:10.1038/d41586-026-03228-3</guid>
+      <description>Nature
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>EEG Resting-State Beta Band Dynamic Functional Connectivity Reveals State-Dependent Disruption of Language Network Lateralisation in First-Episode Schizophrenia.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109612</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109612</guid>
+      <description>Neuropsychologia
+
+Language disorganisation is a core feature of schizophrenia with significant functional consequences. However, its neurophysiological substrates remain poorly characterised, particularly in the early stages of the illness. This study investigated whether first-episode schizophrenia (FES) is associated with disruption in the organisation of language-network lateralisation, using both static and dynamic functional connectivity metrics in the EEG beta band. Thirty-one FES patients and 32 age-matched healthy volunteer subjects (HVS) underwent resting-state 64-channel EEG. Source-level connectivity was estimated using the weighted phase lag index with sliding windows, yielding 979 connectivity matrices per participant. Brain network states (BNS) were identified via k-means clustering. Static connectivity was obtained by time-averaging. Temporal features, graph-theoretical metrics, and language-network laterality indices were extracted for both whole-network and language-specific analyses. Group comparisons used permutation-based tests with family-wise error correction. Static connectivity yielded no significant group differences in any metric. Dynamic analysis identified six BNS. FES showed a significant increase in the variability of the temporal dynamics and graph-theory features of BNS5, a state characterised by parieto-occipital dominance. The core language network laterality index was significantly reduced in FES within BNS1, a state characterised by auditory-visual dominance. BNS1 occurrence correlated negatively with language disorganisation scores. Dynamic BNS-specific language network metrics correlated with verbal fluency performance exclusively in FES. These findings demonstrate that language dysfunction in early psychosis is expressed as state-dependent disruption of brain network stability and language lateralisation, detectable only through dynamic connectivity analysis.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>A shape deformation-based framework for constructing individualized subcortical morphological networks.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122305</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122305</guid>
+      <description>NeuroImage
+
+Individualized morphological brain networks have emerged as an important framework for imaging-based connectomics. However, existing methods have focused predominantly on the cerebral cortex, leaving subcortical structures largely unexplored despite their central roles in cognition and neuropsychiatric disorders. Here, we developed a novel framework for constructing individualized subcortical morphological networks from structural magnetic resonance imaging. Specifically, subcortical surfaces were reconstructed using a Point2Mesh-optimized multilayer perceptron architecture and vertex-wise shape deformation was quantified as the signed Euclidean distance between each vertex on an individual mesh and the corresponding vertex on the group-average template mesh. Interregional morphological connectivity in local shape deformation distributions was subsequently estimated using Jensen-Shannon Divergence. Applying this approach to the Human Connectome Project dataset, we found that subcortical morphological networks exhibited complex topological organization, including small-world architecture, modular organization, and highly connected hubs, which were consistently preserved at finer subregional scales. Analyses using an independent test-retest dataset further demonstrated fair-to-good reliability of these network properties. Importantly, these shape deformation-based networks showed significant coupling with subcortical functional networks estimated from resting-state functional magnetic resonance imaging. Leveraging large-scale multisite clinical datasets, we further demonstrated alterations of subcortical morphological networks in schizophrenia and major depressive disorder. Schizophrenia was characterized predominantly by right caudate-centered disruptions in morphological connectivity and nodal centrality, whereas major depressive disorder exhibited alterations only in nodal centrality of the right amygdala. Together, these findings establish a novel and reliable framework for investigating subcortical morphological network organization in the human brain across both healthy and psychiatric populations.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Amplitude-conditioned brain dynamics reveal widespread negative modulation and targeted positive modulation of functional networks.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122304</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122304</guid>
+      <description>NeuroImage
+
+Functional connectivity is traditionally characterized through pairwise interactions between brain regions. However, growing evidence suggests that neural communication is also shaped by higher-order interactions in which the activity of a third region modulates the coupling between others. Here, we introduce a whole-brain framework for mapping resting-state nonlinear conditional connectivity from functional MRI. For each cortical region, we quantified how spontaneous amplitude fluctuations modulate the functional connectivity of all other region pairs. This procedure generated a modulation spectrum for every connection, describing connectivity changes across multiple amplitude states of the modulator. From these spectra, we derived four interpretable features capturing modulatory strength, polarity, volatility, and nonlinear complexity. The framework was applied to resting-state data from the Human Connectome Project and evaluated using stationary surrogate models, spatial topography analyses, test-retest reliability assessments, and behavioral prediction. Surrogate analyses demonstrated that the observed modulation spectra could not be explained by static covariance structure or spectral properties alone, indicating genuine state-dependent dynamic interactions. Topographic mapping reveals a profound functional asymmetry: the macroscopic connectome is dominated by widespread negative modulatory influences, with positive modulation restricted to sparse assortative pathways. Furthermore, by evaluating the effect of temporal integration, we show that spatial and temporal aggregation robustly stabilizes these dynamic fluctuations into reliable, individual-specific traits. Finally, employing regularized predictive modeling, we demonstrate that these dynamic modulatory features can provide complementary predictive value beyond conventional static FC, particularly for capturing state-dependent affective traits such as internalizing behavior. Together, this framework unveils a structured, asymmetric, and behaviorally relevant higher-order modulatory architecture.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Subjective emotional ratings dissociate brain activation and network patterns during counterfactual outcome processing.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122303</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122303</guid>
+      <description>NeuroImage
+
+Human decision-making integrates outcome evaluation, counterfactual comparison, and individual traits. We investigated the neural processing of outcome-related emotions during economic decision-making by classifying feedback according to participants' subjective emotional ratings rather than objective gain-loss categories. Participants completed a Wheel of Fortune gambling task during fMRI scanning and provided emotional ratings for feedback outcomes, enabling identification of regret, relief, disappointment, and elation. We also assessed individual differences in regret proneness, maximization tendencies, alternative search, high standards, and decision difficulty. Behaviorally, emotional ratings increased with larger obtained outcomes and decreased as reference outcomes increased, indicating robust modulation of outcome evaluation by counterfactual information Whole-brain analyses revealed greater activation for low-rating than high-rating outcomes, indicating stronger neural responses to negative than positive emotions across feedback types. Complete feedback also elicited greater activation than partial feedback within the same emotional valence. Network-level analyses revealed partially dissociable neural profiles for positive and negative emotions. Positive emotions, including elation and relief, predominantly recruited the somatomotor network, whereas negative emotions, including disappointment and regret, engaged broader distributions across the default mode, dorsal attention, and other large-scale networks. Regret elicited the largest activation extent, whereas elation elicited the smallest. Region-of-interest analyses showed that bilateral orbitofrontal cortex (OFC) responses were significantly greater for negative than positive emotions and for complete than partial feedback conditions. Across all four emotions, right OFC activation was negatively associated with maximization. For elation, relief, and disappointment, right OFC activation was also negatively associated with alternative search and decision difficulty, whereas these associations were absent for regret. Together, these findings demonstrate that subjective emotional evaluation, counterfactual context, and decision-related traits jointly shape the neural processing of decision outcomes, while suggesting relatively trait-independent neural processing of regret.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Parietal Structural and Functional Differentiation Associated with Visual Tracking Across Motor Participation Profiles.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122302</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122302</guid>
+      <description>NeuroImage
+
+Purpose This study aimed to examine whether structural and resting-state functional measures of parietal subregions differ across predefined motor participation groups with comparable physical activity levels, and whether these neural measures are associated with visual tracking performance. Methods We adopted an a priori motor-cognitive grouping framework and recruited athletes accordingly, using two representative sports as operational exemplars for each profile: (1) externally driven spatial updating and action planning (ESU; basketball and taekwondo), (2) body-environment calibration and rhythmic sensorimotor integration (SCP; skating and running), and 3) internally guided control and sustained attentional precision (IPS; tai chi and shooting). A sedentary control group (CON) with low habitual physical activity was also recruited. In total, 80 college students participated. Physical activity (PA) was assessed using a standardized questionnaire. All participants underwent structural MRI and resting-state fMRI to derive gray matter volume (GMV), fractional amplitude of low-frequency fluctuations (fALFF), degree centrality (DC), regional homogeneity (ReHo), and functional connectivity (FC) within parietal subregions (S1, SPL, AG, and SMG). Supplementary SPL-based FC analyses further examined connectivity with regions of the broader visuospatial and sensorimotor network. Visual tracking was assessed using a multiple object tracking (MOT) task across three difficulty levels. Results PA levels were significantly higher in all athlete groups than in sedentary controls, with no differences among athlete groups. Across structural and resting-state functional measures, the most consistent group differences were selectively concentrated in S1 and SPL, whereas effects involving other parietal regions were less consistent across measures. Specifically, the ESU group exhibited the highest bilateral S1 GMV, the SCP group showed the highest bilateral SPL GMV, and the IPS group demonstrated the highest fALFF in both S1 and SPL. The IPS group also showed the highest ReHo in bilateral SPL. FC differed significantly across several parietal connections, with distinct connectivity patterns across the three athlete groups. MOT accuracy differed significantly across groups at all difficulty levels, with the ESU and IPS groups outperforming the SCP and CON groups overall. Across all participants, multiple S1 and SPL metrics showed modest associations with MOT performance (r = 0.20-0.40). Within athlete subgroups, stronger and task-specific associations were observed, particularly in the SCP and IPS groups (r = 0.50-0.80). Conclusions These findings identify distinct structural and functional patterns predominantly involving S1 and SPL across different motor participation profiles, despite comparable overall physical activity levels among the athlete groups. Such parietal differences are accompanied by difficulty-dependent differences in visual tracking performance and heterogeneous brain-behavior associations. Together, the results highlight S1 and SPL as the parietal regions showing the most consistent differentiation across structural and functional measures in association with distinct motor participation profiles and visual tracking performance, and provide a focused empirical basis for future investigations into the sources of this heterogeneity.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Precise modeling of task-related sensorimotor activation based on simultaneous surface electromyography.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122300</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122300</guid>
+      <description>NeuroImage
+
+The aim of this study was to evaluate the relationship between motor control of ankle movements and actual motor performance using simultaneous functional magnetic resonance imaging (fMRI) and surface electromyography (EMG) in healthy individuals. Twenty participants performed dorsi-/plantarflexion of the ankle (Ankle) and gait imagery in a block design during fMRI. First-level models consisting of task regressors included either orthogonalized accelerometry (Acc) from the foot, EMG from the tibialis anterior, EMG with Acc, EMG split across conditions, or none. Each model was additionally evaluated either by default with or without a temporal derivative (TD) of the ankle movement task regressor. Voxel-wise and post-hoc region-of-interest (ROI) analyses revealed that both Acc and EMG explained fMRI signal in the primary sensorimotor cortices, while EMG was additionally associated with activation in the cerebellar vermis and the secondary somatosensory cortex. The two latter findings were, however, neither reproduced when separating the signal fluctuations during rest and gait imagery nor reflected in pairwise comparisons. Leaving out the TD reduced each model's performance by increasing unexplained variance, but resulted in more signal being explained by the EMG or Acc in the cerebellum, reflecting that it preferentially exhibited brief signal changes during transitions between conditions. Taken together, both EMG and Acc enabled capturing specific brain activity related to the movement variability; however, including the TD may significantly affect the ability to detect EMG- or Acc-related signal in regions with transient fMRI responses sensitive to changes in movement context, such as the cerebellum.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Interplay of action-based prediction and top-down attention: EEG evidence for joint modulation of late perceptual processing.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122293</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122293</guid>
+      <description>NeuroImage
+
+Voluntary action shapes our perception through sensory predictions of its consequences. These predictions are thought to inhibit perceptual processing of predicted outcomes, leading to sensory attenuation. However, some studies have reported findings that contrast with this effect, suggesting that the influence of predictions may reflect, or interact with, attentional processes. Here, we investigated the interplay of action-based prediction and top-down attention on early and late perceptual processing, with prediction and attention referring to the likelihood of a sensory event and its behavioral relevance, respectively. Electroencephalography (EEG) was recorded while participants viewed two sequential gratings. The orientation of the first was either predicted and self-generated or unpredicted and externally generated. Participants judged the tilt direction of the second grating relative to the first but responded only when the grating appeared in a task-relevant color. EEG analyses revealed no modulation of early visual potentials (N1a), but modulations at later processing stages. Specifically, the P3b exhibited reduced amplitude for predicted compared to unpredicted stimuli, but only when they were task-relevant, whereas task-relevance enhanced the P3b only for unpredicted stimuli. Interestingly, multivariate pattern analysis showed significant temporal clusters for decoding the grating's orientation exclusively for predicted and task-relevant stimuli, although decoding performance did not significantly differ between conditions. Furthermore, predicted and task-relevant stimuli elicited faster behavioral responses, with prediction-related P3b latency differences correlating with reaction-time differences. Overall, converging findings from the P3b, multivariate, time-frequency and behavioral analyses provide suggestive evidence that top-down attention and action-based prediction may jointly facilitate late perceptual and decision-related processing.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Stage- and context-dependent modulation of fear memory by oxytocin: Neurobiological mechanisms and implications for PTSD.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107050</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107050</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Post-traumatic stress disorder (PTSD) is a multifactorial psychiatric condition characterized by re-experiencing, avoidance, hyperarousal, negative alterations in cognition and mood, and disturbances in social and emotional functioning. Within this broader clinical syndrome, persistent traumatic memories and excessive fear generalization represent important mechanistic and therapeutic domains. Despite substantial advances in understanding its neurobiological basis, current treatments remain suboptimal, with limited efficacy and high dropout rates. The neuropeptide oxytocin (OXT), a key modulator of social behavior, stress regulation, and memory, has been investigated as a potential therapeutic target. Accumulating evidence indicates that severe trauma profoundly disrupts endogenous OXTergic signaling, whereas pharmacological studies suggest that exogenous OXT can modulate fear-memory processing through region-, dose-, route-, and context-dependent mechanisms. Evidence from fear-conditioning indicates that across acquisition, consolidation, retrieval, reconsolidation, and extinction, the direction of OXT's effects is heterogeneous rather than uniformly anxiolytic and pro-extinction. OXT may influence threat discrimination, fear expression, memory updating, and extinction by modulating specific neural circuits and neurochemical pathways. However, most preclinical models capture selected dimensions of PTSD rather than the full clinical disorder. Human studies further indicate that intranasal OXT can modulate neural, physiological, and social-cognitive processes relevant to PTSD, although evidence for consistent clinical efficacy remains limited and heterogeneous. This review synthesizes current findings on OXT and its synthetic analogs within a stage- and context-dependent framework to better investigate their heterogeneous effects and assess their potential relevance and translational limitations in PTSD.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Facial emotion recognition of sadness relates to superior parietal gray matter volume in mild cognitive impairment.</title>
+      <link>https://doi.org/10.1007/s00429-026-03215-4</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03215-4</guid>
+      <description>Brain structure &amp; function
+
+Mild cognitive impairment (MCI) is associated with early, regionally selective neurodegenerative changes that may affect socioemotional functioning before atrophy becomes widespread. This study examined whether structural brain alterations in MCI relate to facial emotion recognition performance. Sixty adults (30 MCI, 30 healthy controls), aged 50-86 years, completed neuropsychological testing, the Facial emotion composite Task, and structural MRI. Whole-brain voxel-based morphometry revealed no significant gray matter volume differences between groups. However, targeted region-of-interest ROI analyses demonstrated lower right amygdala and bilateral hippocampal volumes in patients with MCI. Cortical thickness analyses identified two regions with lower thickness in MCI: the right superior parietal lobule and the left posterior insula. A significant Group × Sadness interaction indicated that the association between left superior parietal gray matter volume and sadness recognition differed between groups. Follow-up analyses of the extracted values showed a positive association in MCI, although this within-group association did not reach statistical significance, and a significant inverse association in HCs. These findings suggest that early MCI involves selective thinning in association cortices supporting attention and salience processing. The sadness-specific interaction indicates that patients with MCI may rely on preserved superior parietal structure during sadness recognition, a pattern that is consistent with structural reserve accounts, although this interpretation remains speculative given the cross-sectional design.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Reward sensitivity is negatively associated with future self-continuity: the mediation role of functional connectivity between the dorsomedial prefrontal cortex and ventrolateral prefrontal cortex.</title>
+      <link>https://doi.org/10.1007/s00429-026-03212-7</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03212-7</guid>
+      <description>Brain structure &amp; function
+
+Reward Sensitivity refers to individual differences in the perception, evaluation, and emotional response to potential or acquired rewarding stimuli. Future self-continuity refers to the degree of psychological connection, identification, and consistency that individuals perceive between their present self and future self. Although both constructs are known to critically influence intertemporal decision-making and self-control, the shared neurobiological mechanisms linking them remain largely unexplored. To address this question, we used voxel-based morphometry and resting-state functional connectivity analyses to investigate the neural basis underlying the association between reward sensitivity and future self-continuity. Behavioral results showed reward sensitivity exhibited a significant negative correlation with future self-continuity. Moreover, voxel-based morphometry (VBM) revealed that reward sensitivity was negatively associated with gray matter volume in the dorsomedial prefrontal cortex (dmPFC). Furthermore, resting-state functional connectivity (RSFC) analysis demonstrated that the functional connectivity between the dmPFC and the ventrolateral prefrontal cortex (vlPFC) was positively correlated with reward sensitivity. Ultimately, mediation analysis revealed a positive indirect effect, indicating that this dmPFC-vlPFC connectivity acted as a protective neural factor in the negative relationship between reward sensitivity and future self-continuity. In conclusion, the current research offered novel insights into the impact of reward sensitivity on future self-continuity, advancing our understanding of this behavioral connection from a neurobiological perspective.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Brain imaging in dystrophinopathies.</title>
+      <link>https://doi.org/10.1007/s00415-026-14215-z</link>
+      <guid isPermaLink="false">doi:10.1007/s00415-026-14215-z</guid>
+      <description>Journal of neurology
+
+Duchenne and Becker muscular dystrophies (DMD, BMD) are caused by genetic variants in the DMD gene coding dystrophin proteins. In addition to the impairment of muscular function, these patients also present frequent cognitive and neuropsychiatric disorders due to impaired expression of several brain dystrophins: Dp427, Dp140 and Dp71. Cerebral imaging has shed new light on the impact of dystrophinopathies on brain structure, function, and connectivity. We review the brain imaging results obtained in patients and divers animal models, showing presence of mild cortical atrophy, slight modifications of structures volumes, decreased cerebral blood flood, white matter microstructure alterations, brain hypometabolism, altered connectivity, and an abnormal cerebral response to stress. We further discuss the putative progression of cerebral disorders, and their variable severity when Dp140 expression is affected in addition to that of Dp427. Some correlations between imaging parameters and cognitive and psychological impairments have been reported but remain to be confirmed.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Midlife and Late-Life Alzheimer Disease Blood Biomarkers and 11-Year Cognitive Decline.</title>
+      <link>https://doi.org/10.1212/wnl.0000000000218692</link>
+      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218692</guid>
+      <description>Neurology
+
+Background and objectives Plasma biomarkers of Alzheimer disease (AD) neuropathology (amyloid-β42 to amyloid β40 [Aβ42/40] ratio, phosphorylated tau at threonine [p-tau181]), neurodegeneration (neurofilament light [NfL]), and neuroinflammation (glial fibrillary acidic protein [GFAP]) in late-life are associated with cognitive decline. Whether these biomarkers in midlife are predictive of subsequent cognitive decline, and whether they are associated with different cognitive domains, is uncertain. In this study, we investigated associations of midlife and late-life plasma Aβ42/40, p-tau181, NfL, and GFAP with late-life change in domain-specific (memory, language, and executive function) and global cognitive function. Methods We performed a prospective cohort analysis of the Atherosclerosis Risk in Communities Neurocognitive Study (ARIC-NCS). Outcome follow-up was from ARIC visit 5 (2011-2013) to visit 9 (2021-2022). We included all individuals from ARIC field centers (Jackson, Mississippi; Forsyth County, North Carolina; Washington County, Maryland; and Minneapolis suburbs, Minnesota) with biomarkers measured from stored specimens in midlife (visit 3, 1993-1995, mean age 59.0 years) and late-life (visit 5, 2011-2013, mean age 76.8 years). Aβ42/40, p-tau181, NfL, and GFAP were measured with the Quanterix Simoa platform and standardized to visit 3 to facilitate cross-biomarker comparisons of their rate of change from midlife to late-life. We estimated change in memory, language, executive function, and global cognition factor scores from visit 5 to visit 9 with linear mixed-effect models. Results In 1,515 included participants, 60.7% (n = 920) were female and 25.5% (n = 387) were Black. Each SD increase in p-tau181 in midlife was significantly associated with faster late-life memory decline (β = -0.030 [95% CI -0.059 to -0.001] SD. Midlife Aβ42/40, NfL, and GFAP were not associated with subsequent decline in any cognitive domain. In late-life, p-tau181, NfL, and GFAP were significantly associated with faster decline in different cognitive domains, with the strongest associations seen with memory (β = -0.091 [95% CI -0.123 to -0.058] SD; β = -0.064 [95% CI -0.106 to -0.023] SD; and β = -0.048 [95% CI -0.082 to -0.013] SD, respectively). Discussion Midlife p-tau181 was associated with faster 11-year memory decline beginning 20 years later in the ARIC cohort, which underscores a potentially long prodromal phase of cognitive decline that could precede dementia onset. In late-life, biomarkers for AD, neurodegeneration, and neuroinflammation were associated with faster decline across different cognitive domains, but associations remained strongest for p-tau181 and memory.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Mentalizing from self and friend perspectives: Relations between inter-brain neural similarity, affective similarity and social anxiety symptoms.</title>
+      <link>https://doi.org/10.1162/imag.a.1403</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1403</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Social interactions are dynamic and complex, relying on tracking variation in your own and your partner's affective and mental states. Being "in-sync" neurally and building a shared consensus can mark successful social interactions. In addition, social anxiety can impact social experiences. We used a novel, naturalistic paradigm to investigate relations between inter-brain neural similarity within mentalizing regions, affective similarity, and social anxiety symptoms. Undergraduate student friend pairs (N = 34, 85% White, 65% Women) engaged in a social interaction while videos captured from their individual perspectives were recorded. Participants watched clips of the social interaction from both their own perspective (their personal view of the social interaction) and their friend's perspective (their friend's personal view of the social interaction) while fMRI data were collected. They rated their affect after each clip. Inter-brain neural similarity was computed across three conditions: 1) Same-Stimuli: both participants viewed identical visual stimuli as in a traditional neural similarity paradigm, 2) Self-Perspective: both participants viewed the clip from their own perspective like the originally experienced social interaction, and 3) Friend-Perspective: both participants viewed the clip from their friend's perspective, a novel perspective. Participants self-reported their social anxiety symptoms, and affective similarity captured affect rating concordance within dyads. In contrast to the Same-Stimuli condition, when participants viewed the clips like they originally experienced the social interaction (Self-Perspective), greater affective similarity was associated with greater inter-brain neural similarity. When participants viewed the clips from a novel perspective (Friend-Perspective), participants lower in social anxiety symptoms exhibited greater inter-brain neural similarity with greater affective similarity; whereas participants higher in social anxiety symptoms exhibited greater inter-brain neural similarity with less affective similarity. The results suggest stimuli from socially relevant perspectives, rather than identical stimuli, may reveal more nuanced brain-behavior dynamics, allowing for a better understanding of individual differences in socioemotional experience.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Bridging language phenotypes, neural dynamics and gene regulation in autism.</title>
+      <link>https://doi.org/10.1162/imag.a.1396</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1396</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Autism Spectrum Disorders (ASDs) affect approximately 1% of the global population, with prevalence rising over recent decades. Although ASDs are heritable (~70%), translating genetic findings into effective therapeutics remains challenging due to the vast number of implicated risk genes (&gt;700) and the limited influence of individual genes on disease expression. Their collective impact and convergent expression patterns of small-effect genes provide insights into ASD-related neurobiological mechanisms. Current interventions remain symptom-focused and do not address underlying neurodevelopmental mechanisms. Emerging approaches in functional genomics offer new insights into ASD pathogenesis by exploring gene expression diversity, yet clinical applications remain distant. Language deficits are among the most frequent and disabling features of ASD, profoundly affecting individuals' and families' quality of life. Recent evidence from neuroimaging and electrophysiology studies suggests disrupted neural oscillatory dynamics are linked to language deficits in ASD. Several ASD-associated genes have been implicated in biological pathways involved in the regulation of brain oscillatory dynamics, suggesting a potential mechanistic link between genetic variation, altered brain rhythms, and language impairment. We propose a neurophysiological imaging genetics framework that leverages neural oscillatory profiles as endophenotypes for targeted investigation and as functional readouts of gene expression. Within this framework, neuromodulation is proposed as an experimental approach to investigate and potentially modulate altered oscillatory dynamics associated with speech communication deficits in ASD, while integrating oscillation-related ASD candidate genes into a symptom-oriented model of functional genomics. This approach shows how integrating genetic variation, non-invasive neuroimaging, and behavioral phenotypes can advance our understanding of ASD and inform targeted, mechanism-based interventions.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Infant hippocampal and amygdala volume in an observational follow-up from a randomized clinical trial for maternal prenatal depression.</title>
+      <link>https://doi.org/10.1038/s41467-026-78276-4</link>
+      <guid isPermaLink="false">doi:10.1038/s41467-026-78276-4</guid>
+      <description>Nature communications
+
+Prenatal maternal depression may have intergenerational effects on offspring brain development, with potential socioemotional consequences. This observational follow-up study examines brain development and subsequent negative emotionality among 109 infants born to mothers participating in a randomized clinical trial (NCT03011801). In the prior trial, brief interpersonal psychotherapy significantly reduced prenatal depression symptoms and disorder as the published primary and secondary endpoints. Exploratory infant outcomes include hippocampal and amygdala volumes at 6 weeks and negative emotionality at 6 months. Here we show that infants of mothers randomized to interpersonal psychotherapy during pregnancy have lower right hippocampal volume than infants of mothers in the enhanced usual care group (p = .002, d = 0.62). No statistically significant group differences are observed in left hippocampal or amygdala volume. Smaller hippocampal volume predicts subsequent lower negative emotionality (r = 0.19, p = 0.045). In this study, a maternal prenatal depression intervention is associated with differences in infant brain development with implications for their subsequent emotional health.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Memory stays strong in old age when this brain enzyme is active.</title>
+      <link>https://doi.org/10.1038/d41586-026-03303-9</link>
+      <guid isPermaLink="false">doi:10.1038/d41586-026-03303-9</guid>
+      <description>Nature
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Decoding spatial attention in the cocktail party problem using whole-head high-density fNIRS.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122292</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122292</guid>
+      <description>NeuroImage
+
+Spatial attention is critical for solving the cocktail party problem, a longstanding problem in neuroscience and artificial speech recognition. The ability to decode where humans are attending in a cocktail party like scene would empower applications in brain computer interfaces and assistive devices such as hearing aids. Here we demonstrate that, in an overt attention task, the attended spatial location can be decoded robustly from single trial hemodynamic responses, using a whole head high density fNIRS system. We also identify critical brain regions that make the highest contribution to decoding accuracy. Specifically, we find that decoding based on a small fraction of channels located within the left and right inferior parietal lobule (IPL) achieves maximal decoding accuracy comparable to all channels. Decoding fell close to chance in a covert auditory condition in which participants held central fixation while attending to the same talkers, indicating that auditory attention alone without orientation is not sufficient for decoding. Finally, control experiments suggest that overt-condition decoding is influenced by sustained eye position/gaze direction, not eye movement. These results support the development of fNIRS-integrated BCIs and assistive devices controlled by overt spatial attention.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Neural dynamics of auditory attention: Interactions between top-down and bottom-up processes.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122285</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122285</guid>
+      <description>NeuroImage
+
+Auditory attention allows listeners to navigate complex acoustic environments by prioritizing behaviorally-relevant sounds while limiting interference from competing input. This process is guided by a dynamic interplay between top-down attention, driven by behavioral goals and expectations, and bottom-up attention, triggered by stimulus-driven salience. Although this distinction remains useful at a conceptual level, growing evidence suggests that auditory attention emerges from continuous interactions between goal-directed and stimulus-driven processes that recruit partially overlapping neural systems and vary with task demands, stimulus properties, and prior experience. This review focuses on the neural mechanisms underlying attentional control and interactions between top-down and bottom-up auditory attention. It synthesizesevidence from neurophysiological, behavioral, and neuroimaging studies and explores how top-down control modulates the neural processing and attentional impact of salient input, how bottom-up signals override attentional focus, and how these interactions are shaped by task demands and individual cognitive capacity. The findings synthesized here support a view of auditory attention as a flexible and adaptive system, whose operation emerges from context-dependent interactions, with important implications for models of attention and real-world listening behaviors.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Reorienting TMS treatments for fear memories and posttraumatic stress disorder. The emerging potential of the anterior prefrontal cortex.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107054</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107054</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Posttraumatic stress disorder (PTSD) is characterized by re-experiencing trauma through vivid and involuntary intrusions, avoidance of cues that could trigger traumatic memories, and alterations in mood and cognition. Transcranial magnetic stimulation (TMS) offers a promising approach to modulating activity and functional coupling within neural circuits underlying these processes. To date, TMS studies in fear-conditioning research and PTSD have mainly focused on dorsolateral prefrontal cortex (dlPFC) and ventromedial (vmPFC)-connected or broader medial-prefrontal (mPFC) targets, yielding encouraging but heterogeneous effects on posttraumatic symptoms. In parallel, emerging evidence has implicated the anterior prefrontal cortex (aPFC; Brodmann area 10) in threat- and trauma-related processes, including memory retrieval, higher-order control of defensive responding, adaptive strategy selection, and resilience. Whereas the dlPFC and vmPFC have been incorporated into mechanistic models of fear regulation, the aPFC has received limited attention in theoretical frameworks of fear and PTSD. Here, we review TMS studies organized around dlPFC, vmPFC-connected or mPFC, and aPFC neuroanatomical targets, integrating evidence from experimental and clinical research. Based on the hierarchical model of prefrontal organization, we argue that these regions represent potential TMS targets or circuit nodes, but likely act on partially distinct mechanisms. The vmPFC appears primarily involved in early automatic downregulation of defensive responses; the dlPFC may support cognitive control strategies such as reappraisal; and the aPFC may enable a supraordinate influence over higher-order representations and avoidance-related circuitry, as well as flexible selection of emotion-regulation strategies. We conclude that integrating the aPFC into this framework may guide next-generation, mechanistically-informed TMS treatments for PTSD.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+  </channel>
+</rss>
