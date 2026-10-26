@@ -16,9 +16,9 @@ on:
         type: boolean
         default: false
   schedule:
-    # Lightweight checks before/around morning compensate for delayed events.
-    # The gate permits only one successful collection/day, not before 07:50.
-    - cron: '10,25,40,55 3-10 * * *'
+    # Lightweight checks span the previous evening and early morning to absorb delays.
+    # The gate permits only one successful collection/day, not before 02:50.
+    - cron: '10,25,40,55 0-5,22-23 * * *'
       timezone: 'Asia/Shanghai'
   push:
     branches: [main]

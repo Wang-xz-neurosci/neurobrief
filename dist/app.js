@@ -185,7 +185,7 @@
     $("update-mode").textContent=`${intakeDay===today ? "本日" : intakeDay ? intakeDay.slice(5).replace("-","/")+" " : "本次"}收录文献 ${data.update_summary?.new_papers ?? 0} 篇`;
     $("update-mode").title="按北京时间统计该更新日首次进入本站的去重文献；包含延迟收录的文章，不等于当天发表数量。";
     $("about-meta").textContent=`首次回溯起点：${data.initial_coverage_start}。最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）。`;
-    if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 08:00 左右自动采集并部署；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。"; }
+    if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 03:00 左右自动采集并部署；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。"; }
     const age=(Date.now()-stamp.getTime())/86400000;
     if(age>2){$("notice").hidden=false;$("notice").textContent=`文献库已超过 ${Math.floor(age)} 天未成功更新。当前显示已保存的数据，请检查更新任务。`;}
     render();
