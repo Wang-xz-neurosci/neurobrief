@@ -39,6 +39,8 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     policy = read(ROOT / "config/update_policy.json")
     status = read(ROOT / "dist/update-status.json")
+    relevance = read(ROOT / "config/relevance.json")
+    migration = bool(relevance.get('migration_id') and status.get('relevance_version') != relevance.get('version'))
     cooldown = read(ROOT / "data/source_cooldown.json")
     decision = decide(args.event, now, status, policy, force=args.force, cooldown=cooldown)
     if args.event == "schedule" and decision["deploy"] and not decision["collect"]:
@@ -52,7 +54,8 @@ def main():
     print(decision["reason"])
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
-            for key in ("collect", "deploy"):
+            decision['migration'] = migration
+            for key in ("collect", "deploy", "migration"):
                 output.write(f"{key}={str(decision[key]).lower()}\n")
 
 

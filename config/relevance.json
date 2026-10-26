@@ -1,0 +1,10 @@
+{
+  "version": "human-cognition-v1",
+  "migration_id": "scope-migration-2026-10",
+  "model": "deepseek-flash",
+  "workers": 8,
+  "max_output_tokens": 450,
+  "max_run_seconds": 2400,
+  "max_per_run": 7000,
+  "max_abstract_chars": 24000
+}

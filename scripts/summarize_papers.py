@@ -97,6 +97,8 @@ def estimate_reservation(messages, settings):
 
 
 def budget_group(p, settings):
+    if settings.get("run_budget_group"):
+        return settings["run_budget_group"]
     backfill = settings.get("backfill", {})
     stamp = p.get("first_seen", "")
     if stamp and backfill:
@@ -113,10 +115,13 @@ def within_budget(cache, day, reserve, settings, group=None):
         return False
     if group:
         backfill = settings.get("backfill", {})
-        if group != backfill.get("id"):
+        limit = settings.get("budget_groups", {}).get(group)
+        if group == backfill.get("id"):
+            limit = backfill["budget_cny"]
+        if limit is None:
             return False
         spent = sum(x["budget_charge_cny"] for x in ledger if x.get("budget_group") == group)
-        return spent + reserve <= backfill["budget_cny"]
+        return spent + reserve <= limit
     daily = sum(x["budget_charge_cny"] for x in ledger if x["date"] == day and not x.get("budget_group"))
     return daily + reserve <= settings["daily_budget_cny"]
 
@@ -195,13 +200,13 @@ def receive_result(p, result, cache, settings, ledger):
     ledger.update(status="success", summary_chars=len(summary))
 
 
-def checkpoint_cache(cache_path):
+def checkpoint_cache(cache_path, additional=None):
     """Keep paid results durable while a long cloud backfill is running."""
     if os.environ.get("GITHUB_ACTIONS") != "true" or cache_path.resolve() != (ROOT / "data/summary_cache.json").resolve():
         raise RuntimeError("Cloud checkpoint requires the known Actions cache path")
     commands = [["git", "config", "user.name", "github-actions[bot]"],
                 ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
-                ["git", "add", "data/summary_cache.json"],
+                ["git", "add", "data/summary_cache.json", *(additional or [])],
                 ["git", "commit", "-m", "Checkpoint automatic Chinese summaries"],
                 ["git", "pull", "--rebase", "--autostash", "origin", "main"], ["git", "push"]]
     for command in commands:
@@ -308,10 +313,13 @@ def main():
     parser.add_argument("--key-stdin", action="store_true")
     parser.add_argument("--retry-rejected", action="store_true", help="Explicitly retry held/error items; never repeats a valid cached summary")
     parser.add_argument("--checkpoint-every", type=int, default=0)
+    parser.add_argument("--migration", action="store_true")
     parser.add_argument("--data", type=Path, default=ROOT / "dist/data.json")
     parser.add_argument("--cache", type=Path, default=ROOT / "data/summary_cache.json")
     args = parser.parse_args()
     settings = json.loads((ROOT / "config/summaries.json").read_text(encoding="utf-8"))
+    if args.migration:
+        settings["run_budget_group"] = "scope-migration-2026-10"
     data = json.loads(args.data.read_text(encoding="utf-8"))
     cache = json.loads(args.cache.read_text(encoding="utf-8")) if args.cache.exists() else {"schema_version": 1, "entries": {}, "ledger": []}
     if args.key_stdin and sys.stdin.isatty():

@@ -1,26 +1,25 @@
 """Apply saved classification/display rules without retrieving older literature."""
 import json
 from pathlib import Path
-import update_papers as updater
+import review_papers as review
+import summarize_papers as summaries
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def refresh(data, config):
-    rebuilt = updater.build_dataset(data, [], config, data["as_of"], data["updated_at"])
-    for key in ("papers", "topics", "monitored_journals", "classification_version", "classification_fingerprint"):
-        data[key] = rebuilt[key]
-    for report in data["queries"]:
-        if report["topic"] in {t["id"] for t in config["topics"]}:
-            report["retained_topic_count"] = sum(report["topic"] in p["topics"] for p in data["papers"])
-    return data
+    settings = json.loads((ROOT/'config/relevance.json').read_text(encoding='utf-8'))
+    path = ROOT/'data/relevance_cache.json'
+    cache = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'entries':{}}
+    return review.apply_reviews(data,cache,settings,config)
 
 
 def main():
     path = ROOT / "dist/data.json"
-    data = refresh(json.loads(path.read_text(encoding="utf-8")), json.loads((ROOT / "config/topics.json").read_text(encoding="utf-8")))
+    source = ROOT/'data/candidates.json'
+    data = refresh(json.loads((source if source.exists() else path).read_text(encoding="utf-8")), json.loads((ROOT / "config/topics.json").read_text(encoding="utf-8")))
     path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    status = {"schema_version": 1, "collection_date": data["update_summary"]["date"], "collected_at": data["updated_at"]}
+    status = {"schema_version": 1, "collection_date": data["update_summary"]["date"], "collected_at": data["updated_at"], "relevance_version":data['relevance_status']['version']}
     (ROOT / "dist/update-status.json").write_text(json.dumps(status, separators=(",", ":")) + "\n", encoding="utf-8")
     print("Refreshed saved metadata; collection date and first-seen dates preserved. No source requests.")
 

@@ -18,3 +18,5 @@
 /* Full-width archive reminder in the footer. */
 .periods{flex-wrap:wrap}footer{display:block}.footer-archive p{font-size:13px;line-height:1.9;color:var(--muted);margin:0}.footer-archive .archive-date{margin-top:8px}.footer-archive strong{font-weight:700;color:#50694e}footer .footer-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:9px;margin-top:12px}footer .footer-about{padding:0}
 @media(max-width:760px){.footer-archive p{font-size:12px}}
+
+.topic-dot.cognition{background:#8b7c98}.tag.cognition{color:#6a5b77;background:#efebf2}

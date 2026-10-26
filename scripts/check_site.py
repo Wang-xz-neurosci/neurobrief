@@ -5,8 +5,11 @@ import importlib.util
 from pathlib import Path
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
+import sys
 
 root = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(root/'scripts'))
+import review_papers as review
 for name in ["index.html", "styles.css", "app.js", "favicon.svg", "brain-mark.svg", "data.json", "update-status.json"]:
     assert (root / "dist" / name).is_file(), f"Missing {name}"
 data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
@@ -24,7 +27,7 @@ assert topic_ids == {t["id"] for t in config["topics"]}, "Dataset taxonomy is ou
 spec = importlib.util.spec_from_file_location("updater", root / "scripts" / "update_papers.py")
 updater = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(updater)
-assert data.get("classification_fingerprint") == updater.classification_fingerprint(config), "Run collection after changing topic rules"
+assert data.get("classification_fingerprint") == updater.classification_fingerprint(config), "Refresh classifications after changing rules"
 assert data["initial_coverage_start"] == config["coverage_start"]
 assert len(data["queries"]) == len(config["topics"]) + 1, "Missing journal safety sweep"
 assert data["queries"][-1]["topic"] == "journal-sweep"
@@ -49,12 +52,13 @@ for p in data["papers"]:
     assert p["methods"] and set(p["methods"]) <= {"fMRI", "DTI", "EEG", "MEG", "颅内电生理", "其他"}
     assert p["methods"] == updater.detect_methods(updater.method_text(p)), "Stale method labels"
     assert "其他" not in p["methods"] or p["methods"] == ["其他"]
-    if "brain-disorders" in p["topics"]:
-        assert updater.clinical_imaging_study(p), "Clinical imaging gate bypassed"
+    if set(p['topics']) & {'brain-disorders','cognition'}:
+        assert p['is_monitored_journal'] and not p['is_preprint'], 'Journal scope bypassed'
     assert urlparse(p["url"]).scheme == "https"
     assert urlparse(p["source_url"]).netloc == "europepmc.org"
     assert "<script" not in p["abstract"].lower()
-    assert p["topics"] == updater.classify(p, config["topics"])["topics"], "Paper classification is out of date"
+    assert not updater.basic_exclusion(p), 'Basic exclusion bypassed'
+    assert p.get('relevance',{}).get('status') in ('included','uncertain','pending','missing_abstract')
     if p.get("summary_zh"):
         assert p["summary_zh"].strip() and p.get("summary_meta", {}).get("source_hash")
         expected = updater.hashlib.sha256((p["title"] + "\n" + p["abstract"]).encode()).hexdigest()
@@ -64,6 +68,17 @@ assert data["summary_status"]["mode"] == "automatic"
 assert data["summary_status"]["ready"] == sum(bool(p.get("summary_zh")) for p in data["papers"])
 assert data["summary_status"]["eligible"] == sum(bool(p.get("abstract", "").strip()) for p in data["papers"])
 assert data["summary_status"]["no_abstract"] + data["summary_status"]["eligible"] == len(data["papers"])
+review_settings=json.loads((root/'config/relevance.json').read_text(encoding='utf-8'))
+cache_path=root/'data/relevance_cache.json'
+cache=json.loads(cache_path.read_text(encoding='utf-8')) if cache_path.exists() else {'entries':{}}
+candidates=json.loads((root/'data/candidates.json').read_text(encoding='utf-8'))
+expected=review.apply_reviews(candidates,cache,review_settings,config)
+assert [(p['id'],p['topics']) for p in expected['papers']]==[(p['id'],p['topics']) for p in data['papers']], 'Public dataset does not match saved review decisions'
+manifest=json.loads((root/'dist/manifest.json').read_text(encoding='utf-8'))
+catalog=json.loads((root/'dist'/manifest['catalog'].removeprefix('./')).read_text(encoding='utf-8'))
+assert catalog['version']==manifest['version']
+assert [p['id'] for p in catalog['papers']]==[p['id'] for p in data['papers']]
+assert all('abstract' not in p for p in catalog['papers']), 'Abstracts should be loaded on demand'
 for path in [*root.joinpath("dist").glob("*"), *root.joinpath("config").glob("*.json"), *root.joinpath("data").glob("*.json")]:
     if path.is_file() and path.suffix != ".gz":
         assert not updater.re.search(r"sk-[a-zA-Z0-9]{24,}", path.read_text(encoding="utf-8")), "Credential-like text in public files"

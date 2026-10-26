@@ -1,10 +1,10 @@
 {
-  "classification_version": "2026-10-recall-clinical-v2.4-reviews",
+  "classification_version": "2026-10-human-cognition-ai-v3",
   "topics": [
     {
       "id": "language",
-      "name": "语言与大脑",
-      "short_name": "语言与大脑",
+      "name": "语言与脑",
+      "short_name": "语言与脑",
       "description": "语言的神经机制与结构基础",
       "evidence_terms": [
         "language",
@@ -25,7 +25,28 @@
         "sentence comprehension",
         "narrative comprehension",
         "discourse comprehension",
-        "story listening"
+        "story listening",
+        "auditory processing",
+        "speech perception",
+        "speech production",
+        "speech comprehension",
+        "speech tracking",
+        "speech envelope",
+        "phonetic*",
+        "orthograph*",
+        "writing",
+        "communication",
+        "predictive coding",
+        "word embedding*",
+        "word order",
+        "arcuate fasciculus",
+        "inferior fronto occipital fasciculus",
+        "inferior frontal gyrus",
+        "superior temporal gyrus",
+        "visual word form area",
+        "vwfa",
+        "language lateralization",
+        "language lateralisation"
       ],
       "required_term_groups": [
         [
@@ -47,7 +68,28 @@
           "sentence comprehension",
           "narrative comprehension",
           "discourse comprehension",
-          "story listening"
+          "story listening",
+          "auditory processing",
+          "speech perception",
+          "speech production",
+          "speech comprehension",
+          "speech tracking",
+          "speech envelope",
+          "phonetic*",
+          "orthograph*",
+          "writing",
+          "communication",
+          "predictive coding",
+          "word embedding*",
+          "word order",
+          "arcuate fasciculus",
+          "inferior fronto occipital fasciculus",
+          "inferior frontal gyrus",
+          "superior temporal gyrus",
+          "visual word form area",
+          "vwfa",
+          "language lateralization",
+          "language lateralisation"
         ],
         [
           "brain",
@@ -73,17 +115,169 @@
           "neural representation*",
           "neural mechanism*",
           "neural basis",
-          "neural circuit*"
+          "neural circuit*",
+          "mri",
+          "magnetic resonance",
+          "brain network*",
+          "brain connectom*",
+          "neural coding",
+          "neural decoding",
+          "gray matter",
+          "grey matter",
+          "cortical surface",
+          "surface area",
+          "brain development",
+          "lesion mapping",
+          "lesion symptom",
+          "cognitive neuroscience",
+          "functional near infrared",
+          "white matter",
+          "tractograph*",
+          "diffusion tensor",
+          "hippocamp*",
+          "prefrontal",
+          "cortical",
+          "bold",
+          "neuroanatom*"
         ]
       ],
       "exclude_terms": [],
       "require_language_focus": true
     },
     {
+      "id": "cognition",
+      "name": "其他认知与脑",
+      "short_name": "其他认知与脑",
+      "description": "除语言外，其他认知功能的神经机制与结构基础",
+      "evidence_terms": [
+        "memory",
+        "working memory",
+        "episodic memory",
+        "attention",
+        "executive function*",
+        "executive control",
+        "cognitive control",
+        "inhibitory control",
+        "decision making",
+        "emotion*",
+        "affect*",
+        "social cognition",
+        "theory of mind",
+        "mentaliz*",
+        "mentalising",
+        "reward",
+        "perception",
+        "consciousness",
+        "learning",
+        "cognitive development",
+        "brain development",
+        "brain maturation",
+        "brain lateralization",
+        "brain lateralisation",
+        "hemispheric specialization",
+        "hemispheric specialisation",
+        "brain network*",
+        "brain organisation",
+        "brain organization",
+        "functional organization",
+        "functional organisation",
+        "neuroplastic*",
+        "plasticity"
+      ],
+      "required_term_groups": [
+        [
+          "memory",
+          "working memory",
+          "episodic memory",
+          "attention",
+          "executive function*",
+          "executive control",
+          "cognitive control",
+          "inhibitory control",
+          "decision making",
+          "emotion*",
+          "affect*",
+          "social cognition",
+          "theory of mind",
+          "mentaliz*",
+          "mentalising",
+          "reward",
+          "perception",
+          "consciousness",
+          "learning",
+          "cognitive development",
+          "brain development",
+          "brain maturation",
+          "brain lateralization",
+          "brain lateralisation",
+          "hemispheric specialization",
+          "hemispheric specialisation",
+          "brain network*",
+          "brain organisation",
+          "brain organization",
+          "functional organization",
+          "functional organisation",
+          "neuroplastic*",
+          "plasticity"
+        ],
+        [
+          "brain",
+          "cortex",
+          "cerebral",
+          "hemispher*",
+          "neuroimag*",
+          "neurolinguistic*",
+          "neurocognit*",
+          "neurophysiolog*",
+          "fmri",
+          "rsfmri",
+          "eeg",
+          "meg",
+          "fnirs",
+          "magnetoencephalograph*",
+          "electroencephalograph*",
+          "intracranial",
+          "electrocorticograph*",
+          "functional connectivity",
+          "neural activity",
+          "neural response*",
+          "neural representation*",
+          "neural mechanism*",
+          "neural basis",
+          "neural circuit*",
+          "mri",
+          "magnetic resonance",
+          "brain network*",
+          "brain connectom*",
+          "neural coding",
+          "neural decoding",
+          "gray matter",
+          "grey matter",
+          "cortical surface",
+          "surface area",
+          "brain development",
+          "lesion mapping",
+          "lesion symptom",
+          "cognitive neuroscience",
+          "functional near infrared",
+          "white matter",
+          "tractograph*",
+          "diffusion tensor",
+          "hippocamp*",
+          "prefrontal",
+          "cortical",
+          "bold",
+          "neuroanatom*"
+        ]
+      ],
+      "exclude_terms": [],
+      "monitored_only": true
+    },
+    {
       "id": "structure-function",
       "name": "结构与功能",
       "short_name": "结构与功能",
-      "description": "白质纤维束、脑结构连接及结构对功能的支持与约束；纯功能研究不纳入此类",
+      "description": "白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接",
       "evidence_terms": [
         "white matter",
         "tractograph*",
@@ -101,7 +295,23 @@
         "structural functional connectivity",
         "structural and functional connectivity",
         "structure function correspondence",
-        "structure function mapping"
+        "structure function mapping",
+        "gray matter volume",
+        "grey matter volume",
+        "cortical surface area",
+        "cortical morphology",
+        "brain volume",
+        "brain morphometry",
+        "cortical morphometry",
+        "voxel based morphometry",
+        "surface based morphometry",
+        "sulcal",
+        "gyrification",
+        "white matter functional",
+        "white matter bold",
+        "white matter activity",
+        "fiber tract*",
+        "fibre tract*"
       ],
       "required_term_groups": [
         [
@@ -121,7 +331,23 @@
           "structural functional connectivity",
           "structural and functional connectivity",
           "structure function correspondence",
-          "structure function mapping"
+          "structure function mapping",
+          "gray matter volume",
+          "grey matter volume",
+          "cortical surface area",
+          "cortical morphology",
+          "brain volume",
+          "brain morphometry",
+          "cortical morphometry",
+          "voxel based morphometry",
+          "surface based morphometry",
+          "sulcal",
+          "gyrification",
+          "white matter functional",
+          "white matter bold",
+          "white matter activity",
+          "fiber tract*",
+          "fibre tract*"
         ],
         [
           "brain",
@@ -147,7 +373,30 @@
           "neural representation*",
           "neural mechanism*",
           "neural basis",
-          "neural circuit*"
+          "neural circuit*",
+          "mri",
+          "magnetic resonance",
+          "brain network*",
+          "brain connectom*",
+          "neural coding",
+          "neural decoding",
+          "gray matter",
+          "grey matter",
+          "cortical surface",
+          "surface area",
+          "brain development",
+          "lesion mapping",
+          "lesion symptom",
+          "cognitive neuroscience",
+          "functional near infrared",
+          "white matter",
+          "tractograph*",
+          "diffusion tensor",
+          "hippocamp*",
+          "prefrontal",
+          "cortical",
+          "bold",
+          "neuroanatom*"
         ]
       ],
       "exclude_terms": []
@@ -156,7 +405,7 @@
       "id": "brain-disorders",
       "name": "脑疾病机理",
       "short_name": "脑疾病机理",
-      "description": "以 EEG、MEG、fMRI、DWI/DTI 或 fNIRS 等研究脑疾病人群的认知与脑属性，包含相关人脑研究综述",
+      "description": "关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性",
       "evidence_terms": [
         "autis*",
         "depress*",
@@ -178,7 +427,13 @@
         "posttraumatic stress",
         "tourette*",
         "asd",
-        "mdd"
+        "mdd",
+        "brain injury",
+        "hemispherectom*",
+        "hemispherotom*",
+        "brain tumor*",
+        "brain tumour*",
+        "cerebral palsy"
       ],
       "required_term_groups": [
         [
@@ -202,7 +457,13 @@
           "posttraumatic stress",
           "tourette*",
           "asd",
-          "mdd"
+          "mdd",
+          "brain injury",
+          "hemispherectom*",
+          "hemispherotom*",
+          "brain tumor*",
+          "brain tumour*",
+          "cerebral palsy"
         ],
         [
           "fmri",
@@ -232,7 +493,17 @@
           "ecog",
           "ieeg",
           "seeg",
-          "electrocorticograph*"
+          "electrocorticograph*",
+          "mri",
+          "magnetic resonance",
+          "cortical thickness",
+          "gray matter volume",
+          "grey matter volume",
+          "lesion mapping",
+          "lesion symptom",
+          "brain imaging",
+          "neuroimag*",
+          "intracranial"
         ],
         [
           "brain",
@@ -257,7 +528,7 @@
         ]
       ],
       "exclude_terms": [],
-      "clinical_imaging_only": true
+      "monitored_only": true
     },
     {
       "id": "rest-naturalistic",
@@ -339,7 +610,30 @@
           "neural representation*",
           "neural mechanism*",
           "neural basis",
-          "neural circuit*"
+          "neural circuit*",
+          "mri",
+          "magnetic resonance",
+          "brain network*",
+          "brain connectom*",
+          "neural coding",
+          "neural decoding",
+          "gray matter",
+          "grey matter",
+          "cortical surface",
+          "surface area",
+          "brain development",
+          "lesion mapping",
+          "lesion symptom",
+          "cognitive neuroscience",
+          "functional near infrared",
+          "white matter",
+          "tractograph*",
+          "diffusion tensor",
+          "hippocamp*",
+          "prefrontal",
+          "cortical",
+          "bold",
+          "neuroanatom*"
         ]
       ],
       "exclude_terms": []
@@ -350,74 +644,94 @@
     {
       "name": "Nature Communications",
       "issn": "2041-1723",
-      "group": "cognitive"
+      "other_issns": []
     },
     {
       "name": "Nature Human Behaviour",
       "issn": "2397-3374",
-      "group": "cognitive"
+      "other_issns": []
     },
     {
       "name": "Nature Neuroscience",
       "issn": "1097-6256",
-      "group": "cognitive"
+      "other_issns": [
+        "1546-1726"
+      ]
     },
     {
       "name": "Science Advances",
       "issn": "2375-2548",
-      "group": "cognitive"
+      "other_issns": []
     },
     {
       "name": "Trends in Neurosciences",
       "issn": "0166-2236",
-      "group": "cognitive"
+      "other_issns": [
+        "1878-108X"
+      ]
     },
     {
       "name": "Trends in Cognitive Sciences",
       "issn": "1364-6613",
-      "group": "cognitive"
+      "other_issns": [
+        "1879-307X"
+      ]
     },
     {
       "name": "NeuroImage",
       "issn": "1053-8119",
-      "group": "imaging"
+      "other_issns": [
+        "1095-9572"
+      ]
     },
     {
       "name": "Cerebral Cortex",
       "issn": "1047-3211",
-      "group": "imaging"
+      "aliases": [
+        "Cerebral cortex (New York, N.Y. : 1991)"
+      ],
+      "other_issns": [
+        "1460-2199"
+      ]
     },
     {
       "name": "Brain",
       "issn": "0006-8950",
-      "group": "clinical",
       "aliases": [
         "Brain : a journal of neurology"
+      ],
+      "other_issns": [
+        "1460-2156"
       ]
     },
     {
       "name": "Human Brain Mapping",
       "issn": "1065-9471",
-      "group": "imaging"
+      "other_issns": [
+        "1097-0193"
+      ]
     },
     {
       "name": "The Journal of Neuroscience",
       "issn": "0270-6474",
-      "group": "cognitive",
       "aliases": [
         "The Journal of neuroscience : the official journal of the Society for Neuroscience",
         "Journal of Neuroscience"
+      ],
+      "other_issns": [
+        "1529-2401"
       ]
     },
     {
       "name": "Brain and Language",
       "issn": "0093-934X",
-      "group": "cognitive"
+      "other_issns": [
+        "1090-2155"
+      ]
     },
     {
       "name": "Neuroscience & Biobehavioral Reviews",
       "issn": "0149-7634",
-      "group": "cognitive",
       "aliases": [
         "Neuroscience and biobehavioral reviews"
       ],
@@ -428,7 +742,6 @@
     {
       "name": "Nature Reviews Neuroscience",
       "issn": "1471-003X",
-      "group": "cognitive",
       "aliases": [
         "Nature reviews. Neuroscience"
       ],
@@ -439,7 +752,6 @@
     {
       "name": "Nature",
       "issn": "0028-0836",
-      "group": "cognitive",
       "aliases": [
         "Nature"
       ],
@@ -450,7 +762,6 @@
     {
       "name": "Science",
       "issn": "0036-8075",
-      "group": "cognitive",
       "aliases": [
         "Science (New York, N.Y.)"
       ],
@@ -461,7 +772,6 @@
     {
       "name": "PNAS",
       "issn": "0027-8424",
-      "group": "cognitive",
       "aliases": [
         "Proceedings of the National Academy of Sciences of the United States of America"
       ],
@@ -472,7 +782,6 @@
     {
       "name": "Current Biology",
       "issn": "0960-9822",
-      "group": "cognitive",
       "aliases": [
         "Current biology : CB"
       ],
@@ -483,7 +792,6 @@
     {
       "name": "Journal of Cognitive Neuroscience",
       "issn": "0898-929X",
-      "group": "cognitive",
       "aliases": [
         "Journal of cognitive neuroscience"
       ],
@@ -494,7 +802,6 @@
     {
       "name": "Neuropsychologia",
       "issn": "0028-3932",
-      "group": "cognitive",
       "aliases": [
         "Neuropsychologia"
       ],
@@ -505,7 +812,6 @@
     {
       "name": "Network Neuroscience",
       "issn": "2472-1751",
-      "group": "imaging",
       "aliases": [
         "Network neuroscience (Cambridge, Mass.)"
       ],
@@ -514,7 +820,6 @@
     {
       "name": "Imaging Neuroscience",
       "issn": "2837-6056",
-      "group": "imaging",
       "aliases": [
         "Imaging neuroscience (Cambridge, Mass.)"
       ],
@@ -523,7 +828,6 @@
     {
       "name": "Biological Psychiatry",
       "issn": "0006-3223",
-      "group": "clinical",
       "aliases": [
         "Biological psychiatry"
       ],
@@ -534,7 +838,6 @@
     {
       "name": "Molecular Psychiatry",
       "issn": "1359-4184",
-      "group": "clinical",
       "aliases": [
         "Molecular psychiatry"
       ],
@@ -545,7 +848,6 @@
     {
       "name": "JAMA Psychiatry",
       "issn": "2168-622X",
-      "group": "clinical",
       "aliases": [
         "JAMA psychiatry"
       ],
@@ -556,7 +858,6 @@
     {
       "name": "JAMA Neurology",
       "issn": "2168-6149",
-      "group": "clinical",
       "aliases": [
         "JAMA neurology"
       ],
@@ -567,7 +868,6 @@
     {
       "name": "The Lancet Neurology",
       "issn": "1474-4422",
-      "group": "clinical",
       "aliases": [
         "Lancet neurology",
         "The Lancet. Neurology"
@@ -579,13 +879,140 @@
     {
       "name": "Brain Stimulation",
       "issn": "1935-861X",
-      "group": "clinical",
       "aliases": [
         "Brain stimulation"
       ],
       "other_issns": [
         "1876-4754"
       ]
+    },
+    {
+      "name": "Neurology",
+      "issn": "0028-3878",
+      "other_issns": [
+        "1526-632X"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Brain Structure and Function",
+      "issn": "1863-2653",
+      "other_issns": [
+        "1863-2661"
+      ],
+      "aliases": [
+        "Brain structure & function"
+      ]
+    },
+    {
+      "name": "Annals of Neurology",
+      "issn": "0364-5134",
+      "other_issns": [
+        "1531-8249"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Journal of Neurology",
+      "issn": "0340-5354",
+      "other_issns": [
+        "1432-1459"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Neurobiology of Language",
+      "issn": "2641-4368",
+      "other_issns": [],
+      "aliases": [
+        "Neurobiology of language (Cambridge, Mass.)"
+      ]
+    },
+    {
+      "name": "Developmental Cognitive Neuroscience",
+      "issn": "1878-9293",
+      "other_issns": [
+        "1878-9307"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Developmental Science",
+      "issn": "1363-755X",
+      "other_issns": [
+        "1467-7687"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Language, Cognition and Neuroscience",
+      "issn": "2327-3798",
+      "other_issns": [
+        "2327-3801"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Cortex",
+      "issn": "0010-9452",
+      "other_issns": [
+        "1973-8102"
+      ],
+      "aliases": [
+        "Cortex; a journal devoted to the study of the nervous system and behavior"
+      ]
+    },
+    {
+      "name": "PLOS Biology",
+      "issn": "1544-9173",
+      "other_issns": [
+        "1545-7885"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Communications Biology",
+      "issn": "2399-3642",
+      "other_issns": [],
+      "aliases": []
+    },
+    {
+      "name": "PLOS Computational Biology",
+      "issn": "1553-734X",
+      "other_issns": [
+        "1553-7358"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "The American Journal of Psychiatry",
+      "issn": "0002-953X",
+      "other_issns": [
+        "1535-7228"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Journal of Neuroradiology",
+      "issn": "0150-9861",
+      "other_issns": [
+        "1773-0406"
+      ],
+      "aliases": [
+        "Journal of neuroradiology = Journal de neuroradiologie"
+      ]
+    },
+    {
+      "name": "eLife",
+      "issn": "2050-084X",
+      "other_issns": [],
+      "aliases": []
+    },
+    {
+      "name": "Frontiers in Neurology",
+      "issn": "1664-2295",
+      "other_issns": [],
+      "aliases": []
     }
   ],
   "coverage_sentinels": [

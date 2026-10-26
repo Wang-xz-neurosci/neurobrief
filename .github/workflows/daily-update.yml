@@ -43,6 +43,7 @@ jobs:
     outputs:
       collect: ${{ steps.decision.outputs.collect }}
       deploy: ${{ steps.decision.outputs.deploy }}
+      migration: ${{ steps.decision.outputs.migration }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,6 +51,7 @@ jobs:
           sparse-checkout: |
             scripts/update_gate.py
             config/update_policy.json
+            config/relevance.json
             dist/update-status.json
             data/source_cooldown.json
           sparse-checkout-cone-mode: false
@@ -61,7 +63,7 @@ jobs:
     needs: gate
     if: needs.gate.outputs.deploy == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -73,16 +75,25 @@ jobs:
       - name: Test ingestion safeguards
         run: python -m unittest discover -s tests -v
       - name: Collect papers
-        if: needs.gate.outputs.collect == 'true'
-        run: python scripts/update_papers.py
-      - name: Refresh saved classifications and collection status
+        if: needs.gate.outputs.collect == 'true' || needs.gate.outputs.migration == 'true'
+        run: python scripts/update_papers.py ${{ needs.gate.outputs.migration == 'true' && '--new-topic-backfill cognition' || '' }}
+      - name: Review candidate relevance
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ]; then
+            python scripts/review_papers.py --checkpoint-every 200 ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }}
+          else
+            python scripts/review_papers.py --attach-only
+          fi
+      - name: Refresh saved reviews and collection status
         run: python scripts/refresh_metadata.py
       - name: Generate or attach automatic Chinese overviews
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ]; then
-            python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }}
+          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ]; then
+            python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }} ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }}
           else
             python scripts/summarize_papers.py --attach-only
           fi
@@ -93,6 +104,8 @@ jobs:
           name: summary-cache-${{ github.run_id }}
           path: |
             data/summary_cache.json
+            data/relevance_cache.json
+            data/candidates.json
             .local/rejected-*.json
           retention-days: 3
           if-no-files-found: ignore
@@ -104,6 +117,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/summary_cache.json data/source_cooldown.json
+          if [ -f data/relevance_cache.json ]; then git add data/relevance_cache.json; fi
+          if [ -f data/candidates.json ]; then git add data/candidates.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Save Chinese summary cache"
             git pull --rebase --autostash origin main
@@ -140,7 +155,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/data.json dist/update-status.json dist/feed*.xml
+          git add dist/data.json dist/update-status.json dist/feed*.xml dist/index.html dist/manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "Update literature archive"
             git pull --rebase --autostash origin main

@@ -9,3 +9,4 @@ __pycache__/
 .local/
 .openai/
 dist/*.gz
+dist/assets-data/

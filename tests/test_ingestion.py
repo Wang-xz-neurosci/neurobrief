@@ -110,10 +110,10 @@ class IngestionTests(unittest.TestCase):
         result = self.classify("Language representations in the human cortex and large language models", "Natural language processing models were compared with fMRI responses of participants during speech comprehension.")
         self.assertIn("language", result["topics"])
 
-    def test_t1_morphometry_is_other_not_dti_and_not_clinical_imaging_scope(self):
+    def test_t1_morphometry_is_other_and_is_a_candidate_for_semantic_review(self):
         result = self.classify("Cortical thickness in depression", "T1-weighted structural MRI in patients with depression showed brain morphometric differences.")
         self.assertEqual(result["methods"], ["其他"])
-        self.assertNotIn("brain-disorders", result["topics"])
+        self.assertIn("brain-disorders", result["topics"])  # Candidate only; semantic review decides inclusion.
 
     def test_diffusion_and_tractography_share_dti_method(self):
         self.assertEqual(m.detect_methods("DWI diffusion-weighted imaging and fiber tracking tractography"), ["DTI"])
@@ -177,9 +177,9 @@ class IngestionTests(unittest.TestCase):
         self.assertNotIn("language", ai["topics"])
         self.assertNotIn("structure-function", kidney["topics"])
 
-    def test_incidental_speech_in_breathing_study_is_not_language_focus(self):
+    def test_incidental_speech_is_a_broad_candidate_for_semantic_review(self):
         result = self.classify("Threat-driven respiration and its homeostatic recovery", "Brain threat signals from the amygdala control breathing. Speech sets breathing rhythms during a stress task.")
-        self.assertNotIn("language", result["topics"])
+        self.assertIn("language", result["topics"])  # AI must inspect whether language is central.
 
     def test_narrative_review_is_not_a_natural_stimulus(self):
         result = self.classify("A narrative review of brain injury", "Clinical brain mechanisms and a narrative synthesis of stroke studies.")
@@ -188,12 +188,12 @@ class IngestionTests(unittest.TestCase):
     def test_structured_t1_methods_do_not_inherit_background_diffusion(self):
         result = self.classify("Cortical thickness in patients with depression", "Background: Diffusion tensor imaging and fMRI measure brain connectivity. Methods: We compared T1-weighted structural MRI cortical thickness in patients with depression. Results: Patients showed lower cortical thickness.")
         self.assertEqual(result["methods"], ["其他"])
-        self.assertNotIn("brain-disorders", result["topics"])
+        self.assertIn("brain-disorders", result["topics"])  # Candidate only; semantic review decides inclusion.
 
     def test_keyword_only_method_is_not_evidence_of_actual_imaging(self):
         result = self.classify("Translational research in autism", "This chapter reviews model systems and brain circuitry for patients with autism.", keywords=["EEG"])
         self.assertEqual(result["methods"], ["其他"])
-        self.assertNotIn("brain-disorders", result["topics"])
+        self.assertIn("brain-disorders", result["topics"])  # Candidate only; semantic review decides inclusion.
 
     def test_correction_is_not_original_clinical_research(self):
         result = self.classify("Correction: fMRI brain connectivity in patients with depression", "Patients with depression underwent fMRI.", publication_types=["Published Erratum"])

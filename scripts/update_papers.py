@@ -64,14 +64,24 @@ def term_present(term, text):
     return re.search(r"(?<![a-z0-9])" + pattern + r"(?![a-z0-9])", text) is not None
 
 
-def topic_query(topic):
+def journal_query(journals):
+    values = sorted({v for j in journals for v in [j["issn"], *j.get("other_issns", [])]})
+    return "(" + " OR ".join(f'ISSN:"{v}"' for v in values) + ")"
+
+
+def topic_query(topic, journals=None):
     """Use the same vocabulary upstream and locally; no hand-maintained second list."""
     if topic.get("query"):
         return topic["query"]
-    def clause(term):
-        value = term if term.endswith("*") and " " not in term else '"' + term + '"'
-        return f"(TITLE_ABS:{value} OR KW:{value})"
-    return " AND ".join("(" + " OR ".join(clause(t) for t in group) + ")" for group in topic["required_term_groups"])
+    def clause(group):
+        terms = " OR ".join(t if t.endswith("*") and " " not in t else '"' + t + '"' for t in group)
+        return f"(TITLE_ABS:({terms}) OR KW:({terms}))"
+    query = " AND ".join(clause(group) for group in topic["required_term_groups"])
+    if topic.get("monitored_only"):
+        if not journals:
+            raise ValueError("Restricted topic requires the monitored journal list")
+        query += " AND " + journal_query(journals)
+    return query
 
 
 def paper_text(paper):
@@ -101,54 +111,53 @@ def method_text(paper):
     return searchable_text(paper["title"] + " " + abstract)
 
 
-def clinical_imaging_study(paper):
-    """Conservative evidence gate, not a claim of full-text or human review."""
-    text = searchable_text(f"{paper['title']} {paper.get('abstract', '')}")
-    types = " ".join(paper.get("publication_types", [])).lower()
-    if re.search(r"erratum|correction|editorial|comment|letter|protocol", types) or re.match(r"(?:correction|corrigendum|erratum|retraction)\b", paper["title"], re.I):
-        return False
-    if re.search(r"\b(?:study|review|trial) protocol\b", text):
-        return False
-    if re.search(r"\bthis chapter\b", text):
-        return False
-    if not any(x in detect_modalities(method_text(paper)) for x in ("fMRI", "DTI", "EEG", "MEG", "颅内电生理", "fNIRS")):
-        return False
-    clinical = r"\b(patients?|survivors?|clinical (?:cohort|sample|group)|(?:individuals|participants|children|adults|adolescents|people|subjects|boys|girls) (?:diagnosed |living )?with|(?:asd|mdd|adhd|sz|ad|pd) (?:group|patients|participants))\b"
-    review = is_review_paper(paper)
-    human_context = bool(re.search(r"\bhumans?\b|\b(?:patients|children|adults|adolescents) with\b|\bclinical (?:studies|research|populations)\b", text) or "Humans" in paper.get("mesh_terms", []))
-    if not re.search(clinical, text) and not (review and human_context):
-        return False
-    animal = re.search(r"\b(mice|rats|rodents?|murine|mouse model|rat model|zebrafish)\b", text)
-    human_data = re.search(r"\b\d+\s+(?:(?:adult|adolescent|pediatric|stroke)\s+)?(?:patients|survivors|participants|children|adults|adolescents|subjects|healthy controls)\b|\b(?:recruited|enrolled)\b.{0,80}\b(?:patients|participants|children|adults)\b", text)
-    return not animal or bool(human_data) or "Humans" in paper.get("mesh_terms", []) or (review and bool(re.search(r"\bhumans?\b", text)))
+def basic_exclusion(paper):
+    """Only unequivocal exclusions here; semantic ambiguities go to the reviewer."""
+    title = searchable_text(paper["title"])
+    types = searchable_text(" ".join(paper.get("publication_types", [])))
+    if re.search(r"\b(?:protocol|published erratum|retracted publication|retraction of publication)\b", types):
+        return "protocol_or_correction"
+    if re.match(r"(?:correction|corrigendum|erratum|retraction)\s*:", title):
+        return "protocol_or_correction"
+    if re.search(r"\b(?:study protocol|trial protocol|review protocol|protocol for (?:a|an|the)|protocol for systematic)\b", title):
+        return "protocol_or_correction"
+    if re.search(r"\b(?:femoral|femur|hip structure analysis|renal|kidney)\b", title) and not re.search(r"\b(?:brain|cerebral|neural)\b", title):
+        return "non_brain_anatomy"
+    # Do not infer animal-only from background paragraphs in a human study.
+    if re.search(r"\b(?:in mice|in rats|mouse models?|rat models?|murine models?|zebrafish)\b", title) and not re.search(r"\b(?:human|patients?|participants)\b", title):
+        return "animal_only"
+    return None
 
 
 def classify(paper, topics):
+    """Broad candidate tags, never a claim that the study is relevant or reviewed."""
     text = paper_text(paper)
+    # Boilerplate and clinical image reading are not language-task evidence.
+    text = re.sub(r"\bplain language summary\b|\benglish language articles\b|\bcase reading time\b", " ", text)
     evidence = {}
     for topic in topics:
         groups = topic.get("required_term_groups", [topic["evidence_terms"]])
-        if any(term_present(term, text) for term in topic.get("exclude_terms", [])):
-            continue
-        if topic.get("clinical_imaging_only") and not clinical_imaging_study(paper):
-            continue
-        if topic["id"] == "structure-function" and re.search(r"\b(kidney|renal|adrenal)\b", text) and not re.search(r"\b(brain|cerebral|neural|neuro\w*|hippocamp\w*)\b", text):
-            continue  # Renal cortex is not cerebral cortex.
-        if topic.get("require_language_focus"):
-            terms = topic["evidence_terms"]
-            title_hit = any(term_present(t, searchable_text(paper["title"])) for t in terms)
-            keyword_hit = any(term_present(t, searchable_text(" ".join(paper.get("keywords", [])))) for t in terms)
-            focus_terms = r"\b(?:language|speech|semantic\w*|syntac\w*|syntax|aphasi\w*|reading|dyslexi\w*|lexical\w*|phonolog\w*|linguistic\w*|bilingual\w*|multilingual\w*)\b"
-            mentions = len(re.findall(focus_terms, searchable_text(paper.get("abstract", ""))))
-            if not (title_hit or keyword_hit or mentions >= 2 or detect_modalities(method_text(paper))):
-                continue
-        # Human brain + LLM comparison papers are valid language neuroscience.
-        if topic["id"] == "language" and "natural language processing" in text and not re.search(r"\b(fmri|eeg|meg|fnirs|brain|cortex|cortical|patients?|participants|intracranial)\b", text):
-            continue
         if all(any(term_present(term, text) for term in group) for group in groups):
-            evidence[topic["id"]] = [term for term in topic["evidence_terms"] if term_present(term, text)]
-    methods_text = method_text(paper)
-    return {**paper, "is_review": is_review_paper(paper), "topics": list(evidence), "evidence": evidence, "methods": detect_methods(methods_text), "modalities": detect_modalities(methods_text)}
+            evidence[topic["id"]] = [t for t in topic["evidence_terms"] if term_present(t, text)]
+    methods = method_text(paper)
+    if basic_exclusion(paper):
+        evidence = {}
+    return {**paper, "is_review": is_review_paper(paper), "topics": list(evidence), "evidence": evidence,
+            "methods": detect_methods(methods), "modalities": detect_modalities(methods)}
+
+
+def mark_journal(paper, config):
+    name = paper.get("journal", "").casefold().rstrip(" .")
+    matches = [j for j in config.get("monitored_journals", [])
+               if set(paper.get("journal_issns", [])) & {j["issn"], *j.get("other_issns", [])}
+               or name in {j["name"].casefold(), *[a.casefold().rstrip(" .") for a in j.get("aliases", [])]}]
+    return {**paper, "is_monitored_journal": bool(matches) and not paper.get("is_preprint", False), "journal_groups": []}
+
+
+def allowed_topics(paper, topic_ids, config):
+    restricted = {t["id"] for t in config["topics"] if t.get("monitored_only")}
+    return [t["id"] for t in config["topics"] if t["id"] in topic_ids
+            and (t["id"] not in restricted or paper.get("is_monitored_journal", False))]
 
 
 def classification_fingerprint(config):
@@ -217,14 +226,14 @@ def request_json(params):
             time.sleep(2 ** (attempt + 1))
 
 
-def fetch_topic(topic, start, end, index_start, full_scan=False, publication_windows=None):
+def fetch_topic(topic, start, end, index_start, full_scan=False, publication_windows=None, journals=None):
     dates = f"FIRST_PDATE:[{start} TO {end}]"
     if not full_scan:
         windows = publication_windows or [(index_start, end)]
         changed = [f"FIRST_PDATE:[{a} TO {b}]" for a, b in windows]
         changed += [f"FIRST_IDATE:[{index_start} TO {end}]", f"UPDATE_DATE:[{index_start} TO {end}]"]
         dates += " AND (" + " OR ".join(changed) + ")"
-    query = f"({topic_query(topic)}) AND {dates} AND (SRC:MED OR SRC:PPR) sort_date:y"
+    query = f"({topic_query(topic, journals)}) AND {dates} AND (SRC:MED OR SRC:PMC OR SRC:PPR) sort_date:y"
     cursor, rows = "*", []
     total = None
     for page in range(120):
@@ -348,7 +357,7 @@ def merge_record(old, new):
     return merged
 
 
-def build_dataset(old, topic_results, config, today, now):
+def build_dataset(old, topic_results, config, today, now, keep_candidates=False):
     papers = {p["id"]: p for p in old.get("papers", [])}
     aliases = {alias: p["id"] for p in papers.values() for alias in p.get("record_aliases", [])}
     excluded_future = 0
@@ -375,17 +384,18 @@ def build_dataset(old, topic_results, config, today, now):
     # Reclassify the entire archive, not only newly retrieved rows. Retired tags
     # must never survive a taxonomy change, and old first_seen dates stay intact.
     classified = [classify(p, config["topics"]) for p in papers.values()]
+    classified = [mark_journal(p, config) for p in classified]
     for p in classified:
-        matches = [j for j in config.get("monitored_journals", []) if set(p.get("journal_issns", [])) & {j["issn"], *j.get("other_issns", [])} or p["journal"].casefold().rstrip(" .") in {j["name"].casefold(), *[x.casefold() for x in j.get("aliases", [])]}]
-        p["is_monitored_journal"] = bool(matches)
-        p["journal_groups"] = sorted({j.get("group", "cognitive") for j in matches})
+        p["topics"] = allowed_topics(p, p["topics"], config)
+        p["evidence"] = {k:v for k,v in p["evidence"].items() if k in p["topics"]}
     start = config.get("coverage_start") or (dt.date.fromisoformat(today) - dt.timedelta(days=config["lookback_days"] - 1)).isoformat()
-    items = sorted((p for p in classified if p["topics"] and p.get("published") and start <= p["published"] <= today), key=lambda x: (x.get("published") or "", x["id"]), reverse=True)
+    items = sorted((p for p in classified if (p["topics"] or (keep_candidates and p["id"] in old.get("audit_ids", []))) and p.get("published") and start <= p["published"] <= today), key=lambda x: (x.get("published") or "", x["id"]), reverse=True)
     local_date = dt.datetime.fromisoformat(now.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
     def seen_day(p):
         return dt.datetime.fromisoformat(p["first_seen"].replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
     old_aliases = {a for p in old.get("papers", []) for a in [p["id"], *p.get("record_aliases", [])]}
-    new_in_run = sum(not ({p["id"], *p.get("record_aliases", [])} & old_aliases) for p in items)
+    new_ids = [p['id'] for p in items if not ({p["id"], *p.get("record_aliases", [])} & old_aliases)]
+    new_in_run = len(new_ids)
     return {
         "schema_version": 1, "updated_at": now, "as_of": today,
         "classification_version": config.get("classification_version", "custom"),
@@ -397,24 +407,33 @@ def build_dataset(old, topic_results, config, today, now):
         "monitored_journals": config.get("monitored_journals", []),
         "update_status": "success", "future_or_invalid_excluded": excluded_future,
         "topics": [{k: v for k, v in t.items() if k in ("id", "name", "short_name", "description")} for t in config["topics"]],
-        "queries": [report for _, _, report in topic_results], "papers": items,
+        "queries": [report for _, _, report in topic_results], "papers": items, "new_candidate_ids":new_ids,
     }
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--as-of", default=dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat())
-    parser.add_argument("--output", type=Path, default=ROOT / "dist" / "data.json")
+    parser.add_argument("--output", type=Path, default=ROOT / "data" / "candidates.json")
+    parser.add_argument("--new-topic-backfill", choices=["cognition"], help="One-time, explicitly requested coverage for the new topic only")
     args = parser.parse_args()
     today = dt.date.fromisoformat(args.as_of)
     config = json.loads((ROOT / "config" / "topics.json").read_text(encoding="utf-8"))
-    old = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else {}
+    seed = args.output if args.output.exists() else ROOT / "dist/data.json"
+    old = json.loads(seed.read_text(encoding="utf-8")) if seed.exists() else {}
+    old.setdefault("audit_ids", [p["id"] for p in old.get("papers", [])])
+    backfilled = old.get("backfilled_topics", [])
+    if args.new_topic_backfill in backfilled:
+        print("Requested new-topic backfill already saved; reusing candidates.")
+        return
     start = config["coverage_start"]
     plan = collection_plan(today, old, config)
     index_start = plan["change_start"]
     results = []
     for topic in config["topics"]:
-        rows, report = fetch_topic(topic, start, today.isoformat(), index_start, publication_windows=plan["publication_windows"])
+        rows, report = fetch_topic(topic, start, today.isoformat(), index_start,
+                                   full_scan=topic["id"] == args.new_topic_backfill,
+                                   publication_windows=plan["publication_windows"], journals=config.get("monitored_journals", []))
         print(f"{topic['id']}: {len(rows)} candidates", flush=True)
         results.append((topic, rows, report))
         time.sleep(0.5)
@@ -422,13 +441,15 @@ def main():
     # local relevance rules. It is a safety net, never a journal whitelist.
     journals = config.get("monitored_journals", [])
     if journals:
-        sweep = {"id": "journal-sweep", "evidence_terms": [], "query": "(" + " OR ".join(f'ISSN:"{j["issn"]}"' for j in journals) + ")"}
+        sweep = {"id": "journal-sweep", "evidence_terms": [], "query": journal_query(journals)}
         rows, report = fetch_topic(sweep, start, today.isoformat(), index_start, publication_windows=plan["publication_windows"])
         report["journals"] = [j["name"] for j in journals]
         results.append((sweep, rows, report))
         print(f"journal-sweep: {len(rows)} candidates", flush=True)
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    dataset = build_dataset(old, results, config, today.isoformat(), now)
+    dataset = build_dataset(old, results, config, today.isoformat(), now, keep_candidates=True)
+    dataset["audit_ids"] = old["audit_ids"]
+    dataset["backfilled_topics"] = list(dict.fromkeys(backfilled + ([args.new_topic_backfill] if args.new_topic_backfill else [])))
     dataset["scan_mode"] = plan["mode"]
     dataset["collection_plan"] = plan
     dataset["weekly_review_through"] = plan["weekly_review_through"]
