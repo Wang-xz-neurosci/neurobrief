@@ -5,9 +5,30 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 20:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 19:23:25 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The path from brain to words is rerouted in opioid addiction</title>
+      <link>https://doi.org/10.64898/2026.10.24.26366318</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.24.26366318</guid>
+      <description>[预印本] medRxiv
+
+Whether spontaneous speech preserves how the brain encoded an experience is unknown. We tested this question in opioid use disorder (OUD), in which drug cues outweigh other rewards. Eighty-two people with OUD and 34 controls watched the opening of the film Trainspotting during functional magnetic resonance imaging, then retold it in their own words. Language-model analyses showed that people with OUD dwelt on craving, personal identification and recovery, devoting more of their retelling to drug scenes. In 65 participants with imaging, this speech bias tracked how strongly the brain had distinguished drug from non-drug scenes during viewing, in left frontoparietal cortex in controls but left temporal cortex in OUD. Direct comparison showed left accumbens coupling positive in OUD and negative in controls, and left superior frontal coupling weaker in OUD. Spontaneous speech thus carries a trace of neural encoding whose route depends on what the experience meant to the speaker.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Hidden Neural Variability and the Unexplained Cochlear Implant Outcome</title>
+      <link>https://doi.org/10.31234/osf.io/k58bj_v1</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/k58bj_v1</guid>
+      <description>[预印本] PsyArXiv
+
+Cochlear implants work, but not equally. After decades of cohort studies, the familiar predictors of outcome (age, duration of deafness, residual hearing, etiology) still leave most of the spread between patients unexplained. Research on how the brain handles degraded speech, audiovisual cues and everyday sounds shows that implant outcome measures test the brain at least as much as the ear. Yet candidacy assessment still examines the cochlea, the auditory nerve and inner-ear anatomy, and rarely the cognitive and structural state of the brain that must learn to use the device. This article argues that undetected neural variability, including cognitive decline, hearing-related atrophy and incidental pathology in brains assumed to be normal, is a plausible and largely unmeasured contributor to the missing variance. It proposes routine cognitive and volumetric phenotyping of implant candidates, and of the control groups against which they are judged. Because the brain restores much of the degraded implant signal through its predictive mechanisms, the article also calls for a new line of work: the development of dedicated tests of predictive brain capacity, a measure currently absent from both candidacy assessment and outcome research.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>Visual-linguistic cues in manual communication: Neural and behavioral responses to Mouthings in sign-naïve perception.</title>
       <link>https://doi.org/10.1016/j.bandl.2026.105843</link>
@@ -509,27 +530,6 @@ Auditory and speech-perception difficulties are common in post-stroke aphasia (P
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Aging and Hearing Loss in Emotional Prosody Processing: Divergent Neural Adaptation and Behavioral Performance</title>
-      <link>https://doi.org/10.31234/osf.io/z7624_v1</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/z7624_v1</guid>
-      <description>[预印本] PsyArXiv
-
-Emotional prosody perception is vulnerable in later adulthood, yet the contributions of central aging and peripheral hearing loss remain unclear. Across two experiments, we combined event-related potentials (ERPs) , time-frequency analyses and behavioral measures to examine how aging and hearing sensitvity shape emotional prosody processing. Experiment 1 used acoustically matched speech and nonspeech stimuli in a passive oddball paradigm to assess preattentive processing. Experiment 2 examined explicit emotion identification and implicit stimulus judgment to evaluate goal-directed performance and its associations with neural responses. Aging was associated with reduced neural differentiation between emotions and lower behavioral efficiency, alongside enhanced P3a amplitude. Older adults also responded more slowly than younger adults during emotion identification. Hearing sensitivity showed no significant main effect on accuracy or reaction time, despite associations with delayed early neural processing and stronger theta- and alpha-band activity. Hearing-related neural effects were most evident in older adults and varied across emotions and stimulus types. Brain–behavior associations were selective: reduced mismatch negativity (MMN) was associated with slower responses during stimulus identification, whereas longer MMN latencies were associated with lower accuracy and slower responses during emotion identification. These findings indicate that aging and hearing loss have distinct yet interacting associations with emotional prosody processing, with neural responses not necessarily corresponding to behavioral performance. We propose an “asymmetric adaptation” account in which neural responses to degraded auditory input reorganize selectively across processing stages and contexts, potentially explaining this neural-behavioral divergence and informing more sensitive assessment of socioemotional communication in later adulthood.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Venlafaxine modulates white matter integrity in dorsal and ventral language pathways after subcortical stroke: a longitudinal TBSS study.</title>
-      <link>https://doi.org/10.1080/02699052.2026.2748375</link>
-      <guid isPermaLink="false">doi:10.1080/02699052.2026.2748375</guid>
-      <description>Brain injury
-
-Background Subcortical aphasia results from disrupted cortico-subcortical language networks after left-hemispheric infarction. Venlafaxine, an SNRI, may accelerate language recovery, but its effects on white matter plasticity remain unclear. We used diffusion tensor imaging (DTI) and tract-based spatial statistics (TBSS) to assess early venlafaxine effects on dorsal and ventral language pathways in subacute stroke. Methods Thirty-two patients with first-ever left subcortical infarction and mild-to-moderate aphasia were randomized to venlafaxine (n=16; 75 mg/day, day 7-week 4) or control (n=16). DTI was acquired at 30±7 and 90±7 days post-stroke. TBSS compared fractional anisotropy (FA) in language-related tracts using permutation testing with TFCE (corrected p&lt;0.05). . Results At Visit 2, venlafaxine recipients had higher FA in right superior longitudinal fasciculus/arcuate fasciculus (SLF/AF), bilateral inferior fronto-occipital fasciculi (IFOF), and left inferior longitudinal fasciculus (ILF), but lower FA in left SLF and uncinate fasciculus (UF). At Visit 3, FA increases extended to SLF/AF and UF, yielding bilateral dorsal and ventral enhancement; only right ILF FA decreased. FA changes positively correlated with aphasia quotient, spontaneous language fluency, and picture-naming improvements. . Conclusion Early venlafaxine induces biphasic white matter remodeling: initial contralesional and bilateral ventral enhancement, followed by bilateral integration, suggesting optimized language network reorganization.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>
