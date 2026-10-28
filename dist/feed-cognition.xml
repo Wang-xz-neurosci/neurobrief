@@ -5,9 +5,93 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 19:23:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 23:29:19 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping the neural basis of the perception of “flow of time”: interval timing and mental time travel in the human brain</title>
+      <link>https://europepmc.org/article/PMC/PMC13696792</link>
+      <guid isPermaLink="false">PMC:PMC13696792</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Emotional Content Enhances Attentional Tracking of Conversations through Context-Sensitive Modulation of Auditory-Language Networks.</title>
+      <link>https://doi.org/10.1523/jneurosci.0506-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0506-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "Cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 female, 14 male) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated mid-latency (100 - 250 ms) responses, whereas late-latency (270 - 450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.Significance Statement Understanding how the brain prioritizes and selectively processes information in naturalistic, continuously evolving audiovisual scenes such as conversations is a central challenge in neuroscience. Here, we show that conversations conveying negatively valenced, high-arousal, and socially relevant content enhance neural tracking of attended speech in a noisy cocktail-party setting. This enhanced tracking depends on the semantic structure of the conversation, emerging earlier for coherent dialogues that are easy to follow. Furthermore, we show that emotional content strengthens mechanisms related to speech comprehension and sharpens segregation of relevant from irrelevant talk. These findings demonstrate that emotional meaning and semantic continuity jointly shape cortical processing of continuous speech, providing new insight into how the brain selects and processes meaningful information during a conversation.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Neurocognitive characteristics of perceptual feedback processing differ in autism.</title>
+      <link>https://doi.org/10.1523/jneurosci.0315-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0315-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Autistic individuals often show reduced adaptation to changing environmental demands, but the neurocognitive mechanisms underlying this difference remain unclear. We asked whether it may be explained by reduced sensitivity to external feedback and changes in task difficulty. Autistic and non-autistic adults of either sex, matched for cognitive ability, performed a pitch discrimination task in which their response was immediately followed by feedback. Accuracy was similar between the two groups, yet autistic participants exhibited a markedly reduced feedback-related negativity (FRN), an event-related EEG potential differentiating explicit negative versus positive feedback. They also showed weaker modulation of feedback-evoked EEG responses by perceptual difficulty. Lastly, they showed reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up experiment conducted 1-2 years later. When combined they classified autistic and non-autistic participants with about 80% accuracy. Together, our findings indicate that multiple processes for evaluating perceptual decisions and adjusting subsequent behavior differ in autism and likely contribute to slow updating in changing contexts.Significance Statement Autism is associated with reduced adaptation to changing environments in both behavior and neural signals, but the underlying neurocognitive mechanisms remain unclear. Here, we show that autistic individuals exhibit a reduced feedback-related negativity (FRN), an EEG component that is present when receiving negative instead of positive feedback. They also show weaker neural modulation by perceptual difficulty and reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up study. When combined, they classified autistic and non-autistic participants with high accuracy. These findings suggest that reduced flexibility in autism is associated with reduced processing of external feedback and task difficulty.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Targeting central thalamus with transcranial ultrasound reduces arousal in healthy volunteers.</title>
+      <link>https://doi.org/10.1038/s42003-026-10637-7</link>
+      <guid isPermaLink="false">doi:10.1038/s42003-026-10637-7</guid>
+      <description>Communications biology
+
+Using low-intensity focused transcranial ultrasound stimulation, we test the causal roles of the central thalamus in arousal and the pulvinar in visuospatial attention in the healthy human brain. In a within-subjects, counterbalanced design, 27 healthy volunteers (two females) complete a vigilance task (Psychomotor Vigilance Task) and a visuospatial attention task (Egly-Driver Task) before and after sham, central thalamic, and pulvinar sonication. Targeting the central thalamus slows responses and increases lapses in attention during the vigilance task, indicating reduced arousal. Pulvinar sonication reduces (and slows) responses to visual stimuli presented contralaterally, suggesting a disruption of contralateral visuospatial attention. These results provide causal evidence linking the pulvinar to visuospatial attention and the central thalamus to arousal in the healthy human brain and demonstrate that ultrasound can elicit distinct behavioral changes in healthy volunteers when delivered to close but functionally distinct thalamic regions, underscoring its potential as a tool for noninvasive brain mapping.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Neural limits of temporal feature binding in human visual cortex.</title>
+      <link>https://doi.org/10.1038/s41467-026-78974-z</link>
+      <guid isPermaLink="false">doi:10.1038/s41467-026-78974-z</guid>
+      <description>Nature communications
+
+Humans are able to track the change of color and orientation (CO) of an object at a stunning rate. However, spatially separating those features slows this rate by an order of magnitude - a temporal limit of feature binding that is little understood. Here, we investigate the underlying mechanisms using high-temporal resolution cortical source localization of the magnetic field response elicited by CO-pairs alternating at different frequencies in color and orientation. We show that (1) binding requires a rapid recurrent modulation (~120 ms) of activity in V1/V2, whose latency is independent of the alternation rate. (2) Performance drops to chance when the alternation rate becomes too high to accommodate the recurrent process within a single alternation. (3) CO binding itself is mediated by color-based attention, which gradually biases re-occurring CO combinations containing the attended color. These observations together demonstrate that CO-binding across space depends on rapid recurrent processing in early visual cortex, with its temporal limit being set by the time this process takes to be completed. Binding ultimately results from a slower and gradual attentional bias of the recurrent process instantiating a form of stroboscopic stationarity in the stream of alternations for unambiguous discrimination of the correct feature-combination.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Environment-specific virtual head direction representation in the human anteroventral thalamus during memory-guided spatial orientation.</title>
+      <link>https://doi.org/10.1016/j.cub.2026.09.087</link>
+      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.087</guid>
+      <description>Current biology : CB
+
+Knowing which way you are facing is essential for navigation. In animals, a dedicated set of neurons-head direction cells-acts as an internal compass: each cell fires most strongly when the animal faces a particular direction. The anterior thalamus is a key hub for this system. In humans, however, direct electrophysiological evidence for a comparable head direction signal remains limited. To address this gap, we recorded intracranial electroencephalography (EEG) from the anteroventral thalamus (AVT) in patients with epilepsy while they performed a virtual navigation task. We analyzed neural activity during in-place rotation to isolate virtual head direction (vHD) information. Using inverted encoding models applied to multi-band neural activity, we reconstructed continuous vHD within two distinct virtual environments. Critically, the decoders failed to generalize across environments, indicating that the AVT vHD representation is environment specific rather than a fixed, universal map. This encoding was observed in the AVT and was temporally specific to rotation epochs; no significant encoding was detected in the pulvinar, another thalamic subregion not part of the classic head direction network in rodents. Together, these findings suggest that the human AVT carries environment-specific vHD information, bridging a gap between animal models and human navigation and highlighting a potential link to spatial disorientation disorders.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>High-Intensity Transcranial Alternating Current Stimulation for Post-Stroke Cognitive Impairment: A Triple-Blind Randomized Trial.</title>
+      <link>https://doi.org/10.1016/j.brs.2026.103234</link>
+      <guid isPermaLink="false">doi:10.1016/j.brs.2026.103234</guid>
+      <description>Brain stimulation
+
+Background Non-invasive neuromodulation for post-stroke cognitive impairment (PSCI) holds promise, but high-level evidence is lacking, partly due to the challenge of targeting single brain regions in a condition with diverse lesions and multi-network dysfunction. Objective The present study aimed to evaluate the effect of high-intensity transcranial alternating current stimulation (Hi-tACS) on cognitive function in patients with PSCI. Methods In this triple-blind, randomized, sham-controlled trial, PSCI patients were randomized to receive either active or sham Hi-tACS. The tACS group received active Hi-tACS at 15 mA and 77.5 Hz for 40 minutes, twice daily, 5 days a week for 2 weeks. The sham group used identical devices without current delivery. The primary outcome was the change in Montreal Cognitive Assessment (MoCA) score. Secondary outcomes included Digit Span Test and cerebral oxyhemoglobin (HbO) concentration changes measured by functional near-infrared spectroscopy (fNIRS). Results The tACS group (n=34) showed higher MoCA response rates than the sham group (n=34) immediately after treatment (73.5% vs 38.2%, P=0.003) and at the 4-week post-treatment follow-up (88.2% vs 55.9%, P=0.003). Improvements in forward and backward digit span were also greater in the tACS group at both assessments. The intention-to-treat analysis of all 70 randomized participants yielded results consistent with the per-protocol analysis. Exploratory fNIRS analyses identified greater HbO increases in the left, right, and medial prefrontal regions in the tACS group at T1 after FDR correction (all q=0.033), whereas no regional difference remained significant at T2. Conclusion Hi-tACS improved global cognition and working memory in patients with PSCI and was generally well tolerated. Exploratory fNIRS findings suggested possible accompanying changes in cortical activation and network organization but did not establish a neurophysiological mechanism. Importantly, as a broad-network stimulation approach, Hi-tACS may reduce reliance on selecting a single precise target, a potential practical advantage in heterogeneous PSCI.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>A Sensorimotor-Interoceptive Model for Sensory Phenomena in Obsessive-Compulsive Disorder: Neural and Computational Mechanisms.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.014</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.014</guid>
+      <description>Biological psychiatry
+
+Classical models of obsessive-compulsive disorder (OCD) grounded in cognitive-affective processes do not fully account for sensory phenomena (SP), including bodily discomfort, incompleteness, and not-just-right experiences that often precede or accompany compulsive behavior. To address this gap, we propose a sensorimotor-interoceptive model for the sources, generation, and maintenance of SP and SP-driven compulsions in OCD. Specifically, the posterior insula may integrate external sensory signals with internal bodily signals within the perceptual module. These integrated signals are subsequently processed by the salience module centered on the anterior insula and anterior cingulate cortex, where heightened error monitoring may assign excessive salience to integrated signals and recruit the supplementary motor area and primary motor cortex to initiate corrective actions. Dysfunction of a cerebellum-centered forward system may then produce persistent mismatches between predicted and actual action outcomes, which are re-entered into the perceptual module and sustain a recurrent feedback loop. The framework therefore conceptualizes SP-driven compulsions as maladaptive attempts to resolve persistent sensory errors. Predictive coding and active inference provide a computational account of these processes. We underscore that this sensorimotor-interoceptive model, intended to complement existing models, provides an account of symptoms in which SP are prominent and may therefore contribute to a more comprehensive understanding of OCD.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>A robust adversarial learning framework for EEG emotion recognition</title>
       <link>https://europepmc.org/article/PMC/PMC13690544</link>
@@ -52,12 +136,12 @@ Brain decoding using functional magnetic resonance imaging (fMRI) has high poten
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>Digital Twin Control Framework Uncovers Individualized Cross-Scale Links Between Functional Connectivity Deviations, Communication Impairment, and Molecular Mechanisms in Autism.</title>
+      <title>Digital twin control framework uncovers individualized cross-scale links between functional connectivity deviations, communication impairment, and molecular mechanisms in autism.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122311</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122311</guid>
       <description>NeuroImage
 
-Background Autism spectrum disorder (ASD) is hallmarked by pronounced inter-individual heterogeneity in brain function and clinical manifestations. Conventional neuroimaging studies yield highly inconsistent findings, as extrinsic confounding factors and intrinsic disease heterogeneity mask ASD-specific functional connectivity (FC) signatures, hampering the identification of individualized neural mechanisms linked to symptom severity. Methods We developed a digital twin control analytical framework based on deep contrastive learning. By comparing each ASD participant with their matched digital twin control, we quantified individual-specific FC deviations. Principal component analysis was applied to extract the core aberrant pattern, followed by multi-dimensional analyses and validation including clinical correlation, transcriptomic decoding, neurotransmitter and mitochondrial co-localization, as well as disease and cognitive enrichment. Results The model effectively disentangled disease‑related from non‑disease‑related variations. The identified dominant aberrant FC pattern was significantly associated with Autism Diagnostic Observation Schedule (ADOS) communication scores, suggesting its associated with to communication impairment. This pattern showed convergent associations with synaptic pathways, excitatory/inhibitory neuronal signatures, critical developmental windows and subcortical structures, and exhibited negative spatial association with multiple neurotransmitter systems and mitochondrial respiratory complexes. Biological validation further supported its ASD specificity and communication‑related cognitive relevance. Conclusions Leveraging the twin control analytical framework, this study provides an exploratory cross-scale framework linking individualized FC deviations with clinical, transcriptomic, neurochemical, and mitochondrial maps. The findings indicate that communication difficulties in ASD may partly arise from multi-scale disturbances in neural integration, social-perceptual processing and activity-dependent cellular energy regulation.</description>
+Background Autism spectrum disorder (ASD) is hallmarked by pronounced inter-individual heterogeneity in brain function and clinical manifestations. Conventional neuroimaging studies yield highly inconsistent findings, as extrinsic confounding factors and intrinsic disease heterogeneity mask ASD-specific functional connectivity (FC) signatures, hampering the identification of individualized neural mechanisms linked to symptom severity. Methods We developed a digital twin control analytical framework based on deep contrastive learning. By comparing each ASD participant with their matched digital twin control, we quantified individual-specific FC deviations. Principal component analysis was applied to extract the core aberrant pattern, followed by multi-dimensional analyzes and validation including clinical correlation, transcriptomic decoding, neurotransmitter and mitochondrial co-localization, as well as disease and cognitive enrichment. Results The model effectively disentangled disease‑related from non‑disease‑related variations. The identified dominant aberrant FC pattern was significantly associated with Autism Diagnostic Observation Schedule (ADOS) communication scores, suggesting it is associated with to communication impairment. This pattern showed convergent associations with synaptic pathways, excitatory/inhibitory neuronal signatures, critical developmental windows and subcortical structures, and exhibited negative spatial association with multiple neurotransmitter systems and mitochondrial respiratory complexes. Biological validation further supported its ASD specificity and communication‑related cognitive relevance. Conclusions Leveraging the twin control analytical framework, this study provides an exploratory cross-scale framework linking individualized FC deviations with clinical, transcriptomic, neurochemical, and mitochondrial maps. The findings indicate that communication difficulties in ASD may partly arise from multi-scale disturbances in neural integration, social-perceptual processing and activity-dependent cellular energy regulation.</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
@@ -112,6 +196,28 @@ Conscious object recognition is a critical brain function, key to making sense o
 How does the human brain represent the meaning of abstract symbols? Some theories postulate the existence of semantic spaces where concepts occupy positions that reflect their conceptual relationships. In the number domain, psychological evidence suggests that integers are represented along a mental number line which, with education, integrates higher-level number concepts such as fractions. To test this hypothesis, we recorded whole-brain 7T fMRI responses to integer and fraction symbols during an active magnitude comparison task designed to engage magnitude processing. Consistent with predictions, we found both behavioral and neural numerical distance effects. Activation vectors in intraparietal, inferior temporal, prefrontal, hippocampal, and parahippocampal cortices formed a two-dimensional semantic space organized by numerical magnitude and domain (fractions versus integers). Gaussian fits revealed a topographic map of numerical preferences in the anterior inferior parietal cortex, common to both domains. Our results suggest that, when educated adults engage in an explicit magnitude comparison task, their brain can construct an ordered representation that integrates fractions and integers, with a topographic organization in the anterior IPS/IPL.</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Interactions between age and sex in multiscale entropy and spectral power changes across the lifespan.</title>
+      <link>https://doi.org/10.1162/imag.a.1407</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1407</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Multiscale entropy (MSE) changes in relation to age, whereby ageing is associated with an increasing bias towards fine scale entropy. This change is thought to represent a shift towards localized information processing in the brain as we age. However, this relationship has not been tested in large sample sizes alongside other demographic factors and cognitive behaviours. This study aimed to replicate previously reported effects of ageing on MSE in an open access database (Cambridge Centre for Ageing and Neuroscience, N = 587) and expand the findings to include an investigation of the effects of sex and a variety of cognitive behaviours. MSE curves and power spectrum densities (PSD) were calculated for each region of interest from the magnetoencephalography data. Multivariate partial least squares analyses were used to assess the relationship between MSE or PSD and five behavioural/demographic factors including age, sex, fluid intelligence, visual short-term memory, and a generalized measure of cognitive function. Age was associated with increased fine scale and decreased coarse scale entropy, as well as complementary spectral changes, including slowing of peak alpha rhythms, increased beta-band activity, and reduced gamma-band activity, which replicates prior MSE and PSD findings. In both domains, these age-related patterns differentiated based on sex with advancing age. Importantly, the unique effects of sex diverged between MSE and PSD. This result indicates that entropy-based measures can isolate aspects of temporal organization that are not clearly summarized by spectral structure alone.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Beta-band dynamics during a naturalistic motor task: An OPM-MEG study.</title>
+      <link>https://doi.org/10.1162/imag.a.1405</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1405</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Beta oscillations are a fundamental feature of brain activity, linked to long-range connectivity within canonical networks, inhibition of sensorimotor cortices, and the maintenance of a stable sensorimotor state in situations where the external world is predictable. The importance of beta oscillations in brain function is underscored by observations of their perturbation in neurological and psychiatric disorders. However, the precise role played by beta activity, particularly in mediating complex or skilful movements, remains incompletely understood. Here, we used a newly developed wearable optically pumped magnetometer-based magnetoencephalography (OPM-MEG) system to measure beta dynamics as participants learned to play a musical instrument. Twenty-two novice players took part in a study in which OPM-MEG data were recorded during two scanning sessions, while participants attempted to play a tune on a violin. Between the two sessions, participants received a violin lesson from an expert teacher. Results showed that robust data could be acquired during this naturalistic task, with beta oscillations decreasing in amplitude during movement and increasing upon movement cessation, as expected. Moreover, beta power while playing, in the motor and pre-motor areas, was significantly elevated after the lesson compared to before, and the movement-related modulation of beta amplitude was more pronounced after the lesson. These findings align with predictive coding models which suggest that beta amplitude should increase when individuals have greater certainty over the movements they carry out. Our study adds to an expanding literature on the role of beta oscillations and provides further evidence for the utility of OPM-MEG in naturalistic neuroscience.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Clinically unresponsive patients with acute brain injury activate a brain-computer interface.</title>
@@ -437,110 +543,6 @@ Social interactions are dynamic and complex, relying on tracking variation in yo
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Bridging language phenotypes, neural dynamics and gene regulation in autism.</title>
-      <link>https://doi.org/10.1162/imag.a.1396</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1396</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Autism Spectrum Disorders (ASDs) affect approximately 1% of the global population, with prevalence rising over recent decades. Although ASDs are heritable (~70%), translating genetic findings into effective therapeutics remains challenging due to the vast number of implicated risk genes (&gt;700) and the limited influence of individual genes on disease expression. Their collective impact and convergent expression patterns of small-effect genes provide insights into ASD-related neurobiological mechanisms. Current interventions remain symptom-focused and do not address underlying neurodevelopmental mechanisms. Emerging approaches in functional genomics offer new insights into ASD pathogenesis by exploring gene expression diversity, yet clinical applications remain distant. Language deficits are among the most frequent and disabling features of ASD, profoundly affecting individuals' and families' quality of life. Recent evidence from neuroimaging and electrophysiology studies suggests disrupted neural oscillatory dynamics are linked to language deficits in ASD. Several ASD-associated genes have been implicated in biological pathways involved in the regulation of brain oscillatory dynamics, suggesting a potential mechanistic link between genetic variation, altered brain rhythms, and language impairment. We propose a neurophysiological imaging genetics framework that leverages neural oscillatory profiles as endophenotypes for targeted investigation and as functional readouts of gene expression. Within this framework, neuromodulation is proposed as an experimental approach to investigate and potentially modulate altered oscillatory dynamics associated with speech communication deficits in ASD, while integrating oscillation-related ASD candidate genes into a symptom-oriented model of functional genomics. This approach shows how integrating genetic variation, non-invasive neuroimaging, and behavioral phenotypes can advance our understanding of ASD and inform targeted, mechanism-based interventions.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Infant hippocampal and amygdala volume in an observational follow-up from a randomized clinical trial for maternal prenatal depression.</title>
-      <link>https://doi.org/10.1038/s41467-026-78276-4</link>
-      <guid isPermaLink="false">doi:10.1038/s41467-026-78276-4</guid>
-      <description>Nature communications
-
-Prenatal maternal depression may have intergenerational effects on offspring brain development, with potential socioemotional consequences. This observational follow-up study examines brain development and subsequent negative emotionality among 109 infants born to mothers participating in a randomized clinical trial (NCT03011801). In the prior trial, brief interpersonal psychotherapy significantly reduced prenatal depression symptoms and disorder as the published primary and secondary endpoints. Exploratory infant outcomes include hippocampal and amygdala volumes at 6 weeks and negative emotionality at 6 months. Here we show that infants of mothers randomized to interpersonal psychotherapy during pregnancy have lower right hippocampal volume than infants of mothers in the enhanced usual care group (p = .002, d = 0.62). No statistically significant group differences are observed in left hippocampal or amygdala volume. Smaller hippocampal volume predicts subsequent lower negative emotionality (r = 0.19, p = 0.045). In this study, a maternal prenatal depression intervention is associated with differences in infant brain development with implications for their subsequent emotional health.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Memory stays strong in old age when this brain enzyme is active.</title>
-      <link>https://doi.org/10.1038/d41586-026-03303-9</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03303-9</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Decoding spatial attention in the cocktail party problem using whole-head high-density fNIRS.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122292</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122292</guid>
-      <description>NeuroImage
-
-Spatial attention is critical for solving the cocktail party problem, a longstanding problem in neuroscience and artificial speech recognition. The ability to decode where humans are attending in a cocktail party like scene would empower applications in brain computer interfaces and assistive devices such as hearing aids. Here we demonstrate that, in an overt attention task, the attended spatial location can be decoded robustly from single trial hemodynamic responses, using a whole head high density fNIRS system. We also identify critical brain regions that make the highest contribution to decoding accuracy. Specifically, we find that decoding based on a small fraction of channels located within the left and right inferior parietal lobule (IPL) achieves maximal decoding accuracy comparable to all channels. Decoding fell close to chance in a covert auditory condition in which participants held central fixation while attending to the same talkers, indicating that auditory attention alone without orientation is not sufficient for decoding. Finally, control experiments suggest that overt-condition decoding is influenced by sustained eye position/gaze direction, not eye movement. These results support the development of fNIRS-integrated BCIs and assistive devices controlled by overt spatial attention.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Neural dynamics of auditory attention: Interactions between top-down and bottom-up processes.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122285</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122285</guid>
-      <description>NeuroImage
-
-Auditory attention allows listeners to navigate complex acoustic environments by prioritizing behaviorally-relevant sounds while limiting interference from competing input. This process is guided by a dynamic interplay between top-down attention, driven by behavioral goals and expectations, and bottom-up attention, triggered by stimulus-driven salience. Although this distinction remains useful at a conceptual level, growing evidence suggests that auditory attention emerges from continuous interactions between goal-directed and stimulus-driven processes that recruit partially overlapping neural systems and vary with task demands, stimulus properties, and prior experience. This review focuses on the neural mechanisms underlying attentional control and interactions between top-down and bottom-up auditory attention. It synthesizesevidence from neurophysiological, behavioral, and neuroimaging studies and explores how top-down control modulates the neural processing and attentional impact of salient input, how bottom-up signals override attentional focus, and how these interactions are shaped by task demands and individual cognitive capacity. The findings synthesized here support a view of auditory attention as a flexible and adaptive system, whose operation emerges from context-dependent interactions, with important implications for models of attention and real-world listening behaviors.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Reorienting TMS treatments for fear memories and posttraumatic stress disorder. The emerging potential of the anterior prefrontal cortex.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107054</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107054</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Posttraumatic stress disorder (PTSD) is characterized by re-experiencing trauma through vivid and involuntary intrusions, avoidance of cues that could trigger traumatic memories, and alterations in mood and cognition. Transcranial magnetic stimulation (TMS) offers a promising approach to modulating activity and functional coupling within neural circuits underlying these processes. To date, TMS studies in fear-conditioning research and PTSD have mainly focused on dorsolateral prefrontal cortex (dlPFC) and ventromedial (vmPFC)-connected or broader medial-prefrontal (mPFC) targets, yielding encouraging but heterogeneous effects on posttraumatic symptoms. In parallel, emerging evidence has implicated the anterior prefrontal cortex (aPFC; Brodmann area 10) in threat- and trauma-related processes, including memory retrieval, higher-order control of defensive responding, adaptive strategy selection, and resilience. Whereas the dlPFC and vmPFC have been incorporated into mechanistic models of fear regulation, the aPFC has received limited attention in theoretical frameworks of fear and PTSD. Here, we review TMS studies organized around dlPFC, vmPFC-connected or mPFC, and aPFC neuroanatomical targets, integrating evidence from experimental and clinical research. Based on the hierarchical model of prefrontal organization, we argue that these regions represent potential TMS targets or circuit nodes, but likely act on partially distinct mechanisms. The vmPFC appears primarily involved in early automatic downregulation of defensive responses; the dlPFC may support cognitive control strategies such as reappraisal; and the aPFC may enable a supraordinate influence over higher-order representations and avoidance-related circuitry, as well as flexible selection of emotion-regulation strategies. We conclude that integrating the aPFC into this framework may guide next-generation, mechanistically-informed TMS treatments for PTSD.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Mitochondrial carbonic anhydrase–VB inhibition rescues brain endothelial stress and memory in Alzheimer’s disease models</title>
-      <link>https://europepmc.org/article/PMC/PMC13665925</link>
-      <guid isPermaLink="false">PMC:PMC13665925</guid>
-      <description>Science advances
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Learning to infer transitively on a mental line in premotor cortex</title>
-      <link>https://europepmc.org/article/PMC/PMC13665924</link>
-      <guid isPermaLink="false">PMC:PMC13665924</guid>
-      <description>Science advances
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Auditory paradigm-dependent EEG feature screening and representation for distinguishing consciousness states in male patients with disorders of consciousness</title>
-      <link>https://europepmc.org/article/PMC/PMC13661486</link>
-      <guid isPermaLink="false">PMC:PMC13661486</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers</title>
-      <link>https://europepmc.org/article/PMC/PMC13661320</link>
-      <guid isPermaLink="false">PMC:PMC13661320</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>
