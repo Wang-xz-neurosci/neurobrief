@@ -5,9 +5,42 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 23:29:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 19:34:02 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Individualised electrophysiological neural field models for the assessment of thalamocortical function in disorders of consciousness: A multicentre study.</title>
+      <link>https://doi.org/10.1371/journal.pcbi.1014905</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014905</guid>
+      <description>PLoS computational biology
+
+Understanding the neural mechanisms underlying disorders of consciousness (DoC) remains a major challenge, particularly in distinguishing limited awareness in minimally conscious state (MCS) and complete unawareness in unresponsive wakefulness syndrome, also coined vegetative state (UWS/VS). In this multicentre study, we fitted a biophysically informed corticothalamic neural field model to high-density EEG data from two large independent datasets, comprising 203 UWS patients, 270 MCS patients and 74 healthy controls. We then used the fitted parameters to simulate EEG time series on a per-subject basis and compared empirical and simulated complexity metrics. The model reliably captured the spectral features across different states of consciousness and revealed reduced corticothalamic integrity in DoC patients that was more pronounced in UWS than in MCS, supporting the mesocircuit hypothesis. Furthermore, the simulated EEG reproduced the complexity patterns of the empirical recordings, with permutation entropy emerging as a sensitive marker capable of distinguishing between MCS and UWS for both real and simulated time series.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Prefrontal Cortical Changes With Mindfulness-Oriented Recovery Enhancement in Opioid Use Disorder: A Randomized Clinical Trial.</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.3388</link>
+      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.3388</guid>
+      <description>JAMA psychiatry
+
+Despite decades of clinical implementation of medications for opioid use disorder (OUD), overdose mortality rates remain high, underscoring a critical need for interventions that target the brain mechanisms underlying addiction. To assess the neural mechanisms of Mindfulness-Oriented Recovery Enhancement (MORE) and their associations with clinical outcomes, including craving and abstinence duration. This randomized clinical trial was conducted from November 2020 to September 2024 among individuals with OUD recruited from an inpatient rehabilitation facility in New York and randomized to MORE or psychoeducational supportive therapy (PST). Data were analyzed from October 2024 to August 2026. Treatment with MORE (comprising training in mindfulness, drug cue reappraisal, and savoring positive experiences) or PST (active control condition) across 8 weekly 2-hour group sessions. Outcomes included treatment-related changes in functional magnetic resonance imaging (fMRI) blood oxygen level-dependent signal (primary), abstinence length (secondary), and cue-induced craving (secondary). Drug cue reactivity task analyses included 59 participants (MORE, n = 24; 5 women [20.8%]; mean [SD] age, 43.6 [11.3] years; PST, n = 35; 8 women [22.9%]; mean [SD] age, 42.8 [10.0] years). Movie-watching and follow-up analyses were conducted in subsets of 37 (MORE, n = 18; PST, n = 19) and 38 participants (MORE, n = 13; PST, n = 25), respectively. Compared with PST, MORE reduced drug-biased activity in the middle frontal gyrus and other brain areas, including the precuneus, during downregulation of responses to drug cues relative to upregulation of responses to natural reward cues (even when controlling for passive cue viewing; z &gt; 3.1; P &lt; .05). The shift from drug to natural reward responses in the lateral and ventromedial prefrontal cortex (PFC) was associated with lower cue-induced craving exclusively in the MORE group (z &gt; 3.1; P &lt; .05). Relative to PST, MORE also reduced medial PFC synchronization to naturalistic drug-related movie scenes (q = 0.019) and significantly extended abstinence duration at follow-up (approximately 4 months posttreatment; χ2 = 6.7; P = .04; Cohen w = 0.19). This neuroimaging randomized clinical trial demonstrates that MORE may restructure function in PFC nodes of the reward, salience, and control networks, positioning it as a biologically grounded adjunct to pharmacotherapy for OUD. ClinicalTrials.gov Identifier: NCT04112186.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Spectral-spatial Modeling of Neural Couplings in Functional Connectivity of Motor Networks.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122314</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122314</guid>
+      <description>NeuroImage
+
+Background Functional neural connectivity reflects coordinated interactions within brain networks in both health and disease. Phase-amplitude coupling (PAC) is widely used for this purpose, but its pairwise formulations overlook spatially distributed, spectrally correlated structures in neural activity that arises from complex brain circuits. New method We developed a spectral-spatial generalized linear model (SS-GLM) to characterize the high-frequency response as the integrated outcome of multiple low-frequency phase sources across channels and frequencies. Our method also utilizes a regularization strategy to mitigate predictor collinearity and spurious effects for stable attribution of network-level coupling estimates. Results Validation was performed using both synthetic data and human motor network recordings from 25 patients with Parkinson's disease undergoing deep brain stimulation (DBS) surgery. In synthetic analyses, SS-GLM accurately recovered ground-truth coupling configurations under multiple plausible scenarios. In real data, the framework revealed coherent cortico-subthalamic coupling patterns across distinct motor tasks that aligned with clinically effective DBS contacts and their anatomical organization. Comparison with existing methods Conventional pairwise PAC metrics, such as the modulation index and GLM assess interactions in isolation. In contrast, SS-GLM jointly models distributed predictors and yields spatially localized, spectrally specific coupling estimates that also achieve stronger correspondence with clinical stimulation outcomes. Conclusions This work offers a principled and extensible framework for advancing functional connectivity analyses, with improved interpretability of network-level interactions, enhanced robustness to confounds, and broad potential for future applications in systems neuroscience and neuro-engineering research.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Neurocognitive characteristics of perceptual feedback processing differ in autism.</title>
       <link>https://doi.org/10.1523/jneurosci.0315-26.2026</link>
@@ -18,6 +51,18 @@ Autistic individuals often show reduced adaptation to changing environmental dem
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Disrupted brain network topology and structure-function coupling in non-specific low back pain.</title>
+      <link>https://doi.org/10.1162/imag.a.1412</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1412</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Central nervous system mechanisms contribute to non-specific low back pain (LBP), with widespread alterations in brain function and structure reported. It remains unclear how these alterations propagate to brain network topology and structure-function coupling. In this cross-sectional study, 282 participants with non-specific LBP (mean ± standard deviation, pain intensity 4.3 ± 1.7 [0-10 numerical rating scale]; current pain duration 54 ± 105 weeks) and 71 pain-free controls underwent resting-state functional and diffusion-weighted MRI to derive functional and structural connectomes. Subgroups were analyzed by pain status during scanning and pain duration. The main graph-theory analysis revealed that participants with non-specific LBP had lower segregation (d = 0.39-0.45, P = 0.009-0.019) in the whole-brain functional network and higher integration (d = 0.30-0.38, P = 0.005-0.027) in the functional ventral attention network. Subgroup analysis showed that participants with chronic non-specific LBP had lower segregation (d = 0.48, P = 0.002) and higher integration (d = 0.45, P = 0.004) within the structural default mode network. By modeling functional connectivity using structural communication predictors in a multivariable linear regression, we identified structure-function decoupling in participants with non-specific LBP across the whole-brain (d = 0.25-0.28, P = 0.026-0.041), ventral attention (d = 0.28-0.32, P = 0.005-0.048), and default mode network (d = 0.22-0.24, P = 0.031-0.046), alongside complex regional patterns of both decoupling and hypercoupling. Explorative partial correlation analyses associated disability, rather than pain intensity, with differences in brain network topology and structure-function decoupling. These findings advance the mechanistic understanding of the severity and persistence of non-specific LBP, showing disrupted bottom-up attentional processing and self-referential circuitry, resulting in large-scale structure-function decoupling.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>High-Intensity Transcranial Alternating Current Stimulation for Post-Stroke Cognitive Impairment: A Triple-Blind Randomized Trial.</title>
@@ -92,17 +137,6 @@ Background Individuals at clinical high risk for psychosis (CHR) present with he
       <description>Brain : a journal of neurology
 
 Brain activation to verbal commands can be detected by EEG in clinically unresponsive patients. These patients with cognitive motor dissociation (CMD) are unable to communicate with the environment despite preserved consciousness. Advanced brain-computer interfaces (BCI) are promising to support motor function in patients with motor neuron disease or spinal cord injury. Our primary objective was to determine if clinically unresponsive patients can control a self-paced, one-way BCI early after acute brain injury. Secondarily, we assessed the association of BCI control with short- and long-term outcomes. We conducted a prospective single-centre cohort study in 41 clinically unresponsive, critically ill and acutely brain injured patients, as well as in a convenience sample of 8 healthy volunteers and 22 conscious critically ill patients. The self-paced BCI analysed EEG in real time and modulated frequency and pitch of a tone that patients controlled by attempting a motor task: patients were provided with instructions 'to make the beep sound faster, keep opening and closing your right hand' alternating with 'to make the beep sound slower, stop opening and closing your right hand'. CMD was detected by applying machine learning to EEG recorded while patients listened to motor commands. Clinical outcomes were recovery of consciousness by hospital discharge, assessed with the Coma Recovery Scale-Revised, and recovery of functional independence at 12 months, defined as a Glasgow Outcome Scale-Extended score of 4 or higher (denoting the ability to function independently for 8 h or more). Additionally, we invited conscious patients as well as family members of conscious and clinically unresponsive patients to complete a survey on perceived utility and challenges associated with the BCI. In this study, 13 clinically unresponsive patients (32%) achieved BCI control and 8 of 41 (20%) were CMD-positive. All healthy volunteers and nine conscious patients (41%) were able to control the BCI. Median signal delay for BCI control was 49.8 [interquartile range (IQR) 39.9-75.6] seconds for clinically unresponsive patients, 17.1 (IQR 7.8-19.9) for conscious patients and 15.5 (IQR 12.9-21.2) for healthy volunteers. In the group of 41 clinically unresponsive patients, 4 of 13 patients with (31%) and 1 of 28 without BCI control (4%) recovered clinical consciousness at hospital discharge [odds ratio (OR) 21.2; 95% confidence interval (CI) 2.3-930.7]. At 12 months, 6 of 13 patients with (46%) and 2 of 28 without BCI control (7%) recovered functional independence (OR 9.9; 95% CI 1.8-81.6). None of the patients that were unable to control the BCI and were CMD-negative recovered. Patients with BCI control had shorter times to recovery of functional independence by 12 months than those who did not (hazards ratio 6.0; 95% CI 1.2-30.6). All respondents of the BCI survey (n = 37) expressed strong support for the potential future use of BCI devices. These results suggest that BCI control is a strong predictor of outcomes following acute brain injury and provide initial evidence that a bedside, EEG-based BCI system might permit bidirectional communication in critically ill unresponsive patients.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Teen depression and anxiety predicted by childhood brain development.</title>
-      <link>https://doi.org/10.1038/d41586-026-03357-9</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03357-9</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
@@ -536,41 +570,6 @@ Background The cortical thinning signature of early-onset Alzheimer's disease (E
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Hierarchical reorganization of cortical and cerebellar functional gradients in Parkinson's disease.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1942024</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1942024</guid>
-      <description>Frontiers in neurology
-
-Introduction Parkinson's disease (PD) is a common movement disorder with heterogeneous clinical manifestations, and its tremor-predominant presentations may overlap with essential tremor (ET), complicating clinical differentiation in some patients. Functional gradient analysis provides a continuous framework for characterizing macroscale brain hierarchical organization and may offer candidate imaging features for disease characterization. Methods We first investigated surface-based resting-state functional measures and cerebral perfusion in 50 patients with idiopathic PD and 33 healthy controls. We subsequently incorporated functional MRI data from 17 patients with ET to examine alterations in cortical and cerebellar functional gradients in PD and ET and to evaluate their potential utility for distinguishing the two disorders. Group comparisons, gradient range and variance analyses, network-level analyses, and multiclass support vector machine classification were performed. Results Patients with PD showed widespread abnormalities in both cortical and cerebellar Gradient 1 and Gradient 2, whereas patients with ET exhibited fewer cortical alterations and no significant cerebellar gradient abnormalities. At the group level, both PD and ET showed broader cortical gradient ranges; however, only PD demonstrated significantly increased individual-level gradient range and variance. Network-level analyses further revealed pronounced hierarchical redistribution between sensorimotor and higher-order associative systems in PD, while ET displayed relatively limited alterations. The combined use of cortical and cerebellar Gradient 1 and Gradient 2 features showed discriminatory performance within the present dataset, with area under the receiver operating characteristic curve values of 1.000 for healthy controls, 0.960 for PD, and 0.889 for ET. Shapley additive explanations (SHAP) analysis indicated that both cerebral and cerebellar gradient features contributed to classification, with broader feature involvement in PD than in ET. Discussion These findings suggest that PD is characterized by extensive disruption of cortical-cerebellar functional hierarchy, exceeding the relatively limited alterations observed in ET. Functional gradients may therefore provide candidate imaging features for characterizing PD-related hierarchical reorganization and for exploratory differentiation of PD from ET.</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Efficacy of acupuncture for sleep disorders in amnestic mild cognitive impairment: a randomized controlled trial with fMRI.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1913478</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1913478</guid>
-      <description>Frontiers in neurology
-
-Objective To access the efficacy of acupuncture in improving sleep disorders in patients with amnestic Mild Cognitive Impairment (aMCI) and to investigate its mechanisms. Methods Thirty aMCI patients with sleep disorders and fifteen healthy controls (HC) were enrolled. Patients were randomly assigned to verum acupuncture group (VA) or sham acupuncture group (SA) for a 12-week treatment. Assessments included the Montreal Cognitive Assessment (MoCA), Pittsburgh Sleep Quality Index (PSQI), and resting-state Functional Magnetic Resonance Imaging (fMRI). Results At baseline, patients with aMCI exhibited aberrant brain activity in temporal, frontal, parietal, and cerebellar regions compared with HCs. After treatment, the VA group, but not the SA group, showed significant improvements in both MoCA and PSQI scores. Rs-fMRI analyses revealed significant VA-related changes in the amplitude of low-frequency fluctuation (ALFF) in the left calcarine sulcus and regional homogeneity (ReHo) in the cerebellar vermis. Changes in these imaging indicators were significantly correlated with changes in MoCA scores but not with changes in PSQI scores. Moreover, changes in MoCA scores were negatively correlated with changes in PSQI scores in the VA group (r = -0.536, p = 0.039). Conclusion Acupuncture could effectively improve sleep and cognitive function in aMCI patients. The treatment-related alterations in brain function may be associated with changes in the dermatome layer and the brain-cerebellar cortex circuitry. Clinical trial registration https://itmctr.ccebtcm.org.cn/mgt/search, Identifier ITMCTR2026000708.</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The cerebellum in migraine: a narrative review of anatomical, imaging, and clinical evidence.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1877070</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1877070</guid>
-      <description>Frontiers in neurology
-
-Migraine is usually framed through trigeminovascular pathways and interactions among the brainstem, hypothalamus, and cortex. The cerebellum has received less attention, although human studies place it within circuits that process trigeminal nociception and vestibular signals. This narrative review examines anatomical and experimental work together with imaging, genetic, and clinical studies, giving greatest weight to direct human migraine evidence. Repeated-measures imaging suggests that cerebellar connectivity changes across the migraine cycle, but the cohorts are small. Structural findings vary with analytic method, and population based testing does not show a general cerebellar deficit in common migraine. Evidence is more coherent in defined contexts: trigeminal stimulation recruits lobules VI/VIIIa and Crus I, vestibular migraine involves posterior cerebellar and wider vestibular-sensory networks, and treatment imaging shows cerebellar changes without localizing the site of CGRP-directed action. Findings in medication-overuse headache and familial hemiplegic migraine provide additional state-related and mechanistic clues. Taken together, the cerebellum is best viewed as a modulatory component of distributed migraine networks, with possible roles in sensory gain and vestibular integration. It is neither a demonstrated attack generator nor a validated treatment target. The next step is to test whether within-person cerebellar measures reproduce across attacks and whether intervention changes a prespecified circuit-level endpoint.</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
       <category>脑疾病机理</category>
     </item>
   </channel>

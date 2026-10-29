@@ -5,9 +5,31 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 23:29:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 19:34:02 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The interplay between cortical tracking and functional connectivity in musicians and non-musicians listening to speech and music</title>
+      <link>https://doi.org/10.64898/2026.10.27.762164</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.27.762164</guid>
+      <description>[预印本] bioRxiv
+
+Musical expertise is associated with auditory processing advantages which can extend to the speech domain. However, the origins of such domain-general benefits remain unclear. Recent frameworks propose that better rhythm processing in musicians might be at the basis of the observed advantages in processing music and speech. Auditory cortical tracking and inter-regional interactions between auditory and motor areas have been proposed as key neural mechanisms. In this study, we asked whether expertise-related increase in cortical tracking would be elicited by naturalistic stimuli in clear listening conditions, and whether such effects would be related to audiomotor functional connectivity and individual rhythmic abilities. We compared MEG data from expert musicians and controls with no musical playing experience while they listened to two-minutes long stories and excerpts of piano music. We also collected behavioral data in a rhythmic task testing speech (syllable) production. We found that musicians showed enhanced tracking and enhanced functional connectivity in both speech and music conditions, as well as better rhythmic abilities relative to non-musicians. Alpha connectivity between the right auditory cortex and inferior frontal gyrus negatively predicted cortical tracking across all participants in the speech condition, while no relation was observed for music. We suggest that stronger cortical tracking in musicians is due to domain-general differences in auditory sensory processes and is not driven by motor influences in our experiment. Moreover, a trade-off between cortical tracking and inter-regional communication might be at the basis of optimal perception of speech in both musicians and non-musicians in clear listening conditions.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Naturalistic Movie Viewing Reveals a Distributed Network Supporting Audiovisual Speech Processing</title>
+      <link>https://doi.org/10.64898/2026.10.26.762007</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.26.762007</guid>
+      <description>[预印本] bioRxiv
+
+Traditional paradigms in cognitive neuroscience often fail to capture the richness of real-world experiences. To bridge this gap, researchers increasingly use naturalistic stimuli such as movies, which provide complex, multisensory input. Speech perception is a prime example of such complexity: it is inherently multisensory, involving the integration of auditory cues, lip movements, and facial expressions. Prior studies suggest that the left posterior superior temporal sulcus (pSTS) and superior temporal gyrus (STG) play a critical role in this integration. However, most studies of audiovisual speech have relied on simplified or artificial stimuli, limiting ecological validity. To address these gaps, we analyzed fMRI data from human participants watching two full-length films (500 Days of Summer, Citizenfour) to assess the consistency of multisensory speech processes across distinct genres and narratives. We manually annotated word onset times and modality (audiovisual vs. auditory-only). Across two movies and 38 participants we observed consistent speech-related activation in the pSTS and STG across speech types. Compared to auditory-only speech, audiovisual speech recruited a broad left-lateralized network including the angular gyrus, posterior temporal cortex, temporal pole, and inferior frontal gyrus, along with the right cerebellum. These findings were also consistently present in single-subject data. Importantly, most of the regions observed in our analyses have been implicated in multisensory function in the nonhuman primate literature despite receiving relatively little focus in human neuroimaging. Together our results demonstrate that speech processing during naturalistic viewing recruits a distributed network extending substantially beyond regions traditionally emphasized in audiovisual speech research.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Neurotransmitter receptor architecture links local neurochemistry to semantic memory</title>
       <link>https://doi.org/10.64898/2026.10.26.762019</link>
@@ -46,6 +68,27 @@ Older adults often experience difficulty understanding speech in noisy environme
       <description>[预印本] PsyArXiv
 
 Language comprehension is disrupted in schizophrenia and early-stage psychosis, but the contributions of bottom-up and top-down processing remain unclear. In the current electroencephalography (EEG) study, we investigated speech entrainment in a sample of n=21 individuals at clinical high-risk for psychosis (CHR-P) and n=25 healthy controls (HCs). Continuous speech was presented through an audiobook in three listening conditions: (1) “Active”, in which participants attended to speech; (2) “Passive”, in which participants passively listened to the audiobook while performing a concurrent visual Flanker task; and (3) “Passive-reversed”, in which participants listened to an unintelligible time-reversed and noise-vocoded version of the audiobook while performing the Flanker task. Mutual Information (MI) analyses were used to assess shared information between the speech amplitude envelope and neural oscillations in the delta (0.25-3 Hz), theta (4.5-6.5 Hz), and alpha (7-10 Hz) frequency ranges. Sensor-level and source-level results indicate stronger delta entrainment in the Active vs. Passive conditions across groups. However, compared to controls, CHR-Ps showed reduced theta entrainment in auditory cortices, independent of condition, and decreased alpha entrainment in the Passive vs. Active condition. The findings point to theta entrainment deficits in CHR-Ps during continuous speech processing, indexing a bottom-up impairment. In contrast, delta and alpha entrainment in CHR-Ps were modulated by attention. Together, these findings highlight that both bottom-up and top-down impairments contribute to speech entrainment deficits in CHR-Ps.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>The Entangled Loop: Emotion, interference and hierarchy in the architecture of consciousness.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107063</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107063</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Why does consciousness feel like something, and why is experience unified rather than fragmented? We propose that these properties arise from an entangled trefoil of emotion, interference-based inference and hierarchical orchestration, shaped by the thermodynamic constraint that living systems must remain far from equilibrium using limited energy. Emotion compresses actions into valenced signals of what matters, while a pleasure cycle schedules competing biological needs through predictive wanting and satiety organised around the true hedonic outcome of liking. Hierarchical orchestrating regions integrate and broadcast information through interference between classical coupled oscillators, shaped by the spectral gaps of the connectome driven by long-range exceptions to local cortical wiring. The architecture of the Entangled Loop consists of three inseparable strands, each continually constraining the other two, with the one operator linking computational possibilities to the arrow of time and energetic cost of running them. Evidence suggests that the same three signatures emerge independently in large language models trained on human language, but as shadows of the generating architecture rather than evidence of consciousness. The trefoil predicts a distinctive human vulnerability because our abundance of rare long-range connections promotes more computation for less energy while making the architecture more fragile. Neuropsychiatric disorders could therefore arise from perturbations entering through any strand and propagating through the others, while the more robust architecture of other species may help explain why animal models reproduce human psychiatric disorders poorly. Sustaining and restoring flexible entanglement in the Entangled Loop may provide mechanistic routes towards flourishing.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Altered developmental trajectories in neurodevelopmental disorders: mechanisms, human models and translational perspectives.</title>
+      <link>https://doi.org/10.1007/s00702-026-03315-9</link>
+      <guid isPermaLink="false">doi:10.1007/s00702-026-03315-9</guid>
+      <description>Journal of neural transmission (Vienna, Austria : 1996)
+
+Neurodevelopmental disorders (NDDs) are clinically and genetically heterogeneous conditions often studied through diagnostic categories, causal genes, synaptic dysfunction or end-stage phenotypes. Although these approaches remain essential, they do not fully capture the developmental nature of NDD pathophysiology. This review proposes a trajectory-first framework in which NDDs are interpreted as disorders of altered developmental progression. From this perspective, the key question is not only which gene, pathway, cell type, or synapse is affected, but when, where and how neurodevelopment begins to diverge. We discuss mechanisms of trajectory divergence, including altered developmental timing, cell-state and lineage disruption, selective cellular vulnerability, epigenetic and signaling dysregulation, cytoskeletal and morphogenetic abnormalities, synaptic maturation defects, excitability changes and network-level alterations. We then examine how human systems, including fetal and post-mortem atlases, iPSC-derived models, cortical organoids, assembloids, functional readouts and patient-level phenotypes, can be integrated to reconstruct developmental trajectories across biological scales. Representative NDD genes and syndromes illustrate that distinct divergence points may later converge on shared functional or clinical outcomes, including altered excitation/inhibition balance, abnormal network activity, epilepsy, language delay, intellectual disability, autism spectrum disorder features or motor dysfunction. Finally, we discuss limitations and perspectives for trajectory-based stratification and biomarker discovery. Rather than acting as static diagnostic readouts, future biomarkers should aim to capture developmental state, timing, divergence, convergence, compensation and response to intervention.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -90,6 +133,16 @@ Engagement in conversation often requires continuous monitoring of relevant spee
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Muscarinic signaling sustains delay-period selectivity in prefrontal cortex by preserving thalamic drive</title>
+      <link>https://doi.org/10.64898/2026.10.20.760355</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.20.760355</guid>
+      <description>[预印本] bioRxiv
+
+ABSTRACT Short-term memory (STM) requires the temporary maintenance of task-relevant information in prefrontal cortex (PFC). Reciprocal interactions between the mediodorsal thalamus (MD) and PFC have been implicated in sustaining this activity, but how thalamofrontal communication is maintained despite the biophysical constraints of repetitive synaptic transmission remains unclear. Here, we show that MD–PFC synapses exhibit profound frequency-dependent short-term depression, causing repetitive thalamic input to progressively lose its ability to drive PFC neurons. During STM performance, acetylcholine (ACh) levels in PFC rose rapidly following cue presentation and remained elevated throughout the delay period. Muscarinic ACh receptor (mAChR) activation did not alleviate synaptic depression, but instead increased the intrinsic excitability of PFC neurons, thereby preserving their responsiveness to weakened thalamic input. Conversely, mAChR blockade impaired STM performance and progressively disrupted delay-period directional representations at both the single-neuron and population levels, while largely sparing initial encoding. These findings identify muscarinic signaling as a postsynaptic gain mechanism that compensates for declining thalamofrontal efficacy and sustains task-relevant prefrontal representations during STM.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
     </item>
     <item>
       <title>Visual-linguistic cues in manual communication: Neural and behavioral responses to Mouthings in sign-naïve perception.</title>
@@ -200,6 +253,16 @@ Background Aphasic status epilepticus (ASE) is an uncommon manifestation of foca
       <description>NeuroImage. Clinical
 
 Developmental dyslexia (DD) is a heritable neurodevelopmental disorder associated with altered brain connectivity. The influence of genetic risks on cortico-cerebellar effective connectivity (EC) remains unclear. The present study investigates how reading proficiency and the READ1 deletion (READ1d) in the DCDC2 gene modulate visuo-attentional network dynamics. Functional MRI data were acquired in 78 children (DD and typical readers, with/without READ1d) performing a coherent motion detection task. EC within a seven-region visuo-attentional network, including magnocellular, ventral attention, and cerebellar (crus I) regions, was estimated using Dynamic Causal Modelling. Group-level effects were assessed using Parametric Empirical Bayes within a hierarchical Bayesian framework, testing reading proficiency, READ1d status, and their interaction (posterior probability threshold, Pp &gt; 0.95). Reading proficiency was associated with increased cerebellar influence on visual and frontal regions, alongside reduced intra-cortical connectivity within dorsal stream pathways. The presence of READ1d was associated with reduced EC from primary visual and cerebellar regions to magnocellular and ventral attention networks, and increased intra-cortical interactions. The interaction between DD and READ1d revealed further reductions in cortico-cerebellar connectivity and altered network dynamics. Group-level analyses revealed EC differences in cortico-cerebellar pathways, which are reported as exploratory findings. Cortico-cerebellar EC is modulated by both reading proficiency and genetic susceptibility. Altered cerebellar contributions to visuo-attentional processes may represent a potential imaging-genetic signature of dyslexia, warranting replication in independent samples and validation through longitudinal and multimodal approaches.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Age- and noise-related differences in neural entrainment to speech sounds.</title>
+      <link>https://doi.org/10.1016/j.neurobiolaging.2026.10.005</link>
+      <guid isPermaLink="false">doi:10.1016/j.neurobiolaging.2026.10.005</guid>
+      <description>Neurobiology of aging
+
+Speech-in-noise (SIN) perception is a difficult everyday listening task that becomes more difficult with age. Neural tracking of target speech is associated with successful speech perception in clean and noise-degraded listening environments. How aging impacts neural tracking of speech and behavioral decrements in SIN perception remains unclear. To address these questions, we measured neural speech tracking during a continuous SIN perception task in younger and older adults via multichannel electroencephalography (EEG). Participants (N = 83) monitored a continuous stream of syllables (~4.5 Hz) presented in quiet and noise conditions during EEG recordings. We assessed neural phase-locking value (PLV) to the acoustic speech envelope to investigate interactions between aging, hearing loss, and stimulus noise on neural synchronization to speech. Compared to younger adults, older adults demonstrated less behavioral sensitivity to noise effects than young adults and had higher overall PLV to target speech. Older adults also showed greater noise-related degradations in neural speech processing relative to younger listeners. Age remained a strong predictor of behavioral responses to speech even after controlling for hearing loss. Covarying for hearing loss removed most age-related effects on neural PLV. Older adults demonstrate exaggerated neural tracking to ongoing speech presented in quiet and greater noise-related reductions in neurobehavioral speech processing than young adults. Our results support the decline-compensation hypothesis, corroborate unusually large speech envelope encoding in older listeners, and suggest more robust neural synchronization to the speech signal is not always perceptually advantageous.</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -465,69 +528,6 @@ Psycholinguistic research and linguistic theory suggest that comprehending conti
 
 Paid family leave (PFL) may give parents more time with infants, ease financial strain, and support stable routines. Although PFL has been linked to child development, little is known about neural pathways that might underpin its benefits or whether associations vary across families. Using data from 274 infants in the HEALthy Brain and Child Development Study, we examined associations of maternal and paternal PFL with language ability at 12 months and white matter microstructure at 6 months. We tested whether associations varied by the corresponding parent’s education. Neither maternal nor paternal PFL was directly associated with language scores or fractional anisotropy in the left arcuate, inferior longitudinal, or uncinate fasciculus. Maternal education moderated associations between maternal PFL and fractional anisotropy in the arcuate ( p = .014) and inferior longitudinal fasciculus ( p = .003; n = 148). In both tracts, PFL was associated with higher fractional anisotropy only among infants whose mothers had relatively high education. No comparable pattern emerged for language, the uncinate fasciculus, or paternal PFL. Findings suggest that the neurodevelopmental correlates of PFL may depend on family resources rather than operate uniformly across families, underscoring the need to pair paid leave with additional supports and resources. Lay Summary Paid family leave may give parents more time at home, steadier daily routines, and less financial worry in the months after a birth, all of which could change the care an infant receives. But these benefits may not be equal across families. In a national study of infants, we examined whether paid leave taken by mothers, fathers or partners was related to early language skills and to the organization of brain pathways involved in language. Paid leave was not directly related to language scores or brain development overall. However, maternal paid leave was associated with more mature organization in two language-related brain pathways only among infants whose mothers had higher levels of education. No similar pattern was found for father or partner leave. These findings suggest that paid leave alone may not reduce early developmental disparities, and that policies offering paid leave may need to be paired with additional support for families with fewer resources.</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Color and Spatial Cue Modulation of Emotional Word Processing: Evidence from ERPs.</title>
-      <link>https://doi.org/10.3390/jintelligence14100260</link>
-      <guid isPermaLink="false">doi:10.3390/jintelligence14100260</guid>
-      <description>Journal of Intelligence
-
-Emotional word processing is shaped by lexical meaning and concurrent perceptual context. This study investigated when red and green color cues and symbolic upward and downward direction cues modulate the processing of positive and negative Chinese emotional words. Thirty-four native Chinese speakers were recruited, and 27 remained in the final ERP sample after behavioral and EEG-quality exclusions. The experiment used a 2 (color: red vs. green) × 2 (direction: up vs. down) × 2 (word valence: positive vs. negative) within-subject design. Positive words elicited larger P1 amplitudes, and negative words elicited more negative-going N1 and N400 amplitudes. A significant Color × Valence interaction emerged in the late positive complex (LPC) window. The positive-minus-negative LPC difference was descriptively larger under green cues than under red cues, and neither within-color comparison reached significance after Bonferroni correction. Interactions involving spatial direction were not significant across the four components. These findings trace emotional word processing from early valence-sensitive visual attention through semantic processing to late color-dependent evaluation. The temporal pattern supports a context-sensitive account in which perceptual cues, lexical valence, and learned cultural associations contribute to emotional meaning at different processing stages.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Evidence for hierarchical representations of written and spoken words from an open-science human neuroimaging dataset.</title>
-      <link>https://doi.org/10.1162/imag.a.1388</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1388</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Reading and speech recognition rely on multi-level processing that builds from basic visual or sound features to complete word representations, yet details of these processing hierarchies (in particular those for spoken words) are still poorly understood. We re-analyzed the functional magnetic resonance imaging (fMRI) data provided in the Mother Of all Unification Studies (MOUS) open-science dataset by using parametric regressions of word frequency and sublexical unit (bigram or syllable) frequency during reading and speech listening tasks in order to elucidate lexical and sublexical processing stages in the visual and auditory modalities. We first validated our approach in the written word domain, where the technique identified significant correlations for word frequency in the left mid-fusiform cortex (at the location of the Visual Word Form Area) and a left occipital region tracking bigram frequency, compatible with prior reports. During listening, activity in a left mid-superior temporal region consistent with the recently described Auditory Word Form Area (AWFA) showed a lexical frequency effect, while a more posterior region of the superior temporal gyrus was sensitive to syllable frequency. Activation in the left inferior frontal gyrus correlated with both written and spoken word frequencies. These findings suggest analogous posterior-to-anterior hierarchical organizations in the anteroventral visual and auditory streams, with modality-specific posterior sublexical and more anterior lexical representations that converge in higher-order language areas.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Longitudinal associations of screen time with brain development and expressive language skills in early childhood.</title>
-      <link>https://doi.org/10.1016/j.isci.2026.117860</link>
-      <guid isPermaLink="false">doi:10.1016/j.isci.2026.117860</guid>
-      <description>iScience
-
-Screen-based media may reduce reciprocal social interactions that support expressive language development, but little is known about how early language abilities, later screen use, and brain structure are related during toddlerhood. We examined 70 toddlers with structural magnetic resonance imaging and standardized developmental assessments at age 2, along with parent-reported screen time at ages 2 and 3. Greater weekday and weekend screen time at age 2 were associated with poorer concurrent expressive language skills. Right pars triangularis volume did not explain additional variance in these cross-sectional associations. Longitudinally, right pars triangularis volume moderated the association between expressive language skills at age 2 and screen time at age 3. Among toddlers with relatively smaller right pars triangularis volumes, poorer expressive language skills were associated with greater subsequent weekday and weekend screen time. These findings support guidance to limit screen use during toddlerhood, a sensitive window for language and brain development.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Impact of sedation on the reliability of magnetoencephalographic language mapping in pediatric epilepsy.</title>
-      <link>https://doi.org/10.1002/epi.70546</link>
-      <guid isPermaLink="false">doi:10.1002/epi.70546</guid>
-      <description>Epilepsia
-
-Objective Magnetoencephalography (MEG) language mapping in pediatric epilepsy frequently requires sedation, which may alter cortical physiology and compromise the reliability of language lateralization. We hypothesized that sedation disrupts coupling between early auditory processing and higher order language networks, reducing the interpretability of laterality metrics. Methods Sixty-nine pediatric patients undergoing presurgical MEG evaluation were analyzed, including 32 nonsedated and 37 sedated participants. Auditory evoked field responses were quantified using the M200/M100 amplitude ratio and interhemispheric asymmetry. Language laterality indices (LIs) were derived from a continuous recognition memory paradigm, and source localization was performed using Fast-VESTAL. Results Sedation preferentially suppressed late auditory responses, reflected by a significant reduction in the M200/M100 ratio (p &lt; .001) and increased interindividual variability. Despite preserved early sensory responses, auditory-language coupling was numerically attenuated under sedation. Notably, low M200/M100 ratios were frequently associated with highly lateralized LI values, suggesting reduced physiological reliability and the potential for "false certainty" in language lateralization. Source imaging demonstrated preserved primary auditory cortical activity with reduced recruitment of higher order association networks in sedated participants. Significance Sedation compromises the physiological reliability of MEG language lateralization by disrupting late auditory and association-level processing. The M200/M100 ratio provides a practical physiological marker for identifying cases in which laterality results should be interpreted with caution. These findings support a physiology-informed framework for improving the clinical interpretation of MEG language mapping in sedated pediatric patients, with direct implications for presurgical planning in pediatric epilepsy.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Language-associated brain representations covary with disruption of selfhood under psilocybin</title>
-      <link>https://doi.org/10.64898/2026.10.06.757069</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.06.757069</guid>
-      <description>[预印本] bioRxiv
-
-Language helps organise experience into an idiosyncratic, temporally extended sense of self. We therefore used fMRI to investigate whether greater similarity between subjects in the activity of language-associated brain regions accompanied psilocybin-induced loss of selfhood using fMRI. Participants heard music and viewed moving clouds at baseline and after 19 mg psilocybin. At each brain location and time point, we tested whether similarity increased with each pair’s summed rank on the Ego Dissolution Inventory (EDI; N=43). We grouped independent components of these associations by time course and decoded each group’s map with Neurosynth. Elementary visual imagery (SI; N=49) and baseline activity served as comparators. Under psilocybin, one group formed a distributed, left-lateralised frontotemporal network matching the Neurosynth language map (r=.382, spatial-null p&lt;.001, q=.003), nearly twice the largest comparator estimate (SI: r=.208, p=.004, q=.028; baseline: r≤.12). In exploratory analyses, resting-state connectivity of this network decreased with posterior visual cortex and increased with thalamic and frontal regions. Participants with higher EDI scores showed larger changes (ρ=.455, Bonferroni-adjusted p=.048; SI: ρ=.008), most strongly for items describing loss of ego or identity (ρ=.43–.51; other items, ρ=.22–.33). We propose that language-associated systems incorporate each person’s semantic and autobiographical context into experience, and that disrupting them contributes to loss of ego and identity.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>White matter differences in adults with developmental language disorder</title>
-      <link>https://doi.org/10.31234/osf.io/zqrdx_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/zqrdx_v2</guid>
-      <description>[预印本] PsyArXiv
-
-Developmental language disorder is a highly common yet underdiagnosed neurodevelopmental disorder which impacts receptive and/or expressive language abilities and cannot be attributed to another etiology such as hearing loss or a lack of early exposure to language. There is very little research into the brain differences that characterize developmental language disorder, especially in adult populations In this study, we used diffusion MRI to determine whether adults with DLD show differences in white matter microstructure of the brain when compared to adults with typical language. Participants included 23 adults identified as meeting criteria for developmental language disorder, as well as a group of 26 adults with typical language. White matter microstructure was examined with fractional anisotropy via diffusion tensor imaging and precise biophysical models of intra-axonal signal fraction and orientation coherence via the Standard Model of diffusion imaging, using tractometry to evaluate microstructure differences along white matter tracts. Analysis showed reduced myelin integrity in DLD in the corpus callosum, but increased myelin integrity in the left superior longitudinal fasciculus. It is yet unclear whether differences exist in childhood and are retained into adulthood, are a result of different language environments during childhood, or are a result of behavioral and neural compensation.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
     </item>
