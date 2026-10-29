@@ -1,8 +1,12 @@
 import datetime as dt
 import importlib.util
 import json
+import os
 from pathlib import Path
+import sys
+import tempfile
 import unittest
+from unittest.mock import patch
 
 spec=importlib.util.spec_from_file_location('gate',Path(__file__).resolve().parents[1]/'scripts/update_gate.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
@@ -12,6 +16,19 @@ class ScheduleTests(unittest.TestCase):
     policy=json.loads((Path(__file__).resolve().parents[1]/'config/update_policy.json').read_text(encoding='utf-8'))
     status={'collection_date':'2026-10-26','collected_at':'2026-10-26T04:54:53Z'}
     def now(self,value):return dt.datetime.fromisoformat(value).replace(tzinfo=m.CN)
+    def test_prompt_update_does_not_start_a_historical_migration(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=Path(tmp);(folder/'config').mkdir();(folder/'dist').mkdir()
+            (folder/'config/update_policy.json').write_text(json.dumps(self.policy))
+            (folder/'config/relevance.json').write_text(json.dumps({'version':'new','migration_id':'old','auto_migration':False}))
+            (folder/'dist/update-status.json').write_text(json.dumps({**self.status,'relevance_version':'old'}))
+            output=folder/'outputs'
+            with patch.object(m,'ROOT',folder),patch.object(sys,'argv',['update_gate.py','--event','workflow_dispatch']),patch.dict(os.environ,{'GITHUB_OUTPUT':str(output)}),patch.object(m,'urlopen',side_effect=AssertionError('No source or publication request expected')):
+                m.main()
+            values=dict(line.split('=',1) for line in output.read_text().splitlines())
+            self.assertEqual(values['migration'],'false')
+            self.assertEqual(values['collect'],'false')
+            self.assertEqual(values['process'],'false')
     def test_today_does_not_collect_again(self):
         self.assertFalse(m.decide('schedule',self.now('2026-10-26T20:00:00'),self.status,self.policy)['collect'])
     def test_early_checks_do_not_call_sources(self):

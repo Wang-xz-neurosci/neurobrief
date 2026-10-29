@@ -16,7 +16,7 @@ class SummaryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls): TEMP_ROOT.mkdir(exist_ok=True)
     def settings(self):
-        return dict(model='test-model',prompt_version='v3',accepted_prompt_versions=['v1','v2','v3'],mode='automatic',max_per_run=100,max_output_tokens=800,max_abstract_chars=12000,workers=1,max_run_seconds=30,max_content_repairs=1,daily_budget_cny=.35,annual_budget_cny=150,pricing_cny_per_million=dict(input_miss=2,input_hit=.04,output=8))
+        return dict(model='test-model',prompt_version='v3',accepted_prompt_versions=['v1','v2','v3'],mode='automatic',max_per_run=100,max_output_tokens=800,max_abstract_chars=12000,workers=1,max_run_seconds=30,max_content_repairs=1,daily_budget_cny=.35,pricing_cny_per_million=dict(input_miss=2,input_hit=.04,output=8))
     def paper(self,pid='new',abstract='A short abstract.'):
         return dict(id=pid,title='Imaging study '+pid,abstract=abstract,published='2026-10-23',first_seen='2026-10-23T05:00:00Z')
     def response(self,text='本研究关注语言加工的脑网络，结果显示不同任务情境下的网络联系会发生变化。'):
@@ -37,21 +37,18 @@ class SummaryTests(unittest.TestCase):
         calls=self.run_batch([self.paper(str(n)) for n in range(3)],cache,[self.response('文'*n) for n in (90,250,600)])
         self.assertEqual(calls,3);self.assertEqual(len(cache['ledger']),3)
         self.assertEqual(sorted(len(e['summary_zh']) for e in cache['entries'].values()),[90,250,600])
-    def test_daily_and_annual_budget_limits(self):
+    def test_daily_budget_without_annual_limit(self):
         settings=self.settings();cache=dict(ledger=[dict(date='2026-10-23',budget_charge_cny=.34)])
         self.assertFalse(m.within_budget(cache,'2026-10-23',.02,settings))
         self.assertTrue(m.within_budget(cache,'2026-10-24',.02,settings))
-        self.assertFalse(m.within_budget(dict(ledger=[dict(date='2026-01-01',budget_charge_cny=150)]),'2026-10-23',.01,settings))
-    def test_backfill_separate_from_daily_but_inside_annual_budget(self):
-        settings=self.settings();settings['backfill']=dict(id='initial',through_date='2026-10-23',budget_cny=20)
-        cache=dict(ledger=[dict(date='2026-10-23',budget_charge_cny=.35),dict(date='2026-10-23',budget_charge_cny=19.9,budget_group='initial')])
-        self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings))
-        self.assertTrue(m.within_budget(cache,'2026-10-23',.05,settings,'initial'))
-        self.assertFalse(m.within_budget(cache,'2026-10-23',.11,settings,'initial'))
-        self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings,'unknown'))
-        self.assertEqual(m.budget_group(self.paper(),settings),'initial')
-        newer=self.paper();newer['first_seen']='2026-10-23T16:01:00Z';self.assertIsNone(m.budget_group(newer,settings))
-        settings['annual_budget_cny']=20;self.assertFalse(m.within_budget(cache,'2026-10-23',.01,settings,'initial'))
+        self.assertTrue(m.within_budget(dict(ledger=[dict(date='2026-01-01',budget_charge_cny=10000)]),'2026-10-23',.01,settings))
+    def test_all_budget_groups_share_the_same_daily_cap(self):
+        settings=self.settings()
+        cache=dict(ledger=[dict(date='2026-10-23',budget_charge_cny=.2),dict(date='2026-10-23',budget_charge_cny=.1,budget_group='initial')])
+        self.assertTrue(m.within_budget(cache,'2026-10-23',.04,settings,'migration'))
+        self.assertFalse(m.within_budget(cache,'2026-10-23',.06,settings,'migration'))
+        self.assertFalse(m.within_budget(cache,'2026-10-23',.06,settings))
+        self.assertTrue(m.within_budget(cache,'2026-10-24',.06,settings,'migration'))
     def test_cache_input_pricing(self):
         self.assertAlmostEqual(m.usage_cost(dict(prompt_tokens=1000,prompt_cache_hit_tokens=500,completion_tokens=200),self.settings()['pricing_cny_per_million']),.00262)
     def test_stale_summary_and_missing_abstract_have_distinct_counts(self):

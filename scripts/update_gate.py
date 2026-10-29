@@ -45,7 +45,7 @@ def main():
     policy = read(ROOT / "config/update_policy.json")
     status = read(ROOT / "dist/update-status.json")
     relevance = read(ROOT / "config/relevance.json")
-    migration = bool(relevance.get('migration_id') and status.get('relevance_version') != relevance.get('version'))
+    migration = bool(relevance.get('auto_migration', True) and relevance.get('migration_id') and status.get('relevance_version') != relevance.get('version'))
     cooldown = read(ROOT / "data/source_cooldown.json")
     decision = decide(args.event, now, status, policy, force=args.force, cooldown=cooldown, resume=args.resume)
     if args.event == "schedule" and decision["deploy"] and not decision["collect"] and not decision.get('process'):

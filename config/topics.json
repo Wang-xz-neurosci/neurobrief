@@ -1,5 +1,5 @@
 {
-  "classification_version": "2026-10-human-cognition-ai-v3",
+  "classification_version": "2026-10-human-cognition-ai-v4",
   "topics": [
     {
       "id": "language",
@@ -46,7 +46,12 @@
         "visual word form area",
         "vwfa",
         "language lateralization",
-        "language lateralisation"
+        "language lateralisation",
+        "sign language",
+        "inner speech",
+        "speech decoding",
+        "language production",
+        "language comprehension"
       ],
       "required_term_groups": [
         [
@@ -89,7 +94,12 @@
           "visual word form area",
           "vwfa",
           "language lateralization",
-          "language lateralisation"
+          "language lateralisation",
+          "sign language",
+          "inner speech",
+          "speech decoding",
+          "language production",
+          "language comprehension"
         ],
         [
           "brain",
@@ -138,7 +148,8 @@
           "prefrontal",
           "cortical",
           "bold",
-          "neuroanatom*"
+          "neuroanatom*",
+          "intrinsic connectivity"
         ]
       ],
       "exclude_terms": [],
@@ -182,7 +193,20 @@
         "functional organization",
         "functional organisation",
         "neuroplastic*",
-        "plasticity"
+        "plasticity",
+        "cognit*",
+        "representation*",
+        "task representation*",
+        "representational geometry",
+        "representational change*",
+        "intrinsic connectivity",
+        "network geometry",
+        "connectivity dimensionality",
+        "activity flow",
+        "task generalization",
+        "task generalisation",
+        "cortical hierarchy",
+        "neural dynamics"
       ],
       "required_term_groups": [
         [
@@ -218,7 +242,20 @@
           "functional organization",
           "functional organisation",
           "neuroplastic*",
-          "plasticity"
+          "plasticity",
+          "cognit*",
+          "representation*",
+          "task representation*",
+          "representational geometry",
+          "representational change*",
+          "intrinsic connectivity",
+          "network geometry",
+          "connectivity dimensionality",
+          "activity flow",
+          "task generalization",
+          "task generalisation",
+          "cortical hierarchy",
+          "neural dynamics"
         ],
         [
           "brain",
@@ -267,7 +304,8 @@
           "prefrontal",
           "cortical",
           "bold",
-          "neuroanatom*"
+          "neuroanatom*",
+          "intrinsic connectivity"
         ]
       ],
       "exclude_terms": [],
@@ -334,7 +372,13 @@
         "diffusion MRI",
         "diffusion tensor",
         "neurite",
-        "anatomical connectivity"
+        "anatomical connectivity",
+        "T1w",
+        "quantitative MRI",
+        "qMRI",
+        "myelin",
+        "relaxometry",
+        "T1/T2"
       ],
       "required_term_groups": [
         [
@@ -393,7 +437,13 @@
           "diffusion MRI",
           "diffusion tensor",
           "neurite",
-          "anatomical connectivity"
+          "anatomical connectivity",
+          "T1w",
+          "quantitative MRI",
+          "qMRI",
+          "myelin",
+          "relaxometry",
+          "T1/T2"
         ],
         [
           "brain",
@@ -442,7 +492,8 @@
           "prefrontal",
           "cortical",
           "bold",
-          "neuroanatom*"
+          "neuroanatom*",
+          "intrinsic connectivity"
         ]
       ],
       "exclude_terms": []
@@ -550,27 +601,6 @@
           "brain imaging",
           "neuroimag*",
           "intracranial"
-        ],
-        [
-          "brain",
-          "neural",
-          "cognit*",
-          "connectiv*",
-          "cortical",
-          "cortex",
-          "activation",
-          "oscillation*",
-          "microstruct*",
-          "fractional anisotropy",
-          "executive",
-          "memory",
-          "attention",
-          "language",
-          "network*",
-          "white matter",
-          "neuro*",
-          "hemodynamic",
-          "haemodynamic"
         ]
       ],
       "exclude_terms": [],
@@ -679,7 +709,8 @@
           "prefrontal",
           "cortical",
           "bold",
-          "neuroanatom*"
+          "neuroanatom*",
+          "intrinsic connectivity"
         ]
       ],
       "exclude_terms": []

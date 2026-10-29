@@ -1,10 +1,18 @@
 {
-  "version": "human-cognition-v1",
+  "version": "human-cognition-v2",
   "migration_id": "scope-migration-2026-10",
   "model": "deepseek-flash",
   "workers": 8,
   "max_output_tokens": 450,
   "max_run_seconds": 2400,
   "max_per_run": 7000,
-  "max_abstract_chars": 24000
+  "max_abstract_chars": 24000,
+  "auto_migration": false,
+  "accepted_previous_prompts": [
+    {
+      "version": "human-cognition-v1",
+      "path": "config/relevance-prompts/human-cognition-v1.txt",
+      "sha256": "b01bc3ea1b5385d7b72ff4c1b59ff93209a84bd63eb4d95e56e360c2f03d5036"
+    }
+  ]
 }

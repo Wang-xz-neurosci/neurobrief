@@ -1,4 +1,5 @@
 import copy
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -72,6 +73,43 @@ class RelevanceTests(unittest.TestCase):
         self.assertTrue(r.valid(self.paper,entry,self.settings))
         self.assertFalse(r.valid({**self.paper,'abstract':'Changed'},entry,self.settings))
         self.assertFalse(r.valid(self.paper,entry,{**self.settings,'version':'future'}))
+    def test_verified_previous_prompt_survives_but_changed_source_does_not(self):
+        previous=self.settings['accepted_previous_prompts'][0]
+        prompt=(ROOT/previous['path']).read_text(encoding='utf-8')
+        entry={'status':'success','version':previous['version'],
+               'fingerprint':hashlib.sha256((previous['version']+'\n'+prompt+'\n'+self.paper['title']+'\n'+self.paper['abstract']).encode()).hexdigest()}
+        self.assertTrue(r.valid(self.paper,entry,self.settings))
+        self.assertFalse(r.valid({**self.paper,'abstract':self.paper['abstract']+' New results.'},entry,self.settings))
+        self.assertFalse(r.valid({**self.paper,'abstract':''},entry,self.settings))
+    def test_task_representation_and_network_geometry_are_candidates(self):
+        p={**self.paper,'title':'Network geometry shapes the transformation of task representations across human cortex',
+           'abstract':'Flexible cognition requires generalization across tasks. We analyzed fMRI during diverse cognitive tasks with activity flow modelling. Connectivity dimensionality predicts representational changes across cortex.'}
+        classified=u.classify(p,self.config['topics'])
+        self.assertIn('cognition',classified['topics'])
+        self.assertNotIn('structure-function',classified['topics'])
+        self.assertNotIn('language',classified['topics'])
+    def test_disease_query_does_not_require_old_brain_property_group(self):
+        topic=next(t for t in self.config['topics'] if t['id']=='brain-disorders')
+        self.assertEqual(len(topic['required_term_groups']),2)
+        p={**self.paper,'title':'Autism studied with fMRI','abstract':''}
+        self.assertIn('brain-disorders',u.classify(p,self.config['topics'])['topics'])
+    def test_title_only_screening_can_include_exclude_or_keep_uncertain(self):
+        p={**self.paper,'title':'White matter signals in human memory','abstract':''}
+        for decision in ('include','exclude','uncertain'):
+            result={'decision':decision,'topics':['structure-function'] if decision=='include' else [],
+                    'reason':'仅依标题判断。','evidence':'White matter signals' if decision!='uncertain' else ''}
+            response={'usage':{'prompt_tokens':100,'completion_tokens':60},'choices':[{'finish_reason':'stop','message':{'content':json.dumps(result)}}]}
+            cache={'entries':{}};ledger={'entries':{},'ledger':[]}
+            budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
+            with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp,patch.object(r,'ROOT',Path(tmp)),patch.object(summaries,'complete',return_value=response) as api:
+                r.generate([p],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-29')
+                r.generate([p],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-29')
+                self.assertEqual(api.call_count,1)
+                self.assertEqual(json.loads(api.call_args.args[0][-1]['content'].split('以下是唯一文献来源：\n',1)[1])['abstract'],'')
+            output=r.apply_reviews(self.dataset(p),cache,self.settings,self.config)
+            self.assertEqual(bool(output['papers']),decision!='exclude')
+            if output['papers']: self.assertEqual(output['papers'][0]['relevance']['basis'],'title-only')
+            self.assertFalse(r.valid({**p,'abstract':'A newly provided abstract.'},cache['entries'][p['id']],self.settings))
     def test_quote_must_come_from_original_text(self):
         result=self.cache()['entries'][self.paper['id']]['result']
         self.assertEqual(r.validate(result,self.paper,self.config),result)

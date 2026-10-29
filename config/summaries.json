@@ -5,8 +5,7 @@
   "max_per_run": 3000,
   "max_output_tokens": 800,
   "max_abstract_chars": 12000,
-  "daily_budget_cny": 2.0,
-  "annual_budget_cny": 150,
+  "daily_budget_cny": 5.0,
   "pricing_verified": "2026-10-23",
   "pricing_cny_per_million": {
     "input_miss": 2,
@@ -21,13 +20,5 @@
   ],
   "workers": 8,
   "max_run_seconds": 660,
-  "max_content_repairs": 1,
-  "backfill": {
-    "id": "initial-backfill-2026-10-23",
-    "through_date": "2026-10-23",
-    "budget_cny": 20
-  },
-  "budget_groups": {
-    "scope-migration-2026-10": 25
-  }
+  "max_content_repairs": 1
 }

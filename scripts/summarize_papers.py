@@ -97,32 +97,13 @@ def estimate_reservation(messages, settings):
 
 
 def budget_group(p, settings):
-    if settings.get("run_budget_group"):
-        return settings["run_budget_group"]
-    backfill = settings.get("backfill", {})
-    stamp = p.get("first_seen", "")
-    if stamp and backfill:
-        date = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
-        if date <= backfill["through_date"]:
-            return backfill["id"]
-    return None
+    # Optional accounting label only; every task shares the same daily cap.
+    return settings.get("run_budget_group")
 
 
 def within_budget(cache, day, reserve, settings, group=None):
     ledger = cache.get("ledger", [])
-    annual = sum(x["budget_charge_cny"] for x in ledger if x["date"][:4] == day[:4])
-    if annual + reserve > settings["annual_budget_cny"]:
-        return False
-    if group:
-        backfill = settings.get("backfill", {})
-        limit = settings.get("budget_groups", {}).get(group)
-        if group == backfill.get("id"):
-            limit = backfill["budget_cny"]
-        if limit is None:
-            return False
-        spent = sum(x["budget_charge_cny"] for x in ledger if x.get("budget_group") == group)
-        return spent + reserve <= limit
-    daily = sum(x["budget_charge_cny"] for x in ledger if x["date"] == day and not x.get("budget_group"))
+    daily = sum(x["budget_charge_cny"] for x in ledger if x["date"] == day)
     return daily + reserve <= settings["daily_budget_cny"]
 
 

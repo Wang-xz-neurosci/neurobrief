@@ -17,7 +17,7 @@ def snapshot(data, candidates, reviews, cache, scope, review_settings, summary_s
     day = now.astimezone(CN).date().isoformat()
     work, waiting, held = [], 0, 0
     for paper in candidates['papers']:
-        if not paper.get('abstract', '').strip() or len(paper['abstract']) > review_settings['max_abstract_chars'] or updater.basic_exclusion(paper):
+        if not paper.get('title','').strip() or len(paper.get('abstract','')) > review_settings['max_abstract_chars'] or updater.basic_exclusion(paper):
             continue
         entry = reviews['entries'].get(paper['id'], {})
         if review.valid(paper, entry, review_settings):
@@ -27,8 +27,7 @@ def snapshot(data, candidates, reviews, cache, scope, review_settings, summary_s
         else:
             budget = {**summary_settings, 'max_output_tokens': review_settings['max_output_tokens']}
             budget.pop('backfill', None)
-            messages = [{'role': 'system', 'content': review.SYSTEM_PROMPT},
-                        {'role': 'user', 'content': review.USER_INSTRUCTION + json.dumps({'title': paper['title'], 'abstract': paper['abstract']}, ensure_ascii=False)}]
+            messages = review.messages_for(paper)
             work.append(('review', paper, messages, budget))
     review_count = sum(t[0] == 'review' for t in work) + waiting
     summary_count = 0
@@ -53,7 +52,7 @@ def snapshot(data, candidates, reviews, cache, scope, review_settings, summary_s
     reason = 'complete'
     if pending:
         # Decide only after all in-flight reservations have settled. The
-        # annual cap applies to every task and every explicit recovery run.
+        # daily cap applies to every task and every explicit recovery run.
         affordable = any(summaries.within_budget(cache, day, summaries.estimate_reservation(messages, settings), settings,
                                                 summaries.budget_group(paper, settings))
                          for _, paper, messages, settings in work)
@@ -73,6 +72,7 @@ def snapshot(data, candidates, reviews, cache, scope, review_settings, summary_s
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--attempted', action='store_true')
+    parser.add_argument('--defer-until-next-day', action='store_true', help='Leave other pending work for the next natural-day update')
     args = parser.parse_args()
     read = lambda p: json.loads((ROOT / p).read_text(encoding='utf-8'))
     data = read('dist/data.json')
@@ -85,6 +85,10 @@ def main():
     previous = status.get('ai', {})
     if not args.attempted and previous.get('pending') and ai['pending'] and previous.get('retry_after'):
         ai['retry_after'] = previous['retry_after']
+    if args.defer_until_next_day and ai['pending']:
+        policy = read('config/update_policy.json')
+        tomorrow = now.astimezone(CN).date() + dt.timedelta(days=1)
+        ai.update(reason='scheduled_next_day', retry_after=dt.datetime.combine(tomorrow, dt.time.fromisoformat(policy['not_before']), CN).isoformat(timespec='seconds'))
     status.update(schema_version=1, collection_date=data['update_summary']['date'], collected_at=data['updated_at'],
                   relevance_version=data['relevance_status']['version'], ai=ai,
                   content_hash=hashlib.sha256((ROOT / 'dist/data.json').read_bytes()).hexdigest()[:20])

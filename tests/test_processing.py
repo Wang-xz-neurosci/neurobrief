@@ -33,8 +33,11 @@ class ProcessingTests(unittest.TestCase):
         self.reviews['entries']['p']={'status':'success','fingerprint':r.fingerprint(self.paper,self.relevance)}
         self.cache['entries']['p']={'status':'success','source_hash':s.source_hash(self.paper),'prompt_version':self.settings['prompt_version']}
         result=self.snapshot();self.assertEqual(result['pending'],0);self.assertIsNone(result['retry_after'])
-    def test_no_abstract_is_not_a_paid_retry_task(self):
+    def test_title_only_gets_reviewed_but_not_summarized(self):
         self.paper['abstract']=''
+        self.assertEqual(self.snapshot()['pending_reviews'],1)
+        self.assertEqual(self.snapshot()['pending_summaries'],0)
+        self.reviews['entries']['p']={'status':'success','fingerprint':r.fingerprint(self.paper,self.relevance)}
         self.assertEqual(self.snapshot()['pending'],0)
     def test_spent_budget_postpones_until_next_beijing_day(self):
         self.cache['ledger']=[{'date':'2026-10-29','budget_charge_cny':self.settings['daily_budget_cny']}]

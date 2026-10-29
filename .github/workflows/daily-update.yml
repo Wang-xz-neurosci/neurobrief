@@ -15,6 +15,10 @@ on:
         description: 'Finish saved relevance/overview work without collecting again'
         type: boolean
         default: false
+      review_titles_only:
+        description: 'Review currently published title-only records; no collection or overview generation'
+        type: boolean
+        default: false
       repair_reviews:
         description: 'One-time repair of unverified review output; valid decisions and summaries stay cached'
         type: boolean
@@ -104,7 +108,9 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+          if [ "${{ inputs.review_titles_only }}" = "true" ]; then
+            python scripts/review_papers.py --titles-only --checkpoint-every 200
+          elif [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
             python scripts/review_papers.py --checkpoint-every 200 ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }} ${{ inputs.repair_reviews && '--repair-invalid' || '' }}
           else
             python scripts/review_papers.py --attach-only
@@ -117,14 +123,14 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+          if [ "${{ inputs.review_titles_only }}" != "true" ] && { [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; }; then
             python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }} ${{ (needs.gate.outputs.migration == 'true' || inputs.repair_reviews) && '--migration' || '' }}
           else
             python scripts/summarize_papers.py --attach-only
           fi
       - name: Save resumable processing status
         if: steps.collection.outputs.deferred != 'true'
-        run: python scripts/processing_status.py ${{ (needs.gate.outputs.process == 'true' || needs.gate.outputs.migration == 'true' || inputs.retry_rejected || inputs.repair_reviews) && '--attempted' || '' }}
+        run: python scripts/processing_status.py ${{ (needs.gate.outputs.process == 'true' || needs.gate.outputs.migration == 'true' || inputs.retry_rejected || inputs.repair_reviews || inputs.review_titles_only) && '--attempted' || '' }} ${{ inputs.review_titles_only && '--defer-until-next-day' || '' }}
       - name: Back up summary cache before committing
         if: always()
         uses: actions/upload-artifact@v4

@@ -53,8 +53,8 @@
     const topicTags = p.topics.map(t => `<span class="tag ${escape(t)}">${escape(topicMap[t]?.short_name || t)}</span>`).join("");
     const methods = p.methods.slice(0,3).map(m => `<span class="tag method">${escape(m)}</span>`).join("");
     const matched = [...new Set(Object.values(p.evidence).flat())];
-    const abstract = p.abstract ?? p.abstract_preview ?? "来源尚未提供摘要，暂无法生成中文概览，请点击题目阅读原文。";
-    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览</span><p>${escape(p.summary_zh)}</p></div>` : `${p.has_abstract || p.abstract ? '<div class="summary-zh"><span>原始摘要（暂无中文概览）</span><p>'+escape(abstract)+'</p></div>' : '<p class="abstract-preview">'+escape(abstract)+'</p>'}`;
+    const abstract = p.abstract ?? p.abstract_preview ?? "";
+    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览</span><p>${escape(p.summary_zh)}</p></div>` : `${p.has_abstract || p.abstract ? '<div class="summary-zh"><span>原始摘要（暂无中文概览）</span><p>'+escape(abstract)+'</p></div>' : '<div class="summary-zh"><p>来源尚未提供摘要，本文仅依据题目暂时收录，请结合原文核实。</p></div>'}`;
     return `<article class="paper"><div class="paper-date" aria-label="发表日期 ${escape(p.published || '未提供')}">${stamp}</div><div class="paper-body"><div class="paper-meta"><span class="journal">${escape(p.journal)}</span><span class="type-badge ${p.is_preprint ? 'preprint' : ''}">${p.is_preprint ? '预印本' : '期刊文章'}</span>${p.is_review ? '<span class="type-badge">综述</span>' : ''}</div><h3><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${escape(p.title)}</a></h3><div class="authors" title="${escape(p.authors)}">${escape(p.authors || '来源未提供作者')}</div>${overview}<div class="paper-tags">${topicTags}${methods}</div><details data-paper-id="${escape(p.id)}"><summary>原始摘要与收录依据</summary>${detailContent(p)}</details></div><button class="bookmark" data-id="${escape(p.id)}" aria-pressed="${saved.has(p.id)}" aria-label="${saved.has(p.id) ? '取消收藏' : '收藏'}：${escape(p.title)}" title="${saved.has(p.id) ? '取消本机收藏' : '保存到本机收藏'}">${saved.has(p.id) ? '◆' : '◇'}</button></article>`;
   }
   function detailContent(p) {
