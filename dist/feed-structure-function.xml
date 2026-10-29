@@ -357,6 +357,16 @@ Background Rhythmic cuing may benefit motor functions in Huntington's disease (H
       <category>结构与功能</category>
     </item>
     <item>
+      <title>Task-evoked flexibility of intrinsic neural timescales is hierarchically organized, behaviorally relevant, and refined across two developmental stages</title>
+      <link>https://doi.org/10.64898/2026.10.21.760719</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.21.760719</guid>
+      <description>[预印本] bioRxiv
+
+Cortical regions integrate temporal information over different timescales at rest, ranging from fast in sensorimotor regions to slow in the association cortex. Here, we study how far regions adapt these timescales to meet task demands, as well as how this timescale flexibility is organized across the cortical hierarchy, and how it develops in humans. We quantified rest-to-task changes in intrinsic neural timescales, referred to as timescale deflections , using fMRI data from four independent datasets totaling 1,712 participants aged 8–64 years. We found that timescales reduced under cognitive load in all four datasets, most strongly in association cortex, which partially flattened the resting-state timescale hierarchy. Individual differences in timescale deflections were organized along the sensorimotor-association (S-A) axis and tracked cognitive performance, both in adults and in youth. Next, in youth, deflections followed a two-stage developmental course: a generalized reduction throughout childhood, followed by a selective expansion in association cortex from mid-adolescence. Furthermore, the timing of these stages aligned with cortical gradients of inhibitory gene expression and intracortical myelin content, both features implicated in the opening and closing of critical periods of neural plasticity. Overall, our results demonstrate that task-evoked timescale flexibility is hierarchically organized, behaviorally and neurobiologically relevant, and refined across adolescence.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>A brain–behavior generative model links individual brain dynamics to perceptual decisions</title>
       <link>https://doi.org/10.64898/2026.10.16.759120</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.16.759120</guid>
@@ -505,16 +515,6 @@ Isolated focal dystonia is a rare movement disorder characterized by abnormaliti
       <description>AJNR. American journal of neuroradiology
 
 Background and purpose To examine the influence of age and sex on T1 relaxation and volume in brain and upper cervical cord using MP2RAGE, which offers high contrast-to-noise ratio, uniform tissue contrast, and superior anatomical resolution alongside T1 mapping. This provides an accurate analysis of the magnitude of the effects of these covariates on the outcomes. Materials and methods 208 MP2RAGE scans from the Max Planck Institute Leipzig Mind-Brain-Body LEMON dataset were segmented and labeled using FreeSurfer and Spinal Cord Toolbox. The influences of age and sex on dependent variables were analyzed using linear regression and group difference were compared using the Mann-Whitney U test. Results T1 values of cortical gray matter (GM), cerebral white matter (WM), thalamus, caudate, putamen, hippocampus, amygdala, and anterior corpus callosum (CC) varied significantly with age. Cortical GM and cervical C1 T1 showed statistical significance with sex, with latter lower in the females compared to males. T1 values of the posterior CC were significantly lower than the anterior portion. GM, WM, thalamus, caudate, putamen, hippocampus and anterior CC volumes were significantly affected by age. Spine cross-sectional area (CSA) showed statistically significant differences with sex but not age. Conclusions T1, regional brain volumes, and spinal CSA vary according to anatomical location, age, and sex, reflecting physiological differences associated with aging and sex. These results can operate as a normative baseline to gauge the magnitude of effect of these covariates on future studies in health or disease.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>The Association Between Cardiorespiratory Fitness and White Matter Integrity Across the Lifespan: A Systematic Review</title>
-      <link>https://doi.org/10.31234/osf.io/q5yp8_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/q5yp8_v2</guid>
-      <description>[预印本] PsyArXiv
-
-White matter deterioration is a hallmark of cognitive aging and a core feature of manyneurodegenerative disorders. Cardiorespiratory fitness (CRF) has emerged as a modifiable factorthat may support white matter integrity across the adult lifespan. This systematic review, using anarrative synthesis, examined findings from 24 studies, identified through a systematic search ofPubMed, Web of Science, and PsycINFO databases, examining the association betweenobjectively measured CRF and neuroimaging-based white matter structure. Results revealed aconsistent positive relationship between higher CRF and stronger microstructural integrity,particularly in late-myelinating tracts such as the corpus callosum, cingulum, and longitudinalfasciculi. These associations were minimal in young adulthood, mixed in midlife, and mostrobust in adults over 60, suggesting an age-dependent neuroprotective effect that strengthensacross the lifespan. Higher CRF was also linked to reduced white matter hyperintensity (WMH)burden in older populations. While cross-sectional evidence for this relationship was largelyconsistent, findings from randomized controlled trials were considerably more mixed, with mostintervention studies failing to detect group-level improvements in white matter microstructuredespite confirmed fitness gains. These findings underscore the potential of CRF as a nonpharmacological strategy to preserve brain health and mitigate cognitive decline with age. Futureresearch should adopt longitudinal and multimodal designs to clarify causal mechanisms andidentify age-specific moderators of these effects. Keywords: cardiorespiratory fitness, white matter, fractional anisotropy, aging, aerobic exercise</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
