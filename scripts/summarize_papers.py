@@ -252,6 +252,9 @@ def generate_all(papers, cache, settings, key, cache_path, day, retry_rejected=F
                     continue
                 ledger = reserve_call(p, messages, cache, settings, cache_path, day, repair)
                 if ledger is None:
+                    if active:
+                        cursor -= 1
+                        break
                     blocked_groups.add(group)
                     continue
                 active[pool.submit(complete, messages, key, settings)] = (p, messages, repair, ledger)

@@ -31,7 +31,7 @@ shutil.copyfile(root / "README.md", args.output / "NeuroBrief-使用与部署说
 archive = args.output / "NeuroBrief-网站源码.zip"
 current_version = json.loads((root/'dist/manifest.json').read_text(encoding='utf-8'))['version']
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
-    for rel in ["dist", "config", "scripts", "tests", "data", ".github"]:
+    for rel in ["dist", "config", "scripts", "tests", "data", "docs", ".github"]:
         for p in (root / rel).rglob("*"):
             if 'assets-data' in p.parts and current_version not in p.parts:
                 continue

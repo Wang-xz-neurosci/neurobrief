@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 import sys
+import hashlib
 
 root = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'scripts'))
@@ -16,6 +17,8 @@ data = json.loads((root / "dist" / "data.json").read_text(encoding="utf-8"))
 summary_settings = json.loads((root / "config" / "summaries.json").read_text(encoding="utf-8"))
 status = json.loads((root / "dist/update-status.json").read_text(encoding="utf-8"))
 assert status["collection_date"] == data["update_summary"]["date"] and status["collected_at"] == data["updated_at"], "Collection status must reflect the genuine saved collection"
+if status.get('content_hash'):
+    assert status['content_hash'] == hashlib.sha256((root/'dist/data.json').read_bytes()).hexdigest()[:20], 'Processing status refers to a different dataset'
 assert gzip.decompress((root / "dist" / "data.json.gz").read_bytes()) == (root / "dist" / "data.json").read_bytes(), "Compressed dataset differs from archive"
 assert data["schema_version"] == 1
 assert data["update_status"] == "success"

@@ -54,7 +54,7 @@
     const methods = p.methods.slice(0,3).map(m => `<span class="tag method">${escape(m)}</span>`).join("");
     const matched = [...new Set(Object.values(p.evidence).flat())];
     const abstract = p.abstract ?? p.abstract_preview ?? "来源尚未提供摘要，暂无法生成中文概览，请点击题目阅读原文。";
-    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览</span><p>${escape(p.summary_zh)}</p></div>` : `<p class="abstract-preview">${escape(abstract)}</p>`;
+    const overview = p.summary_zh ? `<div class="summary-zh"><span>AI 中文概览</span><p>${escape(p.summary_zh)}</p></div>` : `${p.has_abstract || p.abstract ? '<div class="summary-zh"><span>原始摘要（暂无中文概览）</span><p>'+escape(abstract)+'</p></div>' : '<p class="abstract-preview">'+escape(abstract)+'</p>'}`;
     return `<article class="paper"><div class="paper-date" aria-label="发表日期 ${escape(p.published || '未提供')}">${stamp}</div><div class="paper-body"><div class="paper-meta"><span class="journal">${escape(p.journal)}</span><span class="type-badge ${p.is_preprint ? 'preprint' : ''}">${p.is_preprint ? '预印本' : '期刊文章'}</span>${p.is_review ? '<span class="type-badge">综述</span>' : ''}</div><h3><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${escape(p.title)}</a></h3><div class="authors" title="${escape(p.authors)}">${escape(p.authors || '来源未提供作者')}</div>${overview}<div class="paper-tags">${topicTags}${methods}</div><details data-paper-id="${escape(p.id)}"><summary>原始摘要与收录依据</summary>${detailContent(p)}</details></div><button class="bookmark" data-id="${escape(p.id)}" aria-pressed="${saved.has(p.id)}" aria-label="${saved.has(p.id) ? '取消收藏' : '收藏'}：${escape(p.title)}" title="${saved.has(p.id) ? '取消本机收藏' : '保存到本机收藏'}">${saved.has(p.id) ? '◆' : '◇'}</button></article>`;
   }
   function detailContent(p) {
@@ -185,7 +185,7 @@
     $("update-mode").textContent=`${intakeDay===today ? "本日" : intakeDay ? intakeDay.slice(5).replace("-","/")+" " : "本次"}收录文献 ${data.update_summary?.new_papers ?? 0} 篇`;
     $("update-mode").title="按北京时间统计该更新日首次进入本站的去重文献；包含延迟收录的文章，不等于当天发表数量。";
     $("about-meta").textContent=`首次回溯起点：${data.initial_coverage_start}。最近成功采集：${stamp.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）。`;
-    if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 03:00 左右自动采集并部署；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。"; }
+    if(data.update_mode==="github-actions"&&!embedded){ $("about-update").textContent="由 GitHub Actions 每天北京时间 03:00 左右自动采集并部署；调度和来源收录可能延迟。每日新收录数按北京时间统计去重后的首次收录记录，同一天重复运行不重复计数。“已更新”表示采集成功，并不表示出版方今天发表的文章已经全部入库。若审查或中文概览尚未完成，后续任务会接续补齐。"; }
     const age=(Date.now()-stamp.getTime())/86400000;
     if(age>2){$("notice").hidden=false;$("notice").textContent=`文献库已超过 ${Math.floor(age)} 天未成功更新。当前显示已保存的数据，请检查更新任务。`;}
     render();

@@ -5,7 +5,7 @@
   "max_per_run": 3000,
   "max_output_tokens": 800,
   "max_abstract_chars": 12000,
-  "daily_budget_cny": 0.45,
+  "daily_budget_cny": 2.0,
   "annual_budget_cny": 150,
   "pricing_verified": "2026-10-23",
   "pricing_cny_per_million": {

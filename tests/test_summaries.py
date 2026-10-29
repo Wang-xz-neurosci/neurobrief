@@ -77,10 +77,10 @@ class SummaryTests(unittest.TestCase):
                 saved=json.loads(path.read_text(encoding='utf-8'));self.assertEqual(saved['ledger'][0]['status'],'reserved');self.assertGreater(saved['ledger'][0]['budget_charge_cny'],0);return self.response()
             with patch.object(m,'complete',side_effect=provider):m.generate_all([self.paper()],cache,self.settings(),'test-key',path,'2026-10-23')
         self.assertEqual(cache['ledger'][0]['status'],'success')
-    def test_concurrent_reservations_cannot_overspend(self):
+    def test_settled_reservations_release_capacity_for_waiting_summaries(self):
         settings=self.settings();settings['workers']=2;settings['daily_budget_cny']=m.estimate_reservation(m.messages_for(self.paper('a')),settings)*1.5
         cache=dict(entries={},ledger=[])
-        self.assertEqual(self.run_batch([self.paper('a'),self.paper('b')],cache,[self.response()],settings),1)
+        self.assertEqual(self.run_batch([self.paper('a'),self.paper('b')],cache,[self.response(),self.response()],settings),2)
         self.assertLessEqual(sum(e['budget_charge_cny'] for e in cache['ledger']),settings['daily_budget_cny'])
     def test_uncertain_network_retains_reserve_no_immediate_retry(self):
         cache=dict(entries={},ledger=[]);p=self.paper()

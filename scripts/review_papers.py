@@ -32,6 +32,8 @@ rest-naturalistic：静息态与自然刺激。研究人脑自发活动、功能
 判断宁可保留边界相关项，避免漏收。信息不足、关键对象不清、摘要缺关键信息时返回uncertain，不猜测为确定排除。只有明确不符合范围才exclude；不能用模型自评置信度作硬门槛。研究相关性与文章质量不是一回事。
 仅输出JSON：{"decision":"include或exclude或uncertain","topics":["上述栏目ID"],"reason":"一句简短中文判断依据","evidence":"直接逐字摘录标题或摘要中支持判断的一小段原文"}。include须至少一个栏目；exclude的topics为空；uncertain可给可能栏目。evidence不得改写或拼接，信息不足可空。不输出长篇推理、Markdown或中文概览。"""
 
+USER_INSTRUCTION = '请保持输出简短。reason只写一句；evidence仅逐字摘录连续约5–15个英文单词，不用省略号、不拼接、不改写。以下是唯一文献来源：\n'
+
 
 def fingerprint(p, settings):
     return hashlib.sha256((settings["version"] + "\n" + SYSTEM_PROMPT + "\n" + p["title"] + "\n" + p.get("abstract", "")).encode()).hexdigest()
@@ -135,14 +137,18 @@ def generate(papers, cache, settings, config, ledger, budget, key, day, checkpoi
                 if time.monotonic() >= deadline:
                     stopped = True
                     break
-                p = candidates[cursor]; cursor += 1
+                p = candidates[cursor]
                 messages = [{'role':'system','content':SYSTEM_PROMPT}, {'role':'user','content':
-                            '请保持输出简短。reason只写一句；evidence仅逐字摘录连续约5–15个英文单词，不用省略号、不拼接、不改写。以下是唯一文献来源：\n'+json.dumps({'title':p['title'],'abstract':p['abstract']},ensure_ascii=False)}]
+                            USER_INSTRUCTION+json.dumps({'title':p['title'],'abstract':p['abstract']},ensure_ascii=False)}]
                 reservation = summaries.reserve_call(p,messages,ledger,budget,ledger_path,day)
                 if reservation is None:
-                    stopped = True
-                    print('Shared spending limit reached; unreviewed candidates remain provisional.',flush=True)
+                    # In-flight calls still hold worst-case reservations. Settle
+                    # them before deciding that the real spending limit is hit.
+                    if not active:
+                        stopped = True
+                        print('Shared spending limit reached; unreviewed candidates remain provisional.',flush=True)
                     break
+                cursor += 1
                 reservation['task'] = 'relevance'
                 summaries.atomic_json(ledger_path,ledger)
                 active[pool.submit(summaries.complete,messages,key,{**budget,**settings})] = (p,reservation)

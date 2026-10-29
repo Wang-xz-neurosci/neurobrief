@@ -19,7 +19,9 @@ def main():
     source = ROOT/'data/candidates.json'
     data = refresh(json.loads((source if source.exists() else path).read_text(encoding="utf-8")), json.loads((ROOT / "config/topics.json").read_text(encoding="utf-8")))
     path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    status = {"schema_version": 1, "collection_date": data["update_summary"]["date"], "collected_at": data["updated_at"], "relevance_version":data['relevance_status']['version']}
+    status_path = ROOT / 'dist/update-status.json'
+    status = json.loads(status_path.read_text(encoding='utf-8')) if status_path.exists() else {}
+    status.update(schema_version=1, collection_date=data['update_summary']['date'], collected_at=data['updated_at'], relevance_version=data['relevance_status']['version'])
     (ROOT / "dist/update-status.json").write_text(json.dumps(status, separators=(",", ":")) + "\n", encoding="utf-8")
     print("Refreshed saved metadata; collection date and first-seen dates preserved. No source requests.")
 

@@ -11,6 +11,10 @@ on:
         description: 'Explicitly collect now; otherwise publish the saved literature only'
         type: boolean
         default: false
+      resume_ai:
+        description: 'Finish saved relevance/overview work without collecting again'
+        type: boolean
+        default: false
       repair_reviews:
         description: 'One-time repair of unverified review output; valid decisions and summaries stay cached'
         type: boolean
@@ -46,6 +50,7 @@ jobs:
       contents: read
     outputs:
       collect: ${{ steps.decision.outputs.collect }}
+      process: ${{ steps.decision.outputs.process }}
       deploy: ${{ steps.decision.outputs.deploy }}
       migration: ${{ steps.decision.outputs.migration }}
     steps:
@@ -62,12 +67,14 @@ jobs:
       - id: decision
         env:
           NEUROBRIEF_EVENT: ${{ github.event_name }}
-        run: python3 scripts/update_gate.py ${{ inputs.collect_now && '--force' || '' }}
+        run: python3 scripts/update_gate.py ${{ inputs.collect_now && '--force' || '' }} ${{ inputs.resume_ai && '--resume' || '' }}
   update:
     needs: gate
     if: needs.gate.outputs.deploy == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    outputs:
+      publish: ${{ steps.collection.outputs.deferred != 'true' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,28 +86,45 @@ jobs:
       - name: Test ingestion safeguards
         run: python -m unittest discover -s tests -v
       - name: Collect papers
+        id: collection
         if: needs.gate.outputs.collect == 'true' || needs.gate.outputs.migration == 'true'
-        run: python scripts/update_papers.py ${{ needs.gate.outputs.migration == 'true' && '--new-topic-backfill cognition' || '' }}
+        run: |
+          set +e
+          python scripts/update_papers.py ${{ needs.gate.outputs.migration == 'true' && '--new-topic-backfill cognition' || '' }}
+          collection_exit=$?
+          set -e
+          if [ "$collection_exit" = "75" ]; then
+            echo 'deferred=true' >> "$GITHUB_OUTPUT"
+            echo '::notice::Europe PMC is temporarily unavailable. Saved website retained; the next schedule check will retry after cooldown.'
+          elif [ "$collection_exit" != "0" ]; then
+            exit "$collection_exit"
+          fi
       - name: Review candidate relevance
+        if: steps.collection.outputs.deferred != 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+          if [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
             python scripts/review_papers.py --checkpoint-every 200 ${{ needs.gate.outputs.migration == 'true' && '--migration' || '' }} ${{ inputs.repair_reviews && '--repair-invalid' || '' }}
           else
             python scripts/review_papers.py --attach-only
           fi
       - name: Refresh saved reviews and collection status
+        if: steps.collection.outputs.deferred != 'true'
         run: python scripts/refresh_metadata.py
       - name: Generate or attach automatic Chinese overviews
+        if: steps.collection.outputs.deferred != 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          if [ "${{ needs.gate.outputs.collect }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
+          if [ "${{ needs.gate.outputs.process }}" = "true" ] || [ "${{ inputs.retry_rejected }}" = "true" ] || [ "${{ needs.gate.outputs.migration }}" = "true" ] || [ "${{ inputs.repair_reviews }}" = "true" ]; then
             python scripts/summarize_papers.py --checkpoint-every 200 ${{ inputs.retry_rejected && '--retry-rejected' || '' }} ${{ (needs.gate.outputs.migration == 'true' || inputs.repair_reviews) && '--migration' || '' }}
           else
             python scripts/summarize_papers.py --attach-only
           fi
+      - name: Save resumable processing status
+        if: steps.collection.outputs.deferred != 'true'
+        run: python scripts/processing_status.py ${{ (needs.gate.outputs.process == 'true' || needs.gate.outputs.migration == 'true' || inputs.retry_rejected || inputs.repair_reviews) && '--attempted' || '' }}
       - name: Back up summary cache before committing
         if: always()
         uses: actions/upload-artifact@v4
@@ -123,12 +147,14 @@ jobs:
           git add data/summary_cache.json data/source_cooldown.json
           if [ -f data/relevance_cache.json ]; then git add data/relevance_cache.json; fi
           if [ -f data/candidates.json ]; then git add data/candidates.json; fi
+          if [ "${{ steps.collection.outputs.deferred }}" != "true" ]; then git add dist/update-status.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Save Chinese summary cache"
             git pull --rebase --autostash origin main
             git push
           fi
       - name: Summarize collection
+        if: steps.collection.outputs.deferred != 'true'
         run: |
           python - <<'PY'
           import json, os
@@ -150,12 +176,16 @@ jobs:
               f.write('\n\n'.join(lines) + '\n')
           PY
       - name: Build RSS subscriptions
+        if: steps.collection.outputs.deferred != 'true'
         run: python scripts/build_feeds.py
       - name: Compress website data
+        if: steps.collection.outputs.deferred != 'true'
         run: python scripts/build_public_data.py
       - name: Validate website and data
+        if: steps.collection.outputs.deferred != 'true'
         run: python scripts/check_site.py
       - name: Preserve updated literature archive
+        if: steps.collection.outputs.deferred != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -166,12 +196,15 @@ jobs:
             git push
           fi
       - uses: actions/configure-pages@v5
+        if: steps.collection.outputs.deferred != 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.collection.outputs.deferred != 'true'
         with:
           path: dist
           retention-days: 1
   deploy:
     needs: update
+    if: needs.update.outputs.publish == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:

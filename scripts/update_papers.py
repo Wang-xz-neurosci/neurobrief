@@ -15,7 +15,7 @@ import time
 from html.parser import HTMLParser
 from urllib.parse import urlencode, quote
 from urllib.request import Request, urlopen
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from email.utils import parsedate_to_datetime
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -182,6 +182,10 @@ def valid_date(value):
 _last_request_started = 0.0
 
 
+class SourceDeferred(RuntimeError):
+    """Temporary source outage: retain saved data and resume after cooldown."""
+
+
 def source_cooldown(seconds, reason):
     path = ROOT / "data/source_cooldown.json"
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -223,13 +227,20 @@ def request_json(params):
             delay = retry_after_seconds(exc.headers.get("Retry-After")) if exc.headers else None
             if delay is not None and delay > 60:
                 source_cooldown(delay, f"HTTP {exc.code}; Retry-After")
-                raise
+                raise SourceDeferred(f"Europe PMC HTTP {exc.code}; Retry-After respected") from exc
             if attempt == 3:
+                if exc.code in (429, 500, 502, 503, 504):
+                    source_cooldown(max(delay or 0, 15 * 60), f"Temporary HTTP {exc.code}")
+                    raise SourceDeferred(f"Europe PMC HTTP {exc.code}; retry after cooldown") from exc
                 raise
-            time.sleep(max(2 ** (attempt + 1), delay or 0))
-        except Exception:
+            backoff = (10, 30, 60)[attempt] if exc.code in (500, 502, 503, 504) else 2 ** (attempt + 1)
+            time.sleep(max(backoff, delay or 0))
+        except SourceDeferred:
+            raise
+        except (URLError, TimeoutError, ConnectionError, OSError) as exc:
             if attempt == 3:
-                raise
+                source_cooldown(15 * 60, "Temporary source connection failure")
+                raise SourceDeferred('Europe PMC connection unavailable; retry after cooldown') from exc
             time.sleep(2 ** (attempt + 1))
 
 
@@ -481,6 +492,9 @@ def main():
 if __name__ == "__main__":
     try:
         main()
+    except SourceDeferred as exc:
+        print(f"Collection deferred; previous data retained: {exc}", file=sys.stderr)
+        sys.exit(75)
     except Exception as exc:
         print(f"Update failed; previous data retained: {exc}", file=sys.stderr)
         sys.exit(1)

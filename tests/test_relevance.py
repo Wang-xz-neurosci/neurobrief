@@ -142,6 +142,19 @@ class RelevanceTests(unittest.TestCase):
             r.generate([self.paper],cache,self.settings,self.config,ledger,budget,'fake-test-key','2026-10-27',repair_invalid=True)
             self.assertEqual(api.call_count,1)
         self.assertTrue(cache['entries'][self.paper['id']]['format_repair'])
+    def test_review_waits_for_reservations_to_settle_before_skipping_work(self):
+        budget=json.loads((ROOT/'config/summaries.json').read_text(encoding='utf-8'))
+        budget.pop('backfill',None)
+        result=self.cache()['entries'][self.paper['id']]['result']
+        response={'usage':{'prompt_tokens':100,'completion_tokens':60},'choices':[{'finish_reason':'stop','message':{'content':json.dumps(result)}}]}
+        messages=[{'role':'system','content':r.SYSTEM_PROMPT},{'role':'user','content':r.USER_INSTRUCTION+json.dumps({'title':self.paper['title'],'abstract':self.paper['abstract']},ensure_ascii=False)}]
+        budget['daily_budget_cny']=summaries.estimate_reservation(messages,{**budget,**self.settings})*1.5
+        papers=[self.paper,{**self.paper,'id':'second'}]
+        cache={'entries':{}};ledger={'entries':{},'ledger':[]}
+        with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp,patch.object(r,'ROOT',Path(tmp)),patch.object(summaries,'complete',return_value=response) as api:
+            r.generate(papers,cache,{**self.settings,'workers':2},self.config,ledger,budget,'fake-test-key','2026-10-29')
+            self.assertEqual(api.call_count,2)
+        self.assertLessEqual(sum(x['budget_charge_cny'] for x in ledger['ledger']),budget['daily_budget_cny'])
     def test_versioned_catalog_search_and_details_preserve_source(self):
         d=r.apply_reviews(self.dataset(),self.cache(),self.settings,self.config)
         with tempfile.TemporaryDirectory(dir=ROOT/'.local') as tmp:
