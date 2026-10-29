@@ -38,7 +38,8 @@ def snapshot(data, candidates, reviews, cache, scope, review_settings, summary_s
         entry = cache['entries'].get(paper['id'], {})
         if summaries.valid_entry(paper, entry, summary_settings):
             continue
-        current = entry.get('source_hash') == summaries.source_hash(paper)
+        current = (entry.get('source_hash') == summaries.source_hash(paper)
+                   and entry.get('prompt_version') == summary_settings['prompt_version'])
         if current and entry.get('status') == 'rejected':
             held += 1
             continue

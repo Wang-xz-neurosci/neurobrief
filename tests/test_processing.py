@@ -42,8 +42,12 @@ class ProcessingTests(unittest.TestCase):
         self.assertEqual(dt.datetime.fromisoformat(result['retry_after']).astimezone(p.CN).strftime('%Y-%m-%d %H:%M'),'2026-10-30 02:50')
     def test_uncertain_network_result_does_not_trigger_immediate_paid_retry(self):
         self.reviews['entries']['p']={'status':'error','attempt_date':'2026-10-29','fingerprint':r.fingerprint(self.paper,self.relevance)}
-        self.cache['entries']['p']={'status':'error','attempt_date':'2026-10-29','source_hash':s.source_hash(self.paper)}
+        self.cache['entries']['p']={'status':'error','attempt_date':'2026-10-29','source_hash':s.source_hash(self.paper),'prompt_version':self.settings['prompt_version']}
         self.assertEqual(self.snapshot()['reason'],'daily_budget_or_provider_cooldown')
+    def test_old_prompt_failure_does_not_block_new_prompt_work(self):
+        self.reviews['entries']['p']={'status':'success','fingerprint':r.fingerprint(self.paper,self.relevance)}
+        self.cache['entries']['p']={'status':'error','attempt_date':'2026-10-29','source_hash':s.source_hash(self.paper),'prompt_version':'obsolete'}
+        self.assertEqual(self.snapshot()['reason'],'pending')
     def test_changed_abstract_reopens_work_without_repeating_unchanged_result(self):
         self.test_valid_results_are_not_pending_or_paid_again()
         self.paper['abstract']+=' Updated results.'
