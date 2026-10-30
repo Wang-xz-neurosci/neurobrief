@@ -5,9 +5,71 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 19:34:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:13:35 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-MDD: an evidence-guided explainable framework for EEG-based depression recognition</title>
+      <link>https://europepmc.org/article/PMC/PMC13717697</link>
+      <guid isPermaLink="false">PMC:PMC13717697</guid>
+      <description>Frontiers in digital health
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Naturalistic language assessment and brain-network biomarkers in post-stroke aphasia for precision neurorehabilitation</title>
+      <link>https://europepmc.org/article/PMC/PMC13717245</link>
+      <guid isPermaLink="false">PMC:PMC13717245</guid>
+      <description>Frontiers in human neuroscience
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Dynamic adaptation of attentional control across bilingual interactional contexts</title>
+      <link>https://europepmc.org/article/PMC/PMC13716584</link>
+      <guid isPermaLink="false">PMC:PMC13716584</guid>
+      <description>Frontiers in psychology
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Characterizing Narrative Discourse in Posttraumatic Amnesia and Early Recovery After Severe Traumatic Brain Injury.</title>
+      <link>https://doi.org/10.1044/2026_ajslp-26-00042</link>
+      <guid isPermaLink="false">doi:10.1044/2026_ajslp-26-00042</guid>
+      <description>American journal of speech-language pathology
+
+Following severe traumatic brain injury (TBI), individuals experience a transient period of confusion known as posttraumatic amnesia (PTA). Few empirical speech-language pathology studies have described language and cognitive-communication features during PTA or examined their early recovery. International guidelines recommend routine monitoring of communication during PTA; however, standardized speech-language pathology assessments are generally unsuitable for use during PTA. Narrative tasks offer a structured and repeatable approach to capture clinically meaningful changes. The purpose of this research was to describe narrative discourse characteristics in adults with severe TBI during PTA and examine how performance changed following PTA resolution. Nine adults with severe TBI admitted to an inpatient rehabilitation setting completed a narrative task during PTA and again after resolution of PTA. Language samples were analyzed across multiple levels, with descriptive analyses used to characterize performance and patterns of change. Discourse performance during PTA was compared descriptively to published data, providing reference data for microlinguistic measures and story grammar in adults without brain injury and adults with TBI who were not in PTA, where data were available. All participants demonstrated confused, disorganized narratives during PTA, although the degree and profile of impairment varied markedly across individuals. Macrostructural analyses provided the most meaningful and sensitive indicators of change, with several participants showing clearer narrative structure and increased production of relevant content post-PTA. A narrative task has the potential to provide insight into the communication ability of patients in PTA, particularly in relation to change over time. This may help to guide decisions about the most appropriate timing for formal speech-language pathology assessment and intervention.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Early ERP processing of self-referential language processing in voluntary and involuntary action contexts: N170 and EPN.</title>
+      <link>https://doi.org/10.1007/s00426-026-02370-x</link>
+      <guid isPermaLink="false">doi:10.1007/s00426-026-02370-x</guid>
+      <description>Psychological research
+
+Understanding how the brain differentiates self from others through language represents an important topic in psychology, linguistics, and social cognition. Within an embodied cognition framework, the present EEG study investigated early neural responses to isolated German pronouns varying in self-relatedness (self-, other-, and self/other-related) and grammatical type (personal vs. possessive). Forty right-handed native German speakers silently read visually presented pronouns while EEG activity was recorded. Two task contexts were employed, involving voluntary and involuntary keypress responses following stimulus presentation. Event-related potential (ERP) analyses revealed significant modulations of the N170 and Early Posterior Negativity (EPN) components. N170 amplitudes varied as a function of pronoun type and self-relatedness, with self-related and other-related pronouns eliciting different responses from ambiguous second-person forms. EPN amplitudes differed across self-reference categories, with additional interactions involving hemisphere and pronoun type. Together, these findings suggest that even minimal linguistic stimuli such as pronouns engage early neural processes sensitive to self-relatedness and linguistic context. Task conditions also differed in early ERP amplitudes; because responses in the immediate-response condition overlapped the ERP measurement intervals, these differences are reported without functional attribution.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Gel-Free Capture of Microvolt-Level Neural Signatures Via a 3D Monolithic Carbon Fiber Dry Electrode.</title>
+      <link>https://doi.org/10.1002/advs.78531</link>
+      <guid isPermaLink="false">doi:10.1002/advs.78531</guid>
+      <description>Advanced science (Weinheim, Baden-Wurttemberg, Germany)
+
+Gel-based wet electrodes remain the gold standard for electrophysiology, but gel dehydration limits recordings. Existing dry electrodes partially address this limitation but suffer from high interfacial impedance. Here, a carbon fiber-based porous electrode (CFPE) is reported, comprising a three-dimensional conductive network coated with poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) (PEDOT:PSS). The CFPE establishes contact at hairy-scalp sites with an impedance of approximately 10 kΩ·cm2. On the forearm, its impedance at 10 Hz without skin preparation is 11.09 ± 1.03 kΩ·cm2, compared with 13.57 ± 2.07 kΩ·cm2 for wet electrodes. After 6 h of wear, CFPE impedance reaches 1.3 times its initial value without skin preparation or gel, whereas wet-electrode impedance reaches 56 times its initial value when applied with skin preparation and conductive gel. High-fidelity electrocardiography, electromyography, and electroencephalography signals are captured with correlation coefficients exceeding 90% and signal-to-noise ratios comparable to wet electrodes. The CFPE further resolves microvolt-level speech-evoked frequency-following responses (FFR) and long-latency responses (LLR), with fidelity comparable to wet electrodes and significantly higher LLR SNR. These results demonstrate gel-free acquisition of weak neural biomarkers, opening a pathway toward prolonged, preparation-free neurophysiology.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>The interplay between cortical tracking and functional connectivity in musicians and non-musicians listening to speech and music</title>
       <link>https://doi.org/10.64898/2026.10.27.762164</link>
@@ -57,7 +119,7 @@ White matter (WM) microstructure has been mainly associated with accuracy of pic
       <guid isPermaLink="false">doi:10.64898/2026.10.26.761765</guid>
       <description>[预印本] bioRxiv
 
-Older adults often experience difficulty understanding speech in noisy environments despite relatively preserved hearing. Although visual speech cues can improve speech perception, it remains unclear whether the neural mechanisms supporting audiovisual integration are preserved in healthy ageing. We addressed this question using magnetoencephalography (MEG) combined with Rapid Invisible Frequency Tagging (RIFT) during challenging audiovisual speech task. Forty younger and forty older adults attended to one of two competing speech streams while the speaker's lip movements were frequency tagged, with the visual modulation driven by either the attended or unattended speech envelope. Task-Relevant amplitude modulation of frequency tagging in visual speech improved speech comprehension in younger adults as previously reported for this cohort; this accuracy benefit was absent in older adults. Auditory and visual tagging responses were modulated by task relevance similarly across age groups, indicating largely preserved modality-specific sensory processing in older adults. Intermodulation responses, reflecting nonlinear interactions between auditory and visual speech signals, also remained sensitive to task relevance and did not differ in their condition-dependent modulation between age groups. Greater Task-Relevant versus Task-Irrelevant differences in intermodulation coherence were also associated with greater comprehension benefits in younger adults; no significant association was found in older adults, and this relationship differed significantly between age groups. These findings suggest that the absence of a comprehension benefit in older adults is linked to a change in the relationship between audiovisual intermodulation and behaviour, despite largely preserved task-sensitive brain responses.</description>
+Older adults often experience difficulty understanding speech in noisy environments despite relatively preserved hearing. Although visual speech cues can improve speech perception, it remains unclear whether the neural mechanisms supporting audiovisual integration are preserved in healthy ageing. We addressed this question using magnetoencephalography (MEG) combined with Rapid Invisible Frequency Tagging (RIFT) during challenging audiovisual speech task. Forty younger and forty older adults attended to one of two competing speech streams while the speaker’s lip movements were frequency tagged, with the visual modulation driven by either the attended or unattended speech envelope. Task-Relevant amplitude modulation of frequency tagging in visual speech improved speech comprehension in younger adults as previously reported for this cohort; this accuracy benefit was absent in older adults. Auditory and visual tagging responses were modulated by task relevance similarly across age groups, indicating largely preserved modality-specific sensory processing in older adults. Intermodulation responses, reflecting nonlinear interactions between auditory and visual speech signals, also remained sensitive to task relevance and did not differ in their condition-dependent modulation between age groups. Greater Task-Relevant versus Task-Irrelevant differences in intermodulation coherence were also associated with greater comprehension benefits in younger adults; no significant association was found in older adults, and this relationship differed significantly between age groups. These findings suggest that the absence of a comprehension benefit in older adults is linked to a change in the relationship between audiovisual intermodulation and behaviour, despite largely preserved task-sensitive brain responses.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -334,6 +396,17 @@ Premature birth is associated with impaired language function. In premature-born
       <category>结构与功能</category>
     </item>
     <item>
+      <title>The effects of foreign accent syndrome on bilingual speech production: Multilevel evidence from a controlled-case study.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.10.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.007</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Foreign Accent Syndrome (FAS) is a rare motor speech disorder with altered speech patterns perceived as a foreign accent. The effects of FAS on the first (L1) and second-acquired (L2) languages in bilinguals have not been examined in depth and knowledge about its neural correlates is limited. Additionally, possible disruptions in auditory-motor feedback processes supporting speech monitoring and voice adaptation are rarely assessed. This study reports on P1, an L1 Catalan- L2 Spanish bilingual with FAS. We sought to characterize FAS in her two languages using a multilevel approach combining perceptual, phonetic, neuropsychological, sensorimotor adaptation to auditory feedback and structural neuroimaging analyses. Results showed that P1's L1 and L2 speech production were perceived as foreign by native bilingual listeners. Phonetic analyses revealed segmental and suprasegmental disturbances in both languages resulting from focal left motor cortex damage. Voice adaptation to auditory noise revealed an abnormal pattern, with differences between L1 and L2, suggesting altered auditory-motor integration. Notably, P1's speech rate, fluency and eloquence were more affected in her L1, suggesting decreased automaticity in this language. She also presented domain-general executive control deficits and increased L1 to L2 switching, as she found L2 production easier. These findings suggest differential effects of FAS on the L1 and L2 speech production of P1, with increased L1-L2 switching as a potential compensatory strategy to decrease executive control burden in L1 production and facilitate more fluent communication. Our findings highlight a potential role for disrupted auditory-motor speech and voice integration in the manifestation of bilingual FAS.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Mapping the brain signature of dyslexia risk onto histamine, acetylcholine and glutamate receptor systems</title>
       <link>https://doi.org/10.64898/2026.10.18.26365830</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.18.26365830</guid>
@@ -456,80 +529,6 @@ Aging affects how neural activity is organized and specialized, but its impact o
 Electroencephalography (EEG) speech-state classification is a noninvasive method to identify the brain's overt and covert behavior. The EEG achieved through the scalp is contaminated by artifacts and volume conduction and suffers from poor spatial resolution. We present the first application of small 4 mm tripolar concentric ring electrodes (TCREs) to record the overt and covert EEG signals. In addition, EEG signals were recorded for overt and covert behavior using a 10 mm TCRE as a reference. Data were recorded from 16 participants (4 mm, n=8; 10 mm, n=8). Each participant completed 200 picture-naming trials (100 overt and 100 covert). The analysis includes task-to-baseline root mean square ratios, power spectral density, time frequency representation analysis and participant-wise overt and covert classification using linear discriminant analysis, support vector machines, and EEGNet. The overt speech produced higher task-to-baseline ratios than covert speech. In addition, EEGNet achieved the highest mean accuracy (84.06±15.57%), followed by SVM (81.56±14.23%) and LDA (76.56±15.30%).</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Sublexical compensatory reorganization of Chinese character recognition in Alzheimer's disease.</title>
-      <link>https://doi.org/10.1080/13803395.2026.2751126</link>
-      <guid isPermaLink="false">doi:10.1080/13803395.2026.2751126</guid>
-      <description>Journal of clinical and experimental neuropsychology
-
-Objective This study investigated the cognitive-functional shift in visual character recognition across the cognitive decline trajectory, ranging from healthy aging through Mild Cognitive Impairment (MCI) to Mild Alzheimer's Disease (AD). Specifically, it was hypothesized that as global semantic networks degrade, the reliance on rapid holistic processing decreases, prompting a compensatory shift toward sublexical features. Method Using a controlled unmasked priming lexical decision paradigm, this study evaluated behavioral performance across three distinct participant groups (N = 30 per group): healthy controls (HC), individuals with MCI, and patients with Mild AD. The experimental stimuli consisted of 80 Chinese phonograms matched across key psycholinguistic properties. This study utilized mixed-design Analyses of Variance (ANOVAs) alongside item-level hierarchical multiple regression (HMR) models to isolate the specific drivers of reaction times, assessing the predictive power of visual complexity, whole-character frequency, semantic transparency, and phonetic regularity. Results The analytical models revealed distinctly divergent psycholinguistic trajectories. The HC group demonstrated highly efficient holistic processing, with performance primarily driven by whole-character frequency. Conversely, the MCI group exhibited a unique transitional cognitive profile, characterized by a simultaneous reliance on both holistic whole-word access and analytic sublexical features. Crucially, in the Mild AD tgroup, the holistic processing advantage was entirely abolished. This functional disintegration triggered a compensatory reorganization toward bottom-up sublexical properties, with patients relying heavily on semantic transparency and phonetic regularity to achieve semantic access. Conclusions These findings demonstrate a linguistic Compensation-Related Utilization of Neural Circuits Hypothesis (CRUNCH) effect within the degenerating brain. As top-down lexical-semantic hubs deteriorate, reflected behaviorally in this paradigm by the loss of holistic processing advantages, the cognitive system actively compensates by upregulating bottom-up, sublexical pathways. Furthermore, the transitional sublexical dependency observed during the MCI stage highlights the translational potential of psycholinguistic variables as sensitive, noninvasive behavioral biomarkers for the early screening and monitoring of dementia.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Bridging language phenotypes, neural dynamics and gene regulation in autism.</title>
-      <link>https://doi.org/10.1162/imag.a.1396</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1396</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Autism Spectrum Disorders (ASDs) affect approximately 1% of the global population, with prevalence rising over recent decades. Although ASDs are heritable (~70%), translating genetic findings into effective therapeutics remains challenging due to the vast number of implicated risk genes (&gt;700) and the limited influence of individual genes on disease expression. Their collective impact and convergent expression patterns of small-effect genes provide insights into ASD-related neurobiological mechanisms. Current interventions remain symptom-focused and do not address underlying neurodevelopmental mechanisms. Emerging approaches in functional genomics offer new insights into ASD pathogenesis by exploring gene expression diversity, yet clinical applications remain distant. Language deficits are among the most frequent and disabling features of ASD, profoundly affecting individuals' and families' quality of life. Recent evidence from neuroimaging and electrophysiology studies suggests disrupted neural oscillatory dynamics are linked to language deficits in ASD. Several ASD-associated genes have been implicated in biological pathways involved in the regulation of brain oscillatory dynamics, suggesting a potential mechanistic link between genetic variation, altered brain rhythms, and language impairment. We propose a neurophysiological imaging genetics framework that leverages neural oscillatory profiles as endophenotypes for targeted investigation and as functional readouts of gene expression. Within this framework, neuromodulation is proposed as an experimental approach to investigate and potentially modulate altered oscillatory dynamics associated with speech communication deficits in ASD, while integrating oscillation-related ASD candidate genes into a symptom-oriented model of functional genomics. This approach shows how integrating genetic variation, non-invasive neuroimaging, and behavioral phenotypes can advance our understanding of ASD and inform targeted, mechanism-based interventions.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Multiscale neural signatures of long-lag repetition learning: a simultaneous fNIRS-EEG study.</title>
-      <link>https://doi.org/10.1117/1.nph.13.4.045001</link>
-      <guid isPermaLink="false">doi:10.1117/1.nph.13.4.045001</guid>
-      <description>Neurophotonics
-
-Significance Repetition-based learning supports word recognition and reading fluency, yet its neural mechanisms remain poorly understood, particularly where deficits in consolidating repeated linguistic input may underlie reading and language difficulties. Establishing reliable neural markers of repetition-based learning is a critical first step toward characterizing the phenotypes of these difficulties in children. Aim We developed a whole-brain simultaneous functional near-infrared spectroscopy-electroencephalography (fNIRS-EEG) approach to capture fast temporal electrophysiological and spatially accurate hemodynamic signals during long-lag repetition learning. Approach Thirty participants performed a semantic judgment task with words repeated across four runs with intervening items, modeling repetition demands central to reading instruction. A multimodal decoding framework integrating electrophysiological, hemodynamic, and cross-modal fNIRS-EEG correlation features was used to classify repetition-based learning. Results Repeated words showed response time reductions. EEG captured a frontal N400-range repetition-related negativity and attenuation of alpha-beta suppression, reflecting changes in recognition-related and post-recognition processing. fNIRS revealed left inferior frontal and superior temporal efficiency increases alongside right supramarginal activation, suggesting integrative processing. Multimodal classifiers outperformed unimodal classifiers, indicating that each modality captured complementary aspects of learning. Conclusions Combining fNIRS and EEG with multimodal machine learning provides a richer characterization of repetition-based learning than either modality alone, establishing a framework for phenotyping language learning capacity and identifying neural markers of reading difficulties in pediatric populations.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Involuntary facial muscle activity during imagined vocalisation contaminates EEG and enables emotion decoding.</title>
-      <link>https://doi.org/10.1088/1741-2552/aeb073</link>
-      <guid isPermaLink="false">doi:10.1088/1741-2552/aeb073</guid>
-      <description>Journal of neural engineering
-
-Objective. Decoding imagined speech from electroencephalography (EEG) recordings is potentially useful for brain-computer interfaces. Previous studies have focused on decoding semantic information from EEG, leaving the decoding of emotion - an important component of human communication - largely unexplored.Approach. Here, we report two experiments involving participants tasked with overt (n = 14) or imagined (n = 21) emotional vocalisation in five different categories: anger, happiness, neutral, sadness, and pleasure. Throughout, we recorded 64-channel EEG; we computed time-frequency features and used a logistic-regression classifier to evaluate emotion decoding accuracy. In five participants, we also recorded facial surface electromyography (sEMG) during imagined vocalisation, and studied the contamination of EEG by sEMG.Main results. Our results show that emotion can be decoded from single-trial EEG recordings of both overt (78.1%, chance = 20%) and imagined vocalisation (36.4%). The high-gamma band (50 to 100 Hz) and lateral EEG channels (T7, T8, and proximal) were important for decoding. sEMG analysis indicated that involuntary facial muscle activity contributed to these spectral and spatial patterns during imagined vocalisation. We identified a prominent muscle-induced pattern over lateral EEG channels - the railroad cross-tie pattern - showing greater activation during imagined happy vocalisations. We conclude that involuntary facial muscle activity is associated with certain emotion categories (i.e. happiness) and contributes to the decoding of emotion from single-trial EEG recordings.Significance. This study provides converging EEG and sEMG evidence demonstrating that involuntary facial muscle activity occurs during imagined vocalisation and is modulated by emotion, producing emotion-specific EEG contamination patterns. Although we focused on imagined vocalisations, the EMG patterns we observed closely resembled EEG patterns commonly reported in emotion decoding studies, raising concerns about involuntary facial muscle activity in such work.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Differentiating non-fluent and logopenic primary progressive aphasia via automated acoustic speech analysis.</title>
-      <link>https://doi.org/10.1016/j.cortex.2026.10.006</link>
-      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.006</guid>
-      <description>Cortex; a journal devoted to the study of the nervous system and behavior
-
-In primary progressive aphasia, differential diagnosis between non-fluent (nfvPPA) and logopenic (lvPPA) variants can be clinically challenging. Although linguistic features from connected speech may aid in PPA subtype classification, they depend on labor-intensive transcriptions. In contrast, acoustic features are extracted directly from the audio signal and have shown potential in capturing variant-specific patterns, but their diagnostic relevance is not well understood. In this study, we analyzed connected speech recordings from 242 individuals (40 healthy controls, 91 lvPPA, 111 nfvPPA) performing a ∼2-min picture description task. We extracted 103 acoustic features from each recording and reduced them to 9, which we finally grouped into four domain scores representing speech rate and voice quality. Domain scores were tested as predictors in classification models to detect PPA and distinguish between PPA variants. Voxel-based morphometry was used to investigate brain-behavior relationships. Classification models combining the four domain scores and MMSE yielded 88% balanced-sample accuracy for PPA-versus-controls and 73% accuracy for lvPPA-versus-nfvPPA. Pitch and speech rate were the most discriminative markers. Voxel-based morphometry associated speech rate with the frontal speech production network, pitch with the middle frontal and inferior frontal gyrus, perturbation with the insula, and spectrum with the basal ganglia and the thalamus. We showed that acoustic analysis of brief speech samples has the potential to aid the diagnostic process and contribute to more nuanced phenotyping. With further validation, such measures could be integrated into clinical workflows as low-burden, objective tools to support differential diagnosis and track disease progression in PPA.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Speech Tracking in fMRI Reveals a Distinct Response to Sentence Boundaries During Comprehension</title>
-      <link>https://doi.org/10.64898/2026.10.13.758938</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.13.758938</guid>
-      <description>[预印本] bioRxiv
-
-Psycholinguistic research and linguistic theory suggest that comprehending continuous speech involves segmenting it into sentences. Yet, direct neuroimaging evidence for this process remains scarce, partly because sentence boundaries coincide with acoustic, prosodic, lexical, and syntactic changes. Here, we used whole-brain fMRI to test whether sentence boundaries elicit a neural response beyond these accompanying speech properties during spontaneous speech comprehension. We modelled BOLD responses to sentence-final words alongside continuous regressors characterizing accompanying speech properties. This approach revealed sensitivity to continuously varying features of speech across multiple brain regions. Notably, the acoustic envelope predicted BOLD responses in bilateral primary auditory cortices. Responses associated with prosodic breaks and emphasis were found in right temporal cortex, syntactic bottom-up node count in the left superior temporal sulcus, and word concreteness in the parahippocampal gyri. Critically, sentence-final words were associated with an increased activation in right temporal regions, after accounting for acoustic, prosodic, lexical, semantic and syntactic properties. These findings provide evidence for a neural response to sentence boundaries consistent with active sentence segmentation. More generally, this study demonstrates the value of continuous-regressor modelling for investigating speech comprehension with fMRI.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Time at Home for Whom? Unequal Returns of Paid Family Leave for Infant White Matter and Language Development</title>
-      <link>https://doi.org/10.64898/2026.10.08.757668</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.08.757668</guid>
-      <description>[预印本] bioRxiv
-
-Paid family leave (PFL) may give parents more time with infants, ease financial strain, and support stable routines. Although PFL has been linked to child development, little is known about neural pathways that might underpin its benefits or whether associations vary across families. Using data from 274 infants in the HEALthy Brain and Child Development Study, we examined associations of maternal and paternal PFL with language ability at 12 months and white matter microstructure at 6 months. We tested whether associations varied by the corresponding parent’s education. Neither maternal nor paternal PFL was directly associated with language scores or fractional anisotropy in the left arcuate, inferior longitudinal, or uncinate fasciculus. Maternal education moderated associations between maternal PFL and fractional anisotropy in the arcuate ( p = .014) and inferior longitudinal fasciculus ( p = .003; n = 148). In both tracts, PFL was associated with higher fractional anisotropy only among infants whose mothers had relatively high education. No comparable pattern emerged for language, the uncinate fasciculus, or paternal PFL. Findings suggest that the neurodevelopmental correlates of PFL may depend on family resources rather than operate uniformly across families, underscoring the need to pair paid leave with additional supports and resources. Lay Summary Paid family leave may give parents more time at home, steadier daily routines, and less financial worry in the months after a birth, all of which could change the care an infant receives. But these benefits may not be equal across families. In a national study of infants, we examined whether paid leave taken by mothers, fathers or partners was related to early language skills and to the organization of brain pathways involved in language. Paid leave was not directly related to language scores or brain development overall. However, maternal paid leave was associated with more mature organization in two language-related brain pathways only among infants whose mothers had higher levels of education. No similar pattern was found for father or partner leave. These findings suggest that paid leave alone may not reduce early developmental disparities, and that policies offering paid leave may need to be paired with additional support for families with fewer resources.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>
