@@ -5,9 +5,42 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 19:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 21:50:45 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distinct Patterns of Syntactic Errors Doubly Dissociate in Chronic Poststroke Aphasia.</title>
+      <link>https://doi.org/10.1162/jocn.a.2684</link>
+      <guid isPermaLink="false">doi:10.1162/jocn.a.2684</guid>
+      <description>Journal of cognitive neuroscience
+
+The lesion correlates of syntactic deficits in aphasia remain poorly understood. Previous studies have suggested that distinct error types in expressive syntax may be associated with damage to different brain regions, but the specific lesion correlates of these errors have not been fully delineated. To address this gap, we analyzed spontaneous speech samples from individuals with chronic aphasia, categorizing errors into hierarchical (paragrammatic-like) and linearization (agrammatic-like) errors. Lesion-symptom mapping was conducted to identify brain regions associated with these error types. Lesion clusters in the medial superior temporal sulcus and inferior parietal lobe were associated with hierarchical errors, whereas frontal lesions, including those in the inferior and middle frontal lobe, were associated with linearization errors. These results provide support for a two-stage model of syntactic encoding, with distinct neural correlates for hierarchical and linearization processes. Our findings suggest that distinct brain regions contribute to different stages of syntactic encoding. Hierarchical processing seems to be supported by posterior temporal-parietal regions, whereas linearization seems to be supported by frontal regions. These results suggest that the diagnosis and treatment of aphasia could take into account the existence of distinct syntactic production deficits resulting from different patterns of brain damage.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.</title>
+      <link>https://doi.org/10.1038/s41380-026-03719-9</link>
+      <guid isPermaLink="false">doi:10.1038/s41380-026-03719-9</guid>
+      <description>Molecular psychiatry
+
+Background Brain connectivity abnormalities may underlie affective psychosis which may be influenced by sex. Using diffusion magnetic resonance imaging (dMRI) tractography, we assessed frontostriatal brain wiring connectivity patterns in 46 early psychosis affective and 56 healthy control young adult, male and female participants. Methods We collected harmonized whole brain tractography dMRI data from three sites and applied our novel fiber clustering methodology to identify 17 white matter fiber clusters connecting the frontal cortex and caudate per hemisphere in each group. By comparing cortical and caudate inter-cluster endpoint distances between groups, we assessed their patterns of frontostriatal connectivity. Results 1) In both males and females in early affective psychosis and healthy controls, bilaterally, the frontal cortex to caudate wiring pattern deviated from a topographic organization. 2) in a right hemisphere frontal pole fiber cluster, independent of sex, we found a significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.013); 3) in a left hemisphere inferior frontal gyrus, pars triangularis, fiber cluster, we found sex influenced the significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.0085), with the effect much greater in females (p &lt; 0.00001) than in males (p = 0.97); and, 4) post-hoc tests showed a significant effect of diagnosis on the pattern of frontal cortex to caudate connectivity in specific subregions (ps ≤0.04). Conclusions Importantly, while the frontostriatal wiring pattern in both early affective psychosis and healthy controls deviated from a topographic organization, we found in a right hemisphere fiber cluster, independent of sex, that a significant interaction effect of diagnosis was observed on the frontal cortex to caudate connectivity pattern, whereas, in a left hemisphere fiber cluster, the effect of diagnosis on connectivity pattern was influenced by sex, showing the importance of the role of sex in brain wiring patterns in early affective psychosis.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Brain systems supporting the narrative self and psychopathology.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.026</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.026</guid>
+      <description>Biological psychiatry
+
+Disturbances in the narrative self are implicated across psychiatric disorders, with abnormalities in the neural systems supporting its generation and regulation constituting a transdiagnostic risk factor for mental illness. This review highlights how alterations in these brain systems underlie prevalent clinical features, including diminished, rigid, and sustained negative beliefs within the narrative self. The narrative self is framed as a higher-order construct that emerges from multiple systems, with reward, punishment, and motivational signals biasing which experiences are encoded as self-defining and which self-beliefs are reinforced over time. We discuss recent evidence demonstrating how the narrative self is supported by distributed brain networks in which subcortical inputs from the basal forebrain, habenula and mediodorsal thalamus modulate default mode network activity, with the salience, frontoparietal, cingulo-opercular, and hippocampal-parahippocampal networks regulating how self-beliefs are established or updated. Adolescence is emphasized as a developmental period uniquely vulnerable to disturbances in the formation of a coherent, flexible narrative self, wherein asynchronous subcortical and cortical development and pubertal changes interact to confer risk for diminished and rigid self-beliefs. Belief-updating tasks, hierarchical computational models, and ecological momentary assessment are proposed as approaches to quantify how self-beliefs form and shift across time, linking neural signatures of the narrative self to momentary variability. We propose that treating the narrative self as a primary level of explanation for psychopathology positions it as a testable target for future neuroimaging research, providing a clearer bridge from self-referential cognition to interventions in daily life.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Normative functional network localization of gray matter alterations in idiopathic generalized epilepsy</title>
       <link>https://europepmc.org/article/PMC/PMC13716609</link>
@@ -406,7 +439,7 @@ In primary progressive aphasia, differential diagnosis between non-fluent (nfvPP
       <guid isPermaLink="false">doi:10.3389/fneur.2026.1957963</guid>
       <description>Frontiers in neurology
 
-Idiopathic generalized epilepsy (IGE) has traditionally been considered a non-lesional epilepsy syndrome on conventional MRI, yet voxel-based morphometry (VBM) studies have reported subtle gray matter (GM) abnormalities across diverse brain regions. These findings remain spatially heterogeneous and difficult to reconcile. We aimed to characterize the normative functional connectivity patterns associated with reported GM alterations in IGE using functional connectivity network mapping (FCNM), and to explore whether these spatially heterogeneous findings show a reproducible pattern of observed network overlap. We systematically identified 18 whole-brain VBM studies of IGE, including 111 reported peak coordinates from 1,492 participants. Coordinates reflecting both increased and decreased GM were pooled in the primary analysis to characterize normative connectivity patterns associated with reported GM alterations irrespective of alteration direction. Using resting-state functional MRI (rs-fMRI) data from a normative discovery cohort (Human Connectome Project, N = 1,093), we mapped the functional connectivity of these GM coordinates to identify a convergent IGE-related network. The reproducibility of the observed spatial pattern was explored using an independent, cross-scanner validation cohort (Southwest University Adult Lifespan Dataset, N = 329) and two alternative seed sizes (1-mm and 7-mm radii). Reported GM alterations in IGE were associated with an observed distributed normative functional connectivity pattern involving the bilateral middle temporal gyri, bilateral thalami, left superior frontal gyrus, and right putamen. In the HCP discovery analysis, this network showed the greatest observed overlap with the subcortical network (overlap proportion = 42.77%) and secondary correspondence with the default mode network (DMN; overlap proportion = 11.06%). Analysis using the independent SALD connectome showed a similar descriptive pattern, with the greatest observed overlap again involving the subcortical network (overlap proportion = 43.98%), whereas DMN correspondence was weaker. Reported GM alterations in IGE converge most robustly onto a subcortical normative functional network involving the thalamus and putamen, with additional DMN involvement observed primarily in the HCP discovery analysis. These findings provide preliminary, descriptive evidence that reported GM alterations in IGE are associated with a reproducible subcortical normative connectivity pattern across two connectome datasets, although the available analyses do not establish above-chance or disease-specific network convergence.</description>
+Objective Idiopathic generalized epilepsy (IGE) has traditionally been considered a non-lesional epilepsy syndrome on conventional MRI, yet voxel-based morphometry (VBM) studies have reported subtle gray matter (GM) abnormalities across diverse brain regions. These findings remain spatially heterogeneous and difficult to reconcile. We aimed to characterize the normative functional connectivity patterns associated with reported GM alterations in IGE using functional connectivity network mapping (FCNM), and to explore whether these spatially heterogeneous findings show a reproducible pattern of observed network overlap. Methods We systematically identified 18 whole-brain VBM studies of IGE, including 111 reported peak coordinates from 1,492 participants. Coordinates reflecting both increased and decreased GM were pooled in the primary analysis to characterize normative connectivity patterns associated with reported GM alterations irrespective of alteration direction. Using resting-state functional MRI (rs-fMRI) data from a normative discovery cohort (Human Connectome Project, N = 1,093), we mapped the functional connectivity of these GM coordinates to identify a convergent IGE-related network. The reproducibility of the observed spatial pattern was explored using an independent, cross-scanner validation cohort (Southwest University Adult Lifespan Dataset, N = 329) and two alternative seed sizes (1-mm and 7-mm radii). Results Reported GM alterations in IGE were associated with an observed distributed normative functional connectivity pattern involving the bilateral middle temporal gyri, bilateral thalami, left superior frontal gyrus, and right putamen. In the HCP discovery analysis, this network showed the greatest observed overlap with the subcortical network (overlap proportion = 42.77%) and secondary correspondence with the default mode network (DMN; overlap proportion = 11.06%). Analysis using the independent SALD connectome showed a similar descriptive pattern, with the greatest observed overlap again involving the subcortical network (overlap proportion = 43.98%), whereas DMN correspondence was weaker. Conclusion Reported GM alterations in IGE converge most robustly onto a subcortical normative functional network involving the thalamus and putamen, with additional DMN involvement observed primarily in the HCP discovery analysis. These findings provide preliminary, descriptive evidence that reported GM alterations in IGE are associated with a reproducible subcortical normative connectivity pattern across two connectome datasets, although the available analyses do not establish above-chance or disease-specific network convergence.</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
@@ -480,6 +513,18 @@ Auditory and speech-perception difficulties are common in post-stroke aphasia (P
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Does perturbed adaptive myelination contribute to cognitive dysfunction in Alzheimer's disease?</title>
+      <link>https://doi.org/10.1371/journal.pbio.3004033</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pbio.3004033</guid>
+      <description>PLoS biology
+
+The consequences of oligodendrocyte involvement in Alzheimer's disease are poorly understood. Could a key role of gray-matter oligodendrocytes-activity-dependent adaptive myelination to sustain changes in activity-be perturbed, leading to cognitive loss?</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Neurovisceral model of social anxiety disorder: An integrative review.</title>
       <link>https://doi.org/10.1016/j.neubiorev.2026.107030</link>
       <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107030</guid>
@@ -522,53 +567,6 @@ Psychosis exhibits marked neurobiological heterogeneity that is not adequately c
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Affective prosody and facial expression cues differentially augment spoken sentence and discourse comprehension for acute left and right hemisphere stroke survivors.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109606</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109606</guid>
-      <description>Neuropsychologia
-
-Comprehension for spoken sentences and discourse is differentially impacted by left- (LH) and right-hemisphere (RH) brain damage, such as that caused by stroke. Comprehension deficits can have disabling effects on one's ability to process information, participate in everyday life, and create and maintain relationships. This cross-sectional, observational study evaluated differences in sentence- and discourse-level comprehension between LH and RH stroke survivors across different prosodic conditions and examined relationships between comprehension and damage to key LH and RH regions. Participants included 43 LH and 46 RH acute stroke survivors and 39 controls. All participants completed an in-house clinical assessment that included short passages presented in three conditions: neutral prosody, affective prosody, and affective prosody plus facial expression cues. Stroke survivors also completed magnetic resonance imaging. Consistent with expectations, stroke participants achieved lower comprehension accuracy than controls across conditions. LH participants' accuracy in the 'affective prosody plus facial expressions' condition was greater than in the neutral prosody condition, and total LH lesion volume was associated with performance. RH participants' accuracy in the 'affective prosody' and 'affective prosody plus facial expressions' conditions was greater than in the neutral prosody condition. Overall, both groups' scores increased linearly from Condition 1 to 3. None of the prespecified LH or RH brain regions were significantly associated with performance. Findings suggest that some acute LH and RH stroke survivors with comprehension deficits can benefit from affective prosody and facial expression cues, but different or additional cues may be needed for greatest benefit.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>The roles of working memory and executive functioning in relational semantic processing tasks: Evidence from primary progressive aphasia.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109605</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109605</guid>
-      <description>Neuropsychologia
-
-Referential semantic processing tasks, such as word-picture matching (WPM), require the matching of stimuli that represent the same concept, while relational semantic processing tasks, such as Pyramids and Palm Trees (PPT), require the processing of relationships between concepts. Compared to referential tasks, relational tasks may be likely to place a greater demand on working memory and/or executive functioning. In the current study, we examined referential and relational semantic processing in all variants of primary progressive aphasia (PPA). We predicted that backward digit and spatial span tasks and/or Trails B would be significant predictors of accuracy on relational tasks, while similar tasks that place less significant demands on working memory or executive functioning, such as forward digit and spatial span tasks and Trails A, would not be significant predictors of accuracy on relational tasks. In behavioral regression analyses, neither backward span task was a significant predictor of accuracy on referential tasks, but accuracy on 5 out of 6 relational tasks was predicted by at least one backward span task. In a second set of behavioral analyses, neither Trails task was a significant predictor of accuracy on referential tasks. Conversely, accuracy on 5 out of 6 relational tasks was predicted by Trails B. In regression analyses involving grey matter volume, three ROIs (left middle temporal gyrus, left insula, right middle temporal pole) were significant positive predictors of accuracy on a referential task (Auditory WPM). The same three ROIs were significant positive predictors of accuracy on a relational task (PPT-Pictures), along with one additional ROI - the left pars triangularis. The findings of this study suggest that performance on relational semantic processing tasks is affected by working memory capacity and executive functioning, which are supported by the left pars triangularis.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Lateralized amyloid PET uptake and beta-band connectivity in relation to cognition in temporal lobe epilepsy.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122286</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122286</guid>
-      <description>NeuroImage
-
-We examined focus-relative amyloid PET asymmetry and its associations with resting-state EEG connectivity and processing speed in mesial temporal lobe epilepsy (MTLE). Thirty adults with clinically assigned MTLE (19 right-focus, 11 left-focus) underwent 18 F-florapronol PET and resting-state EEG. Regional standardized uptake value ratios (SUVRs) and sensor-level weighted phase lag index (wPLI) were evaluated using paired comparisons, rank correlations and exploratory bootstrap indirect-association models. Cognitive data were available for 26 participants, including Digit Symbol Coding (DSC) for 25. Under the original analytical convention, mean medial temporal SUVR was 1.066 ipsilaterally and 1.013 contralaterally (difference 0.053, 95% CI [0.013, 0.093]; p = 0.011; Cohen's dz = 0.500). The contrast differed by focus side (interaction p = 0.002) and was 0.038 under source-table reconstruction (p = 0.075). Ipsilateral SUVR correlated with inter-hemispheric beta wPLI (ρ = 0.617, q = 0.034 across 240 tests). The intra-contralateral association (ρ = 0.536) did not survive this broader correction. Indirect estimates for Trail Making Test A (0.279, 95% bootstrap CI [0.043, 0.761]) and DSC (0.151, 95% bootstrap CI [-0.114, 0.476]) did not survive correction across 136 models. Regional medial temporal PET uptake was associated with beta-band scalp connectivity in this small cohort, while focus-side heterogeneity and labeling sensitivity limit a uniform ipsilateral interpretation. Processing-speed indirect associations were exploratory and did not establish compensation or causality. Replication with structural correction, longer EEG sampling and longitudinal cognitive follow-up is required.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Relationship between atypical language lateralization and cognition in pediatric patients with drug-resistant focal epilepsy: role of working memory</title>
-      <link>https://europepmc.org/article/PMC/PMC13645585</link>
-      <guid isPermaLink="false">PMC:PMC13645585</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>
