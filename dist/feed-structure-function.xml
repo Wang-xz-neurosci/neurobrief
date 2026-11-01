@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 21:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -37,6 +37,27 @@ Background Brain connectivity abnormalities may underlie affective psychosis whi
 
 Older adults at risk for type 2 diabetes (T2D) are more likely to experience accelerated cognitive aging and neurodegeneration due to impaired metabolism in the hippocampus. However, the precise relationship between T2D risk factors, brain volumes (i.e., gray matter, white matter, hippocampus subfields), and hippocampus-dependent functions (i.e., spatial pattern separation, a component of spatial memory) remains unexplored. To investigate these relationships in this cross-sectional study, 60 older adults at risk for T2D (e.g., high BMI or elevated A1c levels) completed a touchscreen-based spatial pattern separation behavioral task-the Trial-Unique delayed Nonmatching-to-Location (TUNL) and magnetic resonance imaging (MRI). HippUnfold was utilized to segment the hippocampus from high-resolution, T1 -weighted images. We found positive correlations between A1c levels and volumes of the dentate gyrus (DG) and cornu ammonis (CA) 2, indicating that higher A1c was associated with larger volumes of hippocampal subregions. Additionally, TUNL accuracy was correlated with gray matter and distinct hippocampus subfield volumes (i.e., subiculum, CA1, and CA4), with larger volumes associated with better spatial memory performance. Understanding early structural changes in T2D risk allows us to further characterize changes in brain health associated with metabolic dysfunction.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Mood and Behavioral Changes in Adult Cerebral X-linked Adrenoleukodystrophy</title>
+      <link>https://europepmc.org/article/PMC/PMC13722919</link>
+      <guid isPermaLink="false">PMC:PMC13722919</guid>
+      <description>Cureus
+
+来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Fixel-wise Differences in White Matter Fiber-bundle Cross-section identified in Children who Stutter</title>
+      <link>https://doi.org/10.64898/2026.10.29.762844</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.29.762844</guid>
+      <description>[预印本] bioRxiv
+
+Developmental stuttering has been repeatedly linked to decreased white matter integrity and structural connectivity differences in major white matter tracts. Prior diffusion-weighted MRI studies reporting such white matter structural differences involved voxel-averaged tensor measures (e.g., fractional anisotropy (FA)). A well-acknowledged limitation of this approach, however, has been that it cannot resolve distinct fiber populations within crossing-fiber regions. Fixel-based analysis addresses this limitation by quantifying individual fiber populations within a voxel and providing complementary measures of fiber density (FD), fiber-bundle cross-section (FC), and their combined measure (FDC).Here we applied Fixel-based analysis to diffusion MRI data from 171 children aged 3 - 13 years, including 84 children who stutter and 87 typically developing controls, to test whether white-matter differences associated with developmental stuttering were expressed as differences in FD, FC, and FDC and whether these measures show group-specific age-related patterns. We evaluated this at both the whole-brain level and within a priori white-matter tracts.FC, but not FD or FDC, showed significant Group and Group by Age effects, indicating that white-matter differences were primarily expressed in fiber-bundle macrostructure. Tract-of-interest analyses identified developmental differences in bilateral arcuate fasciculus FC that remained significant across tracts, with controls showing greater age-related increases in FC than children who stutter. Additional FC differences were observed across corticospinal and thalamocortical pathways, although these tract-wise effects were less robust to across-tract correction. These findings suggest that white-matter differences in developmental stuttering are prominently expressed in fiber-bundle macrostructure rather than fiber density and highlight divergent development of bilateral arcuate pathways. FBA provides fiber-specific information that complements conventional tensor-based diffusion measures and may improve characterization of white-matter development in childhood stuttering.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
       <category>结构与功能</category>
     </item>
     <item>
@@ -206,22 +227,22 @@ Early-onset psychosis (EOP) is associated with marked cognitive impairment and p
       <category>结构与功能</category>
     </item>
     <item>
+      <title>The Aging Brain Matrix: Cross-Species Evidence Linking FREM3 to Brain and Cognitive Aging</title>
+      <link>https://doi.org/10.64898/2026.10.27.762265</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.27.762265</guid>
+      <description>[预印本] bioRxiv
+
+The human extracellular-matrix-related FREM3 gene is strongly age-dependent, enriched in age- sensitive excitatory long-range-projecting neurons, and implicated in neurodegenerative diseases. To establish the first translationally relevant causal evidence for the gene’s roles in brain structure and cognition, we developed an excitatory-neuron-specific Frem3 conditional knockout mouse model ( Frem3 -cKO) and computed genetically regulated expression of FREM3 ( FREM3 - GReX) in humans, enabling convergent neurostructural and cognitive characterizations. Frem3 - cKO mice showed widespread lower global and regional brain volume in middle age vs young adulthood, consistent with drastic age-dependent volume loss absent in wildtype mice. These effects were strongest in cognitively relevant cortical regions and paralleled by lower cognitive performance. In humans, lower FREM3- GReX was associated with lower total surface area, which further mediated an indirect link to lower cognitive performance across multiple age- sensitive domains. We provide the first translationally relevant cross-species evidence supporting a key role for FREM3/Frem3 in maintaining brain and cognitive health across aging.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Claustrum Morphometry Reveals Spatially Heterogeneous Alterations in 22q11DS</title>
       <link>https://doi.org/10.64898/2026.10.27.762130</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.27.762130</guid>
       <description>[预印本] bioRxiv
 
-The human claustrum is a small, irregular, and complexly positioned structure, yet it carries long range projections to most cortical regions responsible for executive functioning. Prior structural MRI research has largely relied on global volume as the metric of its morphology. Such measures may obscure regionally specific morphological changes relevant to developmental and pathological variation. We therefore addressed this limitation by applying longitudinal surface-based morphometry to 874 scans from 440 individuals aged 5-35 years, comparing typical development with 22q11.2 deletion syndrome (22q11DS), a genetic condition characterized by brain dysmaturation, and assessing associations with working memory performance. Our data show a significant age-related volumetric decline that is reduced in 22q11DS left claustra, while surface deformation and thickness analyses revealed spatial patterns unique to hemisphere, group, and developmental age. In controls, the claustrum surface deformed with age in clustered zones along a dorsoventral gradient, and the dorsal-anterior zone thinned across development while the ventral zone thickened. 22q11DS claustra showed less age-related deformation than controls, whose claustrum surface changes associated with verbal working memory. This structural correlate was statistically equivalent to zero in carriers, consistent with a disrupted claustral development to the working memory vulnerability of the syndrome. These findings show the value of surface‑based morphometry over volume alone, highlight dysmaturation and regionally organized claustrum shape variation, and suggest that disrupted structural organization is accompanied by a weaker claustrum-working memory association.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Divergence from Diffusion Tensor: a discriminant diffusion marker from single shell MRI</title>
-      <link>https://doi.org/10.64898/2026.10.26.26366463</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.26.26366463</guid>
-      <description>[预印本] medRxiv
-
-Purpose: The Divergence from the Diffusion Tensor (DDT) is a new diffusion MRI metric that quantifies how the measured diffusion signal separates from the tensor assumption. It is marker for tissue heterogeneity that is estimated from single-shell data and can be used in brain studies. Methods: There exist other techniques that allow the calculation of how the measured diffusion diverges from the Gaussian and tensor assumptions. However, the calculation requires large data-sets with different b-values, which makes them incompatible which standard diffusion tensor acquisitions. By imposing an initial assumption, an alternative formulation based on one single shell (ie, single b-value) is reported. Results: Publicly available databases are used to test the behavior of DDT against other anisotropy measures. It shows the ability to discriminate different non-Gaussian diffusion scenarios with very low intra-subject variabilities. Conclusions: DDT can extract relevant information from the white matter, without any additional demands on data acquisition and totally compatible with standard diffusion MRI analysis pipelines. This makes DDT a good candidate to be used as an imaging marker for brain studies.</description>
+Abstract. The human claustrum is a small, irregular, and complexly positioned structure, yet it carries long range projections to most cortical regions responsible for executive functioning. Prior structural MRI research has largely relied on global volume as the metric of its morphology. Such measures may obscure regionally specific morphological changes relevant to developmental and pathological variation. We therefore addressed this limitation by applying longitudinal surface-based morphometry to 874 scans from 440 individuals aged 5–35 years, comparing typical development with 22q11.2 deletion syndrome (22q11DS), a genetic condition characterized by brain dysmaturation, and assessing associations with working memory performance. Our data show a significant age-related volumetric decline that is reduced in 22q11DS left claustra, while surface deformation and thickness analyses revealed spatial patterns unique to hemisphere, group, and developmental age. In controls, the claustrum surface deformed with age in clustered zones along a dorsoventral gradient, and the dorsal-anterior zone thinned across development while the ventral zone thickened. 22q11DS claustra showed less age-related deformation than controls, whose claustrum surface changes associated with verbal working memory. This structural correlate was statistically equivalent to zero in carriers, consistent with a disrupted claustral development to the working memory vulnerability of the syndrome. These findings show the value of surface-based morphometry over volume alone, highlight dysmaturation and regionally organized claustrum shape variation, and suggest that disrupted structural organization is accompanied by a weaker claustrum-working memory association.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -502,26 +523,6 @@ Background Adapted physical activity (APA) may benefit patients with schizophren
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Exploring the neural correlates of mental health: associations between cortical folding and mental health problems in youth with prenatal alcohol exposure.</title>
-      <link>https://doi.org/10.1016/j.pscychresns.2026.112360</link>
-      <guid isPermaLink="false">doi:10.1016/j.pscychresns.2026.112360</guid>
-      <description>Psychiatry research. Neuroimaging
-
-Prenatal alcohol exposure (PAE) can alter neurodevelopment and cause health and behavioral effects. Mental health challenges disproportionately affect individuals with PAE and are related to brain alterations. Cortical folding (gyrification) is associated with mental health in clinical populations and may help understand mental health difficulties in individuals with PAE. 161 datasets from 125 youth (57 PAE, 59 females) aged 7-21 years were included. T1-weighted magnetic resonance imaging and the caregiver-report Behavior Assessment System for Children were collected at baseline and 2-year follow-up. Images were processed to extract local gyrification index (LGI) from 20 mental health-related regions. Linear mixed-effects models were used to test the effect of PAE on associations between LGI and mental health symptoms. Youth with PAE had more Externalizing Problems (60.7 ± 15.5) than unexposed youth (54.8 ± 11.1; p &lt; 0.001). PAE moderated the relationship between Internalizing Problems and LGI in the left posterior orbital gyrus and the left subcallosal area, and between Externalizing Problems and LGI in the right frontal pole and left subcallosal area. Higher LGI was associated with higher Internalizing and Externalizing Problems in participants with PAE; this association was weaker or absent in unexposed youth. This indicates a potential neurobiological basis for mental health challenges in individuals with PAE.</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Pain mechanisms in trigeminal neuralgia: From peripheral pathology to brain network reorganization and neurosurgical implications.</title>
-      <link>https://doi.org/10.1016/j.jocn.2026.112370</link>
-      <guid isPermaLink="false">doi:10.1016/j.jocn.2026.112370</guid>
-      <description>Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia
-
-Objectives Trigeminal neuralgia (TN) involves peripheral neurovascular pathology and may also be associated with maladaptive neuroplastic changes in central nervous system networks. This review synthesizes evidence on peripheral and central pain mechanisms, neuroimaging biomarkers, molecular and transcriptomic correlates, and neurosurgical implications, including emerging neuromodulation strategies. Materials and methods This narrative review drew on topic-oriented searches of PubMed/MEDLINE, Scopus, and Web of Science conducted between June 27 and July 5, 2026, covering literature published through June 2026. Supplementary targeted searches and reference-list screening were used to identify relevant publications. Evidence was synthesized qualitatively. Results Evidence supports a multilevel model of TN involving peripheral pathology and central neuroplastic changes. Neuroimaging studies report structural and functional alterations in sensorimotor, salience, limbic, and default mode networks, alongside disrupted structure-function coupling. Partial restoration of functional connectivity after neurosurgical treatment has been reported, although outcomes vary. Transcriptomic findings link imaging abnormalities to genes involved in ion channel function, synaptic signaling, neuroinflammation, and energy metabolism but remain hypothesis-generating. Transcutaneous electrical nerve stimulation (TENS) may provide short-term analgesic benefit; however, evidence is limited and heterogeneous. Conclusions TN may be understood as a disorder involving interactions between peripheral pathology and central nervous system reorganization. Integrating neuroimaging and molecular evidence may inform future patient stratification and neurosurgical decision-making. Individualized neuromodulation remains investigational and requires further clinical validation.</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>

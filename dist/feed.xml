@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/</link>
     <description>语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激的文献观察</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 21:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -248,6 +248,37 @@ Background Friedreich ataxia (FA) is characterized by progressive degeneration o
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Mood and Behavioral Changes in Adult Cerebral X-linked Adrenoleukodystrophy</title>
+      <link>https://europepmc.org/article/PMC/PMC13722919</link>
+      <guid isPermaLink="false">PMC:PMC13722919</guid>
+      <description>Cureus
+
+来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Fixel-wise Differences in White Matter Fiber-bundle Cross-section identified in Children who Stutter</title>
+      <link>https://doi.org/10.64898/2026.10.29.762844</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.29.762844</guid>
+      <description>[预印本] bioRxiv
+
+Developmental stuttering has been repeatedly linked to decreased white matter integrity and structural connectivity differences in major white matter tracts. Prior diffusion-weighted MRI studies reporting such white matter structural differences involved voxel-averaged tensor measures (e.g., fractional anisotropy (FA)). A well-acknowledged limitation of this approach, however, has been that it cannot resolve distinct fiber populations within crossing-fiber regions. Fixel-based analysis addresses this limitation by quantifying individual fiber populations within a voxel and providing complementary measures of fiber density (FD), fiber-bundle cross-section (FC), and their combined measure (FDC).Here we applied Fixel-based analysis to diffusion MRI data from 171 children aged 3 - 13 years, including 84 children who stutter and 87 typically developing controls, to test whether white-matter differences associated with developmental stuttering were expressed as differences in FD, FC, and FDC and whether these measures show group-specific age-related patterns. We evaluated this at both the whole-brain level and within a priori white-matter tracts.FC, but not FD or FDC, showed significant Group and Group by Age effects, indicating that white-matter differences were primarily expressed in fiber-bundle macrostructure. Tract-of-interest analyses identified developmental differences in bilateral arcuate fasciculus FC that remained significant across tracts, with controls showing greater age-related increases in FC than children who stutter. Additional FC differences were observed across corticospinal and thalamocortical pathways, although these tract-wise effects were less robust to across-tract correction. These findings suggest that white-matter differences in developmental stuttering are prominently expressed in fiber-bundle macrostructure rather than fiber density and highlight divergent development of bilateral arcuate pathways. FBA provides fiber-specific information that complements conventional tensor-based diffusion measures and may improve characterization of white-matter development in childhood stuttering.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Co-constructed Emotion: A Collective Predictive Coding Theory of Interoception and Social Symbol Sharing</title>
+      <link>https://doi.org/10.31234/osf.io/fnxu2_v2</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/fnxu2_v2</guid>
+      <description>[预印本] PsyArXiv
+
+Emotion is both a psychological phenomenon rooted in physiological fluctuations and a socially constructed phenomenon shaped by language and culture. However, traditional psychological constructivism has remained confined to individual brain processes, while social constructivism has lacked a bottom-up computational mechanism explaining how language and culture emerge from bodily emotional substrates and dynamically evolve. To bridge this theoretical gap, this paper proposes the Theory of Co-constructed Emotion (TCoE) via Collective Predictive Coding (CPC), a framework coupling physiological regulation with social symbol sharing within a single active inference formulation. We extend the conventional CPC model by explicitly incorporating interoception---which is indispensable for modeling emotion from a physiological perspective---into each agent's generative model, alongside exteroception and internal and external representations. In TCoE, the co-construction of emotion is described as a dual inference process: an internal loop of allostasis regulating individual bodily states, and a social loop of communication sharing emotional concepts with others. These loops mutually minimize prediction errors mediated by shared symbols (emotion words). We argue that this theoretical framework 1) aligns with psychological findings on emotional contagion and concept formation, 2) enables constructive verification in multi-agent robotic systems, and 3) provides a computational redefinition of psychiatric conditions such as alexithymia as a disconnection between interoception and social symbols. Thus, we offer a novel computational foundation for emotion research that unifies individual embodiment and social symbol systems.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Choroid plexus volume in metabolic syndrome: a cross-sectional neuroimaging study</title>
       <link>https://europepmc.org/article/PMC/PMC13721072</link>
       <guid isPermaLink="false">PMC:PMC13721072</guid>
@@ -279,12 +310,42 @@ The microstructure of cells within the human cerebral cortex varies across the c
       <category>结构与功能</category>
     </item>
     <item>
+      <title>From Images and Words to Modality-Independent Semantic Representations: When and Where They Emerge</title>
+      <link>https://doi.org/10.64898/2026.10.30.763035</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.30.763035</guid>
+      <description>[预印本] bioRxiv
+
+Conceptual knowledge can be accessed from different modalities, such as seeing an image or reading a written word. While prior neuroimaging studies implicate anterior temporal cortex in modality-independent semantic representations, when and how representations evoked by images and words converge onto a modality-independent code remains unclear. Moreover, evidence for modality-independent category representations comes largely from tasks that explicitly required semantic processing, leaving open whether such representations emerge when semantic category and stimulus modality are task-irrelevant. We magnetoencephalography (MEG) to determine when and where modality-independent semantic category representations emerge across images and words when participants (n = 32) encoded six-item sequences containing an exemplar of six semantic categories counterbalanced across positions and reported the ordinal position of a probed item. Decoding performance was above chance for all categories in each modality from approximately 70 ms relative to item presentation. Generalization peaked at similar latencies for the two modalities (~520-530 ms), where image and word classifiers had the most similar coefficients. In both transfer directions, activity elicited by images generalized mostly to later activity elicited by words, and a given period of the image response shared its category code with a longer period of the word response. Source-space decoding around the peak of generalization identified the same regions for both transfer directions: left and right anterior temporal lobe, perisylvian cortex (more extensive in the left hemisphere), right visual cortex, and bilateral orbitofrontal cortex, indicating a modality-independent category code distributed across the cortex.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Full-Term and Preterm Differences in Human Brain Functional Connectivity Development Across Birth</title>
+      <link>https://doi.org/10.64898/2026.10.29.762902</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.29.762902</guid>
+      <description>[预印本] bioRxiv
+
+We possess a limited understanding of how preterm and full-term brains develop during the earliest stages of life, from the fetal to neonatal period, and how they respond to the birth transition. Here, we characterize brain resting-state functional connectivity (RSFC) using over 1000 longitudinal fetal and infant functional MRI scans from 21 to 52 post-conception weeks across birth. By mapping the developmental trajectory of RSFC across this window, we unveil marked divergences in developmental patterns between preterm- and term-born brains at both the global and network levels. When aligned by birth, the full-term group exhibit generally higher RSFC than the preterm group. For selected between-network connections with a significant prematurity effect, full-term cases demonstrate an overall increase in RSFC across age, whereas preterm cases show minimal change or even a decrease in connectivity of these systems. In contrast, when aligned by postconceptional age, the preterm group shows an accelerated increase in RSFC between 30 and 40 weeks. Across comparisons, mode of delivery and sex showed minimal influence on these trajectories. These findings offer novel insight into how prematurity and early exposure to the extrauterine environment alter the developmental trajectories of large-scale neural networks, advancing our understanding of both typical and preterm brain development.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Item-specific clustering of high gamma-band activity on theta phase during speech categorization</title>
       <link>https://doi.org/10.64898/2026.10.29.762424</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.29.762424</guid>
       <description>[预印本] bioRxiv
 
 Theta-gamma phase-amplitude coupling (PAC) has been proposed as a mechanism for separating neural representations in time. Although item-specific PAC has been reported, its role in perception remains unclear. Notably, previous work has shown that theta phase can bias perception, raising the question whether such biases are linked to phase-specific gamma activity. Here, we investigated whether phase-dependent perceptual biases are accompanied by item-specific theta-gamma PAC. We presented ambiguous speech sounds that could be interpreted as either /da/ or /ga/ in patients with epilepsy implanted with intracranial electrocorticography. We found that pre-stimulus theta phase predicted both the neural and perceptual response, with /da/ and /ga/ tuned channels exhibiting gamma activity clustering at distinct theta phases. These findings suggest that neural and perceptual biases stem from phase-specific pre-activation of item-specific neural representations. They demonstrate the generalizability of the theta-gamma code, shaping behavior and enhancing representational capacity.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Decomposing Parts of Speech: Neural Encoding of Semantic and Grammatical Dimensions and Their Combinational Structure</title>
+      <link>https://doi.org/10.64898/2026.10.29.761822</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.29.761822</guid>
+      <description>[预印本] bioRxiv
+
+Conventional part-of-speech (PoS) labels such as nouns, verbs and adjectives conflate lexical-semantic roots, grammatical functions, and their combinations, making it unclear whether neural sensitivity to PoS reflects either dimension or the way they are combined. We adopted Croft's typological framework to decompose major PoS classes into semantic root type and grammatical function and define prototypical nouns, verbs, and adjectives through the prototypical mappings between semantic root and grammatical function. We fitted time-resolved encoding models to magnetoencephalography (MEG) data from three participants who each listened to approximately ten hours of narrative speech. We examined the unique predictive contributions of semantic root, grammatical function, their interaction, and a binary prototypicality predictor, and whether the three prototypes exhibited distinct neural response dynamics. Semantic root and grammatical function contributed independently to neural responses during naturalistic language comprehension, with additional contributions from their interaction beyond the main effects. Root effects were predominantly left-lateralized, function effects were more bilateral, and interaction effects were concentrated in the left temporal and temporoparietal cortex, with overlap in left temporal regions. Further analyses revealed significant neural sensitivity to the distinction between prototypical and nonprototypical combinations in two of the three datasets. Prototypical nouns and verbs showed distinct coefficient time courses in all three participants, most consistently in left superior temporal cortex, whereas adjective-related contrasts were less consistent. These within-participant findings support a decompositional account of neural word-class sensitivity involving semantic, grammatical, and the mappings between them within distributed, partially overlapping cortical networks.</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -461,67 +522,6 @@ Motor aphasia is the most prevalent type of aphasia following ischemic stroke (I
 
 来源未提供摘要。</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Normative functional network localization of gray matter alterations in idiopathic generalized epilepsy</title>
-      <link>https://europepmc.org/article/PMC/PMC13716609</link>
-      <guid isPermaLink="false">PMC:PMC13716609</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Dynamic adaptation of attentional control across bilingual interactional contexts</title>
-      <link>https://europepmc.org/article/PMC/PMC13716584</link>
-      <guid isPermaLink="false">PMC:PMC13716584</guid>
-      <description>Frontiers in psychology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Affective representations and brain-body dynamics during emotional video viewing</title>
-      <link>https://doi.org/10.64898/2026.10.28.762567</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.28.762567</guid>
-      <description>[预印本] bioRxiv
-
-Emotional events evoke changing neural and bodily responses, but how these responses relate to overall emotional evaluations and how brain and body responses correspond over time remain unclear. Ninety-two participants viewed 25 silent emotional videos, each approximately one minute long, and rated valence and arousal after each video. We recorded brain activity using magnetoencephalography alongside cardiac, electrodermal, respiratory and facial-muscle activity. Representational similarity analysis (RSA) compared source-resolved cortical spectral patterns and peripheral response patterns with participants' valence and arousal ratings, adjusting each affective dimension for the other. Across whole videos, valence similarity corresponded to beta-band power patterns predominantly in left sensorimotor and frontotemporal cortex and to facial-muscle responses. Arousal similarity corresponded to alpha-band power patterns in the right frontoparietal cortex and to phasic electrodermal activity. The neural associations persisted after adjustment for visual and semantic similarities between the videos. Windowed neural correspondence with retrospective valence was significant from around 10 s onwards, with both neural and facial-muscle associations strengthening towards the end of the videos, whereas no significant windowed arousal associations were detected throughout viewing. We further applied dynamic RSA to compare neural and physiological response patterns across videos at different temporal lags. Correspondence exceeded a temporally decoupled reference for facial muscles, heart rate and electrodermal activity, but not respiration rate. On average, corrugator activity preceded corresponding neural patterns by about 1 s, zygomaticus activity occurred at approximately the same time, and heart-rate and electrodermal activity followed about 1.7 s and 4.5 s later, respectively. Together, these findings link overall affective evaluations to complementary neural and peripheral response geometries and reveal signal-specific temporal profiles of ongoing brain-body correspondence.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>In Utero MRI of Radial Glial Fibers Highlights Their Role in Modulating Fetal Cortical Folding</title>
-      <link>https://doi.org/10.64898/2026.10.28.761462</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.28.761462</guid>
-      <description>[预印本] bioRxiv
-
-The process of cortical folding is fundamental to early human brain development. While the differential growth of the cortical layers is a known driver, the biomechanical contribution of key cellular microstructures remains unclear, and there is a lack of direct in vivo markers of cortical microstructures for time-resolved observations. Using a multimodal approach combining in utero and ex vivo fetal brain MRI, histology, and computational mechanical simulation, we investigated whether developmental reorganization of cortical radial microstructures, particularly the radial glial cell (RGC)-associated scaffold, is linked to cortical folding and may modulate its mechanical progression. We characterized this radial organization noninvasively using diffusion MRI-based radial fiber density ( FD rad ). ex vivo fetal brain MRI and histology supported that regional variations in FD rad were strongly associated with vimentin-labelled radial architecture. Our in utero MRI data revealed closely coordinated developmental changes in cortical FD rad and curvature, with their regional timings and spatial patterns significantly coupled across the cortex. Longitudinal in utero MRI data further supported the synchronized within-individual co-development of FD rad and curvature. Furthermore, biomechanical simulations showed that reducing radial reinforcement modulated differential-growth-driven buckling, producing earlier folding and a greater cortical curvature under otherwise matched model conditions. Collectively, this study introduces FD rad as a noninvasive in utero MRI measure sensitive to radial glial fibers. By integrating spatial, temporal, histological, and computational evidence, our findings suggested a model in which developmental disassembly of the radial scaffold may modulate the mechanical response of the fetal cortex to differential growth, thereby contributing to cortical folding.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Executive and language systems competitively shape predictive processing during reading</title>
-      <link>https://doi.org/10.64898/2026.10.23.761476</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.23.761476</guid>
-      <description>[预印本] bioRxiv
-
-When we read, our brains constantly generate predictions about upcoming words, which is thought to make comprehension faster and more efficient. Yet it remains unclear whether this predictive mechanism relies on the same domain-general executive resources the brain uses for other demanding cognitive tasks, or operates largely independently within the language system. Here we tested this question using transcranial magnetic stimulation (TMS) in twenty-five healthy adults, who performed self-paced naturalistic reading, an n-back task, and a dual task of concurrent reading and n-back, allowing us to place competing demands on cognitive resources. In three sessions, we stimulated the left angular gyrus alone, the angular gyrus together with dorsolateral prefrontal cortex, a hub of executive control, or delivered sham stimulation, and used computational modeling of decision-making to isolate how each brain state altered the underlying cognitive processes. Combined stimulation of the angular gyrus and prefrontal cortex selectively weakened the reading-time costs of unexpected words, but only when reading competed with the working-memory task, revealing that linguistic prediction draws on executive resources specifically under cognitive load. Computational models showed that the relationship was bidirectional: Unpredictable words also disrupted concurrent working-memory decisions, slowing the accumulation of evidence and increasing response caution. Together, these findings show that predictive language processing is not a fixed, encapsulated function but is dynamically coupled to executive control when cognitive demands compete. Our results provide evidence that prediction during language comprehension is embedded within a broader, demand-sensitive cognitive architecture that flexibly coordinates linguistic and executive resources.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>The Aging Brain Matrix: Cross-Species Evidence Linking FREM3 to Brain and Cognitive Aging</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11381729/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11381729/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract The human extracellular-matrix-related FREM3 gene is strongly age-dependent, enriched in age-sensitive excitatory long-range-projecting neurons, and implicated in neurodegenerative diseases. To establish the first translationally relevant causal evidence for the gene’s roles in brain structure and cognition, we developed an excitatory-neuron-specific Frem3 conditional knockout mouse model ( Frem3 -cKO) and computed genetically regulated expression of FREM3 ( FREM3 -GReX) in humans, enabling convergent neurostructural and cognitive characterizations. Frem3 -cKO mice showed widespread lower global and regional brain volume in middle age vs young adulthood, consistent with drastic age-dependent volume loss absent in wildtype mice. These effects were strongest in cognitively relevant cortical regions and paralleled by lower cognitive performance. In humans, lower FREM3- GReX was associated with lower total surface area, which further mediated an indirect link to lower cognitive performance across multiple age-sensitive domains. We provide the first translationally relevant cross-species evidence supporting a key role for FREM3/Frem3 in maintaining brain and cognitive health across aging.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
   </channel>

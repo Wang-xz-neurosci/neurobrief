@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 21:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -139,17 +139,6 @@ Central nervous system mechanisms contribute to non-specific low back pain (LBP)
       <category>结构与功能</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>High-Intensity Transcranial Alternating Current Stimulation for Post-Stroke Cognitive Impairment: A Triple-Blind Randomized Trial.</title>
-      <link>https://doi.org/10.1016/j.brs.2026.103234</link>
-      <guid isPermaLink="false">doi:10.1016/j.brs.2026.103234</guid>
-      <description>Brain stimulation
-
-Background Non-invasive neuromodulation for post-stroke cognitive impairment (PSCI) holds promise, but high-level evidence is lacking, partly due to the challenge of targeting single brain regions in a condition with diverse lesions and multi-network dysfunction. Objective The present study aimed to evaluate the effect of high-intensity transcranial alternating current stimulation (Hi-tACS) on cognitive function in patients with PSCI. Methods In this triple-blind, randomized, sham-controlled trial, PSCI patients were randomized to receive either active or sham Hi-tACS. The tACS group received active Hi-tACS at 15 mA and 77.5 Hz for 40 minutes, twice daily, 5 days a week for 2 weeks. The sham group used identical devices without current delivery. The primary outcome was the change in Montreal Cognitive Assessment (MoCA) score. Secondary outcomes included Digit Span Test and cerebral oxyhemoglobin (HbO) concentration changes measured by functional near-infrared spectroscopy (fNIRS). Results The tACS group (n=34) showed higher MoCA response rates than the sham group (n=34) immediately after treatment (73.5% vs 38.2%, P=0.003) and at the 4-week post-treatment follow-up (88.2% vs 55.9%, P=0.003). Improvements in forward and backward digit span were also greater in the tACS group at both assessments. The intention-to-treat analysis of all 70 randomized participants yielded results consistent with the per-protocol analysis. Exploratory fNIRS analyses identified greater HbO increases in the left, right, and medial prefrontal regions in the tACS group at T1 after FDR correction (all q=0.033), whereas no regional difference remained significant at T2. Conclusion Hi-tACS improved global cognition and working memory in patients with PSCI and was generally well tolerated. Exploratory fNIRS findings suggested possible accompanying changes in cortical activation and network organization but did not establish a neurophysiological mechanism. Importantly, as a broad-network stimulation approach, Hi-tACS may reduce reliance on selecting a single precise target, a potential practical advantage in heterogeneous PSCI.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
     <item>
       <title>A Sensorimotor-Interoceptive Model for Sensory Phenomena in Obsessive-Compulsive Disorder: Neural and Computational Mechanisms.</title>
@@ -567,6 +556,17 @@ Psychosis exhibits marked neurobiological heterogeneity that is not adequately c
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Affective prosody and facial expression cues differentially augment spoken sentence and discourse comprehension for acute left and right hemisphere stroke survivors.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109606</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109606</guid>
+      <description>Neuropsychologia
+
+Comprehension for spoken sentences and discourse is differentially impacted by left- (LH) and right-hemisphere (RH) brain damage, such as that caused by stroke. Comprehension deficits can have disabling effects on one's ability to process information, participate in everyday life, and create and maintain relationships. This cross-sectional, observational study evaluated differences in sentence- and discourse-level comprehension between LH and RH stroke survivors across different prosodic conditions and examined relationships between comprehension and damage to key LH and RH regions. Participants included 43 LH and 46 RH acute stroke survivors and 39 controls. All participants completed an in-house clinical assessment that included short passages presented in three conditions: neutral prosody, affective prosody, and affective prosody plus facial expression cues. Stroke survivors also completed magnetic resonance imaging. Consistent with expectations, stroke participants achieved lower comprehension accuracy than controls across conditions. LH participants' accuracy in the 'affective prosody plus facial expressions' condition was greater than in the neutral prosody condition, and total LH lesion volume was associated with performance. RH participants' accuracy in the 'affective prosody' and 'affective prosody plus facial expressions' conditions was greater than in the neutral prosody condition. Overall, both groups' scores increased linearly from Condition 1 to 3. None of the prespecified LH or RH brain regions were significantly associated with performance. Findings suggest that some acute LH and RH stroke survivors with comprehension deficits can benefit from affective prosody and facial expression cues, but different or additional cues may be needed for greatest benefit.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>
