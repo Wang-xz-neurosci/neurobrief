@@ -5,9 +5,69 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/</link>
     <description>语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激的文献观察</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Superior Frontal Gyrus Cortical Thickness Mediates the Association Between Openness to Experience and Theory of Mind: Evidence from the Human Connectome Project</title>
+      <link>https://doi.org/10.64898/2026.10.31.763281</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.31.763281</guid>
+      <description>[预印本] bioRxiv
+
+Background: Theory of mind (ToM), the capacity to infer the mental states of others, varies considerably across healthy adults. Openness to experience has been linked both to social-cognitive abilities and to thinner prefrontal cortex, but whether cortical structure statistically accounts for the association between openness and ToM is unknown. We tested whether bilateral superior frontal gyrus (SFG) cortical thickness mediates this association. Methods: Data from 1,049 healthy young adults with complete data were drawn from the Human Connectome Project. ToM was indexed by accuracy on the Heider-Simmel social animation task, openness by the NEO Five-Factor Inventory, and SFG thickness by FreeSurfer. Models adjusted for age, sex, intracranial volume and fluid intelligence; indirect effects were tested with 5,000 bootstrap resamples, and Benjamini-Hochberg false discovery rate correction was applied. Results: Openness showed a positive total effect on ToM accuracy (beta = .081, p = .009). Higher openness was associated with thinner left and right SFG (beta = -.085 and -.084), and thinner SFG with higher ToM accuracy (beta = -.082 and -.075). Indirect effects were significant (left: .0069, 95% CI [.0010, .0158]; right: .0063, 95% CI [.0007, .0146]), accounting for approximately 8.5% and 7.8% of the total effect, and remained significant after rank-based normalisation of the ceiling-affected ToM scores. Conclusions: SFG cortical thickness partially and statistically mediates the association between openness to experience and social cognition. Because the data are cross-sectional and effects are small, the findings do not establish a causal mechanism, neural efficiency or synaptic pruning, but they identify a candidate structural pathway for longitudinal testing.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Human iEEG recordings during audiovisual speech violations support and extend predictive routing models</title>
+      <link>https://doi.org/10.64898/2026.10.30.760243</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.30.760243</guid>
+      <description>[预印本] bioRxiv
+
+Rather than constantly reconstructing the world solely through sensory input, predictive processing theories posit that the brain utilizes predictions maintained as internal representations to guide sensory processing. An emerging model, predictive routing, proposes that an interplay between neuronal gamma (40-150 Hz) and alpha-beta (10-30 Hz) rhythms implements a dynamic mechanism for predictive processing. Namely, predictions enhance alpha-beta oscillations that suppress gamma activity during the processing of predicted inputs. While this model is supported by animal studies, its validity has not been fully explored within the human brain. The present study addresses this by leveraging human intracranial EEG (iEEG) recordings across superior temporal and prefrontal/premotor areas of seven presurgical epilepsy patients during an audiovisual speech paradigm. We calculated iEEG power in the theta, alpha-beta, and high gamma bands during simple auditory deviance, multisensory integration, and a condition where an incongruent visual cue (lip movements) clashed with an auditory stimulus (a syllable), creating audiovisual incongruence that can elicit the McGurk illusion. Results revealed increased high-gamma and decreased alpha-beta power in the superior temporal cortex in response to auditory deviance and the McGurk condition, while frontal areas, despite reflecting a similar decrease in alpha-beta power, did not present this high gamma prediction error signal. Instead, the theta band revealed a strong prediction error signal in the McGurk condition, consistent with theories on the role of theta in reorganizing cortical networks. These results both support and extend existing predictive routing models for human-specific forms of predictive processing.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Adaptive and maladaptive microstructural remodelling of the maternal brain revealed by diffusion kurtosis imaging</title>
+      <link>https://doi.org/10.21203/rs.3.rs-9977087/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-9977087/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract Postpartum depression (PPD) is a major maternal mental health concern that may arise during neurobiological and emotional adaptation. Alterations in these adaptive processes may contribute to depressive symptom vulnerability; however, the neurobiological basis of postpartum brain adaptation remains unclear. We investigated microstructural brain remodelling in postpartum women using diffusion kurtosis imaging (DKI) and evaluated its association with Edinburgh Postnatal Depression Scale (EPDS) scores. We compared brain magnetic resonance imaging findings between 15 women one month postpartum and 10 nulliparous women without psychiatric disorders. Tract-based spatial statistics and regions of interest were analysed using diffusion tensor and kurtosis metrics. Compared with nulliparous women, postpartum women showed significantly lower mean and axial diffusivity values in white matter regions, including the frontal lobe, basal ganglia, and corticospinal tract. The posterior insular cortex showed increased mean and radial kurtosis, whereas the putamen demonstrated decreased diffusivity. EPDS scores showed positive correlations with kurtosis metrics in the amygdala and negative correlations with diffusivity metrics in the hypothalamus. These findings suggest that the postpartum brain undergoes coordinated microstructural remodelling involving emotional regulation, stress response, and maternal behavioural adaptations. Thus, DKI may provide an objective neuroimaging biomarker for identifying maladaptive postpartum brain changes associated with depressive symptoms.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Posterior cortical gray matter heterogeneity between hyposmia- and RBD-defined prodromal phenotypes in Parkinson's disease: a PPMI voxel-based morphometry study</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11353584/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11353584/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract Background Prodromal Parkinson's disease (PD) includes clinically distinct enrollment phenotypes. We examined whole-brain gray matter volume (GMV) in Parkinson's Progression Markers Initiative (PPMI) participants recruited through hyposmia-only or REM sleep behavior disorder (RBD)-only pathways and assessed the stability of the findings. Methods Baseline T1-weighted MRI from 465 hyposmia-only and 149 RBD-only participants (N = 614) was analyzed with CAT12/SPM25 voxel-based morphometry (VBM). Models included age, sex, intracranial volume, and scanner family. Whole-brain clusters were defined at voxel p &lt; 0.001 and tested using family-wise error (FWE) correction. We examined scanner-restricted samples, 123 sex/scanner-matched pairs, and 10,000-sign-flip permutation analysis of linear models (PALM). Bilateral cuneus/calcarine estimates and clinical assessments were exploratory. Results Whole-brain analysis identified a posterior phenotype effect (F cluster: k = 4,499; pFWE = 4.15×10⁻⁷), with higher GMV in hyposmia-only participants. In 123 matched pairs, a posterior H &gt; RBD T cluster survived correction (pFWE = 0.0266), whereas the F contrast did not. PALM also identified a posterior effect (two-sided threshold-free cluster enhancement [TFCE] FWE p = 0.0027; voxelwise FWE p = 0.0277). Adjusted bilateral cuneus differences were + 0.211 mL (95% CI 0.095–0.327) in the full cohort and + 0.187 mL (0.041–0.333) after matching. MRI-proximal RBD screening questionnaire scores showed no significant association with regional GMV. Conclusions Posterior cortical GMV differed between these enrollment-defined prodromal phenotypes. The anatomical finding was supported by nonparametric inference, although the matched F test and strictest scanner restriction were nonsignificant. Longitudinal studies are needed to establish its clinical relevance.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Resting-State EEG Theta-Band Functional Connectivity Characterizes Heterogeneity in Internet Gaming Disorder</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11330610/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11330610/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract Background. Symptom-based assessments capture IGD severity but provide limited information about neurophysiological heterogeneity. We examined whether resting-state EEG amplitude envelope correlation (AEC) profiles relate to IGD symptoms and reveal connectivity-defined heterogeneity. Methods. Thirty participants with IGD and thirty healthy controls underwent five-minute eyes-closed resting-state EEG. Source-level AEC was estimated across theta, alpha, beta, and gamma bands. Exploratory representational similarity analysis tested associations between connectivity-profile dissimilarity and IGD-20 differences; theta-AEC profiles within IGD were further examined using principal component analysis and k-means clustering. Results. Within IGD, theta-AEC dissimilarity was associated with mood-modification differences ( rₛ = 0.277, p FDR = 0.020), whereas the corresponding association in controls was not significant. Exploratory clustering indicated connectivity heterogeneity, with the largest difference involving Visual–Salience/Ventral Attention connectivity; clusters did not differ in IGD-20 scores or weekly gaming time. Conclusions. Theta-AEC may capture symptom-related neurophysiological variation within IGD.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Functional Connectivity Gradients Reveal Cortical Hierarchical Reorganization Across the Cirrhosis–Hepatic Encephalopathy Spectrum</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11271162/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11271162/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract Background Hepatic encephalopathy (HE) is a common neurocognitive complication of cirrhosis, but how macroscale cortical hierarchy is reorganized across the cirrhosis–HE spectrum remains incompletely understood. We characterized functional connectome gradient alterations across clinically defined cirrhosis stages and examined their clinical correlates. Methods This cross-sectional study included 104 participants: 35 patients with HE, 33 with cirrhosis without HE (NHE), and 36 healthy controls. Resting-state functional MRI was used to derive the first three connectivity gradients (G1–G3). Group differences were assessed at global, network, and cortical-parcel levels, and associations with blood ammonia, liver disease severity, and cognition were examined in patients with cirrhosis. Results Both NHE and HE showed reduced G1 range and variance versus healthy controls, indicating compression of the sensorimotor-to-transmodal hierarchy. Both groups showed higher somatomotor G1 and lower control and default mode G1, whereas HE additionally showed lower limbic G1. The only significant HE–NHE parcel-level difference involved the right temporal pole. Higher ammonia was associated with higher somatomotor G1 and lower control and default mode G1, while greater liver disease severity was associated mainly with lower limbic and default mode G1. Poorer cognition showed broadly corresponding associations. G2 and G3 did not differ among groups, and the main findings remained robust in sensitivity analyses. Conclusion NHE and HE showed largely shared compression of the sensorimotor-to-transmodal hierarchy, with more selective HE-associated alterations, particularly in temporolimbic regions. These abnormalities were associated with ammonia burden, liver disease severity, and cognitive impairment, supporting altered cortical functional hierarchy as a clinically relevant systems-level phenotype across the cirrhosis–HE spectrum.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Capturing the Attentional Trade-off between Speech Planning and Comprehension.</title>
       <link>https://doi.org/10.1162/jocn.a.97</link>
@@ -176,6 +236,16 @@ Early functional connectivity within the brain's reward circuitry may provide in
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning.</title>
+      <link>https://doi.org/10.1111/cogs.70271</link>
+      <guid isPermaLink="false">doi:10.1111/cogs.70271</guid>
+      <description>Cognitive science
+
+The human brain is an adaptive learning system that can generalize to new tasks and unfamiliar environments. The traditional view is that such adaptive behavior requires a structural change of the learning system (e.g., via neural plasticity). In this work, we use artificial neural networks, specifically large language models (LLMs), to challenge this traditional view and suggest that such adaptive behavior can be also achieved solely through computation if the learning system is sufficiently trained. We focus on statistical learning paradigms. These require identifying underlying regularities in seemingly arbitrary word sequences and are primarily considered to require neural plasticity. LLMs can capture arbitrary structures without requiring weight adaptation, even though these structures carry no semantic content and lie far from the natural language distribution on which the models were trained. Our work provides novel insights into the role of plasticity in learning, demonstrating that sufficiently trained learning systems are highly flexible, adapting to new tasks and environments solely through computation, much more than previously acknowledged. Furthermore, our work opens the door for future research to use deep learning models to conjure hypotheses about the brain.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Lexico-Semantic and Morphosyntactic Skills in Individuals With Parkinson's Disease: A Scoping Review.</title>
       <link>https://doi.org/10.1111/1460-6984.70358</link>
       <guid isPermaLink="false">doi:10.1111/1460-6984.70358</guid>
@@ -277,6 +347,46 @@ Developmental stuttering has been repeatedly linked to decreased white matter in
 Emotion is both a psychological phenomenon rooted in physiological fluctuations and a socially constructed phenomenon shaped by language and culture. However, traditional psychological constructivism has remained confined to individual brain processes, while social constructivism has lacked a bottom-up computational mechanism explaining how language and culture emerge from bodily emotional substrates and dynamically evolve. To bridge this theoretical gap, this paper proposes the Theory of Co-constructed Emotion (TCoE) via Collective Predictive Coding (CPC), a framework coupling physiological regulation with social symbol sharing within a single active inference formulation. We extend the conventional CPC model by explicitly incorporating interoception---which is indispensable for modeling emotion from a physiological perspective---into each agent's generative model, alongside exteroception and internal and external representations. In TCoE, the co-construction of emotion is described as a dual inference process: an internal loop of allostasis regulating individual bodily states, and a social loop of communication sharing emotional concepts with others. These loops mutually minimize prediction errors mediated by shared symbols (emotion words). We argue that this theoretical framework 1) aligns with psychological findings on emotional contagion and concept formation, 2) enables constructive verification in multi-agent robotic systems, and 3) provides a computational redefinition of psychiatric conditions such as alexithymia as a disconnection between interoception and social symbols. Thus, we offer a novel computational foundation for emotion research that unifies individual embodiment and social symbol systems.</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Cortical traveling wave analysis reveals weaker resting forward theta waves and greater task-related modulation in obsessive compulsive disorder.</title>
+      <link>https://doi.org/10.1111/pcn.70163</link>
+      <guid isPermaLink="false">doi:10.1111/pcn.70163</guid>
+      <description>Psychiatry and clinical neurosciences
+
+Obsessive-compulsive disorder (OCD) is associated with abnormalities in large-scale brain network dynamics. Conventional electroencephalography (EEG) captures local oscillatory activity but does not characterize spatiotemporal propagation patterns. This study investigates cortical traveling waves, which index directional information flow across the cortex, to determine whether they provide novel insights into altered neural communication in OCD. Resting-state (eyes-closed) and task-based (Go/NoGo, Flanker) EEG were recorded from 25 individuals with OCD and 27 healthy controls (HCs). Traveling waves were quantified along midline electrodes using two-dimensional Fast Fourier Transforms to extract forward (posterior-to-anterior) and backward (anterior-to-posterior) propagation in theta (4-8Hz) and alpha (8-13Hz) bands. Group differences were assessed using Bayesian and frequentist linear mixed-effects models controlling for age and sex. At rest, a significant group-by-direction interaction was observed in the theta band (P = 0.0006), driven by weaker forward traveling wave strength in OCD relative to HC. No group differences were observed for backward waves or in the alpha band. During the Flanker task, the OCD group showed a significantly greater increase in forward theta wave strength from rest than HC (P = 0.022). No associations were found between traveling wave measures and symptom severity. OCD is characterized by altered theta-band traveling wave dynamics, specifically reduced forward (bottom-up) signaling at rest, and increased task-related modulation during the Flanker task. These findings suggest disrupted hierarchical cortical communication and inefficient engagement of sensory-driven processes. The absence of symptom correlations suggests a potential trait-like neurophysiological marker or endophenotype of OCD.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Occupational Exposure Rather Than Trauma: Lower Occipital Gray Matter Volume in Underground Coal Miners Without PTSD or Other Psychiatric Diagnoses.</title>
+      <link>https://doi.org/10.1016/j.neuro.2026.103593</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuro.2026.103593</guid>
+      <description>Neurotoxicology
+
+Underground coal mining involves extreme conditions such as inadequate lighting, chronic exposure to dust and toxic gases, and intense occupational stress. Cortical changes observed in miners have been addressed almost exclusively in the literature within the framework of post-traumatic stress disorder (PTSD), neglecting the possibility that these changes may stem directly from environmental exposure independently of psychopathology. The potential for work-specific conditions such as prolonged dark work, insufficient daylight, and exposure to toxic dust to lead to structural brain changes even without any psychopathology has been overlooked. To address this gap, 28 underground miners and 28 surface miners, who were free of current psychiatric and neurological diagnoses, were compared. T1 images obtained from 3T MRI were analyzed using voxel-based morphometry (VBM) with CAT12/SPM12. Relationships between gray matter volume, working time, and neuropsychological performance were examined using a generalized additive model (GAM). Significantly lower gray matter volume was detected in the left occipital cortex (calcarine fissure, lingual and inferior occipital gyrus) of miners (t(53) = 4.82, pFWE = 0.026, d = 1.32). The effect was regionally selective. Occipital volume was negatively correlated with underground work time (r = -0.422), while this correlation was absent in the control group (r = 0.013). GAM showed significant nonlinear relationships between morphometry and learning score, recall and TMT-B (R² = 89%). This study is one of the first to associate occipital volume reduction in miners with chronic occupational exposure independently of psychological trauma. The findings are critically important for occupational health policies targeting neurological protection.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Brain Regions Involved in Object-Location Memory in Healthy Adults: A Systematic Review and Activation Likelihood Estimation Meta-Analysis of Task-Based fMRI.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107068</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107068</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+The ability to remember where objects are located is a fundamental cognitive function particularly vulnerable to aging and neurodegenerative disease. Previous functional magnetic resonance imaging (fMRI) research has combined object-location memory (OLM) with broader spatial-memory and -navigation tasks, resulting in inconsistent findings. This systematic review and coordinate-based activation likelihood estimation (ALE) meta-analysis isolated OLM to characterize brain regions engaged during encoding and retrieval in healthy adults, with additional exploratory analyses of age effects. Searches of PubMed, PsycInfo, and the Cochrane Library identified 21 eligible task-based fMRI studies comprising 622 participants. Twelve studies contributed to an encoding ALE, which identified significant spatial convergence in left and right ventral occipitotemporal regions encompassing the fusiform and parahippocampal gyri. The left cluster was supported by 8 of 12 experiments, survived all leave-one-experiment-out iterations, and was recovered by an independent coordinate-based framework, supporting a robust ventral occipitotemporal substrate for OLM encoding. An OLM retrieval ALE including four studies yielded no significant convergence, most likely reflecting the limited number of eligible studies. Retrieval findings were therefore synthesized narratively. These studies most frequently implicated the hippocampus and precuneus, suggesting a different regional pattern from encoding, although the phases were not statistically compared. Only three studies directly compared age groups, suggesting altered hippocampal engagement during retrieval in older adults. By isolating OLM from broader spatial-memory constructs, this review identifies a robust encoding substrate while highlighting current research gaps that need to be addressed. This review was preregistered on PROSPERO (CRD420251023695).</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Age-related patterns in local spontaneous activity measured by fNIRS: greater unpredictability in infancy, local reorganization in childhood.</title>
+      <link>https://doi.org/10.1016/j.brainresbull.2026.112193</link>
+      <guid isPermaLink="false">doi:10.1016/j.brainresbull.2026.112193</guid>
+      <description>Brain research bulletin
+
+The maturation of the brain is typically described at the whole-brain scale, whereas age-related changes in spontaneous activity within local brain regions have received comparatively little attention. Resting-state regional dynamics (RSRD) are defined as the temporal variability characteristics of activity within a single brain region under the resting state, and can stably reflect the intrinsic properties of spontaneous brain activity. The present study compared two age periods: infants (1-8 months of age) recorded during natural sleep and children (4-15 years of age) recorded during wakeful rest, corresponding to distinct developmental stages of rapid postnatal structural and functional brain development. The results suggested markedly different age-related feature patterns between the two groups: during infancy the predominant change was an increase in unpredictability, with RSRD activity becoming increasingly complex, whereas during childhood the dominant feature was a systematic reorganization of local waveform patterns. Age-related RSRD changes in the prefrontal cortex suggested a linear trend in infancy and a mixed linear-nonlinear trend in childhood, with inter-regional differences in the magnitude of feature changes. Vascular maturation-related indices suggested an association with RSRD feature changes during infancy, but not during childhood, suggesting that vascular factors may play a relatively more prominent role in early developmental stages. External data and exploratory internal cross-validation provided preliminary support for the age-related nature of these features, although further validation in larger, independent cohorts is needed.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Choroid plexus volume in metabolic syndrome: a cross-sectional neuroimaging study</title>
@@ -409,120 +519,6 @@ Speech foundation models (SFMs) are increasingly hailed as powerful computationa
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Delineating neural contributions to electroencephalogram-based speech decoding.</title>
-      <link>https://doi.org/10.1088/1741-2552/aeb68d</link>
-      <guid isPermaLink="false">doi:10.1088/1741-2552/aeb68d</guid>
-      <description>Journal of neural engineering
-
-Objective . Speech brain-computer interfaces (BCIs) have emerged as a pivotal technology in facilitating communication for individuals with speech impairments. Utilizing electroencephalography (EEG) for noninvasive speech BCIs offers an accessible and affordable solution, potentially benefiting a broader audience. However, EEG-based speech decoding remains controversial especially for overt speech, due to difficulties in separating speech-related neural activities from myoelectric potential artifacts generated during articulation. Moreover, because paradigms for collecting covert speech data are inherently less scalable than those for overt speech, whether the neural dynamics underlying EEG-based decoding of overt speech are also present during covert speech remains an open and practically important question.Approach . Here we aim to delineate the extent of the neural contributions to EEG-based speech decoding, and the degree to which the underlying neural dynamics are shared across overt and covert speech, by employing Explainable AI techniques to a convolutional neural network predicting spoken words based on signals obtained by ultra-high-density (uhd)-EEG.Main results . We found that electrode-wise contributions to the decoding cannot be explained by their mutual information with electromyography (EMG). Furthermore, contributing periods of speech to EEG-based decoding are distinct from those to decoding solely relying on EMG. Contributing periods of EEG-based decoding partially overlapped between overt and minimally overt speech. Notably, the denoising process successfully enhanced the decoding contribution from electrodes within speech-related brain areas for all speech conditions.Significance . Altogether, our findings support the idea that, with appropriate preprocessing, EEG becomes a valuable tool for decoding spoken words based on underlying neural activities.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>A case study of early-emerging prosopometamorphopsia.</title>
-      <link>https://doi.org/10.1080/02643294.2026.2755076</link>
-      <guid isPermaLink="false">doi:10.1080/02643294.2026.2755076</guid>
-      <description>Cognitive neuropsychology
-
-Prosopometamorphopsia (PMO) is a rare perceptual disorder characterized by facial distortions. This report presents the first thorough study of early-emerging PMO. Zed, who was 15 years old when first tested, has experienced lifelong, dynamic facial distortions in which features move, droop, disappear, expand, and rotate. He also experiences identity misrecognitions, perceiving familiar faces as strangers and vice versa. Behavioural assessments indicate Zed's distortions persist across different viewpoints, visual field positions, picture-plane orientations, and visual angles. Neuropsychological testing revealed deficits in face identity recognition, yet Zed performed normally on tests requiring fine-grained perception of facial age and sex. While structural MRI showed no lesions, MRI revealed reduced face-selectivity in right posterior face-selective areas, and diffusion tensor imaging indicated lower white matter integrity in the left inferior fronto-occipital fasciculus. This case offers novel insights into the manifestations of early-emerging PMO, its co-occurrence with other face-processing disorders, and its underlying neural correlates.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Brain systems supporting the narrative self and psychopathology.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.026</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.026</guid>
-      <description>Biological psychiatry
-
-Disturbances in the narrative self are implicated across psychiatric disorders, with abnormalities in the neural systems supporting its generation and regulation constituting a transdiagnostic risk factor for mental illness. This review highlights how alterations in these brain systems underlie prevalent clinical features, including diminished, rigid, and sustained negative beliefs within the narrative self. The narrative self is framed as a higher-order construct that emerges from multiple systems, with reward, punishment, and motivational signals biasing which experiences are encoded as self-defining and which self-beliefs are reinforced over time. We discuss recent evidence demonstrating how the narrative self is supported by distributed brain networks in which subcortical inputs from the basal forebrain, habenula and mediodorsal thalamus modulate default mode network activity, with the salience, frontoparietal, cingulo-opercular, and hippocampal-parahippocampal networks regulating how self-beliefs are established or updated. Adolescence is emphasized as a developmental period uniquely vulnerable to disturbances in the formation of a coherent, flexible narrative self, wherein asynchronous subcortical and cortical development and pubertal changes interact to confer risk for diminished and rigid self-beliefs. Belief-updating tasks, hierarchical computational models, and ecological momentary assessment are proposed as approaches to quantify how self-beliefs form and shift across time, linking neural signatures of the narrative self to momentary variability. We propose that treating the narrative self as a primary level of explanation for psychopathology positions it as a testable target for future neuroimaging research, providing a clearer bridge from self-referential cognition to interventions in daily life.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Association of Neighborhood Opportunity and Abdominal Obesity with Brain Development and Cognitive Function in Adolescents: A Prospective Cohort Analysis.</title>
-      <link>https://doi.org/10.1016/j.annepidem.2026.110312</link>
-      <guid isPermaLink="false">doi:10.1016/j.annepidem.2026.110312</guid>
-      <description>Annals of epidemiology
-
-To investigate the longitudinal associations between neighborhood opportunity and brain structure and cognitive performance among adolescents, and to explore whether these associations differ by sex, maturational status, race/ethnicity, and abdominal obesity trajectory. Prospective data from ABCD Study participants with complete baseline data (n = 9,375; ages 9-10 years, 47% girls; 21 U.S. sites), followed from 2016-2018 to 2020-2022, were analyzed; outcome-specific analytic samples were 9,121 at 2 years and 3,048 at 4 years. Neighborhood opportunity was measured with the Childhood Opportunity Index (COI) 2.0, subcortical volumes with MRI, and cognition with the NIH Toolbox. Mixed-effects models adjusted for baseline outcome, age, sex, race/ethnicity, population density, and time-varying waist-to-height ratio; sex differences were tested directly. Mean (SD) baseline age was 9.9 (0.6) years, and 54.4% were White. Very-high versus very-low COI was associated with larger subcortical volumes (e.g., amygdala 25.33 mm³; 95% CI 11.98 to 38.69, at 2 years) and higher memory scores at 2 years (5.56 points; 4.55 to 6.57) and 4 years (6.68; 4.44 to 8.91). Associations with the amygdala (2 years) and caudate (both waves) were larger in girls than in boys; cognitive associations did not differ by sex. Four-year estimates were similar to or larger than 2-year estimates; loss of statistical significance reflected the smaller 4-year samples. Adolescents from socioeconomically disadvantaged environments experience significant disparities in brain structure and cognitive function, which exploratory stratified analyses suggesting variation by abdominal obesity and sociodemographic characteristics including sex, maturational status, and race/ethnicity.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>The impact of pruning iterations on Arcuate Fasciculus morphometry and diffusion features in right-handed adults.</title>
-      <link>https://doi.org/10.1007/s12194-026-01165-4</link>
-      <guid isPermaLink="false">doi:10.1007/s12194-026-01165-4</guid>
-      <description>Radiological physics and technology
-
-To evaluate the utility of a pruning method in refining tractography and to examine the Arcuate Fasciculus (AF) morphometry and diffusion metrics in right-handed adults. Thirty-two healthy, right-handed adults underwent DTI on a 1.5T MRI system. Q-space diffeomorphic reconstruction was performed on a single-shell DTI dataset, and the AF was automatically tracked. Topology-Informed Pruning (TIP) was applied to reduce false-positive streamlines across varying numbers of iterations. Morphometry and diffusion metrics of the bilateral AF were extracted. The associations between these metrics and the number of iterations were evaluated using correlation analysis. The protocol-specific TIP threshold was identified as the knee point using the Kneedle algorithm. Differences in the morphometry and diffusion metrics of the selection AF tractometry by sex and hemisphere were also examined. A pFDR &lt; 0.05 was considered statistically significant. TIP-based pruning was associated with improved tract delineation through the reduction of spurious streamlines. The number of pruning iterations affected the AF's morphometry and diffusion metrics. The selected TIP threshold was 8, and TIPs greater than 8 yielded stable values with minimal variability. Significant differences between hemispheres were observed in diffusion metrics except quantitative anisotropy (QA). For morphometry metrics, significant differences were identified in the number of tracts, span, and curl (pFDR &lt; 0.05). No significant sex-related differences were found after FDR correction. Pruning iterations affect the visualization of AF in the protocol-specific population of right-handed adults. The number of pruning iterations selected should be carefully determined with full awareness and consideration.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>The effect of acupuncture-rehabilitation therapy on brain functional plasticity in motor aphasia after ischemic stroke: a randomized clinical neuroimaging trial.</title>
-      <link>https://doi.org/10.1007/s11682-026-01155-5</link>
-      <guid isPermaLink="false">doi:10.1007/s11682-026-01155-5</guid>
-      <description>Brain imaging and behavior
-
-Motor aphasia is the most prevalent type of aphasia following ischemic stroke (IS). This study aims to evaluate the therapeutic efficacy and underlying neural mechanisms of acupuncture-rehabilitation (A-R) therapy on motor aphasia after IS. Twenty-six patients with post-IS motor aphasia were randomly assigned to either the A-R group or the Conventional Rehabilitation (CR) group in a 1:1 ratio, and matched by age and gender with 26 healthy controls (HCs). The CR group received standard treatment and language training, while the A-R group additionally underwent scalp acupoint cluster acupuncture. Behavioral assessments and Blood Oxygenation Level Dependent functional Magnetic Resonance Imaging (BOLD-fMRI) scans were conducted before and after the four-week intervention to evaluate therapeutic outcomes and underlying mechanisms. Compared to HCs, patients exhibited decreased Amplitude of Low Frequency Fluctuations (ALFF) in the right precuneus (p &lt; 0.05) and reduced Regional Homogeneity (ReHo) in the left precuneus/postcentral gyrus (p &lt; 0.05). Enhanced functional connectivity (FC) was observed in regions including the left Broca's area and right superior temporal gyrus, left Broca's area and right inferior frontal orbitalis gyrus, left Broca's area and right precentral gyrus, left Broca's area and right postcentral gyrus (p &lt; 0.05). After intervention, significant improvements were observed in Aphasia Quotient (AQ) scores and sub-item performance in both patient groups (p &lt; 0.05), with the A-R group showing greater gains in AQ and spontaneous speech scores compared to the CR group (p &lt; 0.05). FMRI results indicated a significant increase in mean ALFF (mALFF) in the left inferior temporal gyrus after A-R treatment (p &lt; 0.05) compared to before, and higher szReHo in the left anterior central gyrus compared to the CR group (p &lt; 0.05). FC between the left Broca's area and right precentral gyrus decreased in the A-R group (p &lt; 0.05). Additionally, a negative correlation was observed between the right anterior central gyrus and listening comprehension (r = -0.574, p = 0.020). The findings suggest that both A-R and CR therapies enhance language function in patients with motor aphasia post-IS, with A-R therapy demonstrating superior efficacy. The therapeutic mechanism of A-R likely involves activating left hemisphere brain regions, suppressing right hemisphere activity, and restoring hemispheric balance to facilitate functional recovery.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Intrinsic cellular persistent firing sustains hippocampal spatial representations during working memory</title>
-      <link>https://europepmc.org/article/PMC/PMC13721955</link>
-      <guid isPermaLink="false">PMC:PMC13721955</guid>
-      <description>Science advances
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>E-MDD: an evidence-guided explainable framework for EEG-based depression recognition</title>
-      <link>https://europepmc.org/article/PMC/PMC13717697</link>
-      <guid isPermaLink="false">PMC:PMC13717697</guid>
-      <description>Frontiers in digital health
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Seizures and epilepsy in MOG antibody-associated disease: from cortical neuroimmunology to clinical practice</title>
-      <link>https://europepmc.org/article/PMC/PMC13717444</link>
-      <guid isPermaLink="false">PMC:PMC13717444</guid>
-      <description>Frontiers in immunology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Naturalistic language assessment and brain-network biomarkers in post-stroke aphasia for precision neurorehabilitation</title>
-      <link>https://europepmc.org/article/PMC/PMC13717245</link>
-      <guid isPermaLink="false">PMC:PMC13717245</guid>
-      <description>Frontiers in human neuroscience
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Sleep disturbance is associated with reduced DTI-ALPS index and altered functional-network efficiency in internet gaming disorder</title>
-      <link>https://europepmc.org/article/PMC/PMC13716738</link>
-      <guid isPermaLink="false">PMC:PMC13716738</guid>
-      <description>Frontiers in psychiatry
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>

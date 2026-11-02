@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -182,6 +182,17 @@ Background Autism spectrum disorder (ASD) is hallmarked by pronounced inter-indi
 Addiction is characterized by persistent substance use or engagement in behaviors despite adverse consequences and impaired control, but its expression varies substantially across individuals, substances, and severity. Within one influential neurocircuitry framework, addiction processes are organized into binge, withdrawal, and preoccupation stages. Preclinical research implicates the habenula across these processes but indicates that its contribution varies across drugs, subdivisions, and experimental models. Research on the human habenula in addiction remains fragmented, and the extent to which it converges with preclinical mechanisms is unclear. This scoping review synthesized evidence on the human habenula in addiction and examined its convergence with preclinical findings. Following PRISMA-ScR guidelines, databases and grey literature were searched in November 2025, with literature surveillance continued through April 2026. Human studies reported reduced fronto-habenula white-matter integrity, elevated habenula-striatal resting-state functional connectivity, withdrawal-related habenula-frontal connectivity, increased habenula blood flow during opioid withdrawal, altered task-evoked responses to reward and feedback, and nicotine-related genetic signals. By contrast, morphological studies found no consistent differences in habenula structure across addiction samples. Most human neuroimaging studies could not distinguish the medial and lateral habenula, limiting direct comparison with subdivision-specific preclinical mechanisms. Overall, across human and preclinical studies, the evidence does not support a unitary habenular alteration across addiction. Cross-species convergence was strongest for withdrawal-related activity, particularly for opioids, and for nicotine-related molecular mechanisms, but remained limited by differences in substances, circuits, measures, and paradigms. Future studies using subdivision-sensitive imaging and more comparable cross-species designs are needed.</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Imaginal neglect as a disorder of mental scene construction.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.10.008</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.008</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Imaginal (representational) neglect-typically revealed by contralesional omissions when patients describe familiar places from long-term memory-provides a test case for theories of mental scene construction. Unlike propositional recall of place-related facts, imaginal tasks require that semantic knowledge be "spatialized" into a viewpoint-dependent scene that can be actively sampled. We review converging evidence from classic behavioral dissociations (viewpoint inversion; preserved semantic knowledge with impaired spatialized retrieval), oculomotor measures during imagery, sensory interventions (caloric vestibular stimulation; prismatic adaptation), and lesion/disconnection findings. Reconsidering the long-standing opposition between a primary "representational scotoma" and a pure attentional/exploratory bias, we argue that this dichotomy may not correspond to how scenes are actually built: construction and exploration are tightly coupled processes, partly implemented through attentional/oculomotor control. Building on convergent lesion, meta-analytic and neuroimaging evidence that a left-lateralized image-generation system (including the Fusiform Imagery Node) supports the generation of visual content, we propose as a working hypothesis that balanced, viewpoint-dependent spatial organization depends on right-hemisphere attentional control and inter-hemispheric integration, plausibly involving posterior callosal pathways. We specify construction and exploration as sets of operations, relate the framework to accounts of conscious access, and set out empirical tests of its network-level claims.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
       <category>脑疾病机理</category>
     </item>
     <item>
@@ -556,17 +567,6 @@ Psychosis exhibits marked neurobiological heterogeneity that is not adequately c
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Affective prosody and facial expression cues differentially augment spoken sentence and discourse comprehension for acute left and right hemisphere stroke survivors.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109606</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109606</guid>
-      <description>Neuropsychologia
-
-Comprehension for spoken sentences and discourse is differentially impacted by left- (LH) and right-hemisphere (RH) brain damage, such as that caused by stroke. Comprehension deficits can have disabling effects on one's ability to process information, participate in everyday life, and create and maintain relationships. This cross-sectional, observational study evaluated differences in sentence- and discourse-level comprehension between LH and RH stroke survivors across different prosodic conditions and examined relationships between comprehension and damage to key LH and RH regions. Participants included 43 LH and 46 RH acute stroke survivors and 39 controls. All participants completed an in-house clinical assessment that included short passages presented in three conditions: neutral prosody, affective prosody, and affective prosody plus facial expression cues. Stroke survivors also completed magnetic resonance imaging. Consistent with expectations, stroke participants achieved lower comprehension accuracy than controls across conditions. LH participants' accuracy in the 'affective prosody plus facial expressions' condition was greater than in the neutral prosody condition, and total LH lesion volume was associated with performance. RH participants' accuracy in the 'affective prosody' and 'affective prosody plus facial expressions' conditions was greater than in the neutral prosody condition. Overall, both groups' scores increased linearly from Condition 1 to 3. None of the prespecified LH or RH brain regions were significantly associated with performance. Findings suggest that some acute LH and RH stroke survivors with comprehension deficits can benefit from affective prosody and facial expression cues, but different or additional cues may be needed for greatest benefit.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>

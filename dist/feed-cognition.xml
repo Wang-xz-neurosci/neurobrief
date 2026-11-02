@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -166,6 +166,16 @@ Individual differences in susceptibility to somatosensory false physiological fe
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Brain Regions Involved in Object-Location Memory in Healthy Adults: A Systematic Review and Activation Likelihood Estimation Meta-Analysis of Task-Based fMRI.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107068</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107068</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+The ability to remember where objects are located is a fundamental cognitive function particularly vulnerable to aging and neurodegenerative disease. Previous functional magnetic resonance imaging (fMRI) research has combined object-location memory (OLM) with broader spatial-memory and -navigation tasks, resulting in inconsistent findings. This systematic review and coordinate-based activation likelihood estimation (ALE) meta-analysis isolated OLM to characterize brain regions engaged during encoding and retrieval in healthy adults, with additional exploratory analyses of age effects. Searches of PubMed, PsycInfo, and the Cochrane Library identified 21 eligible task-based fMRI studies comprising 622 participants. Twelve studies contributed to an encoding ALE, which identified significant spatial convergence in left and right ventral occipitotemporal regions encompassing the fusiform and parahippocampal gyri. The left cluster was supported by 8 of 12 experiments, survived all leave-one-experiment-out iterations, and was recovered by an independent coordinate-based framework, supporting a robust ventral occipitotemporal substrate for OLM encoding. An OLM retrieval ALE including four studies yielded no significant convergence, most likely reflecting the limited number of eligible studies. Retrieval findings were therefore synthesized narratively. These studies most frequently implicated the hippocampus and precuneus, suggesting a different regional pattern from encoding, although the phases were not statistically compared. Only three studies directly compared age groups, suggesting altered hippocampal engagement during retrieval in older adults. By isolating OLM from broader spatial-memory constructs, this review identifies a robust encoding substrate while highlighting current research gaps that need to be addressed. This review was preregistered on PROSPERO (CRD420251023695).</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Choroid plexus volume in metabolic syndrome: a cross-sectional neuroimaging study</title>
       <link>https://europepmc.org/article/PMC/PMC13721072</link>
       <guid isPermaLink="false">PMC:PMC13721072</guid>
@@ -245,6 +255,27 @@ When repeated tones are presented among random masker tones, their perceptual or
       <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
 
 The habenula is implicated in signaling negative reward prediction errors (RPE), yet direct evidence demonstrating its influence on downstream human brain circuits is limited. Using ultra-high field (7T) fMRI and dynamic causal modelling across two negative RPE-inducing experimental tasks, we characterize habenula-directed connectivity with monoaminergic midbrain and cortical pathways in healthy adults (n = 47, 24 males and 23 females; n = 43, 23 males and 20 females). Negative feedback drove habenula inhibition of ventral tegmental area and dorsal raphe nucleus activity, while positive feedback had an excitatory effect. These core effects are replicated across reversal learning and perceptual decision uncertainty tasks, establishing a generalizable mechanism for behavioral adaptation. Task-specific modulatory effects emerged in pathways between the subcortical and cortical regions (ventral tegmental area→dorsal anterior cingulate cortex, dorsal raphe nucleus→medial prefrontal cortex, and dorsal anterior cingulate cortex→habenula), revealing context-dependent cortical elaboration of negative RPE-driven habenula signals. This provides the first evidence in humans, using model-based effective connectivity, for bivalent modulation of habenula function on monoaminergic midbrain and cortical pathways, demonstrating how the brain integrates negative and positive signals to guide adaptive behavior.Significance Statement The habenula - an epithalamic brain region - plays a key role in the encoding of reward and punishment. Animal studies have demonstrated the habenula to be bivalently modulated by aversive and appetitive stimuli, resulting in the bidirectional modulation of monoaminergic brain region activity. Despite this evidence, the directional impact of bivalently modulated habenula activity on its circuitry has yet to be investigated in humans. This study leverages ultra-high field (7T) fMRI and dynamic causal modelling to reveal the impact of bivalent habenula modulation on monoaminergic midbrain and cortical regions across two distinct tasks. Through these methodologies, we demonstrate the habenula to have a key role in guiding adaptive behavior.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>The dual future of OPM-MEG: Clinical translation and naturalistic neuroscience.</title>
+      <link>https://doi.org/10.1162/imag.a.1436</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1436</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Optically pumped magnetometer magnetoencephalography (OPM-MEG) has moved beyond proof of principle. The decisive question is no longer whether cryogen-free sensors can detect neuromagnetic fields from the human brain with sufficient sensitivity, but whether complete systems can deliver clinical decision value and interpretable recordings during more naturalistic behaviour. Here we argue that OPM-MEG is developing along two partly overlapping trajectories. One is clinical translation, where usefulness depends more on reliable workflows, calibrated source localisation, auditable quality control, and empirical evidence for improved diagnostic or treatment decisions. The other is naturalistic neuroscience, where wearable measurement can connect neural dynamics to movement, action, and social behaviour without conflating neural activity with movement-related artefacts. Both trajectories depend on a shared engineering stack including magnetic field control, dense spatial sampling, accurate calibration, integrated electronics, artefact suppression, participant comfort, and synchronised behavioural measurement. The next stage of OPM-MEG should be evaluated by clinical utility in specific patient groups, statistically identifiable neural dynamics in behaviourally rich settings, and sufficient system detail for replication across systems and sites.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Attention selectively enhances collision sensitivity in the superficial SC, PBGN and centromedial amygdala to looming stimuli in the upper visual field.</title>
+      <link>https://doi.org/10.1162/imag.a.1432</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1432</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Accurate detection of impending collisions is essential for survival. While multiple subcortical pathways have been implicated in the detection of looming stimuli, the roles of top-down attention and conscious awareness in this process remain unclear. Using high-resolution fMRI, we investigated how top-down attention and conscious awareness influence subcortical processing of approaching objects on collision versus near-miss trajectories. In healthy participants, the superficial layers of the superior colliculus (SCs), the parabigeminal nucleus (PBGN), and the centromedial amygdala (CMA) exhibited significantly stronger activation to hit-nasion than to near-miss trajectories in the upper visual field, but only when participants attended to the approaching object. Correlation and path analysis of collision sensitivity and beta-series functional connectivity consistently revealed a significant SC-PBGN connection. For stimuli presented in the blind visual field of hemianopic patients, significant functional connectivity was observed between the SC and both the pulvinar and the ventral tegmental area (VTA) in response to collision trajectories. Together, these findings suggest that attention selectively enhances collision sensitivity in the SCs-PBGN-CMA pathway for accurate detection of collision trajectory in the upper visual field, whereas the SC-pulvinar and SC-VTA pathways are associated with collision detection in the absence of conscious awareness.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -495,38 +526,6 @@ Why does consciousness feel like something, and why is experience unified rather
 Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "Cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 female, 14 male) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated mid-latency (100 - 250 ms) responses, whereas late-latency (270 - 450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.Significance Statement Understanding how the brain prioritizes and selectively processes information in naturalistic, continuously evolving audiovisual scenes such as conversations is a central challenge in neuroscience. Here, we show that conversations conveying negatively valenced, high-arousal, and socially relevant content enhance neural tracking of attended speech in a noisy cocktail-party setting. This enhanced tracking depends on the semantic structure of the conversation, emerging earlier for coherent dialogues that are easy to follow. Furthermore, we show that emotional content strengthens mechanisms related to speech comprehension and sharpens segregation of relevant from irrelevant talk. These findings demonstrate that emotional meaning and semantic continuity jointly shape cortical processing of continuous speech, providing new insight into how the brain selects and processes meaningful information during a conversation.</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Neurocognitive characteristics of perceptual feedback processing differ in autism.</title>
-      <link>https://doi.org/10.1523/jneurosci.0315-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0315-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Autistic individuals often show reduced adaptation to changing environmental demands, but the neurocognitive mechanisms underlying this difference remain unclear. We asked whether it may be explained by reduced sensitivity to external feedback and changes in task difficulty. Autistic and non-autistic adults of either sex, matched for cognitive ability, performed a pitch discrimination task in which their response was immediately followed by feedback. Accuracy was similar between the two groups, yet autistic participants exhibited a markedly reduced feedback-related negativity (FRN), an event-related EEG potential differentiating explicit negative versus positive feedback. They also showed weaker modulation of feedback-evoked EEG responses by perceptual difficulty. Lastly, they showed reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up experiment conducted 1-2 years later. When combined they classified autistic and non-autistic participants with about 80% accuracy. Together, our findings indicate that multiple processes for evaluating perceptual decisions and adjusting subsequent behavior differ in autism and likely contribute to slow updating in changing contexts.Significance Statement Autism is associated with reduced adaptation to changing environments in both behavior and neural signals, but the underlying neurocognitive mechanisms remain unclear. Here, we show that autistic individuals exhibit a reduced feedback-related negativity (FRN), an EEG component that is present when receiving negative instead of positive feedback. They also show weaker neural modulation by perceptual difficulty and reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up study. When combined, they classified autistic and non-autistic participants with high accuracy. These findings suggest that reduced flexibility in autism is associated with reduced processing of external feedback and task difficulty.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>An integrative computational approach for obstacle avoidance during action selection.</title>
-      <link>https://doi.org/10.1371/journal.pcbi.1013756</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1013756</guid>
-      <description>PLoS computational biology
-
-Action selection in cluttered environments, where individuals must simultaneously pursue goals and avoid obstacles, presents a significant challenge for the brain. To understand the underlying mechanisms of action selection in such contexts, we propose a computational model that extends stochastic optimal control theory through a novel framework for obstacle avoidance. The model decomposes action selection into a weighted combination of individual control policies, each generated for either target approach or obstacle avoidance. By integrating value information from goals, obstacles, and actions into a unified measure of "relative desirability", the model dynamically determines the contribution of each policy to the overall action selection process. We evaluated the framework using simulated target-reaching tasks in cluttered environments based on previous human studies. The results showed that the model qualitatively captures key features of human motor behavior, including the influence of obstacle properties on movement trajectories and the transient tendency to initiate movements toward obstacles before avoidance. This work offers new insights into the dynamic interaction between approach and avoidance behaviors, providing a basis for future studies of action selection in more complex and naturalistic settings.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Targeting central thalamus with transcranial ultrasound reduces arousal in healthy volunteers.</title>
-      <link>https://doi.org/10.1038/s42003-026-10637-7</link>
-      <guid isPermaLink="false">doi:10.1038/s42003-026-10637-7</guid>
-      <description>Communications biology
-
-Using low-intensity focused transcranial ultrasound stimulation, we test the causal roles of the central thalamus in arousal and the pulvinar in visuospatial attention in the healthy human brain. In a within-subjects, counterbalanced design, 27 healthy volunteers (two females) complete a vigilance task (Psychomotor Vigilance Task) and a visuospatial attention task (Egly-Driver Task) before and after sham, central thalamic, and pulvinar sonication. Targeting the central thalamus slows responses and increases lapses in attention during the vigilance task, indicating reduced arousal. Pulvinar sonication reduces (and slows) responses to visual stimuli presented contralaterally, suggesting a disruption of contralateral visuospatial attention. These results provide causal evidence linking the pulvinar to visuospatial attention and the central thalamus to arousal in the healthy human brain and demonstrate that ultrasound can elicit distinct behavioral changes in healthy volunteers when delivered to close but functionally distinct thalamic regions, underscoring its potential as a tool for noninvasive brain mapping.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>

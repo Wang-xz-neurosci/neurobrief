@@ -5,9 +5,19 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 18:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Human iEEG recordings during audiovisual speech violations support and extend predictive routing models</title>
+      <link>https://doi.org/10.64898/2026.10.30.760243</link>
+      <guid isPermaLink="false">doi:10.64898/2026.10.30.760243</guid>
+      <description>[预印本] bioRxiv
+
+Rather than constantly reconstructing the world solely through sensory input, predictive processing theories posit that the brain utilizes predictions maintained as internal representations to guide sensory processing. An emerging model, predictive routing, proposes that an interplay between neuronal gamma (40-150 Hz) and alpha-beta (10-30 Hz) rhythms implements a dynamic mechanism for predictive processing. Namely, predictions enhance alpha-beta oscillations that suppress gamma activity during the processing of predicted inputs. While this model is supported by animal studies, its validity has not been fully explored within the human brain. The present study addresses this by leveraging human intracranial EEG (iEEG) recordings across superior temporal and prefrontal/premotor areas of seven presurgical epilepsy patients during an audiovisual speech paradigm. We calculated iEEG power in the theta, alpha-beta, and high gamma bands during simple auditory deviance, multisensory integration, and a condition where an incongruent visual cue (lip movements) clashed with an auditory stimulus (a syllable), creating audiovisual incongruence that can elicit the McGurk illusion. Results revealed increased high-gamma and decreased alpha-beta power in the superior temporal cortex in response to auditory deviance and the McGurk condition, while frontal areas, despite reflecting a similar decrease in alpha-beta power, did not present this high gamma prediction error signal. Instead, the theta band revealed a strong prediction error signal in the McGurk condition, consistent with theories on the role of theta in reorganizing cortical networks. These results both support and extend existing predictive routing models for human-specific forms of predictive processing.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>Capturing the Attentional Trade-off between Speech Planning and Comprehension.</title>
       <link>https://doi.org/10.1162/jocn.a.97</link>
@@ -62,6 +72,16 @@ Integrating auditory and visual cues is a hallmark of human speech perception, y
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning.</title>
+      <link>https://doi.org/10.1111/cogs.70271</link>
+      <guid isPermaLink="false">doi:10.1111/cogs.70271</guid>
+      <description>Cognitive science
+
+The human brain is an adaptive learning system that can generalize to new tasks and unfamiliar environments. The traditional view is that such adaptive behavior requires a structural change of the learning system (e.g., via neural plasticity). In this work, we use artificial neural networks, specifically large language models (LLMs), to challenge this traditional view and suggest that such adaptive behavior can be also achieved solely through computation if the learning system is sufficiently trained. We focus on statistical learning paradigms. These require identifying underlying regularities in seemingly arbitrary word sequences and are primarily considered to require neural plasticity. LLMs can capture arbitrary structures without requiring weight adaptation, even though these structures carry no semantic content and lie far from the natural language distribution on which the models were trained. Our work provides novel insights into the role of plasticity in learning, demonstrating that sufficiently trained learning systems are highly flexible, adapting to new tasks and environments solely through computation, much more than previously acknowledged. Furthermore, our work opens the door for future research to use deep learning models to conjure hypotheses about the brain.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
     </item>
     <item>
       <title>Lexico-Semantic and Morphosyntactic Skills in Individuals With Parkinson's Disease: A Scoping Review.</title>
@@ -225,6 +245,16 @@ When we read, our brains constantly generate predictions about upcoming words, w
       <description>American journal of speech-language pathology
 
 Purpose Following severe traumatic brain injury (TBI), individuals experience a transient period of confusion known as posttraumatic amnesia (PTA). Few empirical speech-language pathology studies have described language and cognitive-communication features during PTA or examined their early recovery. International guidelines recommend routine monitoring of communication during PTA; however, standardized speech-language pathology assessments are generally unsuitable for use during PTA. Narrative tasks offer a structured and repeatable approach to capture clinically meaningful changes. The purpose of this research was to describe narrative discourse characteristics in adults with severe TBI during PTA and examine how performance changed following PTA resolution. Method Nine adults with severe TBI admitted to an inpatient rehabilitation setting completed a narrative task during PTA and again after resolution of PTA. Language samples were analyzed across multiple levels, with descriptive analyses used to characterize performance and patterns of change. Discourse performance during PTA was compared descriptively to published data, providing reference data for microlinguistic measures and story grammar in adults without brain injury and adults with TBI who were not in PTA, where data were available. Results All participants demonstrated confused, disorganized narratives during PTA, although the degree and profile of impairment varied markedly across individuals. Macrostructural analyses provided the most meaningful and sensitive indicators of change, with several participants showing clearer narrative structure and increased production of relevant content post-PTA. Conclusions A narrative task has the potential to provide insight into the communication ability of patients in PTA, particularly in relation to change over time. This may help to guide decisions about the most appropriate timing for formal speech-language pathology assessment and intervention.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Dual-site multifocal HD-tDCS modulates bilingual language control via brain activity and connectivity.</title>
+      <link>https://doi.org/10.1007/s11571-026-10582-5</link>
+      <guid isPermaLink="false">doi:10.1007/s11571-026-10582-5</guid>
+      <description>Cognitive neurodynamics
+
+Bilinguals rely on language control mechanisms to manage cross-language interference. Interactions between the pre-supplementary motor area (pre-SMA) and the left cerebellum play an important role in bilingual language control. However, our previous brain stimulation study targeting the cerebellum alone failed to detect significant behavioral changes in bilingual language control. In this study, we combined dual-site tDCS with fMRI to investigate its effects on bilingual language control and compared it with conventional single-site tDCS. Using a within-subject design, Chinese-English bilinguals underwent three sessions: pre-stimulation baseline, single-site tDCS over pre-SMA, and dual-site tDCS over pre-SMA and left cerebellum. Following dual-site stimulation, we observed reduced brain activity within the language control network, including the right cerebellar lobule VI, and strengthened thalamo-cerebellar connections during bilingual language production. In a separate behavioral experiment, language switch cost was lower after dual-site stimulation than at baseline but did not differ significantly between dual-site and single-site stimulation. Together, these findings provide preliminary evidence that dual-site tDCS modulates bilingual language control, potentially by strengthening thalamo-cerebellar connectivity and modulating cerebellar neural activity. These results also highlight the functional interaction between the pre-SMA and the cerebellum in supporting bilingual language control.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -436,6 +466,17 @@ BackgroundFrontotemporal dementia (FTD) is a leading cause of early-onset neurod
       <category>结构与功能</category>
     </item>
     <item>
+      <title>Alterations in default mode network functional connectivity in semantic dementia.</title>
+      <link>https://doi.org/10.1016/j.ynirp.2026.100421</link>
+      <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100421</guid>
+      <description>Neuroimage. Reports
+
+Progressive deterioration of semantic memory is a defining characteristic of the semantic variant of primary progressive aphasia or semantic dementia (SD). Semantic deficits in SD are classically attributed to temporal lobe atrophy, in particular in the anterior temporal lobe. Recent neuroimaging studies have associated SD with disruptions of intrinsic connectivity networks during task and at rest, predominantly implicating regions of the semantic and language networks. Yet, anterior temporal lobe atrophy disrupts connectivity within the Default Mode Network (DMN), particularly in the anterior portions associated with semantic memory. Few neuroimaging studies have focussed on DMN connectivity in SD and links to semantic memory impairments. Using whole-brain seed-based connectivity analyses during resting state fMRI, we examined DMN functional connectivity in eight bilateral seeds and the association with semantic impairments in 16 SD compared to 20 age-matched healthy participants. Patients exhibited within DMN hypoconnectivity between the anterior hippocampus and medial orbito-frontal cortex, on the right, and between the posterior cingulate cortex and middle temporal gyrus, on the left. Furthermore, functional connectivity of the left posterior cingulate cortex with the middle temporal gyrus correlated positively with left lateral temporal atrophy in SD patients. Correlations with semantic performances showed that connectivity of the right anterior hippocampus and left middle/superior frontal gyri correlated positively with animal fluency in controls, but not in patients. In SD, connectivity between the left posterior cingulate cortex and left cerebellum area 9 correlated positively with semantic knowledge. These findings provide evidence that semantic SD impairments are subserved by altered DMN functional connectivity, linked to atrophy in the anterior temporal lobes and anterior hippocampi.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Individual Differences in Sustained Attention Tune Semantic Abstraction in Neural Encoding of Narratives</title>
       <link>https://doi.org/10.64898/2026.10.21.760815</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.21.760815</guid>
@@ -484,50 +525,6 @@ Background Aphasic status epilepticus (ASE) is an uncommon manifestation of foca
 
 Developmental dyslexia (DD) is a heritable neurodevelopmental disorder associated with altered brain connectivity. The influence of genetic risks on cortico-cerebellar effective connectivity (EC) remains unclear. The present study investigates how reading proficiency and the READ1 deletion (READ1d) in the DCDC2 gene modulate visuo-attentional network dynamics. Functional MRI data were acquired in 78 children (DD and typical readers, with/without READ1d) performing a coherent motion detection task. EC within a seven-region visuo-attentional network, including magnocellular, ventral attention, and cerebellar (crus I) regions, was estimated using Dynamic Causal Modelling. Group-level effects were assessed using Parametric Empirical Bayes within a hierarchical Bayesian framework, testing reading proficiency, READ1d status, and their interaction (posterior probability threshold, Pp &gt; 0.95). Reading proficiency was associated with increased cerebellar influence on visual and frontal regions, alongside reduced intra-cortical connectivity within dorsal stream pathways. The presence of READ1d was associated with reduced EC from primary visual and cerebellar regions to magnocellular and ventral attention networks, and increased intra-cortical interactions. The interaction between DD and READ1d revealed further reductions in cortico-cerebellar connectivity and altered network dynamics. Group-level analyses revealed EC differences in cortico-cerebellar pathways, which are reported as exploratory findings. Cortico-cerebellar EC is modulated by both reading proficiency and genetic susceptibility. Altered cerebellar contributions to visuo-attentional processes may represent a potential imaging-genetic signature of dyslexia, warranting replication in independent samples and validation through longitudinal and multimodal approaches.</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Age- and noise-related differences in neural entrainment to speech sounds.</title>
-      <link>https://doi.org/10.1016/j.neurobiolaging.2026.10.005</link>
-      <guid isPermaLink="false">doi:10.1016/j.neurobiolaging.2026.10.005</guid>
-      <description>Neurobiology of aging
-
-Speech-in-noise (SIN) perception is a difficult everyday listening task that becomes more difficult with age. Neural tracking of target speech is associated with successful speech perception in clean and noise-degraded listening environments. How aging impacts neural tracking of speech and behavioral decrements in SIN perception remains unclear. To address these questions, we measured neural speech tracking during a continuous SIN perception task in younger and older adults via multichannel electroencephalography (EEG). Participants (N = 83) monitored a continuous stream of syllables (~4.5 Hz) presented in quiet and noise conditions during EEG recordings. We assessed neural phase-locking value (PLV) to the acoustic speech envelope to investigate interactions between aging, hearing loss, and stimulus noise on neural synchronization to speech. Compared to younger adults, older adults demonstrated less behavioral sensitivity to noise effects than young adults and had higher overall PLV to target speech. Older adults also showed greater noise-related degradations in neural speech processing relative to younger listeners. Age remained a strong predictor of behavioral responses to speech even after controlling for hearing loss. Covarying for hearing loss removed most age-related effects on neural PLV. Older adults demonstrate exaggerated neural tracking to ongoing speech presented in quiet and greater noise-related reductions in neurobehavioral speech processing than young adults. Our results support the decline-compensation hypothesis, corroborate unusually large speech envelope encoding in older listeners, and suggest more robust neural synchronization to the speech signal is not always perceptually advantageous.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>The Influence of Contralesional Brain Age Gradients on Chronic Stroke Aphasia Severity and Treatment Response.</title>
-      <link>https://doi.org/10.1523/jneurosci.2058-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.2058-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The adult brain follows normative aging trajectories, yet stroke abruptly disrupts this process. Beyond the focal lesion, undamaged regions can deviate from expected aging due to diaschisis or pre-existing vulnerabilities, reflecting tissue health that may constrain recovery. Chronic post-stroke aphasia, a persistent language disorder, shows wide individual variability in severity and treatment response, and these differences are not fully captured by lesion characteristics or demographic factors. Further, prior imaging biomarkers have been difficult to scale because they rely on specialized acquisitions or nonstandardized analytical pipelines. Here, we used a standardized, lifespan-informed brain age model (volBrain) trained on large public datasets to quantify regional deviations from normative aging using only routine structural MRI (T1-weighted). In 188 individuals with chronic stroke (67 female, 121 male), regional aging deviations in the contralesional hemisphere explained aphasia severity beyond lesion volume, lesion location, and basic demographics. In a treated subgroup, baseline brain aging patterns also predicted language gains that persisted 6 months after therapy, indicating prognostic value. By characterizing how individual brains diverge from expected aging, this approach captures variation in tissue integrity that is relevant for both impairment and recovery. This provides a scalable framework that can be integrated across sites and studies, linking normative aging models with post-stroke prognostics and informing precision neurorehabilitation.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Neurophysiological dynamics related to perception, action, and language in schizophrenia.</title>
-      <link>https://doi.org/10.1126/sciadv.aeh5819</link>
-      <guid isPermaLink="false">doi:10.1126/sciadv.aeh5819</guid>
-      <description>Science advances
-
-Schizophrenia disrupts both how people perceive the world and how they express and act on their thoughts, yet these symptoms are usually studied separately. Using magnetoencephalography during multisensory and motor tasks, we tested whether reduced event-related beta-band (15 to 30 hertz) modulation, a signal implicated in predictive control, provides a candidate neural marker across these domains. Compared to healthy individuals, patients showed diminished beta changes during sensory processing and movement completion, suggesting reduced flexibility in updating internal models. This neural pattern covaried with audiovisual simultaneity-judgment behavior, disorganized natural speech, and greater clinical severity. These findings suggest that distributed beta modulation may serve as a candidate cross-domain marker associated with perceptual, motor, and language disturbances in schizophrenia, motivating future studies that directly test predictive updating mechanisms.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Towards semantic brain-computer interfacing: The graded inventory of semantic triggers (GIST) paradigm.</title>
-      <link>https://doi.org/10.1088/1741-2552/aeb724</link>
-      <guid isPermaLink="false">doi:10.1088/1741-2552/aeb724</guid>
-      <description>Journal of neural engineering
-
-Objective Semantic Brain-Computer Interfaces (sBCIs) aim to decode conceptual information directly from neural activity, enabling more efficient and natural communication for individuals with severe motor impairments. However, existing approaches are often confounded by stimulus-driven perceptual processes and lack a reliable means of tagging the moment of concept formation. We introduce the Graded Inventory of Semantic Triggers (GIST), a novel electroencephalography (EEG) paradigm designed to elicit semantic retrieval from graded verbal clues with precise temporal alignment. Approach: EEG data were recorded from 14 participants performing the GIST task across three semantic categories (food, musical instruments, and body parts). Target neural activity was aligned to each participant's self-reported moment of semantic retrieval (spacebar press), enabling response-locked analysis. Here, we propose a staged framework where the first comprises a Conformer-based encoder trained on pooled data using a hybrid contrastive objective that combines instance-level consistency and cross-participant class alignment with domain-adversarial learning to reduce participant-specific information. In the second stage, the frozen encoder is transferred to a held-out participant whose data played no part in Stage 1, and a support vector machine is calibrated on that participant's own labelled items under a nested leave-one-item-out protocol. Results: Above-chance semantic decoding was achieved in all three pairwise tasks. Mean accuracies were 73.4% (Body vs. Food), 70.7% (Body vs. Music), and 68.2% (Food vs. Music). Participant-level permutation tests were significant in 9/11 participants for Body vs. Food and 8/11 for each of the other tasks (p &lt; 0.05). The pre-response interval at [-1.5s, -0.5s] was the most discriminative. Significance: The GIST paradigm enables controlled elicitation and temporal alignment of semantic processing while reducing perceptual confounds. Combined with cross-participant representation pretraining and participant-specific calibration, the results demonstrate above-chance decoding of semantic categories from EEG in individuals excluded from representation learning, supporting the feasibility of sBCIs.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
   </channel>
