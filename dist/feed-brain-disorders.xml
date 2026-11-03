@@ -5,9 +5,65 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cerebrospinal fluid TNF-α, regional degree centrality, and depressive symptoms after herpes simplex encephalitis: a cross-sectional observational study</title>
+      <link>https://europepmc.org/article/PMC/PMC13725786</link>
+      <guid isPermaLink="false">PMC:PMC13725786</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>The application of brain-computer interface on cognitive function and activities of daily living in stroke patients: a systematic review and meta-analysis</title>
+      <link>https://europepmc.org/article/PMC/PMC13725544</link>
+      <guid isPermaLink="false">PMC:PMC13725544</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Voxel-wise functional-to-gray matter volume ratios reveal distinct brain patterns in cirrhosis stratified by hepatic encephalopathy history and clinical status</title>
+      <link>https://europepmc.org/article/PMC/PMC13724522</link>
+      <guid isPermaLink="false">PMC:PMC13724522</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Transcranial magnetic stimulation to the dorsolateral prefrontal cortex modulates single-neuron activity in humans.</title>
+      <link>https://doi.org/10.1073/pnas.2610803123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2610803123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Transcranial magnetic stimulation (TMS) to the dorsolateral prefrontal cortex (dlPFC) is an established treatment for depression, yet the fundamental question of how cortical stimulation influences single neurons in deep brain circuits critical for mood regulation remains unanswered. Using a rare opportunity to record from intracranial microelectrodes while TMS was delivered in four neurosurgical patients, we evaluated the responses of 185 single neurons. Artifact cleaning enabled single-neuron spikes to be resolved as early as 8 ms after stimulation. We found that single-pulse TMS to the left dlPFC elicited time-locked firing responses in 46% of neurons (26% facilitated only, 19% suppressed only, 1% both). These responses occurred within deep bilateral cortical and subcortical structures, including the putamen and thalamus. Single-pulse TMS tended to facilitate spiking in striato-thalamic putative inhibitory neurons from ~8 ms, peaking at ~80 to 100 ms, and decaying until ~600 ms. In contrast, putative excitatory neurons and limbic areas were suppressed with a slower time course lasting to ~1,000 ms. TMS-evoked potentials recorded from intracranial depth macroelectrodes to quantify network activity revealed that the modulation of responsive neurons was positively correlated with cortico-striato-thalamic network activity and anticorrelated with limbic network activity in one participant with sufficient network and unit sampling. These results suggest that dlPFC TMS recruits a high percentage of neurons spanning cortical and subcortical brain regions bilaterally. The recruitment pattern selectively involves increasing the firing rate of inhibitory neurons in executive control networks while suppressing limbic excitatory drive, providing a candidate cellular mechanism for how cortical stimulation modulates distributed brain networks.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Rethinking Standard DLPFC Stimulation: Response to Mundorf and Ocklenburg.</title>
+      <link>https://doi.org/10.1176/appi.ajp.20260470</link>
+      <guid isPermaLink="false">doi:10.1176/appi.ajp.20260470</guid>
+      <description>The American journal of psychiatry
+
+来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Distinct Patterns of Syntactic Errors Doubly Dissociate in Chronic Poststroke Aphasia.</title>
       <link>https://doi.org/10.1162/jocn.a.2684</link>
@@ -31,6 +87,17 @@ Background Brain connectivity abnormalities may underlie affective psychosis whi
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>SPARK-ICA: Guided Frequency-Resolved Dynamic Spatial ICA Reveals Fine-Scale fMRI Network Dynamics.</title>
+      <link>https://doi.org/10.1002/hbm.70662</link>
+      <guid isPermaLink="false">doi:10.1002/hbm.70662</guid>
+      <description>Human brain mapping
+
+Fine-scale spatiotemporal dynamics of functional brain networks are increasingly recognized as critical markers of transient connectivity and neuropsychiatric pathology. However, many existing dynamic fMRI methods primarily focus on temporal variability without explicitly resolving the spatial-frequency content of network dynamics, potentially limiting characterization of subtle, high-frequency spatial reconfigurations. To address this gap, we propose SPARK-ICA (Spatial-frequency Partitioned, Adaptive Reconstruction using Knowledge-guided ICA), a frequency-resolved dynamic spatial independent component analysis (ICA) framework that integrates NeuroMark template guidance with spatial frequency decomposition and group-level ICA of time-resolved, band-specific spatial maps. Starting from template-guided NeuroMark networks, we first estimate time-varying spatial maps using a dynamic guided ICA approach, capturing subject-specific network expression over time. Each dynamic spatial map is then decomposed into multiple spatial frequency bands using Fourier-domain spatial filtering, isolating fine- to coarse-scale spatial features at each time point. Band-specific spatial maps are subsequently concatenated and subjected to a blind group-level multi-frequency ICA, yielding a compact latent representation in which each dynamic component is characterized by distinct spatial-frequency signatures. These group-level band-resolved components are then used as references to estimate subject- and band-specific time courses and maps via spatially constrained ICA, enabling frequency-specific analysis of both long-term correlations and short-term temporal variability while preserving reproducibility across subjects. Using resting-state fMRI data from schizophrenia (SZ) patients and healthy controls (HC), we evaluated both long-term correlations and short-term variability of band-resolved dynamic time courses. For the group-level analyses, we focused on a predefined subset of NeuroMark networks with well-established involvement in SZ-related dysconnectivity. Our results reveal frequency-specific abnormalities in SZ, with enhanced long-term connectivity within sensory and subcortical networks and pronounced short-term alterations involving predominantly higher-frequency spatial components, particularly in cerebellar and subcortical systems. These findings indicate that SZ-related dysregulation is differentially expressed across spatial-frequency and temporal scales, rather than reflecting uniform dysconnectivity. Together, this framework provides a unified approach for analyzing dynamic fMRI networks across spatial, temporal, and frequency dimensions, extending our previous NeuroMark-DyFICA framework from a predominantly high-frequency spatial representation to an explicitly frequency-resolved characterization of dynamic network organization. By explicitly modeling spatial frequency-dependent dynamics, the proposed method provides a more resolved characterization of network alterations and offers a framework for identifying candidate markers of neuropsychiatric disorders.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Brain systems supporting the narrative self and psychopathology.</title>
       <link>https://doi.org/10.1016/j.biopsych.2026.10.026</link>
       <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.026</guid>
@@ -51,6 +118,18 @@ Disturbances in the narrative self are implicated across psychiatric disorders, 
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>The dual future of OPM-MEG: Clinical translation and naturalistic neuroscience.</title>
+      <link>https://doi.org/10.1162/imag.a.1436</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1436</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Optically pumped magnetometer magnetoencephalography (OPM-MEG) has moved beyond proof of principle. The decisive question is no longer whether cryogen-free sensors can detect neuromagnetic fields from the human brain with sufficient sensitivity, but whether complete systems can deliver clinical decision value and interpretable recordings during more naturalistic behaviour. Here we argue that OPM-MEG is developing along two partly overlapping trajectories. One is clinical translation, where usefulness depends more on reliable workflows, calibrated source localisation, auditable quality control, and empirical evidence for improved diagnostic or treatment decisions. The other is naturalistic neuroscience, where wearable measurement can connect neural dynamics to movement, action, and social behaviour without conflating neural activity with movement-related artefacts. Both trajectories depend on a shared engineering stack including magnetic field control, dense spatial sampling, accurate calibration, integrated electronics, artefact suppression, participant comfort, and synchronised behavioural measurement. The next stage of OPM-MEG should be evaluated by clinical utility in specific patient groups, statistically identifiable neural dynamics in behaviourally rich settings, and sufficient system detail for replication across systems and sites.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Intrinsic gestational timing governs human cerebellar development after preterm birth.</title>
@@ -108,7 +187,7 @@ Importance Despite decades of clinical implementation of medications for opioid 
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>Spectral-spatial Modeling of Neural Couplings in Functional Connectivity of Motor Networks.</title>
+      <title>Spectral-spatial modeling of neural couplings in functional connectivity of motor networks.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122314</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122314</guid>
       <description>NeuroImage
@@ -487,84 +566,6 @@ Objective Individuals diagnosed with Alzheimer's disease (AD) often exhibit amyl
 Background Rumination is a transdiagnostic feature of multiple psychiatric disorders and is a critical risk factor for more severe episodes and poor treatment outcomes in treatment-resistant depression (TRD). Repetitive Transcranial Magnetic Stimulation (rTMS) ameliorates both depressive and ruminative symptoms in TRD. While prior literature has linked rumination to abnormal default mode network (DMN) connectivity, the electrophysiological correlates of rumination in the DMN are not well understood. Methods Resting-state electroencephalography (EEG) data were examined in a cohort of 66 TRD subjects who underwent 30 sessions of rTMS treatment for TRD administered to left dorsolateral prefrontal cortex (DLPFC). We employed source-localization and calculated four metrics of functional connectivity (Amplitude Envelope Correlation [AEC], weighted Phase Lag Index [wPLI], magnitude-squared coherence, and Spectral Correlation Coefficient [SCC]) across five frequency bands within the DMN to identify the neural correlates of rumination in TRD. Correction for multiple comparisons was performed using the Network Based Statistic (NBS). Results Baseline severity of rumination and depression were positively correlated, but AEC alpha band connectivity was positively associated only with baseline rumination severity and not depression. Rumination severity prior to treatment was not associated with any other connectivity metric. Severity of rumination and depression decreased following rTMS treatment, but alpha AEC connectivity did not charge after 30 sessions of rTMS treatment. Conclusion Higher DMN connectivity, as measured by alpha-band AEC, is a stable trait-like neurophysiological marker of rumination that is not significantly affected by rTMS administered to left DLPFC.</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural Circuits of Social Behavior in Autism Spectrum Disorder: From Mechanism to Intervention.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.006</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.006</guid>
-      <description>Biological psychiatry
-
-Introduction Difficulties in social communication and interaction are core diagnostic features of autism spectrum disorder (ASD), yet interventions targeting these difficulties have modest and variable effects. Understanding mechanistically distinct contributions to social behaviors may identify new therapeutic opportunities. Methods This narrative review integrates human neuroimaging studies, supporting rodent circuit neuroscience, clinical intervention research, and developmental studies. We organize the findings into four overlapping functional-computational domains and relate these domains to the Research Domain Criteria Social Processes framework. Results The four domains are: (1) Social Reward and Social Interest, encompassing the incentive and hedonic value of social contact and motivation to engage; (2) Social Memory and Social-Affective Value, encompassing recognition of familiar individuals and learned affective or motivational associations; (3) Social Cue Perception, Action Representation, and Social Prediction/Timing, encompassing the processing and forecasting of dynamic social information; and (4) Higher-Order Social Cognition and Model Updating, encompassing mental-state inference and the updating of person-specific social models. Because these domains are not independent, interactions among reward, memory, cue processing, prediction, and higher-order inference create multiple possible developmental entry points, such that early differences in one process may alter experience-dependent learning in others. Evidence for specific causal cascades remains preliminary and requires longitudinal testing. Conclusions A circuit-and-development framework may improve hypothesis generation, domain-specific phenotyping, target-engagement assessment, and mechanism-aligned outcomes. Clinical translation, however, requires caution. Biomarkers should be validated as predictors of treatment response, cascade models should be tested longitudinally, and interventions should combine mechanism-informed targets with behavioral support that promotes generalization to daily life.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Altered frontal and dorsal hemodynamic engagement during mandarin aspiration processing in post-stroke aphasia: an fNIRS study.</title>
-      <link>https://doi.org/10.1016/j.bandl.2026.105852</link>
-      <guid isPermaLink="false">doi:10.1016/j.bandl.2026.105852</guid>
-      <description>Brain and language
-
-Auditory and speech-perception difficulties are common in post-stroke aphasia (PSA), but cortical responses during passive listening to Mandarin speech remain underexplored. Seventeen Mandarin-speaking individuals with PSA and 18 matched healthy controls listened to auditory oddball blocks containing /ba/ standards and /pa/ deviants during functional near-infrared spectroscopy (fNIRS). Although these syllables instantiate an aspiration contrast strongly cued by voice onset time (VOT), standard and deviant trials were combined within a single block-level condition. The resulting measures therefore indexed activation during speech-containing blocks relative to silent inter-block intervals rather than phonemic discrimination, categorization, or VOT-specific processing. Seven theory-driven channels covering bilateral auditory, sensorimotor, inferior frontal, and dorsolateral prefrontal regions were analyzed using three HbO indices: β coefficient, peak amplitude, and temporal centroid. The PSA group showed an overall reduction in task-related HbO activation, reflected by a significant Group effect for the β coefficient. Peak amplitude also showed significant Group and Group × Channel effects, although no individual channel remained significant after correction for multiple comparisons. Temporal centroid showed no significant group or interaction effects. These findings provide preliminary evidence for reduced block-evoked cortical recruitment during passive auditory exposure to Mandarin speech sounds in PSA. Because the analysis did not include a direct standard-deviant or active auditory control comparison, the findings do not establish a selective impairment of phonemic discrimination, categorization, or VOT processing. Because patients were assessed 6-7 months after stroke onset, the activation differences may reflect both persistent impairment and recovery-related reorganization during the early chronic stage.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Does perturbed adaptive myelination contribute to cognitive dysfunction in Alzheimer's disease?</title>
-      <link>https://doi.org/10.1371/journal.pbio.3004033</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pbio.3004033</guid>
-      <description>PLoS biology
-
-The consequences of oligodendrocyte involvement in Alzheimer's disease are poorly understood. Could a key role of gray-matter oligodendrocytes-activity-dependent adaptive myelination to sustain changes in activity-be perturbed, leading to cognitive loss?</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Neurovisceral model of social anxiety disorder: An integrative review.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107030</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107030</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Social anxiety involves persistent fear of negative evaluation that causes significant distress or avoidance in social situations and, when lasting at least six months with meaningful impairment across life domains, meets diagnostic criteria for social anxiety disorder (SAD). The origins and maintenance of SAD have been described by disparate models as dysregulation of central and peripheral networks involved in emotion regulation and threat appraisal. However, studies integrating central and peripheral levels of analysis remain scarce and lack integration, leaving our understanding of the neurobiology of SAD fragmented. Here we review these models and extant evidence. This review proposes an integrated neurovisceral model in which SAD reflects context-sensitive dysregulation among cortical regulation, limbic threat signaling, insular interoception, vagal and autonomic regulation, cardiac flexibility, HPA-axis output, and behavior. Genetic liability and behavioral inhibition are conceptualized as probabilistic influences on threat sensitivity and regulatory capacity. While environmental experience, developmental timing, sex-related factors, and stress sensitization shape the calibration of these systems. The model predicts heterogeneity along activation threshold, response magnitude, recovery, and central-peripheral coordination, which may give rise to acute hyperreactive, persistent sensitized/inflexible, and compromised/blunted SAD configurations. The model also generates testable predictions for longitudinal, multimodal research, and supports profile-sensitive approaches to assessment and treatment.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Excitation-Inhibition Balance and Fronto-Limbic Connectivity Distinguish TMS Treatment Outcomes in Refractory Depression.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.09.027</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.09.027</guid>
-      <description>Biological psychiatry
-
-Background Intermittent theta burst stimulation (iTBS) targeting the left dorsolateral prefrontal cortex (DLPFC) is effective for treatment-resistant depression, but outcomes remain variable. The neurophysiological mechanisms underlying response remain poorly understood, limiting precision neuromodulation. Methods We combined transcranial magnetic stimulation with electroencephalography (TMS-EEG) and connectome-based Jansen-Rit neural mass modeling to investigate the mechanistic basis of treatment efficacy in 90 patients with treatment-resistant depression. Individualized whole-brain models were fitted to pre- and post-iTBS TMS-evoked potentials, yielding subject-specific estimates of synaptic connectivity, excitation-inhibition (E/I) balance, and cortical dynamics. Brain states were defined by singular value decomposition of the model's population activity, and partial least squares analysis with nested cross-validation identified the brain-state pattern distinguishing responders from non-responders. Results We identified two neurophysiological signatures associated with treatment response. First, responders showed greater post-treatment reductions in 3-10 Hz oscillatory power, driven by shifts in E/I balance toward greater inhibitory control through reduced excitatory drive and increased inhibitory-to-pyramidal connectivity. Second, a pre-treatment brain state characterized by opposite-polarity dynamics between subgenual anterior cingulate cortex (sgACC) and left DLPFC distinguished responders from non-responders, consistent with prior fMRI findings on frontolimbic anticorrelation. Neural trajectory analysis further revealed greater dynamical reorganization and increased attractor stability in responders following treatment. Conclusions These findings provide a neurophysiologically-informed framework linking iTBS treatment efficacy to specific changes in cortical E/I balance and frontolimbic circuit dynamics, pointing toward candidate markers that, with subject-specific structural connectivity and independent validation, may inform personalized neuromodulation approaches in treatment-resistant depression.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>The role of white matter microstructure in the association between childhood maltreatment and adult post-traumatic symptoms.</title>
-      <link>https://doi.org/10.1038/s41380-026-03624-1</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03624-1</guid>
-      <description>Molecular psychiatry
-
-Childhood maltreatment (CM) is a risk factor for adult post-traumatic symptoms and white matter (WM) alterations. It remains unknown how WM microstructure is affected alongside two common military conditions, post-traumatic stress disorder (PTSD) and mild traumatic brain injury (mTBI). Data from 299 participants (53% male, 35.69 ± 12.23 years of age) of the Injury and Traumatic Stress (INTRuST) clinical consortium was analyzed. The study included 56 individuals with PTSD (41 with comorbid mTBI), 107 with mTBI, and 136 controls (no PTSD and/or mTBI). Diffusion parameters (mean, axial, and radial diffusivity, MD, AD, RD; fractional anisotropy, FA) in major WM tracts were extracted from diffusion MRI. CM was assessed using the Childhood Trauma Questionnaire (CTQ). Multiple regression models examined associations between CM severity and WM diffusion. Moderation analyses assessed the effect of PTSD and/or mTBI on these associations. Mediation analyses examined how WM diffusion affects the associations between CM and both PTSD and post-concussive symptom severity. Greater CM severity was associated with lower MD and AD, independent of PTSD and/or mTBI. WM diffusion, particularly in the corpus callosum and the superior longitudinal fasciculus, mediated the associations between CM severity and both PTSD (MD bab = 0.022, AD bab = 0.019-0.034) and post-concussive symptoms (MD bab = 0.028-0.040, AD bab = 0.032-0.047). Findings suggest that WM alterations are more strongly associated with CM itself than with either PTSD and/or mTBI. Mediating effects in regions critical for sensory integration highlight the role of WM microstructure as a neurobiological pathway through which CM might predispose to post-traumatic symptoms.</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Mapping the psychosis spectrum - imaging neurosubtypes from multiscale functional network connectivity.</title>
-      <link>https://doi.org/10.1038/s41380-026-03921-9</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03921-9</guid>
-      <description>Molecular psychiatry
-
-Psychosis exhibits marked neurobiological heterogeneity that is not adequately captured by symptom-based diagnoses. Although prior efforts have identified subgroups, it remains unclear how latent disease variability manifests within the brain's multiscale intrinsic functional organization and whether these patterns can be leveraged to systematically identify biologically driven subtypes of psychosis. Here, we aim to identify Psychosis Imaging Neurosubtypes (PINs)-homogeneous subgroups defined solely from neurobiological features of brain function, independent of clinical or cognitive definitions, and whether these subgroups show meaningful phenotypic differentiation. Resting-state fMRI data from 2103 B-SNIP 1&amp;2 participants were used to compute subject-specific multiscale functional network connectivity (msFNC). We then derived a low-dimensional neurobiological subspace, termed Latent Network Connectivity, which captured system-wide interconnected multiscale information across three components. Projections of probands msFNC onto this subspace revealed three PINs through unsupervised learning that spanned DSM diagnoses (Schizophrenia, Bipolar, Schizoaffective Disorder). Although defined purely from intrinsic neurobiology, PINs exhibited distinct cognitive, clinical, and connectivity profiles. PIN-1, the most cognitively impaired, showed Cerebellar-Subcortical and Visual-Sensorimotor hypoconnectivity, alongside Visual-Subcortical hyperconnectivity. Most cognitively preserved PIN-2 showed Visual-Subcortical, Subcortical-Sensorimotor, and Subcortical-Higher Cognition hypoconnectivity. PIN-3 exhibited intermediate cognition, showing Cerebellar-Subcortical hypoconnectivity alongside Cerebellar-Sensorimotor and Subcortical-Sensorimotor hyperconnectivity. Although covariate-adjusted analyses did not reveal significant clinical differences among PINs, exploratory analyses identified selective differences in YMDR, PANSS, and Age of Onset. Notably, 55% of relatives aligned with the same neurosubtype as their probands, a rate significantly higher than chance and than DSM-based alignment, suggesting potential heritability. Cognitive performance reliably aligns with distinct brain connectivity patterns, which are also evident in relatives, supporting their construct validity. Our PINs partially converged with previously reported BSNIP Biotypes with some correspondence (e.g. PIN1 with Biotype 1) but not with the other Biotypes, which were determined using integrated electrophysiological, cognitive, and oculomotor data, supporting convergent validity, while also indicating that intrinsic rsfMRI derived multiscale connectivity partitions psychosis heterogeneity somewhat differently from multimodal biomarker approaches. These findings underscore the limitations of DSM-based classifications in capturing the biological complexity of psychotic disorders and highlight the potential of imaging-based neurosubtypes to enhance our understanding of the psychosis spectrum.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
     </item>

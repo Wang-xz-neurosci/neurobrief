@@ -5,9 +5,51 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Voxel-wise functional-to-gray matter volume ratios reveal distinct brain patterns in cirrhosis stratified by hepatic encephalopathy history and clinical status</title>
+      <link>https://europepmc.org/article/PMC/PMC13724522</link>
+      <guid isPermaLink="false">PMC:PMC13724522</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Inter-subject receive-template substitution for quantitative brain water content mapping at 3 T: a leave-one-out evaluation</title>
+      <link>https://europepmc.org/article/PMC/PMC13724431</link>
+      <guid isPermaLink="false">PMC:PMC13724431</guid>
+      <description>Frontiers in neuroscience
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Brain Tissue Proportionality and General Cognitive Ability Across Three Adult Cohorts</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11527260/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11527260/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract General cognitive ability may relate to the proportional allocation of brain tissue beyond overall tissue volume. We examined five FreeSurfer compartments using compositional data analysis: cortical gray matter, cerebral white matter, subcortical gray matter, total cerebellum, and brainstem. Human Connectome Project Young Adult data (HCP-YA; N = 1,101) provided discovery estimates; the Dallas Lifespan Brain Study (DLBS; N = 418) and Amsterdam Open MRI Collection ID1000 (AOMIC; N = 926) provided independent cohort tests. Four isometric log-ratio coordinates represented composition, with age, sex, and log total analyzed tissue volume included separately. Composition explained additional cognitive variance in DLBS (partial R² = 4.20%, p = .00154) and AOMIC (partial R² = 1.35%, p = .014). The total-cerebellum-to-cerebral-white-matter contrast selected in HCP was positive in both replication cohorts: standardized β = 0.162 (heteroskedasticity-robust 95% confidence interval 0.072–0.252) in DLBS and 0.097 (0.024–0.170) in AOMIC. Participant-pairs bootstrap intervals supported both associations. Replacing total tissue volume with estimated intracranial volume attenuated the AOMIC association, whereas including both preserved it. Relative macroanatomical allocation is associated with broad cognitive ability conditional on analyzed tissue volume, with differing effect magnitudes across cohorts. These cross-sectional findings do not establish causal tissue trade-offs.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Recurrent de novo ABI2 p.Tyr491Cys variants define a neurodevelopmental syndrome with corpus callosum hypoplasia and white matter abnormalities.</title>
+      <link>https://doi.org/10.1016/j.ajhg.2026.10.003</link>
+      <guid isPermaLink="false">doi:10.1016/j.ajhg.2026.10.003</guid>
+      <description>American journal of human genetics
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>Superior Frontal Gyrus Cortical Thickness Mediates the Association Between Openness to Experience and Theory of Mind: Evidence from the Human Connectome Project</title>
       <link>https://doi.org/10.64898/2026.10.31.763281</link>
@@ -39,12 +81,42 @@ Abstract Background Prodromal Parkinson's disease (PD) includes clinically disti
       <category>结构与功能</category>
     </item>
     <item>
+      <title>Longitudinal Changes in the Cortico-Reticulospinal Tract Associated with High-Intensity Locomotor Training in Chronic Stroke.</title>
+      <link>https://doi.org/10.1177/15459683261493916</link>
+      <guid isPermaLink="false">doi:10.1177/15459683261493916</guid>
+      <description>Neurorehabilitation and neural repair
+
+Introduction High-intensity locomotor training (HIT) is recommended for improving walking capacity, but treatment responses are variable. Understanding the brain changes underlying responsiveness to training could provide insight into this variability. Emerging evidence suggests upregulation of the contralesional cortico-reticulospinal tract (CRST) may contribute to walking function after stroke. However, it is unclear whether CRST upregulation is supportive or maladaptive, and no studies have examined CRST changes after HIT. This study investigated how CRST and corticospinal tract (CST) strength and laterality reorganize, and their relationship with walking capacity after locomotor HIT. Methods Ten participants with chronic stroke completed a 4-week no-intervention control phase then 4 weeks of HIT. Diffusion MRI and 6-minute walk distance were obtained at weeks 0, 4, and 8. Analysis tested changes in ipsilesional and contralesional CRST and CST strength and laterality. Associations between changes in tract laterality and walking capacity were examined. Results During the treatment phase (vs the control phase), there were significantly greater increases in contralesional CRST strength (1.02 SD [95% CI: 0.25, 1.79]), contralesional CRST laterality (4.44 [2.15, 6.72]), and 6-minute walk distance (33 meters [17, 50]). Walking capacity improvements were associated with changes in CRST laterality (r = 0.77, P = .01), but not CST laterality (r = -0.01, P = 0.98). Discussion Following HIT, increases in contralesional CRST strength and laterality were observed. CRST laterality changes were strongly associated with walking improvements, suggesting an association between contralesional CRST changes and training-related improvements. Clinical trial registration</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Advanced Diffusion MRI-based MR Cytometry for Quantitative Microstructural Assessment and Grading of Bladder Cancer.</title>
       <link>https://doi.org/10.1148/rycan.269023</link>
       <guid isPermaLink="false">doi:10.1148/rycan.269023</guid>
       <description>Radiology. Imaging cancer
 
 来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Six-Month Music Practice Versus Psychomotor Interventions in Mild Cognitive Impairment: Behavioral and Hippocampal Outcomes.</title>
+      <link>https://doi.org/10.1111/nyas.70433</link>
+      <guid isPermaLink="false">doi:10.1111/nyas.70433</guid>
+      <description>Annals of the New York Academy of Sciences
+
+Mild cognitive impairment (MCI) is characterized by measurable cognitive decline with largely preserved daily functioning and increased risk of dementia. MCI patients may also exhibit sensorimotor and communication impairments, while hippocampal atrophy and altered functional connectivity are prominent neural features associated with further cognitive decline. Evidence from nonpharmacological interventions integrating cognitive challenge, coordinated movement, and emotional engagement remains limited in early-stage MCI. In this pilot intervention study, we examined whether 6 months of intensive musical instrument training versus psychomotor interventions were associated with changes in cognitive and sensorimotor performance, hippocampal gray matter volume, and functional connectivity. Outcomes were compared between randomized MCI groups, with matched healthy controls as reference for test-retest and age-related neural effects. Improvements in global cognition were modest, reaching marginal significance only in the music group, while both interventions were associated with complementary domain-specific cognitive and sensorimotor gains. Hippocampal gray matter volume remained stable across all three groups, whereas hippocampal functional connectivity declined in healthy controls but remained stable in both intervention groups, consistent with possible functional neural maintenance. These preliminary findings suggest that group-based, low-risk music and psychomotor interventions may support cognitive, sensorimotor, and neural functioning in early MCI, warranting further investigation in larger controlled trials.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Serum brain-derived tau in lacunar stroke and cerebral small vessel disease.</title>
+      <link>https://doi.org/10.1093/esj/aakag133</link>
+      <guid isPermaLink="false">doi:10.1093/esj/aakag133</guid>
+      <description>European stroke journal
+
+Introduction Brain-derived tau (BD-tau) selectively quantifies tau of central nervous system origin in blood and has demonstrated strong correlations with infarct volume and functional outcome in general ischaemic stroke, but data in lacunar stroke and cerebral small vessel disease (CSVD) are lacking. Patients and methods In a prospectively collected cohort of 101 lacunar stroke patients with an MRI-confirmed recent small subcortical infarct (RSSI) and 47 controls, we measured serum BD-tau using the HD-X SIMOA platform at baseline and 3 and 15 months after stroke. We examined associations of BD-tau with infarct size, chronic CSVD neuroimaging features (white matter hyperintensities [WMHs], lacunes, microbleeds, total SVD score), CSVD progression on follow-up MRI and functional outcome. Results Baseline serum BD-tau was higher in RSSI patients than controls (median 9.54 [7.32-12.20] vs 7.75 [6.18-9.44] pg/mL; P = .003) and correlated with infarct diameter (rs = 0.222, P = 0.039). Brain-derived tau did not correlate with time from stroke symptom onset to blood sampling (rs = 0.150, P = .179). Brain-derived tau was not associated with chronic CSVD neuroimaging features (WMHs, lacunes, microbleeds, SVD score; all P &gt; .05) at any timepoint. Longitudinally, BD-tau returned to control levels by 3 months (P = .374) and remained stable at 15 months (P = .985). Brain-derived tau was neither associated with new vascular MRI lesions on follow-up nor functional neurological outcome. Conclusion Serum BD-tau is elevated acutely in CSVD-related RSSI, correlates with infarct size and normalises by 3 months. Brain-derived tau was not associated with chronic CSVD neuroimaging features or disease progression, suggesting sensitivity to acute neuronal injury rather than chronic or progressive CSVD.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -178,7 +250,7 @@ To evaluate the utility of a pruning method in refining tractography and to exam
       <guid isPermaLink="false">doi:10.1002/osp4.70191</guid>
       <description>Obesity science &amp; practice
 
-Given the overlap between obesity-related metabolic and vascular abnormalities and Alzheimer's disease (AD) risk factors, it is critical to determine whether weight loss improves brain and cardiovascular health. This study examined whether ≥ 40% excess-weight loss is associated with improvements in cardiometabolic risk, brain structure, and cognition. The study was a longitudinal study of individuals with obesity undergoing metabolic and bariatric surgery or medical/behavioral weight-loss treatment. Participants were classified at follow-up as weight-loss (WL; ≥ 40% excess-weight loss) or non-weight-loss (nWL; &lt; 40%). All completed medical evaluations, structural MRI, and cognitive testing at baseline and 1 year. At 1 year, the WL group exhibited improvements in BMI, HbA1C, inflammatory, metabolic, and lipid profiles. MRI-based volumetrics revealed increases in subcortical gray-matter volume and preservation of AD-vulnerable regions. Cognitive performance remained unchanged. Achieving ≥ 40% excess-weight loss was associated with improvements in metabolic health and brain structure, including favorable subcortical volume increases. These findings underscore the potential of sustained weight reduction to mitigate risks linked to metabolic syndromes and neurodegeneration. Longer-term follow-up is warranted to determine whether continued metabolic improvements lead to detectable cognitive gains and additional brain-health benefits beyond 1 year.</description>
+Objective Given the overlap between obesity-related metabolic and vascular abnormalities and Alzheimer's disease (AD) risk factors, it is critical to determine whether weight loss improves brain and cardiovascular health. This study examined whether ≥ 40% excess-weight loss is associated with improvements in cardiometabolic risk, brain structure, and cognition. Methods The study was a longitudinal study of individuals with obesity undergoing metabolic and bariatric surgery or medical/behavioral weight-loss treatment. Participants were classified at follow-up as weight-loss (WL; ≥ 40% excess-weight loss) or non-weight-loss (nWL; &lt; 40%). All completed medical evaluations, structural MRI, and cognitive testing at baseline and 1 year. Results At 1 year, the WL group exhibited improvements in BMI, HbA1C, inflammatory, metabolic, and lipid profiles. MRI-based volumetrics revealed increases in subcortical gray-matter volume and preservation of AD-vulnerable regions. Cognitive performance remained unchanged. Conclusions Achieving ≥ 40% excess-weight loss was associated with improvements in metabolic health and brain structure, including favorable subcortical volume increases. These findings underscore the potential of sustained weight reduction to mitigate risks linked to metabolic syndromes and neurodegeneration. Longer-term follow-up is warranted to determine whether continued metabolic improvements lead to detectable cognitive gains and additional brain-health benefits beyond 1 year.</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -282,7 +354,7 @@ Background White matter (WM) microstructural abnormalities are increasingly reco
       <guid isPermaLink="false">doi:10.1007/s11325-026-03845-2</guid>
       <description>Sleep &amp; breathing = Schlaf &amp; Atmung
 
-Multiple neurotransmitter systems are implicated in the pathophysiology of isolated rapid eye movement sleep behavior disorder (iRBD) and its progression to α-synucleinopathy. This study aimed to identify baseline gray matter (GM) alterations in patients with iRBD compared with healthy controls and to examine their spatial correspondence with known neurotransmitter distributions. We further characterized GM patterns associated with future phenoconversion and their neurochemical context. A total of 109 patients with iRBD who completed at least one follow-up evaluation and 24 age- and sex-matched healthy controls underwent structural magnetic resonance imaging. Gray matter volume (GMV) alterations were assessed using the CAT12 toolbox. Spatial correlations between group-level GMV difference maps and neurotransmitter atlases were evaluated using the JuSpace toolbox. At baseline, patients with iRBD showed reduced GMV in the right cerebellar cortex and vermis, along with increased GMV in the left putamen and pallidum. These GMV alterations demonstrated significant spatial correspondence with dopaminergic receptor and transporter maps, including dopamine D2 receptors and the dopamine transporter (DAT). Among patients with iRBD, those who subsequently phenoconverted exhibited lower baseline GMV in the right medial orbital gyrus compared with non-converters. This pattern showed significant spatial correlations with serotonergic (5-HT2A), glutamatergic (mGluR5), GABAergic (GABAa), and dopaminergic (FDOPA) neurotransmitter maps. Patients with iRBD exhibit distinct patterns of GMV alteration that spatially align with dopaminergic neurotransmitter distribution maps, while phenoconversion is associated with GM changes corresponding to multiple neurotransmitter systems, although the phenoconversion findings are exploratory.</description>
+Purpose Multiple neurotransmitter systems are implicated in the pathophysiology of isolated rapid eye movement sleep behavior disorder (iRBD) and its progression to α-synucleinopathy. This study aimed to identify baseline gray matter (GM) alterations in patients with iRBD compared with healthy controls and to examine their spatial correspondence with known neurotransmitter distributions. We further characterized GM patterns associated with future phenoconversion and their neurochemical context. Methods A total of 109 patients with iRBD who completed at least one follow-up evaluation and 24 age- and sex-matched healthy controls underwent structural magnetic resonance imaging. Gray matter volume (GMV) alterations were assessed using the CAT12 toolbox. Spatial correlations between group-level GMV difference maps and neurotransmitter atlases were evaluated using the JuSpace toolbox. Results At baseline, patients with iRBD showed reduced GMV in the right cerebellar cortex and vermis, along with increased GMV in the left putamen and pallidum. These GMV alterations demonstrated significant spatial correspondence with dopaminergic receptor and transporter maps, including dopamine D2 receptors and the dopamine transporter (DAT). Among patients with iRBD, those who subsequently phenoconverted exhibited lower baseline GMV in the right medial orbital gyrus compared with non-converters. This pattern showed significant spatial correlations with serotonergic (5-HT2A), glutamatergic (mGluR5), GABAergic (GABAa), and dopaminergic (FDOPA) neurotransmitter maps. Conclusion Patients with iRBD exhibit distinct patterns of GMV alteration that spatially align with dopaminergic neurotransmitter distribution maps, while phenoconversion is associated with GM changes corresponding to multiple neurotransmitter systems, although the phenoconversion findings are exploratory.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -448,78 +520,6 @@ Background Dementia is a rapidly expanding public health problem with major soci
 Longitudinal probing of structural connectivity via diffusion magnetic resonance imaging (dMRI) is experiencing uptake. However, the detection of biological effects is significantly hampered by the limitations of cross-sectional streamline tractography, where even small changes in the dMRI signal can produce drastically different trajectories and, therefore, quantitative parameterisation; if not properly dealt with, such effects will manifest as spurious longitudinal change, which can obscure subtle biological differences. To address this challenge, we here introduce a novel quantitative streamline tractography framework tailored for longitudinal analysis, wherein an individual's streamline trajectories remain fixed throughout the analysis, allowing only their ascribed density weights to vary between sessions. We present two strategies by which these quantitative streamline weights can be determined, both extensions of the widely adopted SIFT2 method. The performance of this framework is benchmarked against cross-sectional reconstruction with and without SIFT2 optimisation, in both in silico dMRI phantoms with known ground truths and three distinct human in vivo cohorts with clear a priori expectations of biological effects. We demonstrate that the proposed framework drastically reduces methodological imprecisions in synthetic dMRI phantoms and enhances statistical sensitivity and specificity to biological effects in human cohorts, enabling more robust quantification of longitudinal structural connectivity differences.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Annual Research Review: A probe into sensitive periods - how the developmental timing of adverse childhood experiences influences brain structure and function - a systematic review.</title>
-      <link>https://doi.org/10.1111/jcpp.70259</link>
-      <guid isPermaLink="false">doi:10.1111/jcpp.70259</guid>
-      <description>Journal of child psychology and psychiatry, and allied disciplines
-
-It is proposed that adverse childhood experiences (ACEs) - potent predictors of mental illness - exert time-dependent effects on neurodevelopment, reflecting periods of heightened neuroplasticity and developmental sensitivity. We systematically reviewed neuroimaging studies examining the role of timing in the association of ACE exposure with brain structure and function across the lifespan. Across 43 studies spanning childhood to adulthood, findings most consistently implicate earlier onset and longer duration of adversity in alterations to limbic and paralimbic regions, including the hippocampus, amygdala, cerebellum and global brain measures. However, evidence for discrete sensitive periods is mixed and varies by brain system, outcome and analytic approach, with no consistent pattern of sensitive periods emerging across adversity types and functional neuroimaging studies remaining comparatively limited. Progress in the field is further constrained by substantial conceptual and methodological heterogeneity, including inconsistent operationalisation of sensitive periods, reliance on retrospective ACE measures and predominantly cross-sectional designs. Moving forward, we argue that advancing the field will require reconceptualising sensitive periods as probabilistic, system-specific and shaped by the nature, timing and chronicity of adversity, rather than as fixed developmental windows. Integrating longitudinal assessment of adversity and neurodevelopment with measures of the neurobiological processes underlying plasticity may help determine whether sensitive periods are better characterised by underlying neuroplasticity than chronological age alone. Improved understanding of these developmental processes may ultimately help inform the timing and targeting of preventive and therapeutic interventions for young people exposed to adversity.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Motor-based interventions for brain structure and function in children with developmental coordination disorder: A systematic review.</title>
-      <link>https://doi.org/10.1111/dmcn.70602</link>
-      <guid isPermaLink="false">doi:10.1111/dmcn.70602</guid>
-      <description>Developmental medicine and child neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Posterior-anterior striatal reorganization after weight restoration in anorexia nervosa is associated with remission outcome: from mice to longitudinal human study</title>
-      <link>https://doi.org/10.64898/2026.10.23.26366116</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.23.26366116</guid>
-      <description>[预印本] medRxiv
-
-Anorexia nervosa (AN) is a severe psychiatric disorder with high relapse rates despite successful weight restoration. Altered reward processing and an imbalance between goal-directed and habitual control within the striatum have been proposed to contribute to the persistence of maladaptive behaviours, but the striatal mechanisms underlying recovery and relapse remain unclear. Here, we combined cross-species structural MRI, including cross-sectional analyses in mice and longitudinal neuroimaging and clinical assessments in patients with AN, to investigate striatal alterations associated with recovery. Male mice with deletion of the vesicular acetylcholine transporter (VAChTcKO; n = 9), a model of maladaptive eating behaviour, showed reduced dorsolateral striatal volume compared with wild-type mice (n=9). At baseline, women with AN (n = 71) showed reduced striatal volumes compared with healthy controls (n = 30). Longitudinally, patients with AN (n = 41) and healthy controls (n = 28) were reassessed, revealing substantial recovery of striatal volumes following weight restoration in AN. Posterior-anterior putamen gradient changes differed according to subsequent remission status, with changes in the right putamen gradient predicting relapse. Striatal gradient changes were also associated with goal-directed and habitual behaviour during the slip-of-action task, response consistency during delay discounting, and circulating ghrelin and desacyl ghrelin concentrations. These findings identify longitudinal putamen reorganization as a candidate marker of vulnerability to relapse and link striatal plasticity, goal-directed and habitual control, reward processing, and metabolic processes in AN.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Cumulative Prenatal Adversity and Fronto-Limbic White Matter Development Across Adolescence</title>
-      <link>https://doi.org/10.64898/2026.10.22.26366259</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.22.26366259</guid>
-      <description>[预印本] medRxiv
-
-Importance The prenatal period is a critical window for intergenerational transmission of adversity, yet the neural substrates through which cumulative prenatal stress becomes biologically embedded in offspring brain development remain poorly understood. White matter microstructure is a candidate mechanism linking prenatal adversity to downstream emotional dysregulation. Objective To examine associations between cumulative adverse prenatal exposure (APE) burden and fronto-limbic white matter fractional anisotropy (FA) at baseline and across adolescent developmental trajectories, and to test whether white matter FA mediates prenatal APE effects on emotional dysregulation. Design, Setting, and Participants Cohort study using data from the Adolescent Brain Cognitive Development (ABCD) Study, Release 7.0, a diverse longitudinal cohort of US children recruited at ages 9 to 10 years across 21 sites. After diffusion tensor imaging quality control exclusions and retention of one twin or triplet per family, the final cross-sectional analytic sample comprised 10 483 participants. Longitudinal analyses included participants with data at one or more follow-up timepoints across four imaging waves. Exposures Cumulative APE burden, operationalized as a sum of six binary adverse prenatal exposures (unplanned pregnancy; early alcohol, tobacco, and cannabis use before pregnancy recognition; complicated pregnancy; complicated birth; range, 0-6) following Zhi et al. (2026). Main Outcomes and Measures Fractional anisotropy in 11 a priori fronto-limbic white matter tracts at baseline (ages approximately 10 years) and across four imaging timepoints (ages approximately 10, 12, 14, and 16 years). Exploratory outcomes included Child Behavior Checklist (CBCL) dysregulation profile and Emotion Regulation Questionnaire (ERQ) subscales. Results Higher prenatal APE burden was associated with lower baseline FA in left uncinate fasciculus (b = −0.00096; 95% CI, −0.00151 to −0.00042; FDR-corrected P = .006), corpus callosum (b = −0.00079; 95% CI, −0.00125 to −0.00032; FDR-corrected P = .006), and right uncinate fasciculus (b = −0.00071; 95% CI, −0.00120 to −0.00021; FDR-corrected P = .019). This association was stable across visits and robust to stringent adjustment for two complementary image-quality metrics (framewise displacement and frame censoring); prenatal burden was itself unassociated with image quality. Higher APE burden was additionally associated with steeper FA increases across adolescence (positive APE × Age interaction in 5 of 11 tracts); positive across all 11), these trajectory effects were more sensitive to image quality, though the right uncinate fasciculus association survived stringent adjustment. Post hoc analyses indicated that pregnancy complications and prenatal cannabis exposure were the most consistent contributors. White matter FA partially mediated the association between prenatal APE burden and involuntary emotional dysregulation, with no association with voluntary emotion regulation strategies. Conclusions and Relevance Cumulative prenatal APE burden was associated with lower fronto-limbic white matter FA —particularly in the uncinate fasciculus and corpus callosum—an enduring association that was stable across adolescence and robust to rigorous image-quality adjustment. Evidence for altered developmental trajectories was more sensitive to image quality and should be interpreted as a more tentative, complementary finding. These findings identify fronto-limbic white matter as a candidate neurobiological correlate of cumulative prenatal adversity, while underscoring that this pathway reflects a bounded set of prenatal exposures. Key Points Question Is cumulative adverse prenatal exposure burden associated with fronto-limbic white matter microstructure across adolescence? Findings In this cohort study of 10 483 adolescents from the ABCD Study, higher adverse prenatal exposure burden was associated with lower fractional anisotropy in bilateral uncinate fasciculus and corpus callosum —a stable association across adolescence that was robust to rigorous image-quality adjustment. Higher burden was additionally associated with steeper fractional anisotropy increases in 5 of 11 tracts, and white matter partially mediated associations with involuntary emotional dysregulation. Meaning These findings identify fronto-limbic white matter microstructure as a candidate neurobiological correlate of cumulative prenatal adversity, consistent with early biological embedding through prenatal programming.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Functional and Structural Brain Age Gaps as Complementary Predictive Markers for Cognitive Performance</title>
-      <link>https://doi.org/10.64898/2026.10.20.760445</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.20.760445</guid>
-      <description>[预印本] bioRxiv
-
-Cognitive decline is characterized by substantial inter-individual variability across the lifespan, even among clinically healthy adults. However, it is unclear how structural and functional brain organization jointly relate to differences in cognitive performance within the typical populations. We considered a multimodal brain age framework by predicting for each subject its age from either structural MRI or resting-state functional MRI, after training on the 1000BRAINS cohort (901 participants, 18-85 years). Following, a structural and a functional brain age gap markers were defined as the deviations with respect to the real chronological age. We then used the markers to characterize the interplay between structure and function in shaping cognitive performances. Our findings reveal that the functional marker is as important to predict global cognitive performance as the structural marker. The most accurate prediction was found for global cognition, executive functions and episodic memory, followed by working memory, attention and language. In particular, the structural marker was contributing to all domains, except for working memory, whereas the functional marker had the highest contribution. Overall, structural and functional brain age models together provide a meaningful subject-level summary of brain information for predicting cognition, supporting a multidimensional view of typical aging.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Repeated Head Impacts May Compromise White Matter Integrity and Bimanual Coordination in American Football Players.</title>
-      <link>https://doi.org/10.1177/19417381261494495</link>
-      <guid isPermaLink="false">doi:10.1177/19417381261494495</guid>
-      <description>Sports health
-
-Background Repeated head impacts (RHI) in American Football may contribute to subtle white matter (WM) abnormalities and functional deficits even in the absence of clinically diagnosed concussion. Hypothesis Contact athletes would demonstrate tract-specific differences in fractional anisotropy (FA) and mean diffusivity (MD) compared with noncontact controls, and high-exposure (HE) athletes would show greater within-season diffusion change, worse bimanual coordination, and greater symptom burden than low-exposure (LE) athletes. Study design Prospective cohort study. Level of evidence Level 3. Methods Twenty-two male varsity American Football players and 13 male noncontact controls underwent preseason diffusion tensor imaging. Football athletes were monitored over a single season using helmet-mounted accelerometers and stratified into HE and LE groups. Tract-specific FA and MD were derived using probabilistic tractography. Pre-post SCAT3 symptom and severity checklist data were collected from all football athletes, and pre-post Kinarm Ball-on-Bar (BOB) bimanual coordination data were available for 12 athletes. Results At preseason, contact athletes demonstrated higher FA in 15 of 16 tracts compared with noncontact controls, with lower FA in the forceps minor. MD was lower in 10 of 16 tracts, higher in the bilateral inferior longitudinal fasciculus, and similar in the corticospinal tract and superior thalamic radiation. Over the season, HE athletes sustained more impacts (P &lt; 0.001) and greater cumulative g -force (P = 0.001) than LE athletes. On the BOB task, LE athletes showed modest improvement, whereas HE athletes worsened, yielding a between-group difference in change of 0.59 (95% CI, 0.22-0.96; P = 0.005). Generalized estimating equation models accounting for within-athlete tract correlations did not detect HE-versus-LE differences in FA change (Wald χ²(1) = 0.14; P = 0.71) or MD change (Wald χ²(1) &lt; 0.01; P &gt; 0.99), and SCAT3 symptom and severity scores remained low with no meaningful between-group differences. Conclusion In 22 contact athletes, repeated head-impact exposure was associated with preseason WM differences and worsening bimanual coordination across a single season, while longitudinal tract-level DTI and symptom-based clinical measures showed limited between-group change. Clinical relevance Objective motor assessment and advanced neuroimaging may help characterize subtle consequences of RHIs that are missed by routine symptom-based tools.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Somatotopic functional connectivity gradients in the monkey and human striatum.</title>
-      <link>https://doi.org/10.1162/imag.a.1421</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1421</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Understanding the topographic and functional organization of the striatum-a key brain structure involved in motor control, learning, and cognition-is crucial for elucidating the pathophysiology of the neurological and psychiatric disorders associated to it, and for developing targeted therapies. While recent magnetic resonance imaging (MRI) studies in humans and non-human primates have noninvasively characterized the brain-wide connectivity patterns of the striatum, its detailed somatotopic organization and the homology across species remains to be fully elucidated. We aimed to comprehensively characterize the somatotopic organization of the striatum in macaque monkeys based on functional connectivity patterns, and to assess the extent of homology or divergence of this organization between macaque monkeys and humans. Resting-state functional connectivity data were obtained from 11 anesthetized macaques using an ultra-high-field 7-tesla MRI scanner. Using two complementary approaches-seed-based analysis and connectopic mapping-we successfully delineated a distinct, regular volumetric somatotopic map within the macaque posterior putamen, a motor-related subregion of the striatum. This map exhibited a gradient encompassing the lower limb, trunk, upper limb, and face representations, predominantly oriented along the dorsal-ventral axis. The somatotopic gradient identified in macaques demonstrated a remarkable similarity with the corresponding gradient in the human posterior putamen, characterized using a publicly available resting-state functional MRI dataset. Furthermore, cross-species decoding analysis revealed that the somatotopy of the human posterior putamen could be accurately predicted using the anatomically aligned macaque somatotopic map obtained in this study as reference. In addition to this shared gradient organization, our seed-based analyses suggested non-gradient-like features in the human posterior putamen. These findings offer compelling evidence for the high evolutionary conservation of the major topographic organization in the primate posterior putamen, while pointing to species-specific divergence.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>

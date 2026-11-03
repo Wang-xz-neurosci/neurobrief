@@ -5,9 +5,60 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expertise modifies neural responses to causal inference during language comprehension</title>
+      <link>https://doi.org/10.64898/2026.11.01.763546</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.01.763546</guid>
+      <description>[预印本] bioRxiv
+
+Linguistic communication relies on shared common ground, yet different individuals in a community have specialized semantic knowledge. As a key example, physicians acquire rich knowledge about the causes of illness. An open question is whether such "causal expertise" influences the neural basis of language comprehension. Here we tested the hypothesis that when understanding everyday language like, "Holly used a grimy faucet during her overseas plane ride. Now she has the stomach flu," medical experts retrieve richer representations in semantic networks of the brain. Physicians (n=16) and age- and education-matched controls (n=16) undergoing fMRI read two-sentence vignettes that elicited implicit causal inferences about illness or object mechanics as well as control vignettes that did not elicit causal inferences. Vignettes were linguistically matched across conditions and were accessible to experts and non-experts alike. Across both groups, causal vignettes about illness engaged a temporoparietal semantic network previously implicated in thinking about animates, i.e., people and animals (precuneus and left temporoparietal junction), whereas causal vignettes about object mechanics engaged a semantic network associated with places and objects. Critically, physicians' responses in the animacy network were more robust and self-similar, suggesting the activation of richer semantic knowledge. Medical expertise effects were specific to biological inferences rather than mechanical or mental state inferences. By contrast, individually localized frontotemporal language and frontoparietal reasoning networks did not respond preferentially to causally connected sentences or show effects of expertise. Our findings suggest that causal expertise alters neural responses to causal inferences that unfold automatically during language comprehension.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>An orthographic advantage in spoken word recognition: Behavioral and ERP evidence from cross- and within-modal priming in Korean</title>
+      <link>https://doi.org/10.31234/osf.io/p6sh8_v1</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/p6sh8_v1</guid>
+      <description>[预印本] PsyArXiv
+
+Spoken word recognition may benefit from orthographic information even when spelling differs from surface pronunciation. Korean Hangul preserves spelling across regular phonological changes, allowing us to compare primes matching a target’s written first syllable (orthographic, O), its realized first syllable (phonological, P), or neither (unrelated, U). We report two EEG experiments with independent participant groups, using primed auditory lexical decision on the same 120 disyllabic Korean targets, with within-modal auditory primes (Experiment 1) and cross-modal visual primes (Experiment 2). In both experiments, O primes shortened response latencies and improved accuracy relative to U primes, and produced greater behavioral benefits than P primes. The O–P latency advantage was larger with visual than auditory primes. Phonological latency priming was modest with auditory primes and was not established with visual primes, whereas evidence favored no between-experiment difference in orthographic latency priming. Orthographic relatedness was associated with more positive centro-parietal amplitudes in the N400 window (350–550 ms) in both experiments, without clear evidence of a between-experiment difference. Following visual primes, it also increased fronto-central positivity in the 250–350 ms window, more than following auditory primes. The predicted P200 enhancement was not reliably established. The behavioral O–P advantage was more clearly established than a corresponding N400 difference. The findings suggest that greater surface overlap need not yield greater facilitation and support a role for orthographic relations in spoken word recognition.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Animal fluency networks and item-based trajectories in people with Parkinson's disease before and after deep brain stimulation surgery.</title>
+      <link>https://doi.org/10.1111/jnp.70088</link>
+      <guid isPermaLink="false">doi:10.1111/jnp.70088</guid>
+      <description>Journal of neuropsychology
+
+Consistent decline in animal fluency occurs in people with Parkinson's disease (PD) post-surgery for Deep Brain Stimulation of the subthalamic nucleus (STN-DBS). Recent findings indicate that patients produce fewer words after (vs. before) surgery. Also, they produce smaller clusters of related animals, fewer switches between clusters, and more frequent (lexical frequency) and earlier-acquired words. In this paper, we further investigated difficulties in lexical retrieval by reporting on word networks (to study the structure of the mental lexicon) and item-based trajectories (to understand how the linguistic characteristics of the task change as the task progresses) of 61 Dutch-speaking individuals diagnosed with PD before and post-surgery for STN-DBS and 40 age and education-matched healthy controls. Word networks contained a higher number of edges and nodes for healthy controls relative to people with PD post-surgery (adjusting for differences in sample size). Also, patients before surgery produced a network with a lower cluster coefficient relative to healthy controls, as well as to people with PD post-surgery. Item-based trajectories showed that both healthy controls and people with PD produced words of increasing complexity as they proceed with the task (e.g., less frequent, acquired later, of higher length). Also, healthy controls showed a steeper increase in the age of acquisition of words across the first ten responses compared to PD post-surgery. The re-emergence of structure (clustering) in word networks post-surgery for STN-DBS and the differences in item-based trajectories (vs. healthy controls) represent novel markers of lexical retrieval that are affected by surgery for STN-DBS and PD.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Regional lesion burden and chronic post-stroke aphasia severity: Incremental value beyond total lesion volume.</title>
+      <link>https://doi.org/10.1080/23279095.2026.2752873</link>
+      <guid isPermaLink="false">doi:10.1080/23279095.2026.2752873</guid>
+      <description>Applied neuropsychology. Adult
+
+We examined whether regional lesion burden adds information beyond clinical variables and total lesion volume regarding chronic aphasia severity. This secondary analysis of the Aphasia Recovery Cohort included 195 participants with left-hemisphere stroke, Western Aphasia Battery Aphasia Quotient (AQ) ≤93.8, and assessment ≥180 days after stroke. Lesion burden was quantified in five atlas-defined groups. Partial Spearman correlations were adjusted for age at stroke, sex, time to assessment, and lesion volume, and four ridge-regression models were compared using 30 repetitions of five-fold cross-validation. A sensitivity analysis included participants whose imaging and Western Aphasia Battery assessments were ≤90 days apart (n = 128). Dorsal white-matter burden remained associated with lower AQ after adjustment (partial ρ = -0.261; false-discovery-rate q = 0.002). Adding regional burdens to the clinical-plus-volume model increased mean cross-validated R2 from 0.306 to 0.384 (ΔR2 = 0.078) and reduced mean absolute error from 18.76 to 17.31 AQ points. In the time-restricted sample, R2 increased from 0.312 to 0.442 (ΔR2 = 0.130), with the dorsal association persisting (partial ρ = -0.307). Regional lesion burden adds information beyond lesion volume and supports anatomical characterization of chronic aphasia severity.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Same Networks, Different Dynamics: Parsimony in Auditory Cognitive Task Processing.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122308</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122308</guid>
+      <description>NeuroImage
+
+Distinct cognitive states might be supported either by dedicated, task-specific brain networks or by flexible modulation within shared ones, a distinction central to understanding how the brain allocates neural resources. Guided by the principle of parsimony, we hypothesized that both language and numerical cognition, when matched for sensory modality and attentional demand, would engage a common network architecture differentiated primarily through targeted modulation of connectivity strength and temporal dynamics rather than wholesale reconfiguration. We applied a jackknife-based dynamic functional connectivity approach to examine time-varying network engagement during auditory language comprehension and auditory math problem-solving in 172 age- and sex-matched participants from the Human Connectome Project-Young Adult cohort, using the Desikan-Killiany atlas and an 85% participation threshold. Of the significant connections identified, many were retained across both tasks, with 87 connections common to story and math, compared with 26 story-associated and 11 math-associated connections. Rather than indicating a novel shared-core architecture, this overlap is consistent with prior evidence that task functional connectivity is strongly constrained by a common intrinsic connectivity backbone. We therefore used the shared edge set as a common network framework for testing how two modality-matched, but cognitively distinct auditory tasks differ in connectivity strength and temporal variability. Among the 87 shared connections, 84 showed significant task-related differences in mean connectivity strength, indicating that story-math differentiation was expressed primarily through quantitative modulation of shared connections rather than wholesale changes in edge membership. Exploratory rolling-correlation analyses further suggested that some edges may show temporal variability in math-story connectivity correspondence even when mean connectivity strength is similar, highlighting a potential dynamic feature not captured by static connectivity estimates alone. Together, these findings suggest that story and math processing rely on a broadly shared connectivity backbone, while task differentiation emerges through graded modulation of connection strength and, in some cases, temporal variability.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Human iEEG recordings during audiovisual speech violations support and extend predictive routing models</title>
       <link>https://doi.org/10.64898/2026.10.30.760243</link>
@@ -121,6 +172,16 @@ Developmental stuttering has been repeatedly linked to decreased white matter in
       <description>[预印本] PsyArXiv
 
 Emotion is both a psychological phenomenon rooted in physiological fluctuations and a socially constructed phenomenon shaped by language and culture. However, traditional psychological constructivism has remained confined to individual brain processes, while social constructivism has lacked a bottom-up computational mechanism explaining how language and culture emerge from bodily emotional substrates and dynamically evolve. To bridge this theoretical gap, this paper proposes the Theory of Co-constructed Emotion (TCoE) via Collective Predictive Coding (CPC), a framework coupling physiological regulation with social symbol sharing within a single active inference formulation. We extend the conventional CPC model by explicitly incorporating interoception---which is indispensable for modeling emotion from a physiological perspective---into each agent's generative model, alongside exteroception and internal and external representations. In TCoE, the co-construction of emotion is described as a dual inference process: an internal loop of allostasis regulating individual bodily states, and a social loop of communication sharing emotional concepts with others. These loops mutually minimize prediction errors mediated by shared symbols (emotion words). We argue that this theoretical framework 1) aligns with psychological findings on emotional contagion and concept formation, 2) enables constructive verification in multi-agent robotic systems, and 3) provides a computational redefinition of psychiatric conditions such as alexithymia as a disconnection between interoception and social symbols. Thus, we offer a novel computational foundation for emotion research that unifies individual embodiment and social symbol systems.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>microRNA-Loaded Extracellular Vesicles: Mechanisms and Therapeutic Potential in Senescence and Ageing.</title>
+      <link>https://doi.org/10.1016/j.mad.2026.112269</link>
+      <guid isPermaLink="false">doi:10.1016/j.mad.2026.112269</guid>
+      <description>Mechanisms of ageing and development
+
+Cellular senescence is a biological process characterized by stable cell cycle arrest that contributes to tumor suppression and tissue remodeling but can also promote aging-associated dysfunction when senescent cells persist and accumulate. Senescent cells influence neighboring and distant tissues through the senescence-associated secretory phenotype (SASP), of which extracellular vesicles (EVs) are an increasingly recognized component. This review examines how microRNAs (miRNAs) carried by EVs regulate senescence and ageing. miRNAs are key post-transcriptional regulators of senescence, particularly within the p53/p21Cip1 and p16INK4a /Rb tumor suppressor pathways. Selective sorting into EVs allows these molecules to act over long distances. EV-miRNAs have dual roles: anti-senescent miRNAs such as miR-17-5p, miR-146a and miR-378a-3p promote rejuvenation, whereas pro-senescent miRNAs including miR-34a, miR-21 and miR-27a propagate ageing. Hypothalamic neural stem cell-derived miRNAs maintain transcriptional homeostasis and suppress senescence across the brain, and their age-related decline contributes to neurodegeneration. miRNAs in small EVs from young plasma rejuvenate multiple organ systems and extend lifespan in mice, while adipocyte-derived miR-27a spreads metabolic dysfunction to distant tissues. Together, EV-miRNAs are an emerging component of the intercellular networks regulating cellular senescence and aging, and their selective sorting, intercellular transfer, and modulation of senescence-associated pathways provide opportunities for therapeutic development and biomarker discovery.</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -464,68 +525,6 @@ BackgroundFrontotemporal dementia (FTD) is a leading cause of early-onset neurod
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Alterations in default mode network functional connectivity in semantic dementia.</title>
-      <link>https://doi.org/10.1016/j.ynirp.2026.100421</link>
-      <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100421</guid>
-      <description>Neuroimage. Reports
-
-Progressive deterioration of semantic memory is a defining characteristic of the semantic variant of primary progressive aphasia or semantic dementia (SD). Semantic deficits in SD are classically attributed to temporal lobe atrophy, in particular in the anterior temporal lobe. Recent neuroimaging studies have associated SD with disruptions of intrinsic connectivity networks during task and at rest, predominantly implicating regions of the semantic and language networks. Yet, anterior temporal lobe atrophy disrupts connectivity within the Default Mode Network (DMN), particularly in the anterior portions associated with semantic memory. Few neuroimaging studies have focussed on DMN connectivity in SD and links to semantic memory impairments. Using whole-brain seed-based connectivity analyses during resting state fMRI, we examined DMN functional connectivity in eight bilateral seeds and the association with semantic impairments in 16 SD compared to 20 age-matched healthy participants. Patients exhibited within DMN hypoconnectivity between the anterior hippocampus and medial orbito-frontal cortex, on the right, and between the posterior cingulate cortex and middle temporal gyrus, on the left. Furthermore, functional connectivity of the left posterior cingulate cortex with the middle temporal gyrus correlated positively with left lateral temporal atrophy in SD patients. Correlations with semantic performances showed that connectivity of the right anterior hippocampus and left middle/superior frontal gyri correlated positively with animal fluency in controls, but not in patients. In SD, connectivity between the left posterior cingulate cortex and left cerebellum area 9 correlated positively with semantic knowledge. These findings provide evidence that semantic SD impairments are subserved by altered DMN functional connectivity, linked to atrophy in the anterior temporal lobes and anterior hippocampi.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Individual Differences in Sustained Attention Tune Semantic Abstraction in Neural Encoding of Narratives</title>
-      <link>https://doi.org/10.64898/2026.10.21.760815</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.21.760815</guid>
-      <description>[预印本] bioRxiv
-
-Neural encoding modeling for narrative comprehension—using LLM embeddings to predict the temporal dynamics of neural activation—is widely used to evaluate how well the brain represents certain semantic information. This approach, however, typically collapses semantic representation into a scalar fidelity score aggregated across participants, overlooking potentially rich individual differences and qualitative differences in naturalistic neural representations. In the current study, we addressed this gap by investigating how neural semantic encoding varies across individuals with sustained attention, and whether this difference is qualitative in addition to quantitative. Using fMRI data from 49 participants listening to an audiobook, Le Petit Prince , in English, we trained encoding models with GPT-2 embeddings at varying layers and forecasting lengths. Encoding models trained on high-level embeddings (from the 8th layer of GPT-2) showed significant brain-LLM alignment in 73 of 122 cortical and subcortical ROIs, concentrated in the temporal cortex and the default mode network. Functional connectivity strength in a validated connectome-based predictive model of sustained attention correlated with encoding performance in 18 ROIs, most strongly in the insula and in control and attention networks, with no ROI showing significant opposite relationship. Decomposing semantic information by levels of abstraction showed that the neural signature of sustained attention was selectively associated with a greater proportion of high-level gist information encoded in the frontoparietal and attention networks, while the opposite relationship emerged for proportion of low-level information. Sustained attention scores further predicted stronger predictive coding of upcoming narrative content across multiple networks across the whole brain (control, default mode, salience/ventral attention, limbic, and somatomotor networks). These findings suggest that sustained attention does not uniformly amplify neural semantic encoding, but instead shifts neural representations toward more compressed, gist-level formats that support anticipation of upcoming content. Individual differences in brain-LLM alignment can be a signature of representational strategy rather than noise, with potential utility for cognitive phenotyping.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural correlates of infant dialect discrimination: An fNIRS study.</title>
-      <link>https://doi.org/10.31234/osf.io/unkgh_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/unkgh_v2</guid>
-      <description>[预印本] PsyArXiv
-
-The present study investigated the neural correlates of infant discrimination of very similar linguistic varieties (Quebecois and Parisian French) using functional Near InfraRed Spectroscopy. In line with previous behavioral and electrophysiological data, there was no evidence that 3-month-olds discriminated the two regional accents, whereas 5-month-olds did, with the locus of discrimination in left anterior perisylvian regions. These neuroimaging results suggest that a developing language network relying crucially on left perisylvian cortices sustains infants’ discrimination of similar linguistic varieties within this early period of infancy.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Neuropharmacology of language: ERP evidence for catecholaminergic modulation of syntactic processing.</title>
-      <link>https://doi.org/10.1073/pnas.2606806123</link>
-      <guid isPermaLink="false">doi:10.1073/pnas.2606806123</guid>
-      <description>Proceedings of the National Academy of Sciences of the United States of America
-
-A few studies have shown that brain catecholamines are implicated in language comprehension. However, the specific cognitive processes they modulate remain underexplored. We hypothesized that catecholamines enhance the unification of syntactic roles and word meanings into coherent multiword structures. This study combined electroencephalography and psychopharmacology to examine the effects of a catecholaminergic stimulant (methylphenidate) on processing sentences containing local syntactic ambiguities. Methylphenidate amplified the P600 event-related potential effect, which has been linked to the recruitment of cognitive resources for processing sentences with increased syntactic load. The drug's impact on semantic processing was subtler, showing a suggestive attenuation of the N400 effect to ambiguous sentences. Furthermore, the increase in the P600 effect under methylphenidate was most pronounced in participants with lower working memory capacity. This study provides evidence for linking catecholamine activity to syntactic unification in healthy individuals. Elevated catecholamine levels appear to increase the cognitive effort invested in syntactic unification, and to support the dynamic prioritization of syntactic information when contextual demands require it.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Adult aphasic status epilepticus: A systematic review and patient-level synthesis of clinical phenotypes and multimodal diagnostic evidence.</title>
-      <link>https://doi.org/10.1016/j.yebeh.2026.111349</link>
-      <guid isPermaLink="false">doi:10.1016/j.yebeh.2026.111349</guid>
-      <description>Epilepsy &amp; behavior : E&amp;B
-
-Background Aphasic status epilepticus (ASE) is an uncommon manifestation of focal status epilepticus in which aphasia is the sole or predominant clinical feature. Recognition may be difficult because consciousness can be relatively preserved, convulsive activity may be absent, and the presentation can mimic acute stroke. Objective To characterize diagnostic phenotypes of adult ASE and synthesize clinical, electrographic, and neuroimaging features across published cases. Methods We conducted a systematic review and patient-level synthesis of adult ASE cases. Eligible patients were adjudicated as definite or probable ASE using prespecified criteria. Clinical phenotype, electroencephalographic (EEG) findings, neuroimaging, initial diagnostic impressions, treatment, and language outcomes were extracted. Results Ninety-nine publications contributed 168 adults with ASE, including 89 definite and 79 probable cases. Aphasia was the sole manifestation in 42.9% and predominant in 57.1%, while consciousness was preserved in 78.0%. Ictal EEG activity or electrographic status epilepticus was documented in 53.0%, and 41.7% had supportive epileptiform abnormalities. Among cases with interpretable EEG laterality, 92.7% were left-lateralized. Peri-ictal MRI abnormalities occurred in 41.2% of performed interpretable studies. Among 55 patients with interpretable functional perfusion or metabolic imaging, hyperperfusion was reported in 32. FDG-PET hypermetabolism was treated as a distinct metabolic finding. Stroke or transient ischemic attack was the most frequent reported initial impression (44.2%). Complete language recovery was reported in 77.4% of evaluable patients. Conclusions Published adult ASE cases show a heterogeneous phenotype in which recognition commonly rests on concordance between language disturbance and focal EEG abnormalities, with peri-ictal imaging providing complementary evidence. These findings do not establish diagnostic accuracy of individual features or multimodal combinations.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Altered Cortico-cerebellar effective connectivity of the Visuo-attentional system is associated with READ1 deletion in developmental dyslexia.</title>
-      <link>https://doi.org/10.1016/j.nicl.2026.104081</link>
-      <guid isPermaLink="false">doi:10.1016/j.nicl.2026.104081</guid>
-      <description>NeuroImage. Clinical
-
-Developmental dyslexia (DD) is a heritable neurodevelopmental disorder associated with altered brain connectivity. The influence of genetic risks on cortico-cerebellar effective connectivity (EC) remains unclear. The present study investigates how reading proficiency and the READ1 deletion (READ1d) in the DCDC2 gene modulate visuo-attentional network dynamics. Functional MRI data were acquired in 78 children (DD and typical readers, with/without READ1d) performing a coherent motion detection task. EC within a seven-region visuo-attentional network, including magnocellular, ventral attention, and cerebellar (crus I) regions, was estimated using Dynamic Causal Modelling. Group-level effects were assessed using Parametric Empirical Bayes within a hierarchical Bayesian framework, testing reading proficiency, READ1d status, and their interaction (posterior probability threshold, Pp &gt; 0.95). Reading proficiency was associated with increased cerebellar influence on visual and frontal regions, alongside reduced intra-cortical connectivity within dorsal stream pathways. The presence of READ1d was associated with reduced EC from primary visual and cerebellar regions to magnocellular and ventral attention networks, and increased intra-cortical interactions. The interaction between DD and READ1d revealed further reductions in cortico-cerebellar connectivity and altered network dynamics. Group-level analyses revealed EC differences in cortico-cerebellar pathways, which are reported as exploratory findings. Cortico-cerebellar EC is modulated by both reading proficiency and genetic susceptibility. Altered cerebellar contributions to visuo-attentional processes may represent a potential imaging-genetic signature of dyslexia, warranting replication in independent samples and validation through longitudinal and multimodal approaches.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
     </item>
   </channel>
 </rss>

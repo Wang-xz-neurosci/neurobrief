@@ -5,9 +5,103 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The application of brain-computer interface on cognitive function and activities of daily living in stroke patients: a systematic review and meta-analysis</title>
+      <link>https://europepmc.org/article/PMC/PMC13725544</link>
+      <guid isPermaLink="false">PMC:PMC13725544</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Emotion knowledge is structured in a grid-like coordinate system in the human ventromedial prefrontal cortex.</title>
+      <link>https://doi.org/10.1371/journal.pbio.3003795</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pbio.3003795</guid>
+      <description>PLoS biology
+
+Human emotional experiences vary widely in everyday life, yet they are systematically organized within a continuous affective space defined by valence and arousal. Although this circumplex organization has shaped decades of research, its neural implementation remains unclear. Here, we asked whether abstract emotion concepts are encoded using grid-like coordinate principles in the human brain. During fMRI, participants tracked trajectories through affective space conveyed through morphs of facial expressions and sequences of phrases. We found that ventromedial prefrontal cortex (vmPFC) encoded affective space with robust hexadirectional modulation characteristic of grid-like coding. This coordinate representation generalized across stimulus modalities, indicating abstraction beyond perceptual features. The grid-like signal reflected a metric organization of emotion concepts independent of overt behavior, whereas distance-related signals in vmPFC predicted trial-by-trial affective judgements. Together, these findings suggest that emotion knowledge is structured by a grid-like coordinate system in the human brain that can support predictive inference and flexible decision-making.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Transcranial magnetic stimulation to the dorsolateral prefrontal cortex modulates single-neuron activity in humans.</title>
+      <link>https://doi.org/10.1073/pnas.2610803123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2610803123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Transcranial magnetic stimulation (TMS) to the dorsolateral prefrontal cortex (dlPFC) is an established treatment for depression, yet the fundamental question of how cortical stimulation influences single neurons in deep brain circuits critical for mood regulation remains unanswered. Using a rare opportunity to record from intracranial microelectrodes while TMS was delivered in four neurosurgical patients, we evaluated the responses of 185 single neurons. Artifact cleaning enabled single-neuron spikes to be resolved as early as 8 ms after stimulation. We found that single-pulse TMS to the left dlPFC elicited time-locked firing responses in 46% of neurons (26% facilitated only, 19% suppressed only, 1% both). These responses occurred within deep bilateral cortical and subcortical structures, including the putamen and thalamus. Single-pulse TMS tended to facilitate spiking in striato-thalamic putative inhibitory neurons from ~8 ms, peaking at ~80 to 100 ms, and decaying until ~600 ms. In contrast, putative excitatory neurons and limbic areas were suppressed with a slower time course lasting to ~1,000 ms. TMS-evoked potentials recorded from intracranial depth macroelectrodes to quantify network activity revealed that the modulation of responsive neurons was positively correlated with cortico-striato-thalamic network activity and anticorrelated with limbic network activity in one participant with sufficient network and unit sampling. These results suggest that dlPFC TMS recruits a high percentage of neurons spanning cortical and subcortical brain regions bilaterally. The recruitment pattern selectively involves increasing the firing rate of inhibitory neurons in executive control networks while suppressing limbic excitatory drive, providing a candidate cellular mechanism for how cortical stimulation modulates distributed brain networks.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>A causal account of the neural origins of mental fatigue.</title>
+      <link>https://doi.org/10.1073/pnas.2534136123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2534136123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Successful goal-directed behavior often requires the exertion of effortful cognitive control processes, but it remains unclear why engaging in cognitive control is experienced as effortful and induces fatigue. Here, we tested the hypothesis that sustained activation in the dorsolateral prefrontal cortex (DLPFC)-a neural substrate of cognitive control-causally induces motivational fatigue via the accumulation of prefrontal glutamate metabolites. For this purpose, we combined brain stimulation with spectroscopy imaging to assess how increasing DLPFC excitability during an effortful mental task changes the motivation for mental effort and glutamate concentrations. We found that stimulating the DLPFC during mental effort exertion improved mental performance at the cost of increased posteffort motivational fatigue, suggesting a causal role of DLPFC activation for inducing fatigue. On the neural level, DLPFC activation during effortful cognition also increased prefrontal concentrations of glutamate, which statistically explained the fatigue-induced lower motivation for mental effort. A corresponding analysis of combined glutamate-glutamine (Glx) concentrations revealed converging effects. Together, these findings provide causal evidence that enhanced DLPFC activation contributes to fatigue via neurochemical changes, supporting neuro-metabolic accounts of fatigue and offering new insights into why demanding cognitive tasks are perceived as effortful.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>State-Dependent EEG Markers of Excitation/Inhibition and Hemodynamic State Are Associated with Random Noise Stimulation Effects.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122329</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122329</guid>
+      <description>NeuroImage
+
+Non-invasive brain stimulation effects vary substantially across individuals, yet the physiological factors associated with this variability remain unclear. We tested whether baseline and task-related EEG markers of excitation/inhibition (E/I) and hemodynamic state are associated with the effects of transcranial random noise stimulation (tRNS) on learning. Participants completed a mathematical learning task during active or sham tRNS. We indexed E/I-related population dynamics using the EEG aperiodic exponent, for which lower values have been linked to relatively greater excitation than inhibition, and assessed hemodynamic state using fNIRS-derived oxygenated hemoglobin (HbO). Behavioral learning was modeled using generalized linear mixed-effects models. tRNS accelerated learning relative to sham stimulation but did not reliably induce pre-post changes in resting-state aperiodic exponent or HbO. Instead, stimulation effects were state-dependent. Higher resting-state aperiodic exponent and lower resting-state HbO were associated with greater behavioral gains under tRNS, while task-related aperiodic exponent was associated with stimulation-related differences in learning. Task-evoked HbO was associated with learning rate but did not significantly differentiate stimulation effects. Across modalities, the findings identify complementary electrophysiological and hemodynamic correlates of variability in learning under stimulation. However, statistical support for the EEG moderation effects was attenuated in models including participant-specific learning slopes, indicating sensitivity to random-effects specification and the need for replication. The findings argue against a simple tonic-shift account of tRNS and support a state-dependent framework in which stimulation effects depend on ongoing electrophysiological and hemodynamic context. EEG and fNIRS provided complementary information about variability in learning and stimulation response, supporting multimodal approaches to understanding and individualizing neuromodulation.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Do autistic traits modulate the neural processing of logical rule violations in visual and auditory modalities?</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122327</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122327</guid>
+      <description>NeuroImage
+
+Similarities in cognitive processing have been reported between individuals with autism spectrum disorder (ASD) and non-clinical individuals with autistic traits. However, previous research on autistic traits has primarily focused on social-emotional domains, with limited attention to abstract logical reasoning. Given that sensitivity to rules and patterns is a notable characteristic of the autism spectrum, logical rule processing may be particularly informative for understanding cognitive differences associated with autistic traits. The present research aimed to investigate the behavioral and neural responses of students with autistic traits to logical and illogical number sequences through two event-related potential studies. Based on Autism Spectrum Quotient-10 (AQ-10) scores, participants were categorized into High-AQ and Low-AQ groups. In Study 1, both groups judged whether visually presented logical and illogical three number sequences followed a logical incremental rule. In Study 2, both groups performed the same task as in Study 1, except number sequences were presented in the auditory modality. No significant group difference was found in response to logical number sequences in either study. However, relative to the Low-AQ group, the High-AQ group exhibited larger P2 and P3 amplitudes and more negative emotional reactions to illogical number sequences in the visual modality (Study 1), and more positive N1 and LPP amplitudes, and higher arousal ratings to illogical number sequences in the auditory modality (Study 2). These findings suggest that students with autistic traits may exhibit altered neural responses and heightened emotional reactivity specifically to stimuli that violate logical rules in separate visual and auditory studies.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Same Networks, Different Dynamics: Parsimony in Auditory Cognitive Task Processing.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122308</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122308</guid>
+      <description>NeuroImage
+
+Distinct cognitive states might be supported either by dedicated, task-specific brain networks or by flexible modulation within shared ones, a distinction central to understanding how the brain allocates neural resources. Guided by the principle of parsimony, we hypothesized that both language and numerical cognition, when matched for sensory modality and attentional demand, would engage a common network architecture differentiated primarily through targeted modulation of connectivity strength and temporal dynamics rather than wholesale reconfiguration. We applied a jackknife-based dynamic functional connectivity approach to examine time-varying network engagement during auditory language comprehension and auditory math problem-solving in 172 age- and sex-matched participants from the Human Connectome Project-Young Adult cohort, using the Desikan-Killiany atlas and an 85% participation threshold. Of the significant connections identified, many were retained across both tasks, with 87 connections common to story and math, compared with 26 story-associated and 11 math-associated connections. Rather than indicating a novel shared-core architecture, this overlap is consistent with prior evidence that task functional connectivity is strongly constrained by a common intrinsic connectivity backbone. We therefore used the shared edge set as a common network framework for testing how two modality-matched, but cognitively distinct auditory tasks differ in connectivity strength and temporal variability. Among the 87 shared connections, 84 showed significant task-related differences in mean connectivity strength, indicating that story-math differentiation was expressed primarily through quantitative modulation of shared connections rather than wholesale changes in edge membership. Exploratory rolling-correlation analyses further suggested that some edges may show temporal variability in math-story connectivity correspondence even when mean connectivity strength is similar, highlighting a potential dynamic feature not captured by static connectivity estimates alone. Together, these findings suggest that story and math processing rely on a broadly shared connectivity backbone, while task differentiation emerges through graded modulation of connection strength and, in some cases, temporal variability.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Integrating neuroplasticity into whole-brain modeling: From synapses to neural populations.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107020</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107020</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+The brain's ability to learn, adapt, and recover hinges on synaptic plasticity, yet most large-scale neural models overlook this core feature. In this review, we argue that embedding plasticity is essential for the simulation of realistic population-level brain activity. To this end, we explore specific computational attempts at scaling microscopic single-neuron plasticity rules to mesoscopic populations, drawing from mechanistic insights into short-term synaptic dynamics, long-term potentiation, and homeostatic regulation. We also discuss how plasticity mechanisms in neural field and neural mass models can potentially help us understand recovery trajectories, and how dysfunctional plasticity can play a role in them. Finally, we review state-of-the-art multiscale co-simulations methods that bridge spiking neuron networks with neural field and mass models and discuss their ability to link microscopic synaptic mechanisms with macroscopic brain dynamics. By embedding plasticity as a core feature, we can develop mean-field models that are more realistic and powerful tools for understanding brain function and recovery.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Rethinking Standard DLPFC Stimulation: Response to Mundorf and Ocklenburg.</title>
+      <link>https://doi.org/10.1176/appi.ajp.20260470</link>
+      <guid isPermaLink="false">doi:10.1176/appi.ajp.20260470</guid>
+      <description>The American journal of psychiatry
+
+来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Capturing the Attentional Trade-off between Speech Planning and Comprehension.</title>
       <link>https://doi.org/10.1162/jocn.a.97</link>
@@ -155,6 +249,36 @@ Early functional connectivity within the brain's reward circuitry may provide in
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Neuroscience: The architecture of a fear memory.</title>
+      <link>https://doi.org/10.1016/j.cub.2026.09.067</link>
+      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.067</guid>
+      <description>Current biology : CB
+
+Memories bind sensory, contextual, temporal, and affective features that support recall and flexible behavior. New research shows that the ventral region of the hippocampus represents these features in population activity, with similar temporal organization across learned and novel cues even as contributing neurons change.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Neurofeedback: Training the brain from within.</title>
+      <link>https://doi.org/10.1016/j.cub.2026.09.065</link>
+      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.065</guid>
+      <description>Current biology : CB
+
+The hippocampus is a key brain structure linked to how we encode and reconstruct our own experiences. Neurofeedback training can help people identify strategies to successfully drive their own hippocampal activity, possibly promoting stronger encoding beyond the training session.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Hippocampal-prefrontal cortical interactions and neural representations of memory.</title>
+      <link>https://doi.org/10.1016/j.cub.2026.09.029</link>
+      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.029</guid>
+      <description>Current biology : CB
+
+The ability to store memories and access past experiences when making decisions in the present is fundamental to cognition. The hippocampus is critical for these processes and has been a primary site of investigation in the learning and memory field for the last several decades. However, it is also clear that the hippocampus must work in concert with cortical brain regions to store and recall memories. Findings that demonstrate the necessity of hippocampal-medial prefrontal cortex (mPFC) communication in these processes, as well as findings that link the mPFC to memory storage, retrieval, and decision-making, have contributed to this growing area of study. Here, we review our current understanding of three questions related to this communication. What information is represented in the hippocampus and the mPFC? What are the underlying neural activity patterns and brain states that facilitate communication of those representations? What impact do these patterns have on the ability to learn and remember in new and familiar settings? We highlight evidence for bidirectional communication both during and after experience, and we discuss areas of active investigation to further uncover the role of bidirectional hippocampal-cortical interactions in the formation and maintenance of neural representations of memory.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Functional Network Organization Underlying Individual Differences in False Feedback Susceptibility: A Graph Theoretical Analysis.</title>
       <link>https://doi.org/10.1002/hbm.70640</link>
       <guid isPermaLink="false">doi:10.1002/hbm.70640</guid>
@@ -267,6 +391,7 @@ The habenula is implicated in signaling negative reward prediction errors (RPE),
 Optically pumped magnetometer magnetoencephalography (OPM-MEG) has moved beyond proof of principle. The decisive question is no longer whether cryogen-free sensors can detect neuromagnetic fields from the human brain with sufficient sensitivity, but whether complete systems can deliver clinical decision value and interpretable recordings during more naturalistic behaviour. Here we argue that OPM-MEG is developing along two partly overlapping trajectories. One is clinical translation, where usefulness depends more on reliable workflows, calibrated source localisation, auditable quality control, and empirical evidence for improved diagnostic or treatment decisions. The other is naturalistic neuroscience, where wearable measurement can connect neural dynamics to movement, action, and social behaviour without conflating neural activity with movement-related artefacts. Both trajectories depend on a shared engineering stack including magnetic field control, dense spatial sampling, accurate calibration, integrated electronics, artefact suppression, participant comfort, and synchronised behavioural measurement. The next stage of OPM-MEG should be evaluated by clinical utility in specific patient groups, statistically identifiable neural dynamics in behaviourally rich settings, and sufficient system detail for replication across systems and sites.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
     </item>
     <item>
@@ -400,132 +525,6 @@ Understanding the neural mechanisms underlying disorders of consciousness (DoC) 
 
 Cognitive reappraisal refers to changing how one thinks about a situation to alter its emotional impact. It is central to well-being1 and engages prefrontal regulatory circuits2 , prompting the assumption that their activity reflects a person's capacity to regulate emotions3-5 . Yet evidence for this assumption remains inconclusive and has not been established at scale. Here we analysed 40 task-based functional magnetic resonance imaging (fMRI) datasets in a preregistered consortium with 2,175 participants and show that three widely used indicators of reappraisal capacity-trait questionnaires, task-based affective ratings and amygdala down-regulation-do not converge on a common core. Moreover, none of the three indicators showed the expected association with canonical prefrontal regulatory circuits. Trait questionnaires showed no detectable neural associations across the brain and task-based affective ratings were instead associated with responses in the amygdala and sensorimotor cortices. At the process level, canonical control circuits were engaged during both emotion generation and reappraisal, challenging their presumed specificity for emotion regulation. These findings caution against using activation in putatively regulatory brain regions to infer how well a person regulates emotions, with implications for neural biomarkers, interventions and psychoeducation that link emotion regulation difficulties to specific regional brain deficits.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Meta-study sparks questions about what it means to be good at regulating emotions.</title>
-      <link>https://doi.org/10.1038/d41586-026-03262-1</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03262-1</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Impact of hearing loss on visual selective attention: Evidence from N2pc and resting-state networks.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122321</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122321</guid>
-      <description>NeuroImage
-
-Efficient visual attention is fundamental to environmental adaptation and social interaction. While previous studies have observed alterations in visual processing among deaf individuals, findings remain controversial regarding whether these changes stem from hearing loss (sensory compensation vs. cognitive deficit) or sign language experience. To address this issue, the present study provides task-related and resting-state electroencephalography (EEG) evidence to disentangle the specific drivers of visual selective attention plasticity. A visual search task was used to examine selective attention in 95 participants (34 prelingual deaf, 27 hearing signers, and 34 hearing nonsigners). Compared to both hearing groups, deaf individuals exhibited significantly lower hit rates and diminished N2-posterior contralateral (N2pc) amplitudes. Hearing signers and nonsigners showed comparable behavioral performance, N2pc amplitudes, and resting-state network topology, whereas the deaf group was further characterized by a degraded resting-state alpha network topology, evidenced by reduced clustering coefficients, global efficiency, and weakened frontal-occipital connectivity. N2pc amplitude correlated significantly with resting-state network properties and behavioral accuracy. These results suggest that deaf individuals may suffer from an imbalance in the regulation of visual selective attention, most clearly indexed by the evoked N2pc and by intrinsic alpha-network organization, and likely linked to increased resource competition following the loss of auditory monitoring. Our findings provide neurophysiological evidence that these attentional deficits are associated with hearing loss rather than with sign-language experience, offering a new perspective for understanding the boundaries of cross-modal plasticity in the human brain.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Prefrontal Cortical Changes With Mindfulness-Oriented Recovery Enhancement in Opioid Use Disorder: A Randomized Clinical Trial.</title>
-      <link>https://doi.org/10.1001/jamapsychiatry.2026.3388</link>
-      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.3388</guid>
-      <description>JAMA psychiatry
-
-Importance Despite decades of clinical implementation of medications for opioid use disorder (OUD), overdose mortality rates remain high, underscoring a critical need for interventions that target the brain mechanisms underlying addiction. Objective To assess the neural mechanisms of Mindfulness-Oriented Recovery Enhancement (MORE) and their associations with clinical outcomes, including craving and abstinence duration. Design, setting, and participants This randomized clinical trial was conducted from November 2020 to September 2024 among individuals with OUD recruited from an inpatient rehabilitation facility in New York and randomized to MORE or psychoeducational supportive therapy (PST). Data were analyzed from October 2024 to August 2026. Interventions Treatment with MORE (comprising training in mindfulness, drug cue reappraisal, and savoring positive experiences) or PST (active control condition) across 8 weekly 2-hour group sessions. Main outcomes and measures Outcomes included treatment-related changes in functional magnetic resonance imaging (fMRI) blood oxygen level-dependent signal (primary), abstinence length (secondary), and cue-induced craving (secondary). Results Drug cue reactivity task analyses included 59 participants (MORE, n = 24; 5 women [20.8%]; mean [SD] age, 43.6 [11.3] years; PST, n = 35; 8 women [22.9%]; mean [SD] age, 42.8 [10.0] years). Movie-watching and follow-up analyses were conducted in subsets of 37 (MORE, n = 18; PST, n = 19) and 38 participants (MORE, n = 13; PST, n = 25), respectively. Compared with PST, MORE reduced drug-biased activity in the middle frontal gyrus and other brain areas, including the precuneus, during downregulation of responses to drug cues relative to upregulation of responses to natural reward cues (even when controlling for passive cue viewing; z &gt; 3.1; P &lt; .05). The shift from drug to natural reward responses in the lateral and ventromedial prefrontal cortex (PFC) was associated with lower cue-induced craving exclusively in the MORE group (z &gt; 3.1; P &lt; .05). Relative to PST, MORE also reduced medial PFC synchronization to naturalistic drug-related movie scenes (q = 0.019) and significantly extended abstinence duration at follow-up (approximately 4 months posttreatment; χ2 = 6.7; P = .04; Cohen w = 0.19). Conclusions and relevance This neuroimaging randomized clinical trial demonstrates that MORE may restructure function in PFC nodes of the reward, salience, and control networks, positioning it as a biologically grounded adjunct to pharmacotherapy for OUD. Trial registration ClinicalTrials.gov Identifier: NCT04112186.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>A generative framework for estimating brain energy landscapes from continuous neuroimaging observations.</title>
-      <link>https://doi.org/10.1162/imag.a.1415</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1415</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Pairwise maximum entropy models (pMEMs) are gaining increasing attention as a principled way to study nonlinear brain-state transitions. By representing each brain region as a binary active/inactive state and estimating the least-biased probability distribution over all such network configurations, pMEMs reconstruct an energy landscape in which local minima correspond to stable or metastable brain states and transitions reflect movement across attractor basins. However, neuroimaging recordings are continuous and spatially mixed, forcing conventional pMEM analyses to demean and hard-threshold each channel. This ad hoc binarization discards amplitude information and can conflate spatially correlated noise or source mixing with genuine neural coupling. We introduce a hierarchical generative pMEM that links latent binary network states to continuous observations. Node-specific baseline and gain parameters model amplitude modulation, compound-symmetry noise captures shared residual covariance, and, for electroencephalography/magnetoencephalography (EEG/MEG), the electromagnetic leadfield is included as a generative forward model rather than a preprocessing inverse. Model parameters and latent states are jointly estimated using exact posterior enumeration for the small networks analyzed here and a mean-field extension for larger networks. Controlled simulations demonstrated two complementary advantages of the proposed framework. Residual-covariance modeling improved recovery of pMEM fields, couplings, and latent states by accounting for shared fluctuations, with the clearest gains when residual spatial correlation was sufficiently strong. The generative leadfield model further improved sensor-space inference by avoiding inverse-first source reconstruction, including settings in which covariance modeling alone offered limited gains. Resting-state EEG validation showed higher residual correlation during eyes-closed than eyes-open rest, consistent with elevated and spatially coherent alpha activity. Applied further to propofol sedation EEG (alpha-band amplitude envelopes, 8-13 Hz), the fitted 6-node default mode network (DMN) model showed pipeline-dependent condition effects in residual spatial correlation and basin entropy, not apparent under the conventional demean-based pMEM.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Hemisphere fingerprinting: Identifying left and right hemispheres using functional connectivity.</title>
-      <link>https://doi.org/10.1162/imag.a.1397</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1397</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Many studies have analyzed what organizational features distinguish the left and right hemispheres of the human brain, with differences typically being found in language areas and in fine motor control (i.e., handedness). In this analysis, we test whether supervised learning can categorize ("fingerprint") an unseen hemisphere as right or left based on functional connectivity. Using data from the Human Connectome Project, we find success to be extremely high (accuracies &gt; .90) in models trained on right-handed participants (Edinburgh Handedness Inventory [EHI] &gt; 0) and in models trained on left-handed participants (EHI ≤ 0). In a second analysis, we test whether the same can be done to identify handedness alongside hemisphere left/right sidedness. While individuals' hemispheres are less distinct the more left handed they are, hemiconnectomes cannot be reliably classified as belonging to a left- or right-handed person. Our approach can inform developmental and post-injury work on hemispheric organization and reorganization.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Stimulus-specific recruitment of human amygdala neurons predicts episodic memory encoding success.</title>
-      <link>https://doi.org/10.1038/s41593-026-02493-9</link>
-      <guid isPermaLink="false">doi:10.1038/s41593-026-02493-9</guid>
-      <description>Nature neuroscience
-
-Controlling whether an experience is encoded into long-term memory and thus later remembered is a crucial aspect of memory. Here we examined single-neuron activity in the human brain while participants formed memories for novel visual stimuli and later retrieved them with confidence ratings. Category-selective amygdala neurons exhibited elevated firing during encoding of later remembered items relative to later forgotten items. This effect was predictive of the episodic aspect of the memory, was restricted to the preferred category of each cell, emerged earlier and was stronger in the amygdala compared to the hippocampus, and did not depend on stimulus valence and arousal. Successful memory formation was accompanied by enhanced spike-field coherence between the activity of amygdala category cells and hippocampal field potentials. These findings demonstrate that stimulus-specific recruitment of the amygdala predicts memory formation and suggest category cells in the right amygdala as a target for interventions to treat disorders affecting episodic memory in humans.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Mysterious flickering brain signals could help to unlock secrets of consciousness.</title>
-      <link>https://doi.org/10.1038/d41586-026-03384-6</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03384-6</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Visuospatial attention modulates audiovisual temporal perception: Context-dependent associations between prestimulus alpha lateralization and perceptual reports.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122320</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122320</guid>
-      <description>NeuroImage
-
-Audiovisual temporal perception depends on the timing of sensory events and on preparatory attention. We examined how visuospatial cueing affects explicit synchrony judgments and sound-induced flash illusions, and how prestimulus EEG relates to these perceptual reports. In Experiment 1 (N = 39), participants judged beep-flash synchrony across auditory- and visual-leading stimulus onset asynchronies (SOAs). In Experiment 2 (N = 36), they reported flashes in fusion and fission conditions across SOAs and corresponding references. Experiment 1 showed a Cue validity × SOA interaction, with more synchrony reports on valid trials at -100 and +50 ms. Cueing shifted the point of subjective simultaneity among 21 participants with reliable fits. Trial-level posterior alpha lateralization was associated with synchrony reports as a function of Cue validity. In Experiment 2, valid cues reduced raw fusion reports at -100, -50, and +100 ms. A Cue validity × SOA interaction persisted for reference-adjusted fusion scores, whereas neither raw nor adjusted fission showed a corresponding interaction. The association between reference-adjusted alpha lateralization and fusion reports varied with Cue validity and SOA, although a direct comparison with the visual reference did not establish an illusion-specific association. These EEG-behavior associations were stable after accounting for temporal progression, preceding trials, cue side, and an ocular-sensitive EEG proxy. Together, the findings indicate timing- and context-dependent effects of visuospatial attention on audiovisual temporal perception and identify preparatory posterior alpha lateralization as a correlate of subsequent reports.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Distinct neural patterns of valence and arousal in the developing brain: A representational similarity analysis of MEG.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122317</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122317</guid>
-      <description>NeuroImage
-
-How children and adolescents encode the affective meaning of visual stimuli remains poorly understood. A key reason is that valence and arousal are inherently correlated across affective stimuli and thus confounded in the categorical contrasts mostly used in emotion research. Here, in a secondary analysis of a previously collected MEG dataset, we dissociate the contributions of valence and arousal in emotional processing by applying partial representational similarity analysis (RSA) to magnetoencephalography (MEG) data from 57 typically developing children and adolescents (5 - 18 years old) viewing pictures from the Nencki Affective Picture System. Source-localized responses were first estimated on a volumetric grid, after which we tested, across regions and time windows, whether similarity in neural activity patterns tracked similarity in valence or arousal ratings while controlling for their shared variance. Valence emerged as the primary organizing dimension of neural representations in this sample, with effects detectable in frontotemporal and salience regions within the first 100 ms and sustained over time in the lateral prefrontal cortex. These responses formed a distributed representational network that progressively engaged higher-order evaluative regions. In contrast, arousal contributed transiently through a distinct network that only intermittently overlapped with valence-related activity. Together, these findings indicate that valence predominantly structures affective representations in this pediatric sample, whereas arousal exerts a weaker and more limited influence. This work provides an initial characterization of affective representational structure in this sample of children and adolescents, that if replicated, may inform future reference framework for identifying deviations associated with conditions such as autism spectrum disorder.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>The Entangled Loop: Emotion, interference and hierarchy in the architecture of consciousness.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107063</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107063</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Why does consciousness feel like something, and why is experience unified rather than fragmented? We propose that these properties arise from an entangled trefoil of emotion, interference-based inference and hierarchical orchestration, shaped by the thermodynamic constraint that living systems must remain far from equilibrium using limited energy. Emotion compresses actions into valenced signals of what matters, while a pleasure cycle schedules competing biological needs through predictive wanting and satiety organised around the true hedonic outcome of liking. Hierarchical orchestrating regions integrate and broadcast information through interference between classical coupled oscillators, shaped by the spectral gaps of the connectome driven by long-range exceptions to local cortical wiring. The architecture of the Entangled Loop consists of three inseparable strands, each continually constraining the other two, with the one operator linking computational possibilities to the arrow of time and energetic cost of running them. Evidence suggests that the same three signatures emerge independently in large language models trained on human language, but as shadows of the generating architecture rather than evidence of consciousness. The trefoil predicts a distinctive human vulnerability because our abundance of rare long-range connections promotes more computation for less energy while making the architecture more fragile. Neuropsychiatric disorders could therefore arise from perturbations entering through any strand and propagating through the others, while the more robust architecture of other species may help explain why animal models reproduce human psychiatric disorders poorly. Sustaining and restoring flexible entanglement in the Entangled Loop may provide mechanistic routes towards flourishing.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Mapping the neural basis of the perception of “flow of time”: interval timing and mental time travel in the human brain</title>
-      <link>https://europepmc.org/article/PMC/PMC13696792</link>
-      <guid isPermaLink="false">PMC:PMC13696792</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Emotional Content Enhances Attentional Tracking of Conversations through Context-Sensitive Modulation of Auditory-Language Networks.</title>
-      <link>https://doi.org/10.1523/jneurosci.0506-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0506-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "Cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 female, 14 male) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated mid-latency (100 - 250 ms) responses, whereas late-latency (270 - 450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.Significance Statement Understanding how the brain prioritizes and selectively processes information in naturalistic, continuously evolving audiovisual scenes such as conversations is a central challenge in neuroscience. Here, we show that conversations conveying negatively valenced, high-arousal, and socially relevant content enhance neural tracking of attended speech in a noisy cocktail-party setting. This enhanced tracking depends on the semantic structure of the conversation, emerging earlier for coherent dialogues that are easy to follow. Furthermore, we show that emotional content strengthens mechanisms related to speech comprehension and sharpens segregation of relevant from irrelevant talk. These findings demonstrate that emotional meaning and semantic continuity jointly shape cortical processing of continuous speech, providing new insight into how the brain selects and processes meaningful information during a conversation.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
       <category>其他认知与脑</category>
     </item>
   </channel>
