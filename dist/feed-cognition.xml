@@ -5,9 +5,62 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 20:46:36 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physiological Representation of Social Evaluation: Modeling Human Eye Movements, Pupillary, and Neuronal Responses to Faces.</title>
+      <link>https://doi.org/10.1523/jneurosci.1525-25.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1525-25.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Face-based social evaluations are ubiquitous and consequential, yet it remains unclear how these evaluations are represented in spontaneous physiological responses. Across four studies (222 participants: 142 females, 57 males, 23 unreported; 503 neurons), we used a data-driven modeling framework to examine how facial appearance shapes eye movements, pupillary responses, and neuronal activity during face viewing. We asked what these responses reveal about the underlying social evaluations. Pupillary responses and hippocampal firing during saccades were driven by facial variation associated with an integrated combination of valence and power evaluations; fixation duration on the eyes and hippocampal firing during fixations were more selectively tuned to threat-related evaluations; amygdalar firing primarily tracked approachability-related valence. A prospective validation study confirmed that novel faces synthesized along these modeled directions elicited the predicted physiological responses in new participants. We also found evidence of individual differences: social anxiety selectively heightened the sensitivity of pupillary responses to face evaluations. These findings suggest that distinct physiological responses across attention, autonomic arousal, and medial temporal lobe activity reflect distinct but related facets of face-based social evaluation.Significance Statement Everyday social decisions hinge on split-second impressions of unfamiliar faces. When we see a face, we instantly judge the person's likely intention (positive ↔ negative valence) and social influence (high ↔ low power). Across four complementary studies, we show that these evaluative processes are reflected in physiological responses to faces across overt attention, autonomic arousal, and subcortical neuronal firing. Different physiological systems reflected partially distinct but related facets of social-evaluative meaning, including integrated valence-and-power, threat-related, and approachability-related evaluation.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>The human hippocampus supports auditory coding and multisensory integration.</title>
+      <link>https://doi.org/10.1371/journal.pbio.3004012</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pbio.3004012</guid>
+      <description>PLoS biology
+
+The hippocampus receives convergent input from multiple sensory systems, yet in humans it has been studied almost exclusively through vision. Here we examine how the hippocampus contributes to sensory processing beyond the visual modality and to the multisensory integration of visual information with these other modalities. Participants were exposed to multiple repetitions of short naturalistic movie clips, each presented in four formats: auditory-only, visual-only, congruent audiovisual, and incongruent audiovisual (audio and video from different movies). Using high-resolution fMRI, we measured univariate activation and multivariate representations across the longitudinal axis and subfields of the human hippocampus. Whereas univariate analyses detected only visual responses across hippocampal subregions, with no activation for auditory stimuli and no benefit of congruent stimuli, multivariate analyses revealed robust representations of both auditory and visual scenes. The posterior hippocampus showed enhanced pattern similarity for congruent stimuli relative to unisensory stimuli, especially in the left hemisphere, demonstrating multisensory facilitation. The anterior hippocampus showed crossmodal decoding between auditory and visual versions of the same clip, driven by the right hemisphere, suggesting a more abstract representation. Finally, whole-brain searchlight analyses revealed parallel effects in cortical regions known to support multisensory integration. These findings advance understanding of auditory and multisensory coding in the human hippocampus, revealing specialization and lateralization along its longitudinal axis.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>What can behavior tell us about neural dynamics?</title>
+      <link>https://doi.org/10.1016/j.tics.2026.10.003</link>
+      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.003</guid>
+      <description>Trends in cognitive sciences
+
+For decades, systems neuroscience treated behavior as an endpoint: a simplified output, such as a button press, lick, or saccade, used to isolate neural computations. Richer behavioral measurements have expanded this view by revealing neural dynamics hidden by simple outputs. Yet behavior is not a direct readout of brain activity, because similar behavioral outputs can arise from different neural mechanisms. Interpreting neural dynamics is therefore an inverse problem with no straightforward solution. Behavior can constrain this problem by exposing sensorimotor loops, narrowing plausible explanations for population activity, and formalizing neural-behavioral relationships in joint models. Together, these approaches position behavior as a principled constraint on interpreting neural dynamics and latent cognitive, affective, and computational states.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Training Interbrain Synchrony through Dyadic Neurofeedback Modulates Empathy-for-Pain.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122326</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122326</guid>
+      <description>NeuroImage
+
+Dyadic neurofeedback offers a socially grounded approach for modulating neural processes that unfold between interacting individuals. While recent work demonstrates that dyadic neurofeedback can enhance inter-brain synchrony during interaction, whether its effects extend beyond the trained dyad remains unclear. Here, we examined whether dyadic neurofeedback targeting inter-brain synchrony in the inferior frontal gyrus (IFG) is associated with changes in empathy-for-pain toward unfamiliar social targets. One hundred and eighty-six participants, randomly assigned to dyads, completed three neurofeedback training sessions within one week. Feedback was contingent on real-time IFG inter-brain synchrony in the neurofeedback group or on prerecorded signals in the sham-feedback control group. Empathy-for-pain was assessed before and after training. IFG inter-brain synchrony increased significantly across sessions in the neurofeedback group but not in the control group. Empathy-for-pain ratings showed different trajectories across conditions in the primary raw-data analysis, decreasing significantly in the sham-feedback group while remaining relatively stable in the neurofeedback group. A secondary analysis adjusting for a previously observed task-specific test-retest decline showed a significant increase in the neurofeedback group. Individuals with lower baseline trait empathy showed larger training-related increases in IFG inter-brain synchrony. Network analyses suggested broader changes involving IFG-IPL connectivity. Structural equation modeling further identified significant associations among training-related intra-brain synchrony, inter-brain synchrony, and empathy-for-pain change, consistent with the proposed relationship among these processes. Together, the findings indicate that dyadic neurofeedback can modulate IFG inter-brain synchrony across repeated training and may influence the trajectory of empathy-for-pain responding beyond the immediate training partner.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>A Dynamic Model of Amygdala Circuits in Threat and Reward: Implications for Affective Disorders.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.030</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.030</guid>
+      <description>Biological psychiatry
+
+Animals must continuously evaluate their surroundings and select adaptive responses to survive in ever-changing environments. Central to this capacity is the assignment of importance to environmental cues, which guides motivated behavior toward rewarding opportunities and away from potential threats. Here we propose a theoretical framework, a dynamic motivational model based on threat and reward imminence, in which motivational states evolve continuously as a function of imminence rather than shifting between discrete stages. Within this framework, three interacting dimensions define the stimulus relevance of an environmental cue: salience, valence, and value. We leverage the amygdala as a substrate to illustrate the circuit mechanisms underlying importance assignment and examine how stimulus imminence drives motivational state transitions to promote adaptive behavior. Applied to affective disorders, it reframes amygdala dysfunction as projection- and circuit-specific stress adaptation rather than uniform regional hyperactivity, providing a common language for comparing major depressive disorder, anxiety disorders, post-traumatic stress disorder, and substance use disorders. By integrating animal circuit studies with human neuroimaging and clinical evidence, this framework positions amygdala-centered networks as candidate biomarkers for biologically informed subtyping and targets for personalized treatment in depression and related affective disorders.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>The application of brain-computer interface on cognitive function and activities of daily living in stroke patients: a systematic review and meta-analysis</title>
       <link>https://europepmc.org/article/PMC/PMC13725544</link>
@@ -56,7 +109,7 @@ Successful goal-directed behavior often requires the exertion of effortful cogni
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122329</guid>
       <description>NeuroImage
 
-Non-invasive brain stimulation effects vary substantially across individuals, yet the physiological factors associated with this variability remain unclear. We tested whether baseline and task-related EEG markers of excitation/inhibition (E/I) and hemodynamic state are associated with the effects of transcranial random noise stimulation (tRNS) on learning. Participants completed a mathematical learning task during active or sham tRNS. We indexed E/I-related population dynamics using the EEG aperiodic exponent, for which lower values have been linked to relatively greater excitation than inhibition, and assessed hemodynamic state using fNIRS-derived oxygenated hemoglobin (HbO). Behavioral learning was modeled using generalized linear mixed-effects models. tRNS accelerated learning relative to sham stimulation but did not reliably induce pre-post changes in resting-state aperiodic exponent or HbO. Instead, stimulation effects were state-dependent. Higher resting-state aperiodic exponent and lower resting-state HbO were associated with greater behavioral gains under tRNS, while task-related aperiodic exponent was associated with stimulation-related differences in learning. Task-evoked HbO was associated with learning rate but did not significantly differentiate stimulation effects. Across modalities, the findings identify complementary electrophysiological and hemodynamic correlates of variability in learning under stimulation. However, statistical support for the EEG moderation effects was attenuated in models including participant-specific learning slopes, indicating sensitivity to random-effects specification and the need for replication. The findings argue against a simple tonic-shift account of tRNS and support a state-dependent framework in which stimulation effects depend on ongoing electrophysiological and hemodynamic context. EEG and fNIRS provided complementary information about variability in learning and stimulation response, supporting multimodal approaches to understanding and individualizing neuromodulation.</description>
+Background Non-invasive brain stimulation effects vary substantially across individuals, yet the physiological factors associated with this variability remain unclear. Objective We tested whether baseline and task-related EEG markers of excitation/inhibition (E/I) and hemodynamic state are associated with the effects of transcranial random noise stimulation (tRNS) on learning. Methods Participants completed a mathematical learning task during active or sham tRNS. We indexed E/I-related population dynamics using the EEG aperiodic exponent, for which lower values have been linked to relatively greater excitation than inhibition, and assessed hemodynamic state using fNIRS-derived oxygenated hemoglobin (HbO). Behavioral learning was modeled using generalized linear mixed-effects models. Results tRNS accelerated learning relative to sham stimulation but did not reliably induce pre-post changes in resting-state aperiodic exponent or HbO. Instead, stimulation effects were state-dependent. Higher resting-state aperiodic exponent and lower resting-state HbO were associated with greater behavioral gains under tRNS, while task-related aperiodic exponent was associated with stimulation-related differences in learning. Task-evoked HbO was associated with learning rate but did not significantly differentiate stimulation effects. Across modalities, the findings identify complementary electrophysiological and hemodynamic correlates of variability in learning under stimulation. However, statistical support for the EEG moderation effects was attenuated in models including participant-specific learning slopes, indicating sensitivity to random-effects specification and the need for replication. Conclusions The findings argue against a simple tonic-shift account of tRNS and support a state-dependent framework in which stimulation effects depend on ongoing electrophysiological and hemodynamic context. EEG and fNIRS provided complementary information about variability in learning and stimulation response, supporting multimodal approaches to understanding and individualizing neuromodulation.</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -249,6 +302,16 @@ Early functional connectivity within the brain's reward circuitry may provide in
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Mysterious flickering brain signals could help to unlock secrets of consciousness.</title>
+      <link>https://doi.org/10.1038/d41586-026-03384-6</link>
+      <guid isPermaLink="false">doi:10.1038/d41586-026-03384-6</guid>
+      <description>Nature
+
+来源未提供摘要。</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Neuroscience: The architecture of a fear memory.</title>
       <link>https://doi.org/10.1016/j.cub.2026.09.067</link>
       <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.067</guid>
@@ -330,6 +393,29 @@ Speech foundation models (SFMs) are increasingly hailed as powerful computationa
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Distinct roles of anterior cingulate and subcortical regions supporting effort evaluation versus preparation.</title>
+      <link>https://doi.org/10.1162/imag.a.1417</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1417</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Cognitive effort encompasses the mental exertion invested to achieve a goal as well as the experienced cost associated with that exertion. The dopaminergic midbrain regions (i.e., ventral tegmental area/substantia nigra), ventral striatum, and anterior cingulate cortex have all been broadly implicated in effort regulation. However, less is known about the role of these regions in dissociable subprocesses such as effort evaluation versus effort preparation. In this preregistered functional MRI study with concurrent pupil tracking, we disentangled the evaluation and preparation phase of reward- and effort-based motivation. In the evaluation phase, the typical valuation regions encoded high-reward and low-effort demand as motivational factors. In the preparation phase, the anterior cingulate cortex displayed increased activity for demanding high-reward trials. The dopaminergic midbrain exhibited a positive reward effect only during task execution. The results suggest that when separating evaluation from preparation, regions traditionally thought of as primarily reward attuned respond to high reward and low effort during evaluation but can assign a motivating signal to effort during preparation, while the anterior cingulate cortex integrates effort and reward prospect to subserve only preparatory control processes.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Neural and cognitive correlates of adolescent anxiety: Widespread brain network alterations, increased control costs, and visuospatial processing deficits.</title>
+      <link>https://doi.org/10.1162/imag.a.1409</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1409</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+This study investigated the neural substrates and cognitive correlates of adolescent anxiety, which are currently incompletely understood, in N = 3,499 youth with median (IQR) age 12.0 (1.1) years (~51.0% females), from the Adolescent Brain Cognitive Study. Resting-state fMRI, structural MRI, anxiety (scores and related disorder diagnoses), and neurocognitive data were analyzed. Mixed-effects regression models were used to examine associations between anxiety, brain characteristics (topological and morphometric properties, and regulatory (control) costs of intrinsic network dynamics), and cognitive outcomes. Females, older youth, and those with more parental mental health problems had higher anxiety (β = 0.04-1.15, 95% CI = [0.01, 2.18]). Higher resting-state connectivity and/or centrality (network importance) of the cerebellum, amygdala, and thalamus, and higher cerebellum-basal-ganglia-thalamus control costs were associated with higher anxiety (β = 0.04-0.08, 95% CI = [0.01, 0.11]). In contrast, temporoparietal and frontoparietal network efficiency and resilience (robustness) were protective for social and/or generalized anxiety disorders (adjusted odds ratio (aOR) = 0.72-0.80, 95% CI = [0.62, 0.98]). Higher cortical thickness and/or volume of the superior temporal gyrus, pars opercularis, precentral gyrus, and putamen were associated with higher odds of generalized or social anxiety disorder (aOR = 1.28-1.44, 95% CI = [1.07, 1.78]). Finally, anxiety was associated with lower response accuracy in the Little Man Task (β = -0.05, 95% CI = [-0.09, -0.01]), and attenuated positive brain-task performance associations. These findings suggest that adolescent anxiety is associated with widespread brain alterations, especially in the cerebellum-basal ganglia-thalamus network, while the organization of frontoparietal and temporoparietal networks, which play as key role in emotion regulation and social function, is protective for anxiety disorders. It is also associated with lower visuospatial processing and alterations in the networks that support it.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Brain systems supporting the narrative self and psychopathology.</title>
@@ -444,87 +530,6 @@ The space surrounding the body where physical interactions with external stimuli
 
 Phubbing, a prevalent interpersonal phenomenon in which individuals divert their attention to their phones while neglecting their interaction partners during face-to-face interactions, has been associated with adverse psychological and relational outcomes, including social pain. However, the same "eyes-on-phone" behavior may not always be experienced as phubbing or evoke feelings of neglect and social pain. The present research examined whether belonging context shapes behavioral and neural responses to "eyes-on-phone" behavior during face-to-face interaction. In Study 1, 163 participants completed a scenario-based task that required them to judge how they felt about several stories, in which belonging context (positive, negative, unrelated) was crossed with attentional state (eyes-on-phone, eyes-on-you). In Study 2, 50 participants completed the Cyberball paradigm to manipulate different belonging contexts (positive, negative, unrelated) with 6 models, followed by an ERP experiment in which they judged whether images of these models displaying different attentional states (eyes-on-phone, eyes-on-you) made them feel neglect-related social pain. Across both studies, within "positive" contexts, "eyes-on-phone" behavior elicited greater social pain, including perceived neglect, emotional unpleasantness, and unwillingness to communicate (Study 1), as well as a greater tendency to endorse neglect-related social pain and larger P3 amplitudes (Study 2) than "eyes-on-you" behavior, whereas this pattern was not consistently observed in the "negative" or "unrelated" contexts. These findings indicate that phubbing is not inherently experienced as social pain. Rather, its social meaning depends on prior belonging context: a mismatch between contextual cues and subsequent attentional behavior may give rise to expectancy violations, which could contribute to social pain when the behavior is interpreted as neglectful.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Learning Dynamic Affinity Diffusion for Multi-Contrast MRI Super-Resolution via Implicit Neural Representations.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122324</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122324</guid>
-      <description>NeuroImage
-
-Magnetic resonance imaging (MRI) super-resolution (SR) focuses on reconstructing high-quality, high-resolution target images from sparsely acquired signals while enhancing reconstruction performance through guidance from a reference image. In clinical practice, MRI SR contributes to reduced scan durations and alleviates patient discomfort, as well as motion artifacts associated with extended immobility. Existing SR approaches, however, exhibit insufficient interaction with texture features from the reference image, which results in pronounced inaccuracies at image edges. In addition, these methods often neglect the issue of noise amplification introduced during the SR process. To overcome these limitations, an implicit dynamic spatial propagation network (IDSPN) is introduced, integrating an implicit neural network with dynamic spatial propagation. Initially, residual dense blocks and residual channel attention networks are employed to extract features from the low-resolution input and reference images, respectively. Subsequently, a texture transformer performs feature alignment between the input and reference images and transfers texture information from the reference image to the low-resolution input, followed by upsampling through an implicit neural network. A backbone network then estimates affinity and propagation offsets, enabling refinement via multi-stage iterative diffusion. The proposed approach is evaluated on three publicly available datasets, with experimental findings demonstrating state-of-the-art performance and indicating its potential for clinical application. Codes are available from https://github.com/whj-proj/IDSPN.git.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Loose coupling between Ca&lt;sup&gt;2+&lt;/sup&gt; channels and release sensors as a synaptic correlate of higher-order brain function.</title>
-      <link>https://doi.org/10.7554/elife.110314</link>
-      <guid isPermaLink="false">doi:10.7554/elife.110314</guid>
-      <description>eLife
-
-In the mature neocortex, functionally distinct areas are built by the same archetypes of neurons, but depending on the area, these neurons and their synapses are engaged in very different functions, ranging from lower-order processing of sensory information to higher-order associations and cognitive functions. We found significant differences in the functional presynaptic nanoarchitectures of the same types of pyramidal neuron synapses, depending on whether they are located in the prefrontal cortex (PFC) or in the primary somatosensory cortex (S1) of mice. Mature synapses in PFC operated with loose microdomain coupling, as opposed to tight nanodomain coupling in S1. These differences were associated with significant differences in synaptic timing, efficacy, and plasticity between areas. Our data suggest that the mature neocortex uses tuning of synaptic topographies to specialize seemingly identical types of neurons for their required function. They suggest that microdomain coupling in pyramidal neuron synapses could be a presynaptic structure-function correlate of higher-order neocortical functions.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Ultrasound neuromodulation hypotheses on the directionality of effects and community resource.</title>
-      <link>https://doi.org/10.7554/elife.100827</link>
-      <guid isPermaLink="false">doi:10.7554/elife.100827</guid>
-      <description>eLife
-
-Low-intensity transcranial ultrasound stimulation (TUS) is a promising non-invasive technique for brain stimulation and focal neuromodulation. Research with humans and animal models has raised the possibility that TUS can be biased towards enhancing or suppressing neural function. Here, we first collate a set of hypotheses on the directionality of TUS effects and conduct an initial meta-analysis on available healthy human participant TUS studies reporting stimulation parameters and outcomes (n= 47 studies, 52 experiments). In initial exploratory analyses with univariate tests, we find that parameters, such as the intensity and continuity of stimulation (duty cycle, DC) show statistical trends towards likely TUS neural enhancement or suppression of function. Machine-learning analyses were limited by the currently small sample size. Given that human TUS sample sizes are expected to increase, predictability on the directionality of TUS effects could improve if a database is available. Therefore, we establish an inTUS database and resource for the systematic reporting of TUS parameters and outcomes to assist in greater precision in TUS use for brain stimulation and neuromodulation. The paper concludes with a selective review of human clinical TUS studies illustrating how hypotheses on the directionality of TUS effects could be developed for empirical testing in the intended clinical application, not limited to the examples provided.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Learning from Error Predictions Rather Than Prediction Errors: A Perspective on Self-Supervised Learning in the Brain.</title>
-      <link>https://doi.org/10.1523/jneurosci.1809-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1809-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Humans learn by doing and observing but also by imagining the result of simulated actions in their mind. When learning from executed or observed actions, traditional theories posit that behavior improves by minimizing the difference between (1) the perceived outcome derived from sensory feedback and (2) the desired outcome (performance error) or the outcome predicted by an internal model (prediction error, PE). Supporting these theories, decades of electrophysiological studies have documented the role of the dopaminergic system and cerebellum in generating activity patterns compatible with the hypothesized error signals. In comparison, our understanding of the neural basis underlying the ability to learn from simulated actions is far more limited. Here, I argue that this form of self-supervised learning is best described in terms of a quantity known as the predicted performance error (PPE), theorized more than 30 years ago and yet largely overlooked ever since. Complementary to PEs, PPEs reflect "error predictions" between predicted and desired outcomes. Unlike PEs, however, PPEs exist even in the absence of sensory feedback and can in principle serve to evaluate actions without executing them, based on an efference copy of the underlying motor plan. I review evidence supporting the computation of PPEs in the brain and propose a network implementation based on a cortico-basal ganglia loop interacting at multiple timescales with prefrontal, parietal, and hippocampal areas. I then connect PPEs to recent discoveries on motor planning and formulate novel predictions linking PPEs to various high-level brain functions such as metacognition, problem-solving, and deception.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Normalization Accounts for Temporal Dynamics in the Human Somatosensory Cortex.</title>
-      <link>https://doi.org/10.1523/jneurosci.0782-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0782-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Sensory processing is fundamentally shaped by stimulation history. For example, in the visual cortex, neural responses are reduced for repeated or sustained stimuli (adaptation). These phenomena are well characterized and effectively modeled by divisive normalization. We asked whether these same computational principles govern somatosensory processing. We used fMRI (six participants, all female) and intracranial electroencephalography (iEEG, two participants, both male) to measure responses to time-varying vibrotactile stimuli in the human somatosensory cortex. Stimuli consisted of single and paired pulses with durations and interstimulus intervals ranging from 0.05 to 1.2 s. We extracted BOLD time courses to capture neural response amplitudes and high-frequency iEEG broadband envelopes to capture fast neural dynamics. In both experiments, we observed pronounced subadditive temporal summation. Responses to longer or repeated stimuli were consistently lower than predicted by linear integration. Computational modeling revealed that divisive normalization models outperformed linear models in cross-validated accuracy across both datasets. These results demonstrate that somatosensory temporal dynamics closely mirror those in the visual system. Our findings suggest that the nervous system employs similar computational principles across modalities to encode sensory information across time.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Equidistance between Primary Sensory-Motor Landmarks Shapes Functional Specialization in the Human Brain.</title>
-      <link>https://doi.org/10.1523/jneurosci.0352-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0352-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The human cortex is organized around primary sensory-motor landmarks, but the way these distances shape large-scale functional organization remains unclear. Using geodesic measures in males and females, we show that global minimum distance to sensory-motor landmarks aligns with the principal gradient of intrinsic connectivity, reflecting the shift from unimodal to heteromodal cortex, while equidistance between landmarks captures complementary organizational patterns. Heteromodal networks, including default mode, control, and limbic systems, occupy cortical regions that are both distant from primary systems and relatively balanced between them. Subsystems within these networks exhibit distinctive spatial embeddings: core default mode regions sit equidistant between visual and somatomotor cortex, frontotemporal default mode regions favor auditory cortex but remain relatively balanced, and medial temporal regions are biased toward visual cortex. Control network subsystems also vary: the control-DMN subsystem occupies the most distant and equidistant positions, core control is closer to motor regions, and medial control is closer to visual cortex, reflecting their different functional specializations. At the parcel level, greater equidistance predicts stronger task-evoked activation, particularly in heteromodal border zones. These findings highlight two complementary spatial principles-proximity and balance-that structure the cortex, shaping both the location and functional profile of heteromodal networks.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Individualised electrophysiological neural field models for the assessment of thalamocortical function in disorders of consciousness: A multicentre study.</title>
-      <link>https://doi.org/10.1371/journal.pcbi.1014905</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014905</guid>
-      <description>PLoS computational biology
-
-Understanding the neural mechanisms underlying disorders of consciousness (DoC) remains a major challenge, particularly in distinguishing limited awareness in minimally conscious state (MCS) and complete unawareness in unresponsive wakefulness syndrome, also coined vegetative state (UWS/VS). In this multicentre study, we fitted a biophysically informed corticothalamic neural field model to high-density EEG data from two large independent datasets, comprising 203 UWS patients, 270 MCS patients and 74 healthy controls. We then used the fitted parameters to simulate EEG time series on a per-subject basis and compared empirical and simulated complexity metrics. The model reliably captured the spectral features across different states of consciousness and revealed reduced corticothalamic integrity in DoC patients that was more pronounced in UWS than in MCS, supporting the mesocircuit hypothesis. Furthermore, the simulated EEG reproduced the complexity patterns of the empirical recordings, with permutation entropy emerging as a sensitive marker capable of distinguishing between MCS and UWS for both real and simulated time series.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Emotion regulation capacity lacks a shared neural signature.</title>
-      <link>https://doi.org/10.1038/s41586-026-11203-1</link>
-      <guid isPermaLink="false">doi:10.1038/s41586-026-11203-1</guid>
-      <description>Nature
-
-Cognitive reappraisal refers to changing how one thinks about a situation to alter its emotional impact. It is central to well-being1 and engages prefrontal regulatory circuits2 , prompting the assumption that their activity reflects a person's capacity to regulate emotions3-5 . Yet evidence for this assumption remains inconclusive and has not been established at scale. Here we analysed 40 task-based functional magnetic resonance imaging (fMRI) datasets in a preregistered consortium with 2,175 participants and show that three widely used indicators of reappraisal capacity-trait questionnaires, task-based affective ratings and amygdala down-regulation-do not converge on a common core. Moreover, none of the three indicators showed the expected association with canonical prefrontal regulatory circuits. Trait questionnaires showed no detectable neural associations across the brain and task-based affective ratings were instead associated with responses in the amygdala and sensorimotor cortices. At the process level, canonical control circuits were engaged during both emotion generation and reappraisal, challenging their presumed specificity for emotion regulation. These findings caution against using activation in putatively regulatory brain regions to infer how well a person regulates emotions, with implications for neural biomarkers, interventions and psychoeducation that link emotion regulation difficulties to specific regional brain deficits.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>

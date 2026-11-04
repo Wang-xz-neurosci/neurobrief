@@ -5,9 +5,51 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 20:30:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 20:46:36 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping Individual Brain Deviations in ICD-11 Catatonia: Normative Modeling of Structural and Functional MRI Across Two Independent Cohorts.</title>
+      <link>https://doi.org/10.1176/appi.ajp.20260326</link>
+      <guid isPermaLink="false">doi:10.1176/appi.ajp.20260326</guid>
+      <description>The American journal of psychiatry
+
+Catatonia is a transdiagnostic psychomotor syndrome cutting across mood disorders (MODs) and schizophrenia spectrum disorders (SSDs). However, its neurobiological profiles remain poorly characterized. The authors examined structural and resting-state functional normative deviations associated with catatonia across two independent clinical cohorts, using hierarchical Bayesian normative modeling. Structural and resting-state functional MRI data were analyzed from two independent deeply phenotyped cohorts of 280 patients with MODs and SSDs. The Mannheim (Germany) sample included 184 patients with MODs or SSDs (58 with ICD-11 catatonia), and the Bern (Switzerland) sample comprised 96 SSD patients (59 with ICD-11 catatonia). Individual deviations from normative models were estimated using the PCNToolkit, based on healthy reference datasets (N=57,000 structural; N=22,000 functional). Catatonia diagnosis was associated with significant ventricular enlargement (third ventricle and left and right lateral ventricles; q&lt;0.05) and cortical thinning in the left dorsal posterior cingulate and insular cortices (q&lt;0.05) across both cohorts. Exploratory analyses identified a significant left orbitofrontal cortex (OFC) difference between MOD and SSD patients with catatonia. In the overall catatonia versus non-catatonia comparison, the OFC association survived false discovery rate correction only in models adjusted for demographic variables. Resting-state functional analyses showed reduced connectivity between sensorimotor, salience, limbic, and executive control networks at the nominal significance level, but did not survive correction for multiple comparisons. In the combined sample, catatonia was characterized by ventricular enlargement and cingulo-insular cortical thinning, supporting a transdiagnostic model implicating distributed motor-salience integration circuits. These findings provide reproducible, individual-level evidence for distributed brain network involvement in catatonia and identify candidate regions for future mechanistic and neuromodulation studies.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>The Red Nucleus in Motor Control and Autism Spectrum Disorder.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107077</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107077</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Neuromotor differences of motor coordination, timing, postural regulation, and prospective motor control are common and emerge early in autism spectrum disorder (ASD). However, their underlying neural mechanisms remain incompletely understood, with existing research emphasising cortical and cerebellar systems. This review re-examines the red nucleus (RN), a midbrain structure embedded within cortical, cerebellar, and olivary motor pathways, as an underexplored component of distributed sensorimotor networks. We synthesise evidence from comparative neuroanatomy, animal experiments, human neuroimaging, movement disorders, and autism research, distinguishing direct RN findings from broader circuit-level inferences. Neuroimaging studies have reported RN-region susceptibility differences in autistic children, including an exploratory association with fine-motor development, but reproducible links to specific motor processes and RN-related causal mechanisms remain unestablished. We therefore propose a testable hypothesis that differences in RN structure, function, or connectivity may be associated with specific dimensions of motor function in autism. Error-related sensorimotor adaptation provides a primary experimental target, complemented by prospective motor control. Future investigations combining RN-sensitive neuroimaging, quantitative motor assessment, and transdiagnostic comparisons with developmental coordination disorder may determine whether RN-related measures provide explanatory information beyond sensorimotor systems. This framework positions the RN as a candidate component of autism-related motor networks.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>A Dynamic Model of Amygdala Circuits in Threat and Reward: Implications for Affective Disorders.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.030</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.030</guid>
+      <description>Biological psychiatry
+
+Animals must continuously evaluate their surroundings and select adaptive responses to survive in ever-changing environments. Central to this capacity is the assignment of importance to environmental cues, which guides motivated behavior toward rewarding opportunities and away from potential threats. Here we propose a theoretical framework, a dynamic motivational model based on threat and reward imminence, in which motivational states evolve continuously as a function of imminence rather than shifting between discrete stages. Within this framework, three interacting dimensions define the stimulus relevance of an environmental cue: salience, valence, and value. We leverage the amygdala as a substrate to illustrate the circuit mechanisms underlying importance assignment and examine how stimulus imminence drives motivational state transitions to promote adaptive behavior. Applied to affective disorders, it reframes amygdala dysfunction as projection- and circuit-specific stress adaptation rather than uniform regional hyperactivity, providing a common language for comparing major depressive disorder, anxiety disorders, post-traumatic stress disorder, and substance use disorders. By integrating animal circuit studies with human neuroimaging and clinical evidence, this framework positions amygdala-centered networks as candidate biomarkers for biologically informed subtyping and targets for personalized treatment in depression and related affective disorders.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Age-dependent structural brain aging in medication-free major depressive disorder: A multi-site analysis from COORDINATE-MDD consortium.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.10.028</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.028</guid>
+      <description>Biological psychiatry
+
+Major depressive disorder (MDD) is associated with altered brain structure and accelerated brain aging. However, previous studies have been limited by clinical samples with mixed medication status and multiple mood states, modest sample sizes, underrepresentation of older adults with MDD, and/or reliance on summary-level data. Harmonized T1-weighted MRI from MDD (n = 645), all medication-free and in a current depressive episode, and matched healthy controls (n = 645), segmented into 145 regional volumes, from 11 sites in COORDINATE-MDD consortium. Brain age gap (BAG) was estimated cross-sectionally using gradient boosting regression with nested cross-validation. Group differences in BAG (and age-corrected BAG [cBAG]) were examined across age strata. Regional contributions were evaluated using SHAP values. MDD was associated with significantly elevated cBAG compared with healthy controls (mean difference + 2.0 years [95% CI 1.251, 2.774], Cohen's d -0.289 [95% CI -0.399, -0.179]). Age-stratified analyses showed no differences before mid-30s, with progressively larger gaps thereafter, reaching +6.8 years in MDD aged 55 and older in unadjusted analyses (4.3 years after accounting for site). cBAG differed across neuroanatomical phenotypes previously identified using COORDINATE-MDD data. Key contributing regions included lateral and medial prefrontal regions, middle temporal gyrus, putamen, supplementary motor cortex, central operculum, and cerebellum. Structural brain aging in MDD is age-dependent and most pronounced in a neuroanatomical phenotype associated with poorer key clinical outcomes. The findings are consistent with, but do not establish, neuroprogression models of MDD and demonstrate that cBAG is not a uniform feature of MDD, being more strongly expressed in a specifically clinically vulnerable disease phenotype.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Cerebrospinal fluid TNF-α, regional degree centrality, and depressive symptoms after herpes simplex encephalitis: a cross-sectional observational study</title>
       <link>https://europepmc.org/article/PMC/PMC13725786</link>
@@ -94,6 +136,19 @@ Background Brain connectivity abnormalities may underlie affective psychosis whi
 
 Fine-scale spatiotemporal dynamics of functional brain networks are increasingly recognized as critical markers of transient connectivity and neuropsychiatric pathology. However, many existing dynamic fMRI methods primarily focus on temporal variability without explicitly resolving the spatial-frequency content of network dynamics, potentially limiting characterization of subtle, high-frequency spatial reconfigurations. To address this gap, we propose SPARK-ICA (Spatial-frequency Partitioned, Adaptive Reconstruction using Knowledge-guided ICA), a frequency-resolved dynamic spatial independent component analysis (ICA) framework that integrates NeuroMark template guidance with spatial frequency decomposition and group-level ICA of time-resolved, band-specific spatial maps. Starting from template-guided NeuroMark networks, we first estimate time-varying spatial maps using a dynamic guided ICA approach, capturing subject-specific network expression over time. Each dynamic spatial map is then decomposed into multiple spatial frequency bands using Fourier-domain spatial filtering, isolating fine- to coarse-scale spatial features at each time point. Band-specific spatial maps are subsequently concatenated and subjected to a blind group-level multi-frequency ICA, yielding a compact latent representation in which each dynamic component is characterized by distinct spatial-frequency signatures. These group-level band-resolved components are then used as references to estimate subject- and band-specific time courses and maps via spatially constrained ICA, enabling frequency-specific analysis of both long-term correlations and short-term temporal variability while preserving reproducibility across subjects. Using resting-state fMRI data from schizophrenia (SZ) patients and healthy controls (HC), we evaluated both long-term correlations and short-term variability of band-resolved dynamic time courses. For the group-level analyses, we focused on a predefined subset of NeuroMark networks with well-established involvement in SZ-related dysconnectivity. Our results reveal frequency-specific abnormalities in SZ, with enhanced long-term connectivity within sensory and subcortical networks and pronounced short-term alterations involving predominantly higher-frequency spatial components, particularly in cerebellar and subcortical systems. These findings indicate that SZ-related dysregulation is differentially expressed across spatial-frequency and temporal scales, rather than reflecting uniform dysconnectivity. Together, this framework provides a unified approach for analyzing dynamic fMRI networks across spatial, temporal, and frequency dimensions, extending our previous NeuroMark-DyFICA framework from a predominantly high-frequency spatial representation to an explicitly frequency-resolved characterization of dynamic network organization. By explicitly modeling spatial frequency-dependent dynamics, the proposed method provides a more resolved characterization of network alterations and offers a framework for identifying candidate markers of neuropsychiatric disorders.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Neural and cognitive correlates of adolescent anxiety: Widespread brain network alterations, increased control costs, and visuospatial processing deficits.</title>
+      <link>https://doi.org/10.1162/imag.a.1409</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1409</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+This study investigated the neural substrates and cognitive correlates of adolescent anxiety, which are currently incompletely understood, in N = 3,499 youth with median (IQR) age 12.0 (1.1) years (~51.0% females), from the Adolescent Brain Cognitive Study. Resting-state fMRI, structural MRI, anxiety (scores and related disorder diagnoses), and neurocognitive data were analyzed. Mixed-effects regression models were used to examine associations between anxiety, brain characteristics (topological and morphometric properties, and regulatory (control) costs of intrinsic network dynamics), and cognitive outcomes. Females, older youth, and those with more parental mental health problems had higher anxiety (β = 0.04-1.15, 95% CI = [0.01, 2.18]). Higher resting-state connectivity and/or centrality (network importance) of the cerebellum, amygdala, and thalamus, and higher cerebellum-basal-ganglia-thalamus control costs were associated with higher anxiety (β = 0.04-0.08, 95% CI = [0.01, 0.11]). In contrast, temporoparietal and frontoparietal network efficiency and resilience (robustness) were protective for social and/or generalized anxiety disorders (adjusted odds ratio (aOR) = 0.72-0.80, 95% CI = [0.62, 0.98]). Higher cortical thickness and/or volume of the superior temporal gyrus, pars opercularis, precentral gyrus, and putamen were associated with higher odds of generalized or social anxiety disorder (aOR = 1.28-1.44, 95% CI = [1.07, 1.78]). Finally, anxiety was associated with lower response accuracy in the Little Man Task (β = -0.05, 95% CI = [-0.09, -0.01]), and attenuated positive brain-task performance associations. These findings suggest that adolescent anxiety is associated with widespread brain alterations, especially in the cerebellum-basal ganglia-thalamus network, while the organization of frontoparietal and temporoparietal networks, which play as key role in emotion regulation and social function, is protective for anxiety disorders. It is also associated with lower visuospatial processing and alterations in the networks that support it.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
     </item>
@@ -365,6 +420,17 @@ Temporal lobe epilepsy (TLE) is a network disorder extending beyond the structur
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>What are the neural networks that have been modulated by anatomically targeted therapies to promote recovery of consciousness? A scoping review.</title>
+      <link>https://doi.org/10.3389/fneur.2026.1882395</link>
+      <guid isPermaLink="false">doi:10.3389/fneur.2026.1882395</guid>
+      <description>Frontiers in neurology
+
+Disorders of Consciousness (DoC) arise from insults to neural networks responsible for awareness and arousal. DoC subtypes are frequently misdiagnosed, as mechanisms underlying consciousness remain poorly understood. Neurostimulation has been investigated as a potential therapy for DoC recovery; however, the evidence for its therapeutic efficacy remains heterogeneous, and the relationship between anatomical target, network modulation, and clinical recovery is unclear. This scoping review evaluates clinical trials investigating neurostimulation in DoC patients, observing trends and assessing the therapeutic significance of network-targeted stimulation, whilst proposing targets for future studies. A comprehensive scoping review was conducted in accordance with PRISMA extension for Scoping Reviews evaluating the efficacy of anatomically targeted neurostimulation in adult patients with DoC. Literature searches were conducted on PubMed, SCOPUS, and Web of Science, with the final search performed in March 2026. Studies were included if they reported quantitative measures of consciousness recovery and had a clearly defined stimulation target. Twenty-two studies were included. Thirteen evaluated the frontoparietal network, the with dorsolateral prefrontal cortex being the most frequent anatomical target, suggesting potential research bias toward this region. Transcranial direct current stimulation and repetitive transcranial magnetic stimulation were the most frequently trialed stimulation modalities. Among studies investigating electrophysiological measures or neuroimaging, improvements in functional connectivity were observed post-stimulation, often correlating with individual-level improvements in clinical consciousness. Nevertheless, group-level outcomes were inconsistent. Six studies reported improvement in consciousness-related behavioral outcomes. No single anatomical target was associated with a clinical response; however, heterogeneity amongst study cohorts and protocols confounded the ability to determine the relative efficacy of network targets. Network-targeted neurostimulation is a promising approach for DoC recovery but remains investigational. Current evidence does not support a single optimal anatomical target, with studies often overlooking individual variations in structural cerebral integrity and connectivity within their cohorts. Future trials should consider using individualized structural and functional mapping, stratify participants by baseline connectivity and clinical subtype, and apply standardized outcome definitions. A more personalized approach to neuromodulation will likely better optimize therapeutic outcomes for consciousness recovery.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Shared cortical morphometry and molecular signatures across depression and physical diseases.</title>
       <link>https://doi.org/10.1038/s41380-026-03928-2</link>
       <guid isPermaLink="false">doi:10.1038/s41380-026-03928-2</guid>
@@ -500,74 +566,6 @@ In primary progressive aphasia, differential diagnosis between non-fluent (nfvPP
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Effects of single-modality sensory stimulation on brain function in patients with prolonged disorders of consciousness: a near-infrared spectroscopy-based study</title>
-      <link>https://europepmc.org/article/PMC/PMC13657944</link>
-      <guid isPermaLink="false">PMC:PMC13657944</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Normative functional network localization of gray matter alterations in idiopathic generalized epilepsy.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1957963</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1957963</guid>
-      <description>Frontiers in neurology
-
-Objective Idiopathic generalized epilepsy (IGE) has traditionally been considered a non-lesional epilepsy syndrome on conventional MRI, yet voxel-based morphometry (VBM) studies have reported subtle gray matter (GM) abnormalities across diverse brain regions. These findings remain spatially heterogeneous and difficult to reconcile. We aimed to characterize the normative functional connectivity patterns associated with reported GM alterations in IGE using functional connectivity network mapping (FCNM), and to explore whether these spatially heterogeneous findings show a reproducible pattern of observed network overlap. Methods We systematically identified 18 whole-brain VBM studies of IGE, including 111 reported peak coordinates from 1,492 participants. Coordinates reflecting both increased and decreased GM were pooled in the primary analysis to characterize normative connectivity patterns associated with reported GM alterations irrespective of alteration direction. Using resting-state functional MRI (rs-fMRI) data from a normative discovery cohort (Human Connectome Project, N = 1,093), we mapped the functional connectivity of these GM coordinates to identify a convergent IGE-related network. The reproducibility of the observed spatial pattern was explored using an independent, cross-scanner validation cohort (Southwest University Adult Lifespan Dataset, N = 329) and two alternative seed sizes (1-mm and 7-mm radii). Results Reported GM alterations in IGE were associated with an observed distributed normative functional connectivity pattern involving the bilateral middle temporal gyri, bilateral thalami, left superior frontal gyrus, and right putamen. In the HCP discovery analysis, this network showed the greatest observed overlap with the subcortical network (overlap proportion = 42.77%) and secondary correspondence with the default mode network (DMN; overlap proportion = 11.06%). Analysis using the independent SALD connectome showed a similar descriptive pattern, with the greatest observed overlap again involving the subcortical network (overlap proportion = 43.98%), whereas DMN correspondence was weaker. Conclusion Reported GM alterations in IGE converge most robustly onto a subcortical normative functional network involving the thalamus and putamen, with additional DMN involvement observed primarily in the HCP discovery analysis. These findings provide preliminary, descriptive evidence that reported GM alterations in IGE are associated with a reproducible subcortical normative connectivity pattern across two connectome datasets, although the available analyses do not establish above-chance or disease-specific network convergence.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Two clusters of brain regions with distinct age-related profiles of functional connectivity in autism spectrum disorder.</title>
-      <link>https://doi.org/10.1073/pnas.2617358123</link>
-      <guid isPermaLink="false">doi:10.1073/pnas.2617358123</guid>
-      <description>Proceedings of the National Academy of Sciences of the United States of America
-
-Brain functional connectivity changes throughout development, and individuals with autism spectrum disorder (ASD) may follow trajectories that differ from those of typically developing controls. Using large multisite resting-state fMRI cross-sectional datasets, we examined how functional connectivity differences between ASD and typically developing controls change across a broad age range of 5 to 64 y. A data-driven analysis identified two spatially distributed clusters of cortical regions showing distinct age-related profiles of ASD-TD connectivity differences. Cluster 1 was marked by consistent hypoconnectivity across ages, suggesting a stable neural signature of ASD. Cluster 2 was characterized by hypoconnectivity in childhood that gradually diminished with age, suggesting a temporary delay profile. These clusters were systematically organized along the sensory-association axis. Cluster 1 mainly involved lower-rank sensory and sensorimotor cortices, while Cluster 2 mainly involved higher-rank association cortices. Brain-behavior analyses revealed greater and broader ASD symptom associations across ages in the consistent hypoconnectivity profile than the delay profile. Further subtype analyses suggested that social-affect symptoms were associated with greater hypoconnectivity than repetitive behavior symptoms in both clusters. Spatial correlation analyses with neurotransmitter maps revealed associations of Cluster 1 with mGluR5 and of Cluster 2 with GABAA α5, providing insight into the neurobiological basis of the two clusters. In a cross-disorder validation analysis, applying the same analytic framework to attention-deficit/hyperactivity disorder did not reveal comparable results. Together, these findings suggest that ASD-related functional connectivity alterations are developmentally heterogeneous and organized along the cortical hierarchy, providing a developmental perspective for understanding the neurobiology of ASD.</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Uncovering Latent Cognitive, Metacognitive, and Neural Bases of Problem-Solving Deficits in Children with Developmental Dyscalculia.</title>
-      <link>https://doi.org/10.1523/jneurosci.2200-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.2200-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Developmental dyscalculia (DD) affects 7-10% of children and is characterized by persistent difficulties in arithmetic problem-solving, which depends on the dynamic interplay between cognitive and metacognitive control processes governing strategy execution and selection. Conventional behavioral and neuroimaging approaches do not simultaneously quantify these latent processes and link them to distributed neural mechanisms, leaving the neurocognitive and metacognitive underpinnings of DD insufficiently characterized. We integrated Bayesian computational modeling with whole-brain decoding to uncover cognitive, metacognitive, and neural bases of problem-solving deficits in DD using a sample of 68 children aged 8-10 years (38 female). Children with DD showed deficits across all problem-solving strategies (counting, retrieval, and decomposition), indicating reduced strategy execution efficiency. They also exhibited significant metacognitive impairments: longer baseline switching times between strategies, reduced sensitivity to problem difficulty, and lower adaptivity in selecting optimal strategies. Whole-brain Elastic Net decoding accurately distinguished DD from TA peers based on distributed activation patterns across frontoparietal cortex, hippocampus, and ventral-visual regions, whereas univariate approaches did not. Linear multivariate brain-behavioral analyses and nonlinear transformer-based predictions converged in showing that these distributed signatures predicted counting efficiency and switching sensitivity. Notably, brain-behavior relations reversed in direction between groups, positive in TA children but negative in DD, most strikingly in the hippocampus. These findings demonstrate that arithmetic difficulties in DD arise from deficits in both strategy execution efficiency and metacognitive control, reflecting an altered mapping between distributed neural activity, and highlight the power of integrating computational modeling with brain-wide decoding to understand learning disabilities.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Hemispheric Asymmetry of Neuroimaging Biomarkers in Early Onset Alzheimer's Disease: Clinical and Cognitive Outcomes.</title>
-      <link>https://doi.org/10.1002/ana.78391</link>
-      <guid isPermaLink="false">doi:10.1002/ana.78391</guid>
-      <description>Annals of neurology
-
-Objective Individuals diagnosed with Alzheimer's disease (AD) often exhibit amyloid, tau, and atrophy predominantly in the left or right hemisphere, but group-level analyses typically ignore inter-individual variability and changing asymmetry patterns when averaging data across participants in phenotypically diverse cohorts. Methods We examined left/right hemispheric asymmetry in amyloid positron emission tomography (PET), tau PET, and cortical atrophy in sporadic early-onset AD from 585 deeply phenotyped individuals across 2 cohorts to investigate its clinical correlates. For each imaging biomarker, we computed a global asymmetry index reflecting left/right hemisphere signal difference, and an analogous asymmetry value for PET/magnetic resonance imaging (MRI) voxels. We examined clinical and cognitive correlates of this asymmetry across phenotypes cross-sectionally and longitudinally in a subset of 218 participants. Results Both left and right asymmetry were common for all clinical phenotypes and was correlated between imaging biomarkers. Asymmetry patterns varied spatially within phenotypes, and asymmetry in tau PET and MRI volumes was related to hemisphere-dependent cognitive deficits and neuropsychiatric symptoms. Longitudinal analyses revealed stable amyloid PET asymmetry, decreasing tau PET asymmetry, and increasing MRI volume asymmetry. Interpretation Hemispheric asymmetry is common in early onset AD and correlates with clinical outcomes. Our longitudinal findings suggest a time-lagged asymmetry peak in amyloid, then tau, then atrophy. Taken together, our results position asymmetry as an important feature of AD heterogeneity, as it provides insight into disease mechanisms and trajectories. ANN NEUROL 2026.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Default mode network mechanisms of trait rumination in treatment-resistant depression and rTMS: evidence from source-localized EEG.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122284</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122284</guid>
-      <description>NeuroImage
-
-Background Rumination is a transdiagnostic feature of multiple psychiatric disorders and is a critical risk factor for more severe episodes and poor treatment outcomes in treatment-resistant depression (TRD). Repetitive Transcranial Magnetic Stimulation (rTMS) ameliorates both depressive and ruminative symptoms in TRD. While prior literature has linked rumination to abnormal default mode network (DMN) connectivity, the electrophysiological correlates of rumination in the DMN are not well understood. Methods Resting-state electroencephalography (EEG) data were examined in a cohort of 66 TRD subjects who underwent 30 sessions of rTMS treatment for TRD administered to left dorsolateral prefrontal cortex (DLPFC). We employed source-localization and calculated four metrics of functional connectivity (Amplitude Envelope Correlation [AEC], weighted Phase Lag Index [wPLI], magnitude-squared coherence, and Spectral Correlation Coefficient [SCC]) across five frequency bands within the DMN to identify the neural correlates of rumination in TRD. Correction for multiple comparisons was performed using the Network Based Statistic (NBS). Results Baseline severity of rumination and depression were positively correlated, but AEC alpha band connectivity was positively associated only with baseline rumination severity and not depression. Rumination severity prior to treatment was not associated with any other connectivity metric. Severity of rumination and depression decreased following rTMS treatment, but alpha AEC connectivity did not charge after 30 sessions of rTMS treatment. Conclusion Higher DMN connectivity, as measured by alpha-band AEC, is a stable trait-like neurophysiological marker of rumination that is not significantly affected by rTMS administered to left DLPFC.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>
