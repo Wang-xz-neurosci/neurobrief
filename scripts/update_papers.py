@@ -1,6 +1,7 @@
 """Fetch actual Europe PMC records. Standard library only; no AI or API key.
 
-Fail closed: keep the previous dataset if any topic fails or pagination truncates.
+Keep the previous dataset on unverified pagination gaps. Small, independently
+confirmed unavailable index entries are recorded and revisited in recent scans.
 Publication and indexing dates remain distinct; never fabricate missing metadata.
 """
 import argparse
@@ -244,6 +245,78 @@ def request_json(params):
             time.sleep(2 ** (attempt + 1))
 
 
+class IncompletePagination(RuntimeError):
+    def __init__(self, rows, total, terminal=False):
+        self.rows, self.total, self.terminal = rows, total, terminal
+        super().__init__(f'Incomplete pagination: {len(rows)}/{total}')
+
+
+def record_key(row):
+    if not row.get('id') or row.get('source') not in ('MED', 'PMC', 'PPR'):
+        raise ValueError('Unexpected source record identifier')
+    return row['source'], row['id']
+
+
+def fetch_pages(query, result_type='core'):
+    cursor, rows, visited = '*', {}, set()
+    total = None
+    for page in range(120):
+        data = request_json({'query': query, 'format': 'json', 'resultType': result_type, 'pageSize': 250, 'cursorMark': cursor})
+        batch = data['resultList']['result']
+        total = int(data['hitCount'])
+        for row in batch:
+            rows[record_key(row)] = row
+        if len(rows) == total:
+            return list(rows.values()), total
+        if len(rows) > total:
+            raise IncompletePagination(list(rows.values()), total)
+        next_cursor = data.get('nextCursorMark')
+        if not next_cursor or next_cursor == cursor or next_cursor in visited:
+            raise IncompletePagination(list(rows.values()), total, terminal=not next_cursor and len(batch)<250)
+        visited.add(cursor)
+        cursor = next_cursor
+        time.sleep(0.4)
+    raise IncompletePagination(list(rows.values()), total)
+
+
+def reconcile_sources(query, original):
+    """Verify available results per source rather than trusting a mixed hitCount.
+
+    Europe PMC can count index entries for which neither core nor idlist returns
+    a record. Accept only a small, stable discrepancy; do not waive a real
+    missing page, source-count change, missing ID, or large/empty partial scan.
+    """
+    rows, gaps, total = {}, [], 0
+    base = query.removesuffix(' sort_date:y')
+    for source in ('MED', 'PMC', 'PPR'):
+        scoped = f'({base}) AND SRC:{source} sort_date:y'
+        try:
+            batch, count = fetch_pages(scoped)
+        except IncompletePagination as part:
+            if not part.terminal:
+                raise original
+            try:
+                ids, count = fetch_pages(scoped, 'idlist')
+            except IncompletePagination as id_part:
+                if not id_part.terminal:
+                    raise original
+                ids, count = id_part.rows, id_part.total
+            if count != part.total or {record_key(r) for r in ids} != {record_key(r) for r in part.rows}:
+                raise original
+            batch = part.rows
+            gaps.append({'source': source, 'reported_count': count, 'retrieved_count': len(batch),
+                         'unavailable_count': count-len(batch), 'confirmed_by': 'source-core-and-idlist'})
+        if any(r['source'] != source for r in batch):
+            raise original
+        total += count
+        rows.update((record_key(r), r) for r in batch)
+    unavailable = sum(g['unavailable_count'] for g in gaps)
+    if (total != original.total or not {record_key(r) for r in original.rows}.issubset(rows)
+            or unavailable > 5 or (unavailable and (not rows or unavailable / total > .05))):
+        raise original
+    return list(rows.values()), gaps
+
+
 def fetch_topic(topic, start, end, index_start, full_scan=False, publication_windows=None, journals=None):
     dates = f"FIRST_PDATE:[{start} TO {end}]"
     if not full_scan:
@@ -252,23 +325,26 @@ def fetch_topic(topic, start, end, index_start, full_scan=False, publication_win
         changed += [f"FIRST_IDATE:[{index_start} TO {end}]", f"UPDATE_DATE:[{index_start} TO {end}]"]
         dates += " AND (" + " OR ".join(changed) + ")"
     query = f"({topic_query(topic, journals)}) AND {dates} AND (SRC:MED OR SRC:PMC OR SRC:PPR) sort_date:y"
-    cursor, rows = "*", []
-    total = None
-    for page in range(120):
-        data = request_json({"query": query, "format": "json", "resultType": "core", "pageSize": 250, "cursorMark": cursor})
-        batch = data["resultList"]["result"]
-        total = int(data["hitCount"])
-        rows.extend(batch)
-        next_cursor = data.get("nextCursorMark")
-        if len(rows) >= total:
-            break
-        if not batch or not next_cursor or next_cursor == cursor:
-            raise RuntimeError(f"Incomplete pagination for {topic['id']}: {len(rows)}/{total}")
-        cursor = next_cursor
-        time.sleep(0.4)
-    else:
-        raise RuntimeError(f"Pagination limit exceeded for {topic['id']}; old data preserved")
-    return rows, {"topic": topic["id"], "query": query, "candidate_count": total, "request_url": API + "?" + urlencode({"query": query, "format": "json", "resultType": "core"})}
+    gaps, recovery = [], None
+    try:
+        rows, total = fetch_pages(query)
+    except IncompletePagination as original:
+        print(f"{topic['id']}: reconciling source pagination ({len(original.rows)}/{original.total}).", flush=True)
+        try:
+            rows, gaps = reconcile_sources(query, original)
+        except IncompletePagination:
+            source_cooldown(15*60, f"Unverified pagination gap for {topic['id']}")
+            raise SourceDeferred(f"Incomplete pagination for {topic['id']}; saved data retained, retry after cooldown") from original
+        total, recovery = original.total, 'source-reconciled'
+        for gap in gaps:
+            gap.update(topic=topic['id'], change_start=index_start)
+            print(f"Source index discrepancy: {topic['id']} / {gap['source']} returns {gap['retrieved_count']}/{gap['reported_count']}; verified with idlist, recent window will be rechecked.", flush=True)
+    report = {"topic": topic["id"], "query": query, "candidate_count": total,
+              "retrieved_candidate_count": len(rows), "source_gaps": gaps,
+              "request_url": API + "?" + urlencode({"query": query, "format": "json", "resultType": "core"})}
+    if recovery:
+        report['pagination_recovery'] = recovery
+    return rows, report
 
 
 def collection_plan(today, old, config):
@@ -278,6 +354,11 @@ def collection_plan(today, old, config):
     last = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date() if stamp else today
     overlap = config.get("update_policy", {}).get("daily_overlap_days", 1)
     daily_start = max(start, (min(last, today) - dt.timedelta(days=overlap)).isoformat())
+    # Revisit only a bounded recent window while metadata counted by the source
+    # is unavailable. This never triggers a full historical scan.
+    gap_starts = [g['change_start'] for g in old.get('source_gaps', []) if valid_date(g.get('change_start'))]
+    if gap_starts:
+        daily_start = max(start, (today-dt.timedelta(days=7)).isoformat(), min(daily_start, *gap_starts))
     windows = [(daily_start, today.isoformat())]
     monday = today - dt.timedelta(days=today.weekday())
     previous_sunday = (monday - dt.timedelta(days=1)).isoformat()
@@ -426,6 +507,7 @@ def build_dataset(old, topic_results, config, today, now, keep_candidates=False)
         "update_status": "success", "future_or_invalid_excluded": excluded_future,
         "topics": [{k: v for k, v in t.items() if k in ("id", "name", "short_name", "description")} for t in config["topics"]],
         "queries": [report for _, _, report in topic_results], "papers": items, "new_candidate_ids":new_ids,
+        "source_gaps": [g for _, _, report in topic_results for g in report.get('source_gaps', [])],
     }
 
 

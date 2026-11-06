@@ -56,7 +56,7 @@ class IngestionTests(unittest.TestCase):
 
     def test_incomplete_pagination_is_an_error(self):
         response = {"hitCount": 500, "resultList": {"result": [self.row]}, "nextCursorMark": "*"}
-        with patch.object(m, "request_json", return_value=response):
+        with patch.object(m, "request_json", return_value=response), patch.object(m, 'source_cooldown'):
             with self.assertRaisesRegex(RuntimeError, "Incomplete pagination"):
                 m.fetch_topic(self.topic, "2026-08-01", self.today, "2026-10-01")
 

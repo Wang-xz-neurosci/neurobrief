@@ -48,7 +48,7 @@ concurrency:
 
 jobs:
   gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 3
     permissions:
       contents: read
@@ -58,7 +58,7 @@ jobs:
       deploy: ${{ steps.decision.outputs.deploy }}
       migration: ${{ steps.decision.outputs.migration }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
           sparse-checkout: |
@@ -75,16 +75,16 @@ jobs:
   update:
     needs: gate
     if: needs.gate.outputs.deploy == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     outputs:
       publish: ${{ steps.collection.outputs.deferred != 'true' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # A queued manual run must start from the latest saved cache.
           ref: main
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Test ingestion safeguards
@@ -133,7 +133,7 @@ jobs:
         run: python scripts/processing_status.py ${{ (needs.gate.outputs.process == 'true' || needs.gate.outputs.migration == 'true' || inputs.retry_rejected || inputs.repair_reviews || inputs.review_titles_only) && '--attempted' || '' }} ${{ inputs.review_titles_only && '--defer-until-next-day' || '' }}
       - name: Back up summary cache before committing
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: summary-cache-${{ github.run_id }}
           path: |
@@ -201,9 +201,9 @@ jobs:
             git pull --rebase --autostash origin main
             git push
           fi
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         if: steps.collection.outputs.deferred != 'true'
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: steps.collection.outputs.deferred != 'true'
         with:
           path: dist
@@ -211,7 +211,7 @@ jobs:
   deploy:
     needs: update
     if: needs.update.outputs.publish == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     environment:
       name: github-pages
@@ -219,4 +219,4 @@ jobs:
     steps:
       - name: Publish website
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
