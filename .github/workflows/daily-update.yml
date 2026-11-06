@@ -133,7 +133,7 @@ jobs:
         run: python scripts/processing_status.py ${{ (needs.gate.outputs.process == 'true' || needs.gate.outputs.migration == 'true' || inputs.retry_rejected || inputs.repair_reviews || inputs.review_titles_only) && '--attempted' || '' }} ${{ inputs.review_titles_only && '--defer-until-next-day' || '' }}
       - name: Back up summary cache before committing
         if: always()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: summary-cache-${{ github.run_id }}
           path: |
