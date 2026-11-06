@@ -67,14 +67,23 @@ class PaginationTests(unittest.TestCase):
             with self.assertRaises(u.SourceDeferred): self.fetch()
         cooldown.assert_called_once()
 
-    def test_large_source_discrepancy_does_not_bypass_protection(self):
+    def test_unavailable_source_is_not_limited_by_an_arbitrary_gap_count(self):
         def provider(params):
             value = self.provider(params)
             if not ('AND SRC:MED sort_date:y' in params['query'] or 'AND SRC:PPR sort_date:y' in params['query']):
                 value['hitCount'] += 8
             return value
+        with patch.object(u,'request_json',side_effect=provider):
+            rows,report=self.fetch()
+        self.assertEqual(len(rows),134)
+        self.assertEqual(report['source_gaps'][0]['unavailable_count'],10)
+
+    def test_no_healthy_nonempty_source_still_defers(self):
+        def provider(params):
+            scoped=any('AND SRC:'+s+' sort_date:y' in params['query'] for s in ('MED','PMC','PPR'))
+            return response([],10 if scoped else 30)
         with patch.object(u,'request_json',side_effect=provider), patch.object(u,'source_cooldown'):
-            with self.assertRaises(u.SourceDeferred): self.fetch()
+            with self.assertRaises(u.SourceDeferred):self.fetch()
 
     def test_changed_source_counts_defer_even_when_each_source_is_complete(self):
         def provider(params):

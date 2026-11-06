@@ -1,6 +1,6 @@
 """Fetch actual Europe PMC records. Standard library only; no AI or API key.
 
-Keep the previous dataset on unverified pagination gaps. Small, independently
+Keep the previous dataset on unverified pagination gaps. Independently
 confirmed unavailable index entries are recorded and revisited in recent scans.
 Publication and indexing dates remain distinct; never fabricate missing metadata.
 """
@@ -283,15 +283,17 @@ def reconcile_sources(query, original):
     """Verify available results per source rather than trusting a mixed hitCount.
 
     Europe PMC can count index entries for which neither core nor idlist returns
-    a record. Accept only a small, stable discrepancy; do not waive a real
-    missing page, source-count change, missing ID, or large/empty partial scan.
+    a record. Require independent source/ID agreement and at least one healthy
+    nonempty source. Never waive a real missing page or source-count change.
     """
-    rows, gaps, total = {}, [], 0
+    rows, gaps, total, healthy = {}, [], 0, []
     base = query.removesuffix(' sort_date:y')
     for source in ('MED', 'PMC', 'PPR'):
         scoped = f'({base}) AND SRC:{source} sort_date:y'
         try:
             batch, count = fetch_pages(scoped)
+            if batch:
+                healthy.append(source)
         except IncompletePagination as part:
             if not part.terminal:
                 raise original
@@ -312,7 +314,7 @@ def reconcile_sources(query, original):
         rows.update((record_key(r), r) for r in batch)
     unavailable = sum(g['unavailable_count'] for g in gaps)
     if (total != original.total or not {record_key(r) for r in original.rows}.issubset(rows)
-            or unavailable > 5 or (unavailable and (not rows or unavailable / total > .05))):
+            or not healthy or len(rows)+unavailable != total):
         raise original
     return list(rows.values()), gaps
 
