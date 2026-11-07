@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/</link>
     <description>语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激的文献观察</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,6 +17,17 @@
 The visual system can flexibly adjust attentional deployment to match task demands, but whether observers can proactively modulate the spatial scope of attention based on expectations about upcoming search difficulty remains unclear. According to the zoom lens model, attention can narrow or broaden its spatial extent, with narrower focus enhancing processing efficiency, a mechanism that would benefit target discrimination in crowded displays. We tested whether observers adjust attentional scope when expecting sparse versus dense search arrays by combining spatial cueing with block-wise manipulations of display density expectations. Participants performed a visual search task in which endogenous cues predicted target location, while blocks predominantly contained either sparse (1 target, 3 distractors) or dense (1 target, 7 distractors) displays. We applied inverted encoding models to broadband EEG data to reconstruct spatial channel tuning functions, enabling precise characterization of both the locus and breadth of attentional deployment. Behaviorally, expecting difficult searches selectively improved accuracy at cued locations without costs elsewhere. Consistent with this selective benefit, neural measurements revealed that expectancy enhanced the amplitude of spatially selective responses at the attended location but did not alter tuning width. These findings demonstrate that expectations about search difficulty modulate attention through gain-based signal enhancement rather than adjustments to spatial scope, revealing that preparatory attentional control operates via amplitude modulation within a stable spatial focus. This mechanism complements reactive attentional adjustments and provides an efficient means for the visual system to optimize processing under predictable task demands.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Learning rapidly reshapes brain microstructure: evidence from dense temporal sampling of diffusion MRI.</title>
+      <link>https://doi.org/10.1523/jneurosci.1110-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1110-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Learning is associated with rapid microstructural changes in the human brain, yet the precise temporal dynamics of these changes remain unclear. Using dense temporal sampling of diffusion-weighted MRI (DW-MRI) combined with task-based fMRI, we assessed microstructural changes throughout a declarative learning paradigm and subsequent rest. Seventy-four participants (36 females) learned image-location associations across four encoding-retrieval repetitions while undergoing interleaved functional and DW-MRI acquisitions. A matched control group (N=37, 21 females) underwent a similar imaging protocol without learning. Dense sampling of DW-MRI acquisitions (2146 images across 22 time points in 127 min) revealed that learning-induced mean diffusivity (MD) decreases emerged shortly after learning onset and continued to develop during post-learning rest. The most robust change was localized to the left middle occipital/temporal gyrus, a region also showing functional activation during encoding and retrieval. Linear mixed-effects modeling further confirmed a significant group-by-time interaction, with MD reductions in the left middle occipital/temporal gyrus emerging as early as ≈7 min after learning onset, becoming robust by ≈35-40 min, and persisting throughout the extended post-learning period, while controls showed no changes. Our findings demonstrate that learning-related microstructural plasticity unfolds continuously from encoding to offline consolidation, with learning-induced structural changes emerging in functionally engaged regions. Dense temporal sampling of DW-MRI offers a powerful approach to bridge functional activation and structural remodeling, providing evidence of when and where experience-dependent plasticity occurs during memory formation.Significance Statement How quickly does the brain's structure change when we learn? Using dense temporal sampling of diffusion-weighted MRI (DW-MRI; 2146 images) across more than 2 hours, we show that microstructural plasticity arises rapidly during learning and continues to develop during post-learning rest. These learning-induced changes are spatially precise and overlap with task-related functional activity. By capturing the entire progression of microstructural plasticity across the learning process, rather than just before and after a learning paradigm, our study provides insights into when and where learning-induced plasticity occurs, demonstrating that memory formation involves rapid, ongoing microstructural changes in functionally engaged regions.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Location matters: The link between regional white matter hyperintensity burden and subjective cognitive decline in those at risk of Alzheimer's disease.</title>
@@ -68,6 +79,77 @@ Olfaction is fundamental to perception, memory, and emotion, yet the neural basi
 PURPOSE: Second-language (L2) speech perception is strongly influenced by prior language experience, but the neural mechanisms supporting this process remain incompletely understood. This study examined how language experience modulates the pre-attentive encoding of acoustic and phonological information in Mandarin tone perception and whether these cues are processed serially or in parallel. METHOD: Twenty native Mandarin speakers and 20 novice Mandarin learners with a tonal first language (L1: Thai) completed a behavioral tone identification task and a passive listening multifeature oddball event-related potential paradigm. Stimuli were drawn from an 11-step Tone 1-Tone 2 continuum with Stimulus 5 (S5) as the standard and Stimuli 1, 3, 7, and 9 as deviants. Deviants varied in fundamental frequency distance (large vs. small acoustic distance from S5) and category status (across- vs. within-category) relative to each participant's own phonetic boundary for the continuum. Temporal principal component analysis was applied to separate early and late mismatch negativity (MMN) components. RESULTS: Behavioral identification did not differ across groups. However, MMN results revealed that both acoustic and phonological factors modulated early and late responses, supporting parallel processing. Native Mandarin speakers exhibited stronger and more sustained phonological effects across both time windows bilaterally. Nonnative speakers showed greater acoustic sensitivity, particularly over the right-hemisphere electrodes, and weaker phonological effects, with reduction most evident over the left-hemisphere electrodes. CONCLUSIONS: The findings show that Mandarin tone perception involves parallel extraction of acoustic and phonological information at the pre-attentive level, with language experience influencing their relative weighting. The neural-behavioral dissociation suggests that tonal L1 experience supports perceptual decisions without fully automatized phonological representations transferred to L2. SUPPLEMENTAL MATERIAL: https://doi.org/10.23641/asha.34925781.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Constructing events across perception, action, and thought.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.10.002</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.002</guid>
+      <description>Trends in neurosciences
+
+The brain organizes continuous experience into events that structure episodic memory and guide behavior. Traditional accounts have primarily focused on sensory discontinuities and prediction errors that trigger updates of event models. Here, we broaden this view to consider event boundaries arising during goal-directed behavior, spontaneous thought, and memory recall, including transitions generated in the absence of corresponding changes in sensory input. We propose that prediction error and uncertainty provide complementary signals for event model updating: prediction errors signal a violation of current expectations, whereas uncertainty may promote updating when upcoming states become difficult to predict. We further suggest that the hippocampus may serve as a candidate hub linking boundary-related representational changes across perception, action, and thought. Together, this framework offers an integrative account of how the brain detects and generates event structure in continuous experience to support memory and behavior.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Consumer neuroscience: the emerging science of everyday choices.</title>
+      <link>https://doi.org/10.1016/j.tics.2026.10.005</link>
+      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.005</guid>
+      <description>Trends in cognitive sciences
+
+Consumer neuroscience is a developing field at the intersection of neuroscience, psychology, economics, and marketing that seeks to uncover the neural and physiological mechanisms underlying consumer behavior. Building on early psychophysiological studies, the field has expanded substantially since the mid-2000s through an increasing range of methods and models. We highlight that its strength lies in spanning multiple levels of analysis to address marketing-relevant questions. We highlight four major trends driving the field: improving behavioral prediction, synthesizing evidence through multidataset analyses, developing formal models linking neural processes to consumer decision-making, and integrating brain and body measures. Together, these advances position consumer neuroscience as an integrative science with implications for marketing, policy, and consumer welfare.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Interhemispheric structural connectivity alterations and hierarchical connectome gradient reorganization following SARS-CoV-2 infection.</title>
+      <link>https://doi.org/10.1016/j.neuroscience.2026.11.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.007</guid>
+      <description>Neuroscience
+
+Neurological sequelae of SARS-CoV-2 infection extend beyond the acute phase, yet the structural basis of network-level brain changes across disease severity remains poorly understood. We investigated structural brain connectivity and connectome gradient organization in adults with polymerase chain reaction-confirmed coronavirus disease 2019 (COVID-19), stratified into non-hospitalized and hospitalized groups, alongside a comparison group with non-COVID respiratory infection, using 3T diffusion-weighted magnetic resonance imaging. Network-Based Statistics was used to identify subnetworks of altered structural connectivity, and connectome gradients were derived separately for each hemisphere using diffusion map embedding and compared across groups within seven canonical resting-state networks. Network-Based Statistics identified a predominantly interhemispheric subnetwork differing across the three groups, linking left-hemispheric control and salience regions to right hemisphere sensory and association areas, with a related subnetwork distinguishing hospitalized participants from the comparison group. Connectome gradient analysis revealed group-related differences in connectivity-derived embedding positions within sensorimotor and dorsal attention networks, more pronounced among hospitalized participants. These findings suggest that SARS-CoV-2 infection is associated with severity-related interhemispheric structural connectivity differences and altered hierarchical connectome organization, particularly within sensorimotor and dorsal attentional systems. Given the cross-sectional design, modest sample size, and absence of behavioral data, these findings should be considered exploratory and do not establish anatomical fiber loss, causal mechanisms, or predictive clinical value; instead, they provide a structural framework to guide future studies of neurological outcomes after COVID-19.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Beyond Scene Construction: Mind Time and the Temporal Organisation of Cognition across Hippocampal-Cortical Systems.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109624</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109624</guid>
+      <description>Neuropsychologia
+
+Scene-construction theory explains how spatially coherent event models support memory and imagination, although parts of their temporal organisation are less fully specified. Mind Time brings scene construction into relation with temporal-context and self-location research, drawing on autobiographical memory and navigation to explain how events are related to one another and to a selected temporal origin across scales. Separating these represented relations from the operations that produce and revise them accommodates evidence for a distributed hippocampal-cortical system, including temporal judgements possible despite impaired episodic construction. Comparative findings constrain inferences about component capacities without resolving claims about subjective experience. Within this integrative account, we propose that, during active construction, revising a temporal relation changes the information available to a represented self within the relevant history before a particular consequence is requested. An experiment would test whether this inferred state changes in advance and is available for use in subsequent imagination. Communication could carry the revision between people; transpersonal extended Mental Time Travel (teMTT) specifies how communication or shared records alter another person's later reconstruction or planning. Existing mental-model and predictive accounts could implement the coordination.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Working memory supports cognitive control by orchestrating dimension-specific modulation during late conflict resolution.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122337</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122337</guid>
+      <description>NeuroImage
+
+Working memory plays a central role in cognitive control, yet how it shapes target- and distractor-related processing over time remains unclear. Here, we combined a working memory load manipulation with a modified Stroop task in which distractors preceded targets. Behaviorally, we found that pre-exposure to the distractor eliminated the congruency effect, but this benefit was absent under high load. This pattern suggests that the benefit of advance distractor presentation is sensitive to concurrent working-memory demands. Electrophysiologically, the distractor-locked lateralized readiness potential (LRP) indicated that working-memory load altered distractor-related response activation before target onset. After target onset, load-related modulation emerged during late conflict resolution, as indexed by the sustained potential (SP), whereas earlier intervals associated with attentional selection (posterior N2) and conflict monitoring (N450) did not show load-dependent modulation. Time-frequency decoding and representational similarity analysis further revealed distinct spectro-temporal profiles of target- and distractor-related processing: target-related coding emerged earlier in the theta band (540-780 ms), consistent with stimulus-response mapping, whereas distractor-related coding emerged later in the mu-beta band (870-1180 ms), consistent with response-related regulation. These findings highlight dimension- and stage-specific patterns of working-memory modulation during conflict resolution.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Short-Video Experience and Brain-State Dynamics During the Processing of Rapidly Changing Video Information in Youth.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122334</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122334</guid>
+      <description>NeuroImage
+
+BACKGROUND: Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. METHODS: A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. RESULTS: Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. CONCLUSIONS: Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Associations among interleukin-6, superior frontal gyrus thickness, and executive control in long-term high-altitude migrants.</title>
+      <link>https://doi.org/10.1016/j.actpsy.2026.108111</link>
+      <guid isPermaLink="false">doi:10.1016/j.actpsy.2026.108111</guid>
+      <description>Acta psychologica
+
+This study examined how systemic inflammation, prefrontal cortical structure, and executive control performance are related in long-term high-altitude residents. A total of 129 healthy Han Chinese adults who had relocated from low-altitude regions and were living and working in Lhasa, Xizang (3650 m) underwent hematological testing, structural MRI, and an Attention Network Test (ANT). Serum interleukin-6 (IL-6) concentration was obtained from clinical blood reports, cortical thickness of the left superior frontal gyrus (SFG) was extracted using FreeSurfer, and executive control efficiency was indexed by the conflict effect in the ANT (lower scores indicating better performance). Partial correlations and mediation analyses (PROCESS Model 4) were conducted, controlling for age, gender, and hypoxic exposure duration. IL-6 concentration was significantly negatively correlated with executive control scores (r = -0.22, p = 0.04), indicating that higher IL-6 levels were associated with better executive control efficiency, whereas no significant associations were found with alerting or orienting. Mediation analysis showed a significant indirect effect of IL-6 on executive control via left SFG thickness (indirect effect = -0.024, 95% CI [-0.093, -0.003]), with a significant total effect (-0.218, 95% CI [-0.429, -0.007]) and a nonsignificant direct effect (-0.194, 95% CI [-0.403, 0.014]). These findings suggest that relatively higher IL-6 concentrations within the physiological reference range are associated with better executive control performance, with left SFG cortical thickness showing a significant statistical indirect association. Together, these results highlight a potential immune-structure-cognition relationship in long-term high-altitude migrants, although comparative and longitudinal studies are needed to determine whether these associations are specifically related to high-altitude exposure.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Resting state functional connectivity associated with maternal anxiety: preliminary evidence that infant rsFC moderates the association between behavioral inhibition and anxiety/depression.</title>
@@ -439,89 +521,6 @@ Behavioural rigidity, the tendency to persist with inflexible patterns of though
       <category>结构与功能</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>State-specific alterations in dynamic functional network connectivity in Wilson's disease: a resting-state fMRI study.</title>
-      <link>https://doi.org/10.1080/01616412.2026.2755874</link>
-      <guid isPermaLink="false">doi:10.1080/01616412.2026.2755874</guid>
-      <description>Neurological research
-
-BACKGROUND: Dynamic functional network connectivity (dFNC) may reveal time-varying brain network abnormalities in Wilson's disease (WD) that are not captured by static analyses. We aimed to characterize static and dynamic large-scale network connectivity in WD using resting-state fMRI. METHODS: This retrospective study included 32 patients with WD and 32 healthy controls. Group independent component analysis identified eight components representing seven resting-state networks. Static connectivity was assessed across the full scan, while dynamic states were identified using sliding-window correlation and k-means clustering. State-specific connectivity and temporal metrics were compared between groups, and clinical associations were explored using Spearman correlation analyses. RESULTS: No sFNC difference survived false discovery rate correction. dFNC revealed group differences in States 2 and 4. In State 2, patients with WD showed increased default mode network (DMN)-left frontoparietal network connectivity and decreased DMN-dorsal attention network (DAN) and DMN-sensorimotor network connectivity. In State 4, DMN-left frontoparietal network and DAN-visual network connectivity increased, whereas DAN-right frontoparietal network connectivity decreased. Patients with WD also had shorter MDT in State 2, which correlated positively with blood urea nitrogen levels (Spearman's r = 0.478, FDR-corrected p = 0.035). CONCLUSION: WD showed state-specific changes in dynamic brain network connectivity that were not detected by static analysis. The correlation between State 2 MDT and blood urea nitrogen may reflect a relationship between brain network dynamics and peripheral metabolic status.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Single-neuron encoding of rapidly learned visual information reshapes human perception.</title>
-      <link>https://doi.org/10.1038/s41593-026-02496-6</link>
-      <guid isPermaLink="false">doi:10.1038/s41593-026-02496-6</guid>
-      <description>Nature neuroscience
-
-Humans can swiftly learn to recognize visual objects after minimal exposure. Integrating new information with existing knowledge requires forming enduring neuronal representations to enable future recognition. Yet, the neuronal mechanisms in the human brain underlying such rapid perceptual changes remain unclear. Here we recorded single-neuron activity in occipital cortex (OC) and medial temporal lobe (MTL) regions as participants rapidly learned to recognize degraded images. OC and MTL neurons modulated their activity to encode newly learned visual information and reshape perception. Population decoding revealed that OC neurons required additional processing time to resolve the identity of learned images, with delayed neuronal responses in the MTL. Our findings suggest that OC supports recognition after rapid learning via extensive recurrent processing, potentially involving higher-order neocortical areas, without relying on feedback from MTL. These results provide mechanistic constraints for biologically plausible models of visual recognition and few-shot visual learning.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Mapping cerebellar morphology in 15q11.2 CNV carriers using normative modeling.</title>
-      <link>https://doi.org/10.1038/s41380-026-03711-3</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03711-3</guid>
-      <description>Molecular psychiatry
-
-Copy number variations (CNVs) at the 15q11.2 locus of the human genome have been associated with altered brain structure and increased risk for neurodevelopmental and neuropsychiatric disorders. The cerebellum is increasingly seen as a crucial brain region for neurodevelopmental conditions, yet the effects of 15q11.2 CNVs on cerebellar morphology remain largely unclear. Importantly, 15q11.2 CNVs shows reduced or incomplete penetrance (meaning that not all CNV carriers are affected) and variable expressivity (meaning that symptoms may differ between individuals with the same genetic alteration). Thus, there is a need to not only assess group differences, but also to quantify anatomical variability at the individual level. Here, we address these issues using normative models of brain anatomy trained on large datasets (n &gt; 52k, age range: 3-85) to assess both group and individual-level deviations in cerebellar anatomy in carriers of 15q11.2 deletions (n = 120, mean [SD] age = 64.95 [7.58]) and duplications (n = 149, mean [SD] age = 64.31 [7.21]), compared to non-carriers (n = 19,028, mean [SD] age = 64.31 [7.58]). Group-level case-control analyses revealed significantly smaller total and regional cerebellar volumes in both deletion and duplication carriers, though with small effect sizes. Individual-level deviation analyses, capturing pronounced alterations in specific individuals, revealed a heterogeneous pattern among carriers. Overall, our findings suggest that CNVs at the 15q11.2 locus exert modest and highly individualized effects on cerebellar morphology.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Neural connectomes of verbal fluency in post-stroke aphasia.</title>
-      <link>https://doi.org/10.1017/s1355617726102240</link>
-      <guid isPermaLink="false">doi:10.1017/s1355617726102240</guid>
-      <description>Journal of the International Neuropsychological Society : JINS
-
-Verbal fluency tasks are widely used to assess language abilities and executive functions in both clinical and research settings. In post-stroke patients, prior research has indicated a significant hodological contribution to the neural basis of verbal fluency; however, this has largely been examined using lesion-based measures, predefined tractography approaches, and traditional diffusion metrics. Quantitative anisotropy-based structural connectometry derived from correlational tractography was employed to determine the white matter circuits underlying semantic and phonemic fluency in 44 patients with post-stroke aphasia. Both task types were found to be linked to anterior frontal connections of left-hemisphere dorsal and ventral associative pathways, as well as domain-general projection pathways. However, visual inspection of the connectomes, supported by supplementary cross-control analyses, suggested differences in the relative emphasis and distribution of pathways, with phonemic fluency aligning more with the dorsal stream, while semantic fluency showed greater reliance on the ventral stream and a wider range of cortico-subcortical connections. The findings contribute to current understanding of the neural networks of verbal fluency in aphasia, with potential relevance for clinical practice and research.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Motor Expertise Combines Lower Task Engagement with Enhanced Error Sensitivity.</title>
-      <link>https://doi.org/10.1007/s12311-026-02100-4</link>
-      <guid isPermaLink="false">doi:10.1007/s12311-026-02100-4</guid>
-      <description>Cerebellum (London, England)
-
-Skilled motor behaviour relies on complex predictive control and error processing. Despite its indispensable position in our everyday lives, neurobiological mechanisms of motor skill acquisition remain poorly understood. The presented study evaluates the functional dynamics and microstructural substrate of expertise-related reorganisation in predictive timing circuits using multimodal functional and quantitative magnetic resonance imaging (MRI) data. Forty-one baseball/softball players, representing a natural model of optimised motor timing programs, were compared against forty-six non-athletic controls using a structural connectome-informed hierarchical Bayesian framework jointly modelling task-based functional MRI dynamics of feedforward predictive control and error-driven modulation. Expertise-related microstructural differences were then characterised using neurite orientation dispersion and density imaging and adiabatic T₁ρ mapping. In non-athletic controls, predictive control was found to engage a distributed cortico-subcortical sensorimotor, visuospatial, attentional and frontoparietal loops, while higher-order associative systems were relatively down-regulated. However, quantitative deviation from the task optimum was associated with lower response across this predictive network. Expertise was characterised by higher behavioural performance but also by attenuated prediction-related functional engagement alongside enhanced error-related modulation. Furthermore, neurite density and orientation dispersion indices were higher in experts across distributed cortical networks, while the cerebellum exhibited a divergent profile characterised by higher neurite density, lower orientation dispersion and faster T₁ρ relaxation. These findings indicate that expertise involves lower task engagement within an established architecture despite higher behavioural performance, together with enhanced error sensitivity and distributed microstructural differences. This pattern is consistent with more efficient neural dynamics complemented with underlying tissue alterations.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Deciphering intratumoral heterogeneity: An interpretable radiopathologic framework for lymph node staging in early-stage cervical cancer.</title>
-      <link>https://doi.org/10.1007/s12032-026-03492-3</link>
-      <guid isPermaLink="false">doi:10.1007/s12032-026-03492-3</guid>
-      <description>Medical oncology (Northwood, London, England)
-
-Preoperative assessment of lymph node metastasis (LNM) informs treatment planning in early-stage cervical cancer (CC). Traditional radiomics (TR) may obscure intratumoral heterogeneity. We developed multiparametric MRI habitat radiomics (HR) for LNM prediction and explored its histopathologic context. Patients underwent radical surgery and lymphadenectomy. Part I comprised 148 training and 63 test patients; Part II comprised 14 for spatially matched histopathology. Intratumoral voxels were clustered into habitats by K-means using T2-weighted imaging (T2WI), diffusion-weighted imaging (DWI), and contrast-enhanced T1-weighted imaging (CE-T1WI) signals. The number of habitats was selected using validation AUC. HR/TR scores and clinical-radiological predictors were integrated by logistic regression. AUC and accuracy were compared by DeLong's and χ² tests. Shapley additive explanations (SHAP) assessed contributions. Subregion-matched histopathology quantified Ki-67, CD3, CD31, and tumor-stroma ratio (TSR). LNM prevalence was 27.1% (61/225). The four-habitat HR model achieved a test AUC of 0.841 with 14 DWI/CE-T1WI-derived features. Test AUCs for clinical model (CL), TR, and HR + CL were 0.804, 0.784, and 0.890. HR + TR+CL achieved the highest AUC (0.902) and accuracy (87.30%), without a significant AUC difference from HR + CL (P = 0.277). SHAP ranked HR score above clinical lymph-node status, tumor diameter, and TR score. HR-3 exhibited highest Ki67 and lowest TSR, CD3, and CD31; HR-1 had highest TSR and lowest Ki67; HR-2 showed higher CD31 than HR-4. MRI-based HR may support preoperative LNM assessment in early-stage CC, with HR + CL representing a parsimonious candidate model for further evaluation. Spatially matched exploratory histopathology suggests possible regional tissue differences across MRI-defined habitats.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Network Reorganization of Right Precuneus Subregions Following Theta-Burst Stimulation.</title>
-      <link>https://doi.org/10.1007/s10548-026-01270-y</link>
-      <guid isPermaLink="false">doi:10.1007/s10548-026-01270-y</guid>
-      <description>Brain topography
-
-The precuneus is a heterogeneous posteromedial hub, but whether theta-burst stimulation (TBS) modulates its subregions differentially remains unclear. Here, we examined subregion-specific effects of intermittent TBS (iTBS) and continuous TBS (cTBS) applied to the right precuneus using structural MRI, resting-state functional MRI, and spectral dynamic causal modelling in 33 healthy adults scanned at baseline, post-iTBS, and post-cTBS. Three right precuneus subregions were defined as dorsal-anterior, dorsal-posterior, and ventral. Cortical thickness differed significantly across subregions, with greater thickness in the dorsal-anterior than in the dorsal-posterior and ventral precuneus. Whole-brain static functional connectivity showed significant main effects of condition and subregion, but no condition × subregion interaction. By contrast, dynamic functional connectivity revealed a significant condition × subregion interaction in the right orbital inferior frontal gyrus. Under iTBS, the ventral precuneus showed greater dynamic connectivity variability than the dorsal-anterior subregion, whereas under cTBS both dorsal subregions showed greater variability than the ventral subregion. Spectral dynamic causal modelling further demonstrated subregion-specific modulation of effective connectivity, with the most consistent between-region effects involving pathways to the left superior temporal gyrus and additional changes in self-connections. Baseline cortical thickness did not predict stimulation-induced changes in static or dynamic connectivity. These findings indicate baseline structural heterogeneity within the right precuneus and suggest that TBS related functional network reorganization differs across connectivity measures. Subregion-specific effects were most clearly expressed in dynamic and directed connectivity rather than uniformly across all connectivity measures. The results highlight the importance of subregion informed approaches for understanding and targeting precuneus centered networks.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Adolescent-onset spastic paraplegia associated with a TUBB4A p.Gly96Arg variant: insights from diffusion tensor tractography.</title>
-      <link>https://doi.org/10.1007/s10072-026-09440-3</link>
-      <guid isPermaLink="false">doi:10.1007/s10072-026-09440-3</guid>
-      <description>Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology
-
-Adolescent-onset spastic paraplegia may present with heterogeneous underlying pathophysiology, including both axonal and myelin-related mechanisms. We report a 53-year-old woman with progressive spastic paraplegia beginning in adolescence who was found to harbor a pathogenic TUBB4A p.Gly96Arg variant. Brain magnetic resonance imaging showed diffuse white-matter abnormalities and thinning of the corpus callosum, without basal ganglia or cerebellar atrophy, mimicking hereditary spastic paraplegia. Compared with three older healthy controls, diffusion tensor imaging (DTI)-based tractography showed lower fractional anisotropy and higher apparent diffusion coefficient across the corpus callosum, corticospinal tract, and middle cerebellar peduncle. Mean tract length was shorter in the corpus callosum but near the control means in the corticospinal tract and middle cerebellar peduncle, while streamline-count deviations also varied by tract. In this genetically confirmed case, DTI-based tractography provided supportive, hypothesis-generating characterization of white matter microstructural involvement. However, these observations do not establish an underlying pathological mechanism or an independent differential diagnostic role for DTI.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>

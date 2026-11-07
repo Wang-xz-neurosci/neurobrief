@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,6 +19,17 @@ The visual system can flexibly adjust attentional deployment to match task deman
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Learning rapidly reshapes brain microstructure: evidence from dense temporal sampling of diffusion MRI.</title>
+      <link>https://doi.org/10.1523/jneurosci.1110-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1110-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Learning is associated with rapid microstructural changes in the human brain, yet the precise temporal dynamics of these changes remain unclear. Using dense temporal sampling of diffusion-weighted MRI (DW-MRI) combined with task-based fMRI, we assessed microstructural changes throughout a declarative learning paradigm and subsequent rest. Seventy-four participants (36 females) learned image-location associations across four encoding-retrieval repetitions while undergoing interleaved functional and DW-MRI acquisitions. A matched control group (N=37, 21 females) underwent a similar imaging protocol without learning. Dense sampling of DW-MRI acquisitions (2146 images across 22 time points in 127 min) revealed that learning-induced mean diffusivity (MD) decreases emerged shortly after learning onset and continued to develop during post-learning rest. The most robust change was localized to the left middle occipital/temporal gyrus, a region also showing functional activation during encoding and retrieval. Linear mixed-effects modeling further confirmed a significant group-by-time interaction, with MD reductions in the left middle occipital/temporal gyrus emerging as early as ≈7 min after learning onset, becoming robust by ≈35-40 min, and persisting throughout the extended post-learning period, while controls showed no changes. Our findings demonstrate that learning-related microstructural plasticity unfolds continuously from encoding to offline consolidation, with learning-induced structural changes emerging in functionally engaged regions. Dense temporal sampling of DW-MRI offers a powerful approach to bridge functional activation and structural remodeling, providing evidence of when and where experience-dependent plasticity occurs during memory formation.Significance Statement How quickly does the brain's structure change when we learn? Using dense temporal sampling of diffusion-weighted MRI (DW-MRI; 2146 images) across more than 2 hours, we show that microstructural plasticity arises rapidly during learning and continues to develop during post-learning rest. These learning-induced changes are spatially precise and overlap with task-related functional activity. By capturing the entire progression of microstructural plasticity across the learning process, rather than just before and after a learning paradigm, our study provides insights into when and where learning-induced plasticity occurs, demonstrating that memory formation involves rapid, ongoing microstructural changes in functionally engaged regions.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Respiratory phase orchestrates human olfactory cortical dynamics.</title>
       <link>https://doi.org/10.1073/pnas.2619920123</link>
       <guid isPermaLink="false">doi:10.1073/pnas.2619920123</guid>
@@ -27,6 +38,57 @@ The visual system can flexibly adjust attentional deployment to match task deman
 Olfaction is fundamental to perception, memory, and emotion, yet the neural basis of human odor processing remains poorly understood. We demonstrate that odor-evoked brain activity is organized by respiratory phase-not absolute time-revealing that natural breathing structures olfactory cortical dynamics. Using simultaneous nasal respiration and electroencephalography recordings in [Formula: see text] participants, we delivered naturalistic odors (peppermint, oregano, and grapefruit) synchronized to individual breathing cycles. Odor presentation elicited respiratory phase-locked event-related spectral perturbations (RPL-ERSPs) in frontal and temporal regions, emerging during the first breath after stimulus onset. The most discriminative neural signatures were theta-band activity during inhalation and alpha-band activity during exhalation, patterns that were obscured in traditional time-locked analyses due to natural variability in breath duration. Leave-one-subject-out cross-validation of RPL-ERSPs achieved reliable odor detection (peppermint: AUC [Formula: see text] 0.79; oregano: AUC [Formula: see text] 0.67; grapefruit: AUC [Formula: see text] 0.62), establishing that phase-locked features generalize across individuals. To connect neural responses to perceptual experience without relying on odor naming-which can be disproportionately impaired in some populations-we quantified odor recognition using free-response descriptions scored with a semantic-similarity approach. Behavioral recognition strength paralleled the neural decoding hierarchy across odors, establishing the perceptual validity of RPL-ERSPs. RPL-ERSPs revealed rapid habituation, with decoding performance declining over repeated presentations, due to selective degradation of the most informative phase-locked features. These findings establish respiratory rhythm as a temporal scaffold for human olfactory cortical processing, positioning RPL-ERSPs as a sensitive, task-free approach for assessing olfactory function. We provide an open-source, respiration-synchronized olfactometer design to enable replication and adoption.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Constructing events across perception, action, and thought.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.10.002</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.002</guid>
+      <description>Trends in neurosciences
+
+The brain organizes continuous experience into events that structure episodic memory and guide behavior. Traditional accounts have primarily focused on sensory discontinuities and prediction errors that trigger updates of event models. Here, we broaden this view to consider event boundaries arising during goal-directed behavior, spontaneous thought, and memory recall, including transitions generated in the absence of corresponding changes in sensory input. We propose that prediction error and uncertainty provide complementary signals for event model updating: prediction errors signal a violation of current expectations, whereas uncertainty may promote updating when upcoming states become difficult to predict. We further suggest that the hippocampus may serve as a candidate hub linking boundary-related representational changes across perception, action, and thought. Together, this framework offers an integrative account of how the brain detects and generates event structure in continuous experience to support memory and behavior.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Consumer neuroscience: the emerging science of everyday choices.</title>
+      <link>https://doi.org/10.1016/j.tics.2026.10.005</link>
+      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.005</guid>
+      <description>Trends in cognitive sciences
+
+Consumer neuroscience is a developing field at the intersection of neuroscience, psychology, economics, and marketing that seeks to uncover the neural and physiological mechanisms underlying consumer behavior. Building on early psychophysiological studies, the field has expanded substantially since the mid-2000s through an increasing range of methods and models. We highlight that its strength lies in spanning multiple levels of analysis to address marketing-relevant questions. We highlight four major trends driving the field: improving behavioral prediction, synthesizing evidence through multidataset analyses, developing formal models linking neural processes to consumer decision-making, and integrating brain and body measures. Together, these advances position consumer neuroscience as an integrative science with implications for marketing, policy, and consumer welfare.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Beyond Scene Construction: Mind Time and the Temporal Organisation of Cognition across Hippocampal-Cortical Systems.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109624</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109624</guid>
+      <description>Neuropsychologia
+
+Scene-construction theory explains how spatially coherent event models support memory and imagination, although parts of their temporal organisation are less fully specified. Mind Time brings scene construction into relation with temporal-context and self-location research, drawing on autobiographical memory and navigation to explain how events are related to one another and to a selected temporal origin across scales. Separating these represented relations from the operations that produce and revise them accommodates evidence for a distributed hippocampal-cortical system, including temporal judgements possible despite impaired episodic construction. Comparative findings constrain inferences about component capacities without resolving claims about subjective experience. Within this integrative account, we propose that, during active construction, revising a temporal relation changes the information available to a represented self within the relevant history before a particular consequence is requested. An experiment would test whether this inferred state changes in advance and is available for use in subsequent imagination. Communication could carry the revision between people; transpersonal extended Mental Time Travel (teMTT) specifies how communication or shared records alter another person's later reconstruction or planning. Existing mental-model and predictive accounts could implement the coordination.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Working memory supports cognitive control by orchestrating dimension-specific modulation during late conflict resolution.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122337</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122337</guid>
+      <description>NeuroImage
+
+Working memory plays a central role in cognitive control, yet how it shapes target- and distractor-related processing over time remains unclear. Here, we combined a working memory load manipulation with a modified Stroop task in which distractors preceded targets. Behaviorally, we found that pre-exposure to the distractor eliminated the congruency effect, but this benefit was absent under high load. This pattern suggests that the benefit of advance distractor presentation is sensitive to concurrent working-memory demands. Electrophysiologically, the distractor-locked lateralized readiness potential (LRP) indicated that working-memory load altered distractor-related response activation before target onset. After target onset, load-related modulation emerged during late conflict resolution, as indexed by the sustained potential (SP), whereas earlier intervals associated with attentional selection (posterior N2) and conflict monitoring (N450) did not show load-dependent modulation. Time-frequency decoding and representational similarity analysis further revealed distinct spectro-temporal profiles of target- and distractor-related processing: target-related coding emerged earlier in the theta band (540-780 ms), consistent with stimulus-response mapping, whereas distractor-related coding emerged later in the mu-beta band (870-1180 ms), consistent with response-related regulation. These findings highlight dimension- and stage-specific patterns of working-memory modulation during conflict resolution.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Short-Video Experience and Brain-State Dynamics During the Processing of Rapidly Changing Video Information in Youth.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122334</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122334</guid>
+      <description>NeuroImage
+
+BACKGROUND: Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. METHODS: A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. RESULTS: Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. CONCLUSIONS: Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Distinct neural representations of perceptual and numerical absence in the human brain.</title>
@@ -465,68 +527,6 @@ Early functional connectivity within the brain's reward circuitry may provide in
 来源未提供摘要。</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Mysterious flickering brain signals could help to unlock secrets of consciousness.</title>
-      <link>https://doi.org/10.1038/d41586-026-03384-6</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03384-6</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Neuroscience: The architecture of a fear memory.</title>
-      <link>https://doi.org/10.1016/j.cub.2026.09.067</link>
-      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.067</guid>
-      <description>Current biology : CB
-
-Memories bind sensory, contextual, temporal, and affective features that support recall and flexible behavior. New research shows that the ventral region of the hippocampus represents these features in population activity, with similar temporal organization across learned and novel cues even as contributing neurons change.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Neurofeedback: Training the brain from within.</title>
-      <link>https://doi.org/10.1016/j.cub.2026.09.065</link>
-      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.065</guid>
-      <description>Current biology : CB
-
-The hippocampus is a key brain structure linked to how we encode and reconstruct our own experiences. Neurofeedback training can help people identify strategies to successfully drive their own hippocampal activity, possibly promoting stronger encoding beyond the training session.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Hippocampal-prefrontal cortical interactions and neural representations of memory.</title>
-      <link>https://doi.org/10.1016/j.cub.2026.09.029</link>
-      <guid isPermaLink="false">doi:10.1016/j.cub.2026.09.029</guid>
-      <description>Current biology : CB
-
-The ability to store memories and access past experiences when making decisions in the present is fundamental to cognition. The hippocampus is critical for these processes and has been a primary site of investigation in the learning and memory field for the last several decades. However, it is also clear that the hippocampus must work in concert with cortical brain regions to store and recall memories. Findings that demonstrate the necessity of hippocampal-medial prefrontal cortex (mPFC) communication in these processes, as well as findings that link the mPFC to memory storage, retrieval, and decision-making, have contributed to this growing area of study. Here, we review our current understanding of three questions related to this communication. What information is represented in the hippocampus and the mPFC? What are the underlying neural activity patterns and brain states that facilitate communication of those representations? What impact do these patterns have on the ability to learn and remember in new and familiar settings? We highlight evidence for bidirectional communication both during and after experience, and we discuss areas of active investigation to further uncover the role of bidirectional hippocampal-cortical interactions in the formation and maintenance of neural representations of memory.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Functional Network Organization Underlying Individual Differences in False Feedback Susceptibility: A Graph Theoretical Analysis.</title>
-      <link>https://doi.org/10.1002/hbm.70640</link>
-      <guid isPermaLink="false">doi:10.1002/hbm.70640</guid>
-      <description>Human brain mapping
-
-Individual differences in susceptibility to somatosensory false physiological feedback reflect variations in interoceptive processing, yet the underlying neural network mechanisms remain unclear. We analyzed resting-state functional connectivity using graph theoretical approaches in 41 healthy adults who completed a somatosensory false feedback paradigm. Nine regions of interest were defined from previous activation analyses, and network topology metrics including local efficiency, clustering coefficient, centrality measures, and path length were calculated across multiple thresholds. Three distinct patterns of network organization predicted false feedback susceptibility. Individuals more susceptible to false feedback showed: (1) increased posterior insula eccentricity, indicating network peripheralization of this key interoceptive region; (2) consistent orbitofrontal cortex segregation across multiple metrics including increased path length and decreased centrality measures; and (3) cerebellar network reconfiguration with reduced local efficiency but increased betweenness centrality. Somatosensory false feedback susceptibility reflects specific alterations in functional network topology, particularly reduced integration of interoceptive regions (posterior insula) and emotional appraisal systems (orbitofrontal cortex). These findings support a network-based model where interoceptive processing depends on efficient integration between visceral sensation, emotional evaluation, and cognitive control systems. Understanding these network properties may inform interventions targeting interoceptive awareness and emotional regulation.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural Markers of Reward Valuation and Impulsive Decision-Making in Mania Risk.</title>
-      <link>https://doi.org/10.1001/jamapsychiatry.2026.2510</link>
-      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.2510</guid>
-      <description>JAMA psychiatry
-
-IMPORTANCE: Mania or hypomania, the pathognomonic feature of bipolar disorder (BD), is associated with reward hypersensitivity and impulsive decision-making, but the neural mechanisms underlying these distinct behavioral facets remain unclear. Reward expectancy (RE)-associated activation in the left ventrolateral prefrontal cortex (L-vlPFC) and pre-supplementary motor area (pre-SMA) is elevated in individuals at risk of mania or hypomania, but it is unknown whether elevated activation in these regions and associations with risk-related behavioral facets reflect convergent or dissociable pathways to mania or hypomania risk or whether depression severity impacts these associations. OBJECTIVE: To test whether RE-associated L-vlPFC and pre-SMA activation exhibit distinct associations with delay discounting behavior-indexing reward valuation (lower discounting) vs impulsive decision-making (higher discounting)-and whether these associations are moderated by depression severity. DESIGN, SETTING, AND PARTICIPANTS: In this cross-sectional study, 2 independent samples of adults aged approximately 18 to 30 years at varying risk of mania or hypomania (142 in the discovery set and 86 in the replication set) completed a functional magnetic resonance imaging reward task and a delay discounting assessment. Major exclusion criteria included current or lifetime BD, primary psychotic disorders, neurological disorders, recent substance use disorders, systemic medical illnesses, and magnetic resonance imaging contraindications. The study took place from 2019 to 2026 at the University of Pittsburgh Medical Center in Pittsburgh, Pennsylvania. EXPOSURE: RE-associated L-vlPFC and pre-SMA activation. MAIN OUTCOMES AND MEASURES: Main outcomes were mania or hypomania risk per Mood Spectrum Self-Report-Lifetime mania score and delay discounting behavior per 27-Item Monetary Choice Questionnaire rate. Associations were tested using regression models, including moderation by depression severity. RESULTS: Across 228 individuals (discovery: mean [SD] age, 23.79 [3.32] years; 96 [67.6%] female; replication: mean [SD] age, 26.09 [3.15] years; 64 [74.4%] female), L-vlPFC and pre-SMA activation were both positively associated with mania or hypomania risk in the discovery sample (l-vlPFC: β, 0.544; 95% CI, 0.440 to 0.649; z, 10.24; P &lt; .001 and pre-SMA: β, 0.496; 95% CI, 0.341 to 0.650; z, 6.30; P &lt; .001) and replication sample (l-vlPFC: β, 0.503; 95% CI, 0.241 to 0.765; z, 3.77; P &lt; .001 and pre-SMA: β, 0.684; 95% CI, 0.410 to 0.957; z, 4.90; P &lt; .001). In the discovery sample, these regions showed dissociable delay discounting associations: greater L-vlPFC activation was associated with lower discounting (β, -0.305; 95% CI, -0.561 to -0.050; P = .02), whereas greater pre-SMA activation was associated with higher discounting (β, 0.521; 95% CI, 0.146 to 0.895; P = .007). The L-vlPFC-lower discounting association replicated (β, -0.704; 95% CI, -1.400 to -0.008; P = .048). A pre-SMA activation × depression severity interaction was observed in the replication sample (β, -0.427; 95% CI, -0.792 to -0.063; P = .02), such that higher depression severity attenuated the association between elevated pre-SMA activation and higher discounting. This interaction was detectable in the discovery sample in individuals with elevated pre-SMA activation (β, -0.285; 95% CI, -0.565 to -0.005; t63 = -2.03; P = .046). CONCLUSIONS AND RELEVANCE: The findings in this cross-sectional study suggest that RE-associated L-vlPFC and pre-SMA activation may represent dissociable neural pathways to mania or hypomania risk. Elevated L-vlPFC activation was associated with sensitivity to reward value, whereas elevated pre-SMA activation was associated with impulsive decision-making, and this latter association was moderated by depression severity.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>

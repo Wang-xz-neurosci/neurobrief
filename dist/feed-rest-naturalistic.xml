@@ -5,9 +5,20 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=rest-naturalistic</link>
     <description>静息态，以及电影、故事、自然语音与语篇理解中的脑活动</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-rest-naturalistic.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short-Video Experience and Brain-State Dynamics During the Processing of Rapidly Changing Video Information in Youth.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122334</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122334</guid>
+      <description>NeuroImage
+
+BACKGROUND: Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. METHODS: A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. RESULTS: Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. CONCLUSIONS: Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Resting state functional connectivity associated with maternal anxiety: preliminary evidence that infant rsFC moderates the association between behavioral inhibition and anxiety/depression.</title>
       <link>https://doi.org/10.1007/s00787-026-03242-w</link>
@@ -513,16 +524,6 @@ We possess a limited understanding of how preterm and full-term brains develop d
       <description>[预印本] bioRxiv
 
 Essential Tremor (ET) is a common motor disorder characterized by involuntary oscillations of the upper limbs during voluntary movement. Although increasing evidence implicates dysfunction of the cerebello-thalamo-cortical pathway, ET remains a diagnosis of exclusion, as no definitive biological marker currently exists. To better characterize ET, we recently hypothesized that impaired compensation of sensorimotor delays within the long-latency feedback pathways may generate the tremor-like oscillations observed in ET. This theory suggests that the mean spectral amplitude (MSA), derived from limb kinematics, may serve as a potential marker of ET. Here we investigated the relationship between MSA, standard clinical assessment (Fahn Tolosa Marin Tremor Rating Scale; FTM-TRS), and brain connectivity derived from resting state functional magnetic resonance imaging (rs-fMRI). Using seed-based analyses, we replicated previous findings of reduced functional connectivity between the dentate nucleus and components of the cerebello-thalamo-cortical pathway in ET patients compared with neurologically intact (NI) age-matched participants. Graph-theoretical analyses of whole-brain functional networks revealed distributed alterations in network topology across motor-related cortical and subcortical regions. Several graph metrics correlated with FTM-TRS scores and/or MSA, particularly within motor-related cortical and subcortical circuits, including the thalamus, basal ganglia, and cerebellum in ET. These findings indicate that ET is characterized by distributed alterations in functional brain networks beyond reduced connectivity of dentate nucleus and highlights MSA as a candidate quantitative marker linking altered brain connectivity to sensorimotor delay-driven tremor oscillations.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Pre-stress functional brain connectivity is associated with subsequent anxiety during war-related stress</title>
-      <link>https://doi.org/10.64898/2026.10.24.761100</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.24.761100</guid>
-      <description>[预印本] bioRxiv
-
-Individuals exposed to major real-world stressors show markedly different psychological outcomes, but whether this heterogeneity is associated with pre-existing neural characteristics remains unclear because neuroimaging is rarely performed beforehand. We acquired resting-state fMRI in healthy adults before the unforeseen onset of war-related stress. Approximately 13 months later, during ongoing war-related stress, participants (n = 31) were assessed for anxiety, depressive symptoms, perceived stress and post-traumatic stress symptoms. Among 144 associations spanning 36 predefined corticolimbic and reward-related connections and four outcomes, lower baseline functional connectivity between the right nucleus accumbens and right amygdala was associated with greater subsequent anxiety. This association survived permutation-based family-wise error correction and adjustment for baseline depressive symptoms, age and sex. These findings provide preliminary prospective evidence that pre-existing functional organization of threat- and reward-related circuitry is associated with individual differences in anxiety during prolonged adversity.</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>

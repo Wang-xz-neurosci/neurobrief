@@ -5,9 +5,20 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning rapidly reshapes brain microstructure: evidence from dense temporal sampling of diffusion MRI.</title>
+      <link>https://doi.org/10.1523/jneurosci.1110-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1110-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Learning is associated with rapid microstructural changes in the human brain, yet the precise temporal dynamics of these changes remain unclear. Using dense temporal sampling of diffusion-weighted MRI (DW-MRI) combined with task-based fMRI, we assessed microstructural changes throughout a declarative learning paradigm and subsequent rest. Seventy-four participants (36 females) learned image-location associations across four encoding-retrieval repetitions while undergoing interleaved functional and DW-MRI acquisitions. A matched control group (N=37, 21 females) underwent a similar imaging protocol without learning. Dense sampling of DW-MRI acquisitions (2146 images across 22 time points in 127 min) revealed that learning-induced mean diffusivity (MD) decreases emerged shortly after learning onset and continued to develop during post-learning rest. The most robust change was localized to the left middle occipital/temporal gyrus, a region also showing functional activation during encoding and retrieval. Linear mixed-effects modeling further confirmed a significant group-by-time interaction, with MD reductions in the left middle occipital/temporal gyrus emerging as early as ≈7 min after learning onset, becoming robust by ≈35-40 min, and persisting throughout the extended post-learning period, while controls showed no changes. Our findings demonstrate that learning-related microstructural plasticity unfolds continuously from encoding to offline consolidation, with learning-induced structural changes emerging in functionally engaged regions. Dense temporal sampling of DW-MRI offers a powerful approach to bridge functional activation and structural remodeling, providing evidence of when and where experience-dependent plasticity occurs during memory formation.Significance Statement How quickly does the brain's structure change when we learn? Using dense temporal sampling of diffusion-weighted MRI (DW-MRI; 2146 images) across more than 2 hours, we show that microstructural plasticity arises rapidly during learning and continues to develop during post-learning rest. These learning-induced changes are spatially precise and overlap with task-related functional activity. By capturing the entire progression of microstructural plasticity across the learning process, rather than just before and after a learning paradigm, our study provides insights into when and where learning-induced plasticity occurs, demonstrating that memory formation involves rapid, ongoing microstructural changes in functionally engaged regions.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>Location matters: The link between regional white matter hyperintensity burden and subjective cognitive decline in those at risk of Alzheimer's disease.</title>
       <link>https://doi.org/10.1177/13872877261502866</link>
@@ -38,6 +49,26 @@ Post-stroke depressive symptoms are common, but studies on the contributions of 
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Interhemispheric structural connectivity alterations and hierarchical connectome gradient reorganization following SARS-CoV-2 infection.</title>
+      <link>https://doi.org/10.1016/j.neuroscience.2026.11.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.007</guid>
+      <description>Neuroscience
+
+Neurological sequelae of SARS-CoV-2 infection extend beyond the acute phase, yet the structural basis of network-level brain changes across disease severity remains poorly understood. We investigated structural brain connectivity and connectome gradient organization in adults with polymerase chain reaction-confirmed coronavirus disease 2019 (COVID-19), stratified into non-hospitalized and hospitalized groups, alongside a comparison group with non-COVID respiratory infection, using 3T diffusion-weighted magnetic resonance imaging. Network-Based Statistics was used to identify subnetworks of altered structural connectivity, and connectome gradients were derived separately for each hemisphere using diffusion map embedding and compared across groups within seven canonical resting-state networks. Network-Based Statistics identified a predominantly interhemispheric subnetwork differing across the three groups, linking left-hemispheric control and salience regions to right hemisphere sensory and association areas, with a related subnetwork distinguishing hospitalized participants from the comparison group. Connectome gradient analysis revealed group-related differences in connectivity-derived embedding positions within sensorimotor and dorsal attention networks, more pronounced among hospitalized participants. These findings suggest that SARS-CoV-2 infection is associated with severity-related interhemispheric structural connectivity differences and altered hierarchical connectome organization, particularly within sensorimotor and dorsal attentional systems. Given the cross-sectional design, modest sample size, and absence of behavioral data, these findings should be considered exploratory and do not establish anatomical fiber loss, causal mechanisms, or predictive clinical value; instead, they provide a structural framework to guide future studies of neurological outcomes after COVID-19.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Associations among interleukin-6, superior frontal gyrus thickness, and executive control in long-term high-altitude migrants.</title>
+      <link>https://doi.org/10.1016/j.actpsy.2026.108111</link>
+      <guid isPermaLink="false">doi:10.1016/j.actpsy.2026.108111</guid>
+      <description>Acta psychologica
+
+This study examined how systemic inflammation, prefrontal cortical structure, and executive control performance are related in long-term high-altitude residents. A total of 129 healthy Han Chinese adults who had relocated from low-altitude regions and were living and working in Lhasa, Xizang (3650 m) underwent hematological testing, structural MRI, and an Attention Network Test (ANT). Serum interleukin-6 (IL-6) concentration was obtained from clinical blood reports, cortical thickness of the left superior frontal gyrus (SFG) was extracted using FreeSurfer, and executive control efficiency was indexed by the conflict effect in the ANT (lower scores indicating better performance). Partial correlations and mediation analyses (PROCESS Model 4) were conducted, controlling for age, gender, and hypoxic exposure duration. IL-6 concentration was significantly negatively correlated with executive control scores (r = -0.22, p = 0.04), indicating that higher IL-6 levels were associated with better executive control efficiency, whereas no significant associations were found with alerting or orienting. Mediation analysis showed a significant indirect effect of IL-6 on executive control via left SFG thickness (indirect effect = -0.024, 95% CI [-0.093, -0.003]), with a significant total effect (-0.218, 95% CI [-0.429, -0.007]) and a nonsignificant direct effect (-0.194, 95% CI [-0.403, 0.014]). These findings suggest that relatively higher IL-6 concentrations within the physiological reference range are associated with better executive control performance, with left SFG cortical thickness showing a significant statistical indirect association. Together, these results highlight a potential immune-structure-cognition relationship in long-term high-altitude migrants, although comparative and longitudinal studies are needed to determine whether these associations are specifically related to high-altitude exposure.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Early WM Alterations after Mild Traumatic Brain Injury: An Exploratory Study Using Quantitative MRI and DTI.</title>
@@ -383,6 +414,16 @@ Abstract General cognitive ability may relate to the proportional allocation of 
       <category>结构与功能</category>
     </item>
     <item>
+      <title>White matter microstructure and theory of mind in clinical high risk for psychosis: a discovery-replication study.</title>
+      <link>https://doi.org/10.1016/j.pscychresns.2026.112368</link>
+      <guid isPermaLink="false">doi:10.1016/j.pscychresns.2026.112368</guid>
+      <description>Psychiatry research. Neuroimaging
+
+INTRODUCTION: Theory of mind (ToM) difficulties have been reported in individuals at clinical high risk for psychosis (CHR). ToM have been associated with white-matter microstructure in patients with manifest psychosis, but whether such associations differ in CHR individuals relative to controls remains unclear. We investigated whether associations between regional fractional anisotropy (FA) and ToM differed in CHR individuals compared to controls. METHODS: Using a discovery-replication design, we included 110 CHRDisc and 57 controlsDisc, and further 33 CHRRepl and 13 controlsRepl as an independent replication cohort. ToM was assessed with The Awareness of Social Inference Test (Short Form), yielding total, sincere, simple sarcasm, and paradoxical sarcasm scores. Group differences were tested with adjusted covariance models. Primary analyses tested whether specific associations between superior longitudinal fasciculus (SLF) FA and ToM differed by group using hierarchical regression. Secondary linear mixed-effects models tested whether group differences in regional FA and ToM associations varied across all white-matter regions. RESULTS: CHRDisc participants showed lower ToM total scores (F = 5.76, p = 0.018), simple sarcasm scores (F = 7.98, p = 0.005) and lower left SLF FA (F = 6.68, p = 0.011); right SLF FA was lower in CHR at the sample mean age (F = 8.47, p = 0.004; Group × Age p = 0.014). No significant SLF FA × ToM group interactions were observed across both cohorts. Secondary analyses identified group differences in associations between ToM and right cingulum hippocampal, (F = 10.83, p = 0.001), and fornix, (F = 22.77, p &lt; 0.001). Neither finding was observed in CHRRepl. CONCLUSION: ToM differences in CHR were modest and cohort-dependent. No support for a single-tract explanation was provided, although secondary findings suggested additional candidate regions warranting confirmation in larger samples.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Recurrent de novo ABI2 p.Tyr491Cys variants define a neurodevelopmental syndrome with corpus callosum hypoplasia and white matter abnormalities.</title>
       <link>https://doi.org/10.1016/j.ajhg.2026.10.003</link>
       <guid isPermaLink="false">doi:10.1016/j.ajhg.2026.10.003</guid>
@@ -480,47 +521,6 @@ Brain aging is accompanied by profound cellular and microstructural changes that
 
 Introduction Brain-derived tau (BD-tau) selectively quantifies tau of central nervous system origin in blood and has demonstrated strong correlations with infarct volume and functional outcome in general ischaemic stroke, but data in lacunar stroke and cerebral small vessel disease (CSVD) are lacking. Patients and methods In a prospectively collected cohort of 101 lacunar stroke patients with an MRI-confirmed recent small subcortical infarct (RSSI) and 47 controls, we measured serum BD-tau using the HD-X SIMOA platform at baseline and 3 and 15 months after stroke. We examined associations of BD-tau with infarct size, chronic CSVD neuroimaging features (white matter hyperintensities [WMHs], lacunes, microbleeds, total SVD score), CSVD progression on follow-up MRI and functional outcome. Results Baseline serum BD-tau was higher in RSSI patients than controls (median 9.54 [7.32-12.20] vs 7.75 [6.18-9.44] pg/mL; P = .003) and correlated with infarct diameter (rs = 0.222, P = 0.039). Brain-derived tau did not correlate with time from stroke symptom onset to blood sampling (rs = 0.150, P = .179). Brain-derived tau was not associated with chronic CSVD neuroimaging features (WMHs, lacunes, microbleeds, SVD score; all P &gt; .05) at any timepoint. Longitudinally, BD-tau returned to control levels by 3 months (P = .374) and remained stable at 15 months (P = .985). Brain-derived tau was neither associated with new vascular MRI lesions on follow-up nor functional neurological outcome. Conclusion Serum BD-tau is elevated acutely in CSVD-related RSSI, correlates with infarct size and normalises by 3 months. Brain-derived tau was not associated with chronic CSVD neuroimaging features or disease progression, suggesting sensitivity to acute neuronal injury rather than chronic or progressive CSVD.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.</title>
-      <link>https://doi.org/10.1038/s41380-026-03719-9</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03719-9</guid>
-      <description>Molecular psychiatry
-
-Background Brain connectivity abnormalities may underlie affective psychosis which may be influenced by sex. Using diffusion magnetic resonance imaging (dMRI) tractography, we assessed frontostriatal brain wiring connectivity patterns in 46 early psychosis affective and 56 healthy control young adult, male and female participants. Methods We collected harmonized whole brain tractography dMRI data from three sites and applied our novel fiber clustering methodology to identify 17 white matter fiber clusters connecting the frontal cortex and caudate per hemisphere in each group. By comparing cortical and caudate inter-cluster endpoint distances between groups, we assessed their patterns of frontostriatal connectivity. Results 1) In both males and females in early affective psychosis and healthy controls, bilaterally, the frontal cortex to caudate wiring pattern deviated from a topographic organization. 2) in a right hemisphere frontal pole fiber cluster, independent of sex, we found a significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.013); 3) in a left hemisphere inferior frontal gyrus, pars triangularis, fiber cluster, we found sex influenced the significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.0085), with the effect much greater in females (p &lt; 0.00001) than in males (p = 0.97); and, 4) post-hoc tests showed a significant effect of diagnosis on the pattern of frontal cortex to caudate connectivity in specific subregions (ps ≤0.04). Conclusions Importantly, while the frontostriatal wiring pattern in both early affective psychosis and healthy controls deviated from a topographic organization, we found in a right hemisphere fiber cluster, independent of sex, that a significant interaction effect of diagnosis was observed on the frontal cortex to caudate connectivity pattern, whereas, in a left hemisphere fiber cluster, the effect of diagnosis on connectivity pattern was influenced by sex, showing the importance of the role of sex in brain wiring patterns in early affective psychosis.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Hippocampal Subfield Volumes and Spatial Memory Performance in Older Adults At-Risk for Type 2 Diabetes.</title>
-      <link>https://doi.org/10.1002/hipo.70144</link>
-      <guid isPermaLink="false">doi:10.1002/hipo.70144</guid>
-      <description>Hippocampus
-
-Older adults at risk for type 2 diabetes (T2D) are more likely to experience accelerated cognitive aging and neurodegeneration due to impaired metabolism in the hippocampus. However, the precise relationship between T2D risk factors, brain volumes (i.e., gray matter, white matter, hippocampus subfields), and hippocampus-dependent functions (i.e., spatial pattern separation, a component of spatial memory) remains unexplored. To investigate these relationships in this cross-sectional study, 60 older adults at risk for T2D (e.g., high BMI or elevated A1c levels) completed a touchscreen-based spatial pattern separation behavioral task-the Trial-Unique delayed Nonmatching-to-Location (TUNL) and magnetic resonance imaging (MRI). HippUnfold was utilized to segment the hippocampus from high-resolution, T1 -weighted images. We found positive correlations between A1c levels and volumes of the dentate gyrus (DG) and cornu ammonis (CA) 2, indicating that higher A1c was associated with larger volumes of hippocampal subregions. Additionally, TUNL accuracy was correlated with gray matter and distinct hippocampus subfield volumes (i.e., subiculum, CA1, and CA4), with larger volumes associated with better spatial memory performance. Understanding early structural changes in T2D risk allows us to further characterize changes in brain health associated with metabolic dysfunction.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Mood and Behavioral Changes in Adult Cerebral X-linked Adrenoleukodystrophy</title>
-      <link>https://europepmc.org/article/PMC/PMC13722919</link>
-      <guid isPermaLink="false">PMC:PMC13722919</guid>
-      <description>Cureus
-
-来源未提供摘要。</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Occupational Exposure Rather Than Trauma: Lower Occipital Gray Matter Volume in Underground Coal Miners Without PTSD or Other Psychiatric Diagnoses.</title>
-      <link>https://doi.org/10.1016/j.neuro.2026.103593</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuro.2026.103593</guid>
-      <description>Neurotoxicology
-
-Underground coal mining involves extreme conditions such as inadequate lighting, chronic exposure to dust and toxic gases, and intense occupational stress. Cortical changes observed in miners have been addressed almost exclusively in the literature within the framework of post-traumatic stress disorder (PTSD), neglecting the possibility that these changes may stem directly from environmental exposure independently of psychopathology. The potential for work-specific conditions such as prolonged dark work, insufficient daylight, and exposure to toxic dust to lead to structural brain changes even without any psychopathology has been overlooked. To address this gap, 28 underground miners and 28 surface miners, who were free of current psychiatric and neurological diagnoses, were compared. T1 images obtained from 3T MRI were analyzed using voxel-based morphometry (VBM) with CAT12/SPM12. Relationships between gray matter volume, working time, and neuropsychological performance were examined using a generalized additive model (GAM). Significantly lower gray matter volume was detected in the left occipital cortex (calcarine fissure, lingual and inferior occipital gyrus) of miners (t(53) = 4.82, pFWE = 0.026, d = 1.32). The effect was regionally selective. Occipital volume was negatively correlated with underground work time (r = -0.422), while this correlation was absent in the control group (r = 0.013). GAM showed significant nonlinear relationships between morphometry and learning score, recall and TMT-B (R² = 89%). This study is one of the first to associate occipital volume reduction in miners with chronic occupational exposure independently of psychological trauma. The findings are critically important for occupational health policies targeting neurological protection.</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
   </channel>
