@@ -61,7 +61,7 @@
     if (p.abstract === undefined) return '<div class="detail-content"><p>正在读取原始摘要…</p></div>';
     const abstract=p.abstract || "来源尚未提供摘要，暂无法生成中文概览，请点击题目阅读原文。";
     const matched=[...new Set(Object.values(p.evidence).flat())];
-    return `<div class="detail-content"><p class="full-abstract">${escape(abstract)}</p><p class="evidence">检索命中：${escape(matched.join(' · ') || '匹配本方向检索式，详见原始数据')}。<br>方法标签按标题与摘要推断，优先使用方法部分，并非人工核实。本站首次收录：${escape(p.first_seen ? beijingDate.format(new Date(p.first_seen)) : '—')}；来源收录：${escape(p.indexed || '未提供')}。</p>${p.tracts.length ? `<p class="evidence">相关纤维束：${escape(p.tracts.join(' · '))}</p>` : ''}<div class="detail-links"><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">前往原文 ↗</a><a href="${safeUrl(p.source_url)}" target="_blank" rel="noopener">Europe PMC 记录 ↗</a></div><p class="doi-line">${p.doi ? 'DOI: ' + escape(p.doi) : '来源编号: ' + escape(p.source + ':' + p.source_id)}</p></div>`;
+    return `<div class="detail-content"><p class="full-abstract">${escape(abstract)}</p><p class="evidence">检索命中：${escape(matched.join(' · ') || '匹配本方向检索式，详见原始数据')}。<br>方法标签按标题与摘要推断，优先使用方法部分，并非人工核实。本站首次收录：${escape(p.first_seen ? beijingDate.format(new Date(p.first_seen)) : '—')}；来源收录：${escape(p.indexed || '未提供')}。</p>${p.tracts.length ? `<p class="evidence">相关纤维束：${escape(p.tracts.join(' · '))}</p>` : ''}<div class="detail-links"><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">前往原文 ↗</a><a href="${safeUrl(p.source_url)}" target="_blank" rel="noopener">来源记录 ↗</a></div><p class="doi-line">${p.doi ? 'DOI: ' + escape(p.doi) : '来源编号: ' + escape(p.source + ':' + p.source_id)}</p></div>`;
   }
   function syncUrl() {
     const u = new URL(location.href);

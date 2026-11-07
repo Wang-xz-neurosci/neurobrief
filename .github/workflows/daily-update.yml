@@ -66,7 +66,6 @@ jobs:
             config/update_policy.json
             config/relevance.json
             dist/update-status.json
-            data/source_cooldown.json
           sparse-checkout-cone-mode: false
       - id: decision
         env:
@@ -99,7 +98,7 @@ jobs:
           set -e
           if [ "$collection_exit" = "75" ]; then
             echo 'deferred=true' >> "$GITHUB_OUTPUT"
-            echo '::notice::Europe PMC is temporarily unavailable. Saved website retained; the next schedule check will retry after cooldown.'
+            echo '::notice::Literature collection is temporarily unavailable. Saved website retained; the next schedule check will retry.'
           elif [ "$collection_exit" != "0" ]; then
             exit "$collection_exit"
           fi

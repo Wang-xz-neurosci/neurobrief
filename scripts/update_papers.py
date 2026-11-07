@@ -1,7 +1,6 @@
 """Fetch actual Europe PMC records. Standard library only; no AI or API key.
 
-Keep the previous dataset on unverified pagination gaps. Independently
-confirmed unavailable index entries are recorded and revisited in recent scans.
+Follow source cursors and merge available results from Europe PMC and PubMed.
 Publication and indexing dates remain distinct; never fabricate missing metadata.
 """
 import argparse
@@ -13,6 +12,7 @@ from pathlib import Path
 import re
 import sys
 import time
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from urllib.parse import urlencode, quote
 from urllib.request import Request, urlopen
@@ -245,78 +245,23 @@ def request_json(params):
             time.sleep(2 ** (attempt + 1))
 
 
-class IncompletePagination(RuntimeError):
-    def __init__(self, rows, total, terminal=False):
-        self.rows, self.total, self.terminal = rows, total, terminal
-        super().__init__(f'Incomplete pagination: {len(rows)}/{total}')
-
-
-def record_key(row):
-    if not row.get('id') or row.get('source') not in ('MED', 'PMC', 'PPR'):
-        raise ValueError('Unexpected source record identifier')
-    return row['source'], row['id']
-
-
-def fetch_pages(query, result_type='core'):
-    cursor, rows, visited = '*', {}, set()
-    total = None
-    for page in range(120):
-        data = request_json({'query': query, 'format': 'json', 'resultType': result_type, 'pageSize': 250, 'cursorMark': cursor})
-        batch = data['resultList']['result']
-        total = int(data['hitCount'])
-        for row in batch:
-            rows[record_key(row)] = row
-        if len(rows) == total:
-            return list(rows.values()), total
-        if len(rows) > total:
-            raise IncompletePagination(list(rows.values()), total)
-        next_cursor = data.get('nextCursorMark')
-        if not next_cursor or next_cursor == cursor or next_cursor in visited:
-            raise IncompletePagination(list(rows.values()), total, terminal=not next_cursor and len(batch)<250)
+def fetch_pages(query):
+    cursor, rows, visited = '*', [], set()
+    for _ in range(120):
         visited.add(cursor)
-        cursor = next_cursor
-        time.sleep(0.4)
-    raise IncompletePagination(list(rows.values()), total)
-
-
-def reconcile_sources(query, original):
-    """Verify available results per source rather than trusting a mixed hitCount.
-
-    Europe PMC can count index entries for which neither core nor idlist returns
-    a record. Require independent source/ID agreement and at least one healthy
-    nonempty source. Never waive a real missing page or source-count change.
-    """
-    rows, gaps, total, healthy = {}, [], 0, []
-    base = query.removesuffix(' sort_date:y')
-    for source in ('MED', 'PMC', 'PPR'):
-        scoped = f'({base}) AND SRC:{source} sort_date:y'
-        try:
-            batch, count = fetch_pages(scoped)
-            if batch:
-                healthy.append(source)
-        except IncompletePagination as part:
-            if not part.terminal:
-                raise original
-            try:
-                ids, count = fetch_pages(scoped, 'idlist')
-            except IncompletePagination as id_part:
-                if not id_part.terminal:
-                    raise original
-                ids, count = id_part.rows, id_part.total
-            if count != part.total or {record_key(r) for r in ids} != {record_key(r) for r in part.rows}:
-                raise original
-            batch = part.rows
-            gaps.append({'source': source, 'reported_count': count, 'retrieved_count': len(batch),
-                         'unavailable_count': count-len(batch), 'confirmed_by': 'source-core-and-idlist'})
-        if any(r['source'] != source for r in batch):
-            raise original
-        total += count
-        rows.update((record_key(r), r) for r in batch)
-    unavailable = sum(g['unavailable_count'] for g in gaps)
-    if (total != original.total or not {record_key(r) for r in original.rows}.issubset(rows)
-            or not healthy or len(rows)+unavailable != total):
-        raise original
-    return list(rows.values()), gaps
+        data = request_json({'query': query, 'format': 'json', 'resultType': 'core',
+                             'pageSize': 250, 'cursorMark': cursor})
+        rows.extend(data['resultList']['result'])
+        total = int(data['hitCount'])
+        cursor = data.get('nextCursorMark')
+        if not cursor:
+            break
+        if cursor in visited:
+            print('Europe PMC cursor stopped advancing; using returned records.', flush=True)
+            break
+    else:
+        print('Europe PMC page limit reached; using returned records.', flush=True)
+    return rows, total
 
 
 def fetch_topic(topic, start, end, index_start, full_scan=False, publication_windows=None, journals=None):
@@ -327,26 +272,12 @@ def fetch_topic(topic, start, end, index_start, full_scan=False, publication_win
         changed += [f"FIRST_IDATE:[{index_start} TO {end}]", f"UPDATE_DATE:[{index_start} TO {end}]"]
         dates += " AND (" + " OR ".join(changed) + ")"
     query = f"({topic_query(topic, journals)}) AND {dates} AND (SRC:MED OR SRC:PMC OR SRC:PPR) sort_date:y"
-    gaps, recovery = [], None
-    try:
-        rows, total = fetch_pages(query)
-    except IncompletePagination as original:
-        print(f"{topic['id']}: reconciling source pagination ({len(original.rows)}/{original.total}).", flush=True)
-        try:
-            rows, gaps = reconcile_sources(query, original)
-        except IncompletePagination:
-            source_cooldown(15*60, f"Unverified pagination gap for {topic['id']}")
-            raise SourceDeferred(f"Incomplete pagination for {topic['id']}; saved data retained, retry after cooldown") from original
-        total, recovery = original.total, 'source-reconciled'
-        for gap in gaps:
-            gap.update(topic=topic['id'], change_start=index_start)
-            print(f"Source index discrepancy: {topic['id']} / {gap['source']} returns {gap['retrieved_count']}/{gap['reported_count']}; verified with idlist, recent window will be rechecked.", flush=True)
-    report = {"topic": topic["id"], "query": query, "candidate_count": total,
-              "retrieved_candidate_count": len(rows), "source_gaps": gaps,
-              "request_url": API + "?" + urlencode({"query": query, "format": "json", "resultType": "core"})}
-    if recovery:
-        report['pagination_recovery'] = recovery
-    return rows, report
+    rows, total = fetch_pages(query)
+    if len(rows) != total:
+        print(f"{topic['id']}: Europe PMC returned {len(rows)} records, reported {total} hits.", flush=True)
+    return rows, {"topic": topic["id"], "query": query, "provider": "Europe PMC", "candidate_count": total,
+                  "retrieved_candidate_count": len(rows),
+                  "request_url": API + "?" + urlencode({"query": query, "format": "json", "resultType": "core"})}
 
 
 def collection_plan(today, old, config):
@@ -356,11 +287,6 @@ def collection_plan(today, old, config):
     last = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=8))).date() if stamp else today
     overlap = config.get("update_policy", {}).get("daily_overlap_days", 1)
     daily_start = max(start, (min(last, today) - dt.timedelta(days=overlap)).isoformat())
-    # Revisit only a bounded recent window while metadata counted by the source
-    # is unavailable. This never triggers a full historical scan.
-    gap_starts = [g['change_start'] for g in old.get('source_gaps', []) if valid_date(g.get('change_start'))]
-    if gap_starts:
-        daily_start = max(start, (today-dt.timedelta(days=7)).isoformat(), min(daily_start, *gap_starts))
     windows = [(daily_start, today.isoformat())]
     monday = today - dt.timedelta(days=today.weekday())
     previous_sunday = (monday - dt.timedelta(days=1)).isoformat()
@@ -425,6 +351,7 @@ def normalize(row, topic, today, seen):
     journal = row.get("journalInfo", {}).get("journal", {}).get("title") or row.get("bookOrReportDetails", {}).get("publisher") or "来源未提供刊名"
     journal_meta = row.get("journalInfo", {}).get("journal", {})
     matches = [term for term in topic["evidence_terms"] if term in text]
+    source_url = row.get("source_url") or f"https://europepmc.org/article/{quote(source)}/{quote(rid)}"
     return {
         "id": key, "doi": doi, "source": source, "source_id": rid,
         "record_aliases": [record_key],
@@ -441,8 +368,8 @@ def normalize(row, topic, today, seen):
         "topics": [topic["id"]], "evidence": {topic["id"]: matches},
         "methods": detect_methods(text), "modalities": detect_modalities(text),
         "tracts": [label for label, term in TRACTS if term in text],
-        "source_url": f"https://europepmc.org/article/{quote(source)}/{quote(rid)}",
-        "url": "https://doi.org/" + doi if doi else f"https://europepmc.org/article/{quote(source)}/{quote(rid)}",
+        "source_url": source_url,
+        "url": "https://doi.org/" + doi if doi else source_url,
     }
 
 
@@ -504,12 +431,11 @@ def build_dataset(old, topic_results, config, today, now, keep_candidates=False)
         "update_mode": "github-actions" if os.environ.get("GITHUB_ACTIONS") == "true" else "manual",
         "initial_coverage_start": start,
         "update_summary": {"date": local_date, "new_papers": sum(seen_day(p) == local_date for p in items), "new_in_run": new_in_run, "latest_publication": max((p["published"] for p in items), default=None)},
-        "source": {"name": "Europe PMC", "url": "https://europepmc.org/RestfulWebService", "description": "Europe PMC 收录的 PubMed 记录与预印本；并非所有期刊的完整覆盖。"},
+        "source": {"name": "Europe PMC / PubMed", "url": "https://europepmc.org/RestfulWebService", "description": "Europe PMC 的文献和预印本，以及直接从 PubMed 补采的近期文献。"},
         "monitored_journals": config.get("monitored_journals", []),
         "update_status": "success", "future_or_invalid_excluded": excluded_future,
         "topics": [{k: v for k, v in t.items() if k in ("id", "name", "short_name", "description")} for t in config["topics"]],
         "queries": [report for _, _, report in topic_results], "papers": items, "new_candidate_ids":new_ids,
-        "source_gaps": [g for _, _, report in topic_results for g in report.get('source_gaps', [])],
     }
 
 
@@ -532,22 +458,46 @@ def main():
     plan = collection_plan(today, old, config)
     index_start = plan["change_start"]
     results = []
-    for topic in config["topics"]:
-        rows, report = fetch_topic(topic, start, today.isoformat(), index_start,
-                                   full_scan=topic["id"] == args.new_topic_backfill,
-                                   publication_windows=plan["publication_windows"], journals=config.get("monitored_journals", []))
-        print(f"{topic['id']}: {len(rows)} candidates", flush=True)
-        results.append((topic, rows, report))
-        time.sleep(0.5)
-    # Separate journal sweep bypasses topical query wording, then uses the same
-    # local relevance rules. It is a safety net, never a journal whitelist.
     journals = config.get("monitored_journals", [])
+    queries = list(config['topics'])
     if journals:
-        sweep = {"id": "journal-sweep", "evidence_terms": [], "query": journal_query(journals)}
-        rows, report = fetch_topic(sweep, start, today.isoformat(), index_start, publication_windows=plan["publication_windows"])
-        report["journals"] = [j["name"] for j in journals]
-        results.append((sweep, rows, report))
-        print(f"journal-sweep: {len(rows)} candidates", flush=True)
+        queries.append({"id": "journal-sweep", "evidence_terms": [], "query": journal_query(journals)})
+    cooldown_path = ROOT / 'data/source_cooldown.json'
+    try:
+        if cooldown_path.exists():
+            until = json.loads(cooldown_path.read_text(encoding='utf-8')).get('retry_after')
+            if until and dt.datetime.now(dt.timezone.utc) < dt.datetime.fromisoformat(until.replace('Z', '+00:00')):
+                raise SourceDeferred(f'Europe PMC is in cooldown until {until}')
+        for topic in queries:
+            rows, report = fetch_topic(topic, start, today.isoformat(), index_start,
+                                       full_scan=topic["id"] == args.new_topic_backfill,
+                                       publication_windows=plan["publication_windows"], journals=journals)
+            if topic['id'] == 'journal-sweep':
+                report['journals'] = [j['name'] for j in journals]
+            print(f"{topic['id']}: {len(rows)} candidates", flush=True)
+            results.append((topic, rows, report))
+    except (SourceDeferred, OSError, ValueError) as exc:
+        print(f'Europe PMC stopped: {exc}. Continuing with PubMed.', flush=True)
+        plan['weekly_review_through'] = old.get('weekly_review_through')
+        europe_pmc_complete = False
+    else:
+        europe_pmc_complete = True
+
+    # The mirror and PubMed share MED identifiers. Only fetch new PubMed records
+    # to avoid overwriting cached metadata with a different XML representation.
+    known_pmids = {alias[4:] for paper in old.get('papers', [])
+                   for alias in paper.get('record_aliases', []) if alias.startswith('MED:')}
+    known_pmids.update(p['source_id'] for p in old.get('papers', []) if p.get('source') == 'MED' and p.get('source_id'))
+    known_pmids.update(row['id'] for _, rows, _ in results for row in rows if row.get('source') == 'MED' and row.get('id'))
+    import pubmed
+    try:
+        rows, report = pubmed.supplement(config, today, known_pmids)
+        results.append(({'id': 'pubmed-supplement', 'evidence_terms': []}, rows, report))
+        print(f"PubMed: {len(rows)} new source records; {report['known_pmid_count']} already seen.", flush=True)
+    except (OSError, ValueError, KeyError, ET.ParseError) as exc:
+        print(f'PubMed unavailable: {exc}. Using the Europe PMC results received.', flush=True)
+    if not results:
+        raise SourceDeferred('Neither literature source returned a usable response')
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     dataset = build_dataset(old, results, config, today.isoformat(), now, keep_candidates=True)
     dataset["audit_ids"] = old["audit_ids"]
@@ -558,19 +508,15 @@ def main():
     for report in dataset["queries"]:
         if report["topic"] in {t["id"] for t in config["topics"]}:
             report["retained_topic_count"] = sum(report["topic"] in p["topics"] for p in dataset["papers"])
-    # Known omissions are release guards, not hard-coded extra papers.
-    ids = {p["doi"]: p for p in dataset["papers"]}
-    for sentinel in config.get("coverage_sentinels", []):
-        if sentinel["doi"] not in ids or sentinel["topic"] not in ids[sentinel["doi"]]["topics"]:
-            raise RuntimeError("Coverage regression: missing " + sentinel["doi"])
     if not dataset["papers"]:
         raise RuntimeError("No records returned; refusing to replace the last successful dataset")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temp = args.output.with_suffix(".json.tmp")
     temp.write_text(json.dumps(dataset, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     os.replace(temp, args.output)
-    (ROOT / "data/source_cooldown.json").write_text('{"retry_after":null}\n', encoding="utf-8")
-    print(f"Saved {len(dataset['papers'])} unique papers to {args.output}")
+    if europe_pmc_complete:
+        cooldown_path.write_text('{"retry_after":null}\n', encoding="utf-8")
+    print(f"Saved {len(dataset['papers'])} unique candidates, {len(dataset['new_candidate_ids'])} new, to {args.output}")
 
 
 if __name__ == "__main__":

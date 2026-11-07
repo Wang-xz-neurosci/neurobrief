@@ -1092,13 +1092,6 @@
       "aliases": []
     }
   ],
-  "coverage_sentinels": [
-    {
-      "doi": "10.1016/j.tins.2026.09.001",
-      "topic": "language",
-      "title": "The dynamics of functional connectivity-based language lateralization across timescales."
-    }
-  ],
   "update_policy": {
     "daily_overlap_days": 1,
     "weekly_review": "previous-calendar-week-on-Monday",

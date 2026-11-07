@@ -54,12 +54,6 @@ class IngestionTests(unittest.TestCase):
         data = m.build_dataset({"papers": [a]}, [(self.topic, [], {})], {"lookback_days":90,"topics":[self.topic]}, self.today, self.now)
         self.assertEqual(len(data["papers"]), 1)
 
-    def test_incomplete_pagination_is_an_error(self):
-        response = {"hitCount": 500, "resultList": {"result": [self.row]}, "nextCursorMark": "*"}
-        with patch.object(m, "request_json", return_value=response), patch.object(m, 'source_cooldown'):
-            with self.assertRaisesRegex(RuntimeError, "Incomplete pagination"):
-                m.fetch_topic(self.topic, "2026-08-01", self.today, "2026-10-01")
-
     def test_preprint_label_from_source(self):
         p = m.normalize({**self.row, "source": "PPR"}, self.topic, self.today, self.now)
         self.assertTrue(p["is_preprint"])

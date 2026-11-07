@@ -53,9 +53,6 @@ class ScheduleTests(unittest.TestCase):
             self.assertFalse(result['collect']);self.assertTrue(result['deploy'])
     def test_explicit_force_can_collect(self):
         self.assertTrue(m.decide('workflow_dispatch',self.now('2026-10-26T20:00:00'),self.status,self.policy,force=True)['collect'])
-    def test_provider_cooldown_is_respected(self):
-        result=m.decide('schedule',self.now('2026-10-27T03:00:00'),self.status,self.policy,cooldown={'retry_after':'2026-10-26T20:00:00Z'})
-        self.assertFalse(result['collect']);self.assertFalse(result['deploy'])
     def test_pending_ai_resumes_without_recollecting(self):
         status={'collection_date':'2026-10-27','collected_at':'2026-10-26T19:00:00Z',
                 'ai':{'pending':42,'retry_after':'2026-10-27T03:30:00+08:00'}}
