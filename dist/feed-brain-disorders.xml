@@ -5,9 +5,31 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 Nov 2026 20:24:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network disruption in post-stroke depressive symptoms: a Bayesian multicohort study.</title>
+      <link>https://doi.org/10.1093/brain/awag387</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag387</guid>
+      <description>Brain : a journal of neurology
+
+Post-stroke depressive symptoms are common, but studies on the contributions of lesion locations to depression symptoms remain inconsistent. Bayesian statistics offer the possibility to clarify these inconsistencies by providing evidence in favor and against observed associations. We reanalyzed four previously published observational cohorts with 1,864 patients with stroke characterized for depressive symptoms from France, Korea, Germany and the USA. We performed voxel-wise Bayes factor mapping using general linear models. Lesion maps were used to test for associations of post-stroke depressive symptoms with lesion location. Network level associations were tested based on structural disconnection and functional lesion network maps estimated by reference to normative connectome data. Due to a sample size with broad lesion coverage, Bayesian inference was informative in large parts of the brain. Lesion associations were found in clusters in the right hemisphere including cortical (frontal, insular, parietal) and subcortical regions (striatum, amygdala, hippocampus) and adjacent white matter. Evidence of no contribution to post-stroke depressive symptoms was observed in large parts of the left hemisphere. Structural disconnection was linked to depressive symptoms in the bilateral frontal white matter prominently involving the corpus callosum and anterior thalamic radiation. Lesion network mapping revealed evidence of an association of post-stroke depressive symptoms with network connectivity in the left posterior cingulate cortex and precuneus, and less consistently, the bilateral anterior insula, along with widespread absence of associations in other regions. Depressive symptoms were most strongly associated with right frontal lesions and right-dominant structural disconnection in frontal cortico-subcortical circuits.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Brain-heart decoupling in somatic depression: Desynchronization between salience network neuropsychological connectivity and heart rate variability.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122331</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122331</guid>
+      <description>NeuroImage
+
+Somatic depression is a distinct subtype of major depressive disorder, with a poorer response to treatment, an elevated risk of suicidal behaviour, and a worse prognosis. Interoception, the sense of internal bodily signals, is related to somatic symptoms. However, the underlying pathophysiological mechanisms of body brain communication remain unclear. 293 depressed patients (145 with somatic symptoms and 148 without), and 160 healthy controls underwent magnetoencephalography during a resting state. Both the intra- and inter-network neural oscillation patterns of the salience network, were computed, alongside and heart rate variability (HRV) as a measure of autonomic function. Individuals with somatic depression exhibited lower HRV, accompanied by theta hyper-connectivity within the salience network. Although higher theta connectivity was linked to increased HRV in controls, this correlation was attenuated or even reversed in patients with somatic depression. Our findings identify a specific pattern of brain-heart decoupling in somatic depression, characterized by disrupted communication between salience network theta oscillations and autonomic cardiac regulation. This provides novel neuroimaging evidence for body-brain communication deficits in a clinically important depression subtype.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Mapping Individual Brain Deviations in ICD-11 Catatonia: Normative Modeling of Structural and Functional MRI Across Two Independent Cohorts.</title>
       <link>https://doi.org/10.1176/appi.ajp.20260326</link>
@@ -16,6 +38,104 @@
 
 Catatonia is a transdiagnostic psychomotor syndrome cutting across mood disorders (MODs) and schizophrenia spectrum disorders (SSDs). However, its neurobiological profiles remain poorly characterized. The authors examined structural and resting-state functional normative deviations associated with catatonia across two independent clinical cohorts, using hierarchical Bayesian normative modeling. Structural and resting-state functional MRI data were analyzed from two independent deeply phenotyped cohorts of 280 patients with MODs and SSDs. The Mannheim (Germany) sample included 184 patients with MODs or SSDs (58 with ICD-11 catatonia), and the Bern (Switzerland) sample comprised 96 SSD patients (59 with ICD-11 catatonia). Individual deviations from normative models were estimated using the PCNToolkit, based on healthy reference datasets (N=57,000 structural; N=22,000 functional). Catatonia diagnosis was associated with significant ventricular enlargement (third ventricle and left and right lateral ventricles; q&lt;0.05) and cortical thinning in the left dorsal posterior cingulate and insular cortices (q&lt;0.05) across both cohorts. Exploratory analyses identified a significant left orbitofrontal cortex (OFC) difference between MOD and SSD patients with catatonia. In the overall catatonia versus non-catatonia comparison, the OFC association survived false discovery rate correction only in models adjusted for demographic variables. Resting-state functional analyses showed reduced connectivity between sensorimotor, salience, limbic, and executive control networks at the nominal significance level, but did not survive correction for multiple comparisons. In the combined sample, catatonia was characterized by ventricular enlargement and cingulo-insular cortical thinning, supporting a transdiagnostic model implicating distributed motor-salience integration circuits. These findings provide reproducible, individual-level evidence for distributed brain network involvement in catatonia and identify candidate regions for future mechanistic and neuromodulation studies.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Opposing effects of childhood abuse and neglect on neural performance monitoring.</title>
+      <link>https://doi.org/10.1162/imag.a.1439</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1439</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+The dimensional model of adversity proposes that threat (abuse) and deprivation (neglect) exert distinct effects on neurocognitive development. We tested whether these dimensions show opposing associations with neural indices of performance monitoring in a sample of 782 young adults from the CoScience EEG-Personality Project. Participants completed the Childhood Trauma Questionnaire alongside an Eriksen flanker task while electroencephalography was recorded. Performance monitoring was indexed by the error-related negativity and frontal midline theta activity. Consistent with preregistered hypotheses, abuse and neglect showed opposing associations with both neural measures. Higher abuse was associated with enhanced error-related negativity but not theta power, whereas higher neglect was associated with attenuated error-related negativity and reduced theta power. Exploratory analyses indicated that these associations were moderated by sex, with stronger effects observed in males. These findings are consistent with the distinction between threat- and deprivation-related adversity and suggest that different forms of childhood adversity may be linked to variation in neurocognitive processes underlying cognitive control. However, the cross-sectional and retrospective nature of the measures limits causal inference and may introduce reporting biases.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer's disease progression.</title>
+      <link>https://doi.org/10.1126/sciadv.aed9351</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aed9351</guid>
+      <description>Science advances
+
+Identifying the neurobiological basis of cognitive vulnerability is essential for preventing Alzheimer's disease (AD). We derived the Alzheimer's Resilience-Vulnerability Connectome (ARC) by contrasting SuperAgers (SA), an extreme phenotype of preserved late-life memory, with AD using resting-state fMRI. ARC distinguished SA from AD in a discovery cohort (N = 290; AUC = 0.85) and replicated independently (N = 143), involving prefrontal, temporal, and insular networks and associating with brain age. Applied to cognitively unimpaired adults (discovery: N = 818; replication: N = 497), ARC-based subtyping revealed SA-like and AD-like subgroups with comparable baseline cognition but divergent longitudinal trajectories. AD-like individuals exhibited faster cognitive decline, greater amyloid-β accumulation, and higher AD conversion risk. Exploratory GWAS nominated CLYBL and FRMD6 as candidate novel loci associated with the subtype difference. These findings suggest that ARC captures a continuous connectomic dimension of cognitive aging spanning SA, cognitively typical aging, and AD, highlighting the potential of functional connectomic variation for early risk stratification in AD.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Cannabidiol and fronto-parietal EEG connectivity in autistic children.</title>
+      <link>https://doi.org/10.1093/cercor/bhag188</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag188</guid>
+      <description>Cerebral cortex (New York, N.Y. : 1991)
+
+Autistic children often show altered brain network connectivity, including circuitry implicated in social cognition. Cannabidiol (CBD) has emerged as a potential therapy for autism, but its neural mechanisms remain under-researched. Here, we analyze resting-state data collected as part of a double-blind, placebo-controlled crossover trial, to explore whether 12 weeks of oral CBD oil could modulate functional connectivity in autistic children. Twenty-nine autistic children (5 to 12 years) completed two 12-week intervention periods (CBD and placebo, randomized) separated by an 8-week washout. Before and after each period, 5 min of eyes-open resting-state electroencephalography (EEG) were obtained from a subset of 18 participants (8 female). Functional connectivity was calculated across 16 electrode-pairs in the delta, theta, alpha, beta, and gamma bands. Beta-band connectivity between the right frontal and right inferior-parietal electrodes increased following CBD (P = 0.001, false discovery rate [FDR]-corrected P [pFDR] = 0.022), and alpha connectivity showed an increase that did not remain following FDR correction (P = 0.036, pFDR = 0.428). No significant differences were observed following placebo for any frequency band (pFDR &gt; 0.69). This study provides preliminary evidence that 12 weeks of cannabidiol is associated with an increase in right fronto-parietal (F4-P8) functional connectivity in autistic children, most pronounced in the beta-band. Replication in larger samples is needed to confirm generalizability and clinical relevance.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Mapping brain imaging heterogeneity in multiple sclerosis.</title>
+      <link>https://doi.org/10.1093/brain/awag349</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag349</guid>
+      <description>Brain : a journal of neurology
+
+来源未提供摘要。</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Aggression in epilepsy and sleep: from historical accounts to brain networks and human behaviour.</title>
+      <link>https://doi.org/10.1093/brain/awag212</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag212</guid>
+      <description>Brain : a journal of neurology
+
+For a long time, epilepsy has been associated with violent behaviour, acquiring a highly stigmatizing reputation, shaped mainly by 19th century medical theories that postulated a direct connection between epilepsy and the criminal personality. Such stigma exerts a negative effect on the quality of life of people with epilepsy and remains a significant concern in forensic settings. This narrative review aims to provide a thorough exploration of the relationship between epilepsy and aggression, highlighting the misconceptions that contribute to this stigma. The evidence presented in this review draws on the authors' experience and a PubMed search conducted in December 2024. The manuscript is organized into five sections, addressing: (i) the historical and cultural background of epilepsy and violence; (ii) the clinical features of aggression as a peri-ictal manifestation; (iii) the neural networks underlying aggression in epilepsy; (iv) aggression in sleep-related disorders, an area closely related to epilepsy, where clinical interest and reports of sleep-related violent episodes have increased progressively in recent years; and (v) forensic considerations. In total, 326 records were identified through the PubMed search. Only papers relevant to the topics were included. Relevant publications were also added manually from the authors' own files. One hundred and thirty-two studies were ultimately included in this narrative review. The review, addressing the topic from a historical perspective, traces the evolution of stigma and the concept of the 'epileptic personality', from early observations to contemporary understanding. Next, we explore aggression and violence as peri-ictal manifestations, examining both their clinical characteristics and the brain networks implicated in the generation of aggressive behaviours during seizures. We try to elucidate the neurobiological substrates underlying these manifestations using intracerebral recordings. We then turn to violence associated with parasomnias, analysing and comparing the mechanisms underlying aggression and violence occurring in epileptic seizures with those observed during sleep in parasomnias, integrating evidence from intracranial EEG studies of disorders of arousal. This comparison highlights key similarities, differences and the risk of a misdiagnosis. Finally, we address the legal and forensic implications of seizure- and sleep-related aggression and violence. Epileptic seizures and parasomnias can cause injuries to the affected person or to those nearby, but they can rarely be truly classified as acts of violence. However, although aggressive behaviour is uncommon during seizures, it may lead to legal consequences. Despite efforts from scientific societies and patient organizations, the stigma of epilepsy persists, requiring further action and a deeper scientific understanding of this subject.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Dissociating executive prefrontal substrates following capsulotomy in obsessive-compulsive disorder.</title>
+      <link>https://doi.org/10.1093/brain/awag132</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag132</guid>
+      <description>Brain : a journal of neurology
+
+Obsessive-compulsive disorder (OCD) is characterized by widespread executive function impairments linked to disrupted frontostriatal circuits. Ablative therapies such as capsulotomy show promising efficacy in treatment-refractory OCD, yet their effects on executive neural substrates remain poorly understood. This study explores how OCD and capsulotomy influence executive prefrontal function. Twenty-three post-capsulotomy OCD patients, 30 OCD controls and 32 health controls (HC) were recruited in the study. Post-capsulotomy patients were recruited at least 6 months following surgery to allow for postoperative stabilization. Participants completed three executive function tasks assessing distinct cognitive domains: the Extra-Dimensional Intra-Dimensional (EDID) task testing set-shifting, the N-back task testing working memory and the Flanker task measuring conflict processing. The EDID and N-back tasks were administered during concurrent task-based functional MRI, while the Flanker task provided only behavioural measures. In the EDID task, OCD capsulotomy patients demonstrated greater post-error flexibility towards ID versus ED shifting relative to both OCD controls and HC, despite exhibiting more ED errors. OCD controls showed less shifts after errors compared with HC, which was not revealed in the capsulotomy group. OCD patients showed less neural differentiation between ED versus ID in lateral and mesial prefrontal regions relative to HC. Capsulotomy was associated with decreased pre-supplementary motor area activity to ED shifts compared with HC, indicating impairments in neural reactivity to ED shifting. No evidence supported the influence of capsulotomy in the N-back or the Flanker tasks. Specifically, both OCD groups showed impaired working memory performance at high memory load along with dysfunction in the whole frontoparietal network. In the Flanker task, impairments in dissociating congruent and incongruent conditions were found in both OCD groups but not in the HC group. These findings suggest capsulotomy specifically remediates error-monitoring and behavioural flexibility through mesial prefrontal remodelling, while leaving working memory and conflict processing deficits intact. This dissociation implies that cognitive flexibility may represent a state-dependent process amenable to intervention, whereas working memory and conflict processing impairments may reflect trait markers of OCD vulnerability. These results have clinical implications on the relative safety profile of capsulotomy and patient selection for precision neuromodulation.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Blunted response of caudal locus coeruleus to arousing stimuli in Parkinson's disease.</title>
+      <link>https://doi.org/10.1093/brain/awag106</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag106</guid>
+      <description>Brain : a journal of neurology
+
+Parkinson's disease (PD) causes progressive degeneration of noradrenergic neurons in the locus coeruleus (LC), contributing to non-motor symptoms. Using neuromelanin-sensitive ultra-high field (7 T) MRI, we previously identified a reduction in neuromelanin signal in the caudal LC, indicating a rostro-caudal gradient of noradrenergic cell loss. Caudal LC degeneration was associated with greater severity of non-motor symptoms such as orthostatic hypotension and apathy. In the current case-control study, we expanded the PD cohort to further corroborate the structure-symptom relationships within the LC and investigate how degeneration along the rostro-caudal LC axis affects arousal-related functional responsivity. To this end, 71 people with PD in the ON-medication state and 40 age- and sex-matched healthy controls underwent clinical assessments and 7 T magnetization transfer-weighted (MTw) MRI to quantify structural changes along the rostro-caudal LC axis. A subgroup of 30 people with PD and 27 controls underwent 7 T functional MRI to assess LC responsivity to arousing auditory and visual stimuli in two functional MRI sessions on separate days. Healthy controls were scanned twice without medication, while people with PD were studied on and off dopaminergic medication in counterbalanced order. In the PD group, MTw MRI confirmed a significant reduction of the regional neuromelanin signal in the caudal LC relative to the control group (P = 0.010). This structural disintegration correlated with orthostatic hypotension (P = 0.009) and cognitive impairment (P = 0.036), corroborating its clinical relevance. Functional MRI revealed reduced activation of the caudal LC to arousing visual and auditory stimuli in people with PD relative to controls (P = 0.012). This difference reached statistical significance only in the ON-medication state, with a similar but non-significant trend in the OFF-medication state (P = 0.105). In an exploratory analysis of a smaller subsample, structural and functional caudal LC signals were significantly correlated in both people with PD and healthy controls (P = 0.007). Together, the findings provide evidence for a rostro-caudal gradient of LC pathology in PD at both structural and functional levels. While structural MRI provides fine-grained insights into spatial gradients of disease-related pathology, functional MRI captures the impaired functional responsivity of the caudal LC. The presence of arousal-induced hypoactivation of the caudal LC in the ON-medication state indicates that LC dysfunction extends beyond dopamine deficits in PD, highlighting complex interactions between dopaminergic and noradrenergic systems.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Behavioural rigidity as a transdiagnostic marker of nucleus accumbens dysfunction in dementia.</title>
+      <link>https://doi.org/10.1093/brain/awag095</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag095</guid>
+      <description>Brain : a journal of neurology
+
+Behavioural rigidity, the tendency to persist with inflexible patterns of thoughts or actions, is increasingly recognized as a transdiagnostic symptom across psychiatric, neurodevelopmental and neurodegenerative disorders. Empirical studies exploring the prevalence and underlying neural mechanisms of behavioural rigidity in dementia, however, are lacking. This cross-sectional study sought to delineate the structural and functional neural correlates of behavioural rigidity using a transdiagnostic approach looking across the frontotemporal lobar degeneration (FTLD) spectrum and Alzheimer's disease (AD). A total of 204 participants were recruited, including 110 frontotemporal dementia (FTD), 53 AD and 41 healthy older control participants. Within the FTD group, 66 cases were diagnosed with clinically probable behavioural variant FTD (bvFTD), 26 presented with semantic dementia (SD) and 18 cases had progressive non-fluent aphasia (PNFA). Behavioural rigidity was assessed using the Stereotypical and Motor Behaviour subscale of the Cambridge Behavioural Inventory-Revised. Voxel-based morphometry (VBM) was performed to identify grey matter regions associated with behavioural rigidity transdiagnostically, the results of which informed subsequent seed-based voxel-wise functional connectivity analyses. All imaging analyses were adjusted for relevant demographic and technical covariates. Statistical thresholds were set at voxel-level P &lt; 0.001 (uncorrected) and cluster-level P &lt; 0.05 (false discovery rate corrected). Our main finding was that behavioural rigidity is pervasive across dementia subtypes, ranging from most pronounced in bvFTD to milder/relatively absent in PNFA, relative to controls. Whole-brain VBM across the entire patient sample revealed a significant negative association between behavioural rigidity and grey matter intensity exclusively in the bilateral nucleus accumbens. Using the bilateral nucleus accumbens as seeds, resting-state functional connectivity analysis showed that higher levels of behavioural rigidity were associated with stronger connectivity between the left nucleus accumbens and the left supplementary motor area, paracentral lobule and precuneus. This is the first study, to our knowledge, to examine the neural substrates of behavioural rigidity across FTLD syndromes transdiagnostically using structural and functional neuroimaging approaches. Our findings reveal a gradation of rigid and repetitive behaviours, most apparent in bvFTD, which in turn reflects pathological disruption of the nucleus accumbens. Taken together, our findings highlight the need to consider repetitive and rigid behaviours as a transdiagnostic feature in neurodegenerative disorders, and one which indexes underlying nucleus accumbens pathology. More broadly, this study underscores the importance of screening for rigid and repetitive behaviours in the clinic and identifies the nucleus accumbens as a promising neural target to ameliorate these symptoms.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Mapping cerebellar morphology in 15q11.2 CNV carriers using normative modeling.</title>
+      <link>https://doi.org/10.1038/s41380-026-03711-3</link>
+      <guid isPermaLink="false">doi:10.1038/s41380-026-03711-3</guid>
+      <description>Molecular psychiatry
+
+Copy number variations (CNVs) at the 15q11.2 locus of the human genome have been associated with altered brain structure and increased risk for neurodevelopmental and neuropsychiatric disorders. The cerebellum is increasingly seen as a crucial brain region for neurodevelopmental conditions, yet the effects of 15q11.2 CNVs on cerebellar morphology remain largely unclear. Importantly, 15q11.2 CNVs shows reduced or incomplete penetrance (meaning that not all CNV carriers are affected) and variable expressivity (meaning that symptoms may differ between individuals with the same genetic alteration). Thus, there is a need to not only assess group differences, but also to quantify anatomical variability at the individual level. Here, we address these issues using normative models of brain anatomy trained on large datasets (n &gt; 52k, age range: 3-85) to assess both group and individual-level deviations in cerebellar anatomy in carriers of 15q11.2 deletions (n = 120, mean [SD] age = 64.95 [7.58]) and duplications (n = 149, mean [SD] age = 64.31 [7.21]), compared to non-carriers (n = 19,028, mean [SD] age = 64.31 [7.58]). Group-level case-control analyses revealed significantly smaller total and regional cerebellar volumes in both deletion and duplication carriers, though with small effect sizes. Individual-level deviation analyses, capturing pronounced alterations in specific individuals, revealed a heterogeneous pattern among carriers. Overall, our findings suggest that CNVs at the 15q11.2 locus exert modest and highly individualized effects on cerebellar morphology.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
       <category>脑疾病机理</category>
     </item>
     <item>
@@ -85,6 +205,17 @@ Major depressive disorder (MDD) is associated with altered brain structure and a
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Negative emotion recognition impairments despite preserved neural activity in patients with mild cognitive impairment (MCI).</title>
+      <link>https://doi.org/10.1162/imag.a.1428</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1428</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Emotion recognition is an essential component of socio-emotional functioning, yet its alteration in mild cognitive impairment (MCI) remains insufficiently understood, particularly in relation to neural mechanisms. This study examined behavioral and neural responses to facial emotions in 60 adults (30 MCI, 30 healthy controls (HC)) using a validated fMRI emotion-recognition paradigm with anger, fear, sadness, happiness, and neutral expressions. Although groups did not differ in overall recognition accuracy, a multivariate analysis revealed a significant group effect driven by a selective impairment in sadness recognition in MCI. Accuracy for anger and fear showed weaker, but non-significant differences between groups, and happiness recognition was preserved. Face-processing ability, emotional interference, emotional intelligence, and domain-specific cognitive performance showed no significant associations with facial emotion recognition, indicating that the sadness-specific deficit was not attributable to perceptual, cognitive, or socio-emotional characteristics. In fMRI analyses, HCs showed widespread activation to emotional versus neutral faces across occipital, frontal, and subcortical regions, whereas patients with MCI exhibited spatially more restricted activation. However, whole-brain group comparisons revealed no significant differences in BOLD response amplitudes for overall emotion processing or any emotion-specific contrast. These findings indicate that MCI is characterized by a selective impairment in recognizing sadness, an emotion relying on subtle, low-intensity cues, while whole-brain analyses did not reveal statistically significant group differences in neural responses during emotion processing. This pattern shows that group differences in behavior did not correspond to group differences in measured neural activity.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Transcranial magnetic stimulation to the dorsolateral prefrontal cortex modulates single-neuron activity in humans.</title>
       <link>https://doi.org/10.1073/pnas.2610803123</link>
       <guid isPermaLink="false">doi:10.1073/pnas.2610803123</guid>
@@ -138,6 +269,17 @@ Fine-scale spatiotemporal dynamics of functional brain networks are increasingly
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Neural Markers of Reward Valuation and Impulsive Decision-Making in Mania Risk.</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.2510</link>
+      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.2510</guid>
+      <description>JAMA psychiatry
+
+IMPORTANCE: Mania or hypomania, the pathognomonic feature of bipolar disorder (BD), is associated with reward hypersensitivity and impulsive decision-making, but the neural mechanisms underlying these distinct behavioral facets remain unclear. Reward expectancy (RE)-associated activation in the left ventrolateral prefrontal cortex (L-vlPFC) and pre-supplementary motor area (pre-SMA) is elevated in individuals at risk of mania or hypomania, but it is unknown whether elevated activation in these regions and associations with risk-related behavioral facets reflect convergent or dissociable pathways to mania or hypomania risk or whether depression severity impacts these associations. OBJECTIVE: To test whether RE-associated L-vlPFC and pre-SMA activation exhibit distinct associations with delay discounting behavior-indexing reward valuation (lower discounting) vs impulsive decision-making (higher discounting)-and whether these associations are moderated by depression severity. DESIGN, SETTING, AND PARTICIPANTS: In this cross-sectional study, 2 independent samples of adults aged approximately 18 to 30 years at varying risk of mania or hypomania (142 in the discovery set and 86 in the replication set) completed a functional magnetic resonance imaging reward task and a delay discounting assessment. Major exclusion criteria included current or lifetime BD, primary psychotic disorders, neurological disorders, recent substance use disorders, systemic medical illnesses, and magnetic resonance imaging contraindications. The study took place from 2019 to 2026 at the University of Pittsburgh Medical Center in Pittsburgh, Pennsylvania. EXPOSURE: RE-associated L-vlPFC and pre-SMA activation. MAIN OUTCOMES AND MEASURES: Main outcomes were mania or hypomania risk per Mood Spectrum Self-Report-Lifetime mania score and delay discounting behavior per 27-Item Monetary Choice Questionnaire rate. Associations were tested using regression models, including moderation by depression severity. RESULTS: Across 228 individuals (discovery: mean [SD] age, 23.79 [3.32] years; 96 [67.6%] female; replication: mean [SD] age, 26.09 [3.15] years; 64 [74.4%] female), L-vlPFC and pre-SMA activation were both positively associated with mania or hypomania risk in the discovery sample (l-vlPFC: β, 0.544; 95% CI, 0.440 to 0.649; z, 10.24; P &lt; .001 and pre-SMA: β, 0.496; 95% CI, 0.341 to 0.650; z, 6.30; P &lt; .001) and replication sample (l-vlPFC: β, 0.503; 95% CI, 0.241 to 0.765; z, 3.77; P &lt; .001 and pre-SMA: β, 0.684; 95% CI, 0.410 to 0.957; z, 4.90; P &lt; .001). In the discovery sample, these regions showed dissociable delay discounting associations: greater L-vlPFC activation was associated with lower discounting (β, -0.305; 95% CI, -0.561 to -0.050; P = .02), whereas greater pre-SMA activation was associated with higher discounting (β, 0.521; 95% CI, 0.146 to 0.895; P = .007). The L-vlPFC-lower discounting association replicated (β, -0.704; 95% CI, -1.400 to -0.008; P = .048). A pre-SMA activation × depression severity interaction was observed in the replication sample (β, -0.427; 95% CI, -0.792 to -0.063; P = .02), such that higher depression severity attenuated the association between elevated pre-SMA activation and higher discounting. This interaction was detectable in the discovery sample in individuals with elevated pre-SMA activation (β, -0.285; 95% CI, -0.565 to -0.005; t63 = -2.03; P = .046). CONCLUSIONS AND RELEVANCE: The findings in this cross-sectional study suggest that RE-associated L-vlPFC and pre-SMA activation may represent dissociable neural pathways to mania or hypomania risk. Elevated L-vlPFC activation was associated with sensitivity to reward value, whereas elevated pre-SMA activation was associated with impulsive decision-making, and this latter association was moderated by depression severity.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Neural and cognitive correlates of adolescent anxiety: Widespread brain network alterations, increased control costs, and visuospatial processing deficits.</title>
@@ -352,6 +494,29 @@ Brain activation to verbal commands can be detected by EEG in clinically unrespo
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Maltreatment predicts centiles of individual variation from normative brain growth in children.</title>
+      <link>https://doi.org/10.1038/s42003-026-11143-6</link>
+      <guid isPermaLink="false">doi:10.1038/s42003-026-11143-6</guid>
+      <description>Communications biology
+
+Exposure to maltreatment in childhood is posited to profoundly disrupt brain development with adverse consequences for cognitive development and health across the lifespan. Here we use "brain charts" from the largest available neuroimaging database to quantify individual brain volumes relative to normative brain growth distributions in 299 children, aged 3 to 13 years, including 123 children with clinically verified maltreatment exposure. Using magnetic resonance imaging, we obtain volumes of cortical grey, total white, and subcortical grey matter and derive chart-based centiles for each child and tissue type. In our sample, children with maltreatment exposure exhibit lower mean brain centiles across tissues than unexposed children. Associations of greater maltreatment severity with lower brain centiles do not survive correction for multiple comparisons. Lower brain centiles are associated with lower intellectual ability and more behavioural problems. These findings provide evidence for widespread differences in brain structure associated with childhood maltreatment and their relevance to intellectual ability and behavioural functioning.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Tumor lesions in the supplementary motor area may induce large-scale sensorimotor and cognitive network alterations- A functional and structural connectivity analysis.</title>
+      <link>https://doi.org/10.3389/fneur.2026.1878278</link>
+      <guid isPermaLink="false">doi:10.3389/fneur.2026.1878278</guid>
+      <description>Frontiers in neurology
+
+BACKGROUND: Patients with brain tumors involving the SMA often develop postoperatively a mostly transient contralateral akinesia ('SMA-syndrome'), which may primarily be a cognitive disorder of executive functions. However, the neurophysiological correlates are unclear. Considering the SMA as a gateway between motor and cognitive control functions, we explored structural SMA-connectivity (SC), and functional connectivity (FC) of the sensorimotor (SMN), and of cognitive networks in SMA-tumor patients. METHODS: 13 SMA-tumor patients and 13 matched healthy controls underwent diffusion-tensor-imaging (DTI) and resting-state-fMRI preoperatively. Intra- (Frontal Aslant Tract) and interhemispheric SC of the SMA (SMA-SMA, SMA-M1) was compared between groups. FC-networks were established by group Independent Component Analysis (ICA), and subjected to a second-level ROI-to-ROI (region-of-interest) analysis to investigate between-group differences. RESULTS: DTI revealed microstructural white-matter disintegration and smaller tract volumes of SMA-M1 connectivity (p &lt; 0.005), and by trend of the FAT (p &lt; 0.06), with differing SMA-M1 fiber-length in patients (p &lt; 0.026). SMA-SMA SC was not reduced, but showed greater variance in patients. While FC was significantly decreased within different cognitive networks, FC was increased within the SMN, as well as between the SMA and the contralesional frontoparietal network (p &lt; 0.046) in patients. CONCLUSIONS: In this exploratory study, we found sensorimotor- as well as large-scale cognitive network alterations prior to therapeutic intervention, suggesting tumor-associated SC disintegration to be accompanied by in- and decreases of FC within and across different networks. Future studies incorporating neuropsychological-testing are required to characterize pretherapeutic connectivity alterations with regard to their behavioral significance, and to determine whether they may impact the postoperative functional outcome.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>The Influence of Contralesional Brain Age Gradients on Chronic Stroke Aphasia Severity and Treatment Response.</title>
       <link>https://doi.org/10.1523/jneurosci.2058-25.2026</link>
       <guid isPermaLink="false">doi:10.1523/jneurosci.2058-25.2026</guid>
@@ -397,175 +562,6 @@ Background Schizophrenia is increasingly conceptualized as a disorder of circuit
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neurotransmitter-defined cerebral vulnerability patterns in frontotemporal lobar degeneration (FTLD).</title>
-      <link>https://doi.org/10.1007/s00415-026-14216-y</link>
-      <guid isPermaLink="false">doi:10.1007/s00415-026-14216-y</guid>
-      <description>Journal of neurology
-
-Background Frontotemporal dementia syndromes encompass a genetically, clinically and radiologically heterogeneous set of conditions with distinctive clinical and imaging characteristics. The main FTD phenotypes exhibit strikingly different disease burden patterns with a predilection to specific brain regions and relative sparing of others. The apparent selectivity of cerebral involvement in FTD has not been fully elucidated. Methods A prospective neuroimaging study has been undertaken with a uniform imaging protocol to characterise atrophy patterns in ALS-FTD, behavioural variant FTD, nonfluent variant primary progressive aphasia, and semantic variant primary progressive aphasia and evaluate associations with physiological neurotransmitter receptor expression maps. Anatomical correlations between focal volume loss and a large panel of neurotransmitters were systematically evaluated and associations ranked. Results Associations were noted with GABAergic, opioid, cannabinoid, microglial and acetylcholine systems in ALSFTD-C9NEG. Correlations were observed with opioid, glutaminergic, and synaptic vesicle glycoprotein 2A receptor populations in ALSFTD-C9POS. Atrophy in bvFTD showed predilection to serotonergic, glutaminergic, opioid, GABAergic and cannabinoid circuits. Volume loss in nfvPPA colocalised with GABAergic, opioid, microglial, serotonergic, cannabinoid, acetylcholine, glutaminergic and dopaminergic networks. A multitude of neurotransmitter populations are implicated in svPPA including opioid, serotonergic, GABAergic, dopaminergic, and microglial systems. Discussion The distinctive neuroimaging signatures of FTD phenotypes exhibit spatial associations with physiological neurotransmitter receptor density maps. The propensity of atrophy to specific brain regions in FTD subtypes may be defined by neurotransmitter populations. Our findings indirectly support the notion of neurotransmitter-system defined connectivity-based disease propagation in FTD.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Resting-state fMRI biomarkers of surgical outcome in temporal lobe epilepsy: Network reorganization, rsfMRI-based prediction models, and cognition - A systematic review.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107057</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107057</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Temporal lobe epilepsy (TLE) is a network disorder extending beyond the structurally defined epileptogenic zone. Resting-state functional MRI (rsfMRI) may provide information on brain network alterations relevant to seizure outcome and cognitive risk after epilepsy surgery. We reviewed rsfMRI studies in TLE surgical cohorts to evaluate postoperative network changes, preoperative predictors of seizure outcome, and associations between functional connectivity and cognition. This systematic review followed PRISMA guidelines and was registered in PROSPERO. Fifteen studies were included, comprising 474 TLE patients who underwent resective epilepsy surgery and had at least 1 year of follow-up. Studies were reviewed for patient population, surgery, rsfMRI methodology, networks or regions, outcome definition, postoperative network changes, and cognitive assessments. Despite heterogeneity in patient selection, surgery, rsfMRI analysis, and outcome definition, studies consistently reported reduced DMN-related connectivity in TLE compared with healthy controls. Postoperative functional connectivity in seizure-free patients shifted toward healthy controls patterns in few studies. Preoperative rsfMRI-based prediction models showed promising accuracy for predicting seizure outcome but were generally developed in small cohorts and lacked external validation. Evidence relating rsfMRI to cognition was limited, but implicated thalamic, ascending reticular activating system, and thalamo-occipital connectivity in attention, language, and executive functions. RsfMRI is a promising research biomarker for network-level risk stratification in TLE surgery, particularly for seizure outcome prediction and postoperative network reorganization. Current evidence remains insufficient for clinical implementation. Future studies require larger homogeneous multicenter cohorts, standardized acquisition and preprocessing, consistent outcome definitions, systematic postoperative rsfMRI, neuropsychological assessment, and external validation of prediction models.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>What are the neural networks that have been modulated by anatomically targeted therapies to promote recovery of consciousness? A scoping review.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1882395</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1882395</guid>
-      <description>Frontiers in neurology
-
-Disorders of Consciousness (DoC) arise from insults to neural networks responsible for awareness and arousal. DoC subtypes are frequently misdiagnosed, as mechanisms underlying consciousness remain poorly understood. Neurostimulation has been investigated as a potential therapy for DoC recovery; however, the evidence for its therapeutic efficacy remains heterogeneous, and the relationship between anatomical target, network modulation, and clinical recovery is unclear. This scoping review evaluates clinical trials investigating neurostimulation in DoC patients, observing trends and assessing the therapeutic significance of network-targeted stimulation, whilst proposing targets for future studies. A comprehensive scoping review was conducted in accordance with PRISMA extension for Scoping Reviews evaluating the efficacy of anatomically targeted neurostimulation in adult patients with DoC. Literature searches were conducted on PubMed, SCOPUS, and Web of Science, with the final search performed in March 2026. Studies were included if they reported quantitative measures of consciousness recovery and had a clearly defined stimulation target. Twenty-two studies were included. Thirteen evaluated the frontoparietal network, the with dorsolateral prefrontal cortex being the most frequent anatomical target, suggesting potential research bias toward this region. Transcranial direct current stimulation and repetitive transcranial magnetic stimulation were the most frequently trialed stimulation modalities. Among studies investigating electrophysiological measures or neuroimaging, improvements in functional connectivity were observed post-stimulation, often correlating with individual-level improvements in clinical consciousness. Nevertheless, group-level outcomes were inconsistent. Six studies reported improvement in consciousness-related behavioral outcomes. No single anatomical target was associated with a clinical response; however, heterogeneity amongst study cohorts and protocols confounded the ability to determine the relative efficacy of network targets. Network-targeted neurostimulation is a promising approach for DoC recovery but remains investigational. Current evidence does not support a single optimal anatomical target, with studies often overlooking individual variations in structural cerebral integrity and connectivity within their cohorts. Future trials should consider using individualized structural and functional mapping, stratify participants by baseline connectivity and clinical subtype, and apply standardized outcome definitions. A more personalized approach to neuromodulation will likely better optimize therapeutic outcomes for consciousness recovery.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Shared cortical morphometry and molecular signatures across depression and physical diseases.</title>
-      <link>https://doi.org/10.1038/s41380-026-03928-2</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03928-2</guid>
-      <description>Molecular psychiatry
-
-Major depressive disorder (MDD) is highly comorbid with physical diseases, suggesting shared neurobiological mechanisms. However, the common structural and molecular substrates underlying this comorbidity remain poorly understood. We analyzed multimodal MRI data from 577 patients (MDD, asthma, fibromyalgia, gastroesophageal reflux disease, type 2 diabetes) and 275 healthy controls, constructed individual morphometric similarity networks (MSN) to identify shared cortical alterations, and applied principal component analysis with multiscale molecular annotation (transcriptomic, cell-type, neurotransmitter, and cognitive mapping) to characterize underlying mechanisms. All patient groups exhibited regional MSN abnormalities. A shared MSN pattern emerged, featuring increased similarity in visual and somatomotor regions and decreased similarity in ventral attention, limbic, and default mode networks, and was replicated in independent cohorts. This pattern was significantly associated with spatial gene expression enriched for synaptic signaling, membrane potential regulation, and neuronal architecture, with predominant expression in excitatory/inhibitory neurons and astrocytes. It further mapped onto specific neurotransmitter systems, with exploratory cognitive decoding suggesting possible relevance to emotion and social cognition. Related genes overlapped with known risk loci for Alzheimer's disease and bipolar disorder. These findings identify a robust across diseases cortical MSN phenotype linked to convergent molecular and neurochemical correlates, offering a framework for studying shared vulnerability and transdiagnostic mechanisms across depression and physical diseases.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>EEG Resting-State Beta Band Dynamic Functional Connectivity Reveals State-Dependent Disruption of Language Network Lateralisation in First-Episode Schizophrenia.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109612</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109612</guid>
-      <description>Neuropsychologia
-
-Language disorganisation is a core feature of schizophrenia with significant functional consequences. However, its neurophysiological substrates remain poorly characterised, particularly in the early stages of the illness. This study investigated whether first-episode schizophrenia (FES) is associated with disruption in the organisation of language-network lateralisation, using both static and dynamic functional connectivity metrics in the EEG beta band. Thirty-one FES patients and 32 age-matched healthy volunteer subjects (HVS) underwent resting-state 64-channel EEG. Source-level connectivity was estimated using the weighted phase lag index with sliding windows, yielding 979 connectivity matrices per participant. Brain network states (BNS) were identified via k-means clustering. Static connectivity was obtained by time-averaging. Temporal features, graph-theoretical metrics, and language-network laterality indices were extracted for both whole-network and language-specific analyses. Group comparisons used permutation-based tests with family-wise error correction. Static connectivity yielded no significant group differences in any metric. Dynamic analysis identified six BNS. FES showed a significant increase in the variability of the temporal dynamics and graph-theory features of BNS5, a state characterised by parieto-occipital dominance. The core language network laterality index was significantly reduced in FES within BNS1, a state characterised by auditory-visual dominance. BNS1 occurrence correlated negatively with language disorganisation scores. Dynamic BNS-specific language network metrics correlated with verbal fluency performance exclusively in FES. These findings demonstrate that language dysfunction in early psychosis is expressed as state-dependent disruption of brain network stability and language lateralisation, detectable only through dynamic connectivity analysis.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>A shape deformation-based framework for constructing individualized subcortical morphological networks.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122305</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122305</guid>
-      <description>NeuroImage
-
-Individualized morphological brain networks have emerged as an important framework for imaging-based connectomics. However, existing methods have focused predominantly on the cerebral cortex, leaving subcortical structures largely unexplored despite their central roles in cognition and neuropsychiatric disorders. Here, we developed a novel framework for constructing individualized subcortical morphological networks from structural magnetic resonance imaging. Specifically, subcortical surfaces were reconstructed using a Point2Mesh-optimized multilayer perceptron architecture and vertex-wise shape deformation was quantified as the signed Euclidean distance between each vertex on an individual mesh and the corresponding vertex on the group-average template mesh. Interregional morphological connectivity in local shape deformation distributions was subsequently estimated using Jensen-Shannon Divergence. Applying this approach to the Human Connectome Project dataset, we found that subcortical morphological networks exhibited complex topological organization, including small-world architecture, modular organization, and highly connected hubs, which were consistently preserved at finer subregional scales. Analyses using an independent test-retest dataset further demonstrated fair-to-good reliability of these network properties. Importantly, these shape deformation-based networks showed significant coupling with subcortical functional networks estimated from resting-state functional magnetic resonance imaging. Leveraging large-scale multisite clinical datasets, we further demonstrated alterations of subcortical morphological networks in schizophrenia and major depressive disorder. Schizophrenia was characterized predominantly by right caudate-centered disruptions in morphological connectivity and nodal centrality, whereas major depressive disorder exhibited alterations only in nodal centrality of the right amygdala. Together, these findings establish a novel and reliable framework for investigating subcortical morphological network organization in the human brain across both healthy and psychiatric populations.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Stage- and context-dependent modulation of fear memory by oxytocin: Neurobiological mechanisms and implications for PTSD.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107050</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107050</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Post-traumatic stress disorder (PTSD) is a multifactorial psychiatric condition characterized by re-experiencing, avoidance, hyperarousal, negative alterations in cognition and mood, and disturbances in social and emotional functioning. Within this broader clinical syndrome, persistent traumatic memories and excessive fear generalization represent important mechanistic and therapeutic domains. Despite substantial advances in understanding its neurobiological basis, current treatments remain suboptimal, with limited efficacy and high dropout rates. The neuropeptide oxytocin (OXT), a key modulator of social behavior, stress regulation, and memory, has been investigated as a potential therapeutic target. Accumulating evidence indicates that severe trauma profoundly disrupts endogenous OXTergic signaling, whereas pharmacological studies suggest that exogenous OXT can modulate fear-memory processing through region-, dose-, route-, and context-dependent mechanisms. Evidence from fear-conditioning indicates that across acquisition, consolidation, retrieval, reconsolidation, and extinction, the direction of OXT's effects is heterogeneous rather than uniformly anxiolytic and pro-extinction. OXT may influence threat discrimination, fear expression, memory updating, and extinction by modulating specific neural circuits and neurochemical pathways. However, most preclinical models capture selected dimensions of PTSD rather than the full clinical disorder. Human studies further indicate that intranasal OXT can modulate neural, physiological, and social-cognitive processes relevant to PTSD, although evidence for consistent clinical efficacy remains limited and heterogeneous. This review synthesizes current findings on OXT and its synthetic analogs within a stage- and context-dependent framework to better investigate their heterogeneous effects and assess their potential relevance and translational limitations in PTSD.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Facial emotion recognition of sadness relates to superior parietal gray matter volume in mild cognitive impairment.</title>
-      <link>https://doi.org/10.1007/s00429-026-03215-4</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03215-4</guid>
-      <description>Brain structure &amp; function
-
-Mild cognitive impairment (MCI) is associated with early, regionally selective neurodegenerative changes that may affect socioemotional functioning before atrophy becomes widespread. This study examined whether structural brain alterations in MCI relate to facial emotion recognition performance. Sixty adults (30 MCI, 30 healthy controls), aged 50-86 years, completed neuropsychological testing, the Facial emotion composite Task, and structural MRI. Whole-brain voxel-based morphometry revealed no significant gray matter volume differences between groups. However, targeted region-of-interest ROI analyses demonstrated lower right amygdala and bilateral hippocampal volumes in patients with MCI. Cortical thickness analyses identified two regions with lower thickness in MCI: the right superior parietal lobule and the left posterior insula. A significant Group × Sadness interaction indicated that the association between left superior parietal gray matter volume and sadness recognition differed between groups. Follow-up analyses of the extracted values showed a positive association in MCI, although this within-group association did not reach statistical significance, and a significant inverse association in HCs. These findings suggest that early MCI involves selective thinning in association cortices supporting attention and salience processing. The sadness-specific interaction indicates that patients with MCI may rely on preserved superior parietal structure during sadness recognition, a pattern that is consistent with structural reserve accounts, although this interpretation remains speculative given the cross-sectional design.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Frequency-dependent, asymmetric, and dynamic alterations of white matter function in primary hemifacial spasm: a multiband resting-state fMRI study.</title>
-      <link>https://doi.org/10.1007/s00429-026-03207-4</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03207-4</guid>
-      <description>Brain structure &amp; function
-
-Primary hemifacial spasm involves central network reorganization, but white matter functional alterations remain unclear. We acquired resting-state functional magnetic resonance imaging data from 89 left-sided patients, 92 right-sided patients, and 124 healthy controls. Patients exhibited widespread abnormalities in tracts including the corpus callosum, superior longitudinal fasciculus, and corona radiata. Notably, this remodeling was highly asymmetric: left-sided patients primarily showed increased local neural activity in prefrontal pathways, whereas right-sided patients exhibited increased global network centrality across interhemispheric tracts. Furthermore, these alterations displayed distinct frequency preferences, and certain functional instabilities were exclusively captured by dynamic metrics rather than static analyses. These findings demonstrate that the disorder is associated with time-varying, frequency-specific, and asymmetric white matter functional reorganization, highlighting the value of dynamic and multi-frequency approaches in decoding its pathophysiology.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Brain imaging in dystrophinopathies.</title>
-      <link>https://doi.org/10.1007/s00415-026-14215-z</link>
-      <guid isPermaLink="false">doi:10.1007/s00415-026-14215-z</guid>
-      <description>Journal of neurology
-
-Duchenne and Becker muscular dystrophies (DMD, BMD) are caused by genetic variants in the DMD gene coding dystrophin proteins. In addition to the impairment of muscular function, these patients also present frequent cognitive and neuropsychiatric disorders due to impaired expression of several brain dystrophins: Dp427, Dp140 and Dp71. Cerebral imaging has shed new light on the impact of dystrophinopathies on brain structure, function, and connectivity. We review the brain imaging results obtained in patients and divers animal models, showing presence of mild cortical atrophy, slight modifications of structures volumes, decreased cerebral blood flood, white matter microstructure alterations, brain hypometabolism, altered connectivity, and an abnormal cerebral response to stress. We further discuss the putative progression of cerebral disorders, and their variable severity when Dp140 expression is affected in addition to that of Dp427. Some correlations between imaging parameters and cognitive and psychological impairments have been reported but remain to be confirmed.</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Bridging language phenotypes, neural dynamics and gene regulation in autism.</title>
-      <link>https://doi.org/10.1162/imag.a.1396</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1396</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Autism Spectrum Disorders (ASDs) affect approximately 1% of the global population, with prevalence rising over recent decades. Although ASDs are heritable (~70%), translating genetic findings into effective therapeutics remains challenging due to the vast number of implicated risk genes (&gt;700) and the limited influence of individual genes on disease expression. Their collective impact and convergent expression patterns of small-effect genes provide insights into ASD-related neurobiological mechanisms. Current interventions remain symptom-focused and do not address underlying neurodevelopmental mechanisms. Emerging approaches in functional genomics offer new insights into ASD pathogenesis by exploring gene expression diversity, yet clinical applications remain distant. Language deficits are among the most frequent and disabling features of ASD, profoundly affecting individuals' and families' quality of life. Recent evidence from neuroimaging and electrophysiology studies suggests disrupted neural oscillatory dynamics are linked to language deficits in ASD. Several ASD-associated genes have been implicated in biological pathways involved in the regulation of brain oscillatory dynamics, suggesting a potential mechanistic link between genetic variation, altered brain rhythms, and language impairment. We propose a neurophysiological imaging genetics framework that leverages neural oscillatory profiles as endophenotypes for targeted investigation and as functional readouts of gene expression. Within this framework, neuromodulation is proposed as an experimental approach to investigate and potentially modulate altered oscillatory dynamics associated with speech communication deficits in ASD, while integrating oscillation-related ASD candidate genes into a symptom-oriented model of functional genomics. This approach shows how integrating genetic variation, non-invasive neuroimaging, and behavioral phenotypes can advance our understanding of ASD and inform targeted, mechanism-based interventions.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Reorienting TMS treatments for fear memories and posttraumatic stress disorder. The emerging potential of the anterior prefrontal cortex.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107054</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107054</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Posttraumatic stress disorder (PTSD) is characterized by re-experiencing trauma through vivid and involuntary intrusions, avoidance of cues that could trigger traumatic memories, and alterations in mood and cognition. Transcranial magnetic stimulation (TMS) offers a promising approach to modulating activity and functional coupling within neural circuits underlying these processes. To date, TMS studies in fear-conditioning research and PTSD have mainly focused on dorsolateral prefrontal cortex (dlPFC) and ventromedial (vmPFC)-connected or broader medial-prefrontal (mPFC) targets, yielding encouraging but heterogeneous effects on posttraumatic symptoms. In parallel, emerging evidence has implicated the anterior prefrontal cortex (aPFC; Brodmann area 10) in threat- and trauma-related processes, including memory retrieval, higher-order control of defensive responding, adaptive strategy selection, and resilience. Whereas the dlPFC and vmPFC have been incorporated into mechanistic models of fear regulation, the aPFC has received limited attention in theoretical frameworks of fear and PTSD. Here, we review TMS studies organized around dlPFC, vmPFC-connected or mPFC, and aPFC neuroanatomical targets, integrating evidence from experimental and clinical research. Based on the hierarchical model of prefrontal organization, we argue that these regions represent potential TMS targets or circuit nodes, but likely act on partially distinct mechanisms. The vmPFC appears primarily involved in early automatic downregulation of defensive responses; the dlPFC may support cognitive control strategies such as reappraisal; and the aPFC may enable a supraordinate influence over higher-order representations and avoidance-related circuitry, as well as flexible selection of emotion-regulation strategies. We conclude that integrating the aPFC into this framework may guide next-generation, mechanistically-informed TMS treatments for PTSD.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Differentiating non-fluent and logopenic primary progressive aphasia via automated acoustic speech analysis.</title>
-      <link>https://doi.org/10.1016/j.cortex.2026.10.006</link>
-      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.006</guid>
-      <description>Cortex; a journal devoted to the study of the nervous system and behavior
-
-In primary progressive aphasia, differential diagnosis between non-fluent (nfvPPA) and logopenic (lvPPA) variants can be clinically challenging. Although linguistic features from connected speech may aid in PPA subtype classification, they depend on labor-intensive transcriptions. In contrast, acoustic features are extracted directly from the audio signal and have shown potential in capturing variant-specific patterns, but their diagnostic relevance is not well understood. In this study, we analyzed connected speech recordings from 242 individuals (40 healthy controls, 91 lvPPA, 111 nfvPPA) performing a ∼2-min picture description task. We extracted 103 acoustic features from each recording and reduced them to 9, which we finally grouped into four domain scores representing speech rate and voice quality. Domain scores were tested as predictors in classification models to detect PPA and distinguish between PPA variants. Voxel-based morphometry was used to investigate brain-behavior relationships. Classification models combining the four domain scores and MMSE yielded 88% balanced-sample accuracy for PPA-versus-controls and 73% accuracy for lvPPA-versus-nfvPPA. Pitch and speech rate were the most discriminative markers. Voxel-based morphometry associated speech rate with the frontal speech production network, pitch with the middle frontal and inferior frontal gyrus, perturbation with the insula, and spectrum with the basal ganglia and the thalamus. We showed that acoustic analysis of brief speech samples has the potential to aid the diagnostic process and contribute to more nuanced phenotyping. With further validation, such measures could be integrated into clinical workflows as low-burden, objective tools to support differential diagnosis and track disease progression in PPA.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Differential mechanisms of continuous theta burst stimulation and low-frequency repetitive transcranial magnetic stimulation for chronic tinnitus: preliminary efficacy dissociation by local focalization vs. network dispersion</title>
-      <link>https://europepmc.org/article/PMC/PMC13661314</link>
-      <guid isPermaLink="false">PMC:PMC13661314</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Maternal microbiota and fetal brain development: a multidisciplinary review of cognitive, neurological, and metabolic outcomes</title>
-      <link>https://europepmc.org/article/PMC/PMC13659663</link>
-      <guid isPermaLink="false">PMC:PMC13659663</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>

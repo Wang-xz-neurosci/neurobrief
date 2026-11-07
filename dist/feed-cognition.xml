@@ -5,9 +5,153 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 Nov 2026 20:24:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:23:47 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expectation-driven gain modulation of preparatory spatial attention.</title>
+      <link>https://doi.org/10.7554/elife.110315</link>
+      <guid isPermaLink="false">doi:10.7554/elife.110315</guid>
+      <description>eLife
+
+The visual system can flexibly adjust attentional deployment to match task demands, but whether observers can proactively modulate the spatial scope of attention based on expectations about upcoming search difficulty remains unclear. According to the zoom lens model, attention can narrow or broaden its spatial extent, with narrower focus enhancing processing efficiency, a mechanism that would benefit target discrimination in crowded displays. We tested whether observers adjust attentional scope when expecting sparse versus dense search arrays by combining spatial cueing with block-wise manipulations of display density expectations. Participants performed a visual search task in which endogenous cues predicted target location, while blocks predominantly contained either sparse (1 target, 3 distractors) or dense (1 target, 7 distractors) displays. We applied inverted encoding models to broadband EEG data to reconstruct spatial channel tuning functions, enabling precise characterization of both the locus and breadth of attentional deployment. Behaviorally, expecting difficult searches selectively improved accuracy at cued locations without costs elsewhere. Consistent with this selective benefit, neural measurements revealed that expectancy enhanced the amplitude of spatially selective responses at the attended location but did not alter tuning width. These findings demonstrate that expectations about search difficulty modulate attention through gain-based signal enhancement rather than adjustments to spatial scope, revealing that preparatory attentional control operates via amplitude modulation within a stable spatial focus. This mechanism complements reactive attentional adjustments and provides an efficient means for the visual system to optimize processing under predictable task demands.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Respiratory phase orchestrates human olfactory cortical dynamics.</title>
+      <link>https://doi.org/10.1073/pnas.2619920123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2619920123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Olfaction is fundamental to perception, memory, and emotion, yet the neural basis of human odor processing remains poorly understood. We demonstrate that odor-evoked brain activity is organized by respiratory phase-not absolute time-revealing that natural breathing structures olfactory cortical dynamics. Using simultaneous nasal respiration and electroencephalography recordings in [Formula: see text] participants, we delivered naturalistic odors (peppermint, oregano, and grapefruit) synchronized to individual breathing cycles. Odor presentation elicited respiratory phase-locked event-related spectral perturbations (RPL-ERSPs) in frontal and temporal regions, emerging during the first breath after stimulus onset. The most discriminative neural signatures were theta-band activity during inhalation and alpha-band activity during exhalation, patterns that were obscured in traditional time-locked analyses due to natural variability in breath duration. Leave-one-subject-out cross-validation of RPL-ERSPs achieved reliable odor detection (peppermint: AUC [Formula: see text] 0.79; oregano: AUC [Formula: see text] 0.67; grapefruit: AUC [Formula: see text] 0.62), establishing that phase-locked features generalize across individuals. To connect neural responses to perceptual experience without relying on odor naming-which can be disproportionately impaired in some populations-we quantified odor recognition using free-response descriptions scored with a semantic-similarity approach. Behavioral recognition strength paralleled the neural decoding hierarchy across odors, establishing the perceptual validity of RPL-ERSPs. RPL-ERSPs revealed rapid habituation, with decoding performance declining over repeated presentations, due to selective degradation of the most informative phase-locked features. These findings establish respiratory rhythm as a temporal scaffold for human olfactory cortical processing, positioning RPL-ERSPs as a sensitive, task-free approach for assessing olfactory function. We provide an open-source, respiration-synchronized olfactometer design to enable replication and adoption.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Distinct neural representations of perceptual and numerical absence in the human brain.</title>
+      <link>https://doi.org/10.7554/elife.112088</link>
+      <guid isPermaLink="false">doi:10.7554/elife.112088</guid>
+      <description>eLife
+
+The ability to represent absences is fundamental to human perception and cognition. Sensitivity to non-numerical absences depends on inferring a lack of sensory evidence, enabling the recognition of a lack of environmental resources or other objects. In turn, encoding numerical absence as a concept - in the form of the number zero - has enabled a multitude of technological and mathematical advances. Whether perceptual and conceptual absences rely on overlapping or distinct neural representations in the human brain, however, remains unknown. We employed three different tasks together with magnetoencephalography to characterise neural representations of absence evoked within perceptual and numerical domains. Using multivariate decoding and Bayes factor analyses, we replicate previous findings of shared representations of numerical absence across symbolic and non-symbolic formats. In contrast, we show that these representations of numerical absence are distinct from those evoked by non-numerical absences. This result held even after controlling for stimulus-level confounds which generate surface-level similarities between perceptual absences and non-symbolic empty sets. Our results extend a boundary between perception and cognition to the domain of absence and provide insight into the different mechanisms employed by the human brain to both perceive and conceive of absences.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>In-group neural alignment serves as a biomarker of social identity.</title>
+      <link>https://doi.org/10.1073/pnas.2624145123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2624145123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+In this study, we propose a perspective on neural synchronization. Beyond reflecting shared understanding between individuals, we suggest it serves as a biological marker of social homogeneity. We examined fMRI neural responses of 42 participants (21 religious, 21 secular) watching neutral and religion-relevant video narratives. While explicit measures of emotional response, agreement, and engagement showed no significant differences in within-group variance, religious participants-representing a tighter social structure-exhibited significantly higher in-group neural synchrony across all content types and brain networks. Remarkably, synchrony values predicted religious orientation with an accuracy of up to 92%. We conclude that a community's homogeneous social structure drives pervasive neural alignment, positioning neural synchrony as a potential signature of group cohesion beyond explicit behavioral measures.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Disrupting the semantic network shifts activity to domain-general brain regions.</title>
+      <link>https://doi.org/10.1038/s41467-026-79266-2</link>
+      <guid isPermaLink="false">doi:10.1038/s41467-026-79266-2</guid>
+      <description>Nature communications
+
+Semantic processing relies on flexible interactions between specialized lexico-semantic regions and domain-general control networks, particularly under challenging conditions. Using transcranial magnetic stimulation interleaved with functional magnetic resonance imaging, we investigated acute network adaptation when the left posterior middle temporal gyrus-a core lexico-semantic region-was perturbed during lexico-semantic decisions in 25 healthy participants. High-intensity transcranial magnetic stimulation over the posterior middle temporal gyrus induced task-specific activity increases across semantic control and lexical retrieval areas, as well as remote domain-general regions. Critically, increased local activity at the stimulation site correlated with slower reaction times, whereas greater upregulation in domain-general frontal regions was associated with less disrupted semantic performance. These findings indicate that acute semantic disruption triggers immediate, flexible recruitment of domain-general control areas consistent with the maintenance of task performance, highlighting the brain's capacity to dynamically adapt to interference. Our findings contribute to the current understanding of putative compensatory network-level mechanisms supporting lexico-semantic cognition.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Repetition Dissociates Pointer and Content-based Representations in Visual Working Memory: Contrasting the CDA with Multivariate Shape Decoding.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122335</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122335</guid>
+      <description>NeuroImage
+
+Memorizing a new phone number or address is hard at first, but becomes easier with repetition, as information shifts from working memory to long-term memory. Here we investigated how repetition affects the storage and transition of different aspects of mnemonic information by comparing univariate neural markers of active object storage with multivariate decoding of memory content. Thirty participants encoded lateralized stimuli from a continuous shape space into memory. Memory items were repeated six times in a row to induce learning. In line with earlier work, EEG recordings revealed that repetition led to a reduction in contralateral delay activity (CDA), a measure of active storage that has been taken to reflect a pointer-like representation of the individual object or its original source. In contrast, shape decoding during the retention and also after an impulse perturbation remained constant across repetitions. These results suggest that learning over repetitions reflects the abolishment of active and individuated object memory representations while passive, source-independent memory representations are retained.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Temporal coupling shapes the effects of prolonged muscle-tendon vibration on sensorimotor EEG activity during motor imagery.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122330</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122330</guid>
+      <description>NeuroImage
+
+Motor imagery (MI) recruits sensorimotor networks overlapping those engaged during physical execution and represents a promising rehabilitation tool. While concurrent afferent stimulation enhances MI-related cortical engagement, the effects of prolonged proprioceptive conditioning prior to MI remain unexplored. This study investigated whether prolonged muscle-tendon vibration (MTV) could modulate cortical activity during subsequent MI, indexed by electroencephalographic alpha- and beta-band event-related desynchronization (ERD). Twenty healthy adults performed imagined maximal isometric knee extensions before and after 20-minute suprapatellar MTV (100 Hz) or SHAM vibration (30 Hz with foam interface) in counterbalanced sessions. Cortical engagement was assessed via EEG burst detection over central electrodes (C3, Cz, C4). Maximal force capacity, submaximal force estimation performance, and cortical responses during combined MI and MTV were also evaluated. MTV induced stronger vibratory responses than SHAM, consistent with enhanced proprioceptive afferent activation. Following MTV, voluntary force outcomes showed near-threshold changes consistent with the expected direction, namely reduced maximal force capacity and altered submaximal force calibration, suggesting modified proprioceptive feedback. MI performed after MTV conditioning exhibited reduced alpha- and beta-band ERD compared to SHAM, with greater vibratory-induced responses being associated with a less pronounced post-vibration beta ERD. Conversely, when MI was performed concurrently with MTV following conditioning, alpha-band ERD increased selectively in the MTV session, with no modulation in the beta band. These findings suggest that prolonged proprioceptive conditioning modulates MI-related cortical engagement differently depending on the sensorimotor context in which imagery is performed. Such state-dependent effects may support distinct intervention strategies aimed either at recalibrating maladaptive sensorimotor patterns or at enhancing cortical recruitment in rehabilitation contexts.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>A transdiagnostic model of illness awareness and denial: Core components of the broader construct of insight into illness.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107081</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107081</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Insight into illness is a dynamic multidimensional construct that varies between individuals and medical and psychiatric disorders, and influences treatment engagement and clinical outcomes. Despite extensive study, accounts remain fragmented and disorder specific. This review focuses on subjective illness awareness and proposes a hypothesis-generating neurobiological framework in which fluctuations in awareness and denial emerge from interactions among self-representational networks, hierarchical predictive processing, and salience-threat systems that shape the balance between self-model stability and adaptation to illness-related information. Illness-related stimuli generate prediction errors (i.e., mismatches between sensory input and the self-model) that may update higher-order self-beliefs when assigned sufficient precision. Conversely, denial may occur when identity-relevant psychological threat biases precision toward self-related priors, potentially shifting network dynamics toward relatively left-lateralized self-representational states that attenuate discrepant information and preserve psychological homeostasis. This probabilistic model of illness awareness depends on the strength and credibility of illness-related evidence and flexibility of higher-order self-related beliefs. The review specifies falsifiable predictions for hemispheric engagement, threat-related precision weighting, and self-specific belief updating and identifies potential therapeutic targets.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Beyond Pathology: Perivascular Spaces as Dynamic Players in Neurodevelopment and Brain Health.</title>
+      <link>https://doi.org/10.1523/jneurosci.2209-25.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.2209-25.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Perivascular spaces (PVS) have historically been viewed as radiological markers of aging and cerebrovascular pathology. However, this narrow perspective overlooks accumulating evidence that PVS likely undergo dynamic, prolonged maturation across the lifespan and may play an essential role in healthy brain development. This Viewpoint article challenges the prevailing paradigm by positioning PVS not as passive anatomical structures or mere disease indicators, but as active participants in postnatal neurodevelopment whose morphology and function evolve to meet the metabolic and waste clearance demands of the maturing brain. We integrate evidence from advanced neuroimaging, developmental neuroscience, and neurobiology studies to highlight that PVS structure and fluid dynamics may be coupled with several neurodevelopmental processes, impacted by early experiences, and mature through adolescence to facilitate healthy brain development and cognitive functioning. We advocate for longitudinal, lifespan approaches to PVS research, because understanding normative PVS development is paramount for interpreting pathological changes. This developmental reframing highlights new opportunities for early identification of at-risk individuals and preventive interventions targeting the brain's waste clearance system during sensitive developmental windows.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Opposing effects of childhood abuse and neglect on neural performance monitoring.</title>
+      <link>https://doi.org/10.1162/imag.a.1439</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1439</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+The dimensional model of adversity proposes that threat (abuse) and deprivation (neglect) exert distinct effects on neurocognitive development. We tested whether these dimensions show opposing associations with neural indices of performance monitoring in a sample of 782 young adults from the CoScience EEG-Personality Project. Participants completed the Childhood Trauma Questionnaire alongside an Eriksen flanker task while electroencephalography was recorded. Performance monitoring was indexed by the error-related negativity and frontal midline theta activity. Consistent with preregistered hypotheses, abuse and neglect showed opposing associations with both neural measures. Higher abuse was associated with enhanced error-related negativity but not theta power, whereas higher neglect was associated with attenuated error-related negativity and reduced theta power. Exploratory analyses indicated that these associations were moderated by sex, with stronger effects observed in males. These findings are consistent with the distinction between threat- and deprivation-related adversity and suggest that different forms of childhood adversity may be linked to variation in neurocognitive processes underlying cognitive control. However, the cross-sectional and retrospective nature of the measures limits causal inference and may introduce reporting biases.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Temporal confounds emulate multivariate fMRI measures of perceptual learning.</title>
+      <link>https://doi.org/10.1162/imag.a.1435</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1435</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Any study of learning must capture neural or behavioural changes over time. Stimuli are therefore presented more than once, before and after learning takes place-a sequence that cannot be randomised across time. This design creates vulnerability to temporal confounds that cause illusory neural effects. We investigate this issue in a classic 'one-shot' learning paradigm, in which ambiguous two-tone images become recognisable after viewing a photo cue. Across common fMRI designs, we found that spurious correlations driven by the temporal proximity of stimuli created strong artefacts in multivariate data. Among certain experimental designs, we found strong neural markers of perceptual learning depending on how stimuli were distributed across these artefacts. This paradigm-dependent effect was present not only in the primary visual cortex (V1), but also in a non-visual control region (S1), indicative of an artefactual origin rather than a genuine perceptual learning effect. We present a principled approach to correct for this temporal order confound. Once applied, the artefactual learning signature was eliminated from both V1 and S1, and while the corrected signal retained information about image identity in V1, this was absent in S1. Our work demonstrates how current multivariate neuroimaging approaches to understanding learning could be influenced by methodological artefacts that misdirect interpretations towards distributed neural processing, and offers a practical framework to distinguish true learning from measurement error.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Distinct motor preparatory signals correlate with coarse vs fine control of self-paced action timing.</title>
+      <link>https://doi.org/10.1162/imag.a.1434</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1434</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Making each action at the right time is crucial for motor control. In this study, we investigated how two prominent motor preparatory processes identified in human EEG-beta-band desynchronisation and the readiness potential (RP)-might each differently relate to the time of a simple voluntary action. In our paradigm, participants learned when to act in each block of trials, based on probabilistic trial-by-trial feedback. A reward schedule reinforced a specific optimal time to act in some blocks, but allowed greater variability around the same mean action time in other blocks. We found that contralateral motor beta-band power at the beginning of each trial was higher in trials with slow actions than in those with fast actions. In contrast, contralateral beta-band power reached stereotyped low values at the time of action, regardless of waiting times. Put together, this pattern is consistent with a neural implementation of distance-to-bound for a noisy accumulation process, in which baseline motor activity starts off closer to an action-triggering bound when fast actions are required. In turn, the RP was independent of the mean waiting time before action, but its slope increased when participants developed a precise motor plan. We suggest that beta desynchronisation and the RP track distinct, complementary processes involved in the temporal control of action. While beta-power activity at trial onset is consistent with a strategic adjustment of motor preparation to match the required pace of action, the modulation of the RP by motor plan precision is consistent with a temporally structured input to a ramping preparatory process. Simulations suggest that acting at the right time may involve increasing the strength of the input to this accumulator, which can drive the decision variable to drift towards the decision bound.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Dissociating executive prefrontal substrates following capsulotomy in obsessive-compulsive disorder.</title>
+      <link>https://doi.org/10.1093/brain/awag132</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag132</guid>
+      <description>Brain : a journal of neurology
+
+Obsessive-compulsive disorder (OCD) is characterized by widespread executive function impairments linked to disrupted frontostriatal circuits. Ablative therapies such as capsulotomy show promising efficacy in treatment-refractory OCD, yet their effects on executive neural substrates remain poorly understood. This study explores how OCD and capsulotomy influence executive prefrontal function. Twenty-three post-capsulotomy OCD patients, 30 OCD controls and 32 health controls (HC) were recruited in the study. Post-capsulotomy patients were recruited at least 6 months following surgery to allow for postoperative stabilization. Participants completed three executive function tasks assessing distinct cognitive domains: the Extra-Dimensional Intra-Dimensional (EDID) task testing set-shifting, the N-back task testing working memory and the Flanker task measuring conflict processing. The EDID and N-back tasks were administered during concurrent task-based functional MRI, while the Flanker task provided only behavioural measures. In the EDID task, OCD capsulotomy patients demonstrated greater post-error flexibility towards ID versus ED shifting relative to both OCD controls and HC, despite exhibiting more ED errors. OCD controls showed less shifts after errors compared with HC, which was not revealed in the capsulotomy group. OCD patients showed less neural differentiation between ED versus ID in lateral and mesial prefrontal regions relative to HC. Capsulotomy was associated with decreased pre-supplementary motor area activity to ED shifts compared with HC, indicating impairments in neural reactivity to ED shifting. No evidence supported the influence of capsulotomy in the N-back or the Flanker tasks. Specifically, both OCD groups showed impaired working memory performance at high memory load along with dysfunction in the whole frontoparietal network. In the Flanker task, impairments in dissociating congruent and incongruent conditions were found in both OCD groups but not in the HC group. These findings suggest capsulotomy specifically remediates error-monitoring and behavioural flexibility through mesial prefrontal remodelling, while leaving working memory and conflict processing deficits intact. This dissociation implies that cognitive flexibility may represent a state-dependent process amenable to intervention, whereas working memory and conflict processing impairments may reflect trait markers of OCD vulnerability. These results have clinical implications on the relative safety profile of capsulotomy and patient selection for precision neuromodulation.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Single-neuron encoding of rapidly learned visual information reshapes human perception.</title>
+      <link>https://doi.org/10.1038/s41593-026-02496-6</link>
+      <guid isPermaLink="false">doi:10.1038/s41593-026-02496-6</guid>
+      <description>Nature neuroscience
+
+Humans can swiftly learn to recognize visual objects after minimal exposure. Integrating new information with existing knowledge requires forming enduring neuronal representations to enable future recognition. Yet, the neuronal mechanisms in the human brain underlying such rapid perceptual changes remain unclear. Here we recorded single-neuron activity in occipital cortex (OC) and medial temporal lobe (MTL) regions as participants rapidly learned to recognize degraded images. OC and MTL neurons modulated their activity to encode newly learned visual information and reshape perception. Population decoding revealed that OC neurons required additional processing time to resolve the identity of learned images, with delayed neuronal responses in the MTL. Our findings suggest that OC supports recognition after rapid learning via extensive recurrent processing, potentially involving higher-order neocortical areas, without relying on feedback from MTL. These results provide mechanistic constraints for biologically plausible models of visual recognition and few-shot visual learning.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Physiological Representation of Social Evaluation: Modeling Human Eye Movements, Pupillary, and Neuronal Responses to Faces.</title>
       <link>https://doi.org/10.1523/jneurosci.1525-25.2026</link>
@@ -28,6 +172,16 @@ The hippocampus receives convergent input from multiple sensory systems, yet in 
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Left out: The effect of handedness on fMRI activation in memory paradigms.</title>
+      <link>https://doi.org/10.1162/imag.a.1441</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1441</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+About 11% of the population is left-handed, a significant minority of the potential participant pool for functional MRI (fMRI) studies. However, convention in fMRI research dictates these potential participants be excluded due to the supposition that left-handed (LH) people may have different lateralization of neural functioning than right-handed (RH) people. This difference in lateralization may cause different areas of the brain to be activated by the same task. The current study investigates the lateralization differences between LH (n = 54) and RH (n = 55) participants during encoding and recognition memory tasks for verbal and non-verbal stimuli. Additionally, we measured participants' language laterality index by administering a semantic fluency task. We found no difference between groups' behavioral memory performance for either verbal or non-verbal stimuli. Similarly, we found no group differences in fMRI activation for either verbal or non-verbal material at encoding or retrieval. When we split groups according to language lateralization, we observed more activation in right-lateralized participants for word retrieval only. To measure whether including LH in fMRI studies would dilute results, we performed Monte Carlo simulations with subsets of our data for sample sizes from n = 10 to 50 with the number of LH in each sample ranging from k = 0 to 9. Similarity metrics between activation maps for the all-RH sample and samples that include LH participants were robust, especially for large sample sizes (e.g., Dice similarity coefficients &gt;0.9 when n = 50). Taken together, these results indicate that the inclusion of left-handed participants does not have a strong detrimental effect on memory-related fMRI activation. On this basis, we advocate for the inclusion of left-handed participants in cognitive neuroscience of memory research.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
     </item>
     <item>
       <title>What can behavior tell us about neural dynamics?</title>
@@ -81,6 +235,17 @@ Animals must continuously evaluate their surroundings and select adaptive respon
 Human emotional experiences vary widely in everyday life, yet they are systematically organized within a continuous affective space defined by valence and arousal. Although this circumplex organization has shaped decades of research, its neural implementation remains unclear. Here, we asked whether abstract emotion concepts are encoded using grid-like coordinate principles in the human brain. During fMRI, participants tracked trajectories through affective space conveyed through morphs of facial expressions and sequences of phrases. We found that ventromedial prefrontal cortex (vmPFC) encoded affective space with robust hexadirectional modulation characteristic of grid-like coding. This coordinate representation generalized across stimulus modalities, indicating abstraction beyond perceptual features. The grid-like signal reflected a metric organization of emotion concepts independent of overt behavior, whereas distance-related signals in vmPFC predicted trial-by-trial affective judgements. Together, these findings suggest that emotion knowledge is structured by a grid-like coordinate system in the human brain that can support predictive inference and flexible decision-making.</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Negative emotion recognition impairments despite preserved neural activity in patients with mild cognitive impairment (MCI).</title>
+      <link>https://doi.org/10.1162/imag.a.1428</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1428</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Emotion recognition is an essential component of socio-emotional functioning, yet its alteration in mild cognitive impairment (MCI) remains insufficiently understood, particularly in relation to neural mechanisms. This study examined behavioral and neural responses to facial emotions in 60 adults (30 MCI, 30 healthy controls (HC)) using a validated fMRI emotion-recognition paradigm with anger, fear, sadness, happiness, and neutral expressions. Although groups did not differ in overall recognition accuracy, a multivariate analysis revealed a significant group effect driven by a selective impairment in sadness recognition in MCI. Accuracy for anger and fear showed weaker, but non-significant differences between groups, and happiness recognition was preserved. Face-processing ability, emotional interference, emotional intelligence, and domain-specific cognitive performance showed no significant associations with facial emotion recognition, indicating that the sadness-specific deficit was not attributable to perceptual, cognitive, or socio-emotional characteristics. In fMRI analyses, HCs showed widespread activation to emotional versus neutral faces across occipital, frontal, and subcortical regions, whereas patients with MCI exhibited spatially more restricted activation. However, whole-brain group comparisons revealed no significant differences in BOLD response amplitudes for overall emotion processing or any emotion-specific contrast. These findings indicate that MCI is characterized by a selective impairment in recognizing sadness, an emotion relying on subtle, low-intensity cues, while whole-brain analyses did not reveal statistically significant group differences in neural responses during emotion processing. This pattern shows that group differences in behavior did not correspond to group differences in measured neural activity.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Transcranial magnetic stimulation to the dorsolateral prefrontal cortex modulates single-neuron activity in humans.</title>
@@ -353,184 +518,15 @@ Individual differences in susceptibility to somatosensory false physiological fe
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>Brain Regions Involved in Object-Location Memory in Healthy Adults: A Systematic Review and Activation Likelihood Estimation Meta-Analysis of Task-Based fMRI.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107068</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107068</guid>
-      <description>Neuroscience and biobehavioral reviews
+      <title>Neural Markers of Reward Valuation and Impulsive Decision-Making in Mania Risk.</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.2510</link>
+      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.2510</guid>
+      <description>JAMA psychiatry
 
-The ability to remember where objects are located is a fundamental cognitive function particularly vulnerable to aging and neurodegenerative disease. Previous functional magnetic resonance imaging (fMRI) research has combined object-location memory (OLM) with broader spatial-memory and -navigation tasks, resulting in inconsistent findings. This systematic review and coordinate-based activation likelihood estimation (ALE) meta-analysis isolated OLM to characterize brain regions engaged during encoding and retrieval in healthy adults, with additional exploratory analyses of age effects. Searches of PubMed, PsycInfo, and the Cochrane Library identified 21 eligible task-based fMRI studies comprising 622 participants. Twelve studies contributed to an encoding ALE, which identified significant spatial convergence in left and right ventral occipitotemporal regions encompassing the fusiform and parahippocampal gyri. The left cluster was supported by 8 of 12 experiments, survived all leave-one-experiment-out iterations, and was recovered by an independent coordinate-based framework, supporting a robust ventral occipitotemporal substrate for OLM encoding. An OLM retrieval ALE including four studies yielded no significant convergence, most likely reflecting the limited number of eligible studies. Retrieval findings were therefore synthesized narratively. These studies most frequently implicated the hippocampus and precuneus, suggesting a different regional pattern from encoding, although the phases were not statistically compared. Only three studies directly compared age groups, suggesting altered hippocampal engagement during retrieval in older adults. By isolating OLM from broader spatial-memory constructs, this review identifies a robust encoding substrate while highlighting current research gaps that need to be addressed. This review was preregistered on PROSPERO (CRD420251023695).</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Choroid plexus volume in metabolic syndrome: a cross-sectional neuroimaging study</title>
-      <link>https://europepmc.org/article/PMC/PMC13721072</link>
-      <guid isPermaLink="false">PMC:PMC13721072</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Distinct gradients of cortical architecture capture visual representations and behavior across the lifespan.</title>
-      <link>https://doi.org/10.7554/elife.102095</link>
-      <guid isPermaLink="false">doi:10.7554/elife.102095</guid>
-      <description>eLife
-
-The microstructure of cells within the human cerebral cortex varies across the cortical ribbon, where changes in cytoarchitecture and myeloarchitecture are thought to endow each region of the cortex with its unique function. While fine-scale relative to a cell, these changes at the population level impact architectural properties of the cortex measurable in vivo by noninvasive MRI, such as the thickness and myelin content of the cortex. This raises the question of whether or not we can use these in vivo architectural measures to understand cortical organization, function, and development more broadly. Using the human visual cortex as a test bed, we demonstrated two architectural gradients, one in which cytoarchitecture and myeloarchitecture converge and another in which they diverge. These two gradients underlie the structural and functional topography of the visual cortex, even predicting the presence of new visual representations. Moreover, the two gradients show distinct visual behavior relevance and lifespan trajectory. These findings provide a more general framework for understanding the human cortex, showing that architectural gradients are a measurable fingerprint of functional organization and ontogenetic routines in the human brain.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Interpretable embeddings of speech explain and enhance the brain encoding performance of audio models.</title>
-      <link>https://doi.org/10.1371/journal.pcbi.1014906</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014906</guid>
-      <description>PLoS computational biology
-
-Speech foundation models (SFMs) are increasingly hailed as powerful computational models of human speech perception. However, since their representations are inherently black-box, it remains unclear what drives their alignment with brain responses. To remedy this, we built linear encoding models from six interpretable feature families: mel-spectrogram, Gabor filter bank features, speech presence, phonetic, syntactic, and semantic features, and contextualized embeddings from three state-of-the-art SFMs (Whisper, HuBERT, WavLM), quantifying electrocorticography (ECoG) response variance shared between feature classes. Variance-partitioning analyses revealed several key insights: First, the SFMs' alignment with the brain can be mostly accounted for by their ability to learn and encode simple interpretable speech features. Second, SFMs exhibit a systematic trade-off between encoding of brain-relevant low-level and high-level features across layers. Finally, our results show that SFMs learn brain-relevant semantics which cannot be accounted for by lower-level speech features, with this capacity increasing with model size and context length. Together, our findings suggest a principled approach to build more interpretable, accurate, and efficient encoding models of the brain by augmenting SFM embeddings with interpretable features.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Distinct roles of anterior cingulate and subcortical regions supporting effort evaluation versus preparation.</title>
-      <link>https://doi.org/10.1162/imag.a.1417</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1417</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Cognitive effort encompasses the mental exertion invested to achieve a goal as well as the experienced cost associated with that exertion. The dopaminergic midbrain regions (i.e., ventral tegmental area/substantia nigra), ventral striatum, and anterior cingulate cortex have all been broadly implicated in effort regulation. However, less is known about the role of these regions in dissociable subprocesses such as effort evaluation versus effort preparation. In this preregistered functional MRI study with concurrent pupil tracking, we disentangled the evaluation and preparation phase of reward- and effort-based motivation. In the evaluation phase, the typical valuation regions encoded high-reward and low-effort demand as motivational factors. In the preparation phase, the anterior cingulate cortex displayed increased activity for demanding high-reward trials. The dopaminergic midbrain exhibited a positive reward effect only during task execution. The results suggest that when separating evaluation from preparation, regions traditionally thought of as primarily reward attuned respond to high reward and low effort during evaluation but can assign a motivating signal to effort during preparation, while the anterior cingulate cortex integrates effort and reward prospect to subserve only preparatory control processes.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Neural and cognitive correlates of adolescent anxiety: Widespread brain network alterations, increased control costs, and visuospatial processing deficits.</title>
-      <link>https://doi.org/10.1162/imag.a.1409</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1409</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-This study investigated the neural substrates and cognitive correlates of adolescent anxiety, which are currently incompletely understood, in N = 3,499 youth with median (IQR) age 12.0 (1.1) years (~51.0% females), from the Adolescent Brain Cognitive Study. Resting-state fMRI, structural MRI, anxiety (scores and related disorder diagnoses), and neurocognitive data were analyzed. Mixed-effects regression models were used to examine associations between anxiety, brain characteristics (topological and morphometric properties, and regulatory (control) costs of intrinsic network dynamics), and cognitive outcomes. Females, older youth, and those with more parental mental health problems had higher anxiety (β = 0.04-1.15, 95% CI = [0.01, 2.18]). Higher resting-state connectivity and/or centrality (network importance) of the cerebellum, amygdala, and thalamus, and higher cerebellum-basal-ganglia-thalamus control costs were associated with higher anxiety (β = 0.04-0.08, 95% CI = [0.01, 0.11]). In contrast, temporoparietal and frontoparietal network efficiency and resilience (robustness) were protective for social and/or generalized anxiety disorders (adjusted odds ratio (aOR) = 0.72-0.80, 95% CI = [0.62, 0.98]). Higher cortical thickness and/or volume of the superior temporal gyrus, pars opercularis, precentral gyrus, and putamen were associated with higher odds of generalized or social anxiety disorder (aOR = 1.28-1.44, 95% CI = [1.07, 1.78]). Finally, anxiety was associated with lower response accuracy in the Little Man Task (β = -0.05, 95% CI = [-0.09, -0.01]), and attenuated positive brain-task performance associations. These findings suggest that adolescent anxiety is associated with widespread brain alterations, especially in the cerebellum-basal ganglia-thalamus network, while the organization of frontoparietal and temporoparietal networks, which play as key role in emotion regulation and social function, is protective for anxiety disorders. It is also associated with lower visuospatial processing and alterations in the networks that support it.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Brain systems supporting the narrative self and psychopathology.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.026</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.026</guid>
-      <description>Biological psychiatry
-
-Disturbances in the narrative self are implicated across psychiatric disorders, with abnormalities in the neural systems supporting its generation and regulation constituting a transdiagnostic risk factor for mental illness. This review highlights how alterations in these brain systems underlie prevalent clinical features, including diminished, rigid, and sustained negative beliefs within the narrative self. The narrative self is framed as a higher-order construct that emerges from multiple systems, with reward, punishment, and motivational signals biasing which experiences are encoded as self-defining and which self-beliefs are reinforced over time. We discuss recent evidence demonstrating how the narrative self is supported by distributed brain networks in which subcortical inputs from the basal forebrain, habenula and mediodorsal thalamus modulate default mode network activity, with the salience, frontoparietal, cingulo-opercular, and hippocampal-parahippocampal networks regulating how self-beliefs are established or updated. Adolescence is emphasized as a developmental period uniquely vulnerable to disturbances in the formation of a coherent, flexible narrative self, wherein asynchronous subcortical and cortical development and pubertal changes interact to confer risk for diminished and rigid self-beliefs. Belief-updating tasks, hierarchical computational models, and ecological momentary assessment are proposed as approaches to quantify how self-beliefs form and shift across time, linking neural signatures of the narrative self to momentary variability. We propose that treating the narrative self as a primary level of explanation for psychopathology positions it as a testable target for future neuroimaging research, providing a clearer bridge from self-referential cognition to interventions in daily life.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+IMPORTANCE: Mania or hypomania, the pathognomonic feature of bipolar disorder (BD), is associated with reward hypersensitivity and impulsive decision-making, but the neural mechanisms underlying these distinct behavioral facets remain unclear. Reward expectancy (RE)-associated activation in the left ventrolateral prefrontal cortex (L-vlPFC) and pre-supplementary motor area (pre-SMA) is elevated in individuals at risk of mania or hypomania, but it is unknown whether elevated activation in these regions and associations with risk-related behavioral facets reflect convergent or dissociable pathways to mania or hypomania risk or whether depression severity impacts these associations. OBJECTIVE: To test whether RE-associated L-vlPFC and pre-SMA activation exhibit distinct associations with delay discounting behavior-indexing reward valuation (lower discounting) vs impulsive decision-making (higher discounting)-and whether these associations are moderated by depression severity. DESIGN, SETTING, AND PARTICIPANTS: In this cross-sectional study, 2 independent samples of adults aged approximately 18 to 30 years at varying risk of mania or hypomania (142 in the discovery set and 86 in the replication set) completed a functional magnetic resonance imaging reward task and a delay discounting assessment. Major exclusion criteria included current or lifetime BD, primary psychotic disorders, neurological disorders, recent substance use disorders, systemic medical illnesses, and magnetic resonance imaging contraindications. The study took place from 2019 to 2026 at the University of Pittsburgh Medical Center in Pittsburgh, Pennsylvania. EXPOSURE: RE-associated L-vlPFC and pre-SMA activation. MAIN OUTCOMES AND MEASURES: Main outcomes were mania or hypomania risk per Mood Spectrum Self-Report-Lifetime mania score and delay discounting behavior per 27-Item Monetary Choice Questionnaire rate. Associations were tested using regression models, including moderation by depression severity. RESULTS: Across 228 individuals (discovery: mean [SD] age, 23.79 [3.32] years; 96 [67.6%] female; replication: mean [SD] age, 26.09 [3.15] years; 64 [74.4%] female), L-vlPFC and pre-SMA activation were both positively associated with mania or hypomania risk in the discovery sample (l-vlPFC: β, 0.544; 95% CI, 0.440 to 0.649; z, 10.24; P &lt; .001 and pre-SMA: β, 0.496; 95% CI, 0.341 to 0.650; z, 6.30; P &lt; .001) and replication sample (l-vlPFC: β, 0.503; 95% CI, 0.241 to 0.765; z, 3.77; P &lt; .001 and pre-SMA: β, 0.684; 95% CI, 0.410 to 0.957; z, 4.90; P &lt; .001). In the discovery sample, these regions showed dissociable delay discounting associations: greater L-vlPFC activation was associated with lower discounting (β, -0.305; 95% CI, -0.561 to -0.050; P = .02), whereas greater pre-SMA activation was associated with higher discounting (β, 0.521; 95% CI, 0.146 to 0.895; P = .007). The L-vlPFC-lower discounting association replicated (β, -0.704; 95% CI, -1.400 to -0.008; P = .048). A pre-SMA activation × depression severity interaction was observed in the replication sample (β, -0.427; 95% CI, -0.792 to -0.063; P = .02), such that higher depression severity attenuated the association between elevated pre-SMA activation and higher discounting. This interaction was detectable in the discovery sample in individuals with elevated pre-SMA activation (β, -0.285; 95% CI, -0.565 to -0.005; t63 = -2.03; P = .046). CONCLUSIONS AND RELEVANCE: The findings in this cross-sectional study suggest that RE-associated L-vlPFC and pre-SMA activation may represent dissociable neural pathways to mania or hypomania risk. Elevated L-vlPFC activation was associated with sensitivity to reward value, whereas elevated pre-SMA activation was associated with impulsive decision-making, and this latter association was moderated by depression severity.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Intrinsic cellular persistent firing sustains hippocampal spatial representations during working memory</title>
-      <link>https://europepmc.org/article/PMC/PMC13721955</link>
-      <guid isPermaLink="false">PMC:PMC13721955</guid>
-      <description>Science advances
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Hexagonal modulation of theta rhythmic attentional sampling of visual space.</title>
-      <link>https://doi.org/10.1523/jneurosci.0623-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0623-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Spatial attention improves visual perception by selecting behaviorally relevant sensory signals. Traditionally, attention has been conceptualized as a static spotlight, while recent evidence posited that attention operates as a moving spotlight that samples visual space sequentially in discrete snapshots that are clocked by theta rhythms (∼3-8 Hz). While theta rhythmic attentional sampling has mainly been observed in fronto-parietal and occipital areas, theta oscillations also hallmark entorhinal-hippocampal grid-cell networks, which encode physical space in hexagonal patterns that guide overt exploration and navigation. We hypothesized that visual attention might rely on the same underlying principles and sample visual space in a hexagonal, grid-like configuration. To test this hypothesis, twenty participants (10 females and 10 males) performed a cue-guided attention task that probed behavioral performance as a function of space and time. Reaction times were assessed as a function of spatial location and varying cue-target intervals, which displayed spatially-structured theta rhythms. Specifically, higher theta power occurred at spatial locations that were aligned to multiples of 60°, consistent with an underlying hexagonal organization. Participants that exhibited stronger hexagonal sampling relied less on the spatial cue to guide their attentional allocation. In sum, these findings suggest that covert visual attention is organized in a hexagonal pattern that might be consistent with the grid-like structure known from the entorhinal-hippocampal system and highlight that theta rhythms could reflect a common organizing principle for spatial cognition.Significance Statement Attention prioritizes sensory inputs to optimize behavior. But how does attention sample the environment in space and time? Here, we demonstrate that attentional sampling of visual space is not uniform, but might preferentially explore locations that are oriented along a hexagonal pattern, reminiscent of the spatial configuration of entorhinal-hippocampal grid cells. Moreover, covert attentional sampling exhibited oscillatory theta signatures (3-8 Hz). In sum, these findings suggest that spatial attention and navigation may share a common organizing principle, and indicate that theta rhythms may orchestrate sampling behaviors in space and time as a unifying principle underlying spatial cognition.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Perception of tones versus tone streams under random multi-tone masking and its representation in auditory cortex.</title>
-      <link>https://doi.org/10.1523/jneurosci.0416-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0416-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-When repeated tones are presented among random masker tones, their perceptual organization is often variable. In some trials, they cannot be segregated from the masker tones. In other trials, often with a delay, they form coherent streams, segregated from the masker tones. A strong awareness-related negativity is evoked by each segregated tone of the stream in auditory cortex. A similar negative-going response has been observed when subtle, isolated tones are detected versus missed, raising the question of whether target tones that do not form a stream under informational masking are still perceived or not. Here a paradigm is introduced to probe this question while activity in auditory cortex was recorded with magnetoencephalography. Human listeners (13 female, 8 male) were instructed to indicate when they detected an isochronous stream of tones under multi-tone masking while listening to the stimulus. Thereafter, they indicated if a cue tone, presented subsequently to each trial, was comprised in the target and masker combination. Results confirmed that target tones could still be perceived in the subset of trials where they did not form a coherent stream, but the detectability in the cued frequency report was higher for tones forming a stream. A prominent awareness-related negativity was only observed when the tones formed a stream, suggesting that this response reflects the perceptual organization of the tones into streams and beyond the pure perception of the tones themselves. We speculate that the perceptual organization into a stream further enhances the detectability of the tones comprised in the stream.Significance Statement Tone sequences may form streams that segregate from competing aspects of the auditory scene, a phenomenon considered comparable to visual object grouping. In multi-tone masking, hearing out streams of repeated tones seemingly enhances tone detectability by a degree that makes it difficult to judge whether these tones could at all be perceived if they had not formed a coherent stream. We present a paradigm that allows for probing both, the perception of target-tone frequency and the formation of coherent streams in the same trials. Applying this setup in magnetoencephalography showed that the perceptual organization into a stream is more strongly represented in auditory cortex than the ability to correctly detect a tone frequency within a random tone masker.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Bivalent habenula modulation of human monoaminergic midbrain and cortical pathways.</title>
-      <link>https://doi.org/10.1523/jneurosci.0020-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0020-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The habenula is implicated in signaling negative reward prediction errors (RPE), yet direct evidence demonstrating its influence on downstream human brain circuits is limited. Using ultra-high field (7T) fMRI and dynamic causal modelling across two negative RPE-inducing experimental tasks, we characterize habenula-directed connectivity with monoaminergic midbrain and cortical pathways in healthy adults (n = 47, 24 males and 23 females; n = 43, 23 males and 20 females). Negative feedback drove habenula inhibition of ventral tegmental area and dorsal raphe nucleus activity, while positive feedback had an excitatory effect. These core effects are replicated across reversal learning and perceptual decision uncertainty tasks, establishing a generalizable mechanism for behavioral adaptation. Task-specific modulatory effects emerged in pathways between the subcortical and cortical regions (ventral tegmental area→dorsal anterior cingulate cortex, dorsal raphe nucleus→medial prefrontal cortex, and dorsal anterior cingulate cortex→habenula), revealing context-dependent cortical elaboration of negative RPE-driven habenula signals. This provides the first evidence in humans, using model-based effective connectivity, for bivalent modulation of habenula function on monoaminergic midbrain and cortical pathways, demonstrating how the brain integrates negative and positive signals to guide adaptive behavior.Significance Statement The habenula - an epithalamic brain region - plays a key role in the encoding of reward and punishment. Animal studies have demonstrated the habenula to be bivalently modulated by aversive and appetitive stimuli, resulting in the bidirectional modulation of monoaminergic brain region activity. Despite this evidence, the directional impact of bivalently modulated habenula activity on its circuitry has yet to be investigated in humans. This study leverages ultra-high field (7T) fMRI and dynamic causal modelling to reveal the impact of bivalent habenula modulation on monoaminergic midbrain and cortical regions across two distinct tasks. Through these methodologies, we demonstrate the habenula to have a key role in guiding adaptive behavior.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>The dual future of OPM-MEG: Clinical translation and naturalistic neuroscience.</title>
-      <link>https://doi.org/10.1162/imag.a.1436</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1436</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Optically pumped magnetometer magnetoencephalography (OPM-MEG) has moved beyond proof of principle. The decisive question is no longer whether cryogen-free sensors can detect neuromagnetic fields from the human brain with sufficient sensitivity, but whether complete systems can deliver clinical decision value and interpretable recordings during more naturalistic behaviour. Here we argue that OPM-MEG is developing along two partly overlapping trajectories. One is clinical translation, where usefulness depends more on reliable workflows, calibrated source localisation, auditable quality control, and empirical evidence for improved diagnostic or treatment decisions. The other is naturalistic neuroscience, where wearable measurement can connect neural dynamics to movement, action, and social behaviour without conflating neural activity with movement-related artefacts. Both trajectories depend on a shared engineering stack including magnetic field control, dense spatial sampling, accurate calibration, integrated electronics, artefact suppression, participant comfort, and synchronised behavioural measurement. The next stage of OPM-MEG should be evaluated by clinical utility in specific patient groups, statistically identifiable neural dynamics in behaviourally rich settings, and sufficient system detail for replication across systems and sites.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Attention selectively enhances collision sensitivity in the superficial SC, PBGN and centromedial amygdala to looming stimuli in the upper visual field.</title>
-      <link>https://doi.org/10.1162/imag.a.1432</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1432</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Accurate detection of impending collisions is essential for survival. While multiple subcortical pathways have been implicated in the detection of looming stimuli, the roles of top-down attention and conscious awareness in this process remain unclear. Using high-resolution fMRI, we investigated how top-down attention and conscious awareness influence subcortical processing of approaching objects on collision versus near-miss trajectories. In healthy participants, the superficial layers of the superior colliculus (SCs), the parabigeminal nucleus (PBGN), and the centromedial amygdala (CMA) exhibited significantly stronger activation to hit-nasion than to near-miss trajectories in the upper visual field, but only when participants attended to the approaching object. Correlation and path analysis of collision sensitivity and beta-series functional connectivity consistently revealed a significant SC-PBGN connection. For stimuli presented in the blind visual field of hemianopic patients, significant functional connectivity was observed between the SC and both the pulvinar and the ventral tegmental area (VTA) in response to collision trajectories. Together, these findings suggest that attention selectively enhances collision sensitivity in the SCs-PBGN-CMA pathway for accurate detection of collision trajectory in the upper visual field, whereas the SC-pulvinar and SC-VTA pathways are associated with collision detection in the absence of conscious awareness.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Untangling time and prematurity in brain development.</title>
-      <link>https://doi.org/10.1126/science.aem4864</link>
-      <guid isPermaLink="false">doi:10.1126/science.aem4864</guid>
-      <description>Science (New York, N.Y.)
-
-Cerebellar developmental differences between preterm- and term-born children persist into early childhood.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Cerebellar subregions support social cognition in early behavioural variant frontotemporal dementia.</title>
-      <link>https://doi.org/10.1093/brain/awag381</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag381</guid>
-      <description>Brain : a journal of neurology
-
-Social cognitive deficits manifest early in behavioral variant frontotemporal dementia (bvFTD), compromising individuals' ability to interpret social cues, empathize, and maintain interpersonal relationships. Current neurobiological models emphasize cortical network disruption, particularly within the salience, semantic appraisal, and default mode networks, as primary contributors to social dysfunction. However, despite the increasingly recognized role of the cerebellum in higher-order cognitive and socioemotional processes, its contributions to social deficits remains underexplored in bvFTD. Here, we investigated the unique and network-level influences of cerebellar subregions on social cognition across experimental and real-world assessments in early-stage bvFTD. A total of 107 individuals with bvFTD and 100 healthy controls were evaluated across three social domains: theory of mind (ToM) (The Awareness of Social Inference Test-Social Inference-Enriched, TASIT-SIE; Cognitive Emotional Perspective Taking Test), emotion reading (Dynamic Affect Recognition Test; TASIT-Emotion Evaluation Test; Comprehensive Affect Testing System), and real-life empathy (Revised Self-Monitoring Scale; Interpersonal Reactivity Index). Using a functional cerebellar parcellation, we extracted volumes of posterior cerebellar subregions implicated in social-linguistic and multiple-demand networks from participants' structural MRIs. To address the high collinearity between cerebellar and cortical atrophy patterns, we applied sequential regression, partial least squares correlation, and dominance analysis to characterize brain-behavior relationships. Additionally, supplementary structural equation modelling (SEM) examined whether the associations between cerebellar integrity and social cognition was mediated by executive functioning. Our results showed that cerebellar subregional integrity contributed to social cognitive deficits in individuals with early-stage bvFTD. Cerebellar subregions, particularly right Crus I and II, showed the strongest and most selective contribution to high-level inferential Theory of Mind performance. Tasks involving dynamic emotion stimuli exhibited a more distributed pattern of cerebello-cerebral involvement. By contrast, questionnaire-based measures of real-world social functioning were less prominently represented in the latent covariance structure. SEM further showed that cerebellar integrity remained directly associated with social cognition after accounting for executive functioning, whereas the indirect association through executive functioning was not significant. These findings highlight the task-dependent nature of cerebellar involvement in social cognition, and demonstrate that time-limited experimental tasks, particularly those involving inferential reasoning about beliefs and affect, are likely to be especially valuable in detecting subtle cerebello-cerebral network dysfunction that questionnaire-based measures may overlook. Our results extend cortex-centric models of social dysfunction in bvFTD by demonstrating that cerebellar subregions contribute to distributed cerebello-cerebral systems associated with social cognitive performance. These findings provide a foundation for future longitudinal and mechanistic studies of cerebello-cerebral dysfunction in neurodegenerative disease.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Peripersonal space: a neural system mapping self-environment interaction 'here and now'.</title>
-      <link>https://doi.org/10.1016/j.tics.2026.10.002</link>
-      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.002</guid>
-      <description>Trends in cognitive sciences
-
-The space surrounding the body where physical interactions with external stimuli occur is referred to as peripersonal space (PPS). Traditionally conceived as a spatial construct, PPS is better understood as a neural representation that integrates bodily inputs with external cues to predict body-object interactions. After summarizing its multisensory, motor, and plastic properties, this review draws on computational models to examine how PPS captures statistical regularities of body-object interactions. This predictive function may position PPS as an interface between self and environment, contributing to minimal self-consciousness and its alterations across states of consciousness and neuropsychiatric conditions. Recent findings extend this framework to the inner body, suggesting that interoceptive signals shape PPS and that PPS-related processing may influence immune responses.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Does Phubbing Always Elicit Social Pain? The Role of Belonging Context.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122325</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122325</guid>
-      <description>NeuroImage
-
-Phubbing, a prevalent interpersonal phenomenon in which individuals divert their attention to their phones while neglecting their interaction partners during face-to-face interactions, has been associated with adverse psychological and relational outcomes, including social pain. However, the same "eyes-on-phone" behavior may not always be experienced as phubbing or evoke feelings of neglect and social pain. The present research examined whether belonging context shapes behavioral and neural responses to "eyes-on-phone" behavior during face-to-face interaction. In Study 1, 163 participants completed a scenario-based task that required them to judge how they felt about several stories, in which belonging context (positive, negative, unrelated) was crossed with attentional state (eyes-on-phone, eyes-on-you). In Study 2, 50 participants completed the Cyberball paradigm to manipulate different belonging contexts (positive, negative, unrelated) with 6 models, followed by an ERP experiment in which they judged whether images of these models displaying different attentional states (eyes-on-phone, eyes-on-you) made them feel neglect-related social pain. Across both studies, within "positive" contexts, "eyes-on-phone" behavior elicited greater social pain, including perceived neglect, emotional unpleasantness, and unwillingness to communicate (Study 1), as well as a greater tendency to endorse neglect-related social pain and larger P3 amplitudes (Study 2) than "eyes-on-you" behavior, whereas this pattern was not consistently observed in the "negative" or "unrelated" contexts. These findings indicate that phubbing is not inherently experienced as social pain. Rather, its social meaning depends on prior belonging context: a mismatch between contextual cues and subsequent attentional behavior may give rise to expectancy violations, which could contribute to social pain when the behavior is interpreted as neglectful.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>
