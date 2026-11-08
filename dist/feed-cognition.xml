@@ -5,9 +5,41 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principles of coarse-scale functional organization in occipitotemporal cortex.</title>
+      <link>https://doi.org/10.1038/s42003-026-11319-0</link>
+      <guid isPermaLink="false">doi:10.1038/s42003-026-11319-0</guid>
+      <description>Communications biology
+
+Occipitotemporal cortex (OTC) is known to support visual object processing, yet identifying general principles underlying its coarse-scale functional organization remains challenging. Previously proposed organizational dimensions, such as animacy or real-world size, may not generalize to more diverse, naturalistic stimuli and strong intercorrelations of object properties complicate determining which dimensions, if any, dominate OTC organization. We addressed these challenges through detailed analyses of the cortical topography underlying 15 object properties, using fMRI responses to thousands of natural images, focusing on animacy and size given their established prominence. Our results confirm many characteristics of the purported animacy-size organization, but reveal distinctions that challenge dominant notions of this organization, highlighting the importance of generalizing to large-scale naturalistic data. Beyond animacy and size, many properties could alternatively serve as organizational dimensions, yet none emerges as clearly dominant throughout OTC. Together, our findings reveal a more refined animacy-size organization than previously assumed and highlight challenges of assigning individual principles to account for OTC organization.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Creative cognition in frontotemporal dementia and brain health.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.10.009</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.009</guid>
+      <description>Trends in neurosciences
+
+Creative cognition is central to human thought and is affected by brain disease. Recent findings by Altmayer and colleagues link creative impairment in frontotemporal dementia to rostral prefrontal functional differentiation. These findings motivate a framework for investigating network coordination, circuit physiology, experience-dependent plasticity, and bodily and social regulation in creativity and health.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>The Separation-Distress Network as a Transdiagnostic Mechanism Linking Relational Adversity, Social Pain, and Psychopathology.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107073</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107073</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Relational trauma is a major contributor to the development of mental health disorders. This association likely reflects the social nature of humans and other mammals, whose survival depends on maintaining stable social bonds. When these bonds are threatened or disrupted, individuals experience social pain, a distress response mediated by the mammalian separation-distress network. During early development, this network is sensitive to maintaining proximity with caregivers, as independent survival is not yet possible. Converging evidence from ethology, psychodynamic and attachment theory, and social and affective neuroscience supports the function of this network. Because mammalian brains are inherently tuned to form social bonds, adverse relational experiences can disrupt socioemotional development and increase vulnerability to psychopathology. Neural substrates of separation distress include the anterior cingulate cortex, ventral septum, bed nucleus of the stria terminalis, dorsal preoptic area, dorsomedial thalamus, and periaqueductal gray, with endogenous opioids and glucocorticoids serving as key neurochemical modulators in the separation-distress response. Separation distress and adverse relational experiences also alter physiological systems implicated in psychopathology, including the HPA axis, autonomic nervous system activity, inflammation, and brain structure and connectivity. This paper argues that relational trauma and social pain are mediated by an evolutionarily conserved subcortical separation-distress network shared across predominantly mammalian species. Dysregulation of this network may represent one common mechanism underlying depression, social anxiety, suicidality, substance use disorders, borderline personality disorder, and other psychiatric conditions. Understanding the processes linking adverse relational experiences, separation-distress activation, and social pain may provide insights into the etiology and treatment of diverse disorders.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Expectation-driven gain modulation of preparatory spatial attention.</title>
       <link>https://doi.org/10.7554/elife.110315</link>
@@ -101,6 +133,17 @@ The ability to represent absences is fundamental to human perception and cogniti
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Endogenous suspension of phenomenal consciousness during extended cessation: Regional homogeneity analysis of multi-participant 7T fMRI of an advanced meditative endpoint.</title>
+      <link>https://doi.org/10.1162/imag.a.1443</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1443</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Extended cessation (EC) is a rare advanced meditative state characterized by the voluntary absence of reportable phenomenal experience, followed by reproducible aftereffects including immense mental clarity, equanimity, and peace. EC offers an endogenous model for investigating the mechanisms of consciousness. In a small-N case study (N = 3) using ultra-high-resolution 7T functional magnetic resonance imaging (fMRI) with dense within-subject sampling, we quantified whole-brain activity and related it to chemoarchitecture and cognitive maps. EC is marked by increased activity in unimodal sensory cortices and viscerosensory brainstem nuclei, and down-regulation in transmodal regions, subcortex and brainstem. Meta-analytic cognitive decoding linked EC to perceptual clarity and attentional processes, and away from distress-related domains. Multivariate coupling to normative neurotransmitter maps revealed that EC-related connectivity changes covaried with histaminergic H3 receptors topology. These findings constrain prevailing theories of consciousness by demonstrating that loss of experience need not entail global neural suppression, and supports accounts emphasizing selective precision modulation and hierarchical decoupling. More broadly, EC demonstrates that consciousness can cease without global suppression, suggesting a potential "reset" mechanism that fosters equanimity and the potential for flourishing.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>In-group neural alignment serves as a biomarker of social identity.</title>
       <link>https://doi.org/10.1073/pnas.2624145123</link>
       <guid isPermaLink="false">doi:10.1073/pnas.2624145123</guid>
@@ -190,6 +233,16 @@ Any study of learning must capture neural or behavioural changes over time. Stim
       <description>Imaging neuroscience (Cambridge, Mass.)
 
 Making each action at the right time is crucial for motor control. In this study, we investigated how two prominent motor preparatory processes identified in human EEG-beta-band desynchronisation and the readiness potential (RP)-might each differently relate to the time of a simple voluntary action. In our paradigm, participants learned when to act in each block of trials, based on probabilistic trial-by-trial feedback. A reward schedule reinforced a specific optimal time to act in some blocks, but allowed greater variability around the same mean action time in other blocks. We found that contralateral motor beta-band power at the beginning of each trial was higher in trials with slow actions than in those with fast actions. In contrast, contralateral beta-band power reached stereotyped low values at the time of action, regardless of waiting times. Put together, this pattern is consistent with a neural implementation of distance-to-bound for a noisy accumulation process, in which baseline motor activity starts off closer to an action-triggering bound when fast actions are required. In turn, the RP was independent of the mean waiting time before action, but its slope increased when participants developed a precise motor plan. We suggest that beta desynchronisation and the RP track distinct, complementary processes involved in the temporal control of action. While beta-power activity at trial onset is consistent with a strategic adjustment of motor preparation to match the required pace of action, the modulation of the RP by motor plan precision is consistent with a temporally structured input to a ramping preparatory process. Simulations suggest that acting at the right time may involve increasing the strength of the input to this accumulator, which can drive the decision variable to drift towards the decision bound.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Sensorimotor expertise effects extend from dance to face perception.</title>
+      <link>https://doi.org/10.1093/cercor/bhag186</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag186</guid>
+      <description>Cerebral cortex (New York, N.Y. : 1991)
+
+Domain specific expertise affects neural and behavioral processes of perception and memory. We explore if sensorimotor expertise extends to other relevant social mechanisms, such as the neural processing of emotional faces. We recorded brain activity of 26 dancers and 26 non-dancers using visual and somatosensory evoked potentials (VEPs, SEPs) during an emotion and sex discrimination task on happy, afraid, and neutral faces. We predicted expertise-related modulation of visual facial emotion processing in visual and somatosensory areas. EEG results revealed distinct visual and somatosensory ERP patterns in the two groups. VEP findings showed that dancers distinguished between neutral and emotional faces at N170 and P200. Non-dancers differentiated between the three emotions with more lateralized processing. For SEPs, dancers uniquely showed early emotion effects (P50) in central somatosensory regions and task-modulated somatosensory engagement at later stages (N80, P100). Non-dancers showed later, localized somatosensory effects. In summary, dance expertise shapes both visual and somatosensory processing of facial emotion, indicating a broader neural representation of emotions. These findings provide novel evidence for a differential facial emotion processing in dancers, extending the dance expertise modulation beyond perception of dance-specific stimuli, to face emotion perception. Overall, this work highlights the strong influence of sensorimotor training on emotion perception.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -346,7 +399,7 @@ Background Non-invasive brain stimulation effects vary substantially across indi
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122327</guid>
       <description>NeuroImage
 
-Similarities in cognitive processing have been reported between individuals with autism spectrum disorder (ASD) and non-clinical individuals with autistic traits. However, previous research on autistic traits has primarily focused on social-emotional domains, with limited attention to abstract logical reasoning. Given that sensitivity to rules and patterns is a notable characteristic of the autism spectrum, logical rule processing may be particularly informative for understanding cognitive differences associated with autistic traits. The present research aimed to investigate the behavioral and neural responses of students with autistic traits to logical and illogical number sequences through two event-related potential studies. Based on Autism Spectrum Quotient-10 (AQ-10) scores, participants were categorized into High-AQ and Low-AQ groups. In Study 1, both groups judged whether visually presented logical and illogical three number sequences followed a logical incremental rule. In Study 2, both groups performed the same task as in Study 1, except number sequences were presented in the auditory modality. No significant group difference was found in response to logical number sequences in either study. However, relative to the Low-AQ group, the High-AQ group exhibited larger P2 and P3 amplitudes and more negative emotional reactions to illogical number sequences in the visual modality (Study 1), and more positive N1 and LPP amplitudes, and higher arousal ratings to illogical number sequences in the auditory modality (Study 2). These findings suggest that students with autistic traits may exhibit altered neural responses and heightened emotional reactivity specifically to stimuli that violate logical rules in separate visual and auditory studies.</description>
+Similarities in cognitive processing have been reported between individuals with autism spectrum disorder (ASD) and non-clinical individuals with autistic traits. However, previous research on autistic traits has primarily focused on social-emotional domains, with limited attention to abstract logical reasoning. Given that sensitivity to rules and patterns is a notable characteristic of the autism spectrum, logical rule processing may be particularly informative for understanding cognitive differences associated with autistic traits. The present research aimed to investigate the behavioral and neural responses of students with autistic traits to logical and illogical number sequences through two event-related potential (ERP) studies. Based on Autism Spectrum Quotient-10 (AQ-10) scores, participants were categorized into High-AQ and Low-AQ groups. In Study 1, both groups judged whether visually presented logical and illogical three number sequences followed a logical incremental rule. In Study 2, both groups performed the same task as in Study 1, except number sequences were presented in the auditory modality. No significant group difference was found in response to logical number sequences in either study. However, relative to the Low-AQ group, the High-AQ group exhibited larger P2 and P3 amplitudes and more negative emotional reactions to illogical number sequences in the visual modality (Study 1), and more positive N1 and LPP amplitudes, and higher arousal ratings to illogical number sequences in the auditory modality (Study 2). These findings suggest that students with autistic traits may exhibit altered neural responses and heightened emotional reactivity specifically to stimuli that violate logical rules in separate visual and auditory studies.</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -473,58 +526,6 @@ Goal-directed behavior relies on cognitive flexibility-the ability to rapidly ad
       <description>Journal of cognitive neuroscience
 
 Subjective features of memory are often treated as secondary to the objective content of remembered events. However, growing evidence suggests that these features actively shape how memories are constructed, experienced, and used. Rather than treating visual perspective as a peripheral correlate of subjectivity, this review positions it as a key mechanism that shapes the memory. Because perspective can be flexibly controlled and reliably measured, it offers a unique window into how retrieval goals interact with mental simulation to produce vivid and emotionally resonant recollections. Drawing on behavioral and neuroimaging research, this review shows that visual perspective determines the spatial framing of memory and the emotional and sensory qualities of recollection. Focusing on the posterior parietal cortex, it outlines distinct roles for the angular gyrus (AG) and the precuneus in supporting perspective-dependent retrieval. The AG contributes to the selection and maintenance of a retrieval perspective, integrating perceptual and conceptual features into a coherent scene. In contrast, the precuneus supports spatial transformation and modulates the vividness, emotional tone, and embodied character of recollection, particularly when individuals recall events from a nondominant or shifted perspective. Together, these findings position visual perspective as a central mechanism in the construction of subjectivity. Understanding how perspective shapes the process of remembering provides insight into how memory supports emotion regulation, mental simulation, and the continuity of the self across time.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Investigation of the Prolonged Impact of Severe Socioeconomic Hardship and Mother's Perceived Social Support on Neurocognitive Development in Young Children in the Rural Ecuadorian Amazon.</title>
-      <link>https://doi.org/10.1111/desc.70295</link>
-      <guid isPermaLink="false">doi:10.1111/desc.70295</guid>
-      <description>Developmental science
-
-Children living in conditions of severe socioeconomic (SES) hardship are at elevated risk for neurocognitive delays, yet most developmental neuroscience research has focused on children in high-income, Western populations, limiting our understanding of diverse developmental contexts. This study examined maternal perceived social support as a potential buffer against the stressors associated with SES hardship on child neurocognitive development in a longitudinal sample of Indigenous families in the rural Ecuadorian Amazon. Twenty-eight children (M age = 28.02 months at T1; 57.6 months at T2) participated in the study completing an assessment of early cognitive ability at T1 and an inhibition task while functional near-infrared spectroscopy (fNIRS) measured cortical activation at T2. A three-level linear mixed model revealed a significant interaction between early cognitive ability and maternal perceived social support on functional activation. Specifically, children of mothers with high social support showed no association between early cognitive ability and cortical activation, while those with low support exhibited atypical patterns (hyper- or hypoactivation), suggesting that increased maternal perceived social support may help buffer the risk exposure of chronic stressors associated with SES hardship. These findings underscore the importance of culturally embedded social resources in promoting resilience among children facing cumulative risk. Supporting maternal social networks may be a promising pathway for improving child neurodevelopment in underrepresented, low-resource communities and contributes to more inclusive global models of brain development.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Perceived Neighborhood Disadvantage Predicts Similarity in Amygdala Representations of Negative and Neutral Images in Early Adolescents.</title>
-      <link>https://doi.org/10.1111/desc.70290</link>
-      <guid isPermaLink="false">doi:10.1111/desc.70290</guid>
-      <description>Developmental science
-
-Neighborhood disadvantage encompasses multiple co-occurring adversities, including threat and deprivation, yet its underlying neural mechanisms remain unclear. Applying a dimensional framework to neighborhood contexts may help clarify how distinct features of disadvantage influence brain development. Here, we used representational similarity analysis to investigate associations between adolescents' neural representations of affective valence and neighborhood disadvantage, as measured by caregiver self-report and the Area Deprivation Index (ADI). One hundred and twenty-one adolescents aged 11 to 14 (Mage = 12.81 years old, 52.07% female, 28.93% White non-Hispanic) completed an emotional reactivity fMRI task. Caregiver-reported neighborhood disadvantage was associated with greater representational similarity in right amygdala between negative and neutral images, while no such effect emerged for the ADI. Follow-up analyses examined whether specific dimensions of disadvantage drove these effects. Although our measure did not map cleanly onto threat and deprivation dimensions, factor analyses revealed distinctions between social (e.g., crime, loitering) and physical (e.g., abandoned buildings, walkability) disadvantage-related items; our preliminary findings suggest that the effects of reported overall neighborhood disadvantage may be driven by characteristics of the social environment. No associations between caregiver-reported neighborhood disadvantage or ADI were observed for positive/neutral similarity. These findings provide preliminary evidence that neighborhood disadvantage may impact the amygdala's differentiation of negative and neutral stimuli during early adolescence, supporting the view that neighborhoods are a critical ecological context for development.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Early Emergence of Cultural Differences in Audiovisual Speech Perception.</title>
-      <link>https://doi.org/10.1111/desc.70284</link>
-      <guid isPermaLink="false">doi:10.1111/desc.70284</guid>
-      <description>Developmental science
-
-Integrating auditory and visual cues is a hallmark of human speech perception, yet adults from East Asian backgrounds show less reliance on visual speech than their Western counterparts. The origins of this cultural difference, however, remain unknown. To investigate whether this divergence is established early in infancy, we examined audiovisual integration in 6- to 12-month-old White Canadian (n = 111) and Chinese (n = 115) infants using a novel paradigm measuring their perception of the McGurk effect. Across four experiments, we found a clear developmental divergence: Canadian infants showed a stable McGurk effect from 6 months onward, whereas Chinese infants showed a more protracted developmental trajectory, a cultural pattern that was further highlighted when their integration was challenged by other-race faces. These findings provide the first direct evidence that cultural differences in multisensory speech perception are established within the first year of life, suggesting that the brain's strategy for binding sight and sound is shaped by early experience, with broad implications for theories of language acquisition and developmental science.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Nucleus Accumbens and Ventral Tegmental Area Functional Connectivity as a Marker of Reward Sensitivity in Infancy.</title>
-      <link>https://doi.org/10.1111/desc.70277</link>
-      <guid isPermaLink="false">doi:10.1111/desc.70277</guid>
-      <description>Developmental science
-
-Early functional connectivity within the brain's reward circuitry may provide insight into the developmental origins of individual differences in pleasure and motivation. This study examined resting-state functional connectivity between two key reward-related regions, the nucleus accumbens (NAc) and ventral tegmental area (VTA), in 94 one-month-old infants (58% male; M = 4.84 weeks, SD = 0.86) and its association with later reward-related temperament. Infants completed a resting-state functional magnetic resonance imaging scan during natural sleep with a mean of 11.09 (SD = 2.78) min of retained low-motion data. Caregivers reported their infants' temperament at age six months, including high- and low-intensity pleasure as indicators of individual differences relevant to reward sensitivity. Positive resting-state functional connectivity between the NAc and VTA was present in early infancy (Cohen's d = 0.44, 95% CI [0.22, 0.65]), p &lt; 0.001). Less positive NAc-VTA connectivity was associated with greater high-intensity pleasure at six months (β = -0.32, 95% CI [-0.54, -0.10], p = 0.004), indicating that infants with stronger connectivity between these regions exhibited less enjoyment of highly stimulating, energetic activities. NAc-VTA connectivity was not associated with low-intensity pleasure (β = -0.01, 95% CI [-0.24, 0.21], p = 0.908). These findings suggest that early variation in mesolimbic connectivity may serve as a marker of emerging individual differences in reward responsiveness, with implications for understanding affective development in infancy.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Old organoids mimic brain maturation.</title>
-      <link>https://doi.org/10.1038/s41583-026-01086-6</link>
-      <guid isPermaLink="false">doi:10.1038/s41583-026-01086-6</guid>
-      <description>Nature reviews. Neuroscience
-
-来源未提供摘要。</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>

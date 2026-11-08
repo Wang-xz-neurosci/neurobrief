@@ -5,9 +5,51 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cognitive impairment in age-related hearing loss: linking brain structure, glymphatic function, and molecular mechanisms.</title>
+      <link>https://doi.org/10.1016/j.brainresbull.2026.112207</link>
+      <guid isPermaLink="false">doi:10.1016/j.brainresbull.2026.112207</guid>
+      <description>Brain research bulletin
+
+The neurobiological mechanisms of cognitive impairment in age-related hearing loss (ARHL) remain unclear. This study examined multi-level neural mechanisms from macroscale gray matter (GM) structure, microscale glymphatic function, and imaging transcriptomics. Sixty-nine ARHL patients and 76 controls underwent multimodal MRI and neuropsychological assessments. Glymphatic function was assessed via DTI-ALPS index and choroid plexus volume (CPV). Transcriptomic analysis using Allen Human Brain Atlas identified molecular pathways and key genes linked to GM atrophy. ARHL patients showed GM atrophy in right amygdala, left inferior frontal gyrus, and orbitofrontal cortex (OFC), but increased volume in left cerebellum. They also exhibited reduced ALPS index and enlarged CPV. Mediation analysis showed a significant indirect effect of glymphatic function on visual memory via right amygdala volume. Transcriptomics revealed enrichment in axonogenesis, energy metabolism, and protein ubiquitination, with key drivers including SMURF1 and GAD1. ARHL-related cognitive decline may follow a cascade from sensory deprivation to glymphatic dysfunction, involving energy metabolism, protein homeostasis, and axonal remodeling, ultimately leading to degenerative atrophy and compensatory adaptation in specific brain networks.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Examining the Relationship Between Regional Vulnerability and Psychotic-Like Experiences in Adolescents: The Potential Mediating Role of Cognition.</title>
+      <link>https://doi.org/10.1016/j.bpsc.2026.10.015</link>
+      <guid isPermaLink="false">doi:10.1016/j.bpsc.2026.10.015</guid>
+      <description>Biological psychiatry. Cognitive neuroscience and neuroimaging
+
+BACKGROUND: Psychotic-like experiences (PLEs) are subclinical hallucinations or unusual thought content that, when distressing or persistent, signal heightened risk for psychosis spectrum disorders and cognitive impairments. METHODS: We used data from the Adolescent Brain Cognitive Development (ABCD) study (N = ∼11,800) to examine if structural brain deviations toward neuropsychiatric disorders, quantified using disorder-specific Regional Vulnerability Indices (RVIs), were associated with distressing PLEs at age 13-14, and whether cognition mediated these relationships. Cortical and subcortical RVIs were calculated for schizophrenia, bipolar disorder, major depressive disorder, Alzheimer's disease, Parkinson's disease, metabolic disorder, and 22q11.2 deletion syndrome. RESULTS: Linear mixed-effects models revealed that higher cortical RVIs for schizophrenia, Alzheimer's disease, bipolar disorder, metabolic disorder, and Parkinson's disease-and all subcortical RVIs-were significantly associated with greater distressing PLE severity. Both cortical and subcortical RVIs were negatively associated with fluid and crystallized cognition, with subcortical RVIs showing the largest effects. Mediation analyses indicated that crystallized cognition, and to a lesser extent fluid cognition, mediated many RVI-distressing PLE relationships. DISCUSSION: These findings suggest that neuroanatomical differences confer risk for psychotic-like experiences partly through their impact on cognitive development. The results highlight RVIs as sensitive markers of distributed brain vulnerability in youth and suggest that cognitive function, particularly crystallized ability, is a potential pathway linking brain structural alterations to emerging psychotic symptoms.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Information, Mass, Energy Principles: A biophysical and ecological framework for understanding the brain.</title>
+      <link>https://doi.org/10.1016/j.biosystems.2026.106003</link>
+      <guid isPermaLink="false">doi:10.1016/j.biosystems.2026.106003</guid>
+      <description>Bio Systems
+
+The brain is a highly complex biological system whose structure, function, and evolution are constrained by material resources and energy availability, as any other natural system. Here, we extend the ecological Information-Mass-Energy (IME) framework (Peñuelas, 2024) to neuroscience. In contrast to purely computational models, we propose that the brain is an information-organizing system constrained by mass availability, energetic expenditure, and thermodynamic efficiency. Through comparative analyses across mammalian species, we identify a superlinear scaling relationship between white and grey matter volumes, alongside a positive association between white matter volume and inhibitory-control performance. This suggests that neural organization contribute to cognitive capacities beyond brain size alone. Integrating these findings with metabolic scaling principles, we propose that brain evolution involves trade-offs between increasing informational complexity and the material and energetic costs required to sustain it. Within this framework, we formulate testable hypotheses concerning how informational organization may scale with neural material and energetic expenditure. Furthermore, we introduce a quantitative disturbance-recovery model that incorporates carrying capacity, recovery rate, and disturbance magnitude and duration, generating testable predictions for neurological conditions such as stroke and neurodegeneration. By combining empirical scaling relationships with a mathematical framework for neural organization, energetic constraints, and resilience, the IME framework offers a novel biophysical and ecological perspective on brain evolution and function. This framework also provides a foundation for investigating energetically sustainable information processing in biological and artificial systems.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>In vivo assessment of brain microstructure in patients with Huntington's disease using quantitative MRI.</title>
+      <link>https://doi.org/10.1007/s00415-026-14244-8</link>
+      <guid isPermaLink="false">doi:10.1007/s00415-026-14244-8</guid>
+      <description>Journal of neurology
+
+OBJECTIVES: Using multiparametric mapping (MPM), we assessed the integrity of cortical and subcortical regions across different stages of Huntington's disease (HD), relating the derived findings to genetic modifiers and clinical measures. METHODS: Sixteen premanifest patients with HD (PwHDpre), ten manifesting PwHD (PwHDman), and forty-two healthy controls (HC) underwent clinical examinations and a 3 T imaging. We derived quantitative MPM maps to perform voxel-based quantification (VBQ) and voxel-based morphometry (VBM). We assessed group differences by combining PwHDpre and PwHDman (PwHDtotal) and by comparing PwHDpre and PwHDman with age- and sex-matched HC. Using correlation analysis, we investigated the link between MPM-derived findings, CAG repeat length, and clinical scores. RESULTS: PwHDman presented with reductions in all four quantitative MPM maps across the bilateral caudate nucleus and the frontal, parietal, temporal, and occipital gyri. We observed spatial overlap between VBQ- and VBM-derived findings, demonstrating widespread volume loss in PwHDman. PwHDpre showed reductions in certain quantitative maps within the frontal and temporal regions. Reduced MPM values correlated with clinical scores of HD severity. INTERPRETATION: The observed reductions across four MPM modalities in PwHDman are consistent with demyelination and neuronal loss, as supported by widespread volume loss. The reductions observed in PwHDpre indicate early demyelination and inflammation. In this study, we demonstrated the utility and clinical relevance of MPM for detecting microstructural alterations across different stages of HD. MPM can serve as a non-invasive biomarker of neurodegeneration in HD, providing insight into the pathological events underlying the observed neuronal loss.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Learning rapidly reshapes brain microstructure: evidence from dense temporal sampling of diffusion MRI.</title>
       <link>https://doi.org/10.1523/jneurosci.1110-26.2026</link>
@@ -217,6 +259,16 @@ Verbal fluency tasks are widely used to assess language abilities and executive 
       <category>结构与功能</category>
     </item>
     <item>
+      <title>Upper airway morphometry in acute neck infections: Clinical associations and deep learning-based segmentation.</title>
+      <link>https://doi.org/10.1016/j.ejrad.2026.113340</link>
+      <guid isPermaLink="false">doi:10.1016/j.ejrad.2026.113340</guid>
+      <description>European journal of radiology
+
+OBJECTIVES: Upper airway (UA) compromise is a significant and potentially life-threatening complication of acute neck infection (ANI), but objective, quantitative imaging features are lacking. This study aimed to evaluate the association between UA morphometry in emergency neck MRI and disease severity in ANI, and to develop and evaluate a deep learning (DL)-based model for automatic UA segmentation in ANI patients. MATERIALS AND METHODS: A total of 322 patients were included. UA lumen was manually segmented, and prespecified morphometric features were extracted. UA morphometry was correlated with clinical outcomes. Interobserver agreement for all extracted features was evaluated with the Intraclass Correlation Coefficient (ICC). An nnU-Net model was trained on manually segmented data, and its performance was evaluated using the Dice Similarity Coefficient (DSC) and feature-specific ICCs. RESULTS: ICU admission occurred in 33/322 patients (10.2 %) and prolonged stay (&gt;5 days) in 47/319 (14.7 %). Minimum cross-sectional area, compactness, maximum midline shift, and length of airway narrowing were associated with ICU admission (false-discovery-rate q ≤ 0.008) but not with prolonged stay, and did not significantly improve an established clinical model (AUC 0.80 to 0.84, DeLong p = 0.07 to 0.12). Interobserver agreement was moderate-to-excellent. The nnU-Net reached a median DSC of 0.920 with ICCs of 0.853 to 0.973 and reproduced the ICU associations. CONCLUSION: Quantitative UA morphometry in ANI is reproducible. A narrow caliber, a long narrowed segment, and lateral displacement of the airway are associated with ICU admission, without demonstrated incremental value over established predictors in the prespecified comparison. nnU-Net segmentation reproduces the features and their univariable associations.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Motor Expertise Combines Lower Task Engagement with Enhanced Error Sensitivity.</title>
       <link>https://doi.org/10.1007/s12311-026-02100-4</link>
       <guid isPermaLink="false">doi:10.1007/s12311-026-02100-4</guid>
@@ -288,12 +340,12 @@ OBJECTIVES: Cognitive impairment is prevalent in patients with multiple sclerosi
       <category>结构与功能</category>
     </item>
     <item>
-      <title>BundleMorphometry: Spatially Resolved White Matter Bundle Shape Analysis Using Nonlinear Streamline-based Registration</title>
+      <title>Bundlemorphometry: Spatially Resolved White Matter Bundle Shape Analysis Using Nonlinear Streamline-Based Registration</title>
       <link>https://doi.org/10.64898/2026.11.02.763786</link>
       <guid isPermaLink="false">doi:10.64898/2026.11.02.763786</guid>
       <description>[预印本] bioRxiv
 
-Diffusion MRI tractometry quantifies microstructural properties along white matter (WM) bundles but does not directly measure their geometry, potentially overlooking localized morphological alterations. Here, we introduce BundleMorphometry, a framework for quantifying local WM bundle shape using the analytical Jacobian of nonlinear streamline-based registration. Individual subject bundles are registered to a reference atlas bundle using BundleWarp, a streamline-based nonlinear registration method. We derive the analytical Jacobian of the resulting deformation field and compute its log-determinant (log det J) to quantify local expansion and compression at each streamline point. To enable spatially resolved group comparisons, these measurements are projected onto the two-dimensional grid, capturing variations along and across each bundle. We evaluated BundleMorphometry using two clinical datasets comprising patients with glioma and Parkinson's disease (PD). In the glioma dataset, BundleMorphometry revealed spatially extensive deformation patterns in lesion-affected WM bundles that were not captured by displacement magnitude alone. Additionally, in a group analysis of the PD dataset (32 patients and 32 healthy controls), we identified significant localized morphological differences in the corpus callosum forceps major, mid-body and right spinothalamic tract, with distinct patterns of expansion and compression. These findings demonstrate the potential of BundleMorphometry to advance conventional tractometry by enabling spatially resolved analysis of bundle morphology.</description>
+ABSTRACT Diffusion MRI tractometry quantifies microstructural properties along white matter (WM) bundles but does not directly measure their geometry, potentially overlooking localized morphological alterations. Here, we introduce BundleMorphometry, a framework for quantifying local WM bundle shape using the analytical Jacobian of nonlinear streamline-based registration. Individual subject bundles are registered to a reference atlas bundle using BundleWarp, a streamline-based nonlinear registration method. We derive the analytical Jacobian of the resulting deformation field and compute its log-determinant (log det J) to quantify local expansion and compression at each streamline point. To enable spatially resolved group comparisons, these measurements are projected onto the two-dimensional grid, capturing variations along and across each bundle. We evaluated BundleMorphometry using two clinical datasets comprising patients with glioma and Parkinson’s disease (PD). In the glioma dataset, BundleMor-phometry revealed spatially extensive deformation patterns in lesion-affected WM bundles that were not captured by displacement magnitude alone. Additionally, in a group analysis of the PD dataset (32 patients and 32 healthy controls), we identified significant localized morphological differences in the corpus callosum forceps major, mid-body and right spinothalamic tract, with distinct patterns of expansion and compression. These findings demonstrate the potential of BundleMorphometry to advance conventional tractometry by enabling spatially resolved analysis of bundle morphology.</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -470,56 +522,6 @@ Abstract Postpartum depression (PPD) is a major maternal mental health concern t
       <description>[预印本] Research Square
 
 Abstract Background Prodromal Parkinson's disease (PD) includes clinically distinct enrollment phenotypes. We examined whole-brain gray matter volume (GMV) in Parkinson's Progression Markers Initiative (PPMI) participants recruited through hyposmia-only or REM sleep behavior disorder (RBD)-only pathways and assessed the stability of the findings. Methods Baseline T1-weighted MRI from 465 hyposmia-only and 149 RBD-only participants (N = 614) was analyzed with CAT12/SPM25 voxel-based morphometry (VBM). Models included age, sex, intracranial volume, and scanner family. Whole-brain clusters were defined at voxel p &lt; 0.001 and tested using family-wise error (FWE) correction. We examined scanner-restricted samples, 123 sex/scanner-matched pairs, and 10,000-sign-flip permutation analysis of linear models (PALM). Bilateral cuneus/calcarine estimates and clinical assessments were exploratory. Results Whole-brain analysis identified a posterior phenotype effect (F cluster: k = 4,499; pFWE = 4.15×10⁻⁷), with higher GMV in hyposmia-only participants. In 123 matched pairs, a posterior H &gt; RBD T cluster survived correction (pFWE = 0.0266), whereas the F contrast did not. PALM also identified a posterior effect (two-sided threshold-free cluster enhancement [TFCE] FWE p = 0.0027; voxelwise FWE p = 0.0277). Adjusted bilateral cuneus differences were + 0.211 mL (95% CI 0.095–0.327) in the full cohort and + 0.187 mL (0.041–0.333) after matching. MRI-proximal RBD screening questionnaire scores showed no significant association with regional GMV. Conclusions Posterior cortical GMV differed between these enrollment-defined prodromal phenotypes. The anatomical finding was supported by nonparametric inference, although the matched F test and strictest scanner restriction were nonsignificant. Longitudinal studies are needed to establish its clinical relevance.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Longitudinal Changes in the Cortico-Reticulospinal Tract Associated with High-Intensity Locomotor Training in Chronic Stroke.</title>
-      <link>https://doi.org/10.1177/15459683261493916</link>
-      <guid isPermaLink="false">doi:10.1177/15459683261493916</guid>
-      <description>Neurorehabilitation and neural repair
-
-Introduction High-intensity locomotor training (HIT) is recommended for improving walking capacity, but treatment responses are variable. Understanding the brain changes underlying responsiveness to training could provide insight into this variability. Emerging evidence suggests upregulation of the contralesional cortico-reticulospinal tract (CRST) may contribute to walking function after stroke. However, it is unclear whether CRST upregulation is supportive or maladaptive, and no studies have examined CRST changes after HIT. This study investigated how CRST and corticospinal tract (CST) strength and laterality reorganize, and their relationship with walking capacity after locomotor HIT. Methods Ten participants with chronic stroke completed a 4-week no-intervention control phase then 4 weeks of HIT. Diffusion MRI and 6-minute walk distance were obtained at weeks 0, 4, and 8. Analysis tested changes in ipsilesional and contralesional CRST and CST strength and laterality. Associations between changes in tract laterality and walking capacity were examined. Results During the treatment phase (vs the control phase), there were significantly greater increases in contralesional CRST strength (1.02 SD [95% CI: 0.25, 1.79]), contralesional CRST laterality (4.44 [2.15, 6.72]), and 6-minute walk distance (33 meters [17, 50]). Walking capacity improvements were associated with changes in CRST laterality (r = 0.77, P = .01), but not CST laterality (r = -0.01, P = 0.98). Discussion Following HIT, increases in contralesional CRST strength and laterality were observed. CRST laterality changes were strongly associated with walking improvements, suggesting an association between contralesional CRST changes and training-related improvements. Clinical trial registration</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Advanced Diffusion MRI-based MR Cytometry for Quantitative Microstructural Assessment and Grading of Bladder Cancer.</title>
-      <link>https://doi.org/10.1148/rycan.269023</link>
-      <guid isPermaLink="false">doi:10.1148/rycan.269023</guid>
-      <description>Radiology. Imaging cancer
-
-来源未提供摘要。</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Six-Month Music Practice Versus Psychomotor Interventions in Mild Cognitive Impairment: Behavioral and Hippocampal Outcomes.</title>
-      <link>https://doi.org/10.1111/nyas.70433</link>
-      <guid isPermaLink="false">doi:10.1111/nyas.70433</guid>
-      <description>Annals of the New York Academy of Sciences
-
-Mild cognitive impairment (MCI) is characterized by measurable cognitive decline with largely preserved daily functioning and increased risk of dementia. MCI patients may also exhibit sensorimotor and communication impairments, while hippocampal atrophy and altered functional connectivity are prominent neural features associated with further cognitive decline. Evidence from nonpharmacological interventions integrating cognitive challenge, coordinated movement, and emotional engagement remains limited in early-stage MCI. In this pilot intervention study, we examined whether 6 months of intensive musical instrument training versus psychomotor interventions were associated with changes in cognitive and sensorimotor performance, hippocampal gray matter volume, and functional connectivity. Outcomes were compared between randomized MCI groups, with matched healthy controls as reference for test-retest and age-related neural effects. Improvements in global cognition were modest, reaching marginal significance only in the music group, while both interventions were associated with complementary domain-specific cognitive and sensorimotor gains. Hippocampal gray matter volume remained stable across all three groups, whereas hippocampal functional connectivity declined in healthy controls but remained stable in both intervention groups, consistent with possible functional neural maintenance. These preliminary findings suggest that group-based, low-risk music and psychomotor interventions may support cognitive, sensorimotor, and neural functioning in early MCI, warranting further investigation in larger controlled trials.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Multidimensional MRI Reveals Cellular-Scale Microstructural Phenotypes in Human Brain Aging.</title>
-      <link>https://doi.org/10.1111/acel.70782</link>
-      <guid isPermaLink="false">doi:10.1111/acel.70782</guid>
-      <description>Aging cell
-
-Brain aging is accompanied by profound cellular and microstructural changes that precede overt tissue loss, yet in vivo MRI studies largely emphasize macroscopic measures or isolated diffusion and relaxation metrics, providing limited insight into how cellular-scale tissue architecture is altered across the adult lifespan. Here, we apply multidimensional diffusion-relaxation MRI (MD-MRI) to map voxel-wise microstructural phenotypes in cognitively unimpaired adults spanning early adulthood to late life (23-77 years). Rather than relying on predefined compartment models, MD-MRI resolves continuous voxel-wise distributions in a joint diffusion-relaxation space, enabling an integrated, model-free description of how cellular shape, size, restriction, and chemical environment vary with age. Using this approach, we reveal age-related multilateral shifts within a complex microstructural landscape, marked by increasing heterogeneity and disorder across brain tissue. With age, cellular-scale features showed a systematic transition from small to larger length-scale structures accompanied by reduced microscopic restriction, indicating a loss of fine cellular barriers and expansion of extracellular space. In parallel, we show tissue-dependent alterations in fast-relaxing properties aligned with known gray- and white-matter aging processes, including iron accumulation and myelin loss. Together, these findings indicate that normative brain aging involves progressive reorganization of structure and composition at the cellular level, rather than uniform shifts in bulk tissue properties. By decoupling cellular-scale shape, size, restriction, and chemical environment in vivo, MD-MRI identifies increasing cellular heterogeneity and breakdown of microscopic restriction as central features of human brain aging and provides a biologically interpretable framework for linking microstructural reorganization to age-related functional decline.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Serum brain-derived tau in lacunar stroke and cerebral small vessel disease.</title>
-      <link>https://doi.org/10.1093/esj/aakag133</link>
-      <guid isPermaLink="false">doi:10.1093/esj/aakag133</guid>
-      <description>European stroke journal
-
-Introduction Brain-derived tau (BD-tau) selectively quantifies tau of central nervous system origin in blood and has demonstrated strong correlations with infarct volume and functional outcome in general ischaemic stroke, but data in lacunar stroke and cerebral small vessel disease (CSVD) are lacking. Patients and methods In a prospectively collected cohort of 101 lacunar stroke patients with an MRI-confirmed recent small subcortical infarct (RSSI) and 47 controls, we measured serum BD-tau using the HD-X SIMOA platform at baseline and 3 and 15 months after stroke. We examined associations of BD-tau with infarct size, chronic CSVD neuroimaging features (white matter hyperintensities [WMHs], lacunes, microbleeds, total SVD score), CSVD progression on follow-up MRI and functional outcome. Results Baseline serum BD-tau was higher in RSSI patients than controls (median 9.54 [7.32-12.20] vs 7.75 [6.18-9.44] pg/mL; P = .003) and correlated with infarct diameter (rs = 0.222, P = 0.039). Brain-derived tau did not correlate with time from stroke symptom onset to blood sampling (rs = 0.150, P = .179). Brain-derived tau was not associated with chronic CSVD neuroimaging features (WMHs, lacunes, microbleeds, SVD score; all P &gt; .05) at any timepoint. Longitudinally, BD-tau returned to control levels by 3 months (P = .374) and remained stable at 15 months (P = .985). Brain-derived tau was neither associated with new vascular MRI lesions on follow-up nor functional neurological outcome. Conclusion Serum BD-tau is elevated acutely in CSVD-related RSSI, correlates with infarct size and normalises by 3 months. Brain-derived tau was not associated with chronic CSVD neuroimaging features or disease progression, suggesting sensitivity to acute neuronal injury rather than chronic or progressive CSVD.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>

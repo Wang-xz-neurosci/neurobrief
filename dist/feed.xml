@@ -5,9 +5,103 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/</link>
     <description>语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激的文献观察</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 22:23:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principles of coarse-scale functional organization in occipitotemporal cortex.</title>
+      <link>https://doi.org/10.1038/s42003-026-11319-0</link>
+      <guid isPermaLink="false">doi:10.1038/s42003-026-11319-0</guid>
+      <description>Communications biology
+
+Occipitotemporal cortex (OTC) is known to support visual object processing, yet identifying general principles underlying its coarse-scale functional organization remains challenging. Previously proposed organizational dimensions, such as animacy or real-world size, may not generalize to more diverse, naturalistic stimuli and strong intercorrelations of object properties complicate determining which dimensions, if any, dominate OTC organization. We addressed these challenges through detailed analyses of the cortical topography underlying 15 object properties, using fMRI responses to thousands of natural images, focusing on animacy and size given their established prominence. Our results confirm many characteristics of the purported animacy-size organization, but reveal distinctions that challenge dominant notions of this organization, highlighting the importance of generalizing to large-scale naturalistic data. Beyond animacy and size, many properties could alternatively serve as organizational dimensions, yet none emerges as clearly dominant throughout OTC. Together, our findings reveal a more refined animacy-size organization than previously assumed and highlight challenges of assigning individual principles to account for OTC organization.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Creative cognition in frontotemporal dementia and brain health.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.10.009</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.009</guid>
+      <description>Trends in neurosciences
+
+Creative cognition is central to human thought and is affected by brain disease. Recent findings by Altmayer and colleagues link creative impairment in frontotemporal dementia to rostral prefrontal functional differentiation. These findings motivate a framework for investigating network coordination, circuit physiology, experience-dependent plasticity, and bodily and social regulation in creativity and health.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>When Defense Becomes Compulsion: An Evolutionary and Circuit Framework for Obsessive-Compulsive Disorder.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107084</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107084</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Obsessive-compulsive disorder (OCD) is characterized by intrusive thoughts and repetitive behaviors that are frequently organized around preventing potential harm. Although existing neurobiological models have focused on abnormalities in cortico-striato-thalamo-cortical circuits, habit formation, and cognitive control, they provide a less complete explanation for why compulsions preferentially take the form of precautionary actions. Here, we propose an evolutionary and circuit-level framework in which compulsive behavior is understood as a pathological dysregulation of neural systems that normally support adaptive defense. Integrating evidence from human studies with circuit-level findings from rodent studies, we organize defensive control into three sequential but interacting stages: threat appraisal, defensive action selection and execution, and post-defense safety assessment. During threat appraisal, abnormalities in sensory salience, threat valuation, contextual gating, and interoceptive processing may increase the salience or threat value of ambiguous cues. During action selection and execution, intolerance of uncertainty, impaired behavioral flexibility, corticostriatal dysfunction, and negative reinforcement may bias behavior toward premature and repetitive threat-reducing actions that can become increasingly habitual. Following defensive action, impaired outcome evaluation and safety-state updating may prevent successful actions from generating stable signals of safety or completion, allowing defensive responding to persist despite objective threat reduction. By organizing OCD-related circuitry according to when it contributes to defensive processing rather than solely where abnormalities occur, this framework integrates threat-based, corticostriatal, habit, and safety-learning accounts into a process-based model of how adaptive defense may transition into persistent compulsive behavior. This framework may help map stage-specific dysfunction onto symptom heterogeneity and guide more targeted interventions.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>The Separation-Distress Network as a Transdiagnostic Mechanism Linking Relational Adversity, Social Pain, and Psychopathology.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107073</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107073</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Relational trauma is a major contributor to the development of mental health disorders. This association likely reflects the social nature of humans and other mammals, whose survival depends on maintaining stable social bonds. When these bonds are threatened or disrupted, individuals experience social pain, a distress response mediated by the mammalian separation-distress network. During early development, this network is sensitive to maintaining proximity with caregivers, as independent survival is not yet possible. Converging evidence from ethology, psychodynamic and attachment theory, and social and affective neuroscience supports the function of this network. Because mammalian brains are inherently tuned to form social bonds, adverse relational experiences can disrupt socioemotional development and increase vulnerability to psychopathology. Neural substrates of separation distress include the anterior cingulate cortex, ventral septum, bed nucleus of the stria terminalis, dorsal preoptic area, dorsomedial thalamus, and periaqueductal gray, with endogenous opioids and glucocorticoids serving as key neurochemical modulators in the separation-distress response. Separation distress and adverse relational experiences also alter physiological systems implicated in psychopathology, including the HPA axis, autonomic nervous system activity, inflammation, and brain structure and connectivity. This paper argues that relational trauma and social pain are mediated by an evolutionarily conserved subcortical separation-distress network shared across predominantly mammalian species. Dysregulation of this network may represent one common mechanism underlying depression, social anxiety, suicidality, substance use disorders, borderline personality disorder, and other psychiatric conditions. Understanding the processes linking adverse relational experiences, separation-distress activation, and social pain may provide insights into the etiology and treatment of diverse disorders.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Cognitive impairment in age-related hearing loss: linking brain structure, glymphatic function, and molecular mechanisms.</title>
+      <link>https://doi.org/10.1016/j.brainresbull.2026.112207</link>
+      <guid isPermaLink="false">doi:10.1016/j.brainresbull.2026.112207</guid>
+      <description>Brain research bulletin
+
+The neurobiological mechanisms of cognitive impairment in age-related hearing loss (ARHL) remain unclear. This study examined multi-level neural mechanisms from macroscale gray matter (GM) structure, microscale glymphatic function, and imaging transcriptomics. Sixty-nine ARHL patients and 76 controls underwent multimodal MRI and neuropsychological assessments. Glymphatic function was assessed via DTI-ALPS index and choroid plexus volume (CPV). Transcriptomic analysis using Allen Human Brain Atlas identified molecular pathways and key genes linked to GM atrophy. ARHL patients showed GM atrophy in right amygdala, left inferior frontal gyrus, and orbitofrontal cortex (OFC), but increased volume in left cerebellum. They also exhibited reduced ALPS index and enlarged CPV. Mediation analysis showed a significant indirect effect of glymphatic function on visual memory via right amygdala volume. Transcriptomics revealed enrichment in axonogenesis, energy metabolism, and protein ubiquitination, with key drivers including SMURF1 and GAD1. ARHL-related cognitive decline may follow a cascade from sensory deprivation to glymphatic dysfunction, involving energy metabolism, protein homeostasis, and axonal remodeling, ultimately leading to degenerative atrophy and compensatory adaptation in specific brain networks.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Examining the Relationship Between Regional Vulnerability and Psychotic-Like Experiences in Adolescents: The Potential Mediating Role of Cognition.</title>
+      <link>https://doi.org/10.1016/j.bpsc.2026.10.015</link>
+      <guid isPermaLink="false">doi:10.1016/j.bpsc.2026.10.015</guid>
+      <description>Biological psychiatry. Cognitive neuroscience and neuroimaging
+
+BACKGROUND: Psychotic-like experiences (PLEs) are subclinical hallucinations or unusual thought content that, when distressing or persistent, signal heightened risk for psychosis spectrum disorders and cognitive impairments. METHODS: We used data from the Adolescent Brain Cognitive Development (ABCD) study (N = ∼11,800) to examine if structural brain deviations toward neuropsychiatric disorders, quantified using disorder-specific Regional Vulnerability Indices (RVIs), were associated with distressing PLEs at age 13-14, and whether cognition mediated these relationships. Cortical and subcortical RVIs were calculated for schizophrenia, bipolar disorder, major depressive disorder, Alzheimer's disease, Parkinson's disease, metabolic disorder, and 22q11.2 deletion syndrome. RESULTS: Linear mixed-effects models revealed that higher cortical RVIs for schizophrenia, Alzheimer's disease, bipolar disorder, metabolic disorder, and Parkinson's disease-and all subcortical RVIs-were significantly associated with greater distressing PLE severity. Both cortical and subcortical RVIs were negatively associated with fluid and crystallized cognition, with subcortical RVIs showing the largest effects. Mediation analyses indicated that crystallized cognition, and to a lesser extent fluid cognition, mediated many RVI-distressing PLE relationships. DISCUSSION: These findings suggest that neuroanatomical differences confer risk for psychotic-like experiences partly through their impact on cognitive development. The results highlight RVIs as sensitive markers of distributed brain vulnerability in youth and suggest that cognitive function, particularly crystallized ability, is a potential pathway linking brain structural alterations to emerging psychotic symptoms.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Information, Mass, Energy Principles: A biophysical and ecological framework for understanding the brain.</title>
+      <link>https://doi.org/10.1016/j.biosystems.2026.106003</link>
+      <guid isPermaLink="false">doi:10.1016/j.biosystems.2026.106003</guid>
+      <description>Bio Systems
+
+The brain is a highly complex biological system whose structure, function, and evolution are constrained by material resources and energy availability, as any other natural system. Here, we extend the ecological Information-Mass-Energy (IME) framework (Peñuelas, 2024) to neuroscience. In contrast to purely computational models, we propose that the brain is an information-organizing system constrained by mass availability, energetic expenditure, and thermodynamic efficiency. Through comparative analyses across mammalian species, we identify a superlinear scaling relationship between white and grey matter volumes, alongside a positive association between white matter volume and inhibitory-control performance. This suggests that neural organization contribute to cognitive capacities beyond brain size alone. Integrating these findings with metabolic scaling principles, we propose that brain evolution involves trade-offs between increasing informational complexity and the material and energetic costs required to sustain it. Within this framework, we formulate testable hypotheses concerning how informational organization may scale with neural material and energetic expenditure. Furthermore, we introduce a quantitative disturbance-recovery model that incorporates carrying capacity, recovery rate, and disturbance magnitude and duration, generating testable predictions for neurological conditions such as stroke and neurodegeneration. By combining empirical scaling relationships with a mathematical framework for neural organization, energetic constraints, and resilience, the IME framework offers a novel biophysical and ecological perspective on brain evolution and function. This framework also provides a foundation for investigating energetically sustainable information processing in biological and artificial systems.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Altered EEG-derived co-fluctuation structure in disorders of consciousness.</title>
+      <link>https://doi.org/10.1007/s11571-026-10580-7</link>
+      <guid isPermaLink="false">doi:10.1007/s11571-026-10580-7</guid>
+      <description>Cognitive neurodynamics
+
+UNLABELLED: EEG-derived functional connectivity (FC) enables high-temporal-resolution probing of neural mechanisms underlying disorders of consciousness (DOC). Unlike stationary conventional FC, dynamic FC (dFC) captures fast transient neural coupling. Recent fMRI studies introduced a co‑fluctuation framework to track moment‑to‑moment connectivity change, yet whether such co-fluctuation features can quantify consciousness status remains elusive. Here, we adapt this established co-fluctuation paradigm to resting-state EEG to characterize the temporal architectures of EEG-derived FC across varying conscious states. We decomposed the co-fluctuation time series into high-amplitude frames (HAF) and low-amplitude frames (LAF), comparing their dynamics between real brain data and null models. We then analyzed co-fluctuation activities across consciousness levels at both global and local spatial scales, examining spatial variability in these patterns. By integrating HAF and LAF parameters, we evaluated their diagnostic potential for distinguishing DOC states. Results revealed reduced stability of co-fluctuations with loss of consciousness, accompanied by a shift toward random system dynamics. DOC patients exhibited reduced spatial and temporal heterogeneity in co-fluctuation activities compared to healthy controls. Both high- and low-amplitude patterns provided useful metrics for detecting consciousness levels. These findings offer novel insights into the dynamic organization of brain networks in DOC, emphasizing the significance of co-fluctuation dynamics in characterizing brain states and suggesting potential biomarkers for assessing consciousness levels. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s11571-026-10580-7.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>In vivo assessment of brain microstructure in patients with Huntington's disease using quantitative MRI.</title>
+      <link>https://doi.org/10.1007/s00415-026-14244-8</link>
+      <guid isPermaLink="false">doi:10.1007/s00415-026-14244-8</guid>
+      <description>Journal of neurology
+
+OBJECTIVES: Using multiparametric mapping (MPM), we assessed the integrity of cortical and subcortical regions across different stages of Huntington's disease (HD), relating the derived findings to genetic modifiers and clinical measures. METHODS: Sixteen premanifest patients with HD (PwHDpre), ten manifesting PwHD (PwHDman), and forty-two healthy controls (HC) underwent clinical examinations and a 3 T imaging. We derived quantitative MPM maps to perform voxel-based quantification (VBQ) and voxel-based morphometry (VBM). We assessed group differences by combining PwHDpre and PwHDman (PwHDtotal) and by comparing PwHDpre and PwHDman with age- and sex-matched HC. Using correlation analysis, we investigated the link between MPM-derived findings, CAG repeat length, and clinical scores. RESULTS: PwHDman presented with reductions in all four quantitative MPM maps across the bilateral caudate nucleus and the frontal, parietal, temporal, and occipital gyri. We observed spatial overlap between VBQ- and VBM-derived findings, demonstrating widespread volume loss in PwHDman. PwHDpre showed reductions in certain quantitative maps within the frontal and temporal regions. Reduced MPM values correlated with clinical scores of HD severity. INTERPRETATION: The observed reductions across four MPM modalities in PwHDman are consistent with demyelination and neuronal loss, as supported by widespread volume loss. The reductions observed in PwHDpre indicate early demyelination and inflammation. In this study, we demonstrated the utility and clinical relevance of MPM for detecting microstructural alterations across different stages of HD. MPM can serve as a non-invasive biomarker of neurodegeneration in HD, providing insight into the pathological events underlying the observed neuronal loss.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Expectation-driven gain modulation of preparatory spatial attention.</title>
       <link>https://doi.org/10.7554/elife.110315</link>
@@ -180,6 +274,17 @@ The ability to represent absences is fundamental to human perception and cogniti
 BACKGROUND AND PURPOSE: The purpose was to investigate early WM alterations in patients with mild traumatic brain injury (mTBI) within 1 week of trauma using quantitative MRI and DTI. MATERIALS AND METHODS: This cross-sectional study included 31 patients with mTBI and 36 healthy controls. Neuropsychological assessment and MRI scans were performed within 1 week of trauma. ROIs were selected from 4 WM regions: superior longitudinal fasciculus, anterior limb of the internal capsule, posterior limb of the internal capsule, and external capsule. Quantitative MRI and DTI were used to assess WM alterations. Correlation analyses explored relationships between WM alterations and clinical outcomes. RESULTS: Compared with controls, patients with mTBI demonstrated lower scores on the Montreal Cognitive Assessment, particularly in the domains of abstraction, delayed recall memory, and orientation. Higher T1 values were detected in the left posterior limb of the internal capsule, whereas elevated proton density (PD) values were found in the right external capsule, bilateral superior longitudinal fasciculus, and posterior limb of the internal capsule. No significant differences in T2 or fractional anisotropy were observed. PD values in the left posterior limb of the internal capsule were negatively correlated with attention and language scores in patients with mTBI. CONCLUSIONS: In conclusion, quantitative MRI may detect subtle WM alterations in the acute stage of mTBI. No notable between-group differences were observed in the DTI parameters in the current cohort. Larger longitudinal studies are needed to determine the reproducibility, temporal evolution, and clinical relevance of these findings.</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Endogenous suspension of phenomenal consciousness during extended cessation: Regional homogeneity analysis of multi-participant 7T fMRI of an advanced meditative endpoint.</title>
+      <link>https://doi.org/10.1162/imag.a.1443</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1443</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Extended cessation (EC) is a rare advanced meditative state characterized by the voluntary absence of reportable phenomenal experience, followed by reproducible aftereffects including immense mental clarity, equanimity, and peace. EC offers an endogenous model for investigating the mechanisms of consciousness. In a small-N case study (N = 3) using ultra-high-resolution 7T functional magnetic resonance imaging (fMRI) with dense within-subject sampling, we quantified whole-brain activity and related it to chemoarchitecture and cognitive maps. EC is marked by increased activity in unimodal sensory cortices and viscerosensory brainstem nuclei, and down-regulation in transmodal regions, subcortex and brainstem. Meta-analytic cognitive decoding linked EC to perceptual clarity and attentional processes, and away from distress-related domains. Multivariate coupling to normative neurotransmitter maps revealed that EC-related connectivity changes covaried with histaminergic H3 receptors topology. These findings constrain prevailing theories of consciousness by demonstrating that loss of experience need not entail global neural suppression, and supports accounts emphasizing selective precision modulation and hierarchical decoupling. More broadly, EC demonstrates that consciousness can cease without global suppression, suggesting a potential "reset" mechanism that fosters equanimity and the potential for flourishing.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>In-group neural alignment serves as a biomarker of social identity.</title>
@@ -415,112 +520,6 @@ The dimensional model of adversity proposes that threat (abuse) and deprivation 
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Temporal confounds emulate multivariate fMRI measures of perceptual learning.</title>
-      <link>https://doi.org/10.1162/imag.a.1435</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1435</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Any study of learning must capture neural or behavioural changes over time. Stimuli are therefore presented more than once, before and after learning takes place-a sequence that cannot be randomised across time. This design creates vulnerability to temporal confounds that cause illusory neural effects. We investigate this issue in a classic 'one-shot' learning paradigm, in which ambiguous two-tone images become recognisable after viewing a photo cue. Across common fMRI designs, we found that spurious correlations driven by the temporal proximity of stimuli created strong artefacts in multivariate data. Among certain experimental designs, we found strong neural markers of perceptual learning depending on how stimuli were distributed across these artefacts. This paradigm-dependent effect was present not only in the primary visual cortex (V1), but also in a non-visual control region (S1), indicative of an artefactual origin rather than a genuine perceptual learning effect. We present a principled approach to correct for this temporal order confound. Once applied, the artefactual learning signature was eliminated from both V1 and S1, and while the corrected signal retained information about image identity in V1, this was absent in S1. Our work demonstrates how current multivariate neuroimaging approaches to understanding learning could be influenced by methodological artefacts that misdirect interpretations towards distributed neural processing, and offers a practical framework to distinguish true learning from measurement error.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Distinct motor preparatory signals correlate with coarse vs fine control of self-paced action timing.</title>
-      <link>https://doi.org/10.1162/imag.a.1434</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1434</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Making each action at the right time is crucial for motor control. In this study, we investigated how two prominent motor preparatory processes identified in human EEG-beta-band desynchronisation and the readiness potential (RP)-might each differently relate to the time of a simple voluntary action. In our paradigm, participants learned when to act in each block of trials, based on probabilistic trial-by-trial feedback. A reward schedule reinforced a specific optimal time to act in some blocks, but allowed greater variability around the same mean action time in other blocks. We found that contralateral motor beta-band power at the beginning of each trial was higher in trials with slow actions than in those with fast actions. In contrast, contralateral beta-band power reached stereotyped low values at the time of action, regardless of waiting times. Put together, this pattern is consistent with a neural implementation of distance-to-bound for a noisy accumulation process, in which baseline motor activity starts off closer to an action-triggering bound when fast actions are required. In turn, the RP was independent of the mean waiting time before action, but its slope increased when participants developed a precise motor plan. We suggest that beta desynchronisation and the RP track distinct, complementary processes involved in the temporal control of action. While beta-power activity at trial onset is consistent with a strategic adjustment of motor preparation to match the required pace of action, the modulation of the RP by motor plan precision is consistent with a temporally structured input to a ramping preparatory process. Simulations suggest that acting at the right time may involve increasing the strength of the input to this accumulator, which can drive the decision variable to drift towards the decision bound.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Healthy Sleep Mitigates the Association Between Cardiometabolic Disease and Poorer Cognitive and Brain Health.</title>
-      <link>https://doi.org/10.1161/jaha.126.051940</link>
-      <guid isPermaLink="false">doi:10.1161/jaha.126.051940</guid>
-      <description>Journal of the American Heart Association
-
-BACKGROUND: Cardiometabolic diseases (CMDs), including type 2 diabetes, heart disease, and stroke, are important risk factors for dementia. We examined whether healthy sleep can support cognitive and brain health in people with CMDs. METHODS: The study included data from 408 977 adults from the UK Biobank. CMDs were defined using medical records, medication use, and medical history. Sleep patterns were defined using a composite score incorporating sleep duration, chronotype, insomnia symptoms, snoring, and daytime sleepiness. A subsample (n=34 913) underwent brain magnetic resonance imaging; volumes of total brain, gray matter, white matter, hippocampus, and white matter hyperintensities were ascertained. Associations of joint CMD (yes/no) and sleep (healthy, intermediate, poor) status with global and domain-specific cognitive scores and brain magnetic resonance imaging measures were examined using linear regression models. RESULTS: At baseline, 54017 (13.2%) participants had at least one CMD. In joint exposure analysis, performance in global cognition (β=0.02 [95% CI, 0.01-0.05]), verbal/numeric reasoning (β=0.07 [95% CI, 0.01-0.12]), and processing speed (β=0.07 [95% CI, 0.04-0.10]) was significantly higher among individuals with CMDs and a healthy sleep pattern, compared with those with CMDs and a poor sleep pattern. Similarly, in neuroimaging analyses, participants with CMDs and a healthy versus poor sleep pattern showed significantly larger total brain volume (β=0.22 [95% CI, 0.08-0.35]), gray matter volume (β=0.23 [95% CI, 0.09-0.36]), and white matter volume (β=0.19 [95% CI, 0.05-0.33]). CONCLUSIONS: Healthy sleep may attenuate the associations of CMDs with poorer cognitive performance and markers of brain atrophy. The findings highlight sleep as a modifiable factor that may support cognitive and brain health in individuals with CMDs.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer's disease progression.</title>
-      <link>https://doi.org/10.1126/sciadv.aed9351</link>
-      <guid isPermaLink="false">doi:10.1126/sciadv.aed9351</guid>
-      <description>Science advances
-
-Identifying the neurobiological basis of cognitive vulnerability is essential for preventing Alzheimer's disease (AD). We derived the Alzheimer's Resilience-Vulnerability Connectome (ARC) by contrasting SuperAgers (SA), an extreme phenotype of preserved late-life memory, with AD using resting-state fMRI. ARC distinguished SA from AD in a discovery cohort (N = 290; AUC = 0.85) and replicated independently (N = 143), involving prefrontal, temporal, and insular networks and associating with brain age. Applied to cognitively unimpaired adults (discovery: N = 818; replication: N = 497), ARC-based subtyping revealed SA-like and AD-like subgroups with comparable baseline cognition but divergent longitudinal trajectories. AD-like individuals exhibited faster cognitive decline, greater amyloid-β accumulation, and higher AD conversion risk. Exploratory GWAS nominated CLYBL and FRMD6 as candidate novel loci associated with the subtype difference. These findings suggest that ARC captures a continuous connectomic dimension of cognitive aging spanning SA, cognitively typical aging, and AD, highlighting the potential of functional connectomic variation for early risk stratification in AD.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Cannabidiol and fronto-parietal EEG connectivity in autistic children.</title>
-      <link>https://doi.org/10.1093/cercor/bhag188</link>
-      <guid isPermaLink="false">doi:10.1093/cercor/bhag188</guid>
-      <description>Cerebral cortex (New York, N.Y. : 1991)
-
-Autistic children often show altered brain network connectivity, including circuitry implicated in social cognition. Cannabidiol (CBD) has emerged as a potential therapy for autism, but its neural mechanisms remain under-researched. Here, we analyze resting-state data collected as part of a double-blind, placebo-controlled crossover trial, to explore whether 12 weeks of oral CBD oil could modulate functional connectivity in autistic children. Twenty-nine autistic children (5 to 12 years) completed two 12-week intervention periods (CBD and placebo, randomized) separated by an 8-week washout. Before and after each period, 5 min of eyes-open resting-state electroencephalography (EEG) were obtained from a subset of 18 participants (8 female). Functional connectivity was calculated across 16 electrode-pairs in the delta, theta, alpha, beta, and gamma bands. Beta-band connectivity between the right frontal and right inferior-parietal electrodes increased following CBD (P = 0.001, false discovery rate [FDR]-corrected P [pFDR] = 0.022), and alpha connectivity showed an increase that did not remain following FDR correction (P = 0.036, pFDR = 0.428). No significant differences were observed following placebo for any frequency band (pFDR &gt; 0.69). This study provides preliminary evidence that 12 weeks of cannabidiol is associated with an increase in right fronto-parietal (F4-P8) functional connectivity in autistic children, most pronounced in the beta-band. Replication in larger samples is needed to confirm generalizability and clinical relevance.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Mapping brain imaging heterogeneity in multiple sclerosis.</title>
-      <link>https://doi.org/10.1093/brain/awag349</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag349</guid>
-      <description>Brain : a journal of neurology
-
-来源未提供摘要。</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Aggression in epilepsy and sleep: from historical accounts to brain networks and human behaviour.</title>
-      <link>https://doi.org/10.1093/brain/awag212</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag212</guid>
-      <description>Brain : a journal of neurology
-
-For a long time, epilepsy has been associated with violent behaviour, acquiring a highly stigmatizing reputation, shaped mainly by 19th century medical theories that postulated a direct connection between epilepsy and the criminal personality. Such stigma exerts a negative effect on the quality of life of people with epilepsy and remains a significant concern in forensic settings. This narrative review aims to provide a thorough exploration of the relationship between epilepsy and aggression, highlighting the misconceptions that contribute to this stigma. The evidence presented in this review draws on the authors' experience and a PubMed search conducted in December 2024. The manuscript is organized into five sections, addressing: (i) the historical and cultural background of epilepsy and violence; (ii) the clinical features of aggression as a peri-ictal manifestation; (iii) the neural networks underlying aggression in epilepsy; (iv) aggression in sleep-related disorders, an area closely related to epilepsy, where clinical interest and reports of sleep-related violent episodes have increased progressively in recent years; and (v) forensic considerations. In total, 326 records were identified through the PubMed search. Only papers relevant to the topics were included. Relevant publications were also added manually from the authors' own files. One hundred and thirty-two studies were ultimately included in this narrative review. The review, addressing the topic from a historical perspective, traces the evolution of stigma and the concept of the 'epileptic personality', from early observations to contemporary understanding. Next, we explore aggression and violence as peri-ictal manifestations, examining both their clinical characteristics and the brain networks implicated in the generation of aggressive behaviours during seizures. We try to elucidate the neurobiological substrates underlying these manifestations using intracerebral recordings. We then turn to violence associated with parasomnias, analysing and comparing the mechanisms underlying aggression and violence occurring in epileptic seizures with those observed during sleep in parasomnias, integrating evidence from intracranial EEG studies of disorders of arousal. This comparison highlights key similarities, differences and the risk of a misdiagnosis. Finally, we address the legal and forensic implications of seizure- and sleep-related aggression and violence. Epileptic seizures and parasomnias can cause injuries to the affected person or to those nearby, but they can rarely be truly classified as acts of violence. However, although aggressive behaviour is uncommon during seizures, it may lead to legal consequences. Despite efforts from scientific societies and patient organizations, the stigma of epilepsy persists, requiring further action and a deeper scientific understanding of this subject.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Dissociating executive prefrontal substrates following capsulotomy in obsessive-compulsive disorder.</title>
-      <link>https://doi.org/10.1093/brain/awag132</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag132</guid>
-      <description>Brain : a journal of neurology
-
-Obsessive-compulsive disorder (OCD) is characterized by widespread executive function impairments linked to disrupted frontostriatal circuits. Ablative therapies such as capsulotomy show promising efficacy in treatment-refractory OCD, yet their effects on executive neural substrates remain poorly understood. This study explores how OCD and capsulotomy influence executive prefrontal function. Twenty-three post-capsulotomy OCD patients, 30 OCD controls and 32 health controls (HC) were recruited in the study. Post-capsulotomy patients were recruited at least 6 months following surgery to allow for postoperative stabilization. Participants completed three executive function tasks assessing distinct cognitive domains: the Extra-Dimensional Intra-Dimensional (EDID) task testing set-shifting, the N-back task testing working memory and the Flanker task measuring conflict processing. The EDID and N-back tasks were administered during concurrent task-based functional MRI, while the Flanker task provided only behavioural measures. In the EDID task, OCD capsulotomy patients demonstrated greater post-error flexibility towards ID versus ED shifting relative to both OCD controls and HC, despite exhibiting more ED errors. OCD controls showed less shifts after errors compared with HC, which was not revealed in the capsulotomy group. OCD patients showed less neural differentiation between ED versus ID in lateral and mesial prefrontal regions relative to HC. Capsulotomy was associated with decreased pre-supplementary motor area activity to ED shifts compared with HC, indicating impairments in neural reactivity to ED shifting. No evidence supported the influence of capsulotomy in the N-back or the Flanker tasks. Specifically, both OCD groups showed impaired working memory performance at high memory load along with dysfunction in the whole frontoparietal network. In the Flanker task, impairments in dissociating congruent and incongruent conditions were found in both OCD groups but not in the HC group. These findings suggest capsulotomy specifically remediates error-monitoring and behavioural flexibility through mesial prefrontal remodelling, while leaving working memory and conflict processing deficits intact. This dissociation implies that cognitive flexibility may represent a state-dependent process amenable to intervention, whereas working memory and conflict processing impairments may reflect trait markers of OCD vulnerability. These results have clinical implications on the relative safety profile of capsulotomy and patient selection for precision neuromodulation.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Blunted response of caudal locus coeruleus to arousing stimuli in Parkinson's disease.</title>
-      <link>https://doi.org/10.1093/brain/awag106</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag106</guid>
-      <description>Brain : a journal of neurology
-
-Parkinson's disease (PD) causes progressive degeneration of noradrenergic neurons in the locus coeruleus (LC), contributing to non-motor symptoms. Using neuromelanin-sensitive ultra-high field (7 T) MRI, we previously identified a reduction in neuromelanin signal in the caudal LC, indicating a rostro-caudal gradient of noradrenergic cell loss. Caudal LC degeneration was associated with greater severity of non-motor symptoms such as orthostatic hypotension and apathy. In the current case-control study, we expanded the PD cohort to further corroborate the structure-symptom relationships within the LC and investigate how degeneration along the rostro-caudal LC axis affects arousal-related functional responsivity. To this end, 71 people with PD in the ON-medication state and 40 age- and sex-matched healthy controls underwent clinical assessments and 7 T magnetization transfer-weighted (MTw) MRI to quantify structural changes along the rostro-caudal LC axis. A subgroup of 30 people with PD and 27 controls underwent 7 T functional MRI to assess LC responsivity to arousing auditory and visual stimuli in two functional MRI sessions on separate days. Healthy controls were scanned twice without medication, while people with PD were studied on and off dopaminergic medication in counterbalanced order. In the PD group, MTw MRI confirmed a significant reduction of the regional neuromelanin signal in the caudal LC relative to the control group (P = 0.010). This structural disintegration correlated with orthostatic hypotension (P = 0.009) and cognitive impairment (P = 0.036), corroborating its clinical relevance. Functional MRI revealed reduced activation of the caudal LC to arousing visual and auditory stimuli in people with PD relative to controls (P = 0.012). This difference reached statistical significance only in the ON-medication state, with a similar but non-significant trend in the OFF-medication state (P = 0.105). In an exploratory analysis of a smaller subsample, structural and functional caudal LC signals were significantly correlated in both people with PD and healthy controls (P = 0.007). Together, the findings provide evidence for a rostro-caudal gradient of LC pathology in PD at both structural and functional levels. While structural MRI provides fine-grained insights into spatial gradients of disease-related pathology, functional MRI captures the impaired functional responsivity of the caudal LC. The presence of arousal-induced hypoactivation of the caudal LC in the ON-medication state indicates that LC dysfunction extends beyond dopamine deficits in PD, highlighting complex interactions between dopaminergic and noradrenergic systems.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Behavioural rigidity as a transdiagnostic marker of nucleus accumbens dysfunction in dementia.</title>
-      <link>https://doi.org/10.1093/brain/awag095</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag095</guid>
-      <description>Brain : a journal of neurology
-
-Behavioural rigidity, the tendency to persist with inflexible patterns of thoughts or actions, is increasingly recognized as a transdiagnostic symptom across psychiatric, neurodevelopmental and neurodegenerative disorders. Empirical studies exploring the prevalence and underlying neural mechanisms of behavioural rigidity in dementia, however, are lacking. This cross-sectional study sought to delineate the structural and functional neural correlates of behavioural rigidity using a transdiagnostic approach looking across the frontotemporal lobar degeneration (FTLD) spectrum and Alzheimer's disease (AD). A total of 204 participants were recruited, including 110 frontotemporal dementia (FTD), 53 AD and 41 healthy older control participants. Within the FTD group, 66 cases were diagnosed with clinically probable behavioural variant FTD (bvFTD), 26 presented with semantic dementia (SD) and 18 cases had progressive non-fluent aphasia (PNFA). Behavioural rigidity was assessed using the Stereotypical and Motor Behaviour subscale of the Cambridge Behavioural Inventory-Revised. Voxel-based morphometry (VBM) was performed to identify grey matter regions associated with behavioural rigidity transdiagnostically, the results of which informed subsequent seed-based voxel-wise functional connectivity analyses. All imaging analyses were adjusted for relevant demographic and technical covariates. Statistical thresholds were set at voxel-level P &lt; 0.001 (uncorrected) and cluster-level P &lt; 0.05 (false discovery rate corrected). Our main finding was that behavioural rigidity is pervasive across dementia subtypes, ranging from most pronounced in bvFTD to milder/relatively absent in PNFA, relative to controls. Whole-brain VBM across the entire patient sample revealed a significant negative association between behavioural rigidity and grey matter intensity exclusively in the bilateral nucleus accumbens. Using the bilateral nucleus accumbens as seeds, resting-state functional connectivity analysis showed that higher levels of behavioural rigidity were associated with stronger connectivity between the left nucleus accumbens and the left supplementary motor area, paracentral lobule and precuneus. This is the first study, to our knowledge, to examine the neural substrates of behavioural rigidity across FTLD syndromes transdiagnostically using structural and functional neuroimaging approaches. Our findings reveal a gradation of rigid and repetitive behaviours, most apparent in bvFTD, which in turn reflects pathological disruption of the nucleus accumbens. Taken together, our findings highlight the need to consider repetitive and rigid behaviours as a transdiagnostic feature in neurodegenerative disorders, and one which indexes underlying nucleus accumbens pathology. More broadly, this study underscores the importance of screening for rigid and repetitive behaviours in the clinic and identifies the nucleus accumbens as a promising neural target to ameliorate these symptoms.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>
