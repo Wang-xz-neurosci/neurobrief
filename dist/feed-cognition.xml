@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -117,7 +117,7 @@ Working memory plays a central role in cognitive control, yet how it shapes targ
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122334</guid>
       <description>NeuroImage
 
-BACKGROUND: Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. METHODS: A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. RESULTS: Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. CONCLUSIONS: Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
+Background Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. Methods A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. Results Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. Conclusions Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>静息态与自然刺激</category>
@@ -206,6 +206,26 @@ Perivascular spaces (PVS) have historically been viewed as radiological markers 
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Enhanced Pitch Perception in Early Blind Individuals and Musicians Is due to Reduced Internal Noise.</title>
+      <link>https://doi.org/10.1523/jneurosci.0510-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0510-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Although it is commonly assumed that early blind individuals have enhanced pitch perception, the literature to date has been contradictory. We measured performance on two tasks known to recruit early versus late stages of auditory frequency tuning in early blind and sighted human adults of both sexes with matched years of musical training. The two groups showed equivalent performance on a tone detection in notched-noise task that assesses cochlear frequency selectivity. In contrast, early blind individuals showed enhanced performance in a pitch discrimination task thought to be mediated by cortical mechanisms. Computational modeling revealed that this enhancement was best explained by reduced internal noise rather than narrower frequency tuning, with both blindness and years of musical training predicting a reduction in internal noise. These findings identify internal noise as a key factor in experience-driven auditory plasticity as a result of both musical experience and early blindness.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Temporal Dynamics of Early Somatosensory Processing in Goal-Directed Actions.</title>
+      <link>https://doi.org/10.1523/jneurosci.0349-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0349-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Tactile sensitivity is temporally modulated on a moving limb. Yet the neural mechanisms underlying this modulation remain unclear. Using electroencephalography, we examined the temporal dynamics of early somatosensory processing during goal-directed reaching. Participants (self-reported gender, 22 females, 16 males) reached for their unseen left hand while a brief standard vibration of a fixed intensity was applied to the moving right index finger in different movement phases. After each reach, participants compared this standard with a second comparison vibration of varying intensity applied to the sternum and judged which vibration felt stronger. The same task was performed at rest to account for individual differences. Psychophysical results revealed an overall reduction in tactile sensitivity during reaching compared with rest, with sensitivity transiently improving around maximum speed relative to the late movement phase. Consistent with the psychophysical data, the short-latency P45 component, originating in the primary somatosensory cortex, was reduced during reaching but recovered around maximum speed. Lower P45 amplitudes were associated with lower tactile sensitivity measured behaviorally, suggesting that early somatosensory processing may contribute to the observed perceptual changes. This temporally specific modulation of tactile perception, together with corresponding changes at the early cortical stage, is consistent with the idea that the somatosensory system dynamically adapts its sensitivity to facilitate control of somatosensory-guided actions.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Opposing effects of childhood abuse and neglect on neural performance monitoring.</title>
       <link>https://doi.org/10.1162/imag.a.1439</link>
       <guid isPermaLink="false">doi:10.1162/imag.a.1439</guid>
@@ -227,7 +247,7 @@ Any study of learning must capture neural or behavioural changes over time. Stim
       <category>其他认知与脑</category>
     </item>
     <item>
-      <title>Distinct motor preparatory signals correlate with coarse vs fine control of self-paced action timing.</title>
+      <title>Distinct motor preparatory signals correlate with coarse &lt;i&gt;vs&lt;/i&gt; fine control of self-paced action timing.</title>
       <link>https://doi.org/10.1162/imag.a.1434</link>
       <guid isPermaLink="false">doi:10.1162/imag.a.1434</guid>
       <description>Imaging neuroscience (Cambridge, Mass.)
@@ -237,14 +257,15 @@ Making each action at the right time is crucial for motor control. In this study
       <category>其他认知与脑</category>
     </item>
     <item>
-      <title>Sensorimotor expertise effects extend from dance to face perception.</title>
-      <link>https://doi.org/10.1093/cercor/bhag186</link>
-      <guid isPermaLink="false">doi:10.1093/cercor/bhag186</guid>
+      <title>Neurobehavioral correlates of changing one's mind in ADHD and OCD.</title>
+      <link>https://doi.org/10.1093/cercor/bhag187</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag187</guid>
       <description>Cerebral cortex (New York, N.Y. : 1991)
 
-Domain specific expertise affects neural and behavioral processes of perception and memory. We explore if sensorimotor expertise extends to other relevant social mechanisms, such as the neural processing of emotional faces. We recorded brain activity of 26 dancers and 26 non-dancers using visual and somatosensory evoked potentials (VEPs, SEPs) during an emotion and sex discrimination task on happy, afraid, and neutral faces. We predicted expertise-related modulation of visual facial emotion processing in visual and somatosensory areas. EEG results revealed distinct visual and somatosensory ERP patterns in the two groups. VEP findings showed that dancers distinguished between neutral and emotional faces at N170 and P200. Non-dancers differentiated between the three emotions with more lateralized processing. For SEPs, dancers uniquely showed early emotion effects (P50) in central somatosensory regions and task-modulated somatosensory engagement at later stages (N80, P100). Non-dancers showed later, localized somatosensory effects. In summary, dance expertise shapes both visual and somatosensory processing of facial emotion, indicating a broader neural representation of emotions. These findings provide novel evidence for a differential facial emotion processing in dancers, extending the dance expertise modulation beyond perception of dance-specific stimuli, to face emotion perception. Overall, this work highlights the strong influence of sensorimotor training on emotion perception.</description>
+Cognitive flexibility is an executive function that allows individuals to adjust behavior in response to changing environmental demands. We assessed volitional switching under uncertainty, without rule-based learning, in the "Change Your Mind" task. Nineteen patients with obsessive-compulsive disorder (OCD), 19 patients with attention-deficit hyperactivity disorder (ADHD) and matched control participants (20 per group) completed the task while undergoing a functional MRI scan. The task was a two-alternative forced choice paradigm where each stimulus was presented twice successively, with spurious feedback following the first presentation. This allowed participants the opportunity to repeat or change their response. Participants with ADHD changed their response more frequently than controls following a previously correct response, associated with reduced accuracy on the second trial. This was accompanied with smaller differences between change and repeat trials in the superior frontal gyrus, paracingulate gyrus, and frontal pole compared to controls. Participants with OCD did not differ from healthy controls in their performance but exhibited greater activity on both change and repeat trials in the pre- and postcentral gyri than controls. These results point to distinct neurobehavioral differences in patients with ADHD and OCD underlying what is often termed more broadly inflexible behavior.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Dissociating executive prefrontal substrates following capsulotomy in obsessive-compulsive disorder.</title>
@@ -508,26 +529,6 @@ Working memory (WM), the transient storage and manipulation of information, is a
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Exploring Neural Mechanisms Underlying Error-related Impairments in Active Working Memory Suggests an Adaptive Shielding of Contents during Cognitive Control.</title>
-      <link>https://doi.org/10.1162/jocn.a.2676</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2676</guid>
-      <description>Journal of cognitive neuroscience
-
-Goal-directed behavior relies on cognitive flexibility-the ability to rapidly adapt ongoing thoughts and behaviors while preserving task-relevant information. The performance monitoring system optimizes such behavior by detecting and evaluating errors, whereas the working memory (WM) system maintains relevant information and protects it from interference. We previously showed that motor errors impaired active WM maintenance (Error-Related Impairment of Active working Memory [ERIAM]; [Wessel, J. R., Jiang, J., &amp; Stolley, J. J. Action errors impair active working memory maintenance. Journal of Experimental Psychology: General, 151, 1325-1340, 2022]). Here, we investigated the source of ERIAM by tracking the contralateral delay activity (CDA), a neural marker of visual WM maintenance, throughout the error-making process. Forty-two participants maintained visual information in WM while performing a flanker task during the delay period. Consistent with prior results, a significant ERIAM effect occurred. We observed the canonical CDA before flanker task onset, and this CDA declined after the flanker task began. Following the flanker response, however, we observed a sustained contralateral positivity (CDAp). Critically, CDA amplitudes did not differ between motor correct and error trials before the flanker task, ruling out a general performance deficit. The CDA was also unaffected immediately after flanker onset, ruling out a perceptual interference explanation. Neural differences emerged only after the flanker response, supporting a genuinely error-related origin of the ERIAM effect. Importantly, CDAp was larger following correct responses than errors, and greater CDAp modulation predicted a smaller ERIAM effect. On the basis of prior work, we interpret CDAp as reflecting disengagement from WM storage, suggesting a possible adaptive shielding strategy. These findings provide clear evidence regarding the timing of the ERIAM effect and suggestive evidence regarding potential mechanisms underlying error-related interference in active WM maintenance. Future work will help determine the functional significance of CDAp and its relationship to WM storage and cognitive control.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Visual Perspective Shapes Subjective Experience: Dissociable Parietal Contributions to the Constructive Nature of Memory.</title>
-      <link>https://doi.org/10.1162/jocn.a.2403</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2403</guid>
-      <description>Journal of cognitive neuroscience
-
-Subjective features of memory are often treated as secondary to the objective content of remembered events. However, growing evidence suggests that these features actively shape how memories are constructed, experienced, and used. Rather than treating visual perspective as a peripheral correlate of subjectivity, this review positions it as a key mechanism that shapes the memory. Because perspective can be flexibly controlled and reliably measured, it offers a unique window into how retrieval goals interact with mental simulation to produce vivid and emotionally resonant recollections. Drawing on behavioral and neuroimaging research, this review shows that visual perspective determines the spatial framing of memory and the emotional and sensory qualities of recollection. Focusing on the posterior parietal cortex, it outlines distinct roles for the angular gyrus (AG) and the precuneus in supporting perspective-dependent retrieval. The AG contributes to the selection and maintenance of a retrieval perspective, integrating perceptual and conceptual features into a coherent scene. In contrast, the precuneus supports spatial transformation and modulates the vividness, emotional tone, and embodied character of recollection, particularly when individuals recall events from a nondominant or shifted perspective. Together, these findings position visual perspective as a central mechanism in the construction of subjectivity. Understanding how perspective shapes the process of remembering provides insight into how memory supports emotion regulation, mental simulation, and the continuity of the self across time.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>

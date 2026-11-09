@@ -5,9 +5,29 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What can functional transcranial Doppler ultrasonography reveal about the cerebral lateralization of writing.</title>
+      <link>https://doi.org/10.1002/1873-3468.70499</link>
+      <guid isPermaLink="false">doi:10.1002/1873-3468.70499</guid>
+      <description>FEBS letters
+
+Written language is central to modern life, yet its cerebral lateralization remains far less understood than that of oral language. This review synthesizes evidence from five functional transcranial Doppler ultrasonography (fTCD) studies (n = 268; 228 adults and 40 children aged 7-9 years), a method well-suited to studying writing due to its tolerance of natural movement. The linguistic component of writing has been shown to be left-lateralized in right-handers, mirroring oral language, whereas for left-handers findings remain inconclusive. Linguistic processing appears largely independent of whether words are produced by hand or keyboard. The unresolved issue is dissociating linguistic from motor components as writing movements may themselves be intrinsically linguistic. Future research should address underexplored populations and leverage writing as a model for neuroplasticity.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>ERP markers of language processing difficulties in extremely preterm children at 6-9 years of age.</title>
+      <link>https://doi.org/10.1080/09297049.2026.2755798</link>
+      <guid isPermaLink="false">doi:10.1080/09297049.2026.2755798</guid>
+      <description>Child neuropsychology : a journal on normal and abnormal development in childhood and adolescence
+
+Advances in neonatal care have substantially reduced mortality among extremely preterm children (≤1,500 g at birth), although survivors remain at increased risk for neurodevelopmental vulnerabilities. This study examined event-related potentials (ERPs) associated with print processing and language-related functions in extremely preterm children at school age. Twenty-six extremely preterm children completed a same/different distractor task involving graphical symbols, illegal letter strings, legal pseudowords, and real words. ERP components indexing print sensitivity (N1), lexico-semantic access (N400), and sensitivity to orthographic regularities (late positive component, LPC) were analyzed across two age groups reflecting early reading initiation and reading acquisition stages. Print sensitivity (N1) exhibited typical developmental patterns in both age groups. However, lexico-semantic access (N400) and orthographic regularity sensitivity (LPC) diverged from patterns reported in studies with typically developing peers, suggesting atypical neural responses to linguistic stimuli despite a presumed adequate behavioral performance. Extremely preterm children may display subtle but meaningful differences in neural mechanisms supporting reading and language processing. These findings highlight the importance of early monitoring and targeted educational interventions to support reading foundations and prevent emerging academic difficulties.</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>Cognitive impairment in age-related hearing loss: linking brain structure, glymphatic function, and molecular mechanisms.</title>
       <link>https://doi.org/10.1016/j.brainresbull.2026.112207</link>
@@ -59,6 +79,27 @@ BACKGROUND: Language impairment is an early sign of Alzheimer's disease (AD) tha
 It remains unclear how graded lexical-semantic similarity between prime-target pairs is reflected in mean BOLD responses and multivariate neural activity patterns, and how these neural indices relate to regional GABA, Glx (glutamate + glutamine), and GABA/Glx levels. We examined the neural correlates of lexical-semantic similarity and their associations with regional neurochemical measures in 46 healthy adults using fMRI during a semantic priming task and magnetic resonance spectroscopy (MRS) acquired on a separate day. Trial-wise prime-target semantic similarity was quantified using word-vector cosine similarity. Similarity-related BOLD responses were assessed using parametric modulation, whereas neural-semantic correspondence was examined using representational similarity analysis (RSA). Semantic similarity modulated BOLD activity primarily under incongruency, involving premotor, dorsolateral prefrontal, frontal eye field, angular gyrus, and anterior prefrontal regions. ROI-based RSA revealed FWE-corrected neural-semantic correspondence in the left inferior frontal gyrus pars opercularis (IFG-Op) and medial superior frontal gyrus. Within-condition analyses further showed distributed neural-semantic correspondence under incongruency across frontal, temporal, and parietal regions implicated in semantic control and integration processes, including bilateral IFG and the left inferior parietal lobule (IPL). Additionally, a positive association was observed between RSA model fit and left IPL Glx levels in the incongruent condition, although this association did not survive FDR correction. Together, these findings suggest that lexical-semantic similarity is reflected in condition-dependent neural responses and representational geometry and may represent an additional dimension modulating semantic control demands, while evidence for associations with regional neurochemical measures remains preliminary.</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Differential modulation of the neurocomputational signature of early and late mismatch responses to spoken words by awareness and task relevance</title>
+      <link>https://doi.org/10.64898/2026.11.03.757859</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.03.757859</guid>
+      <description>[预印本] bioRxiv
+
+Mismatch responses (MMRs), including the mismatch negativity (MMN) and the P3, are a hallmark of the brain’s capacity to detect unexpected events. They are discussed to be generated by two main processes: adaptation and prediction error (PE). However, MMR research on underlying mechanisms has mostly relied on simple, non-linguistic stimuli such as tones, and it remains unknown how awareness and attentional conditions affect MMRs to auditory verbal stimuli, that, unlike tones, carry lexical-semantic meaning. Here, we conducted a preregistered EEG study that disentangled influences of awareness, general task-relevance of word stimuli, and specific target-relevance of word oddballs on the MMN and P3. In addition, single-trial neurocomputational models were applied to uncover the underlying generative models of the MMRs. Results show that word-related MMN and P3 were only elicited when words were task-relevant, and the P3 increased with target-relevance. Crucially, no word-related MMN emerged under inattention, in contrast to the pre-attentive MMN typically reported for tonal deviants. Neurocomputational modeling revealed that the early part of the task-relevant MMN reflects adaptation processes. PE processes generated later parts of the MMN under task-relevance, and the entire MMN under target-relevance, as well as the P3 independent of relevance conditions. This suggests that the same temporal generation pattern of adaptation and PE underlie mismatch responses to both words and tones, but that, unlike tonal MMRs, eliciting MMRs to words requires the allocation of attention. This attentional dependency may reflect the additional lexical-semantic and multi-level representational demands that spoken words impose on the auditory system.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Connectivity of Implicit Statistical Learning Networks is Associated with Language Impairment Severity in Post-Stroke Aphasia</title>
+      <link>https://doi.org/10.64898/2026.11.02.763658</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.02.763658</guid>
+      <description>[预印本] bioRxiv
+
+Rehabilitation of language for individuals with post-stroke aphasia (PSA) requires relearning to use cognitive-linguistic skills, but little is known about how these individuals relearn, or how brain reorganization may support different types of learning. One type of learning critical to language acquisition is implicit-statistical learning (ISL), which supports robust, accurate performance with minimal conscious effort. ISL relies on brain subnetworks that include language areas as well as domain general regions (i.e., salience and cognitive control) with the latter considered less likely to be damaged in individuals with PSA. Using three brain subnetworks previously found to be associated with ISL, the present study used graph theory metrics to (1) compare their functional connectivity in PSA (n = 30) relative to neurologically healthy controls (n=18), and (2) examine their relationship with aphasia severity in the PSA group. Resting-state functional connectivity was weaker for the language and salience subnetworks in PSA than controls, but not for the cognitive control subnetwork. Additionally, edges within all three networks correlated with aphasia severity, particularly between regions of the right frontal cortex, such that stronger connectivity in these ISL subnetworks were associated with milder aphasia. While it is unsurprising that the damaged left-sided brain regions in the PSA group resulted in connectivity that differed from controls, these differences were also observed in the salience subnetwork. Further, the correspondence to aphasia severity was evident in all subnetworks, highlighting that domain general ISL networks may contribute to variability in language outcomes.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Neural connectomes of verbal fluency in post-stroke aphasia.</title>
@@ -310,7 +351,7 @@ Emotion is both a psychological phenomenon rooted in physiological fluctuations 
       <category>语言与脑</category>
     </item>
     <item>
-      <title>microRNA-Loaded Extracellular Vesicles: Mechanisms and Therapeutic Potential in Senescence and Ageing.</title>
+      <title>MicroRNA-loaded extracellular vesicles: Mechanisms and therapeutic potential in senescence and aging.</title>
       <link>https://doi.org/10.1016/j.mad.2026.112269</link>
       <guid isPermaLink="false">doi:10.1016/j.mad.2026.112269</guid>
       <description>Mechanisms of ageing and development
@@ -484,48 +525,6 @@ Musical expertise is associated with auditory processing advantages which can ex
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Naturalistic Movie Viewing Reveals a Distributed Network Supporting Audiovisual Speech Processing.</title>
-      <link>https://doi.org/10.64898/2026.10.26.762007</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.26.762007</guid>
-      <description>[预印本] bioRxiv : the preprint server for biology
-
-Traditional paradigms in cognitive neuroscience often fail to capture the richness of real-world experiences. To bridge this gap, researchers increasingly use naturalistic stimuli such as movies, which provide complex, multisensory input. Speech perception is a prime example of such complexity: it is inherently multisensory, involving the integration of auditory cues, lip movements, and facial expressions. Prior studies suggest that the left posterior superior temporal sulcus (pSTS) and superior temporal gyrus (STG) play a critical role in this integration. However, most studies of audiovisual speech have relied on simplified or artificial stimuli, limiting ecological validity. To address these gaps, we analyzed fMRI data from human participants watching two full-length films ( 500 Days of Summer, Citizenfour ) to assess the consistency of multisensory speech processes across distinct genres and narratives. We manually annotated word onset times and modality (audiovisual vs. auditory-only). Across two movies and 38 participants we observed consistent speech-related activation in the pSTS and STG across speech types. Compared to auditory-only speech, audiovisual speech recruited a broad left-lateralized network including the angular gyrus, posterior temporal cortex, temporal pole, and inferior frontal gyrus, along with the right cerebellum. These findings were also consistently present in single-subject data. Importantly, most of the regions observed in our analyses have been implicated in multisensory function in the nonhuman primate literature despite receiving relatively little focus in human neuroimaging. Together our results demonstrate that speech processing during naturalistic viewing recruits a distributed network extending substantially beyond regions traditionally emphasized in audiovisual speech research.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Auditory statistical learning beyond monotonic sound: Congenital amusia constrains the beneficial role of lexical tone in tracking linguistic regularities.</title>
-      <link>https://doi.org/10.1016/j.heares.2026.109850</link>
-      <guid isPermaLink="false">doi:10.1016/j.heares.2026.109850</guid>
-      <description>Hearing research
-
-Statistical learning refers to the brain's ability to detect statistical regularities in environmental input. Individuals with congenital amusia are impaired in lexical tone perception. The current study aimed to examine whether lexical tone facilitates statistical learning in amusics. Two groups-individuals with amusia and typical, musically intact controls-were passively exposed to a continuous, pause-free speech stream with or without tonal cues. Following exposure, participants were presented with pairs of word-like items and asked to select the one with higher transitional probability within the stream. Results indicated statistical learning in both groups across non-tonal and tonal conditions. However, the interaction effect in the mixed-effects models revealed that although typical controls performed better in tonal than in non-tonal conditions, this facilitation pattern was absent in the amusic group. Moreover, amusics were outperformed by controls in the tonal condition. Altogether, this study extends the literature by demonstrating the beneficial role of lexical tone in statistical learning among typical individuals, an advantage not observed in amusics. Hence, statistical learning of verbal material may be influenced by individual variations in music-processing capacity, such as those observed in congenital amusia, which highlights the interconnection between music and language. Implications of the results for auditory statistical learning and rehabilitation programs for amusia are discussed.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Neurotransmitter receptor architecture links local neurochemistry to semantic memory</title>
-      <link>https://doi.org/10.64898/2026.10.26.762019</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.26.762019</guid>
-      <description>[预印本] bioRxiv
-
-A fundamental challenge in neuroscience is understanding how the molecular and neurochemical architecture of the human cortex gives rise to sophisticated higher cognitive functions. The anterior temporal lobe (ATL) is a key hub for semantic memory, and its underlying GABAergic and glutamatergic neurochemistry supports semantic memory performance. However, the molecular receptor architecture underlying these neurochemical–cognitive relationships remains unknown. Here, we combined imaging transcriptomics and in vivo magnetic resonance spectroscopy (MRS) to investigate how neurotransmitter receptor organisation relates to local neurochemistry and semantic memory in the human ATL. We found that the ATL exhibited a distinct transcriptomically inferred receptor-subunit profile relative to control cortical regions (occipital cortex and vertex). Individual-specific spatial estimates of receptor-subunit gene expression were systematically associated with local GABA+ and Glx concentrations, revealing preferential coupling between GABAergic receptor genes and GABA+ and between glutamatergic receptor genes and Glx, alongside widespread cross-system associations between GABAergic receptor architecture and Glx. ATL GABA+ and Glx concentrations were positively associated with semantic memory performance, and GABAergic and glutamatergic receptor-subunit expression showed selective relationships with semantic memory accuracy. Crucially, mediation analyses revealed that GABA+ mediated associations between GABAergic receptor architecture and semantic performance, whereas Glx mediated both glutamatergic and widespread GABAergic receptor associations. Together, these findings reveal a coupled molecular–neurochemical architecture of the human ATL, linking neurotransmitter receptor organisation to regional neurochemical state and individual differences in semantic memory. Our findings provide a multiscale account of how cortical molecular organisation is associated with human higher cognitive function.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Microstructure of white matter association tracts in the temporal lobe predicts the timing of electrophysiological activity and behaviour in picture naming</title>
-      <link>https://doi.org/10.64898/2026.10.26.761817</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.26.761817</guid>
-      <description>[预印本] bioRxiv
-
-White matter (WM) microstructure has been mainly associated with accuracy of picture naming. However, little is known about how WM properties relate to the timing of picture naming and its underlying electrophysiological activity. Here, we linked diffusion-weighted, electrophysiological, and behavioural data, using time-based measures to conceptually connect WM deterioration to alterations in conduction speed and precision. Our sample included individuals of varying age, with or without stroke. We correlated fractional anisotropy (FA) of bilateral WM tracts traversing the temporal lobe with mean response times (RTs) and response time variability (coefficient of variation, CV) in picture naming, and with the onset latency of neuronal activity, represented by the electrophysiological P2 component time-locked to picture onset. We selected tracts showing associations with P2 latency and naming performance separately, on which we conducted path analyses examining the relationship between structure, neuronal activity and behaviour. Depending on the tract, higher FA was associated with faster and/or more consistent naming, suggesting that ventral tracts differentially contribute to naming speed and consistency. Importantly, path modelling for the right inferior fronto-occipital fasciculus (IFOF) revealed that FA predicted P2 latency, which in turn predicted RTs, possibly reflecting a structure-activity-behaviour relationship in lexical-semantic processing. P2 source reconstruction demonstrated anatomical proximity to posterior segments of the right IFOF, supporting these findings. Overall, this study provides a proof of concept for modelling structure-activity-behaviour relationships in language research, while highlighting the need for elaboration of such relations at a more mechanistic level.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>

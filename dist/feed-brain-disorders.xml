@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 22:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -38,17 +38,6 @@ Obsessive-compulsive disorder (OCD) is characterized by intrusive thoughts and r
 Relational trauma is a major contributor to the development of mental health disorders. This association likely reflects the social nature of humans and other mammals, whose survival depends on maintaining stable social bonds. When these bonds are threatened or disrupted, individuals experience social pain, a distress response mediated by the mammalian separation-distress network. During early development, this network is sensitive to maintaining proximity with caregivers, as independent survival is not yet possible. Converging evidence from ethology, psychodynamic and attachment theory, and social and affective neuroscience supports the function of this network. Because mammalian brains are inherently tuned to form social bonds, adverse relational experiences can disrupt socioemotional development and increase vulnerability to psychopathology. Neural substrates of separation distress include the anterior cingulate cortex, ventral septum, bed nucleus of the stria terminalis, dorsal preoptic area, dorsomedial thalamus, and periaqueductal gray, with endogenous opioids and glucocorticoids serving as key neurochemical modulators in the separation-distress response. Separation distress and adverse relational experiences also alter physiological systems implicated in psychopathology, including the HPA axis, autonomic nervous system activity, inflammation, and brain structure and connectivity. This paper argues that relational trauma and social pain are mediated by an evolutionarily conserved subcortical separation-distress network shared across predominantly mammalian species. Dysregulation of this network may represent one common mechanism underlying depression, social anxiety, suicidality, substance use disorders, borderline personality disorder, and other psychiatric conditions. Understanding the processes linking adverse relational experiences, separation-distress activation, and social pain may provide insights into the etiology and treatment of diverse disorders.</description>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>In vivo assessment of brain microstructure in patients with Huntington's disease using quantitative MRI.</title>
-      <link>https://doi.org/10.1007/s00415-026-14244-8</link>
-      <guid isPermaLink="false">doi:10.1007/s00415-026-14244-8</guid>
-      <description>Journal of neurology
-
-OBJECTIVES: Using multiparametric mapping (MPM), we assessed the integrity of cortical and subcortical regions across different stages of Huntington's disease (HD), relating the derived findings to genetic modifiers and clinical measures. METHODS: Sixteen premanifest patients with HD (PwHDpre), ten manifesting PwHD (PwHDman), and forty-two healthy controls (HC) underwent clinical examinations and a 3 T imaging. We derived quantitative MPM maps to perform voxel-based quantification (VBQ) and voxel-based morphometry (VBM). We assessed group differences by combining PwHDpre and PwHDman (PwHDtotal) and by comparing PwHDpre and PwHDman with age- and sex-matched HC. Using correlation analysis, we investigated the link between MPM-derived findings, CAG repeat length, and clinical scores. RESULTS: PwHDman presented with reductions in all four quantitative MPM maps across the bilateral caudate nucleus and the frontal, parietal, temporal, and occipital gyri. We observed spatial overlap between VBQ- and VBM-derived findings, demonstrating widespread volume loss in PwHDman. PwHDpre showed reductions in certain quantitative maps within the frontal and temporal regions. Reduced MPM values correlated with clinical scores of HD severity. INTERPRETATION: The observed reductions across four MPM modalities in PwHDman are consistent with demyelination and neuronal loss, as supported by widespread volume loss. The reductions observed in PwHDpre indicate early demyelination and inflammation. In this study, we demonstrated the utility and clinical relevance of MPM for detecting microstructural alterations across different stages of HD. MPM can serve as a non-invasive biomarker of neurodegeneration in HD, providing insight into the pathological events underlying the observed neuronal loss.</description>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
       <category>脑疾病机理</category>
     </item>
     <item>
@@ -115,6 +104,17 @@ Autistic children often show altered brain network connectivity, including circu
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Neurobehavioral correlates of changing one's mind in ADHD and OCD.</title>
+      <link>https://doi.org/10.1093/cercor/bhag187</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag187</guid>
+      <description>Cerebral cortex (New York, N.Y. : 1991)
+
+Cognitive flexibility is an executive function that allows individuals to adjust behavior in response to changing environmental demands. We assessed volitional switching under uncertainty, without rule-based learning, in the "Change Your Mind" task. Nineteen patients with obsessive-compulsive disorder (OCD), 19 patients with attention-deficit hyperactivity disorder (ADHD) and matched control participants (20 per group) completed the task while undergoing a functional MRI scan. The task was a two-alternative forced choice paradigm where each stimulus was presented twice successively, with spurious feedback following the first presentation. This allowed participants the opportunity to repeat or change their response. Participants with ADHD changed their response more frequently than controls following a previously correct response, associated with reduced accuracy on the second trial. This was accompanied with smaller differences between change and repeat trials in the superior frontal gyrus, paracingulate gyrus, and frontal pole compared to controls. Participants with OCD did not differ from healthy controls in their performance but exhibited greater activity on both change and repeat trials in the pre- and postcentral gyri than controls. These results point to distinct neurobehavioral differences in patients with ADHD and OCD underlying what is often termed more broadly inflexible behavior.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Mapping brain imaging heterogeneity in multiple sclerosis.</title>
