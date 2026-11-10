@@ -5,9 +5,51 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 20:46:39 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vitamin B12 deficiency, cerebral myelination, and language development: biological evidence from an integrative review.</title>
+      <link>https://doi.org/10.1080/17518423.2026.2761583</link>
+      <guid isPermaLink="false">doi:10.1080/17518423.2026.2761583</guid>
+      <description>Developmental neurorehabilitation
+
+OBJECTIVE: This study aimed to analyze scientific evidence on the relationship between vitamin B12 deficiency, cerebral myelination, and its potential implications for language development and speech fluency. METHODS: An integrative literature review was conducted using the PubMed, Scopus, and Cochrane databases between August 2025 and July 2026. The search strategy included terms related to vitamin B12, myelination, brain development, language, and speech. Original studies published in English investigating the effects of vitamin B12 deficiency on the central nervous system, neurodevelopment, or structural brain changes were included. RESULTS: Thirteen studies met the eligibility criteria and were synthesized through thematic narrative analysis. The findings indicated a relationship between vitamin B12 deficiency and delayed neuropsychomotor development, impaired myelination, reduced white matter integrity, and structural brain abnormalities identified by neuroimaging. Furthermore, studies investigating the neural circuits underlying language showed that these same structures are essential for language organization and speech fluency, providing biological plausibility for a potential relationship between vitamin B12 deficiency and impairments in these processes. CONCLUSION: Vitamin B12 deficiency may adversely affect neurodevelopment and cerebral myelination, representing a potential mechanism underlying alterations in the maturation of neural circuits involved in language. These findings support the biological plausibility that vitamin B12 deficiency may contribute to impaired language development through disrupted cerebral myelination, although direct clinical evidence remains lacking.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Structural changes in the dorsolateral prefrontal cortex following a randomized clinical trial of virtual reality-based cognitive remediation in mood and schizophrenia spectrum disorders.</title>
+      <link>https://doi.org/10.1016/j.pnpbp.2026.111999</link>
+      <guid isPermaLink="false">doi:10.1016/j.pnpbp.2026.111999</guid>
+      <description>Progress in neuro-psychopharmacology &amp; biological psychiatry
+
+INTRODUCTION: Cognitive impairments are common in patients with mood disorders (MD) and schizophrenia spectrum disorders (SSD) and impair quality of life. Developing pro-cognitive treatments is hindered by limited understanding of the biology underlying cognitive impairment and improvement. This structural magnetic resonance imaging (MRI) study examined the neural correlates of cognitive improvement following a Virtual-Reality-based Cognitive Remediation Therapy (VR-CRT) intervention. METHODS: Patients underwent eight VR-CRT or VR-control treatment sessions during a four-week period. The study population included data from a transdiagnostic subsample of 41 symptomatically stable, cognitively impaired patients with MD or SSD (VR-CRT: n = 22; VR-control: n = 19) with baseline structural MRI data of which 33 (VR-CRT: 20; VR-control: n = 13) also underwent MRI at treatment completion. Neuropsychological assessment was completed both pre- and post-treatment and additionally at three-month post-treatment follow-up. RESULTS: Gray matter volume in the VR-CRT group increased over time in the right caudal middle frontal gyrus (MFG) compared to VR-control. Secondary hypothesis-driven analysis showed a similar increase in right caudal MFG thickness for VR-CRT patients. These structural changes were not associated with treatment-related cognitive improvement. However, greater left rostral MFG thickness at baseline was associated with more cognitive improvement over time in the VR-CRT group. CONCLUSION: This study demonstrates treatment-related structural changes in the right caudal MFG and suggests that baseline left rostral MFG thickness may represent a candidate marker of cognitive improvement within the VR-CRT group. These findings support further investigation of MFG structure as a marker of brain response and cognitive treatment outcome. This trial was registered with ClinicalTrials.gov, NCT06038955, and is completed.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Differential structural profiles of the hippocampus and thalamus and their cognitive relevance in unilateral mesial temporal lobe epilepsy.</title>
+      <link>https://doi.org/10.1016/j.pnpbp.2026.111998</link>
+      <guid isPermaLink="false">doi:10.1016/j.pnpbp.2026.111998</guid>
+      <description>Progress in neuro-psychopharmacology &amp; biological psychiatry
+
+BACKGROUND: Cognitive dysfunction is common in mesial temporal lobe epilepsy (MTLE), yet how much the hippocampus and the thalamus each contribute remains unclear. We compared fine-grained hippocampal and thalamic structure and their cognitive relevance in unilateral MTLE. METHODS: We studied 71 patients with unilateral MTLE (39 with hippocampal sclerosis [HS], 32 without) and 17 controls. FreeSurfer-derived cortical, hippocampal-subfield, and thalamic-nucleus volumes were compared using permutation-based general linear models. In patients, 19 cognitive measures were related to volume using covariate-adjusted partial correlations under seizure-referenced (ipsilateral/contralateral) and anatomical left/right codings. Nested additive models tested the incremental cognitive contributions of hippocampal and thalamic volume. RESULTS: Relative to controls, patients showed widespread thalamic atrophy (34 of 44 nuclei in the full cohort, 32 of 44 in each subgroup), whereas hippocampal subfield atrophy was largely confined to HS and no cortical region survived correction. All 48 corrected volume-cognition associations involved hippocampal subfields; none involved thalamic nuclei. Additive models showed that ipsilateral hippocampal volume explained 7.4%-14.6% of cognitive variance alone and explained an additional 6.8%-18.9% of cognitive variance beyond thalamic volume, whereas global thalamic volume did not add significant corrected incremental variance. Preserving anatomical hemisphere linked verbal comprehension and naming to left hippocampal subfields and working memory predominantly to right subfields. CONCLUSIONS: Hippocampal and thalamic abnormalities showed distinct structural and cognitive profiles in unilateral MTLE. Thalamic atrophy was widespread, whereas hippocampal volume was more closely related to cognition and showed additional variation by HS status and anatomical hemisphere.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Regional cortical thinning in cerebral small vessel disease: associations with disease burden and cognitive and motor impairment.</title>
+      <link>https://doi.org/10.1016/j.neuroscience.2026.11.013</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.013</guid>
+      <description>Neuroscience
+
+Cerebral small vessel disease (CSVD) is a major cause of cognitive decline and mobility impairment, yet whether cortical thickness and cortical volume provide similar or complementary information across different levels of CSVD burden remains unclear. We examined regional cortical thickness and cortical volume in healthy controls and participants with CSVD using high-resolution structural magnetic resonance imaging and FreeSurfer-based parcellation. Greater CSVD burden was associated with thinning across bilateral insular, occipital, temporal, cingulate, and cuneal regions, whereas cortical volume alterations were more spatially restricted, with only the left parahippocampal gyrus surviving Bonferroni correction. After adjustment for demographic characteristics, vascular risk factors, apolipoprotein E genotype, and mean cortical thickness, associations remained evident in the bilateral insulae and selected occipital and temporal regions. Regional cortical thickness was also related to cognitive and mobility performance. Exploratory incremental analyses showed that regional cortical thickness remained associated with cognitive performance in several regions after accounting for the corresponding regional cortical volume, intracranial volume, and other covariates. These findings suggest that cortical thickness and cortical volume may capture partly distinct aspects of cortical morphology in CSVD, with cortical thickness potentially providing complementary information related to cognitive performance.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>Behavioral dimensions and white matter organization in early childhood following preterm birth</title>
       <link>https://doi.org/10.31234/osf.io/qabry_v1</link>
@@ -98,6 +140,17 @@ Learning is associated with rapid microstructural changes in the human brain, ye
 
 BackgroundSubjective cognitive decline (SCD) is a potential early indicator of Alzheimer's disease (AD). While SCD has been linked to white matter hyperintensity (WMH) burden, it is unclear whether regional WMH lesion volume is differentially associated with domains of cognitive complaints.ObjectiveExamine whether regional WMH burden is associated with domain-specific SCD (memory, executive function) in cognitively unimpaired older adults with a family history of AD.MethodsParticipants were 150 cognitively unimpaired older adults (65-89 years) with subjective memory complaints and a first-degree family history of AD. Cognitive complaints were assessed with the Cognitive Change Index (CCI-20). WMHs were quantified from T1-weighted and FLAIR MRI using an automated pipeline and categorized into sample-based tertiles for total, subcortical, and lobar regions. Hierarchical regressions examined associations between WMH burden and CCI-20 memory, executive, and total scores, while adjusting for demographics, total intracranial volume, MRI site, APOE ε4 status, and mood symptoms.ResultsGreater WMH burden in the left temporal lobe was associated with increased memory complaints and total SCD, whereas no WMH region was associated with executive function complaints. APOE ε4 status and depressive symptoms were associated with greater memory and total cognitive complaints across models. Apathy was uniquely related to memory complaints.ConclusionsAmong older adults with elevated risk of AD, memory-SCD was associated with greater region-specific left temporal cerebrovascular lesion volume. Findings highlight the clinical relevance of left temporal WMH burden and the importance of considering regional vascular pathology, genetic risk, and mood when characterizing early subjective cognitive changes.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Cortical depth EEG-fMRI at 7T: Experimental setup and analysis pipeline to elucidate generating mechanisms of alpha oscillations.</title>
+      <link>https://doi.org/10.1162/imag.a.1442</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1442</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Alpha band (8-13 Hz) electroencephalography (EEG) oscillations are central to cognition, but their generating mechanisms are poorly understood. Most laminar studies investigating origins of alpha oscillations rely on invasive animal intracranial recordings. To relate these findings to human alpha generation, non-invasive techniques need to be developed. Ultra-high-field (UHF, 7T) laminar functional magnetic resonance imaging (fMRI) enables cortical depth resolved brain responses, and, combined with simultaneous EEG, offers new insight into human alpha generation mechanisms. This work presents a framework for studying the generating mechanisms of electrophysiological signals non-invasively in humans using simultaneous EEG laminar fMRI. Data were acquired on 10 participants during an eyes-closed/eyes-open paradigm. In 9 of 10 participants, the quality of EEG and Blood Oxygenation Level Dependent (BOLD) fMRI data were sufficient to observe a significant negative correlation between EEG alpha power and the BOLD signal in visual cortex grey matter. To improve depth specificity and mitigate pial-surface BOLD signal increases due to draining veins, we applied "deveining". The effects of each of the deveining analysis steps on the cortical depth profiles of the negative alpha-BOLD correlations were studied. The largest effect arose from excluding voxels in the tissue immediately surrounding veins. After deveining, the negative alpha-BOLD correlations were significantly weaker in the middle cortical depths than in superficial and deep depths. This depth dependence was absent when modelling the task with a boxcar regressor rather than EEG alpha power, suggesting specificity to spontaneous electrophysiological (alpha) fluctuations. In conclusion, we have established a method to non-invasively interrogate the origins of electrophysiological signals. Our alpha-BOLD depth profiles during the eyes-open/eyes-closed task (strongest correlations in superficial and deep layers) are consistent with activity in cortical depths typically associated with feedback/top-down processing, but we cannot definitively demonstrate causality from these data.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
       <category>结构与功能</category>
     </item>
     <item>
@@ -469,60 +522,6 @@ Age-related changes in brain microstructure and mechanical properties are essent
 
 Background This study investigated the architecture and neural activity of white matter functional networks (WMFNs) in individuals with opioid use disorder (OUD) after prolonged abstinence, compared with healthy controls (HCs). Methods Blood oxygen level-dependent signals in white matter were analyzed using a data-driven k-means clustering approach across individuals with OUD at baseline (OUD1), the same individuals after prolonged abstinence at follow-up (OUD2), and HCs. Results In OUD1, the deep frontoparietal network was fragmented into the superior longitudinal fasciculus network and anterior corona radiata network; this organization partially recovered in OUD2, becoming more similar to HCs. OUD1 also showed hyperactivation in the deep frontal network and hypoactivation in the frontotemporal-parietal network, with frontotemporal-parietal activity negatively correlated with years of opioid use. Conclusions OUD is associated with disrupted architecture of WMFNs and altered neural activity, whereas prolonged abstinence may promote partial network restoration. These findings highlight the neuroplastic potential of WMFNs during recovery and provide insights into the neural mechanisms underlying OUD and abstinence-related rehabilitation.</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Age-dependent structural brain aging in medication-free major depressive disorder: A multi-site analysis from COORDINATE-MDD consortium.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.028</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.028</guid>
-      <description>Biological psychiatry
-
-Major depressive disorder (MDD) is associated with altered brain structure and accelerated brain aging. However, previous studies have been limited by clinical samples with mixed medication status and multiple mood states, modest sample sizes, underrepresentation of older adults with MDD, and/or reliance on summary-level data. Harmonized T1-weighted MRI from MDD (n = 645), all medication-free and in a current depressive episode, and matched healthy controls (n = 645), segmented into 145 regional volumes, from 11 sites in COORDINATE-MDD consortium. Brain age gap (BAG) was estimated cross-sectionally using gradient boosting regression with nested cross-validation. Group differences in BAG (and age-corrected BAG [cBAG]) were examined across age strata. Regional contributions were evaluated using SHAP values. MDD was associated with significantly elevated cBAG compared with healthy controls (mean difference + 2.0 years [95% CI 1.251, 2.774], Cohen's d -0.289 [95% CI -0.399, -0.179]). Age-stratified analyses showed no differences before mid-30s, with progressively larger gaps thereafter, reaching +6.8 years in MDD aged 55 and older in unadjusted analyses (4.3 years after accounting for site). cBAG differed across neuroanatomical phenotypes previously identified using COORDINATE-MDD data. Key contributing regions included lateral and medial prefrontal regions, middle temporal gyrus, putamen, supplementary motor cortex, central operculum, and cerebellum. Structural brain aging in MDD is age-dependent and most pronounced in a neuroanatomical phenotype associated with poorer key clinical outcomes. The findings are consistent with, but do not establish, neuroprogression models of MDD and demonstrate that cBAG is not a uniform feature of MDD, being more strongly expressed in a specifically clinically vulnerable disease phenotype.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>DPA: Deep Parcellation Analysis for Human Trait Prediction.</title>
-      <link>https://doi.org/10.1007/s12021-026-09823-z</link>
-      <guid isPermaLink="false">doi:10.1007/s12021-026-09823-z</guid>
-      <description>Neuroinformatics
-
-Mapping individual differences in white matter organization is a central goal of human brain mapping. Atlas-based structural connectome analyses are widely used but are sensitive to anatomical assumptions and may miss fine-grained connectivity patterns. Data-driven fiber clustering mitigates some limitations but typically relies on streamline endpoints, overlooking rich geometric information along full trajectories. In this paper, we introduce Deep Parcellation Analysis (DPA), a geometry-aware framework for white matter parcellation and trait association. DPA samples multiscale geometric features along entire fiber streamlines and encodes them with a Multiscale Fiber AutoEncoder (MFAE) to produce compact latent representations. These enable clustering that preserves intrinsic fiber geometry independently of anatomical atlases, supporting interpretable mapping of connectivity patterns linked to individual differences. Applied to diffusion magnetic resonance imaging data from the Human Connectome Project Young Adult (HCP-YA) cohort, DPA captures white matter substrates underlying language-related cognitive traits. It achieves comparable or superior predictive performance relative to atlas-based and principal parcellation approaches while revealing biologically plausible fiber pathways. Critically, DPA identifies trait-relevant connections missed by endpoint-based methods, emphasizing the importance of full streamline geometry. Overall, DPA demonstrates that deep, geometry-informed parcellation provides a powerful, interpretable approach for linking white matter organization to behavior, advancing structure-function studies in human brain mapping.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Voxel-wise functional-to-gray matter volume ratios reveal distinct brain patterns in cirrhosis stratified by hepatic encephalopathy history and clinical status</title>
-      <link>https://europepmc.org/article/PMC/PMC13724522</link>
-      <guid isPermaLink="false">PMC:PMC13724522</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Inter-subject receive-template substitution for quantitative brain water content mapping at 3 T: a leave-one-out evaluation</title>
-      <link>https://europepmc.org/article/PMC/PMC13724431</link>
-      <guid isPermaLink="false">PMC:PMC13724431</guid>
-      <description>Frontiers in neuroscience
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Brain Tissue Proportionality and General Cognitive Ability Across Three Adult Cohorts</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11527260/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11527260/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract General cognitive ability may relate to the proportional allocation of brain tissue beyond overall tissue volume. We examined five FreeSurfer compartments using compositional data analysis: cortical gray matter, cerebral white matter, subcortical gray matter, total cerebellum, and brainstem. Human Connectome Project Young Adult data (HCP-YA; N = 1,101) provided discovery estimates; the Dallas Lifespan Brain Study (DLBS; N = 418) and Amsterdam Open MRI Collection ID1000 (AOMIC; N = 926) provided independent cohort tests. Four isometric log-ratio coordinates represented composition, with age, sex, and log total analyzed tissue volume included separately. Composition explained additional cognitive variance in DLBS (partial R² = 4.20%, p = .00154) and AOMIC (partial R² = 1.35%, p = .014). The total-cerebellum-to-cerebral-white-matter contrast selected in HCP was positive in both replication cohorts: standardized β = 0.162 (heteroskedasticity-robust 95% confidence interval 0.072–0.252) in DLBS and 0.097 (0.024–0.170) in AOMIC. Participant-pairs bootstrap intervals supported both associations. Replacing total tissue volume with estimated intracranial volume attenuated the AOMIC association, whereas including both preserved it. Relative macroanatomical allocation is associated with broad cognitive ability conditional on analyzed tissue volume, with differing effect magnitudes across cohorts. These cross-sectional findings do not establish causal tissue trade-offs.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
   </channel>

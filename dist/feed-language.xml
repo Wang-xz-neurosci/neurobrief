@@ -5,9 +5,63 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 20:46:39 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trust Modulates Speech Entrainment: Enhanced Cortical Tracking for Low-trust Speakers.</title>
+      <link>https://doi.org/10.1162/jocn.a.2734</link>
+      <guid isPermaLink="false">doi:10.1162/jocn.a.2734</guid>
+      <description>Journal of cognitive neuroscience
+
+Trust is a critical component of human communication, providing a foundation for understanding, information exchange, and social coordination. Much of the research on trust in speech communication has focused on how vocal characteristics impact perceived trustworthiness. However, little is known about how trust in a speaker affects the neural processing of speech. Here, we demonstrate a two-stage experimental framework to study that question using noninvasive EEG. First, participants engage in a trust-building stage, where they play an investment game with fictional characters, each paired with a distinctive voice and trustworthiness level (i.e., frequency and magnitude of lies). Next, participants engage in a story-listening stage, in which they are presented with stories from the same characters. Data acquired from 20 young adults confirm a statistically significant correlation between the perceived and actual trustworthiness of the fictional characters. Cortical speech tracking was quantified using a temporal response function analysis on the EEG data. We found that the trustworthiness established during the trust-building stage influenced the cortical tracking of speech in the subsequent story-listening stage, with lower trustworthiness corresponding to a stronger cortical tracking of speech. Interestingly, trustworthiness selectively modulated tracking strength, with no statistically significant changes in the spatial and temporal temporal response function dynamics.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Vitamin B12 deficiency, cerebral myelination, and language development: biological evidence from an integrative review.</title>
+      <link>https://doi.org/10.1080/17518423.2026.2761583</link>
+      <guid isPermaLink="false">doi:10.1080/17518423.2026.2761583</guid>
+      <description>Developmental neurorehabilitation
+
+OBJECTIVE: This study aimed to analyze scientific evidence on the relationship between vitamin B12 deficiency, cerebral myelination, and its potential implications for language development and speech fluency. METHODS: An integrative literature review was conducted using the PubMed, Scopus, and Cochrane databases between August 2025 and July 2026. The search strategy included terms related to vitamin B12, myelination, brain development, language, and speech. Original studies published in English investigating the effects of vitamin B12 deficiency on the central nervous system, neurodevelopment, or structural brain changes were included. RESULTS: Thirteen studies met the eligibility criteria and were synthesized through thematic narrative analysis. The findings indicated a relationship between vitamin B12 deficiency and delayed neuropsychomotor development, impaired myelination, reduced white matter integrity, and structural brain abnormalities identified by neuroimaging. Furthermore, studies investigating the neural circuits underlying language showed that these same structures are essential for language organization and speech fluency, providing biological plausibility for a potential relationship between vitamin B12 deficiency and impairments in these processes. CONCLUSION: Vitamin B12 deficiency may adversely affect neurodevelopment and cerebral myelination, representing a potential mechanism underlying alterations in the maturation of neural circuits involved in language. These findings support the biological plausibility that vitamin B12 deficiency may contribute to impaired language development through disrupted cerebral myelination, although direct clinical evidence remains lacking.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>During natural vision, semantic novelty modulates fixation-related processing in primate cortex.</title>
+      <link>https://doi.org/10.1523/jneurosci.0826-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0826-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+We sample visual scenes with short gaze fixations separated by saccades. While low-level integration is known, semantic integration of foveal vision across fixations remains unclear. We hypothesized that the brain responds to changes in semantic information from one fixation to the next, and therefore postulated a neural signal associated with semantic novelty for each saccade. Novelty was measured from different layers of a deep network on foveal vision. Only semantic, and not low- or mid-level, novelty modulated frontal and occipital fixation-related potentials in male and female human scalp EEG during natural viewing of full-length movies (3.4x106 saccades). Intracranial recordings in male and female humans (9.0x104 saccades) and female non-human primates (Macaca mulatta; 3.3x104 saccades) revealed broadband high-frequency activity modulations in scene-specific ventral visual and frontal brain areas only for semantic novelty. This modulation was stronger for movies than static images, and frontal modulation occurred early alongside occipital modulation, suggesting top-down effects. This modulation of fixation-related activity with novelty suggests that foveal representations are compared between consecutive fixations to construct scene representations during natural viewing in primates.Significance statement Primate vision relies on eye movements to sample the world, yet how the brain integrates high-level meaning across these "snapshots" remains a mystery. By combining deep-learning models with massive electrophysiological datasets from humans and macaques, we show that the brain responds to changes in semantic content between fixations, but not low- or mid-level changes. We identified a "semantic novelty" signal that modulates neural activity across the primate cortex. These findings suggest visual processing is not a series of independent glimpses, but a continuous process comparing consecutive foveal information at the semantic level. This work bridges biological vision and artificial intelligence, providing a new framework for understanding how the brain maintains a coherent understanding of a dynamic world.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Beyond the cortex, early deficits, late recovery: a systematic review of language outcomes and subcortical mapping after awake craniotomy for diffuse gliomas.</title>
+      <link>https://doi.org/10.1186/s41016-026-00452-8</link>
+      <guid isPermaLink="false">doi:10.1186/s41016-026-00452-8</guid>
+      <description>Chinese neurosurgical journal
+
+BACKGROUND: To evaluate immediate and long-term postoperative language outcomes in patients undergoing awake craniotomy with direct electrical stimulation (DES) for diffuse gliomas in eloquent regions. METHODS: PRISMA-compliant systematic review (PROSPERO: CRD420261342690) of adults (≥ 18 years) with supratentorial diffuse glioma in the language-dominant hemisphere enrolled in both randomised and non-randomised studies of awake craniotomy with direct electrical stimulation and language mapping. Databases searched included PubMed, MEDLINE, Embase, and Cochrane CENTRAL (from 2010 to March 2026). Study selection, data extraction, and risk of bias assessment were performed independently by multiple reviewers using standardised tools (JBI Critical Appraisal Checklists). Due to methodological heterogeneity, narrative synthesis was performed. RESULTS: Ten studies (532 patients enrolled; 55.3% male) published 2011-2025 were included; tumour grade was reported inconsistently, with higher-grade tumours predominating in the larger cohorts and at least 114 patients having WHO grade 4 disease. Early postoperative deficits ranged from 2.2 to 100% depending on assessment timing and measure (immediate post-op: up to 100%; day 7 to week 1: 2.2-22%). Persistent deficits at ≥ 3 months ranged from 0 to 47%. In three studies reporting whole-cohort outcomes with standardised assessment, rates were 0-5.6%. Papagno et al., using 3-month cut-offs, found that 47% of patients with uncinate fasciculus resection had impairment in famous face naming versus 10% with the tract preserved. The general trend was early decline followed by improvement, with most reported deficits resolving by around 3 months. Heterogeneous deficit definitions and inconsistent baseline assessment preclude treating this as a prognostic pattern, and resections involving the uncinate fasciculus were a notable outlier, underscoring the need for systematic subcortical tract mapping. CONCLUSION: Awake craniotomy with DES remains the gold standard for preserving language. Early deficits are common but predominantly transient, and reported deficit rates appear closely associated with the timing of assessment. Persistent deficits assessed at ≥ 3 months were low in most studies, although rates varied considerably with the outcome measure used and with subcortical tract involvement. Subcortical tract involvement warrants systematic mapping. We advocate for the global adoption of standardised perioperative linguistic protocols to improve data comparability. SYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD420261342690.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Differential structural profiles of the hippocampus and thalamus and their cognitive relevance in unilateral mesial temporal lobe epilepsy.</title>
+      <link>https://doi.org/10.1016/j.pnpbp.2026.111998</link>
+      <guid isPermaLink="false">doi:10.1016/j.pnpbp.2026.111998</guid>
+      <description>Progress in neuro-psychopharmacology &amp; biological psychiatry
+
+BACKGROUND: Cognitive dysfunction is common in mesial temporal lobe epilepsy (MTLE), yet how much the hippocampus and the thalamus each contribute remains unclear. We compared fine-grained hippocampal and thalamic structure and their cognitive relevance in unilateral MTLE. METHODS: We studied 71 patients with unilateral MTLE (39 with hippocampal sclerosis [HS], 32 without) and 17 controls. FreeSurfer-derived cortical, hippocampal-subfield, and thalamic-nucleus volumes were compared using permutation-based general linear models. In patients, 19 cognitive measures were related to volume using covariate-adjusted partial correlations under seizure-referenced (ipsilateral/contralateral) and anatomical left/right codings. Nested additive models tested the incremental cognitive contributions of hippocampal and thalamic volume. RESULTS: Relative to controls, patients showed widespread thalamic atrophy (34 of 44 nuclei in the full cohort, 32 of 44 in each subgroup), whereas hippocampal subfield atrophy was largely confined to HS and no cortical region survived correction. All 48 corrected volume-cognition associations involved hippocampal subfields; none involved thalamic nuclei. Additive models showed that ipsilateral hippocampal volume explained 7.4%-14.6% of cognitive variance alone and explained an additional 6.8%-18.9% of cognitive variance beyond thalamic volume, whereas global thalamic volume did not add significant corrected incremental variance. Preserving anatomical hemisphere linked verbal comprehension and naming to left hippocampal subfields and working memory predominantly to right subfields. CONCLUSIONS: Hippocampal and thalamic abnormalities showed distinct structural and cognitive profiles in unilateral MTLE. Thalamic atrophy was widespread, whereas hippocampal volume was more closely related to cognition and showed additional variation by HS status and anatomical hemisphere.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>What can functional transcranial Doppler ultrasonography reveal about the cerebral lateralization of writing.</title>
       <link>https://doi.org/10.1002/1873-3468.70499</link>
@@ -246,6 +300,18 @@ Distinct cognitive states might be supported either by dedicated, task-specific 
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Reduced magnocellular-biased visual responses are associated with working memory and linguistic difficulties in Chinese developmental dyslexia: A hypothesized visual-cognitive cascade.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.10.012</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.012</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Developmental dyslexia (DD) affects 5-10% of children worldwide. Although phonological theories predominate, they may not fully explain reading difficulties in orthographically dense scripts such as Chinese. We investigated whether Chinese children with DD exhibit differences in early visual cortical responses and how these differences relate to reading-related skills. Steady-state visual evoked potentials (ssVEPs) were recorded from 50 children with DD and 50 typically developing controls aged 7-11 years using gratings that preferentially bias magnocellular or parvocellular processing. Global motion perception, visuospatial attention, verbal working memory, and linguistic skills were also assessed. Children with DD showed reduced ssVEP amplitudes to low-spatial-frequency stimuli (partial η2 = .43, p &lt; .001), whereas responses to high-spatial-frequency stimuli were preserved. Among the domains examined, the visual-processing model provided the strongest within-sample discrimination between groups (Nagelkerke R2 = .68), with low-spatial-frequency ssVEP amplitude as its only significant visual predictor. Exploratory cross-sectional mediation analyses identified significant indirect associations between ssVEP amplitude and linguistic skills through verbal working memory. For phonological awareness, the indirect association was significant, whereas the corresponding direct association was not; for morphological awareness, both associations remained significant. Visuospatial-attention differences were limited to retrospective selection from working memory rather than initial attentional orienting. For most measures, age-related associations did not differ detectably between groups. These findings are compatible with a hypothesized visual-cognitive cascade involving early visual cortical processing, working memory, and reading-related difficulties. However, the cross-sectional design does not establish temporal or causal relationships; longitudinal and intervention studies are needed to test the proposed model.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Human iEEG recordings during audiovisual speech violations support and extend predictive routing models.</title>
       <link>https://doi.org/10.64898/2026.10.30.760243</link>
       <guid isPermaLink="false">doi:10.64898/2026.10.30.760243</guid>
@@ -462,67 +528,6 @@ Motor aphasia is the most prevalent type of aphasia following ischemic stroke (I
 
 来源未提供摘要。</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Dynamic adaptation of attentional control across bilingual interactional contexts</title>
-      <link>https://europepmc.org/article/PMC/PMC13716584</link>
-      <guid isPermaLink="false">PMC:PMC13716584</guid>
-      <description>Frontiers in psychology
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Executive and language systems competitively shape predictive processing during reading</title>
-      <link>https://doi.org/10.64898/2026.10.23.761476</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.23.761476</guid>
-      <description>[预印本] bioRxiv
-
-When we read, our brains constantly generate predictions about upcoming words, which is thought to make comprehension faster and more efficient. Yet it remains unclear whether this predictive mechanism relies on the same domain-general executive resources the brain uses for other demanding cognitive tasks, or operates largely independently within the language system. Here we tested this question using transcranial magnetic stimulation (TMS) in twenty-five healthy adults, who performed self-paced naturalistic reading, an n-back task, and a dual task of concurrent reading and n-back, allowing us to place competing demands on cognitive resources. In three sessions, we stimulated the left angular gyrus alone, the angular gyrus together with dorsolateral prefrontal cortex, a hub of executive control, or delivered sham stimulation, and used computational modeling of decision-making to isolate how each brain state altered the underlying cognitive processes. Combined stimulation of the angular gyrus and prefrontal cortex selectively weakened the reading-time costs of unexpected words, but only when reading competed with the working-memory task, revealing that linguistic prediction draws on executive resources specifically under cognitive load. Computational models showed that the relationship was bidirectional: Unpredictable words also disrupted concurrent working-memory decisions, slowing the accumulation of evidence and increasing response caution. Together, these findings show that predictive language processing is not a fixed, encapsulated function but is dynamically coupled to executive control when cognitive demands compete. Our results provide evidence that prediction during language comprehension is embedded within a broader, demand-sensitive cognitive architecture that flexibly coordinates linguistic and executive resources.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Characterizing Narrative Discourse in Posttraumatic Amnesia and Early Recovery After Severe Traumatic Brain Injury.</title>
-      <link>https://doi.org/10.1044/2026_ajslp-26-00042</link>
-      <guid isPermaLink="false">doi:10.1044/2026_ajslp-26-00042</guid>
-      <description>American journal of speech-language pathology
-
-Purpose Following severe traumatic brain injury (TBI), individuals experience a transient period of confusion known as posttraumatic amnesia (PTA). Few empirical speech-language pathology studies have described language and cognitive-communication features during PTA or examined their early recovery. International guidelines recommend routine monitoring of communication during PTA; however, standardized speech-language pathology assessments are generally unsuitable for use during PTA. Narrative tasks offer a structured and repeatable approach to capture clinically meaningful changes. The purpose of this research was to describe narrative discourse characteristics in adults with severe TBI during PTA and examine how performance changed following PTA resolution. Method Nine adults with severe TBI admitted to an inpatient rehabilitation setting completed a narrative task during PTA and again after resolution of PTA. Language samples were analyzed across multiple levels, with descriptive analyses used to characterize performance and patterns of change. Discourse performance during PTA was compared descriptively to published data, providing reference data for microlinguistic measures and story grammar in adults without brain injury and adults with TBI who were not in PTA, where data were available. Results All participants demonstrated confused, disorganized narratives during PTA, although the degree and profile of impairment varied markedly across individuals. Macrostructural analyses provided the most meaningful and sensitive indicators of change, with several participants showing clearer narrative structure and increased production of relevant content post-PTA. Conclusions A narrative task has the potential to provide insight into the communication ability of patients in PTA, particularly in relation to change over time. This may help to guide decisions about the most appropriate timing for formal speech-language pathology assessment and intervention.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Dual-site multifocal HD-tDCS modulates bilingual language control via brain activity and connectivity.</title>
-      <link>https://doi.org/10.1007/s11571-026-10582-5</link>
-      <guid isPermaLink="false">doi:10.1007/s11571-026-10582-5</guid>
-      <description>Cognitive neurodynamics
-
-Bilinguals rely on language control mechanisms to manage cross-language interference. Interactions between the pre-supplementary motor area (pre-SMA) and the left cerebellum play an important role in bilingual language control. However, our previous brain stimulation study targeting the cerebellum alone failed to detect significant behavioral changes in bilingual language control. In this study, we combined dual-site tDCS with fMRI to investigate its effects on bilingual language control and compared it with conventional single-site tDCS. Using a within-subject design, Chinese-English bilinguals underwent three sessions: pre-stimulation baseline, single-site tDCS over pre-SMA, and dual-site tDCS over pre-SMA and left cerebellum. Following dual-site stimulation, we observed reduced brain activity within the language control network, including the right cerebellar lobule VI, and strengthened thalamo-cerebellar connections during bilingual language production. In a separate behavioral experiment, language switch cost was lower after dual-site stimulation than at baseline but did not differ significantly between dual-site and single-site stimulation. Together, these findings provide preliminary evidence that dual-site tDCS modulates bilingual language control, potentially by strengthening thalamo-cerebellar connectivity and modulating cerebellar neural activity. These results also highlight the functional interaction between the pre-SMA and the cerebellum in supporting bilingual language control.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Early ERP processing of self-referential language processing in voluntary and involuntary action contexts: N170 and EPN.</title>
-      <link>https://doi.org/10.1007/s00426-026-02370-x</link>
-      <guid isPermaLink="false">doi:10.1007/s00426-026-02370-x</guid>
-      <description>Psychological research
-
-Understanding how the brain differentiates self from others through language represents an important topic in psychology, linguistics, and social cognition. Within an embodied cognition framework, the present EEG study investigated early neural responses to isolated German pronouns varying in self-relatedness (self-, other-, and self/other-related) and grammatical type (personal vs. possessive). Forty right-handed native German speakers silently read visually presented pronouns while EEG activity was recorded. Two task contexts were employed, involving voluntary and involuntary keypress responses following stimulus presentation. Event-related potential (ERP) analyses revealed significant modulations of the N170 and Early Posterior Negativity (EPN) components. N170 amplitudes varied as a function of pronoun type and self-relatedness, with self-related and other-related pronouns eliciting different responses from ambiguous second-person forms. EPN amplitudes differed across self-reference categories, with additional interactions involving hemisphere and pronoun type. Together, these findings suggest that even minimal linguistic stimuli such as pronouns engage early neural processes sensitive to self-relatedness and linguistic context. Task conditions also differed in early ERP amplitudes; because responses in the immediate-response condition overlapped the ERP measurement intervals, these differences are reported without functional attribution.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>The interplay between cortical tracking and functional connectivity in musicians and non-musicians listening to speech and music</title>
-      <link>https://doi.org/10.64898/2026.10.27.762164</link>
-      <guid isPermaLink="false">doi:10.64898/2026.10.27.762164</guid>
-      <description>[预印本] bioRxiv
-
-Musical expertise is associated with auditory processing advantages which can extend to the speech domain. However, the origins of such domain-general benefits remain unclear. Recent frameworks propose that better rhythm processing in musicians might be at the basis of the observed advantages in processing music and speech. Auditory cortical tracking and inter-regional interactions between auditory and motor areas have been proposed as key neural mechanisms. In this study, we asked whether expertise-related increase in cortical tracking would be elicited by naturalistic stimuli in clear listening conditions, and whether such effects would be related to audiomotor functional connectivity and individual rhythmic abilities. We compared MEG data from expert musicians and controls with no musical playing experience while they listened to two-minutes long stories and excerpts of piano music. We also collected behavioral data in a rhythmic task testing speech (syllable) production. We found that musicians showed enhanced tracking and enhanced functional connectivity in both speech and music conditions, as well as better rhythmic abilities relative to non-musicians. Alpha connectivity between the right auditory cortex and inferior frontal gyrus negatively predicted cortical tracking across all participants in the speech condition, while no relation was observed for music. We suggest that stronger cortical tracking in musicians is due to domain-general differences in auditory sensory processes and is not driven by motor influences in our experiment. Moreover, a trade-off between cortical tracking and inter-regional communication might be at the basis of optimal perception of speech in both musicians and non-musicians in clear listening conditions.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>静息态与自然刺激</category>
     </item>

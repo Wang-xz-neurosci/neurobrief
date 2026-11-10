@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Nov 2026 23:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 20:46:39 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -266,6 +266,18 @@ Emotion recognition is an essential component of socio-emotional functioning, ye
 
 Transcranial magnetic stimulation (TMS) to the dorsolateral prefrontal cortex (dlPFC) is an established treatment for depression, yet the fundamental question of how cortical stimulation influences single neurons in deep brain circuits critical for mood regulation remains unanswered. Using a rare opportunity to record from intracranial microelectrodes while TMS was delivered in four neurosurgical patients, we evaluated the responses of 185 single neurons. Artifact cleaning enabled single-neuron spikes to be resolved as early as 8 ms after stimulation. We found that single-pulse TMS to the left dlPFC elicited time-locked firing responses in 46% of neurons (26% facilitated only, 19% suppressed only, 1% both). These responses occurred within deep bilateral cortical and subcortical structures, including the putamen and thalamus. Single-pulse TMS tended to facilitate spiking in striato-thalamic putative inhibitory neurons from ~8 ms, peaking at ~80 to 100 ms, and decaying until ~600 ms. In contrast, putative excitatory neurons and limbic areas were suppressed with a slower time course lasting to ~1,000 ms. TMS-evoked potentials recorded from intracranial depth macroelectrodes to quantify network activity revealed that the modulation of responsive neurons was positively correlated with cortico-striato-thalamic network activity and anticorrelated with limbic network activity in one participant with sufficient network and unit sampling. These results suggest that dlPFC TMS recruits a high percentage of neurons spanning cortical and subcortical brain regions bilaterally. The recruitment pattern selectively involves increasing the firing rate of inhibitory neurons in executive control networks while suppressing limbic excitatory drive, providing a candidate cellular mechanism for how cortical stimulation modulates distributed brain networks.</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Reduced magnocellular-biased visual responses are associated with working memory and linguistic difficulties in Chinese developmental dyslexia: A hypothesized visual-cognitive cascade.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.10.012</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.012</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Developmental dyslexia (DD) affects 5-10% of children worldwide. Although phonological theories predominate, they may not fully explain reading difficulties in orthographically dense scripts such as Chinese. We investigated whether Chinese children with DD exhibit differences in early visual cortical responses and how these differences relate to reading-related skills. Steady-state visual evoked potentials (ssVEPs) were recorded from 50 children with DD and 50 typically developing controls aged 7-11 years using gratings that preferentially bias magnocellular or parvocellular processing. Global motion perception, visuospatial attention, verbal working memory, and linguistic skills were also assessed. Children with DD showed reduced ssVEP amplitudes to low-spatial-frequency stimuli (partial η2 = .43, p &lt; .001), whereas responses to high-spatial-frequency stimuli were preserved. Among the domains examined, the visual-processing model provided the strongest within-sample discrimination between groups (Nagelkerke R2 = .68), with low-spatial-frequency ssVEP amplitude as its only significant visual predictor. Exploratory cross-sectional mediation analyses identified significant indirect associations between ssVEP amplitude and linguistic skills through verbal working memory. For phonological awareness, the indirect association was significant, whereas the corresponding direct association was not; for morphological awareness, both associations remained significant. Visuospatial-attention differences were limited to retrospective selection from working memory rather than initial attentional orienting. For most measures, age-related associations did not differ detectably between groups. These findings are compatible with a hypothesized visual-cognitive cascade involving early visual cortical processing, working memory, and reading-related difficulties. However, the cross-sectional design does not establish temporal or causal relationships; longitudinal and intervention studies are needed to test the proposed model.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
     </item>
@@ -546,18 +558,6 @@ Exposure to maltreatment in childhood is posited to profoundly disrupt brain dev
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Tumor lesions in the supplementary motor area may induce large-scale sensorimotor and cognitive network alterations- A functional and structural connectivity analysis.</title>
-      <link>https://doi.org/10.3389/fneur.2026.1878278</link>
-      <guid isPermaLink="false">doi:10.3389/fneur.2026.1878278</guid>
-      <description>Frontiers in neurology
-
-BACKGROUND: Patients with brain tumors involving the SMA often develop postoperatively a mostly transient contralateral akinesia ('SMA-syndrome'), which may primarily be a cognitive disorder of executive functions. However, the neurophysiological correlates are unclear. Considering the SMA as a gateway between motor and cognitive control functions, we explored structural SMA-connectivity (SC), and functional connectivity (FC) of the sensorimotor (SMN), and of cognitive networks in SMA-tumor patients. METHODS: 13 SMA-tumor patients and 13 matched healthy controls underwent diffusion-tensor-imaging (DTI) and resting-state-fMRI preoperatively. Intra- (Frontal Aslant Tract) and interhemispheric SC of the SMA (SMA-SMA, SMA-M1) was compared between groups. FC-networks were established by group Independent Component Analysis (ICA), and subjected to a second-level ROI-to-ROI (region-of-interest) analysis to investigate between-group differences. RESULTS: DTI revealed microstructural white-matter disintegration and smaller tract volumes of SMA-M1 connectivity (p &lt; 0.005), and by trend of the FAT (p &lt; 0.06), with differing SMA-M1 fiber-length in patients (p &lt; 0.026). SMA-SMA SC was not reduced, but showed greater variance in patients. While FC was significantly decreased within different cognitive networks, FC was increased within the SMN, as well as between the SMA and the contralesional frontoparietal network (p &lt; 0.046) in patients. CONCLUSIONS: In this exploratory study, we found sensorimotor- as well as large-scale cognitive network alterations prior to therapeutic intervention, suggesting tumor-associated SC disintegration to be accompanied by in- and decreases of FC within and across different networks. Future studies incorporating neuropsychological-testing are required to characterize pretherapeutic connectivity alterations with regard to their behavioral significance, and to determine whether they may impact the postoperative functional outcome.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>
