@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Nov 2026 20:46:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 21:18:10 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,6 +20,16 @@ Trust is a critical component of human communication, providing a foundation for
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Efficacy of a motor speech intervention in children with cerebral palsy: A randomized controlled trial.</title>
+      <link>https://doi.org/10.1111/dmcn.70621</link>
+      <guid isPermaLink="false">doi:10.1111/dmcn.70621</guid>
+      <description>Developmental medicine and child neurology
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Vitamin B12 deficiency, cerebral myelination, and language development: biological evidence from an integrative review.</title>
       <link>https://doi.org/10.1080/17518423.2026.2761583</link>
       <guid isPermaLink="false">doi:10.1080/17518423.2026.2761583</guid>
@@ -29,6 +39,26 @@ OBJECTIVE: This study aimed to analyze scientific evidence on the relationship b
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Audio large language models align with human neural responses during spoken-language comprehension.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122343</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122343</guid>
+      <description>NeuroImage
+
+Audio large language models (audio LLMs) process continuous speech directly and transform it into progressively more abstract representations, providing a useful computational point of comparison with human spoken-language comprehension. Previous studies have reported model-brain correspondence for pretrained speech models and text-based language models, but it remains unclear which internal representations of audio LLMs are most closely associated with neural responses during online listening. We compared EEG responses from 41 native Mandarin listeners with internal representations from Qwen2-Audio, Qwen2.5-Omni, and Kimi-Audio in a Mandarin auditory semantic-violation paradigm that controlled sentence structure and event boundaries. We extracted speech-related and word-level semantic-update representations and quantified their incremental contributions to held-out EEG prediction beyond lower-level controls. Audio LLM representations improved EEG prediction beyond the acoustic envelope, phoneme onsets, and word onsets (Δr = 0.012, corrected P = 0.028). Prediction-score partitioning indicated that semantic violation primarily increased the overlap in EEG-predictive information between speech-related and semantic-update representations, rather than the unique contribution of either representation class. This pattern was relatively stable in Qwen2-Audio and Qwen2.5-Omni and directionally consistent, although statistically weaker, in Kimi-Audio. These findings provide component-level evidence that audio-conditioned model representations correspond to human neural responses during spoken-language comprehension, without implying mechanistic equivalence.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Aphasic status epilepticus presenting with prominent psychiatric symptoms: A case report.</title>
+      <link>https://doi.org/10.1002/pcn5.70440</link>
+      <guid isPermaLink="false">doi:10.1002/pcn5.70440</guid>
+      <description>PCN reports : psychiatry and clinical neurosciences
+
+BACKGROUND: Aphasic status epilepticus (ASE) is a subtype of nonconvulsive status epilepticus characterized by aphasia as its primary ictal manifestation. Although psychiatric symptoms are uncommon in ASE, they may obscure the diagnosis when present. We report an atypical case, presenting predominantly with agitation and irritability, which was rapidly diagnosed as ASE by electroencephalography (EEG) based on the abrupt symptom onset and neurological history. CASE PRESENTATION: A 49-year-old right-handed woman with alcohol use disorder was referred to our psychiatric hospital because of agitation, irritability, and disorganized thinking. Approximately 2 months before presentation to our hospital, she developed a generalized tonic-clonic seizure 3 days after sustaining a head injury. A left posterior fossa subdural hematoma was diagnosed, and burr-hole evacuation was performed at a general hospital. She continued rehabilitation; however, 6 days before admission to our hospital, she suddenly developed incoherent speech with agitation and irritability, prompting referral to our psychiatric hospital. Neurological examination revealed sensory aphasia. Given the history of brain injury and abrupt symptom onset, EEG was performed and demonstrated left-dominant periodic lateralized epileptiform discharges, confirming ASE. Antiseizure treatment resolved the EEG abnormalities and aphasia; however, aphasia, agitation, and irritability recurred with periodic lateralized epileptiform discharges. The symptoms improved with intravenous diazepam, and no recurrence was observed for &gt;2 years following optimization of antiseizure medication. CONCLUSION: ASE may present predominantly with psychiatric symptoms and be misdiagnosed as a primary psychiatric disorder. Recognizing symptom chronology and epileptogenic background is essential for prompting EEG evaluation and early diagnosis.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
     </item>
     <item>
       <title>During natural vision, semantic novelty modulates fixation-related processing in primate cortex.</title>
@@ -498,38 +528,6 @@ To evaluate the utility of a pruning method in refining tractography and to exam
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
-    </item>
-    <item>
-      <title>The effect of acupuncture-rehabilitation therapy on brain functional plasticity in motor aphasia after ischemic stroke: a randomized clinical neuroimaging trial.</title>
-      <link>https://doi.org/10.1007/s11682-026-01155-5</link>
-      <guid isPermaLink="false">doi:10.1007/s11682-026-01155-5</guid>
-      <description>Brain imaging and behavior
-
-Motor aphasia is the most prevalent type of aphasia following ischemic stroke (IS). This study aims to evaluate the therapeutic efficacy and underlying neural mechanisms of acupuncture-rehabilitation (A-R) therapy on motor aphasia after IS. Twenty-six patients with post-IS motor aphasia were randomly assigned to either the A-R group or the Conventional Rehabilitation (CR) group in a 1:1 ratio, and matched by age and gender with 26 healthy controls (HCs). The CR group received standard treatment and language training, while the A-R group additionally underwent scalp acupoint cluster acupuncture. Behavioral assessments and Blood Oxygenation Level Dependent functional Magnetic Resonance Imaging (BOLD-fMRI) scans were conducted before and after the four-week intervention to evaluate therapeutic outcomes and underlying mechanisms. Compared to HCs, patients exhibited decreased Amplitude of Low Frequency Fluctuations (ALFF) in the right precuneus (p &lt; 0.05) and reduced Regional Homogeneity (ReHo) in the left precuneus/postcentral gyrus (p &lt; 0.05). Enhanced functional connectivity (FC) was observed in regions including the left Broca's area and right superior temporal gyrus, left Broca's area and right inferior frontal orbitalis gyrus, left Broca's area and right precentral gyrus, left Broca's area and right postcentral gyrus (p &lt; 0.05). After intervention, significant improvements were observed in Aphasia Quotient (AQ) scores and sub-item performance in both patient groups (p &lt; 0.05), with the A-R group showing greater gains in AQ and spontaneous speech scores compared to the CR group (p &lt; 0.05). FMRI results indicated a significant increase in mean ALFF (mALFF) in the left inferior temporal gyrus after A-R treatment (p &lt; 0.05) compared to before, and higher szReHo in the left anterior central gyrus compared to the CR group (p &lt; 0.05). FC between the left Broca's area and right precentral gyrus decreased in the A-R group (p &lt; 0.05). Additionally, a negative correlation was observed between the right anterior central gyrus and listening comprehension (r = -0.574, p = 0.020). The findings suggest that both A-R and CR therapies enhance language function in patients with motor aphasia post-IS, with A-R therapy demonstrating superior efficacy. The therapeutic mechanism of A-R likely involves activating left hemisphere brain regions, suppressing right hemisphere activity, and restoring hemispheric balance to facilitate functional recovery.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>E-MDD: an evidence-guided explainable framework for EEG-based depression recognition</title>
-      <link>https://europepmc.org/article/PMC/PMC13717697</link>
-      <guid isPermaLink="false">PMC:PMC13717697</guid>
-      <description>Frontiers in digital health
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Naturalistic language assessment and brain-network biomarkers in post-stroke aphasia for precision neurorehabilitation</title>
-      <link>https://europepmc.org/article/PMC/PMC13717245</link>
-      <guid isPermaLink="false">PMC:PMC13717245</guid>
-      <description>Frontiers in human neuroscience
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>
