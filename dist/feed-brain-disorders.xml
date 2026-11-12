@@ -5,9 +5,128 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 11 Nov 2026 21:18:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 21:25:49 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The role of network connectivity and transcriptomic vulnerability in shaping gray matter atrophy in multiple sclerosis</title>
+      <link>https://europepmc.org/article/PMC/PMC13754032</link>
+      <guid isPermaLink="false">PMC:PMC13754032</guid>
+      <description>Science advances
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Acupuncture-related brain network findings across clinical stages of the Alzheimer’s disease continuum: a critical review of functional MRI evidence</title>
+      <link>https://europepmc.org/article/PMC/PMC13752398</link>
+      <guid isPermaLink="false">PMC:PMC13752398</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Cortical thinning and altered directed connectivity in Parkinson’s disease: a cortical thickness–guided voxel-wise granger causality study</title>
+      <link>https://europepmc.org/article/PMC/PMC13751517</link>
+      <guid isPermaLink="false">PMC:PMC13751517</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Capturing Habits in Humans: Neural Circuitry, Computations, and Clinical Mechanisms.</title>
+      <link>https://doi.org/10.1523/jneurosci.1241-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1241-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Habits allow repeated behaviors to be executed efficiently, but habitual control can contribute to maladaptive inflexibility when it dominates despite changing goals or consequences. This review examines recent advances in understanding habitual control across neural circuits, computation, clinical phenotypes, and measurement. We first consider dorsomedial striatal mechanisms that support action-outcome learning and flexible goal-directed behavior and how chronic stress can alter striatal inputs to bias learning toward habitual control. Progress on what computational reinforcement-learning accounts for arbitration between goal-directed and habitual systems is described along prefrontal mechanisms guiding model-based control, action perseveration, and compulsivity in obsessive-compulsive disorder (OCD). A wider behavioral spectrum beyond action initiation is provided, reviewing emerging work on habitual inhibition and frontostriatal circuit dynamics of avoidance in OCD. Recent laboratory paradigms aim to reveal habit formation more sensitively than traditional outcome-devaluation paradigms, whereas real-world digital approaches use smartphones, wearables, and intensive longitudinal measurement to track habit formation and expression in everyday life. Integrating these approaches can help link habits to physiology, symptoms and neural circuits across laboratory to real-world and clinical contexts.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Hormonal Effects during the Reproductive Years on Brain and Behavior: Molecular Discovery to Promising Therapeutics for Women's Mental Health.</title>
+      <link>https://doi.org/10.1523/jneurosci.1189-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1189-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Beginning at puberty and throughout the lifespan, women experience greater rates of depression, anxiety disorders, eating disorders, post-traumatic stress disorder, and hormone-linked mood disorders relative to men. How these disorders relate to hormonal fluctuations and associated changes in physiology and brain circuitry in women during the reproductive years is only partially understood. In this review, the molecular, structural, and functional brain changes during the reproductive years are discussed, with a specific focus on transitional changes during the perinatal period. Preclinical and clinical models of neuroplastic change are also discussed, along with neuromodulatory approaches that account for the contextual, spatial, and temporal parameters of interventions delivered during the postpartum period. Future directions may consider how hormonal fluctuations during reproductive years may improve preclinical and clinical models for women's mental health while acknowledging that greater work is needed to understand the role of a broader range of hormonal and environmental factors linked to mental health including lactation, trauma, contraceptive use, menstruation, and perimenopause.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Hidden Vision and Beyond: Multiscale Foundations of Thalamic Organization.</title>
+      <link>https://doi.org/10.1523/jneurosci.1185-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1185-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+The subcortical visual system is traditionally described through a small number of canonical pathways, with the dorsal lateral geniculate nucleus (LGN) viewed primarily as a first-order relay to primary visual cortex and additional routes through the superior colliculus, pulvinar and koniocellular LGN considered secondary or residual. Here, we review recent evidence across species, methods, and scales that challenge this framework and suggest that the visual thalamus is an active, dynamically regulated component of visual processing. We first consider primary and nonprimary visual pathways, showing how thalamic inputs shape cortical responses through the timing, spatial arrangement, synaptic organization, laminar targeting, and circuit-level integration of feedforward signals. We then reconsider the "first-order" status of LGN itself, reviewing evidence that nonretinal subcortical inputs, local inhibition, and corticothalamic feedback can alter LGN responses and the signals routed onward to cortex. This shifts the view of LGN from a passive relay supplying a dynamic cortex to a dynamically regulated node in its own right. Next, we review advances in higher-order thalamic organization, highlighting structured thalamocortical connectivity, network-level coordination, and state-dependent dynamics. Finally, we consider how thalamic functions change in the injured brain, where emerging models disentangle acute effects of damage from chronic compensation to reveal how surviving thalamic and downstream pathways may be remodeled, reweighted, or recruited to support residual visual function and recovery. Together, these findings support a multiscale view of the thalamus as a collection of specialized, adaptive nuclei embedded within distributed cortico-subcortical networks, with implications for perception, cognition, sensory disorders, and rehabilitation.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Semantic Processing in Unresponsive Patients With Acute Brain Injury.</title>
+      <link>https://doi.org/10.1212/wnl.0000000000218680</link>
+      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218680</guid>
+      <description>Neurology
+
+Early prognostication after acute brain injury (ABI) is challenging because behavioral responsiveness may not accurately reflect preserved cognitive function. Neural responses to semantic incongruity can identify language processing despite the absence of overt behavior. We investigated whether bedside EEG could detect semantic processing in unresponsive patients with ABI and whether its presence was associated with long-term outcomes. In this prospective 2-center cohort study, unresponsive adults with ABI admitted to neurologic intensive care units between 2022 and 2025 underwent bedside EEG during a language paradigm comparing congruent and incongruent sentence endings (e.g., "my favorite color is green/soon"). Semantic processing was defined by differential event-related responses within centroparietal channels (300-500 milliseconds) using cluster-based permutation testing with false discovery rate correction. Outcomes were assessed for recovery of consciousness and functional recovery (Glasgow Outcome Scale-Extended score ≥4) at 12 months by blinded interviewers. Diagnostic performance was evaluated using sensitivity, specificity, predictive values, accuracy, and likelihood ratios. Among 105 patients (mean age 58 ± 19 years; 21% women; 53% Hispanic/Latino), the most common etiologies were intracerebral hemorrhage (45%), traumatic brain injury (43%), and subarachnoid hemorrhage (10%). Withdrawal of life-sustaining therapy occurred in 31%. Semantic processing was detected in 13 patients (12%). Recovery of consciousness occurred in 77% of patients with semantic processing compared with 49% without semantic processing (odds ratio [OR] 3.5; 95% CI 0.9-13.5, p = 0.08). Functional recovery occurred in 42% with semantic processing compared with 14% without semantic processing (OR 4.5; 95% CI 1.2-16.6, p = 0.03). Semantic processing was highly specific but insensitive for predicting both recovery of consciousness (specificity 94%, sensitivity 18%) and functional recovery (specificity 92%, sensitivity 29%). After excluding patients who underwent withdrawal of life-sustaining therapy or died of non-neurologic medical complications, specificity increased to 100% for recovery of consciousness and 95% for functional recovery. EEG evidence of semantic processing can be detected in a subset of unresponsive patients with ABI during the acute phase of injury and is associated with favorable long-term outcomes. Semantic processing was a specific but insensitive biomarker of recovery, suggesting potential utility as a rule-in marker of preserved cognitive function. These findings are hypothesis-generating and require validation in larger multicenter cohorts before clinical implementation.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Insight discordance differentiates behavioural variant frontotemporal dementia from false positives.</title>
+      <link>https://doi.org/10.1093/brain/awag394</link>
+      <guid isPermaLink="false">doi:10.1093/brain/awag394</guid>
+      <description>Brain : a journal of neurology
+
+Behavioural variant frontotemporal dementia (bvFTD) can present with behavioural symptoms similar to psychiatric mimics of the disease (sometimes termed 'phenocopies'). Despite this overlap, loss of insight is a cardinal feature of bvFTD unlike most psychiatric disorders. This study tested whether insight could be quantified to improve diagnostic accuracy in distinguishing these conditions, and examined neuroimaging correlates of impaired insight. In this prospective cohort study, 27 patients with frontotemporal lobar degeneration (FTLD) presenting as the bvFTD phenotype and 25 false-positives of bvFTD who ultimately had a psychiatric disorder underwent patient, informant, and clinician symptom ratings on a modified Frontal Behavioural Inventory (FBI). Discrepancy scores were calculated, diagnostic discrimination was evaluated by area under the curve (AUC) with leave-one-out cross-validation, alongside a neuroimaging analysis of network-level associations of insight in bvFTD. Patients with bvFTD endorsed fewer symptoms than false-positives (FBI 6.62 ± 8.80 vs 15.36 ± 8.42, P &lt; 0.001), whereas clinician observations were markedly greater in bvFTD (27.67 ± 8.35 vs 5.64 ± 3.85, P &lt; 0.001). Informant ratings did not differ between groups (25.15 ± 11.11 vs 21.32 ± 12.61, P = 0.14), even though bvFTD informants had more knowledge of the disease (FTD Knowledge Scale 16.20 ± 6.68 vs 9.41 ± 8.19, P = 0.003). A model incorporating patient-clinician and informant-clinician discrepancy showed excellent cross-validated discrimination (AUC 0.99, 95% confidence interval (CI) 0.97-1.00). A model independent of expert clinician ratings, the patient-informant discrepancy, showed fair cross-validated discrimination across the full cohort (AUC 0.71, 95% CI 0.56-0.85) and good discrimination in those who did not develop another FTLD syndrome on follow-up ('pure bvFTD'; AUC 0.78, 95% CI 0.63-0.94). In bvFTD, reduced insight was associated with salience and semantic appraisal network degeneration but not control frontotemporal regions. BvFTD, false-positives, and their informants demonstrated opposing patterns of symptom endorsement. Symptom under-endorsement (lack of insight) by patients relative to clinician and informant observation supports neurodegeneration, whereas informant and patient over-endorsement without clinician-observed disturbance suggests a false-positive. Unfamiliarity with bvFTD may contribute to over-reporting. Though the clinician-dependent findings may not translate to non-expert settings, the patient-informant model retained good discrimination. Formal quantification of discrepancy patterns in behaviour may reduce misdiagnosis in bvFTD. The neuroimaging findings support salience and semantic appraisal networks as the neuroanatomical basis for insight in bvFTD. Future studies should validate the FBI clinician version and examine factors underlying over-reporting by false-positives and their informants.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Convergent and Divergent Neural Signatures of Cue-Induced Response in Substance and Behavioral Addictions: A Coordinate-Based Neuroimaging Meta-Analysis.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107087</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107087</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Addiction-related cues trigger craving and precipitate relapse, yet whether substance use disorders (SUDs) and behavioral addictions (BAs) share a universal neurobiological cue-reactivity core remains unresolved. We conducted a coordinate-based meta-analysis using Seed-based d Mapping with Permutation of Subject Images (SDM-PSI) to synthesize whole-brain fMRI studies comparing visually evoked cue-reactivity in strictly diagnosed SUDs and BAs versus healthy controls. An updated systematic search through September 12, 2026, yielded 50 eligible articles comprising 53 independent contrasts and 2,578 participants. Pooled analyses across all addictions revealed convergent cue-elicited activations in the mid-cingulate cortex, precentral gyrus, and a midline midbrain region. However, a formal SUD ∩ BA conjunction analysis yielded no family-wise error (FWE)-corrected shared clusters. Direct comparisons demonstrated greater activation in the left hippocampus, pregenual anterior cingulate cortex, and precuneus for SUDs relative to BAs. Importantly, the left hippocampal and precuneus differences survived age adjustment; furthermore, the hippocampal finding remained robust when restricting analyses to highly controlled cue-versus-neutral paradigms, while the precuneus finding was retained within picture-cue modalities. Furthermore, exploratory analyses of clinical characteristics indicated that cue-elicited neural responses were associated with specific clinical states and treatment variables (e.g., methadone maintenance in heroin use disorder), highlighting the modulatory effect of clinical symptom profiles on these regional functional signatures. Overall, the results motivate further investigation of memory- and self-related processes, as well as control- or action-related processes. These findings offer a critical foundation for developing targeted clinical interventions, distinguishing between generalized transdiagnostic neuromodulation targets and disorder-specific therapies tailored to distinct clinical and demographic profile.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Transdiagnostic variation in age-related patterns of rich-club organization across neurodevelopmental and related mental health conditions.</title>
+      <link>https://doi.org/10.1162/imag.a.1449</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1449</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Rich-club organization is a topographical property of functional brain networks where highly connected regions are more densely interconnected. The rich-club has been shown to be vital for supporting cognitive functioning, and differences have been associated with a wide range of mental health and developmental conditions. This type of organization undergoes complex changes across development, and we have previously shown that males and females have strikingly distinct age-related changes. While disruptions in its development have been related to neurodevelopmental conditions and related mental health conditions such as attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and obsessive-compulsive disorder (OCD), the diagnostic- and sex-specific age-related patterns remain unexplored. These conditions also have heterogeneous and overlapping neurobiology and phenotype, and thus transdiagnostic approaches may be most suitable for addressing the complexities. Here, we combine the temporal advantages of magnetoencephalography (MEG) with a data-driven, transdiagnostic approach to parse the heterogeneity of age-related variation in rich-club organization in 386 neurodivergent (116 ADHD, 231 autism, 39 OCD) and 231 neurotypical children and youth, stratified by biological sex. In males and females, subgroups with distinct age-related patterns of rich-club organization did not align cleanly with the diagnostic categories. These patterns were frequency specific, separating the female subgroups in the alpha and gamma bands and the male subgroups in the theta, alpha, beta, and high gamma bands. While the female subgroups differed in their proportions of autistic and neurotypical individuals, all diagnostic categories were represented across the subgroups. The female subgroups also differed in intelligence, while the male subgroups differed in hyperactivity/impulsivity symptoms. Together, our findings indicate that frequency-specific, age-related variation in rich-club organization is largely shared across neurotypical and neurodivergent children and youth, rather than delineating diagnostic categories, and highlight the importance of considering sex when studying the biological constructs underlying neurodivergence.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Load-dependent brain network reconfiguration deficits in childhood ADHD revealed by source-space MEG and Graph Transformer modeling.</title>
+      <link>https://doi.org/10.1016/j.dcn.2026.101845</link>
+      <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101845</guid>
+      <description>Developmental cognitive neuroscience
+
+Attention-deficit/hyperactivity disorder (ADHD) is clinically heterogeneous, motivating biomarkers that capture how brain networks reorganize under cognitive demand. We studied 122 children aged 8-12 years (61 with ADHD and 61 controls) during a visually cued attention/inhibition paradigm spanning three operationalized composite demand levels in whole-head MEG; structural MRI supported anatomical source modeling, and 34 children with ADHD completed approximately 6 months of follow-up. After denoising, head-motion compensation, ICA-based artifact removal, dSPM source reconstruction, and Morlet wavelet decomposition, we extracted source time series from 68 DKT cortical regions, quantified dynamic connectivity with PLV, wPLI, AEC, and MI, derived graph-theoretic and hidden Markov model features, and trained a spatiotemporal Graph Transformer. Behavioral group differences increased with cognitive demand, with high-load accuracy showing a large effect size (d=1.71). Relative to controls, children with ADHD showed weaker frontoparietal θ coupling, stronger default-mode α coupling, reduced occupancy of frontoparietal-dominant states, greater default-mode state persistence, lower global efficiency, higher modularity, and smaller gains in network flexibility; frontoparietal flexibility showed the strongest association with inattentive symptoms (rs=-0.78). Under participant-level nested cross-validation, the Graph Transformer achieved 94.3% accuracy for three-class cognitive-demand classification (AUC = 0.981) and 96.7% accuracy for ADHD diagnosis (AUC = 0.991). Secondary presentation analyses reached 83.6% accuracy (95% CI: 73.8%-91.8%), and higher baseline frontoparietal flexibility in the follow-up subset was associated with subsequent medication response (OR = 8.49, 95% CI: 2.31-31.2). In an independent task-matched MEG cohort (n=45), zero-shot ADHD diagnostic accuracy was 90.0% (AUC = 0.952), increasing to 94.2% (AUC = 0.981) after limited classification-head adaptation on a separate subset. Together, these results identify load-dependent network flexibility and state-transition measures as candidate adjunctive biomarkers and define prospective multi-center validation as the next translational test.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Creative cognition in frontotemporal dementia and brain health.</title>
       <link>https://doi.org/10.1016/j.tins.2026.10.009</link>
@@ -93,28 +212,6 @@ Identifying the neurobiological basis of cognitive vulnerability is essential fo
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Cannabidiol and fronto-parietal EEG connectivity in autistic children.</title>
-      <link>https://doi.org/10.1093/cercor/bhag188</link>
-      <guid isPermaLink="false">doi:10.1093/cercor/bhag188</guid>
-      <description>Cerebral cortex (New York, N.Y. : 1991)
-
-Autistic children often show altered brain network connectivity, including circuitry implicated in social cognition. Cannabidiol (CBD) has emerged as a potential therapy for autism, but its neural mechanisms remain under-researched. Here, we analyze resting-state data collected as part of a double-blind, placebo-controlled crossover trial, to explore whether 12 weeks of oral CBD oil could modulate functional connectivity in autistic children. Twenty-nine autistic children (5 to 12 years) completed two 12-week intervention periods (CBD and placebo, randomized) separated by an 8-week washout. Before and after each period, 5 min of eyes-open resting-state electroencephalography (EEG) were obtained from a subset of 18 participants (8 female). Functional connectivity was calculated across 16 electrode-pairs in the delta, theta, alpha, beta, and gamma bands. Beta-band connectivity between the right frontal and right inferior-parietal electrodes increased following CBD (P = 0.001, false discovery rate [FDR]-corrected P [pFDR] = 0.022), and alpha connectivity showed an increase that did not remain following FDR correction (P = 0.036, pFDR = 0.428). No significant differences were observed following placebo for any frequency band (pFDR &gt; 0.69). This study provides preliminary evidence that 12 weeks of cannabidiol is associated with an increase in right fronto-parietal (F4-P8) functional connectivity in autistic children, most pronounced in the beta-band. Replication in larger samples is needed to confirm generalizability and clinical relevance.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neurobehavioral correlates of changing one's mind in ADHD and OCD.</title>
-      <link>https://doi.org/10.1093/cercor/bhag187</link>
-      <guid isPermaLink="false">doi:10.1093/cercor/bhag187</guid>
-      <description>Cerebral cortex (New York, N.Y. : 1991)
-
-Cognitive flexibility is an executive function that allows individuals to adjust behavior in response to changing environmental demands. We assessed volitional switching under uncertainty, without rule-based learning, in the "Change Your Mind" task. Nineteen patients with obsessive-compulsive disorder (OCD), 19 patients with attention-deficit hyperactivity disorder (ADHD) and matched control participants (20 per group) completed the task while undergoing a functional MRI scan. The task was a two-alternative forced choice paradigm where each stimulus was presented twice successively, with spurious feedback following the first presentation. This allowed participants the opportunity to repeat or change their response. Participants with ADHD changed their response more frequently than controls following a previously correct response, associated with reduced accuracy on the second trial. This was accompanied with smaller differences between change and repeat trials in the superior frontal gyrus, paracingulate gyrus, and frontal pole compared to controls. Participants with OCD did not differ from healthy controls in their performance but exhibited greater activity on both change and repeat trials in the pre- and postcentral gyri than controls. These results point to distinct neurobehavioral differences in patients with ADHD and OCD underlying what is often termed more broadly inflexible behavior.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Mapping brain imaging heterogeneity in multiple sclerosis.</title>
@@ -208,7 +305,7 @@ Animals must continuously evaluate their surroundings and select adaptive respon
       <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.028</guid>
       <description>Biological psychiatry
 
-Major depressive disorder (MDD) is associated with altered brain structure and accelerated brain aging. However, previous studies have been limited by clinical samples with mixed medication status and multiple mood states, modest sample sizes, underrepresentation of older adults with MDD, and/or reliance on summary-level data. Harmonized T1-weighted MRI from MDD (n = 645), all medication-free and in a current depressive episode, and matched healthy controls (n = 645), segmented into 145 regional volumes, from 11 sites in COORDINATE-MDD consortium. Brain age gap (BAG) was estimated cross-sectionally using gradient boosting regression with nested cross-validation. Group differences in BAG (and age-corrected BAG [cBAG]) were examined across age strata. Regional contributions were evaluated using SHAP values. MDD was associated with significantly elevated cBAG compared with healthy controls (mean difference + 2.0 years [95% CI 1.251, 2.774], Cohen's d -0.289 [95% CI -0.399, -0.179]). Age-stratified analyses showed no differences before mid-30s, with progressively larger gaps thereafter, reaching +6.8 years in MDD aged 55 and older in unadjusted analyses (4.3 years after accounting for site). cBAG differed across neuroanatomical phenotypes previously identified using COORDINATE-MDD data. Key contributing regions included lateral and medial prefrontal regions, middle temporal gyrus, putamen, supplementary motor cortex, central operculum, and cerebellum. Structural brain aging in MDD is age-dependent and most pronounced in a neuroanatomical phenotype associated with poorer key clinical outcomes. The findings are consistent with, but do not establish, neuroprogression models of MDD and demonstrate that cBAG is not a uniform feature of MDD, being more strongly expressed in a specifically clinically vulnerable disease phenotype.</description>
+Background Major depressive disorder (MDD) is associated with altered brain structure and accelerated brain aging. However, previous studies have been limited by clinical samples with mixed medication status and multiple mood states, modest sample sizes, underrepresentation of older adults with MDD, and/or reliance on summary-level data. Methods Harmonized T1-weighted MRI from MDD (n = 645), all medication-free and in a current depressive episode, and matched healthy controls (n = 645), segmented into 145 regional volumes, from 11 sites in COORDINATE-MDD consortium. Brain age gap (BAG) was estimated cross-sectionally using gradient boosting regression with nested cross-validation. Group differences in BAG (and age-corrected BAG [cBAG]) were examined across age strata. Regional contributions were evaluated using SHAP values. Results MDD was associated with significantly elevated cBAG compared with healthy controls (mean difference + 2.0 years [95% CI 1.251, 2.774], Cohen's d -0.289 [95% CI -0.399, -0.179]). Age-stratified analyses showed no differences before mid-30s, with progressively larger gaps thereafter, reaching +6.8 years in MDD aged 55 and older in unadjusted analyses (4.3 years after accounting for site). cBAG differed across neuroanatomical phenotypes previously identified using COORDINATE-MDD data. Key contributing regions included lateral and medial prefrontal regions, middle temporal gyrus, putamen, supplementary motor cortex, central operculum, and cerebellum. Conclusions Structural brain aging in MDD is age-dependent and most pronounced in a neuroanatomical phenotype associated with poorer key clinical outcomes. The findings are consistent with, but do not establish, neuroprogression models of MDD and demonstrate that cBAG is not a uniform feature of MDD, being more strongly expressed in a specifically clinically vulnerable disease phenotype.</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
@@ -304,6 +401,28 @@ The lesion correlates of syntactic deficits in aphasia remain poorly understood.
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Cannabidiol and fronto-parietal EEG connectivity in autistic children.</title>
+      <link>https://doi.org/10.1093/cercor/bhag188</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag188</guid>
+      <description>Cerebral cortex (New York, N.Y. : 1991)
+
+Autistic children often show altered brain network connectivity, including circuitry implicated in social cognition. Cannabidiol (CBD) has emerged as a potential therapy for autism, but its neural mechanisms remain under-researched. Here, we analyze resting-state data collected as part of a double-blind, placebo-controlled crossover trial, to explore whether 12 weeks of oral CBD oil could modulate functional connectivity in autistic children. Twenty-nine autistic children (5 to 12 years) completed two 12-week intervention periods (CBD and placebo, randomized) separated by an 8-week washout. Before and after each period, 5 min of eyes-open resting-state electroencephalography (EEG) were obtained from a subset of 18 participants (8 female). Functional connectivity was calculated across 16 electrode-pairs in the delta, theta, alpha, beta, and gamma bands. Beta-band connectivity between the right frontal and right inferior-parietal electrodes increased following CBD (P = 0.001, false discovery rate [FDR]-corrected P [pFDR] = 0.022), and alpha connectivity showed an increase that did not remain following FDR correction (P = 0.036, pFDR = 0.428). No significant differences were observed following placebo for any frequency band (pFDR &gt; 0.69). This study provides preliminary evidence that 12 weeks of cannabidiol is associated with an increase in right fronto-parietal (F4-P8) functional connectivity in autistic children, most pronounced in the beta-band. Replication in larger samples is needed to confirm generalizability and clinical relevance.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Neurobehavioral correlates of changing one's mind in ADHD and OCD.</title>
+      <link>https://doi.org/10.1093/cercor/bhag187</link>
+      <guid isPermaLink="false">doi:10.1093/cercor/bhag187</guid>
+      <description>Cerebral cortex (New York, N.Y. : 1991)
+
+Cognitive flexibility is an executive function that allows individuals to adjust behavior in response to changing environmental demands. We assessed volitional switching under uncertainty, without rule-based learning, in the "Change Your Mind" task. Nineteen patients with obsessive-compulsive disorder (OCD), 19 patients with attention-deficit hyperactivity disorder (ADHD) and matched control participants (20 per group) completed the task while undergoing a functional MRI scan. The task was a two-alternative forced choice paradigm where each stimulus was presented twice successively, with spurious feedback following the first presentation. This allowed participants the opportunity to repeat or change their response. Participants with ADHD changed their response more frequently than controls following a previously correct response, associated with reduced accuracy on the second trial. This was accompanied with smaller differences between change and repeat trials in the superior frontal gyrus, paracingulate gyrus, and frontal pole compared to controls. Participants with OCD did not differ from healthy controls in their performance but exhibited greater activity on both change and repeat trials in the pre- and postcentral gyri than controls. These results point to distinct neurobehavioral differences in patients with ADHD and OCD underlying what is often termed more broadly inflexible behavior.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.</title>
       <link>https://doi.org/10.1038/s41380-026-03719-9</link>
       <guid isPermaLink="false">doi:10.1038/s41380-026-03719-9</guid>
@@ -324,6 +443,18 @@ Fine-scale spatiotemporal dynamics of functional brain networks are increasingly
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Structural Brain Correlates of Bulimia Nervosa Diagnosis and Symptom Severity: A Coordinated ENIGMA Eating Disorders Working Group Analysis.</title>
+      <link>https://doi.org/10.1001/jamapsychiatry.2026.2842</link>
+      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.2842</guid>
+      <description>JAMA psychiatry
+
+Importance Bulimia nervosa (BN) ranks second among eating disorders in both prevalence and disease burden, but its neurobiology is poorly understood. Progress has been limited by neuroimaging studies with inconsistent findings across small samples. Objective To identify reliable structural brain correlates of BN diagnosis and severity across multiple cohorts worldwide. Design, setting, and participants This case-control study used 3-dimensional T1-weighted magnetic resonance imaging (MRI) and clinical data. Prospective meta-analyses assessed group differences in cortical thickness (CT), surface area (SA), and subcortical volumes (SV) and associations with symptom severity. Data were analyzed between February 1, 2022, and October 1, 2025. Thirteen international sites (17 cohorts) participating in the Enhancing Neuroimaging Genetics through Meta-Analysis (ENIGMA) Eating Disorders Working Group were included, yielding a total of 369 participants with BN and 417 healthy control individuals. Main outcomes and measures Regional CT, SA, and SV extracted from T1-weighted MRI scans (uniformly preprocessed using ENIGMA-standardized pipelines and quality control procedures); binge eating severity; and compensatory behavior severity. Results Participants were all female with a mean (range) age of 23.6 (12.0-53.6) years. Relative to control individuals, the BN group had lower nucleus accumbens volume (Cohen d, -0.20; 95% CI, -0.34 to -0.06) and lower cortical SA of the superior temporal (d, -0.26; 95% CI, -0.41 to -0.12) and transverse temporal cortices (d, -0.24; 95% CI, -0.38 to -0.10). We did not observe significant group differences in CT. Most differences remained significant when controlling for cohort-level variation in body mass index, illness duration, depressive symptoms, psychotropic medication use, and purging as a compensatory behavior. Binge-eating frequency was associated with lower SA of the superior temporal cortex, insula, pars orbitalis, and medial orbitofrontal, rostral middle frontal, and isthmus and posterior cingulate gyri (r value range, -0.20 to -0.14) but not CT or SV. No anatomical characteristics were associated with total compensatory behaviors. Conclusions and relevance This case-control study found that localized brain structural alterations, mostly in SA, were associated with BN and BN symptoms. These findings provide evidence implicating reward, cognitive control, interoceptive, and social cognition circuits in the pathophysiology of BN, advancing neurobiological models of a disorder with a poorly characterized brain basis.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Neural Markers of Reward Valuation and Impulsive Decision-Making in Mania Risk.</title>
@@ -416,148 +547,15 @@ Social cognitive deficits manifest early in behavioral variant frontotemporal de
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Individualised electrophysiological neural field models for the assessment of thalamocortical function in disorders of consciousness: A multicentre study.</title>
-      <link>https://doi.org/10.1371/journal.pcbi.1014905</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014905</guid>
-      <description>PLoS computational biology
+      <title>Acupuncture-related brain network findings across clinical stages of the Alzheimer's disease continuum: a critical review of functional MRI evidence.</title>
+      <link>https://doi.org/10.3389/fneur.2026.1977763</link>
+      <guid isPermaLink="false">doi:10.3389/fneur.2026.1977763</guid>
+      <description>Frontiers in neurology
 
-Understanding the neural mechanisms underlying disorders of consciousness (DoC) remains a major challenge, particularly in distinguishing limited awareness in minimally conscious state (MCS) and complete unawareness in unresponsive wakefulness syndrome, also coined vegetative state (UWS/VS). In this multicentre study, we fitted a biophysically informed corticothalamic neural field model to high-density EEG data from two large independent datasets, comprising 203 UWS patients, 270 MCS patients and 74 healthy controls. We then used the fitted parameters to simulate EEG time series on a per-subject basis and compared empirical and simulated complexity metrics. The model reliably captured the spectral features across different states of consciousness and revealed reduced corticothalamic integrity in DoC patients that was more pronounced in UWS than in MCS, supporting the mesocircuit hypothesis. Furthermore, the simulated EEG reproduced the complexity patterns of the empirical recordings, with permutation entropy emerging as a sensitive marker capable of distinguishing between MCS and UWS for both real and simulated time series.</description>
+Brain network abnormalities are observed across the Alzheimer's disease (AD) continuum, but the relationship between clinical stage, acupuncture-related functional brain changes, and cognitive outcomes remains unclear. This review examined clinical blood oxygen level-dependent functional MRI studies of acupuncture in subjective cognitive decline (SCD), mild cognitive impairment (MCI, including amnestic MCI [aMCI]), and AD dementia. PubMed, Web of Science Core Collection, and China National Knowledge Infrastructure (CNKI) were searched for relevant studies. The evidence was synthesized narratively by clinical stage, with attention to study design, acupuncture protocols, control conditions, imaging methods, brain-cognition associations, biomarker status, and possible cohort overlap. In SCD, the limited available evidence mainly involved changes in regional spontaneous activity, hippocampal connectivity, and network organization. In MCI, including aMCI, reported changes involved memory- and limbic-related regions, DLPFC-ACC connectivity, and locus coeruleus-related pathways. In AD dementia, reported changes mainly involved the hippocampus and posterior medial memory-related regions, with earlier studies mainly examining short-term responses and two longitudinal cohorts assessing changes over a treatment course. Across the reviewed literature, findings in MCI, including aMCI, involved a broader range of brain regions and networks, whereas those in AD dementia were more often centered on the hippocampus and posterior medial memory-related regions. These differences are difficult to attribute to clinical stage alone, given substantial differences across studies in acupuncture protocols, control conditions, imaging methods, sample size, biomarker confirmation, and follow-up. Larger longitudinal studies with biomarker confirmation where possible and complementary imaging modalities are needed to determine whether the observed differences are related to clinical stage and how the imaging changes relate to cognitive outcomes.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Prefrontal Cortical Changes With Mindfulness-Oriented Recovery Enhancement in Opioid Use Disorder: A Randomized Clinical Trial.</title>
-      <link>https://doi.org/10.1001/jamapsychiatry.2026.3388</link>
-      <guid isPermaLink="false">doi:10.1001/jamapsychiatry.2026.3388</guid>
-      <description>JAMA psychiatry
-
-Importance Despite decades of clinical implementation of medications for opioid use disorder (OUD), overdose mortality rates remain high, underscoring a critical need for interventions that target the brain mechanisms underlying addiction. Objective To assess the neural mechanisms of Mindfulness-Oriented Recovery Enhancement (MORE) and their associations with clinical outcomes, including craving and abstinence duration. Design, setting, and participants This randomized clinical trial was conducted from November 2020 to September 2024 among individuals with OUD recruited from an inpatient rehabilitation facility in New York and randomized to MORE or psychoeducational supportive therapy (PST). Data were analyzed from October 2024 to August 2026. Interventions Treatment with MORE (comprising training in mindfulness, drug cue reappraisal, and savoring positive experiences) or PST (active control condition) across 8 weekly 2-hour group sessions. Main outcomes and measures Outcomes included treatment-related changes in functional magnetic resonance imaging (fMRI) blood oxygen level-dependent signal (primary), abstinence length (secondary), and cue-induced craving (secondary). Results Drug cue reactivity task analyses included 59 participants (MORE, n = 24; 5 women [20.8%]; mean [SD] age, 43.6 [11.3] years; PST, n = 35; 8 women [22.9%]; mean [SD] age, 42.8 [10.0] years). Movie-watching and follow-up analyses were conducted in subsets of 37 (MORE, n = 18; PST, n = 19) and 38 participants (MORE, n = 13; PST, n = 25), respectively. Compared with PST, MORE reduced drug-biased activity in the middle frontal gyrus and other brain areas, including the precuneus, during downregulation of responses to drug cues relative to upregulation of responses to natural reward cues (even when controlling for passive cue viewing; z &gt; 3.1; P &lt; .05). The shift from drug to natural reward responses in the lateral and ventromedial prefrontal cortex (PFC) was associated with lower cue-induced craving exclusively in the MORE group (z &gt; 3.1; P &lt; .05). Relative to PST, MORE also reduced medial PFC synchronization to naturalistic drug-related movie scenes (q = 0.019) and significantly extended abstinence duration at follow-up (approximately 4 months posttreatment; χ2 = 6.7; P = .04; Cohen w = 0.19). Conclusions and relevance This neuroimaging randomized clinical trial demonstrates that MORE may restructure function in PFC nodes of the reward, salience, and control networks, positioning it as a biologically grounded adjunct to pharmacotherapy for OUD. Trial registration ClinicalTrials.gov Identifier: NCT04112186.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Spectral-spatial modeling of neural couplings in functional connectivity of motor networks.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122314</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122314</guid>
-      <description>NeuroImage
-
-Background Functional neural connectivity reflects coordinated interactions within brain networks in both health and disease. Phase-amplitude coupling (PAC) is widely used for this purpose, but its pairwise formulations overlook spatially distributed, spectrally correlated structures in neural activity that arises from complex brain circuits. New method We developed a spectral-spatial generalized linear model (SS-GLM) to characterize the high-frequency response as the integrated outcome of multiple low-frequency phase sources across channels and frequencies. Our method also utilizes a regularization strategy to mitigate predictor collinearity and spurious effects for stable attribution of network-level coupling estimates. Results Validation was performed using both synthetic data and human motor network recordings from 25 patients with Parkinson's disease undergoing deep brain stimulation (DBS) surgery. In synthetic analyses, SS-GLM accurately recovered ground-truth coupling configurations under multiple plausible scenarios. In real data, the framework revealed coherent cortico-subthalamic coupling patterns across distinct motor tasks that aligned with clinically effective DBS contacts and their anatomical organization. Comparison with existing methods Conventional pairwise PAC metrics, such as the modulation index and GLM assess interactions in isolation. In contrast, SS-GLM jointly models distributed predictors and yields spatially localized, spectrally specific coupling estimates that also achieve stronger correspondence with clinical stimulation outcomes. Conclusions This work offers a principled and extensible framework for advancing functional connectivity analyses, with improved interpretability of network-level interactions, enhanced robustness to confounds, and broad potential for future applications in systems neuroscience and neuro-engineering research.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Neurocognitive characteristics of perceptual feedback processing differ in autism.</title>
-      <link>https://doi.org/10.1523/jneurosci.0315-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0315-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Autistic individuals often show reduced adaptation to changing environmental demands, but the neurocognitive mechanisms underlying this difference remain unclear. We asked whether it may be explained by reduced sensitivity to external feedback and changes in task difficulty. Autistic and non-autistic adults of either sex, matched for cognitive ability, performed a pitch discrimination task in which their response was immediately followed by feedback. Accuracy was similar between the two groups, yet autistic participants exhibited a markedly reduced feedback-related negativity (FRN), an event-related EEG potential differentiating explicit negative versus positive feedback. They also showed weaker modulation of feedback-evoked EEG responses by perceptual difficulty. Lastly, they showed reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up experiment conducted 1-2 years later. When combined they classified autistic and non-autistic participants with about 80% accuracy. Together, our findings indicate that multiple processes for evaluating perceptual decisions and adjusting subsequent behavior differ in autism and likely contribute to slow updating in changing contexts.Significance Statement Autism is associated with reduced adaptation to changing environments in both behavior and neural signals, but the underlying neurocognitive mechanisms remain unclear. Here, we show that autistic individuals exhibit a reduced feedback-related negativity (FRN), an EEG component that is present when receiving negative instead of positive feedback. They also show weaker neural modulation by perceptual difficulty and reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up study. When combined, they classified autistic and non-autistic participants with high accuracy. These findings suggest that reduced flexibility in autism is associated with reduced processing of external feedback and task difficulty.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Disrupted brain network topology and structure-function coupling in non-specific low back pain.</title>
-      <link>https://doi.org/10.1162/imag.a.1412</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1412</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Central nervous system mechanisms contribute to non-specific low back pain (LBP), with widespread alterations in brain function and structure reported. It remains unclear how these alterations propagate to brain network topology and structure-function coupling. In this cross-sectional study, 282 participants with non-specific LBP (mean ± standard deviation, pain intensity 4.3 ± 1.7 [0-10 numerical rating scale]; current pain duration 54 ± 105 weeks) and 71 pain-free controls underwent resting-state functional and diffusion-weighted MRI to derive functional and structural connectomes. Subgroups were analyzed by pain status during scanning and pain duration. The main graph-theory analysis revealed that participants with non-specific LBP had lower segregation (d = 0.39-0.45, P = 0.009-0.019) in the whole-brain functional network and higher integration (d = 0.30-0.38, P = 0.005-0.027) in the functional ventral attention network. Subgroup analysis showed that participants with chronic non-specific LBP had lower segregation (d = 0.48, P = 0.002) and higher integration (d = 0.45, P = 0.004) within the structural default mode network. By modeling functional connectivity using structural communication predictors in a multivariable linear regression, we identified structure-function decoupling in participants with non-specific LBP across the whole-brain (d = 0.25-0.28, P = 0.026-0.041), ventral attention (d = 0.28-0.32, P = 0.005-0.048), and default mode network (d = 0.22-0.24, P = 0.031-0.046), alongside complex regional patterns of both decoupling and hypercoupling. Explorative partial correlation analyses associated disability, rather than pain intensity, with differences in brain network topology and structure-function decoupling. These findings advance the mechanistic understanding of the severity and persistence of non-specific LBP, showing disrupted bottom-up attentional processing and self-referential circuitry, resulting in large-scale structure-function decoupling.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>A Sensorimotor-Interoceptive Model for Sensory Phenomena in Obsessive-Compulsive Disorder: Neural and Computational Mechanisms.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.014</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.014</guid>
-      <description>Biological psychiatry
-
-Classical models of obsessive-compulsive disorder (OCD) grounded in cognitive-affective processes do not fully account for sensory phenomena (SP), including bodily discomfort, incompleteness, and not-just-right experiences that often precede or accompany compulsive behavior. To address this gap, we propose a sensorimotor-interoceptive model for the sources, generation, and maintenance of SP and SP-driven compulsions in OCD. Specifically, the posterior insula may integrate external sensory signals with internal bodily signals within the perceptual module. These integrated signals are subsequently processed by the salience module centered on the anterior insula and anterior cingulate cortex, where heightened error monitoring may assign excessive salience to integrated signals and recruit the supplementary motor area and primary motor cortex to initiate corrective actions. Dysfunction of a cerebellum-centered forward system may then produce persistent mismatches between predicted and actual action outcomes, which are re-entered into the perceptual module and sustain a recurrent feedback loop. The framework therefore conceptualizes SP-driven compulsions as maladaptive attempts to resolve persistent sensory errors. Predictive coding and active inference provide a computational account of these processes. We underscore that this sensorimotor-interoceptive model, intended to complement existing models, provides an account of symptoms in which SP are prominent and may therefore contribute to a more comprehensive understanding of OCD.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Multimodal associations between posterior hippocampus glutamate metabolism, visual cortex connectivity, and intrusive trauma reexperiencing symptoms.</title>
-      <link>https://doi.org/10.1038/s41380-026-03936-2</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03936-2</guid>
-      <description>Molecular psychiatry
-
-Hippocampal dysfunction is implicated in posttraumatic stress disorder (PTSD), particularly intrusive reexperiencing symptoms, and may be mediated by glutamatergic excitotoxicity. Markers of glutamate dysfunction (higher glutamate to N-acetyl aspartate levels; Glu/NAA) in the hippocampus (HPC) have been linked to reexperiencing symptoms. However, the HPC demonstrates heterogeneity along its anterior-posterior axis, with different functional connectivity patterns and PTSD symptom associations, motivating investigations into glutamate metabolism in anterior and posterior HPC subregions (a/pHPC). To this end, 121 symptomatic trauma-exposed adults with current trauma reexperiencing symptoms completed magnetic resonance spectroscopy and resting-state functional magnetic resonance imaging to examine the regional specificity of HPC Glu/NAA associations with reexperiencing symptoms and the link to a/pHPC functional connectivity. PTSD symptoms were assessed with the Clinician-Administered PTSD Scale for DSM-5. Reexperiencing symptom severity was associated with greater Glu/NAA in the pHPC, but not aHPC. pHPC Glu/NAA was further linked to stronger functional connectivity between the pHPC and visual cortex (VC), which in turn correlated with more severe reexperiencing symptoms. This strengthened pHPC-VC connectivity explained the shared variance between pHPC Glu/NAA and reexperiencing severity, suggesting dysregulated glutamate metabolism in the pHPC may contribute to reexperiencing symptoms through functional connectivity with the VC. These findings replicate prior work linking HPC Glu/NAA to trauma reexperiencing symptoms and provide novel evidence of this association in the pHPC, but not aHPC, which is mediated by its functional connectivity with the VC. This multimodal investigation supports translational models of glutamatergic dysfunction in trauma-related disorders and highlights new targets for pharmacological and neuromodulatory interventions.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Digital twin control framework uncovers individualized cross-scale links between functional connectivity deviations, communication impairment, and molecular mechanisms in autism.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122311</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122311</guid>
-      <description>NeuroImage
-
-Background Autism spectrum disorder (ASD) is hallmarked by pronounced inter-individual heterogeneity in brain function and clinical manifestations. Conventional neuroimaging studies yield highly inconsistent findings, as extrinsic confounding factors and intrinsic disease heterogeneity mask ASD-specific functional connectivity (FC) signatures, hampering the identification of individualized neural mechanisms linked to symptom severity. Methods We developed a digital twin control analytical framework based on deep contrastive learning. By comparing each ASD participant with their matched digital twin control, we quantified individual-specific FC deviations. Principal component analysis was applied to extract the core aberrant pattern, followed by multi-dimensional analyzes and validation including clinical correlation, transcriptomic decoding, neurotransmitter and mitochondrial co-localization, as well as disease and cognitive enrichment. Results The model effectively disentangled disease‑related from non‑disease‑related variations. The identified dominant aberrant FC pattern was significantly associated with Autism Diagnostic Observation Schedule (ADOS) communication scores, suggesting it is associated with to communication impairment. This pattern showed convergent associations with synaptic pathways, excitatory/inhibitory neuronal signatures, critical developmental windows and subcortical structures, and exhibited negative spatial association with multiple neurotransmitter systems and mitochondrial respiratory complexes. Biological validation further supported its ASD specificity and communication‑related cognitive relevance. Conclusions Leveraging the twin control analytical framework, this study provides an exploratory cross-scale framework linking individualized FC deviations with clinical, transcriptomic, neurochemical, and mitochondrial maps. The findings indicate that communication difficulties in ASD may partly arise from multi-scale disturbances in neural integration, social-perceptual processing and activity-dependent cellular energy regulation.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Translational evidence for habenula's role in human addiction: A scoping review.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107021</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107021</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Addiction is characterized by persistent substance use or engagement in behaviors despite adverse consequences and impaired control, but its expression varies substantially across individuals, substances, and severity. Within one influential neurocircuitry framework, addiction processes are organized into binge, withdrawal, and preoccupation stages. Preclinical research implicates the habenula across these processes but indicates that its contribution varies across drugs, subdivisions, and experimental models. Research on the human habenula in addiction remains fragmented, and the extent to which it converges with preclinical mechanisms is unclear. This scoping review synthesized evidence on the human habenula in addiction and examined its convergence with preclinical findings. Following PRISMA-ScR guidelines, databases and grey literature were searched in November 2025, with literature surveillance continued through April 2026. Human studies reported reduced fronto-habenula white-matter integrity, elevated habenula-striatal resting-state functional connectivity, withdrawal-related habenula-frontal connectivity, increased habenula blood flow during opioid withdrawal, altered task-evoked responses to reward and feedback, and nicotine-related genetic signals. By contrast, morphological studies found no consistent differences in habenula structure across addiction samples. Most human neuroimaging studies could not distinguish the medial and lateral habenula, limiting direct comparison with subdivision-specific preclinical mechanisms. Overall, across human and preclinical studies, the evidence does not support a unitary habenular alteration across addiction. Cross-species convergence was strongest for withdrawal-related activity, particularly for opioids, and for nicotine-related molecular mechanisms, but remained limited by differences in substances, circuits, measures, and paradigms. Future studies using subdivision-sensitive imaging and more comparable cross-species designs are needed.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Imaginal neglect as a disorder of mental scene construction.</title>
-      <link>https://doi.org/10.1016/j.cortex.2026.10.008</link>
-      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.008</guid>
-      <description>Cortex; a journal devoted to the study of the nervous system and behavior
-
-Imaginal (representational) neglect-typically revealed by contralesional omissions when patients describe familiar places from long-term memory-provides a test case for theories of mental scene construction. Unlike propositional recall of place-related facts, imaginal tasks require that semantic knowledge be "spatialized" into a viewpoint-dependent scene that can be actively sampled. We review converging evidence from classic behavioral dissociations (viewpoint inversion; preserved semantic knowledge with impaired spatialized retrieval), oculomotor measures during imagery, sensory interventions (caloric vestibular stimulation; prismatic adaptation), and lesion/disconnection findings. Reconsidering the long-standing opposition between a primary "representational scotoma" and a pure attentional/exploratory bias, we argue that this dichotomy may not correspond to how scenes are actually built: construction and exploration are tightly coupled processes, partly implemented through attentional/oculomotor control. Building on convergent lesion, meta-analytic and neuroimaging evidence that a left-lateralized image-generation system (including the Fusiform Imagery Node) supports the generation of visual content, we propose as a working hypothesis that balanced, viewpoint-dependent spatial organization depends on right-hemisphere attentional control and inter-hemispheric integration, plausibly involving posterior callosal pathways. We specify construction and exploration as sets of operations, relate the framework to accounts of conscious access, and set out empirical tests of its network-level claims.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Positive-affective and negative-cognitive brain-behavior axes in clinical high risk for psychosis.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.09.029</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.09.029</guid>
-      <description>Biological psychiatry
-
-Background Individuals at clinical high risk for psychosis (CHR) present with heterogeneous combinations of positive, negative, and affective symptoms, cognitive difficulties, and functional impairment. However, reproducible multivariate links between this multidomain phenotype and brain morphology remain limited. This study explored the multivariate brain-behavior associations in CHR using a data-driven approach. Methods Baseline data from 720 CHR participants from the Accelerating Medicines Partnership® Schizophrenia program (AMP® SCZ) were analyzed using sparse canonical correlation analysis to identify associations between 95 regional brain volumes and 28 behavioral variables indexing symptoms, cognition, and functioning. Generalizability was tested using leave-one-network-out cross-validation (PRoNET and PRESCIENT), and stability was assessed using bootstrapping and leave-one-site-out analyses. Associations with demographic, clinical and site-related variables were examined. Results Two brain-behavior dimensions generalized across networks. A positive-affective axis (r=0.21-0.23), linking higher depression, anxiety/stress, positive symptoms and anhedonia with predominantly frontal-cingulate-insular volume reductions and relatively larger corpus callosum and putamen volumes. This axis was associated with comorbid depression, cannabis use and family history of depression or affective psychosis. A negative-cognitive axis (r=0.17-0.18) linked greater asociality, alogia, emotional withdrawal, blunted affect, and motor retardation, poorer cognition and functioning with reduced cerebellar and parietal volumes, and relatively larger lateral ventricles and corpus callosum. This axis was associated with lower IQ and poorer premorbid adjustment. Conclusions Two partially dissociable brain-behavior dimensions were identified: a positive-affective axis capturing the co-expression of affective and attenuated positive symptoms, and a negative-cognitive axis suggestive of neurodevelopmental vulnerability.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Clinically unresponsive patients with acute brain injury activate a brain-computer interface.</title>
-      <link>https://doi.org/10.1093/brain/awag210</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag210</guid>
-      <description>Brain : a journal of neurology
-
-Brain activation to verbal commands can be detected by EEG in clinically unresponsive patients. These patients with cognitive motor dissociation (CMD) are unable to communicate with the environment despite preserved consciousness. Advanced brain-computer interfaces (BCI) are promising to support motor function in patients with motor neuron disease or spinal cord injury. Our primary objective was to determine if clinically unresponsive patients can control a self-paced, one-way BCI early after acute brain injury. Secondarily, we assessed the association of BCI control with short- and long-term outcomes. We conducted a prospective single-centre cohort study in 41 clinically unresponsive, critically ill and acutely brain injured patients, as well as in a convenience sample of 8 healthy volunteers and 22 conscious critically ill patients. The self-paced BCI analysed EEG in real time and modulated frequency and pitch of a tone that patients controlled by attempting a motor task: patients were provided with instructions 'to make the beep sound faster, keep opening and closing your right hand' alternating with 'to make the beep sound slower, stop opening and closing your right hand'. CMD was detected by applying machine learning to EEG recorded while patients listened to motor commands. Clinical outcomes were recovery of consciousness by hospital discharge, assessed with the Coma Recovery Scale-Revised, and recovery of functional independence at 12 months, defined as a Glasgow Outcome Scale-Extended score of 4 or higher (denoting the ability to function independently for 8 h or more). Additionally, we invited conscious patients as well as family members of conscious and clinically unresponsive patients to complete a survey on perceived utility and challenges associated with the BCI. In this study, 13 clinically unresponsive patients (32%) achieved BCI control and 8 of 41 (20%) were CMD-positive. All healthy volunteers and nine conscious patients (41%) were able to control the BCI. Median signal delay for BCI control was 49.8 [interquartile range (IQR) 39.9-75.6] seconds for clinically unresponsive patients, 17.1 (IQR 7.8-19.9) for conscious patients and 15.5 (IQR 12.9-21.2) for healthy volunteers. In the group of 41 clinically unresponsive patients, 4 of 13 patients with (31%) and 1 of 28 without BCI control (4%) recovered clinical consciousness at hospital discharge [odds ratio (OR) 21.2; 95% confidence interval (CI) 2.3-930.7]. At 12 months, 6 of 13 patients with (46%) and 2 of 28 without BCI control (7%) recovered functional independence (OR 9.9; 95% CI 1.8-81.6). None of the patients that were unable to control the BCI and were CMD-negative recovered. Patients with BCI control had shorter times to recovery of functional independence by 12 months than those who did not (hazards ratio 6.0; 95% CI 1.2-30.6). All respondents of the BCI survey (n = 37) expressed strong support for the potential future use of BCI devices. These results suggest that BCI control is a strong predictor of outcomes following acute brain injury and provide initial evidence that a bedside, EEG-based BCI system might permit bidirectional communication in critically ill unresponsive patients.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Maltreatment predicts centiles of individual variation from normative brain growth in children.</title>
-      <link>https://doi.org/10.1038/s42003-026-11143-6</link>
-      <guid isPermaLink="false">doi:10.1038/s42003-026-11143-6</guid>
-      <description>Communications biology
-
-Exposure to maltreatment in childhood is posited to profoundly disrupt brain development with adverse consequences for cognitive development and health across the lifespan. Here we use "brain charts" from the largest available neuroimaging database to quantify individual brain volumes relative to normative brain growth distributions in 299 children, aged 3 to 13 years, including 123 children with clinically verified maltreatment exposure. Using magnetic resonance imaging, we obtain volumes of cortical grey, total white, and subcortical grey matter and derive chart-based centiles for each child and tissue type. In our sample, children with maltreatment exposure exhibit lower mean brain centiles across tissues than unexposed children. Associations of greater maltreatment severity with lower brain centiles do not survive correction for multiple comparisons. Lower brain centiles are associated with lower intellectual ability and more behavioural problems. These findings provide evidence for widespread differences in brain structure associated with childhood maltreatment and their relevance to intellectual ability and behavioural functioning.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>
