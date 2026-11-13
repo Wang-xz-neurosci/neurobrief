@@ -5,9 +5,42 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Nov 2026 21:25:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 20:52:09 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disentangling the Spatiotemporal Neural Dynamics of Conflict Detection and Resolution between Lexical and Sublexical Processes in Oral Word Reading: An Intracranial SEEG Study.</title>
+      <link>https://doi.org/10.1523/jneurosci.1183-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1183-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Object recognition relies on correspondence between whole objects and their subcomponents. When this correspondence is disrupted, accurate recognition requires detecting conflicts and inhibiting misleading subcomponent information, yet the neural basis underlying these processes remain unclear. Written language, with sublexical components that may conflict with whole words, provides an ideal testbed. Using stereo-electroencephalography (SEEG) recorded from 39 participants (both sexes) during Chinese character reading, we revealed a functional dissociation between neural systems supporting conflict detection and inhibitory control. Conflict detection was associated with β band activity in the fusiform gyrus and widespread θ and α band effects across temporal and parietal regions. Inhibitory control was associated with α and β band activity in the inferior frontal and precentral gyri. Granger causality analysis showed increased β band connectivity from conflict-processing to inhibitory-control regions under conflict conditions. These findings demonstrate that disruptions of whole-sublexical correspondence engage dissociable neural systems for conflict detection and inhibitory control, implemented through frequency- and region-specific neural oscillations and coordinated via increased information transfer from posterior to frontal regions.Significance Statement Reading often requires resolving conflicts between competing linguistic representations, yet the neural mechanisms that detect such conflicts and resolve them remain poorly understood. Using stereo-electroencephalography with millimeter-scale spatial and millisecond-scale temporal resolution, we dissociated sublexical conflict detection from inhibitory control during Chinese character reading. We show that these processes are supported by distinct low-frequency oscillatory networks and are linked through directed functional interactions. These findings move beyond traditional accounts of sublexical effects by identifying their underlying cognitive components and neural dynamics, providing a mechanistic framework for understanding how cognitive control supports fluent word recognition.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Category learning drives cortical attentional gain to diagnostic dimensions of perceptual information.</title>
+      <link>https://doi.org/10.1371/journal.pbio.3004076</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pbio.3004076</guid>
+      <description>PLoS biology
+
+Humans and other animals develop remarkable perceptual and cognitive specializations for identifying, differentiating, and acting on classes of ecologically important signals. This expertise is flexible enough to support diverse perceptual judgments: a voice, for example, simultaneously conveys what a talker says, as well as myriad cues about her identity and state. Expert perception across complex signals thus involves discovering and learning regularities that best inform diverse perceptual judgments, as well as weighting this information flexibly as task demands change. Here, we test whether this process may involve attentional gain. We use two prospective auditory category learning tasks to relate a complex, entirely novel soundscape to four classes of 'alien identity' and two classes of 'alien size.' Identity, but not size, categorization requires discovery and learning of patterned acoustic input situated in one of two simultaneous, non-overlapping frequency bands. This allows us to capitalize on the coarsely segregated, frequency-band-specific channels tiling auditory cortex. We use fMRI to ask whether category-relevant perceptual information present in one frequency band is prioritized relative to simultaneous, uninformative information in the other frequency band. Only among participants expert at alien identity categorization do we observe neural prioritization of the identity-diagnostic frequency band. This prioritization persists even when the diagnostic information becomes irrelevant in the size categorization task. Tellingly, the neural selectivity evoked implicitly in the identity categorization task aligns with that in an independent task, where activation is driven by explicit and sustained selective attention to pure tones in one or the other frequency band. Additionally, the learning trajectories taken to achieve expert-level categorization leave fingerprints on the patterns of neural activity associated with the diagnostic dimension. In all, this indicates that learning categories can drive attentional gain to category-diagnostic input dimensions.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Beyond sleep macrostructure: a high-definition review of acupuncture's electrophysiological signatures in modulating sleep microarchitecture (spectral power, spindles, and slow oscillations).</title>
+      <link>https://doi.org/10.1007/s00429-026-03214-5</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03214-5</guid>
+      <description>Brain structure &amp; function
+
+Sleep science has shifted from coarse stage-based metrics toward a microstructural perspective that treats electroencephalographic biomarkers, spectral power, sleep spindles, and slow oscillations as candidate windows onto restorative brain function. This high-definition review evaluates whether acupuncture has been shown to modify these features. Direct evidence from natural overnight sleep is currently very limited: most available electrophysiological studies were conducted during quiet wakefulness, in resting daytime EEG recordings from clinical groups, or under propofol anesthesia. These studies demonstrate that acupuncture or related electrical acupoint stimulation can produce state-, region-, and frequency-dependent changes in EEG power and network organization, but they do not yet establish increased NREM spindle density, improved slow-oscillation-spindle coupling, enhanced slow-wave morphology, memory consolidation, or glymphatic clearance. We therefore distinguish directly observed findings from indirect mechanistic support and from hypotheses that require prospective testing. Plausible pathways include ascending somatosensory influences on thalamocortical excitability, autonomic and hypothalamic effects that may reduce hyperarousal, and peripheral or central neurochemical processes involving adenosine, GABA, serotonin, and BDNF; however, the causal sequence from needling to sleep microarchitecture remains unproven. Future progress requires preregistered, adequately powered, multi-night studies using validated spindle and slow-wave detectors, explicit control estimands, and multimodal measurements. Biomarker-guided and closed-loop acupuncture should presently be regarded as a research framework rather than an established treatment strategy.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval</title>
       <link>https://europepmc.org/article/PMC/PMC13754277</link>
@@ -93,6 +126,16 @@ Recent methodological advances including high-density intracranial recordings an
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Revisiting Post-stimulus Theta Activity: Evidence for a Broadband Rather Than Narrowband Spectral Origin.</title>
+      <link>https://doi.org/10.1523/jneurosci.1194-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1194-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+The aperiodic, 1/f -like component of electrophysiological activity is increasingly recognized as a meaningful feature of neural function rather than background noise. Meanwhile, many EEG studies interpret transient post-stimulus changes in oscillatory power as signatures of attention, salience, or cognitive control. Such interpretations typically depend on baseline normalization, which assumes aperiodic activity remains stable from pre- to post-stimulus periods. Using high-density EEG from typically developing children, we tested this assumption across two paradigms: an audiovisual simple reaction-time task (n = 36, 19 males and 17 females) and a visual oddball task (n = 38, 20 males and 18 females). In each, conventional spectral analyses were compared with analyses that explicitly modeled and removed aperiodic activity in both windows. Across tasks, stimulus onset produced robust increases in aperiodic exponent and offset, indicating systematic 1/f changes. In the audiovisual task these were modality specific, with central, parieto-occipital, or combined topographies by stimulus type. They diminished but persisted after event-related potential removal, suggesting they were not fully explained by phase-locked activity. Critically, once aperiodic activity was accounted for, the apparent theta increase was largely abolished in both tasks, including the canonical fronto-central enhancement to infrequent targets. The conventional method also overestimated beta desynchronization, especially in the induced signal, indicating a spurious consequence of spectral slope steepening. In contrast, alpha desynchronization remained robust and was enhanced, reflecting genuine suppression. Together, these findings suggest many conventional time-frequency effects, particularly apparent theta synchronization, may reflect stimulus-driven aperiodic changes rather than robust narrowband changes, challenging core assumptions of these analyses.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>NeuroAI's Next Steps: Balancing Computation and Embodiment.</title>
       <link>https://doi.org/10.1523/jneurosci.1191-26.2026</link>
       <guid isPermaLink="false">doi:10.1523/jneurosci.1191-26.2026</guid>
@@ -131,6 +174,38 @@ The subcortical visual system is traditionally described through a small number 
 
 Human interoception has become a major focus of systems, cognitive, and clinical neuroscience. Work across the past decade has shown that signals originating within the body shape perception, emotion, cognition, behavior, and health. Despite rapid methodological and conceptual progress, which substantially expanded our understanding of how bodily signals are processed and represented, much of the field remains constrained by descriptive methods. As these approaches passively assess bodily signals or subjective awareness, they have limited ability to establish causal mechanisms or translate interoceptive findings into clinically informative frameworks. Here, we identify six challenges and corresponding methodological directions for advancing human interoception research: strengthening integration of animal and human models, developing causal perturbation paradigms, capturing interoception in ecologically valid contexts, standardizing multidimensional measurement across bodily systems, adjudicating between computational accounts, and translating mechanistic insights into clinically informative models of health and disease. These challenges are best understood as linked requirements for moving interoception research from relevance to mechanism. Together, they highlight the need to move beyond predominantly static, passive, and single-modality approaches toward studies that can test how internal bodily signals relate to neural activity, behavior, and health.</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Parallel Claustral Networks for Behavioral Control in Health and Disease.</title>
+      <link>https://doi.org/10.1523/jneurosci.1083-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1083-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+The claustrum is among the most highly interconnected structures in the mammalian brain, with reciprocal projections spanning the cortical mantle and a growing roster of functions that range from sleep regulation to attentional control. Here we review current understanding of claustral circuit organization and function, synthesizing findings from anatomical, physiological, computational, and behavioral studies. We argue that a unifying logic underlies the apparent diversity of claustral functions: the claustrum operates through projection-defined subnetworks whose input selectivity, output targets, and local circuit interactions collectively determine their functional contribution and whose impact on cortical targets varies with arousal and ongoing brain state. Corticoclaustral connectivity is organized into matched input-output modules, local inhibitory circuits confer spatial filtering properties that amplify strong cortical signals while suppressing weaker ones and claustral output populations differ in their laminar targets, postsynaptic cell-type preferences, and molecular properties, producing diverse and context-dependent effects on cortical dynamics. These circuit properties translate into claustral regulation of cortical population dynamics across multiple timescales, from the moment-to-moment coordination of brain states to the consolidation of frontal control strategies. In pain and addiction, specific claustral projection populations are selectively dysregulated, and distinct subnetworks exert opposing influences on nociceptive sensitivity and drug-related behavior according to their cortical targets. Together, these findings position the claustrum as a modular subcortical hub for the selective regulation of distributed cortical networks and identify it as a candidate therapeutic target for disorders characterized by dysregulated cortical network activity, including chronic pain, addiction, and impulsivity.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Late Integration of Prior Expectations during Precision-Weighted Perceptual Decisions.</title>
+      <link>https://doi.org/10.1523/jneurosci.0612-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0612-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Adaptive perceptual decision-making relies on the ability to combine sensory evidence with prior expectations in a precision-weighted manner. Although Bayesian inference provides a clear normative account of how such integration should occur, the neural mechanisms through which the brain represents and combines priors and likelihoods remain poorly understood. Across two preregistered experiments, we investigated how the precision of learned priors and sensory likelihoods influence visual motion judgments and associated neural activity patterns during a random-dot motion estimation task. Neurotypical adult participants (N = 80, 58 female) reported directions of visual motion stimuli, with motion coherence varying randomly across trials. Prior expectations over the continuous motion direction space were manipulated block-wise by implicitly varying the probabilities with which different motion directions were presented. Consistent with precision-weighted inference, response accuracy improved as motion coherence increased with robust response biases toward the expected motion direction. Neural activity measured using electroencephalography (EEG) revealed reliable effects of prior expectation on the univariate central parietal positivity (CPP), consistent with reduced accumulation of sensory evidence under informative priors. Multivariate analysis using inverted-encoding models revealed robust effects of prior precision on stimulus-specific neural representations, but only late, during response planning stages. Together, these findings suggest that priors learned over a continuous space do not modulate the encoding of sensory evidence and are instead integrated later in the decision process.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Emotional Content Enhances Attentional Tracking of Conversations through Context-Sensitive Modulation of Auditory-Language Networks.</title>
+      <link>https://doi.org/10.1523/jneurosci.0506-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0506-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 females, 14 males) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated midlatency (100-250 ms) responses, whereas late-latency (270-450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
       <category>其他认知与脑</category>
     </item>
     <item>
@@ -277,10 +352,21 @@ Magnetophosphenes are visual percepts induced by extremely low-frequency magneti
       <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101845</guid>
       <description>Developmental cognitive neuroscience
 
-Attention-deficit/hyperactivity disorder (ADHD) is clinically heterogeneous, motivating biomarkers that capture how brain networks reorganize under cognitive demand. We studied 122 children aged 8-12 years (61 with ADHD and 61 controls) during a visually cued attention/inhibition paradigm spanning three operationalized composite demand levels in whole-head MEG; structural MRI supported anatomical source modeling, and 34 children with ADHD completed approximately 6 months of follow-up. After denoising, head-motion compensation, ICA-based artifact removal, dSPM source reconstruction, and Morlet wavelet decomposition, we extracted source time series from 68 DKT cortical regions, quantified dynamic connectivity with PLV, wPLI, AEC, and MI, derived graph-theoretic and hidden Markov model features, and trained a spatiotemporal Graph Transformer. Behavioral group differences increased with cognitive demand, with high-load accuracy showing a large effect size (d=1.71). Relative to controls, children with ADHD showed weaker frontoparietal θ coupling, stronger default-mode α coupling, reduced occupancy of frontoparietal-dominant states, greater default-mode state persistence, lower global efficiency, higher modularity, and smaller gains in network flexibility; frontoparietal flexibility showed the strongest association with inattentive symptoms (rs=-0.78). Under participant-level nested cross-validation, the Graph Transformer achieved 94.3% accuracy for three-class cognitive-demand classification (AUC = 0.981) and 96.7% accuracy for ADHD diagnosis (AUC = 0.991). Secondary presentation analyses reached 83.6% accuracy (95% CI: 73.8%-91.8%), and higher baseline frontoparietal flexibility in the follow-up subset was associated with subsequent medication response (OR = 8.49, 95% CI: 2.31-31.2). In an independent task-matched MEG cohort (n=45), zero-shot ADHD diagnostic accuracy was 90.0% (AUC = 0.952), increasing to 94.2% (AUC = 0.981) after limited classification-head adaptation on a separate subset. Together, these results identify load-dependent network flexibility and state-transition measures as candidate adjunctive biomarkers and define prospective multi-center validation as the next translational test.</description>
+Attention-deficit/hyperactivity disorder (ADHD) is clinically heterogeneous, motivating biomarkers that capture how brain networks reorganize under cognitive demand. We studied 122 children aged 8-12 years (61 with ADHD and 61 controls) during a visually cued attention/inhibition paradigm spanning three operationalized composite demand levels in whole-head MEG; structural MRI supported anatomical source modeling, and 34 children with ADHD completed approximately 6 months of follow-up. After denoising, head-motion compensation, ICA-based artifact removal, dSPM source reconstruction, and Morlet wavelet decomposition, we extracted source time series from 68 DKT cortical regions, quantified dynamic connectivity with PLV, wPLI, AEC, and MI, derived graph-theoretic and hidden Markov model features, and trained a spatiotemporal Graph Transformer. Behavioral group differences increased with cognitive demand, with high-load accuracy showing a large effect size (d=1.71). Relative to controls, children with ADHD showed weaker frontoparietal θ coupling, stronger default-mode α coupling, reduced occupancy of frontoparietal-dominant states, greater default-mode state persistence, lower global efficiency, higher modularity, and smaller gains in network flexibility; frontoparietal flexibility showed the strongest association with inattentive symptoms (rs =-0.78). Under participant-level nested cross-validation, the Graph Transformer achieved 94.3% accuracy for three-class cognitive-demand classification (AUC = 0.981) and 96.7% accuracy for ADHD diagnosis (AUC = 0.991). Secondary presentation analyses reached 83.6% accuracy (95% CI: 73.8%-91.8%), and higher baseline frontoparietal flexibility in the follow-up subset was associated with subsequent medication response (OR = 8.49, 95% CI: 2.31-31.2). In an independent task-matched MEG cohort (n=45), zero-shot ADHD diagnostic accuracy was 90.0% (AUC = 0.952), increasing to 94.2% (AUC = 0.981) after limited classification-head adaptation on a separate subset. Together, these results identify load-dependent network flexibility and state-transition measures as candidate adjunctive biomarkers and define prospective multi-center validation as the next translational test.</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>A shared somatomotor structural substrate for motor function and behavioral symptoms in childhood and adolescence.</title>
+      <link>https://doi.org/10.1016/j.dcn.2026.101846</link>
+      <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101846</guid>
+      <description>Developmental cognitive neuroscience
+
+Motor function and behavioral symptom dimensions frequently co-occur during childhood and adolescence, yet the neural architecture linking these domains has remained underspecified. The somatomotor system has been suggested as a candidate substrate, but whether the two domains converge on it, and whether such convergence resides in functional coupling or cortical structure, has not been characterized. Seventy-two typically developing children and adolescents (mean age 10.52 years, 50% female) completed postural assessment, structural MRI and resting-state fMRI, and caregiver-reported Child Behavior Checklist (CBCL). Association maps relating postural control and behavioral symptoms (three CBCL broadband composites) to functional connectivity and structural features were constructed independently, adjusted for age, sex, head motion, and body mass index, and their overlap within a prespecified sensorimotor set was tested with a permutation-based conjunction analysis. Postural control and behavioral symptoms converged on cortical folding of the left postcentral region: two shared features emerged against a chance expectation of 0.04 (permutation p = .0051). A composite of the shared features was associated with CBCL Total Problems (r = .43) and with postural sway (r = .39), related to symptoms as a general dimension rather than any single scale, and was independent of whole-brain functional connectivity. No connectivity measure was shared between the domains, and the direct motor-symptom association was non-significant. Motor function and behavioral symptom dimensions in childhood and adolescence converge on an early-established structural level of somatomotor organization rather than on its functional coupling. These findings position early-formed cortical folding of the somatomotor system as a candidate marker of general developmental liability, with implications for accessible motor measures as indicators of structurally anchored individual differences during development.</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Principles of coarse-scale functional organization in occipitotemporal cortex.</title>
@@ -448,89 +534,6 @@ Extended cessation (EC) is a rare advanced meditative state characterized by the
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>In-group neural alignment serves as a biomarker of social identity.</title>
-      <link>https://doi.org/10.1073/pnas.2624145123</link>
-      <guid isPermaLink="false">doi:10.1073/pnas.2624145123</guid>
-      <description>Proceedings of the National Academy of Sciences of the United States of America
-
-In this study, we propose a perspective on neural synchronization. Beyond reflecting shared understanding between individuals, we suggest it serves as a biological marker of social homogeneity. We examined fMRI neural responses of 42 participants (21 religious, 21 secular) watching neutral and religion-relevant video narratives. While explicit measures of emotional response, agreement, and engagement showed no significant differences in within-group variance, religious participants-representing a tighter social structure-exhibited significantly higher in-group neural synchrony across all content types and brain networks. Remarkably, synchrony values predicted religious orientation with an accuracy of up to 92%. We conclude that a community's homogeneous social structure drives pervasive neural alignment, positioning neural synchrony as a potential signature of group cohesion beyond explicit behavioral measures.</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Disrupting the semantic network shifts activity to domain-general brain regions.</title>
-      <link>https://doi.org/10.1038/s41467-026-79266-2</link>
-      <guid isPermaLink="false">doi:10.1038/s41467-026-79266-2</guid>
-      <description>Nature communications
-
-Semantic processing relies on flexible interactions between specialized lexico-semantic regions and domain-general control networks, particularly under challenging conditions. Using transcranial magnetic stimulation interleaved with functional magnetic resonance imaging, we investigated acute network adaptation when the left posterior middle temporal gyrus-a core lexico-semantic region-was perturbed during lexico-semantic decisions in 25 healthy participants. High-intensity transcranial magnetic stimulation over the posterior middle temporal gyrus induced task-specific activity increases across semantic control and lexical retrieval areas, as well as remote domain-general regions. Critically, increased local activity at the stimulation site correlated with slower reaction times, whereas greater upregulation in domain-general frontal regions was associated with less disrupted semantic performance. These findings indicate that acute semantic disruption triggers immediate, flexible recruitment of domain-general control areas consistent with the maintenance of task performance, highlighting the brain's capacity to dynamically adapt to interference. Our findings contribute to the current understanding of putative compensatory network-level mechanisms supporting lexico-semantic cognition.</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Temporal coupling shapes the effects of prolonged muscle-tendon vibration on sensorimotor EEG activity during motor imagery.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122330</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122330</guid>
-      <description>NeuroImage
-
-Motor imagery (MI) recruits sensorimotor networks overlapping those engaged during physical execution and represents a promising rehabilitation tool. While concurrent afferent stimulation enhances MI-related cortical engagement, the effects of prolonged proprioceptive conditioning prior to MI remain unexplored. This study investigated whether prolonged muscle-tendon vibration (MTV) could modulate cortical activity during subsequent MI, indexed by electroencephalographic alpha- and beta-band event-related desynchronization (ERD). Twenty healthy adults performed imagined maximal isometric knee extensions before and after 20-minute suprapatellar MTV (100 Hz) or SHAM vibration (30 Hz with foam interface) in counterbalanced sessions. Cortical engagement was assessed via EEG burst detection over central electrodes (C3, Cz, C4). Maximal force capacity, submaximal force estimation performance, and cortical responses during combined MI and MTV were also evaluated. MTV induced stronger vibratory responses than SHAM, consistent with enhanced proprioceptive afferent activation. Following MTV, voluntary force outcomes showed near-threshold changes consistent with the expected direction, namely reduced maximal force capacity and altered submaximal force calibration, suggesting modified proprioceptive feedback. MI performed after MTV conditioning exhibited reduced alpha- and beta-band ERD compared to SHAM, with greater vibratory-induced responses being associated with a less pronounced post-vibration beta ERD. Conversely, when MI was performed concurrently with MTV following conditioning, alpha-band ERD increased selectively in the MTV session, with no modulation in the beta band. These findings suggest that prolonged proprioceptive conditioning modulates MI-related cortical engagement differently depending on the sensorimotor context in which imagery is performed. Such state-dependent effects may support distinct intervention strategies aimed either at recalibrating maladaptive sensorimotor patterns or at enhancing cortical recruitment in rehabilitation contexts.</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>A transdiagnostic model of illness awareness and denial: Core components of the broader construct of insight into illness.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107081</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107081</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Insight into illness is a dynamic multidimensional construct that varies between individuals and medical and psychiatric disorders, and influences treatment engagement and clinical outcomes. Despite extensive study, accounts remain fragmented and disorder specific. This review focuses on subjective illness awareness and proposes a hypothesis-generating neurobiological framework in which fluctuations in awareness and denial emerge from interactions among self-representational networks, hierarchical predictive processing, and salience-threat systems that shape the balance between self-model stability and adaptation to illness-related information. Illness-related stimuli generate prediction errors (i.e., mismatches between sensory input and the self-model) that may update higher-order self-beliefs when assigned sufficient precision. Conversely, denial may occur when identity-relevant psychological threat biases precision toward self-related priors, potentially shifting network dynamics toward relatively left-lateralized self-representational states that attenuate discrepant information and preserve psychological homeostasis. This probabilistic model of illness awareness depends on the strength and credibility of illness-related evidence and flexibility of higher-order self-related beliefs. The review specifies falsifiable predictions for hemispheric engagement, threat-related precision weighting, and self-specific belief updating and identifies potential therapeutic targets.</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Beyond Pathology: Perivascular Spaces as Dynamic Players in Neurodevelopment and Brain Health.</title>
-      <link>https://doi.org/10.1523/jneurosci.2209-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.2209-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Perivascular spaces (PVS) have historically been viewed as radiological markers of aging and cerebrovascular pathology. However, this narrow perspective overlooks accumulating evidence that PVS likely undergo dynamic, prolonged maturation across the lifespan and may play an essential role in healthy brain development. This Viewpoint article challenges the prevailing paradigm by positioning PVS not as passive anatomical structures or mere disease indicators, but as active participants in postnatal neurodevelopment whose morphology and function evolve to meet the metabolic and waste clearance demands of the maturing brain. We integrate evidence from advanced neuroimaging, developmental neuroscience, and neurobiology studies to highlight that PVS structure and fluid dynamics may be coupled with several neurodevelopmental processes, impacted by early experiences, and mature through adolescence to facilitate healthy brain development and cognitive functioning. We advocate for longitudinal, lifespan approaches to PVS research, because understanding normative PVS development is paramount for interpreting pathological changes. This developmental reframing highlights new opportunities for early identification of at-risk individuals and preventive interventions targeting the brain's waste clearance system during sensitive developmental windows.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Enhanced Pitch Perception in Early Blind Individuals and Musicians Is due to Reduced Internal Noise.</title>
-      <link>https://doi.org/10.1523/jneurosci.0510-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0510-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Although it is commonly assumed that early blind individuals have enhanced pitch perception, the literature to date has been contradictory. We measured performance on two tasks known to recruit early versus late stages of auditory frequency tuning in early blind and sighted human adults of both sexes with matched years of musical training. The two groups showed equivalent performance on a tone detection in notched-noise task that assesses cochlear frequency selectivity. In contrast, early blind individuals showed enhanced performance in a pitch discrimination task thought to be mediated by cortical mechanisms. Computational modeling revealed that this enhancement was best explained by reduced internal noise rather than narrower frequency tuning, with both blindness and years of musical training predicting a reduction in internal noise. These findings identify internal noise as a key factor in experience-driven auditory plasticity as a result of both musical experience and early blindness.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Temporal Dynamics of Early Somatosensory Processing in Goal-Directed Actions.</title>
-      <link>https://doi.org/10.1523/jneurosci.0349-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0349-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Tactile sensitivity is temporally modulated on a moving limb. Yet the neural mechanisms underlying this modulation remain unclear. Using electroencephalography, we examined the temporal dynamics of early somatosensory processing during goal-directed reaching. Participants (self-reported gender, 22 females, 16 males) reached for their unseen left hand while a brief standard vibration of a fixed intensity was applied to the moving right index finger in different movement phases. After each reach, participants compared this standard with a second comparison vibration of varying intensity applied to the sternum and judged which vibration felt stronger. The same task was performed at rest to account for individual differences. Psychophysical results revealed an overall reduction in tactile sensitivity during reaching compared with rest, with sensitivity transiently improving around maximum speed relative to the late movement phase. Consistent with the psychophysical data, the short-latency P45 component, originating in the primary somatosensory cortex, was reduced during reaching but recovered around maximum speed. Lower P45 amplitudes were associated with lower tactile sensitivity measured behaviorally, suggesting that early somatosensory processing may contribute to the observed perceptual changes. This temporally specific modulation of tactile perception, together with corresponding changes at the early cortical stage, is consistent with the idea that the somatosensory system dynamically adapts its sensitivity to facilitate control of somatosensory-guided actions.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Opposing effects of childhood abuse and neglect on neural performance monitoring.</title>
-      <link>https://doi.org/10.1162/imag.a.1439</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1439</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-The dimensional model of adversity proposes that threat (abuse) and deprivation (neglect) exert distinct effects on neurocognitive development. We tested whether these dimensions show opposing associations with neural indices of performance monitoring in a sample of 782 young adults from the CoScience EEG-Personality Project. Participants completed the Childhood Trauma Questionnaire alongside an Eriksen flanker task while electroencephalography was recorded. Performance monitoring was indexed by the error-related negativity and frontal midline theta activity. Consistent with preregistered hypotheses, abuse and neglect showed opposing associations with both neural measures. Higher abuse was associated with enhanced error-related negativity but not theta power, whereas higher neglect was associated with attenuated error-related negativity and reduced theta power. Exploratory analyses indicated that these associations were moderated by sex, with stronger effects observed in males. These findings are consistent with the distinction between threat- and deprivation-related adversity and suggest that different forms of childhood adversity may be linked to variation in neurocognitive processes underlying cognitive control. However, the cross-sectional and retrospective nature of the measures limits causal inference and may introduce reporting biases.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>
