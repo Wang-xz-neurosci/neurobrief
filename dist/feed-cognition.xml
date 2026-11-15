@@ -5,9 +5,32 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 19:04:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 19:44:26 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multidimensional Neural Maturity Indices from Naturalistic fMRI Reveal the Longitudinal Development of Theory of Mind.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122349</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122349</guid>
+      <description>NeuroImage
+
+Theory of Mind (ToM) develops from early reasoning about others' beliefs and intentions toward more advanced forms of recursive and socially embedded mental-state understanding. This ability emerges alongside the progressive maturation of large-scale brain networks. Here, we introduce a multidimensional neural maturity framework, derived from naturalistic functional magnetic resonance imaging (fMRI), that characterizes children's neurofunctional maturation along three dimensions: functional connectivity, temporal fluctuation, and spatial activation, by capturing neural responses to social narratives. Using an accelerated longitudinal design (baseline ages 3-9 years; 27-30-month follow-up), we applied this framework to examine how social-cognitive brain networks mature across complementary dimensions of brain function and how such maturation relates to ToM development. Across childhood, all three neural indices increased longitudinally, indicating progressive maturation of social-cognitive networks. Brain-behavior analyses further highlighted temporal fluctuation and spatial activation maturity as dimensions most closely related to ToM performance. Longitudinal path models indicated developmental continuity from elementary to advanced ToM, and suggested that advanced mental-state reasoning develops in coordination with the multidimensional longitudinal maturation of social-cognitive neural responses. Together, these findings provide initial longitudinal neurodevelopmental evidence that children's social-cognitive networks become increasingly adult-like across multiple neurofunctional dimension, offering a neurodevelopmental extension of behavioral accounts of the transition from elementary to advanced mental-state reasoning.</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Associations between white matter network alterations and visuospatial and social-emotional deficits in patients with right hemisphere tumors: a prospective clinico-radiological study.</title>
+      <link>https://doi.org/10.1007/s00429-026-03231-4</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03231-4</guid>
+      <description>Brain structure &amp; function
+
+Preserving neurological function is crucial in brain tumor surgery. Because the right hemisphere supports visuospatial and social‑cognitive abilities, damage may affect quality of life. This prospective study (TANGO; ClinicalTrials.gov: NCT04288505) examined associations between visuospatial and social‑emotional deficits and tractography‑based white matter alterations in patients with right hemisphere tumors. Thirty‑four patients were assessed preoperatively and 22 postoperatively using diffusion magnetic resonance imaging and four neuropsychological tests. Tractography metrics were extracted for nine right hemisphere tracts. Thirty‑four Human Connectome Project participants served as controls. Preoperatively, deficits in visuospatial functioning, facial emotion recognition, and mentalizing were associated with predominantly right hemisphere microstructural abnormalities within distributed white matter networks. Visuospatial deficits were associated with alterations involving the frontal aslant tract (FAT), arcuate fasciculus (AF), superior longitudinal fasciculus (SLF), and SLF II; facial emotion recognition deficits with the SLF III and uncinate fasciculus (UF); and mentalizing deficits with the AF. Postoperatively, exploratory findings suggested associations between new social-emotional deficits and structural alterations involving the inferior longitudinal fasciculus (ILF), SLF, and SLF III, whereas new visuospatial deficits showed a trend toward reduced right FAT volume. Relative to controls, left hemisphere tractographic changes were observed regardless of the presence of visuospatial and/or social-emotional deficits, whereas right hemisphere alterations were primarily observed in patients with such deficits. These findings highlight the role of right hemisphere networks in supporting visuospatial and social-emotional functioning. Further characterization of white matter connectivity may help improve risk stratification, surgical planning, and rehabilitation strategies.</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>The many facets of human brain asymmetry.</title>
       <link>https://doi.org/10.1038/s41583-026-01099-1</link>
@@ -516,27 +539,6 @@ Scene-construction theory explains how spatially coherent event models support m
 Working memory plays a central role in cognitive control, yet how it shapes target- and distractor-related processing over time remains unclear. Here, we combined a working memory load manipulation with a modified Stroop task in which distractors preceded targets. Behaviorally, we found that pre-exposure to the distractor eliminated the congruency effect, but this benefit was absent under high load. This pattern suggests that the benefit of advance distractor presentation is sensitive to concurrent working-memory demands. Electrophysiologically, the distractor-locked lateralized readiness potential (LRP) indicated that working-memory load altered distractor-related response activation before target onset. After target onset, load-related modulation emerged during late conflict resolution, as indexed by the sustained potential (SP), whereas earlier intervals associated with attentional selection (posterior N2) and conflict monitoring (N450) did not show load-dependent modulation. Time-frequency decoding and representational similarity analysis further revealed distinct spectro-temporal profiles of target- and distractor-related processing: target-related coding emerged earlier in the theta band (540-780 ms), consistent with stimulus-response mapping, whereas distractor-related coding emerged later in the mu-beta band (870-1180 ms), consistent with response-related regulation. These findings highlight dimension- and stage-specific patterns of working-memory modulation during conflict resolution.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Repetition dissociates pointer and content-based representations in visual working memory: contrasting the CDA with multivariate shape decoding.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122335</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122335</guid>
-      <description>NeuroImage
-
-Memorizing a new phone number or address is hard at first, but becomes easier with repetition, as information shifts from working memory to long-term memory. Here we investigated how repetition affects the storage and transition of different aspects of mnemonic information by comparing univariate neural markers of active object storage with multivariate decoding of memory content. Thirty participants encoded lateralized stimuli from a continuous shape space into memory. Memory items were repeated six times in a row to induce learning. In line with earlier work, EEG recordings revealed that repetition led to a reduction in contralateral delay activity (CDA), a measure of active storage that has been taken to reflect a pointer-like representation of the individual object or its original source. In contrast, shape decoding during the retention and also after an impulse perturbation remained constant across repetitions. These results suggest that learning over repetitions reflects the abolishment of active and individuated object memory representations while passive, source-independent memory representations are retained.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Short-video experience and brain-state dynamics during the processing of rapidly changing video information in youth.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122334</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122334</guid>
-      <description>NeuroImage
-
-Background Short-video platforms frequently expose youth to rapidly changing video information. Processing such inputs requires large-scale brain networks to reorganize with the ongoing context. However, little is known about these dynamics or their association with prior short-video viewing experience. Methods A total of 108 youth aged 8-18 years completed resting-state and naturalistic movie-viewing fMRI scans. The movie comprised rapidly changing and relatively continuous segments. Hidden Markov models were applied to 17 cortical networks to identify recurrent brain states, and a joint rest-task analysis examined the context specificity of the main finding. Results Eight task-related brain states were identified. Five differed in fractional occupancy (FO) between conditions, and global switching was slightly higher during rapidly changing segments. State 7 was the only state showing an interaction with short-video viewing experience. Its FO was higher during relatively continuous than rapidly changing segments among participants reporting no prior Douyin use, whereas the condition difference was not significant among those reporting prior Douyin use. Visit frequency analyses showed a similar pattern. The interaction remained robust after covariate adjustment and was also observed in the joint rest-task analysis, with no significant group difference at rest. Conclusions Rapidly changing video information was associated with brain-state reorganization in youth. Douyin use was associated with lower State 7 occupancy during relatively continuous narrative segments; no significant group difference in the matched state's occupancy was detected at rest. These findings provide new evidence linking short-video viewing experience to context-dependent brain dynamics in youth.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>
