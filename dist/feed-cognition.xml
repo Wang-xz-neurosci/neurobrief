@@ -5,9 +5,41 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Nov 2026 19:44:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 23:20:40 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial and functional organization of the somato-cognitive action network (SCAN) during cue and execution of motor tasks.</title>
+      <link>https://doi.org/10.1007/s00429-026-03226-1</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03226-1</guid>
+      <description>Brain structure &amp; function
+
+The primary motor cortex has traditionally been conceptualized as a somatotopically organized structure, with discrete cortical regions corresponding to specific body parts. However, accumulating evidence suggests that motor cortex organization extends beyond simple effector-based representations to include higher-order functional systems supporting goal-directed behavior. Here, we examine the somato-cognitive action network (SCAN), a set of inter-effector cortical regions located between the classical hand, foot, and face representations of primary motor cortex that has been proposed to integrate cognitive control processes with motor function. Using task-based functional MRI during a motor paradigm that dissociates cue-related and execution-related processes, we investigated the functional role and spatial organization of SCAN in healthy adults. SCAN exhibited preferential activation during the cue phase, greater than during movement execution, indicating a prominent role in action preparation rather than motor output. In contrast, classical effector-specific motor representations corresponding to individual body parts (hand, foot, and face) showed greater engagement during execution, consistent with their role in movement generation. Across these SCAN regions, activation increased systematically from dorsomedial regions (adjacent to leg representations) to ventrolateral regions (adjacent to face representations). This spatial gradient was accompanied by progressively greater dominance of preparatory SCAN activity relative to movement-related activity in the adjacent effector regions. Together, these findings demonstrate that motor cortex organization includes a distinct integrative system that is temporally and spatially dissociable from effector-specific representations. These results support an integrate-isolate framework in which cognitive and motor processes are differentially expressed across the cortical landscape, providing new insight into the functional architecture of human motor control.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Heterogeneous Encoding Patterns of Dynamic Audiovisual Social Stimuli in Autism Spectrum Disorder (Heterogeneous Encoding Patterns in Autism).</title>
+      <link>https://doi.org/10.1523/jneurosci.0055-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0055-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+The neural basis of social difficulties in autism spectrum disorder (ASD) remains uncertain. Prior studies typically used static stimuli or reduced complex stimuli to only a few dimensions, obscuring real-world complexity. Here, we used videos with social content to engage brain networks and trained encoding models to predict brain activity from high-dimensional audio, visual, and more abstract socially relevant features (e.g., valence). We hypothesized that brain activity in autistic adults would be less accurately predicted and more heterogeneous within and across individuals than in neurotypical (NT) participants, particularly for socially relevant features. Participants [48 ASD (13 female), 90 NT (25 female)] viewed six videos (5-20 min). Brain activity was measured using fMRI. Cross-validated encoding models were assessed on prediction accuracy, variance, and pattern similarity. Brain activity was predicted significantly above chance across brain networks and videos with striking consistency between groups. Auditory and language networks were most accurately predicted. Within-participant predictions were equally variable between groups; however, autistic participants exhibited lower within-group encoding pattern similarity than NT participants and greater across-group than within-group similarity. Analyses using only socially relevant features showed the largest across-group differences in encoding pattern similarity. The novel application of encoding models to multiple videos in ASD suggests greater heterogeneity in neural representations of social information in ASD. Although group-averaged encoding accuracies were comparable across groups, ASD participants showed more heterogeneous regional encoding patterns. These idiosyncratic patterns underscore the need to incorporate individual variation in brain representations when developing translational neuroimaging approaches in autism.Significance statement Individuals with autism spectrum disorder (ASD) experience difficulties in social communication and interaction, yet the underlying neural mechanisms remain unclear. Here, we present a novel application of encoding models to neuroimaging in ASD. Neural representations of dynamic and complex social information were more heterogeneous across autistic as compared with neurotypical individuals while encoding model prediction accuracy was similar for population averages across groups. Effects were robust across six videos and spatial scales. Variability in neural representation across individuals, rather than systemic population differences, may thus be associated with atypical brain function in complex social information processing in autism. The findings highlight the importance of accounting for individual variability when studying the neurobiology of autism and developing translational neuroimaging approaches.</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>The disrupted navigational compass: pathophysiological mechanisms and clinical interventions for spatial navigation deficits.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107093</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107093</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Spatial navigation is a higher-order integrative cognitive ability that supports environmental orientation, goal-directed route selection, and adaptive locomotion by integrating spatial memory, multisensory cues, attention, and executive control. Neural systems supporting navigation are also vulnerable to aging and neurodegenerative disease, making navigation a useful domain for linking basic mechanisms with clinically measurable functional impairment. This review summarizes spatial-navigation mechanisms across multiple levels. At the cognitive level, navigation depends on interacting processes including spatial representation, path integration, reference-frame transformation, landmark use, and route planning. At the network level, hippocampal-entorhinal, retrosplenial-parietal, scene-selective, and prefrontal systems contribute complementary functions. At the cellular level, place-, grid-, head-direction-, speed-, and boundary-related representations encode position, heading, self-motion, environmental geometry, and prospective behavior. Clinical and neuroimaging studies indicate that navigation impairment is associated with structural and functional abnormalities, with the strongest diagnostic evidence currently arising from Alzheimer's disease and its prodromal stages. VR-based behavioral assessment and electrophysiological approaches provide complementary means of characterizing navigation phenotypes: VR enables controlled, repeatable, process-sensitive tasks, whereas intracranial and scalp recordings provide neural information at different spatial and physiological scales. No pharmacological agent has been developed or licensed specifically for navigation impairment; current navigation-focused interventions therefore rely mainly on behavioral and VR-based rehabilitation, compensatory strategies, and emerging neuromodulation approaches. Future studies should integrate process-specific behavioral and physiological markers with biomarker-defined clinical cohorts, and use large, randomized, longitudinal studies to establish diagnostic validity, real-world transfer, and mechanism-informed intervention effects.</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Multidimensional Neural Maturity Indices from Naturalistic fMRI Reveal the Longitudinal Development of Theory of Mind.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122349</link>
@@ -507,36 +539,6 @@ Olfaction is fundamental to perception, memory, and emotion, yet the neural basi
       <description>Trends in neurosciences
 
 The brain organizes continuous experience into events that structure episodic memory and guide behavior. Traditional accounts have primarily focused on sensory discontinuities and prediction errors that trigger updates of event models. Here, we broaden this view to consider event boundaries arising during goal-directed behavior, spontaneous thought, and memory recall, including transitions generated in the absence of corresponding changes in sensory input. We propose that prediction error and uncertainty provide complementary signals for event model updating: prediction errors signal a violation of current expectations, whereas uncertainty may promote updating when upcoming states become difficult to predict. We further suggest that the hippocampus may serve as a candidate hub linking boundary-related representational changes across perception, action, and thought. Together, this framework offers an integrative account of how the brain detects and generates event structure in continuous experience to support memory and behavior.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Consumer neuroscience: the emerging science of everyday choices.</title>
-      <link>https://doi.org/10.1016/j.tics.2026.10.005</link>
-      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.005</guid>
-      <description>Trends in cognitive sciences
-
-Consumer neuroscience is a developing field at the intersection of neuroscience, psychology, economics, and marketing that seeks to uncover the neural and physiological mechanisms underlying consumer behavior. Building on early psychophysiological studies, the field has expanded substantially since the mid-2000s through an increasing range of methods and models. We highlight that its strength lies in spanning multiple levels of analysis to address marketing-relevant questions. We highlight four major trends driving the field: improving behavioral prediction, synthesizing evidence through multidataset analyses, developing formal models linking neural processes to consumer decision-making, and integrating brain and body measures. Together, these advances position consumer neuroscience as an integrative science with implications for marketing, policy, and consumer welfare.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Beyond scene construction: Mind time and the temporal organisation of cognition across hippocampal-cortical systems.</title>
-      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109624</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109624</guid>
-      <description>Neuropsychologia
-
-Scene-construction theory explains how spatially coherent event models support memory and imagination, although parts of their temporal organisation are less fully specified. Here we develop Mind Time as a theory of temporal organisation drawing on autobiographical memory and navigation to explain how events are related to one another and to a selected temporal origin across scales. Separating these represented relations from the operations that produce and revise them accommodates evidence for a distributed hippocampal-cortical system, including temporal judgements possible despite impaired episodic construction. Comparative findings constrain inferences about component capacities without resolving claims about subjective experience. The central theoretical proposal is that, during active construction, revising a temporal relation changes the information available to a represented self within the relevant history before a particular consequence is requested. An experiment would test whether this inferred state changes in advance and is available for use in subsequent imagination. Transpersonal extended Mental Time Travel (teMTT) extends this prediction to communication, through which a temporal revision should change another person's later reconstruction or planning. Together, Mind Time and teMTT specify how temporal relations constrain what a represented self can know or do, and how revising those relations changes subsequent reconstruction or planning.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Working memory supports cognitive control by orchestrating dimension-specific modulation during late conflict resolution.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122337</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122337</guid>
-      <description>NeuroImage
-
-Working memory plays a central role in cognitive control, yet how it shapes target- and distractor-related processing over time remains unclear. Here, we combined a working memory load manipulation with a modified Stroop task in which distractors preceded targets. Behaviorally, we found that pre-exposure to the distractor eliminated the congruency effect, but this benefit was absent under high load. This pattern suggests that the benefit of advance distractor presentation is sensitive to concurrent working-memory demands. Electrophysiologically, the distractor-locked lateralized readiness potential (LRP) indicated that working-memory load altered distractor-related response activation before target onset. After target onset, load-related modulation emerged during late conflict resolution, as indexed by the sustained potential (SP), whereas earlier intervals associated with attentional selection (posterior N2) and conflict monitoring (N450) did not show load-dependent modulation. Time-frequency decoding and representational similarity analysis further revealed distinct spectro-temporal profiles of target- and distractor-related processing: target-related coding emerged earlier in the theta band (540-780 ms), consistent with stimulus-response mapping, whereas distractor-related coding emerged later in the mu-beta band (870-1180 ms), consistent with response-related regulation. These findings highlight dimension- and stage-specific patterns of working-memory modulation during conflict resolution.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
