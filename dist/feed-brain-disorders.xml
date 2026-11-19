@@ -5,9 +5,20 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:52:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuropathologic Correlates of Cognitive Functions in Patients With Essential Tremor Without Dementia: Beyond the Cerebellum.</title>
+      <link>https://doi.org/10.1212/wnl.0000000000218764</link>
+      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218764</guid>
+      <description>Neurology
+
+BACKGROUND AND OBJECTIVES: Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. METHODS: Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. RESULTS: The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). DISCUSSION: Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>The hippocampus as a latent diffusion engine for memory, perception and cognitive dysfunction.</title>
       <link>https://doi.org/10.1093/brain/awag325</link>
@@ -18,6 +29,28 @@ The hippocampus is a central cognitive hub whose dysfunction contributes to most
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Hypothalamic volume and cell-type changes in ageing and Alzheimer's disease.</title>
+      <link>https://doi.org/10.1038/s41586-026-11305-w</link>
+      <guid isPermaLink="false">doi:10.1038/s41586-026-11305-w</guid>
+      <description>Nature
+
+Alterations in metabolism, stress response, sleep, circadian rhythms and neuroendocrine processes are key features of ageing and neurodegeneration1,2. These fundamental processes are regulated by the hypothalamus, yet how its functionally distinct subregions and cell types change during human ageing and Alzheimer's disease (AD) remains largely unexplored. Here we present HypoAD, an atlas of the human hypothalamus in ageing and AD, including high-resolution magnetic resonance imaging from 458 individuals and single-nucleus RNA sequencing of 614,403 nuclei from young participants, patients with AD and age-matched non-dementia control participants. We show that hypothalamic subregions governing metabolism, stress and circadian rhythms are particularly vulnerable, showing notable changes in both volumes and gene expression during ageing and AD. At the molecular level, machine learning models identified the inflammatory response and regulators of circadian rhythms as key cellular predictors of AD. These signatures were reflected in specific cell types: microglia transitioned to a pro-inflammatory state, whereas inhibitory neurons within sleep-regulating and circadian-regulating hypothalamic subregions showed the most profound transcriptional alterations, including disruptions in ligand-receptor interactions and G-protein-coupled receptor signalling. HypoAD provides a high-resolution volumetric map and a transcriptomic atlas of the human hypothalamus in ageing and AD, relating lifestyle and behavioural changes to the relevant volumetric and molecular pathways. In addition, HypoAD provides a framework to investigate hypothalamic dysfunction and establishes a roadmap for targeted interventions aimed at mitigating physiological disruptions to potentially slow disease progression.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Remodeling stress-responsive networks following early life adversity: Insights from preclinical models.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.11.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.007</guid>
+      <description>Biological psychiatry
+
+Early life adversity (ELA) is a leading risk factor for the development of mental illness worldwide. While the association between experiencing developmental stress and psychopathology is robust, the underlying brain mechanisms remain unclear. Evidence from clinical and preclinical studies suggests that ELA may hijack typical developmental plasticity mechanisms, leading to maladaptive functional network changes. Understanding the nature and magnitude of these changes is complicated by several key dimensions, including the timing, type, and severity of ELA, as well as biological factors such as sex and genetic makeup. Preclinical models using primates and rodents have allowed for fine control over these variables, providing substantial evidence of pathways and related biomarkers impacted by ELA. The present review aims to bridge findings from human clinical data with preclinical research, highlighting well-supported ELA-induced changes in the functional connectivity of stress-sensitive pathways, as well as alterations in additional cortical and subcortical pathways which are susceptible to disturbances during development. We also present key neuromodulatory mechanisms contributing to connectivity changes observed in preclinical models, and sex-specific nuances. Addressing these critical gaps could enhance the potential of connectivity-based therapeutic approaches. Lastly, we consider the translatability of functional connectivity analyses using various preclinical techniques for studying the influence of ELA on the developing brain.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Motor system inefficiency as an activity-dependent amplifier of fatigue in multiple sclerosis.</title>
@@ -517,40 +550,6 @@ Background Major depressive disorder (MDD) is associated with altered brain stru
       <category>结构与功能</category>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Negative emotion recognition impairments despite preserved neural activity in patients with mild cognitive impairment (MCI).</title>
-      <link>https://doi.org/10.1162/imag.a.1428</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1428</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Emotion recognition is an essential component of socio-emotional functioning, yet its alteration in mild cognitive impairment (MCI) remains insufficiently understood, particularly in relation to neural mechanisms. This study examined behavioral and neural responses to facial emotions in 60 adults (30 MCI, 30 healthy controls (HC)) using a validated fMRI emotion-recognition paradigm with anger, fear, sadness, happiness, and neutral expressions. Although groups did not differ in overall recognition accuracy, a multivariate analysis revealed a significant group effect driven by a selective impairment in sadness recognition in MCI. Accuracy for anger and fear showed weaker, but non-significant differences between groups, and happiness recognition was preserved. Face-processing ability, emotional interference, emotional intelligence, and domain-specific cognitive performance showed no significant associations with facial emotion recognition, indicating that the sadness-specific deficit was not attributable to perceptual, cognitive, or socio-emotional characteristics. In fMRI analyses, HCs showed widespread activation to emotional versus neutral faces across occipital, frontal, and subcortical regions, whereas patients with MCI exhibited spatially more restricted activation. However, whole-brain group comparisons revealed no significant differences in BOLD response amplitudes for overall emotion processing or any emotion-specific contrast. These findings indicate that MCI is characterized by a selective impairment in recognizing sadness, an emotion relying on subtle, low-intensity cues, while whole-brain analyses did not reveal statistically significant group differences in neural responses during emotion processing. This pattern shows that group differences in behavior did not correspond to group differences in measured neural activity.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Transcranial magnetic stimulation to the dorsolateral prefrontal cortex modulates single-neuron activity in humans.</title>
-      <link>https://doi.org/10.1073/pnas.2610803123</link>
-      <guid isPermaLink="false">doi:10.1073/pnas.2610803123</guid>
-      <description>Proceedings of the National Academy of Sciences of the United States of America
-
-Transcranial magnetic stimulation (TMS) to the dorsolateral prefrontal cortex (dlPFC) is an established treatment for depression, yet the fundamental question of how cortical stimulation influences single neurons in deep brain circuits critical for mood regulation remains unanswered. Using a rare opportunity to record from intracranial microelectrodes while TMS was delivered in four neurosurgical patients, we evaluated the responses of 185 single neurons. Artifact cleaning enabled single-neuron spikes to be resolved as early as 8 ms after stimulation. We found that single-pulse TMS to the left dlPFC elicited time-locked firing responses in 46% of neurons (26% facilitated only, 19% suppressed only, 1% both). These responses occurred within deep bilateral cortical and subcortical structures, including the putamen and thalamus. Single-pulse TMS tended to facilitate spiking in striato-thalamic putative inhibitory neurons from ~8 ms, peaking at ~80 to 100 ms, and decaying until ~600 ms. In contrast, putative excitatory neurons and limbic areas were suppressed with a slower time course lasting to ~1,000 ms. TMS-evoked potentials recorded from intracranial depth macroelectrodes to quantify network activity revealed that the modulation of responsive neurons was positively correlated with cortico-striato-thalamic network activity and anticorrelated with limbic network activity in one participant with sufficient network and unit sampling. These results suggest that dlPFC TMS recruits a high percentage of neurons spanning cortical and subcortical brain regions bilaterally. The recruitment pattern selectively involves increasing the firing rate of inhibitory neurons in executive control networks while suppressing limbic excitatory drive, providing a candidate cellular mechanism for how cortical stimulation modulates distributed brain networks.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Reduced magnocellular-biased visual responses are associated with working memory and linguistic difficulties in Chinese developmental dyslexia: A hypothesized visual-cognitive cascade.</title>
-      <link>https://doi.org/10.1016/j.cortex.2026.10.012</link>
-      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.012</guid>
-      <description>Cortex; a journal devoted to the study of the nervous system and behavior
-
-Developmental dyslexia (DD) affects 5-10% of children worldwide. Although phonological theories predominate, they may not fully explain reading difficulties in orthographically dense scripts such as Chinese. We investigated whether Chinese children with DD exhibit differences in early visual cortical responses and how these differences relate to reading-related skills. Steady-state visual evoked potentials (ssVEPs) were recorded from 50 children with DD and 50 typically developing controls aged 7-11 years using gratings that preferentially bias magnocellular or parvocellular processing. Global motion perception, visuospatial attention, verbal working memory, and linguistic skills were also assessed. Children with DD showed reduced ssVEP amplitudes to low-spatial-frequency stimuli (partial η2 = .43, p &lt; .001), whereas responses to high-spatial-frequency stimuli were preserved. Among the domains examined, the visual-processing model provided the strongest within-sample discrimination between groups (Nagelkerke R2 = .68), with low-spatial-frequency ssVEP amplitude as its only significant visual predictor. Exploratory cross-sectional mediation analyses identified significant indirect associations between ssVEP amplitude and linguistic skills through verbal working memory. For phonological awareness, the indirect association was significant, whereas the corresponding direct association was not; for morphological awareness, both associations remained significant. Visuospatial-attention differences were limited to retrospective selection from working memory rather than initial attentional orienting. For most measures, age-related associations did not differ detectably between groups. These findings are compatible with a hypothesized visual-cognitive cascade involving early visual cortical processing, working memory, and reading-related difficulties. However, the cross-sectional design does not establish temporal or causal relationships; longitudinal and intervention studies are needed to test the proposed model.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,114 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:52:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Abilities and Visual Evoked Potentials in Hearing-Impaired Children: A Comparative Study of Cochlear Implant and Hearing Aid Users.</title>
+      <link>https://doi.org/10.1159/aud/abnag001</link>
+      <guid isPermaLink="false">doi:10.1159/aud/abnag001</guid>
+      <description>Audiology &amp; neuro-otology
+
+INTRODUCTION: This study aimed to evaluate reading comprehension skills, visual evoked potentials (VEP), and saccadic eye movements in hearing aid (HA) users, cochlear implant (CI) users, and individuals with normal hearing (NH), to investigate the relationship between sensory processing and reading ability. METHODS: The study included 45 participants, 15 HA users, 15 CI users, and 15 NH. VEP, a saccadic test, and a reading comprehension test were performed. VEP recordings were conducted with and without the hearing device for HA and CI users. RESULTS: Reading comprehension scores in the CI group were significantly lower than those in the NH and HA groups (p &lt; 0.001). Rightward saccade velocity was consistently lower than leftward velocity across all groups. Notably, VEP amplitudes in HA users (N1-P1: p = 0.048) and CI users (N1-P1: p = 0.005, 0.019, 0.001; P1-N2: p = 0.010, 0.008, 0.022) were significantly larger in the unaided condition (without device) compared to the aided condition. Correlation analyses did not reveal a consistent pattern of association between reading comprehension scores and VEP parameters. CONCLUSION: While reading skills were found to be weaker in the CI group, the absence of a direct correlation between VEP/saccadic parameters and reading scores suggests that lower level sensory processing and higher order reading comprehension may operate through distinct mechanisms. The increased VEP amplitudes observed without hearing devices suggest a cross-modal neuroplastic compensation in the visual cortex during auditory deprivation.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Reading the night between the epochs: continuous decoding of sleep microstructure.</title>
+      <link>https://doi.org/10.1093/sleep/zsag306</link>
+      <guid isPermaLink="false">doi:10.1093/sleep/zsag306</guid>
+      <description>Sleep
+
+来源未提供摘要。</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Quantity and quality of children's screen use and their neural and associated behavioral outcomes: A systematic review.</title>
+      <link>https://doi.org/10.1093/chidev/aacag212</link>
+      <guid isPermaLink="false">doi:10.1093/chidev/aacag212</guid>
+      <description>Child development
+
+The developmental impact of screen use on young children remains an active area of inquiry, with evidence of both risks and benefits depending on quantity and quality of exposure. This systematic review synthesized 23 neuroimaging studies of children aged 0-8 years, selected from 19,699 records identified across PubMed, Web of Science, Scopus, and APA PsycINFO (2012-2025). Studies were included if they examined typically developing children, employed neuroimaging methods (EEG, fNIRS, or MRI), and assessed the effects of digital media exposure or intervention on brain and associated outcomes. Eight studies on quantity associated greater screen exposure with lower prefrontal activation, altered cortical activity, differences in white matter pathways, and lower myelination in language and cognitive regions. Fifteen studies on quality found that interactive and multimodal media, educational gamification, and caregiver co-use enhanced networks supporting language, perception, and socioemotional skills, whereas non-educational media showed null effects. Our paper argues that discussions on screen use should move beyond the sole focus on duration of screen-time to consider the dimensions of design, content, and context of media use and how they may shape developmental outcomes.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Timing and meaning in spoken thought relate to distinct patterns of brain dynamics</title>
+      <link>https://doi.org/10.64898/2026.11.18.767520</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.18.767520</guid>
+      <description>[预印本] bioRxiv
+
+When people think aloud, their reports vary in duration and in how closely successive thoughts are related in meaning. We asked whether these two dimensions relate to distinct patterns of brain dynamics. Using 10-minute think-aloud fMRI scans from 75 adults, we quantified timing as variability in sentence-event duration and semantic continuity as similarity between adjacent grouped thoughts. In models including both measures, greater duration variability was associated with lower relative brain entropy (BEN), estimated from BOLD time series, in the right dorsolateral prefrontal cortex (voxel wise FDR q &lt; 0.05). This association persisted after adjustment for speech coverage, pause duration, articulation rate and event count. Semantic continuity was associated with differences in BOLD amplitude and synchrony across bilateral sensorimotor regions. These voxel wise associations fell below the FDR threshold after adjustment for speech coverage or pause duration. In a secondary atlas-based analysis, semantic continuity remained positively associated with local synchrony in Default C after adjustment for speech timing (β = 0.517, P = 0.003). These findings link the timing of spoken reports to dorsolateral prefrontal brain activity irregularity and show how the sensorimotor correlates of semantic continuity covary with speech timing.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Neural processing of linguistic speech features and their modulation by selective attention in users of hearing aids and cochlear implants</title>
+      <link>https://doi.org/10.64898/2026.11.12.765375</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.12.765375</guid>
+      <description>[预印本] bioRxiv
+
+Understanding speech relies on the neural processing of acoustic and linguistic features, which can both be analyzed using Temporal Response Functions (TRFs). While both types of features have been the focus of numerous studies in typical-hearing individuals, much less is known about the neural processing of continuous speech for people with hearing loss, particularly how hearing-impaired listeners process word-level features in noisy environments, where they typically struggle. We recorded EEG from hearing aid (HA, n=29) and cochlear implant (CI, n=24) users, and an age-matched typical-hearing (TH) control group (n=29), while participants listened to audiobook segments in quiet and with a competing speaker, using their personal hearing devices (CI and HA). A hierarchical encoding framework incrementally added word onset, word frequency, and word surprisal as predictors of the EEG signal. Attentional modulation was assessed by comparing encoding scores for attended versus ignored speech. All three groups showed clear neural responses to word onset, frequency, and surprisal for speech in quiet. Surprisal tracking emerged at 400~ms in TH participants, 500~ms in HA users, and 600~ms in CI users, weakest in the CI group. All three groups exhibited attentional modulation of surprisal tracking. Word frequency yielded significant encoding gains in quiet only for TH and HI listeners, not CI users. We show for the first time that CI users exhibit significant, attention-modulated neural responses to word surprisal. More broadly, surprisal tracking was present across all hearing-impaired groups but weakest in CI users, the cohort with the greatest difficulty understanding speech in noise.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Neural sensitivity to musical rhythm is associated with the temporal dynamics of statistical learning in speech</title>
+      <link>https://doi.org/10.31234/osf.io/v9xfh_v1</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/v9xfh_v1</guid>
+      <description>[预印本] PsyArXiv
+
+Statistical learning enables the extraction of structure from the environment, including word units from continuous speech. Yet inter-individual variability suggests contributions from other, potentially broader domain-general mechanisms. Here, we investigated whether individual differences in music rhythm processing are associated with the dynamics of statistical learning during speech segmentation, potentially reflecting shared sensitivity to temporal regularities across music and language. Adults were exposed to structured and random artificial speech streams while neural tracking at syllable and word rate frequencies was tracked over time using EEG to characterize the emergence of word representations. In addition, participants’ abilities to process rhythm in musical materials were assessed using behavioral and neural (EEG) measures. Neural measurements revealed robust tracking at the syllabic level in both structured and random streams, whereas word-level tracking emerged over exposure only in the structured stream condition. Importantly, individual differences in neural synchronization to musical rhythms were associated with the temporal dynamics of word extraction. These results suggest that individual differences in the ability to process temporal regularities in musical material are related to the efficiency with which statistical regularities are extracted from sequential language material. More broadly, the findings provide evidence for domain-general mechanisms supporting sensitivity to temporal structure regularities across auditory domains.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Neural sensitivity to musical rhythm is associated with the temporal dynamics of statistical learning in speech</title>
+      <link>https://doi.org/10.31234/osf.io/v9xfh</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/v9xfh</guid>
+      <description>[预印本] PsyArXiv
+
+Statistical learning enables the extraction of structure from the environment, including word units from continuous speech. Yet inter-individual variability suggests contributions from other, potentially broader domain-general mechanisms. Here, we investigated whether individual differences in music rhythm processing are associated with the dynamics of statistical learning during speech segmentation, potentially reflecting shared sensitivity to temporal regularities across music and language. Adults were exposed to structured and random artificial speech streams while neural tracking at syllable and word rate frequencies was tracked over time using EEG to characterize the emergence of word representations. In addition, participants’ abilities to process rhythm in musical materials were assessed using behavioral and neural (EEG) measures. Neural measurements revealed robust tracking at the syllabic level in both structured and random streams, whereas word-level tracking emerged over exposure only in the structured stream condition. Importantly, individual differences in neural synchronization to musical rhythms were associated with the temporal dynamics of word extraction. These results suggest that individual differences in the ability to process temporal regularities in musical material are related to the efficiency with which statistical regularities are extracted from sequential language material. More broadly, the findings provide evidence for domain-general mechanisms supporting sensitivity to temporal structure regularities across auditory domains.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Cross-domain encoding models reveal shared and domain-specific neural representations across language and mathematics.</title>
+      <link>https://doi.org/10.1126/sciadv.aej5555</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aej5555</guid>
+      <description>Science advances
+
+Whether language and mathematics rely on shared or distinct neural representations remains unresolved in cognitive neuroscience. Here, we combined latent features from a large language model with functional magnetic resonance imaging encoding models to test cross-domain generalization in 32 participants performing sentence comprehension and calculation tasks. Cross-domain prediction identified cortical regions showing partially shared representations, most consistently in the left area 55b, while control analyses suggested that these effects could not be fully explained by low-level visual or task-general factors. Domain-specificity contrasts revealed stronger language-related prediction in the left superior temporal sulcus and angular gyrus and math-related prediction in the left precentral sulcus and bilateral intraparietal sulci. Model-weight analyses revealed distinct weight profiles associated with shared and domain-specific prediction patterns. Cross-domain regions also exhibited task-dependent functional coupling with language- and math-related networks. Together, these findings suggest that language and mathematics involve partially shared neural representations alongside domain-specific cortical organization, helping reconcile previous contrasting views on their neural basis.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music.</title>
+      <link>https://doi.org/10.1126/sciadv.aed8025</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aed8025</guid>
+      <description>Science advances
+
+Auditory processing is typically described as hierarchical, culminating in neural representation of abstract categories. However, it remains unclear whether category-selective responses in auditory cortex require representational mechanisms beyond the coding of acoustic features or whether the acoustic representations already available in the auditory cortex are sufficient to account for categorization. Here, we test whether cortical coding of spectrotemporal modulation (STM) features is sufficient to support speech-music categorization by combining human intracranial recordings with continuous behavioral judgments of a naturalistic soundtrack in which speech and music occur both separately and simultaneously. We show that temporal and spectral modulation patterns largely characterize speech and music, respectively, and that cortical auditory regions robustly track these features over time, with distinct oscillatory frequency bands preferentially encoding temporal and spectral modulations. Critically, cortical representations of STMs predicted perceptual categorical judgments gathered in an independent sample. Last, speech- and music-related STM representations showed stronger tracking of category-specific acoustical features in left versus right cortical auditory regions, respectively. These findings indicate that the efficient neural coding of acoustical features provides a sufficient basis for the categorical distinction between speech and music and that the temporal and spectral components of this representation are implemented through distinct oscillatory mechanisms.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>An electrophysiological investigation of inhibitory control in children with dyslexia and the role of comorbid ADHD symptoms: a pilot randomized intervention study.</title>
+      <link>https://doi.org/10.1080/09297049.2026.2763020</link>
+      <guid isPermaLink="false">doi:10.1080/09297049.2026.2763020</guid>
+      <description>Child neuropsychology : a journal on normal and abnormal development in childhood and adolescence
+
+Neurobiological research indicates that atypical functioning within left-hemisphere parietal and temporal regions is associated with word-processing difficulties in children with dyslexia. This study used event-related potentials (ERPs) to examine the neural correlates of inhibitory control in children with dyslexia, the effects of computerized inhibition training, and the influence of ADHD symptoms. This pilot study employed a randomized, double-blind, dosage-controlled intervention design. Participants were 62 children aged 10-12 years, including 37 children with dyslexia and 25 typically-developing controls (TDCs). Intervention analyses included 34 children with dyslexia assigned to high (n = 18) or low-dose (n = 16) training. Behavioral performance, electrophysiological responses during a Go/No-Go task, and ADHD symptoms were assessed. Independent samples t-tests showed that children with dyslexia exhibited significantly slower reaction times than TDCs during the picture Go/No-Go task. Children with dyslexia also demonstrated reduced left-lateralized N2 and P3 amplitudes over fronto-central and fronto-temporal regions relative to TDCs at baseline. ADHD inattentive symptoms were significantly associated with slower reaction times at baseline. Mixed-factorial ANOVAs revealed significant reductions in reaction times across both training groups, together with pre- to post-intervention changes in several N2 and P3 indices. These findings suggest that children with dyslexia exhibit altered neural correlates of inhibitory control despite relatively modest behavioral differences and highlight the importance of considering ADHD symptomatology when investigating executive functioning in dyslexia.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>Brain Signal Variability and Brain-Behavior Coupling in Adults with Dyslexia</title>
       <link>https://doi.org/10.64898/2026.11.13.766529</link>
@@ -256,6 +361,16 @@ Object recognition relies on correspondence between whole objects and their subc
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Preferential responses to spectrally degraded sentences in the human cortex revealed by intracranial electrophysiology.</title>
+      <link>https://doi.org/10.1016/j.heares.2026.109871</link>
+      <guid isPermaLink="false">doi:10.1016/j.heares.2026.109871</guid>
+      <description>Hearing research
+
+Despite progress in cochlear implant (CI) technology, there is considerable variability in outcomes, in part attributed to the function of central auditory pathways. Spectrally degraded sounds presented to normal-hearing listeners can be used to approximate cortical sound processing by CI users. Prior intracranial electroencephalography (iEEG) work identified "clear-preferred" and less common "vocoded-preferred" differential responses to clear and noise-vocoded non-word speech tokens. Better identification of vocoded consonants was associated with activation of the cortical dorsal auditory stream. The present study further characterized these differential responses using sentence stimuli that are expected to engage the ventral processing stream. Participants were neurosurgical epilepsy patients undergoing iEEG monitoring. Sentences were degraded using a 3-band noise vocoder. Analysis of iEEG data focused on event-related band power (ERBP) between 4-150 Hz. Differential responses (ERBP augmentation or suppression) to clear and vocoded sentences were observed both in early and late portions of the sentence, suggesting a sustained, rather than transient, nature of the preferential responses. Clear-preferred responses are likely driven by spectral complexity and intelligibility. Vocoded-preferred responses may reflect increased processing demands associated with challenging listening conditions. These responses occurred primarily in core auditory cortex and regions along the dorsal auditory stream but were virtually absent in prefrontal cortex. Identifying regions involved in the processing of degraded speech has potential clinical utility and may present candidate targets for neuromodulation-based CI rehabilitation strategies.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Reading-induced seizures: Trigger specificity and cortical localization.</title>
       <link>https://doi.org/10.1002/epd2.70460</link>
       <guid isPermaLink="false">doi:10.1002/epd2.70460</guid>
@@ -409,122 +524,6 @@ Reading words aloud improves later recognition relative to reading them silently
 
 来源未提供摘要。</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Vitamin B12 deficiency, cerebral myelination, and language development: biological evidence from an integrative review.</title>
-      <link>https://doi.org/10.1080/17518423.2026.2761583</link>
-      <guid isPermaLink="false">doi:10.1080/17518423.2026.2761583</guid>
-      <description>Developmental neurorehabilitation
-
-Objective This study aimed to analyze scientific evidence on the relationship between vitamin B12 deficiency, cerebral myelination, and its potential implications for language development and speech fluency. Methods An integrative literature review was conducted using the PubMed, Scopus, and Cochrane databases between August 2025 and July 2026. The search strategy included terms related to vitamin B12, myelination, brain development, language, and speech. Original studies published in English investigating the effects of vitamin B12 deficiency on the central nervous system, neurodevelopment, or structural brain changes were included. Results Thirteen studies met the eligibility criteria and were synthesized through thematic narrative analysis. The findings indicated a relationship between vitamin B12 deficiency and delayed neuropsychomotor development, impaired myelination, reduced white matter integrity, and structural brain abnormalities identified by neuroimaging. Furthermore, studies investigating the neural circuits underlying language showed that these same structures are essential for language organization and speech fluency, providing biological plausibility for a potential relationship between vitamin B12 deficiency and impairments in these processes. Conclusion Vitamin B12 deficiency may adversely affect neurodevelopment and cerebral myelination, representing a potential mechanism underlying alterations in the maturation of neural circuits involved in language. These findings support the biological plausibility that vitamin B12 deficiency may contribute to impaired language development through disrupted cerebral myelination, although direct clinical evidence remains lacking.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Audio large language models align with human neural responses during spoken-language comprehension.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122343</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122343</guid>
-      <description>NeuroImage
-
-Audio large language models (audio LLMs) process continuous speech directly and transform it into progressively more abstract representations, providing a useful computational point of comparison with human spoken-language comprehension. Previous studies have reported model-brain correspondence for pretrained speech models and text-based language models, but it remains unclear which internal representations of audio LLMs are most closely associated with neural responses during online listening. We compared EEG responses from 41 native Mandarin listeners with internal representations from Qwen2-Audio, Qwen2.5-Omni, and Kimi-Audio in a Mandarin auditory semantic-violation paradigm that controlled sentence structure and event boundaries. We extracted speech-related and word-level semantic-update representations and quantified their incremental contributions to held-out EEG prediction beyond lower-level controls. Audio LLM representations improved EEG prediction beyond the acoustic envelope, phoneme onsets, and word onsets (Δr = 0.012, corrected P = 0.028). Prediction-score partitioning indicated that semantic violation primarily increased the overlap in EEG-predictive information between speech-related and semantic-update representations, rather than the unique contribution of either representation class. This pattern was relatively stable in Qwen2-Audio and Qwen2.5-Omni and directionally consistent, although statistically weaker, in Kimi-Audio. These findings provide component-level evidence that audio-conditioned model representations correspond to human neural responses during spoken-language comprehension, without implying mechanistic equivalence.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Differentiating language-specific from language-related network dynamics using dynamic functional connectivity analysis.</title>
-      <link>https://doi.org/10.1007/s11571-026-10579-0</link>
-      <guid isPermaLink="false">doi:10.1007/s11571-026-10579-0</guid>
-      <description>Cognitive neurodynamics
-
-Language processing is a highly complex dynamic neural activity that requires the recruitment of both regions critical for language processing and large-scale cognitive networks. Because language networks are interconnected and dynamically reconfigure their connections depending on task demand and complexity, it is challenging to differentiate language-specific networks form language-related cognitive networks during both resting-state fMRI (rs-fMRI) and task-based fMRI (tb-fMRI). Prior evidence demonstrated state-dependent differences in dynamic functional connectivity (FC) within identical networks across rest- and task-conditions. Based on this evidence, we hypothesized that examining dynamic FC patterns could help differentiate the functional specialization of large-scale neural networks in the human brain. Thus, we examined whether temporal patterns of dynamic FC could functionally differentiate networks engaged during a language task. Using a data-driven dynamic FC framework, we tested whether rest-task state transitions preferentially modulate subsets of large-scale networks. Specifically, we examined whether monotonic temporal trends in dynamic FC, used as a first-order approximation of sustained task engagement, were more prominent in networks showing task-sensitive dynamics, while others exhibited resting-state-like dynamics. We analyzed rs-fMRI and tb-fMRI data from 172 healthy participants (86 females, 27.6 ± 3.8 years old) from the Human Connectome Project. Dynamic FC analyses revealed significant state-dependent differences in correlation variability between rs-fMRI and tb-fMRI (Bonferroni-corrected p &lt; 0.001). A subset of networks exhibited task-sensitive temporal modulation, whereas other networks showed dynamic patterns closely paralleled resting-like dynamics without reaching statistical significance. These findings suggest that dynamic FC provides a useful framework for functionally distinguishing language-specific networks from language-related cognitive networks. Supplementary information The online version contains supplementary material available at https://doi.org/10.1007/s11571-026-10579-0.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Aphasic status epilepticus presenting with prominent psychiatric symptoms: A case report.</title>
-      <link>https://doi.org/10.1002/pcn5.70440</link>
-      <guid isPermaLink="false">doi:10.1002/pcn5.70440</guid>
-      <description>PCN reports : psychiatry and clinical neurosciences
-
-Background Aphasic status epilepticus (ASE) is a subtype of nonconvulsive status epilepticus characterized by aphasia as its primary ictal manifestation. Although psychiatric symptoms are uncommon in ASE, they may obscure the diagnosis when present. We report an atypical case, presenting predominantly with agitation and irritability, which was rapidly diagnosed as ASE by electroencephalography (EEG) based on the abrupt symptom onset and neurological history. Case presentation A 49-year-old right-handed woman with alcohol use disorder was referred to our psychiatric hospital because of agitation, irritability, and disorganized thinking. Approximately 2 months before presentation to our hospital, she developed a generalized tonic-clonic seizure 3 days after sustaining a head injury. A left posterior fossa subdural hematoma was diagnosed, and burr-hole evacuation was performed at a general hospital. She continued rehabilitation; however, 6 days before admission to our hospital, she suddenly developed incoherent speech with agitation and irritability, prompting referral to our psychiatric hospital. Neurological examination revealed sensory aphasia. Given the history of brain injury and abrupt symptom onset, EEG was performed and demonstrated left-dominant periodic lateralized epileptiform discharges, confirming ASE. Antiseizure treatment resolved the EEG abnormalities and aphasia; however, aphasia, agitation, and irritability recurred with periodic lateralized epileptiform discharges. The symptoms improved with intravenous diazepam, and no recurrence was observed for &gt;2 years following optimization of antiseizure medication. Conclusion ASE may present predominantly with psychiatric symptoms and be misdiagnosed as a primary psychiatric disorder. Recognizing symptom chronology and epileptogenic background is essential for prompting EEG evaluation and early diagnosis.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Differentiating language-specific from language-related network dynamics using dynamic functional connectivity analysis</title>
-      <link>https://europepmc.org/article/PMC/PMC13751807</link>
-      <guid isPermaLink="false">PMC:PMC13751807</guid>
-      <description>Cognitive neurodynamics
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Human medial frontal neurons represent integrated semantic content and sensory evidence to inform decision-making</title>
-      <link>https://doi.org/10.64898/2026.11.06.764954</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.06.764954</guid>
-      <description>[预印本] bioRxiv
-
-Humans can reconfigure how they act on the world from a single verbal instruction. Central to this capacity is the ability to represent what an instruction specifies and to bring that content to bear on incoming sensory evidence. However, little is known about where in the human brain instruction content is encoded, how it combines with sensory evidence to produce a choice, and how this integration relates to behavior. Here, we characterized single-neuron and population responses recorded in the ventral temporal cortex, medial temporal lobe, medial frontal cortex and ventro-medial prefrontal cortex of neurosurgical patients performing a verbal instruction task. On each trial, a written instruction specified which stimulus feature was relevant and whether the correct response was to choose or to reject the stimulus that best matched it, so that the same image pair required opposite responses under different instructions. Only medial frontal populations jointly encoded the instructed task, and the target feature, whereas ventral temporal populations encoded stimulus features along axes that generalized across instruction conditions. Choice representation emerged first in ventromedial prefrontal and then in medial frontal cortex during stimulus presentation, before a motor response could be prepared. Shuffling instruction content selectively degraded prediction of medial frontal population activity, whereas shuffling stimulus identity selectively degraded ventral temporal activity. To ask how these representations could be computed, we trained a vision-language model with separable visual and linguistic streams converging on a recurrent decision module to perform the same task. Its visual embeddings predicted held-out ventral temporal activity and its recurrent activations revealed a task solution space that predicted medial frontal activity, and the strength of this alignment tracked behavioral accuracy. These results identify a cortical hierarchy in which medial frontal circuitry represents the content of verbal goals and acts on a ventral temporal substrate whose representational axes remain stable, and indicate that functional hierarchies discovered in artificial networks can serve as predictive models of human neural circuitry.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Pre- and postnatal environmental lithium exposure and adolescent neurodevelopment: a tooth-biomarker study</title>
-      <link>https://doi.org/10.64898/2026.11.06.26367460</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.06.26367460</guid>
-      <description>[预印本] medRxiv
-
-Lithium is a naturally occurring element found in drinking water, and its environmental presence is rising with demand for batteries. Yet evidence on lithium comes almost entirely from adults, ecological studies, or medical treatment, leaving the effects of prenatal and early postnatal environmental exposure unknown. We laser-mapped lithium in shed baby teeth, which preserve a record of exposure around birth (-12 to +13 weeks), from 448 U.S. youth in the Adolescent Brain Cognitive Development Study and tested associations with brain structure, cognition, and behavior at ages 9-10. Higher lithium was found in children of less-educated caregivers and from more deprived neighborhoods. Higher lithium was also linked to thicker cortices, varying surface area, mostly smaller subcortical volumes, poorer reading and language ability, and more externalizing problems, with associations varying by caregiver education. Early-life environmental lithium exposure may therefore be socioeconomically patterned and contribute to disparities in neurodevelopment, warranting environmental health surveillance.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>During natural vision, semantic novelty modulates fixation-related processing in primate cortex.</title>
-      <link>https://doi.org/10.1523/jneurosci.0826-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0826-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-We sample visual scenes with short gaze fixations separated by saccades. While low-level integration is known, semantic integration of foveal vision across fixations remains unclear. We hypothesized that the brain responds to changes in semantic information from one fixation to the next, and therefore postulated a neural signal associated with semantic novelty for each saccade. Novelty was measured from different layers of a deep network on foveal vision. Only semantic, and not low- or mid-level, novelty modulated frontal and occipital fixation-related potentials in male and female human scalp EEG during natural viewing of full-length movies (3.4x106 saccades). Intracranial recordings in male and female humans (9.0x104 saccades) and female non-human primates (Macaca mulatta; 3.3x104 saccades) revealed broadband high-frequency activity modulations in scene-specific ventral visual and frontal brain areas only for semantic novelty. This modulation was stronger for movies than static images, and frontal modulation occurred early alongside occipital modulation, suggesting top-down effects. This modulation of fixation-related activity with novelty suggests that foveal representations are compared between consecutive fixations to construct scene representations during natural viewing in primates.Significance statement Primate vision relies on eye movements to sample the world, yet how the brain integrates high-level meaning across these "snapshots" remains a mystery. By combining deep-learning models with massive electrophysiological datasets from humans and macaques, we show that the brain responds to changes in semantic content between fixations, but not low- or mid-level changes. We identified a "semantic novelty" signal that modulates neural activity across the primate cortex. These findings suggest visual processing is not a series of independent glimpses, but a continuous process comparing consecutive foveal information at the semantic level. This work bridges biological vision and artificial intelligence, providing a new framework for understanding how the brain maintains a coherent understanding of a dynamic world.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Beyond the cortex, early deficits, late recovery: a systematic review of language outcomes and subcortical mapping after awake craniotomy for diffuse gliomas.</title>
-      <link>https://doi.org/10.1186/s41016-026-00452-8</link>
-      <guid isPermaLink="false">doi:10.1186/s41016-026-00452-8</guid>
-      <description>Chinese neurosurgical journal
-
-Background To evaluate immediate and long-term postoperative language outcomes in patients undergoing awake craniotomy with direct electrical stimulation (DES) for diffuse gliomas in eloquent regions. Methods PRISMA-compliant systematic review (PROSPERO: CRD420261342690) of adults (≥ 18 years) with supratentorial diffuse glioma in the language-dominant hemisphere enrolled in both randomised and non-randomised studies of awake craniotomy with direct electrical stimulation and language mapping. Databases searched included PubMed, MEDLINE, Embase, and Cochrane CENTRAL (from 2010 to March 2026). Study selection, data extraction, and risk of bias assessment were performed independently by multiple reviewers using standardised tools (JBI Critical Appraisal Checklists). Due to methodological heterogeneity, narrative synthesis was performed. Results Ten studies (532 patients enrolled; 55.3% male) published 2011-2025 were included; tumour grade was reported inconsistently, with higher-grade tumours predominating in the larger cohorts and at least 114 patients having WHO grade 4 disease. Early postoperative deficits ranged from 2.2 to 100% depending on assessment timing and measure (immediate post-op: up to 100%; day 7 to week 1: 2.2-22%). Persistent deficits at ≥ 3 months ranged from 0 to 47%. In three studies reporting whole-cohort outcomes with standardised assessment, rates were 0-5.6%. Papagno et al., using 3-month cut-offs, found that 47% of patients with uncinate fasciculus resection had impairment in famous face naming versus 10% with the tract preserved. The general trend was early decline followed by improvement, with most reported deficits resolving by around 3 months. Heterogeneous deficit definitions and inconsistent baseline assessment preclude treating this as a prognostic pattern, and resections involving the uncinate fasciculus were a notable outlier, underscoring the need for systematic subcortical tract mapping. Conclusion Awake craniotomy with DES remains the gold standard for preserving language. Early deficits are common but predominantly transient, and reported deficit rates appear closely associated with the timing of assessment. Persistent deficits assessed at ≥ 3 months were low in most studies, although rates varied considerably with the outcome measure used and with subcortical tract involvement. Subcortical tract involvement warrants systematic mapping. We advocate for the global adoption of standardised perioperative linguistic protocols to improve data comparability. Systematic review registration PROSPERO CRD420261342690.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Association of bilingual language use with brain age: MRI evidence from bilinguals, translators, and interpreters.</title>
-      <link>https://doi.org/10.1016/j.ynirp.2026.100427</link>
-      <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100427</guid>
-      <description>Neuroimage. Reports
-
-Background Bilingualism has been linked to cognitive reserve and later onset of Mild Cognitive Impairment, but its neuroanatomical correlates remain unclear. We examined whether structural MRI-derived brain age varies across bilingual groups with different professional language experience. Objective To test whether brain age differs among non-professional bilinguals, translators, and simultaneous interpreters. Methods We included 105 Czech-English bilingual adults (44 non-professional bilinguals, 35 translators, 26 simultaneous interpreters). Brain age was estimated using six pretrained models. The primary outcome was the age-corrected brain-age gap (BAGcorr ). Group differences and age × group interactions were tested across models with FDR correction. Prediction accuracy and residual age dependence were also characterised. The model showing the largest standardised BAGcorr group effect was taken forward for exploratory post hoc age-slope and regional-volume analyses. Results No group difference in BAGcorr survived FDR correction across the six models. No age × group interaction survived correction, although nominal interactions were observed for BrainAge and DeepBrainNet. Model-quality criteria ranked the models differently, with no single model consistently preferred. In BrainAge, the sex- and ICV-adjusted BAGcorr difference between interpreters and non-professional bilinguals was -1.61 years (95% CI: -3.66 to 0.44). Exploratory age-slope and regional-volume associations were model-specific and did not provide robust evidence of group differences. Conclusions Professional bilingual experience was not robustly associated with age-corrected brain-age gap across pretrained models. Brain-age inference was sensitive to model choice and age-bias correction. BrainAge-specific interpreter patterns should therefore be considered exploratory and hypothesis-generating rather than evidence of a general difference in biological brain ageing.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>What can functional transcranial Doppler ultrasonography reveal about the cerebral lateralization of writing.</title>
-      <link>https://doi.org/10.1002/1873-3468.70499</link>
-      <guid isPermaLink="false">doi:10.1002/1873-3468.70499</guid>
-      <description>FEBS letters
-
-Written language is central to modern life, yet its cerebral lateralization remains far less understood than that of oral language. This review synthesizes evidence from five functional transcranial Doppler ultrasonography (fTCD) studies (n = 268; 228 adults and 40 children aged 7-9 years), a method well-suited to studying writing due to its tolerance of natural movement. The linguistic component of writing has been shown to be left-lateralized in right-handers, mirroring oral language, whereas for left-handers findings remain inconclusive. Linguistic processing appears largely independent of whether words are produced by hand or keyboard. The unresolved issue is dissociating linguistic from motor components as writing movements may themselves be intrinsically linguistic. Future research should address underexplored populations and leverage writing as a model for neuroplasticity.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
   </channel>

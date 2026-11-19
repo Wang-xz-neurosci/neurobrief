@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:52:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,6 +19,49 @@ Making decisions often requires the integration of multiple pieces of informatio
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Neuropathologic Correlates of Cognitive Functions in Patients With Essential Tremor Without Dementia: Beyond the Cerebellum.</title>
+      <link>https://doi.org/10.1212/wnl.0000000000218764</link>
+      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218764</guid>
+      <description>Neurology
+
+BACKGROUND AND OBJECTIVES: Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. METHODS: Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. RESULTS: The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). DISCUSSION: Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Distinct Amygdala-Frontopolar and Amygdala-Medial Temporal Pathways Support Temporal Memory for Emotional Events.</title>
+      <link>https://doi.org/10.1162/jocn.a.2737</link>
+      <guid isPermaLink="false">doi:10.1162/jocn.a.2737</guid>
+      <description>Journal of cognitive neuroscience
+
+Growing evidence suggests that emotion shapes temporal aspects of memory-such as remembering when an event occurred-yet the neural bases of these effects remain unclear. Prior work indicates that temporal context representations in memory are supported by the functions of the medial temporal lobe (MTL) and prefrontal regions, including hippocampus, perirhinal cortex, and lateral frontopolar cortex (FPl). These regions have privileged access to amygdala-originated affective signals that may mediate emotional influences on temporal memory. To test whether these candidate pathways shape temporal memory for emotional events, participants encoded trial-unique negative and positive images in the scanner, followed by a surprise temporal memory task. We found that more negative stimuli were associated with greater amygdala activation and lower temporal memory error for when emotional images occurred. Replicating and extending prior work, higher stimulus-evoked multivoxel pattern similarity in the hippocampus and FPl was associated with higher temporal memory error. Notably, greater amygdala responding to emotional images predicted higher between-trial pattern similarity in the hippocampus but lower within- and between-trial similarity in FPl. Amygdala engagement was also correlated with greater perirhinal activation, which in turn predicted stronger item memory and a recency bias in temporal memory estimates. Collectively, these findings reveal distinct-and opposing-modulatory effects of amygdala-FPl and amygdala-MTL pathways on temporal memory, with the potential to sharpen and blur memory for when emotional events occurred.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Cross-domain encoding models reveal shared and domain-specific neural representations across language and mathematics.</title>
+      <link>https://doi.org/10.1126/sciadv.aej5555</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aej5555</guid>
+      <description>Science advances
+
+Whether language and mathematics rely on shared or distinct neural representations remains unresolved in cognitive neuroscience. Here, we combined latent features from a large language model with functional magnetic resonance imaging encoding models to test cross-domain generalization in 32 participants performing sentence comprehension and calculation tasks. Cross-domain prediction identified cortical regions showing partially shared representations, most consistently in the left area 55b, while control analyses suggested that these effects could not be fully explained by low-level visual or task-general factors. Domain-specificity contrasts revealed stronger language-related prediction in the left superior temporal sulcus and angular gyrus and math-related prediction in the left precentral sulcus and bilateral intraparietal sulci. Model-weight analyses revealed distinct weight profiles associated with shared and domain-specific prediction patterns. Cross-domain regions also exhibited task-dependent functional coupling with language- and math-related networks. Together, these findings suggest that language and mathematics involve partially shared neural representations alongside domain-specific cortical organization, helping reconcile previous contrasting views on their neural basis.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music.</title>
+      <link>https://doi.org/10.1126/sciadv.aed8025</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aed8025</guid>
+      <description>Science advances
+
+Auditory processing is typically described as hierarchical, culminating in neural representation of abstract categories. However, it remains unclear whether category-selective responses in auditory cortex require representational mechanisms beyond the coding of acoustic features or whether the acoustic representations already available in the auditory cortex are sufficient to account for categorization. Here, we test whether cortical coding of spectrotemporal modulation (STM) features is sufficient to support speech-music categorization by combining human intracranial recordings with continuous behavioral judgments of a naturalistic soundtrack in which speech and music occur both separately and simultaneously. We show that temporal and spectral modulation patterns largely characterize speech and music, respectively, and that cortical auditory regions robustly track these features over time, with distinct oscillatory frequency bands preferentially encoding temporal and spectral modulations. Critically, cortical representations of STMs predicted perceptual categorical judgments gathered in an independent sample. Last, speech- and music-related STM representations showed stronger tracking of category-specific acoustical features in left versus right cortical auditory regions, respectively. These findings indicate that the efficient neural coding of acoustical features provides a sufficient basis for the categorical distinction between speech and music and that the temporal and spectral components of this representation are implemented through distinct oscillatory mechanisms.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>The hippocampus as a latent diffusion engine for memory, perception and cognitive dysfunction.</title>
       <link>https://doi.org/10.1093/brain/awag325</link>
       <guid isPermaLink="false">doi:10.1093/brain/awag325</guid>
@@ -28,6 +71,18 @@ The hippocampus is a central cognitive hub whose dysfunction contributes to most
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Remodeling stress-responsive networks following early life adversity: Insights from preclinical models.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.11.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.007</guid>
+      <description>Biological psychiatry
+
+Early life adversity (ELA) is a leading risk factor for the development of mental illness worldwide. While the association between experiencing developmental stress and psychopathology is robust, the underlying brain mechanisms remain unclear. Evidence from clinical and preclinical studies suggests that ELA may hijack typical developmental plasticity mechanisms, leading to maladaptive functional network changes. Understanding the nature and magnitude of these changes is complicated by several key dimensions, including the timing, type, and severity of ELA, as well as biological factors such as sex and genetic makeup. Preclinical models using primates and rodents have allowed for fine control over these variables, providing substantial evidence of pathways and related biomarkers impacted by ELA. The present review aims to bridge findings from human clinical data with preclinical research, highlighting well-supported ELA-induced changes in the functional connectivity of stress-sensitive pathways, as well as alterations in additional cortical and subcortical pathways which are susceptible to disturbances during development. We also present key neuromodulatory mechanisms contributing to connectivity changes observed in preclinical models, and sex-specific nuances. Addressing these critical gaps could enhance the potential of connectivity-based therapeutic approaches. Lastly, we consider the translatability of functional connectivity analyses using various preclinical techniques for studying the influence of ELA on the developing brain.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Hierarchical neural circuit theory of normalization and inter-areal communication.</title>
@@ -58,6 +113,17 @@ Memories are often reactivated in one context and only later judged with respect
 Natural image representations are distributed across many dimensions of visual cortex activity, but little is known about how the multidimensional structure of these representations evolves over time following stimulus onset. Herewe examined the temporal dynamics and latent dimensional structure of natural object representations in large-scale EEG and MEG data from male and female human participants. We also compared these datawith leading representational models derived from large-scale human similarity judgments and deep neural networks. Our findings reveal a rapid expansion of stimulus dimensionality in the brain, which peaks within 100 milliseconds and gradually decays over hundreds of milliseconds. The dynamics of these dimensionality changes tracked the decoding accuracy for both behavioral embeddings and neural network features, suggesting that dimensionality may be a general indicator of representational expressivity. Interestingly, the dimensionality of the neural representations could not be fully explained by a leading behavior-based model or deep neural network. Follow-up experiments showed that the remaining neural variance carried additional perceptually relevant information not yet explained by leading models. Together, these findings reveal previously unrecognized complexity in measurements of dynamic human brain responses to natural objects.Significance Statement When we look at an object, our brains rapidly construct a rich internal representation of what we see. Using large-scale, time-resolved brain recordings from people viewing thousands of natural images, we find that the brain rapidly expands its representational complexity within the first 100 milliseconds, sustaining this richness for hundreds of milliseconds thereafter. A leading behavioral model and a large-scale deep neural network do not fully account for this complexity - yet the unexplained brain activity is not noise: people can reliably use these residual neural patterns to judge image similarity. These findings challenge the assumption that such brain recordings are informationally limited and reveal structure in the human visual system that future models will need to explain.</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Connectome fingerprinting predicts prefrontal cortical activation during abstract reasoning.</title>
+      <link>https://doi.org/10.1162/imag.a.1460</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1460</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Connectome fingerprinting (CF) is a machine-learning technique that uses an individual's unique brain connectivity profile to make predictions about their individual brain activity patterns. Previous studies have successfully employed CF using sensory, working memory, and auditory/visual functional Magnetic Resonance Imaging (fMRI) data. Here, we demonstrate that this technique can be used to examine higher-order cognition and evaluate the effectiveness of the CF method in the prefrontal cortex (PFC), an area where brain function and structure has been shown to be exceptionally variable across individuals. We designed a CF model, using a leave-one-out cross-validation scheme, to predict individually-specific blood-oxygen-level-dependent (BOLD) activation in the lateral PFC. We used an abstract reasoning task designed to probe higher-order cognitive function specific to the lateral PFC. Our results demonstrated that CF better predicts abstract reasoning activation in the lateral PFC compared to the group average. We also tested whether task-evoked BOLD activity could be predicted using a model trained on a subset of the functional connectome. We demonstrate that CF models trained on a partial connectome from associative brain networks achieved similar levels of model performance compared to models trained on the full connectome. We observed that model performance varied across participants, suggesting that within-participant reliability in task activation, and deviation from the group average influence the model. Overall, we used CF to characterize individuals' task-evoked BOLD activation during abstract reasoning, demonstrating a link between resting-state functional architecture and brain activations and identifying key networks that contribute to higher-order cognition.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Posterior alpha/beta oscillations reflect oculomotor dynamics underlying subsequent memory effects.</title>
@@ -184,7 +250,7 @@ Spatial navigation is a higher-order integrative cognitive ability that supports
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Multidimensional Neural Maturity Indices from Naturalistic fMRI Reveal the Longitudinal Development of Theory of Mind.</title>
+      <title>Multidimensional neural maturity indices from naturalistic fMRI reveal the longitudinal development of theory of mind.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122349</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122349</guid>
       <description>NeuroImage
@@ -471,71 +537,6 @@ Trust is a critical component of human communication, providing a foundation for
 Cognitive aging trajectories vary markedly. While many older adults experience gradual decline in memory and executive function, some maintain high cognitive performance well into advanced age. Understanding the neural mechanisms underlying this variability carries important implications for early detection of unfavorable aging trajectories and the development of interventions. Here, we review functional brain signatures associated with successful cognitive aging in humans, integrating evidence from functional magnetic resonance imaging and electroencephalography within a unified conceptual framework of brain maintenance and compensation. Across both modalities, evidence increasingly links successful cognitive aging to the preservation of youth-like neural dynamics, while the contribution of compensatory neural recruitment remains empirically contested and methodologically difficult to establish.</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Decoupling language and emotion in the bilingual brain.</title>
-      <link>https://doi.org/10.1016/j.tics.2026.10.009</link>
-      <guid isPermaLink="false">doi:10.1016/j.tics.2026.10.009</guid>
-      <description>Trends in cognitive sciences
-
-In a recent article, Davydova et al. showed that affect labeling fails in a second, less-proficient language due to the amygdala-ventrolateral prefrontal cortex functional connectivity. This subcortical decoupling also explains the emotional blunting that bilinguals report when using their less-proficient language.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Spontaneously emerging patterns show category-biased similarity to task-evoked visual patterns beyond human visual cortex.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122347</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122347</guid>
-      <description>NeuroImage
-
-In the absence of any task, spontaneous brain activity exhibits patterns that resemble those evoked by natural stimuli and behaviors. This raises the possibility that resting-state activity patterns may relate to maintenance and consolidation of behaviorally relevant information states. Using functional MRI (fMRI) data from 100 healthy adults in the Human Connectome Project, we investigated whether neural signals evoked by specific visual stimuli (body parts, faces, places, tools) show similarity to resting-state activity across non-canonical visual areas, i.e., motor and association cortices. Participants underwent a working memory task and resting-state scanning. We analyzed multivoxel pattern similarity between task-evoked activations and spontaneous activity in bilateral hand motor regions and attention-related networks. Spatial correlations between task-evoked multivoxel patterns for each visual category and frame-by-frame resting-state signals were computed, with the upper 90% distribution percentile (U90) as a similarity metric. We found that resting-state patterns in the left hemisphere hand motor region showed significantly higher similarity to tool-evoked patterns than place-evoked patterns, consistent with the interpretation that tools recruit motor affordances and hand‑object associations in motor cortex. In the bilateral dorsal attention network, resting-task similarity for non-face evoked patterns significantly exceeded that for faces. Moreover, effects localized to posterior dorsal attention network, aligning with the dorsal visual pathway's role in spatial-action coding of behaviorally relevant objects. These results suggest that resting-state activity in non-visual cortices shows category-biased similarity to task-evoked visual patterns, consistent with the view that spontaneous neural dynamics preferentially reactivate ecologically salient stimuli.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Transdiagnostic variation in age-related patterns of rich-club organization across neurodevelopmental and related mental health conditions.</title>
-      <link>https://doi.org/10.1162/imag.a.1449</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1449</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Rich-club organization is a topographical property of functional brain networks where highly connected regions are more densely interconnected. The rich-club has been shown to be vital for supporting cognitive functioning, and differences have been associated with a wide range of mental health and developmental conditions. This type of organization undergoes complex changes across development, and we have previously shown that males and females have strikingly distinct age-related changes. While disruptions in its development have been related to neurodevelopmental conditions and related mental health conditions such as attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and obsessive-compulsive disorder (OCD), the diagnostic- and sex-specific age-related patterns remain unexplored. These conditions also have heterogeneous and overlapping neurobiology and phenotype, and thus transdiagnostic approaches may be most suitable for addressing the complexities. Here, we combine the temporal advantages of magnetoencephalography (MEG) with a data-driven, transdiagnostic approach to parse the heterogeneity of age-related variation in rich-club organization in 386 neurodivergent (116 ADHD, 231 autism, 39 OCD) and 231 neurotypical children and youth, stratified by biological sex. In males and females, subgroups with distinct age-related patterns of rich-club organization did not align cleanly with the diagnostic categories. These patterns were frequency specific, separating the female subgroups in the alpha and gamma bands and the male subgroups in the theta, alpha, beta, and high gamma bands. While the female subgroups differed in their proportions of autistic and neurotypical individuals, all diagnostic categories were represented across the subgroups. The female subgroups also differed in intelligence, while the male subgroups differed in hyperactivity/impulsivity symptoms. Together, our findings indicate that frequency-specific, age-related variation in rich-club organization is largely shared across neurotypical and neurodivergent children and youth, rather than delineating diagnostic categories, and highlight the importance of considering sex when studying the biological constructs underlying neurodivergence.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Neural Connectome Mapping of Chronotype in Young Adults: Associations with Neurotransmitter Profiles and Longitudinal Self-Control.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122346</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122346</guid>
-      <description>NeuroImage
-
-Chronotype is associated with self-regulation, but its functional connectivity correlates, neurotransmitter correspondence, and longitudinal associations with self-control remain unclear. We applied connectome-based predictive modeling (CPM) in a longitudinal cohort to identify resting-state connectivity features associated with chronotype. Cross-validated predictions showed a small correlation with reduced Morningness-Eveningness Questionnaire (rMEQ) scores in the discovery set (n = 816, r = 0.118, pperm = 0.007). A similar association was observed in validation set 1, a baseline hold-out sample from the same cohort (n = 681, r = 0.125, pperm &lt; 0.001). Longitudinal evaluation used validation set 2, comprising two-year follow-up data from a subset of participants in validation set 1 (n = 594, r = 0.134, pperm &lt; 0.001), providing a within-cohort assessment of whether the association was stable over time. Node-importance maps showed spatial correspondence with neurotransmitter maps. Both connectivity sets shared GABA-A and VAChT associations, with relatively receptor-weighted and transporter-weighted profiles in the positive and negative sets, respectively. In participants with complete two-wave data (n = 563), cross-lagged panel models indicated that baseline self-control was prospectively associated with higher positive-set strength (β = 0.256, p &lt; 0.001) and lower negative-set strength (β = -0.228, p &lt; 0.001); reverse paths were not significant. These findings provide evidence for chronotype-related functional connectivity features and their associations with neurotransmitter distributions and self-control in young adults. The validation and longitudinal evidence is limited to a single-site cohort, and cross-cohort generalizability remains to be established.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Age-related reversal in the behavioral relevance of theta-alpha coupling during conflict processing.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122339</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122339</guid>
-      <description>NeuroImage
-
-Cognitive aging is often characterized by slower responses during conflict processing, but the oscillatory coordination underlying this change remains poorly understood. We examined whether cross-frequency phase synchronization between theta and alpha activity is related to response conflict processing and whether its behavioral relevance changes across adulthood. N = 117 healthy adults aged 32-84 years performed a flanker task while an EEG was recorded. Theta-alpha phase-phase coupling was quantified as phase-locking value (PLV) across task-relevant time windows; time-frequency and source-level analyses characterized the underlying dynamics. Incongruent trials produced robust behavioral conflict, with lower accuracy and slower responses than congruent trials. Theta-alpha coupling showed a pronounced 1:1 structure across conditions, and was selectively stronger during incongruent trials. Time-frequency and source-level analysis provided complementary evidence of frontocentral theta engagement and alpha modulation in posterior and sensorimotor regions. Theta-alpha PLV at FCz during the target-processing window declined with age in incongruent trials, and its association with reaction time varied with age in the incongruent-trial analysis. Stronger coupling was associated with faster responses at younger ages, whereas the same coupling was associated with slower responses at older ages. A direct comparison did not establish that this age-dependent association differed between congruent and incongruent trials. These findings suggest that theta-alpha coupling is sensitive to response conflict and may contribute to the coordination of control-related and gating-related processes. Its age-related decline and changing association with response speed highlight the relevance of cross-frequency coordination for understanding cognitive aging.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>The unfolding symphony: unraveling brain dynamics via data-driven multi-scale functional connectivity in task-state fMRI.</title>
-      <link>https://doi.org/10.1007/s00429-026-03230-5</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03230-5</guid>
-      <description>Brain structure &amp; function
-
-Task-state functional magnetic resonance imaging (fMRI) can characterize both regional responses and changes in statistical dependence among distributed brain systems. This narrative review examines dynamic and multiscale connectivity within a broader framework that distinguishes task-modulated functional connectivity, trial-wise covariation, effective connectivity, and data-driven state analysis. Sliding-window correlation, hidden Markov models, and co-activation patterns are compared by their data representations, temporal assumptions, and computational procedures; graph representations can be combined with each of these strategies. We discuss supervised recurrent, transformer, and graph models alongside unsupervised state discovery, self-supervised representation learning, and emerging brain foundation models. Explainability requires evaluation of model attributions, including graph masks and perturbation-based analyses, rather than anatomical plausibility alone. The spatial framework includes whole-brain networks, subnetworks, atlas-defined regions of interest, and voxel- or layer-level measurements. Proposed links across these levels remain hypotheses: faster sampling of the blood oxygenation level-dependent (BOLD) signal does not directly resolve millisecond neural interactions, and resting-state or animal findings do not establish the corresponding mechanism during human tasks. Shared task-evoked responses, hemodynamic variability, motion, and analytical choices can all alter apparent connectivity. Progress therefore depends on matching the estimator to the scientific question, comparing against activation and static-connectivity baselines, and validating results across participants, sessions, and acquisition settings.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>

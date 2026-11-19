@@ -5,16 +5,81 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=structure-function</link>
     <description>白质纤维束、灰质形态、结构与功能耦合，以及白质中的功能信号与连接</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:52:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-structure-function.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Insulin resistance is associated with lower cerebral myelin content in cognitively unimpaired women across the adult lifespan.</title>
-      <link>https://doi.org/10.1177/13872877261507268</link>
-      <guid isPermaLink="false">doi:10.1177/13872877261507268</guid>
-      <description>Journal of Alzheimer's disease : JAD
+      <title>Reading the night between the epochs: continuous decoding of sleep microstructure.</title>
+      <link>https://doi.org/10.1093/sleep/zsag306</link>
+      <guid isPermaLink="false">doi:10.1093/sleep/zsag306</guid>
+      <description>Sleep
 
-BackgroundInsulin resistance (IR) has been implicated in brain aging and Alzheimer's disease (AD), yet its relationship with cerebral myelin content in cognitively unimpaired adults remains unclear, particularly regarding sex differences.ObjectiveTo investigate whether peripheral IR is associated with white matter (WM) myelin content and microstructural integrity in cognitively unimpaired adults, and whether these associations differ by sex.MethodsWe used multicomponent relaxometry (n = 125) and diffusion tensor imaging (n = 116) to obtain myelin water fraction (MWF), longitudinal relaxation rate (R1), transverse relaxation rate (R2), and diffusion measures of WM microstructure. Multiple linear regression models adjusted for age, age2, sex, and IR-by-sex interactions across fifteen WM regions.ResultsHigher IR was associated with lower MWF across widespread WM regions, including frontal, temporal, and parietal lobes, corpus callosum, internal capsule, and thalamic radiation. Similar but weaker negative trends were observed for R1, R2, and fractional anisotropy, whereas diffusivity metrics showed opposite but nonsignificant trends. Significant IR-by-sex interactions indicated stronger inverse associations between IR and MWF in women, in whom higher IR was consistently associated with lower MWF across most regions. However, the dynamic range of IR for men was limited.ConclusionsHigher peripheral IR is associated with lower myelin-sensitive WM MRI measures in cognitively unimpaired adults, with stronger associations in women. These findings identify WM myelin alterations as a potential neurobiological correlate of metabolic dysfunction and provide evidence linking peripheral metabolic dysfunction to brain changes relevant to AD pathophysiology. The findings highlight a potential sex-dependent pathway linking metabolic dysfunction to WM alterations associated with AD risk.</description>
+来源未提供摘要。</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Quantity and quality of children's screen use and their neural and associated behavioral outcomes: A systematic review.</title>
+      <link>https://doi.org/10.1093/chidev/aacag212</link>
+      <guid isPermaLink="false">doi:10.1093/chidev/aacag212</guid>
+      <description>Child development
+
+The developmental impact of screen use on young children remains an active area of inquiry, with evidence of both risks and benefits depending on quantity and quality of exposure. This systematic review synthesized 23 neuroimaging studies of children aged 0-8 years, selected from 19,699 records identified across PubMed, Web of Science, Scopus, and APA PsycINFO (2012-2025). Studies were included if they examined typically developing children, employed neuroimaging methods (EEG, fNIRS, or MRI), and assessed the effects of digital media exposure or intervention on brain and associated outcomes. Eight studies on quantity associated greater screen exposure with lower prefrontal activation, altered cortical activity, differences in white matter pathways, and lower myelination in language and cognitive regions. Fifteen studies on quality found that interactive and multimodal media, educational gamification, and caregiver co-use enhanced networks supporting language, perception, and socioemotional skills, whereas non-educational media showed null effects. Our paper argues that discussions on screen use should move beyond the sole focus on duration of screen-time to consider the dimensions of design, content, and context of media use and how they may shape developmental outcomes.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Beyond morphometry: Adolescent brain microarchitecture reflects sex differences in pubertal timing and hormones</title>
+      <link>https://doi.org/10.64898/2026.11.17.766192</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.17.766192</guid>
+      <description>[预印本] bioRxiv
+
+Puberty is a sensitive neurodevelopmental period characterized by dramatic increases in adrenal and gonadal hormones, yet how these changes relate to human brain microarchitecture remains unclear. Here, we used restriction spectrum imaging (RSI) to link peripubertal hormone levels to individual differences in brain microarchitecture (i.e., cellular and neurite density) in 7,457 youth (ages 9 to 13 years) from the ABCD Study. Sex- and age-stratified multi-task regression analyses identified microarchitecture patterns jointly associated with physical pubertal maturation and each dehydroepiandrosterone (DHEA), testosterone, estradiol (in female youth), in turn, combining repeated cross-validation with permutation-based feature importance. At ages 9 to 11 years, microarchitecture differences explained 11-13% of pubertal hormone variability in female youth and 4-6% in male youth. Further, microarchitecture features were differentially associated with pubertal hormones. Younger male youth exhibited widespread pubertal hormone-related differences in neurite density that consolidated into fewer, stronger associations with age, while female youth exhibited age-related expansion in pubertal cellular density differences. Anatomically, hormone-relevant microarchitecture consistently included reward processing hubs (e.g., pallidum, accumbens, orbitofrontal cortex). Because animal models suggest that DHEA and testosterone metabolites have opposing effects on GABAergic signaling, we hypothesize that future research should investigate gray matter microarchitecture for insight into pubertal hormone contributions to adolescent refinement of excitatory-inhibitory balance. Ultimately, these findings provide a starting point for investigating how pubertal endocrine changes shape reward circuitry and neurotransmitter systems, with potential implications for the pubertal emergence of sex differences in adolescent psychopathology.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset</title>
+      <link>https://doi.org/10.31234/osf.io/tbp5x_v3</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/tbp5x_v3</guid>
+      <description>[预印本] PsyArXiv
+
+The Mainz Network Study provides comprehensive behavioral and multimodal neural data from 215 healthy adults aged 18 to 40 years from the general population, supporting research on interindividual differences in cognitive ability. The multi-indicator design supports latent-variable modeling of all major constructs alongside their structural, functional, and electrophysiological neural correlates. Across three sessions, participants completed the Berlin Intelligence Structure Test and Raven's Advanced Progressive Matrices (general and fluid intelligence), three binding tasks and three complex span tasks (working memory capacity), a cued task-switching paradigm (cognitive control), and three elementary cognitive tasks indexing processing speed (Posner letter matching, Sternberg memory scanning, two-choice reaction time). Electroencephalography (EEG) data was collected during four resting-state blocks and during task performance (cognitive control and processing speed). High-resolution structural magnetic resonance imaging (MRI), multi-shell diffusion-weighted imaging using the SANDI protocol, and multi-band multi-echo functional MRI during rest and task-switching were acquired in a subset. Behavioral, EEG, and MRI data are accessible via a RDC-ZPID repository. All data are BIDS-organized and shared raw.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset</title>
+      <link>https://doi.org/10.31234/osf.io/tbp5x</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/tbp5x</guid>
+      <description>[预印本] PsyArXiv
+
+The Mainz Network Study provides comprehensive behavioral and multimodal neural data from 215 healthy adults aged 18 to 40 years from the general population, supporting research on interindividual differences in cognitive ability. The multi-indicator design supports latent-variable modeling of all major constructs alongside their structural, functional, and electrophysiological neural correlates. Across three sessions, participants completed the Berlin Intelligence Structure Test and Raven's Advanced Progressive Matrices (general and fluid intelligence), three binding tasks and three complex span tasks (working memory capacity), a cued task-switching paradigm (cognitive control), and three elementary cognitive tasks indexing processing speed (Posner letter matching, Sternberg memory scanning, two-choice reaction time). Electroencephalography (EEG) data was collected during four resting-state blocks and during task performance (cognitive control and processing speed). High-resolution structural magnetic resonance imaging (MRI), multi-shell diffusion-weighted imaging using the SANDI protocol, and multi-band multi-echo functional MRI during rest and task-switching were acquired in a subset. Behavioral, EEG, and MRI data are accessible via a RDC-ZPID repository. All data are BIDS-organized and shared raw.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Robust sex differences in regional gray matter volume but shared personality-gray matter associations in young adults.</title>
+      <link>https://doi.org/10.1371/journal.pone.0360642</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pone.0360642</guid>
+      <description>PloS one
+
+Relationships between personality traits and brain regions have been widely studied, but potential sex-based differences have received less attention, despite sex hormones affecting neuronal activity and brain functions. We aimed to determine whether the personality-brain relationship differs fundamentally between the sexes. We enrolled healthy university students (103 men, 111 women). Gray matter volumes were measured in 388 brain regions using voxel-based morphometry on T1-weighted brain MRI, and personality traits were assessed using the temperament and character inventory. In confirmatory analyses correcting for multiple comparisons across all 388 regions and seven factors (Benjamini-Hochberg false discovery rate), main-effect sex differences in gray matter volume were robust: 17 regions survived correction, independent of personality, and were predominantly subcortical (thalamus, pallidum and putamen) and right-lateralized. By contrast, neither any association between personality and gray matter volume nor any personality-by-sex interaction survived correction, indicating that personality-gray matter associations were not detectably different between the sexes. In a cross-validated penalized regression over all regions, only self-transcendence was predicted above chance (out-of-sample R2 ≈ 0.04, permutation p = 0.004), and this prediction was essentially unchanged after adjustment for sex and total intracranial volume. In exploratory region-wise analyses (uncorrected p &lt; 0.05), the distribution of brain regions associated with each personality factor appeared to differ between the sexes; for instance, harm avoidance in females was related mainly to parietal, temporal and thalamic regions, whereas in males it was related mainly to sensorimotor and cerebellar regions. These exploratory patterns did not survive correction and are reported as hypothesis-generating observations. Overall, sex differences in this young adult sample were robust for subcortical volume but not for the coupling between personality and gray matter volume, which appeared largely shared between the sexes, underscoring the importance of considering sex as a biological variable while distinguishing confirmed effects from exploratory observations.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Reverberant magnetic resonance elastography and NODDI provide complementary characterization of age-related brain changes in healthy adults.</title>
+      <link>https://doi.org/10.1088/1361-6560/aebd35</link>
+      <guid isPermaLink="false">doi:10.1088/1361-6560/aebd35</guid>
+      <description>Physics in medicine and biology
+
+Objective. Age-related changes in brain microstructure and mechanical properties are essential for understanding neurodegeneration and improving early diagnosis. We asked whether tissue microstructure explains the age-related decline in brain stiffness. To test, we related stiffness, measured using reverberant magnetic resonance elastography (MRE), to microstructure, assessed by neurite orientation dispersion and density imaging (NODDI).Approach. Twenty-eight healthy volunteers (22-76 years) underwent 50 Hz MRE at 3 T. NODDI parameters (isotropic volume fraction Fiso; orientation dispersion index, ODI; neurite density index, NDI) were computed from diffusion-weighted images in 26 subjects. We analyzed global gray and white matter and 13 deep brain regions. Age associations were evaluated using Spearman correlations. Multivariate regression was used to test whether NODDI parameters predicted shear modulus independently of age. All tests used Benjamini-Hochberg false discovery rate (FDR) correction.Main results. Shear modulus decreased with age in both gray matter (,) and white matter (,), and in nine of 13 deep brain regions after FDR correction. Fiso (,) and NDI (,) increased with age in gray matter; no NODDI parameter changed significantly with age in white matter. Across the six global multivariate tests (gray and white matterthree NODDI parameters), only the gray-matter Fiso independently predicted shear modulus after adjusting for age (,); no NODDI parameter predicted white matter stiffness. This association did not survive FDR correction after additional adjustment for sex ().Significance. These findings suggest that cortical free water accumulation is the microstructural measure most closely associated with age-related softening in this cohort, pending confirmation in larger, sex-balanced cohorts, and support a multi-modal approach to characterizing age-related brain changes.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -25,6 +90,46 @@ BackgroundInsulin resistance (IR) has been implicated in brain aging and Alzheim
       <description>Medecine sciences : M/S
 
 Myotonic dystrophy type 1 is the most common adult-onset myopathy, but is also a brain disorder leading to cognitive impairment. This brain condition remains poorly characterized: the scientific literature highlighted different cognitive profiles, and no predominant mechanism has been identified. Recent findings from our team in Lille, France, help to better understand this cognitive impairment. We showed that three distinct cognitive profiles exist, patients probably starting from the least severe to the most severe profile with ageing, while brain abnormalities progress in the anterior regions of the brain (frontal and parietal lobes). Despite this cognitive heterogeneity, some difficulties seemed more frequent in our patients, especially those concerning social cognition (skills especially involved in social interactions), and might be explained by white matter lesions in the temporal poles, but also by neurodevelopmental abnormalities in the right parietal lobe.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Microstructure regulation of Co&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt;&lt;i&gt;via&lt;/i&gt; a variable temperature strategy for efficient azo dye degradation by peroxymonosulfate activation.</title>
+      <link>https://doi.org/10.1039/d6dt02131j</link>
+      <guid isPermaLink="false">doi:10.1039/d6dt02131j</guid>
+      <description>Dalton transactions (Cambridge, England : 2003)
+
+Peroxymonosulfate (PMS)-activated advanced oxidation processes (AOPs) are promising for the removal of refractory azo dyes, and the catalytic performance of Co3 O4 strongly depends on its surface and microstructural characteristics. Herein, Co3 O4 microspheres were prepared by a solvothermal-annealing route, and their microstructures were regulated by varying the annealing temperature from 350 to 650 °C without changing the spinel phase. Increasing the annealing temperature induced progressive nanoparticle coarsening and decreased the BET specific surface area from 7.68 m2 g-1 for Co3 O4 -350 to 1.08 m2 g-1 for Co3 O4 -650. Among the samples, Co3 O4 -350 exhibited the highest PMS activation activity, achieving 99.1% removal of Ponceau Red 2R (PR) within 3 min with an apparent pseudo-first-order rate constant of 1.6693 min-1 . Quantitative comparison with representative Co3 O4 -based PMS activation systems reported in the literature further demonstrates the competitive kinetic performance of Co3 O4 -350, with a catalyst-mass-normalized apparent rate constant of 5.5643 L g-1 min-1 . Radical quenching experiments and EPR measurements support the involvement of SO4 ˙- , ˙OH, O2 ˙- , and 1 O2 in the oxidation process. Co3 O4 -350 also retained 93.7% PR removal after eight consecutive cycles. These results show that simple annealing-temperature regulation can effectively tune the accessible surface structure of compositionally unmodified Co3 O4 and provide a competitive route for PMS activation toward azo-dye degradation.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>The Tapetum: Historical Evolution, Anatomical Insights, and Contemporary Neurosurgical Relevance.</title>
+      <link>https://doi.org/10.1016/j.wneu.2026.125526</link>
+      <guid isPermaLink="false">doi:10.1016/j.wneu.2026.125526</guid>
+      <description>World neurosurgery
+
+OBJECTIVE: The tapetum is a thin commissural fiber layer originating predominantly from the splenium of the corpus callosum and forming part of the lateral wall of the atrium and temporal horn of the lateral ventricle. Although surgically relevant, its historical development has received limited attention. This review examines the evolution of the anatomical concept of the tapetum from early descriptions of interhemispheric and ventricular anatomy to contemporary fiber-dissection and tractographic perspectives. METHODS: A narrative historical review was conducted using classical neuroanatomical texts from the sixteenth to twentieth centuries and contemporary studies identified through PubMed, Scopus, Web of Science, and Google Scholar. Historical primary sources and modern anatomical, surgical, and imaging studies were reviewed. RESULTS: Early concepts of interhemispheric connectivity arose from descriptions of the corpus callosum and ventricular anatomy. Johann Christian Reil formally defined the tapetum in 1809 as a carpet-like layer of callosal fibers lining the lateral ventricular wall. Nineteenth-century anatomists, including Burdach, Arnold, Gratiolet, Flechsig, Meynert, and the Dejerines, refined its topography while highlighting uncertainties regarding adjacent projection and association pathways. Twentieth-century fiber dissection, particularly the Klingler method, enabled three-dimensional visualization, while modern diffusion imaging and tractography supported the interpretation of the tapetum as a thin laminar extension of splenial callosal fibers. CONCLUSION: The tapetum concept evolved from descriptive ventricular anatomy to a fiber-based understanding of posterior interhemispheric connectivity. Its close relationship with the optic radiation and lateral ventricular wall underscores its relevance in contemporary approaches to the atrium and temporal horn.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Brain volumes and their relationship with cerebral microbleeds and cognition in middle-aged adults with type 1 diabetes.</title>
+      <link>https://doi.org/10.1016/j.diabres.2026.113678</link>
+      <guid isPermaLink="false">doi:10.1016/j.diabres.2026.113678</guid>
+      <description>Diabetes research and clinical practice
+
+AIMS: Type 1 diabetes (T1D) is associated with brain volumetric alterations, cerebral microbleeds (CMBs), and cognitive deficits. We examined brain volumes and their direct and combined associations with CMBs on cognitive performance in T1D. METHODS: Adults with T1D (n = 163; age 46 ± 8 years; diabetes duration 31 ± 10 years; 53% women) and 48 matched controls underwent brain MRI and clinical and neuropsychological evaluations. Volumetric MRI measures included total brain (TBV) and white matter volume (WMV), and volumes of cortex, thalamus, hippocampus, nucleus accumbens, and choroid plexus. RESULTS: Individuals with T1D had smaller TBV, WMV, cortex, thalamus, and nucleus accumbens volumes, and larger choroid plexus, than controls (Cohen's d = 0.39-0.54). Those with T1D and ≥3 CMBs (n = 25) had smaller TBV, WMV, and cortex, thalamus, and nucleus accumbens than those with 0-2 CMBs (n = 138; Cohen's d = 0.54-0.92). Brain volumes were not directly linked to cognition, but CMB burden moderated the associations between TBV, WMV, nucleus accumbens, and choroid plexus and cognitive performance (standardized β: -0.61-(-0.51) and 0.54-0.75, pFDR = 0.006-0.048). CONCLUSIONS: Middle-aged individuals with T1D showed smaller global and regional brain volumes and larger choroid plexus than healthy controls. Individuals with CMB burden showed associations between brain volumetric alterations and cognitive deficits.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Transcriptional Patterns of Disruption in Structure-Function Coupling in First-episode, Drug-naive Major Depressive Disorder.</title>
+      <link>https://doi.org/10.1007/s12264-026-01752-w</link>
+      <guid isPermaLink="false">doi:10.1007/s12264-026-01752-w</guid>
+      <description>Neuroscience bulletin
+
+First-episode major depressive disorder (FEMDD) is associated with alterations in macroscale brain organization, which may involve changes in brain structure-function coupling (SFC). Whether alterations in SFC affect the emergence of depression and how they correlate with gene expression remain unclear. Diffusion-weighted magnetic resonance imaging and resting-state functional magnetic resonance imaging data were collected from 95 healthy controls and 124 patients with FEMDD. We applied SFC analysis to calculate the structural decoupling index (SDI) and to quantify SFC in the two groups. Furthermore, we examined the relationship between alterations in SDI and gene expression. The FEMDD group showed a significantly lower SDI in the inferior frontal gyrus, parahippocampal gyrus, amygdala, medial orbital gyrus, pregenual anterior cingulate cortex, and lateral occipital cortex (LOcC), whereas a significantly higher SDI was observed in the inferior temporal gyrus, lateral superior frontal gyrus, medial precuneus, and hypergranular insula than in the healthy control group. The speed of processing and working memory scores of the Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery negatively correlated with the LOcC SDI in the FEMDD group. Additionally, changes in FEMDD-related SDI were associated with the expression of genes involved in synaptic signaling and neuronal development. These findings reveal regional- and network-level alterations in structure-function coupling in patients with FEMDD, providing new insights into the neurobiological underpinnings and promising neuroimaging markers for the prediction of FEMDD.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -90,12 +195,12 @@ Structural connectivity (SC) and functional connectivity (FC), as well as their 
       <category>结构与功能</category>
     </item>
     <item>
-      <title>Ultra-low-field MRI assesses brain volumes and age-related changes: validation against high-field MRI.</title>
-      <link>https://doi.org/10.1016/j.mri.2026.110847</link>
-      <guid isPermaLink="false">doi:10.1016/j.mri.2026.110847</guid>
-      <description>Magnetic resonance imaging
+      <title>Interictal biomarker timing in migraine-related white matter hyperintensities: Methodological considerations.</title>
+      <link>https://doi.org/10.1016/j.clineuro.2026.109690</link>
+      <guid isPermaLink="false">doi:10.1016/j.clineuro.2026.109690</guid>
+      <description>Clinical neurology and neurosurgery
 
-High-field MRI is the standard for assessing brain atrophy in neurodegenerative disorders, but limited access can restrict research and clinical care, particularly outside urban centers. Portable ultra-low-field (ULF) MRI may improve access, but their suitability for quantitative morphometry and detection of neurodegenerative-related atrophy is not well established. We evaluated agreement between 64 mT ULF MRI and 3T MRI for brain volumetric measurements and explored their potential utility in neurodegenerative disorders. We conducted a prospective, cross-sectional study of adults, including patients with neurodegenerative, subacute stroke, and healthy controls. Participants underwent both 3T and 64 mT ULF MRI with T1-weighted imaging. Regional brain volumes were extracted from both modalities using WMH-SynthSeg. Agreement between ULF- and 3T-derived volumes were assessed using intraclass correlation coefficients and Bland-Altman analyses. Where applicable, 3T FreeSurfer-derived volumes were used as an additional reference standard. Analyses in the neurodegenerative disorder subgroup were considered exploratory because the subgroup was not powered for formal inferential comparisons. ULF and 3T volumetric measures show variable agreement (ICC ranged from 0.29 to 0.95), with the highest agreement for large structures such as total ventricles (ICC 0.85 to 0.95) and the lowest for the Pallidum (ICC 0.34 to 0.51). Age-related trajectories of gray and white matter decline, and ventricular expansion show the same pattern for WMH-SynthSeg and FreeSurfer-derived volumes. Exploratory analysis suggests pathological atrophy might differ from healthy aging trajectories. Portable ultra-low-field MRI combined with automated segmentation produced brain volumetric estimates that were broadly consistent with 3T MRI, particularly for larger structures relevant to atrophy assessment. These findings support the feasibility of ultra-low-field MRI for accessible morphometric evaluation in clinical research and potentially in under-resourced settings. Larger, adequately powered studies are needed to define diagnostic accuracy, prediction intervals, and clinical utility in specific neurodegenerative disorder populations.</description>
+来源未提供摘要。</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -198,7 +303,7 @@ Depression is highly prevalent in people with HIV (PWH). However, brain imaging 
       <guid isPermaLink="false">doi:10.64898/2026.11.13.766231</guid>
       <description>[预印本] bioRxiv
 
-The corpus callosum (CC) is the largest fibre tract connecting the cerebral hemispheres, essential for integrating neural activity across large-scale brain networks. Accordingly, abnormal CC development is associated with diverse neurodevelopmental and neuropsychiatric disorders. Callosal projection neurons (CPNs) of the cortex form the CC by extending long-range axons to the contralateral hemisphere; however, the mechanisms that sustain axon elongation over such remarkable distances remain poorly understood. Here we show that variants in the human gene EPHB2, which encodes a tyrosine kinase receptor regulating nervous system development and implicated in neurodevelopmental disorders, cause CC dysgenesis. We characterise variant- specific effects on EPHB2 signalling and demonstrate that variants identified in individuals with distinct CC morphologies differentially alter CPN axon outgrowth and integration in vivo. We further show that EphB2 has a cell-autonomous, ligand-independent function in promoting CPN axon outgrowth by spatially organising actomyosin at axonal growth cones. These findings reveal a previously unrecognised role for EphB2 in promoting long-range axon extension and provide the first evidence that EPHB2 variants cause CC dysgenesis in humans. More broadly, our study links molecular variation in EPHB2 to individualised abnormalities in brain connectivity and provides a framework for understanding how heterogeneous circuit-level phenotypes arise in neurodevelopmental disorders.</description>
+The corpus callosum (CC) is the largest fibre tract connecting the cerebral hemispheres, essential for integrating neural activity across large-scale brain networks. Accordingly, abnormal CC development is associated with diverse neurodevelopmental and neuropsychiatric disorders. Callosal projection neurons (CPNs) of the cortex form the CC by extending long-range axons to the contralateral hemisphere; however, the mechanisms that sustain axon elongation over such remarkable distances remain poorly understood. Here we show that variants in the human gene EPHB2 , which encodes a tyrosine kinase receptor regulating nervous system development and implicated in neurodevelopmental disorders, cause CC dysgenesis. We characterise variant-specific effects on EPHB2 signalling and demonstrate that variants identified in individuals with distinct CC morphologies differentially alter CPN axon outgrowth and integration in vivo. We further show that EphB2 has a cell-autonomous, ligand-independent function in promoting CPN axon outgrowth by spatially organising actomyosin at axonal growth cones. These findings reveal a previously unrecognised role for EphB2 in promoting long-range axon extension and provide the first evidence that EPHB2 variants cause CC dysgenesis in humans. More broadly, our study links molecular variation in EPHB2 to individualised abnormalities in brain connectivity and provides a framework for understanding how heterogeneous circuit-level phenotypes arise in neurodevelopmental disorders.</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -222,6 +327,16 @@ Background The impact of anosmia on brain cortical structure and the underlying 
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Sex differences in social cognition, grey matter correlates, physical and psychological impact in multiple sclerosis: a prospective Cohort study.</title>
+      <link>https://doi.org/10.1016/j.msard.2026.108064</link>
+      <guid isPermaLink="false">doi:10.1016/j.msard.2026.108064</guid>
+      <description>Multiple sclerosis and related disorders
+
+BACKGROUND: Social cognition (SC) is a distinct but less explored cognitive domain in people with multiple sclerosis (pwMS); whether it differs by sex is unknown. OBJECTIVE: To examine sex differences in SC, traditional cognition, physical and psychological impact of MS, and the SC-grey matter association. METHODS: Prospective single-centre cohort with 24-month follow-up. SC was assessed with the mini-Social Cognition and Emotional Assessment (mini-SEA), including Theory of Mind and Face Emotion Recognition tasks, and brain volumes with 3T MRI (SIENAX/SIENA). Analyses used Mann-Whitney U tests with false discovery rate correction and linear regression with a sex × peripheral grey matter volume (pGMV) interaction. RESULTS: We included 146 pwMS (65% female sex; mean age 39.3 ± 11.8 years; median EDSS 1.25). SC impairment (mini-SEA z &lt; -1.5) was more frequent in male sex (41.2% vs. 20.0%, p=0.011; adjusted OR 2.57, 95% CI 1.18-5.59). Male sex scored lower on mini-SEA (d=0.68, p=0.002), Theory of Mind (p&lt;0.001) and verbal episodic memory (p&lt;0.001); female sex on working memory (p=0.006) and inhibition (p=0.023). The mini-SEA correlated with pGMV in male sex (ρ=0.45, p=0.001) but not in female sex (ρ=0.04, p=0.72); the sex × pGMV interaction was significant for Faux Pas (p=0.008), but not robust in sensitivity analyses, for the mini-SEA total (p=0.046). Female sex reported greater physical (p=0.028), psychological (p=0.015) and total impact of MS (p=0.006), fatigue (p=0.020), depression (p=0.023) and anxiety (p=0.001), differences attenuated after accounting for psychiatric history. Sex did not modify SC-other scales associations. No 24-month cognitive change survived FDR correction. CONCLUSION: Male sex with MS showed more frequent SC impairment and an association between Theory of Mind and grey matter volume not observed in female sex, whereas female sex reported greater disease impact. Healthy-control data are needed to establish MS specificity.</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Cortical Macro- and Microstructural Alterations in Multiple System Atrophy and Their Clinical Correlates.</title>
@@ -269,7 +384,18 @@ Loneliness is a complex and distressing emotional state linked to impaired healt
       <guid isPermaLink="false">doi:10.1016/j.mri.2026.110844</guid>
       <description>Magnetic resonance imaging
 
-Purpose Parkinson's disease (PD) is a neurodegenerative disorder characterized by structural abnormalities in the cerebral cortex and subcortical regions. Nevertheless, functional connectivity (FC) alterations within these affected white matter (WM) regions have not been fully clarified. Methods We combine diffusion tensor imaging (DTI) and resting-state functional magnetic resonance imaging (rs-fMRI) to explore abnormalities in WM structure and FC in 20 PD patients and 22 age- and gender-matched healthy controls (HCs). Results Compared with the HCs, PD patients showed lower fractional anisotropy (FA) values in multiple widespread WM tracts, including the the forceps minor, the bilateral inferior longitudinal fasciculus, the right inferior fronto-occipital fasciculus, corticospinal tract (CST) and superior longitudinal fasciculus (SLF), the left anterior thalamic radiation (ATR), uncinate fasciculus and cingulum. Seed-based FC analysis revealed that: for the CST seed, PD patients exhibited reduced FC with the bilateral postcentral gyrus and precentral gyrus, the right superior occipital gyrus and left inferior parietal lobule. For the SLF seed, PD patients exhibited reduced FC with the bilateral anterior cingulate cortex. For the ATR seed, hypoconnectivity was found in multiple cerebellar subregions, including the bilateral cerebellum VIII and cerebellum IX, the right cerebellum VI and cerebellar crus I, and the left middle temporal gyrus. Conclusion Our findings indicate that PD patients exhibit widespread WM microstructural damage and some of these damaged fibers show abnormal FC, which may account for motor deficits and cognitive decline observed in PD. The combined use of DTI and rs-fMRI provides novel perspectives on the neural mechanisms underlying PD.</description>
+Purpose Parkinson's disease (PD) is a neurodegenerative disorder characterized by structural abnormalities in the cerebral cortex and subcortical regions. Nevertheless, functional connectivity (FC) alterations within these affected white matter (WM) regions have not been fully clarified. Methods We combine diffusion tensor imaging (DTI) and resting-state functional magnetic resonance imaging (rs-fMRI) to explore abnormalities in WM structure and FC in 20 PD patients and 22 age- and gender-matched healthy controls (HCs). Results Compared with the HCs, PD patients showed lower fractional anisotropy (FA) values in multiple widespread WM tracts, including the forceps minor, the bilateral inferior longitudinal fasciculus, the right inferior fronto-occipital fasciculus, corticospinal tract (CST) and superior longitudinal fasciculus (SLF), the left anterior thalamic radiation (ATR), uncinate fasciculus and cingulum. Seed-based FC analysis revealed that: for the CST seed, PD patients exhibited reduced FC with the bilateral postcentral gyrus and precentral gyrus, the right superior occipital gyrus and left inferior parietal lobule. For the SLF seed, PD patients exhibited reduced FC with the bilateral anterior cingulate cortex. For the ATR seed, hypoconnectivity was found in multiple cerebellar subregions, including the bilateral cerebellum VIII and cerebellum IX, the right cerebellum VI and cerebellar crus I, and the left middle temporal gyrus. Conclusion Our findings indicate that PD patients exhibit widespread WM microstructural damage and some of these damaged fibers show abnormal FC, which may account for motor deficits and cognitive decline observed in PD. The combined use of DTI and rs-fMRI provides novel perspectives on the neural mechanisms underlying PD.</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>ALSFRS-R item comparability and respiratory validation in data-driven ALS progression modeling.</title>
+      <link>https://doi.org/10.1016/j.jns.2026.126249</link>
+      <guid isPermaLink="false">doi:10.1016/j.jns.2026.126249</guid>
+      <description>Journal of the neurological sciences
+
+来源未提供摘要。</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
     </item>
@@ -400,130 +526,6 @@ Asymmetry on the left-right axis is an organizing principle of the human brain t
       <category>其他认知与脑</category>
       <category>结构与功能</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Retraction notice to "Biological effects of iron oxide-protamine sulfate complex on mesenchymal stem cells and its relaxometry based labeling optimization for cellular MRI" [Exp. Cell Res. 351 (2017) 59 - 67].</title>
-      <link>https://doi.org/10.1016/j.yexcr.2026.115212</link>
-      <guid isPermaLink="false">doi:10.1016/j.yexcr.2026.115212</guid>
-      <description>Experimental cell research
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Mesoscale connectivity of substructures within the human amygdaloid complex.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122348</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122348</guid>
-      <description>NeuroImage
-
-The amygdala operates as an integrative network hub, participating in emotional, cognitive, and distributed neural circuit functions. Though once thought of as a single anatomical entity, the amygdala is increasingly being recognized as a complex network of functionally and anatomically distinct nuclei and substructures. Mesoscale diffusion MR images (250 μm isotropic acquisition, upsampled to 125 μm) of the post-mortem human temporal lobe were acquired to allow the identification of the structural components of the amygdaloid complex, which includes the amygdala, as well as the surrounding transitional areas. Amygdala nuclei, including their 13 subnuclei and related substructures were defined, delineated and segmented to generate a unique 3-dimensional visualization of the amygdaloid complex in its anatomical context. Volumetric analyses and scalar indices revealed its morphological and microstructural composition, whereas tractography exposed the intra-amygdala connectome. Both canonical and non-canonical pathways were identified and quantified for a more in-depth network analysis. A virtual dissection of pathways involving the lateral nucleus, which is the largest nucleus (33% of the amygdala), for instance, showed numerous extra-amygdala pathways, as well as intra-amygdala pathways, consistent with its well-established role as the primary input site to the amygdala. A majority of connections are localized in the dorsal lateral subnucleus, which can be conceived of as the dominant gateway for afferent integration. In contrast, the central nucleus, emerged as the primary output hub from the amygdala. This intra-amygdala connectome framework establishes a structural roadmap that advances a mechanistic understanding and informs future network-based therapeutic strategies for neurological and psychiatric disorders.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Altered individual-level morphological similarity brain networks in late-life subthreshold depression: Preserved global topology with selective nodal and sub-network disruptions.</title>
-      <link>https://doi.org/10.1016/j.inpsyc.2026.100307</link>
-      <guid isPermaLink="false">doi:10.1016/j.inpsyc.2026.100307</guid>
-      <description>International psychogeriatrics
-
-Objectives Subthreshold depression (StD) is prevalent in older adults and increases the risk of major depressive disorder, but its large-scale brain-network organization remains poorly understood. Individual-level morphological similarity networks estimate interregional structural covariance separately for each participant. Methods 110 older women (56 StD, 54 comparison participants) underwent T1-weighted MRI. Individual networks were constructed using Jensen-Shannon divergence-based similarity (JSDs) between gray matter volume distributions across 116 AAL regions. Graph metrics were assessed across sparsity 0.05-0.40 with Benjamini-Hochberg false-discovery-rate (FDR) control, and the network-based statistic identified altered sub-networks (5000 permutations, FWE-corrected). Reproducibility was tested with an alternative Kullback-Leibler metric (KLDs) and 4-mm smoothing. Results Both groups showed preserved small-world global topology. Participants with StD had increased left hippocampal degree centrality (p = 0.0013), reduced nodal efficiency in the right inferior occipital (p = 0.0046) and right postcentral gyri (p = 0.0085), and a 50-node, 73-edge hypoconnectivity sub-network (pFWE = 0.0408); none of these regional findings survived FDR correction. Right inferior occipital efficiency was inversely associated with reminiscence and rumination, and right postcentral efficiency positively with cognition and extraversion. The hippocampal finding was reproduced using KLDs (p = 0.0012) and 4-mm smoothing (p = 0.0049). In 74 patients with major depressive disorder, global topology was likewise preserved but without corresponding nodal alterations. Conclusions Late-life StD shows preserved global topology with focal nodal and sub-network disruptions. Hippocampal hyper-connectivity may reflect compensatory reorganization, whereas occipitotemporal and somatosensory hypoconnectivity is associated with reminiscence, rumination and cognitive function. Individual-level networks may provide a sensitive framework for characterising subclinical network alterations, pending confirmation in larger samples.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Whole-brain white matter fractional anisotropy across baseball expertise levels: a TBSS study.</title>
-      <link>https://doi.org/10.1007/s00429-026-03232-3</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03232-3</guid>
-      <description>Brain structure &amp; function
-
-While sports-related sensorimotor experience has been associated with differences in brain structure and function, evidence regarding white matter (WM) microstructural differences in high-speed open-skilled sports remains limited. Prior studies have often been constrained by small sample sizes or analyses restricted to selected tracts. To address these limitations, this study employed voxel-wise tract-based spatial statistics (TBSS) to examine whole-brain fractional anisotropy (FA) in 142 participants: 50 highly skilled baseball (SB) players, 45 intermediate baseball (IB) players, and 47 non-player (NP) controls. TBSS revealed that the SB group exhibited significantly higher FA than the IB and/or NP groups across multiple projection and cerebellar pathways, including the pontine crossing tract, corona radiata, posterior limb of the internal capsule, superior cerebellar peduncle, and cerebral peduncle, as well as association pathways (superior fronto-occipital fasciculus and sagittal stratum), commissural pathways (corpus callosum and tapetum), and the fornix (crus)/stria terminalis. Follow-up ROI analyses showed significant group effects in seven of 16 selected tracts, including the pontine crossing tract, body of the corpus callosum, left superior corona radiata, bilateral posterior corona radiata, and bilateral tapetum. Across these tracts, the SB group consistently demonstrated higher FA than the IB and/or NP groups. Together, these results indicate that FA differences across expertise levels were primarily characterized by higher values in skilled players rather than a uniform increase across the three groups. These findings suggest that high-level baseball expertise is associated with spatially distributed WM microstructural differences across multiple neural systems implicated in sensorimotor, visuospatial, cerebellar, and interhemispheric processing.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Microstructural alterations of human medial temporal lobe in dementia: volumetric and DTI findings correlate with cell number and neuropathology.</title>
-      <link>https://doi.org/10.1007/s00429-026-03223-4</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03223-4</guid>
-      <description>Brain structure &amp; function
-
-Volumetric and diffusion tensor imaging (DTI) alterations in medial temporal lobe (MTL) regions are consistently reported in Alzheimer's disease (AD). However, their biological basis remains poorly understood. We combined Magnetic Resonance Imaging (MRI) metrics with cellular quantification and neuropathological burden assessment to investigate microstructural substrates underlying MTL imaging alterations in human donors with known cognitive and neuropathological status. Absolute cell numbers were quantified in a cohort of 54 brain donors using the isotropic fractionator, and postmortem MRI was performed on a subset of 18 fixed brain hemispheres. To assess microstructural brain alterations associated with disease progression, in vivo volumetric and DTI metrics were analyzed in 39 cognitively unimpaired controls (CU), 31 individuals with mild cognitive impairment (MCI), and 14 patients with clinical AD dementia. In the postmortem cohort, MTL diffusivity metrics showed moderate negative correlations with total cell numbers. Mean, axial, and radial diffusivity positively correlated with Braak stage, whereas fractional anisotropy (FA) correlated negatively with CERAD score, linking diffusion alterations to AD-related pathology. In vivo MTL analyses revealed increased mean, axial, and radial diffusivity, and reduced FA in AD patients compared with both CU and MCI individuals. The MCI group exhibited intermediate alterations in diffusivity. Differences between in vivo and postmortem diffusion values were consistent with tissue fixation, temperature, and variations in acquisition protocols. Our findings suggest that diffusion MRI alterations in the MTL are associated with reduced cellularity and neuropathological burden, supporting the biological relevance of DTI metrics as markers of microstructural degeneration in AD.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>MRI Microscopic Fractional Anisotropy Differences in Genetic Frontotemporal Degeneration.</title>
-      <link>https://doi.org/10.1002/jmri.70582</link>
-      <guid isPermaLink="false">doi:10.1002/jmri.70582</guid>
-      <description>Journal of magnetic resonance imaging : JMRI
-
-Background In genetic frontotemporal degeneration (FTD), cortical and subcortical brain volume differences have been detected using volumetric MRI decades before symptoms appear. Microscopic fractional anisotropy (μFA) is a diffusion MRI metric that is sensitive to diffusion anisotropy regardless of relative fiber orientations within a voxel and is more accurate than conventional DTI metrics for detecting age-related microstructural changes in healthy individuals and differences in some neurological diseases. Purpose To compare μFA, mean diffusivity (MD), and volume between genetic frontotemporal degeneration (FTD) variant carriers and non-carriers in the insula, frontal pole, and medial orbitofrontal cortex. Study type Cross-sectional cohort study. Population Carriers of FTD variants in C9orf72, GRN, or MAPT (n = 12; age = 56.7 ± 8.12 years; 50% female) and familial non-variant carriers (n = 8; age = 59.5 ± 10.3 years; 62.5% female). Field strength/sequence 3T; Magnetization prepared rapid acquisition with gradient echoes (MPRAGE) sequence (anatomical imaging) and a diffusion echo-planar imaging sequence with modified diffusion gradients for spherical tensor encoding (μFA measurement). Assessment MPRAGE images underwent cortical and subcortical segmentation to obtain regions of interest. MD and μFA maps were derived from diffusion MRI data. μFA, MD, and volumes were compared between FTD variant carriers (n = 5 symptomatic, and n = 7 asymptomatic) and familial non-carriers. Statistical tests Linear models with heteroscedasticity-consistent confidence intervals were computed to analyze between-group differences in outcomes while controlling for age (alpha = 0.05). Results FTD variant carriers exhibited significantly lower insula μFA than non-carriers (η2 p = 0.22). Post hoc contrasts showed significantly reduced insula μFA in symptomatic carriers compared to non-carriers (d = 1.57). Mean μFA in asymptomatic carriers (mean ± standard error (SE): 0.454 ± 0.010) was not significantly different to that in non-carriers (mean ± SE: 0.471 ± 0.009, p = 0.465), nor in symptomatic carriers (mean ± SE: 0.430 ± 0.012, p = 0.290). Data conclusion μFA is reduced in the insula, a region vulnerable to early atrophy in FTD, reflecting microstructural changes in genetic FTD with greater effect sizes than MD and volume. Evidence level 2. Technical efficacy Stage 2.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>The role of network connectivity and transcriptomic vulnerability in shaping gray matter atrophy in multiple sclerosis</title>
-      <link>https://europepmc.org/article/PMC/PMC13754032</link>
-      <guid isPermaLink="false">PMC:PMC13754032</guid>
-      <description>Science advances
-
-来源未提供摘要。</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>DECODE: DEcomposition of COupled and DEcoupled Brain States: Separating Structure–Coupled and Structure–Decoupled Functional Organization in Alzheimer’s Disease</title>
-      <link>https://doi.org/10.64898/2026.11.09.765343</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.09.765343</guid>
-      <description>[预印本] bioRxiv
-
-Brain functional activity emerges within an underlying structural scaffold. While structural network connectivity provides a relatively stable anatomical backbone for large-scale communication, functional interactions are high-dimensional and temporally dynamic, forming recurrent patterns that can be represented in a latent space of transient functional states. Yet, how these transient functional states are organized and the extent to which they remain constrained by structural network connectivity or become relatively decoupled from structural organization over time remain poorly understood. To address this gap, we introduce DECODE (DEcomposition of COupled and DEcoupled Brain States), a data-driven latent-space framework that uses independent component analysis (ICA) and multimodal data to decompose resting-state dynamic functional network connectivity into a lower-dimensional representation of transient functional states. These states capture temporally varying structure-coupled and structure-decoupled patterns using diffusion MRI-derived structural network connectivity priors. Structure-coupled states reflect functional configurations more strongly anchored to major structural motifs, whereas structure-decoupled states represent configurations less constrained by the identified structural organization, while potentially remaining within structurally defined dynamical bounds. DECODE identifies reproducible structure-coupled and structure-decoupled states, with mean squared error reconstruction of dynamic information &lt; 0.1 and adjusted R 2 = 0.4. Applied to Alzheimer’s disease (AD), DECODE revealed stronger group differences (FDR-corrected p-value 0.05) in both connectivity organization and temporal dynamics for decoupled states. These findings suggest that functional states less constrained by identified structural organization may be more vulnerable to AD-related disruption, whereas structure-coupled states may be relatively preserved. More broadly, DECODE provides a reproducible and generalizable framework for quantifying how functional dynamics are shaped by, or diverge from, structural organization by incorporating a latent representation of the structural connectome as an informative prior. Our findings established structural and functional alignment variation by distinguishing dynamic functional patterns closely coupled with structure from those that deviate from it.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Environmental Exposures and Brain Magnetic Resonance Imaging Phenotypes in Cognitively Healthy Ageing: A Systematic Review</title>
-      <link>https://doi.org/10.31234/osf.io/yj7xw_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/yj7xw_v2</guid>
-      <description>[预印本] PsyArXiv
-
-Background: Air pollution and built environment features are increasingly associated with negative health outcomes, yet their relation to brain health in cognitively healthy older adults remains unclear. Methods: To synthesise the extant literature, we conducted a systematic review, searching MEDLINE (PubMed) and Web of Science (Core Collection) from inception to February 23, 2026. Eligible studies assessed a natural or built environmental exposure against brain magnetic resonance imaging (MRI) measures in cognitively healthy older adults (ages 65+). Reviewers screened and extracted summary data from published reports in Covidence; no individual patient data were sought. The main outcome was brain health; findings were synthesised narratively using an effect-direction approach, as heterogeneous exposures, outcomes, and effect metrics precluded pooling. Findings: Of 2,496 records screened, 27 studies met eligibility, comprising &gt;84,000 older adults across 10 countries: United States, South Korea, United Kingdom, France, Spain, Sweden, Netherlands, Taiwan, Germany, and Japan. Thirteen studies were cross-sectional and 14 were cohort studies (nine observational and five longitudinal). Higher air pollution exposure—particularly PM2.5, NO2, and PM10—was associated with altered brain structure: smaller total, grey matter, and white matter volumes, greater white matter hyperintensities, cortical thinning, and smaller medial temporal and hippocampal volumes; greenspace was associated with more favourable brain structure in several mostly cross-sectional studies, though findings were not uniform. Thirteen studies met criteria for high methodological quality and low though not uniform risk of bias; outcome assessment was a recurring source of bias (12 of 27 studies), and four of the five longitudinal studies did not meet criterion for follow-up adequacy.Interpretation: This review synthesises emerging observational evidence that air pollution is associated with differences in brain structure in cognitively healthy ageing. Because the included evidence is predominantly cross-sectional, these associations are hypothesis generating; if confirmed in longitudinal studies, this modifiable exposure could serve as a potential target for policymakers aiming to protect brain health in the fastest growing segment of the global population.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Environmental Exposures and Brain Magnetic Resonance Imaging Phenotypes in Cognitively Healthy Ageing: A Systematic Review</title>
-      <link>https://doi.org/10.31234/osf.io/yj7xw</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/yj7xw</guid>
-      <description>[预印本] PsyArXiv
-
-Background: Air pollution and built environment features are increasingly associated with negative health outcomes, yet their relation to brain health in cognitively healthy older adults remains unclear. Methods: To synthesise the extant literature, we conducted a systematic review, searching MEDLINE (PubMed) and Web of Science (Core Collection) from inception to February 23, 2026. Eligible studies assessed a natural or built environmental exposure against brain magnetic resonance imaging (MRI) measures in cognitively healthy older adults (ages 65+). Reviewers screened and extracted summary data from published reports in Covidence; no individual patient data were sought. The main outcome was brain health; findings were synthesised narratively using an effect-direction approach, as heterogeneous exposures, outcomes, and effect metrics precluded pooling. Findings: Of 2,496 records screened, 27 studies met eligibility, comprising &gt;84,000 older adults across 10 countries: United States, South Korea, United Kingdom, France, Spain, Sweden, Netherlands, Taiwan, Germany, and Japan. Thirteen studies were cross-sectional and 14 were cohort studies (nine observational and five longitudinal). Higher air pollution exposure—particularly PM2.5, NO2, and PM10—was associated with altered brain structure: smaller total, grey matter, and white matter volumes, greater white matter hyperintensities, cortical thinning, and smaller medial temporal and hippocampal volumes; greenspace was associated with more favourable brain structure in several mostly cross-sectional studies, though findings were not uniform. Thirteen studies met criteria for high methodological quality and low though not uniform risk of bias; outcome assessment was a recurring source of bias (12 of 27 studies), and four of the five longitudinal studies did not meet criterion for follow-up adequacy.Interpretation: This review synthesises emerging observational evidence that air pollution is associated with differences in brain structure in cognitively healthy ageing. Because the included evidence is predominantly cross-sectional, these associations are hypothesis generating; if confirmed in longitudinal studies, this modifiable exposure could serve as a potential target for policymakers aiming to protect brain health in the fastest growing segment of the global population.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>A realistic model of resting-state BOLD spectra in white matter</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11473671/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11473671/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract Resting-state BOLD signals in white matter show a spectral elevation near 0.06 Hz on an exponentially decaying background, and white-matter hemodynamic response functions (HRFs) have a prominent initial dip. We model the resting signal as shot noise: randomly timed neural events are filtered by the HRF, so that the spectrum is the input spectrum multiplied by the squared HRF gain, plus instrumental noise. The initial dip and post-stimulus undershoot remove low-frequency power, making the white-matter HRF a band-pass filter with maximum gain near 0.05 Hz. One set of physiological parameters fits both a measured white-matter HRF (R² = 0.993) and the group-mean white-matter spectrum (R² = 0.987), with a resting transit time of about 4 s and a metabolic response weighted about twice as heavily as in gray matter. Deepening the dip raises the filter gain and moves its maximum toward 0.06 Hz, linking the dip to the spectral feature. A narrower line in individual spectra is reproduced either by an underdamped HRF that matches the measured response over its first 20 s or by a rhythmic input near 0.06 Hz. The model identifies which HRF properties could explain the decline of the peak with age.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Opposite Modulations of Thalamo-Cingulate and Fronto-IFOF Gray-White Matter Circuits Underlie Symptomatic and Cognitive Gains with Magnetic Seizure Therapy in Schizophrenia</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11102607/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11102607/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract Magnetic seizure therapy (MST) has shown promise for treating schizophrenia, but the functional brain changes associated with its clinical and cognitive outcomes remain unclear. We investigated gray matter–white matter (GM–WM) functional connectivity and its associations with symptom and cognitive changes following MST. Fifty-three patients with schizophrenia and 40 demographically matched healthy controls underwent baseline resting-state functional magnetic resonance imaging; 33 patients with usable pretreatment and post-treatment imaging data were included in longitudinal analyses. Functional connectivity was compared between groups and across treatment time points, and connectivity changes were examined in relation to clinical and cognitive changes. Following MST, patients showed reductions in psychotic symptoms and improvements in the MATRICS Consensus Cognitive Battery composite score and processing speed. Treatment-related connectivity changes predominantly involved GM–WM connections. Decreased connectivity within a thalamus–corona radiata–cingulate circuit was associated with symptom improvement, whereas increased connectivity involving the left inferior fronto-occipital fasciculus and frontal regions was associated with cognitive improvement. Exploratory atlas-based analyses identified spatial associations between functional connectivity patterns and normative histaminergic and serotonergic receptor distributions, including 5-HT4 receptor maps. These findings suggest that symptom and cognitive improvements following MST are associated with changes in GM–WM functional connectivity. The receptor mapping results provide an exploratory neurochemical context for these associations, rather than evidence of treatment-induced changes in neurotransmitter levels or receptor availability.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
     </item>
   </channel>
 </rss>
