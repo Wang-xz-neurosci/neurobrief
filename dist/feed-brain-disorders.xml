@@ -5,16 +5,36 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 21:48:19 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Causal dynamic resonance reduces false positives in detecting causality.</title>
+      <link>https://doi.org/10.1073/pnas.2518099123</link>
+      <guid isPermaLink="false">doi:10.1073/pnas.2518099123</guid>
+      <description>Proceedings of the National Academy of Sciences of the United States of America
+
+Many dynamical systems in nature, such as brains and weather systems, are highly nonlinear and complex. Determining information flow among the components that make up these dynamical systems is challenging. If the components are the result of a common process or become synchronized, causality measures typically fail. We previously introduced Cross-Dynamical Delay Differential Analysis, a nonlinear method for assessing causal influence, along with a complementary approach for dynamical similarity between time series data, Dynamical Ergodicity Delay Differential Analysis. Here, we show that "Causal Dynamic Resonance (CDR)" further improves the false positive rejection rate by adding white noise to the data, without perturbing the underlying dynamical system. This is followed by a study of CDR in coupled Rössler systems, where ground truth interactions are known and in invasive intracranial electroencephalographic data from drug-resistant epilepsy patients undergoing presurgical monitoring.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Brain extracellular matrix remodelling in health and neuropsychiatric disorders.</title>
+      <link>https://doi.org/10.1038/s41583-026-01102-9</link>
+      <guid isPermaLink="false">doi:10.1038/s41583-026-01102-9</guid>
+      <description>Nature reviews. Neuroscience
+
+The neural extracellular matrix (ECM) is increasingly recognized as an active regulator of brain function and an important contributor to the pathogenesis of neuropsychiatric disorders. This Review examines ECM organization, function and adaptive remodelling in the healthy brain and synthesizes evidence for its pathophysiological alterations in schizophrenia, major depressive disorder and bipolar disorder. Based on findings from human studies and animal models, we propose an ECM-extended conceptual framework of major psychiatric diseases in which polygenic liability, stress exposure and neuroinflammatory signalling converge to remodel the ECM in circuits supporting reward processing, emotion regulation, cognitive control and social cognition. In this model, an early phase of protease-dominant ECM loosening destabilizes microcircuits composed of parvalbumin-expressing inhibitory neurons and principal cells whereas later reactive ECM rebuilding stabilizes dysfunctional network states and contributes to disease persistence, relapse and treatment resistance. This framework positions the ECM as a central hub of genetic, glial, synaptic and systems-level pathogenesis and suggests avenues for the development of ECM-sensitive biomarkers and ECM-directed interventions that may improve the treatment of these disorders.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Neuropathologic Correlates of Cognitive Functions in Patients With Essential Tremor Without Dementia: Beyond the Cerebellum.</title>
       <link>https://doi.org/10.1212/wnl.0000000000218764</link>
       <guid isPermaLink="false">doi:10.1212/wnl.0000000000218764</guid>
       <description>Neurology
 
-BACKGROUND AND OBJECTIVES: Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. METHODS: Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. RESULTS: The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). DISCUSSION: Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
+Background and objectives Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. Methods Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. Results The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). Discussion Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
@@ -36,7 +56,7 @@ The hippocampus is a central cognitive hub whose dysfunction contributes to most
       <guid isPermaLink="false">doi:10.1038/s41586-026-11305-w</guid>
       <description>Nature
 
-Alterations in metabolism, stress response, sleep, circadian rhythms and neuroendocrine processes are key features of ageing and neurodegeneration1,2. These fundamental processes are regulated by the hypothalamus, yet how its functionally distinct subregions and cell types change during human ageing and Alzheimer's disease (AD) remains largely unexplored. Here we present HypoAD, an atlas of the human hypothalamus in ageing and AD, including high-resolution magnetic resonance imaging from 458 individuals and single-nucleus RNA sequencing of 614,403 nuclei from young participants, patients with AD and age-matched non-dementia control participants. We show that hypothalamic subregions governing metabolism, stress and circadian rhythms are particularly vulnerable, showing notable changes in both volumes and gene expression during ageing and AD. At the molecular level, machine learning models identified the inflammatory response and regulators of circadian rhythms as key cellular predictors of AD. These signatures were reflected in specific cell types: microglia transitioned to a pro-inflammatory state, whereas inhibitory neurons within sleep-regulating and circadian-regulating hypothalamic subregions showed the most profound transcriptional alterations, including disruptions in ligand-receptor interactions and G-protein-coupled receptor signalling. HypoAD provides a high-resolution volumetric map and a transcriptomic atlas of the human hypothalamus in ageing and AD, relating lifestyle and behavioural changes to the relevant volumetric and molecular pathways. In addition, HypoAD provides a framework to investigate hypothalamic dysfunction and establishes a roadmap for targeted interventions aimed at mitigating physiological disruptions to potentially slow disease progression.</description>
+Alterations in metabolism, stress response, sleep, circadian rhythms and neuroendocrine processes are key features of ageing and neurodegeneration1,2 . These fundamental processes are regulated by the hypothalamus, yet how its functionally distinct subregions and cell types change during human ageing and Alzheimer's disease (AD) remains largely unexplored. Here we present HypoAD, an atlas of the human hypothalamus in ageing and AD, including high-resolution magnetic resonance imaging from 458 individuals and single-nucleus RNA sequencing of 614,403 nuclei from young participants, patients with AD and age-matched non-dementia control participants. We show that hypothalamic subregions governing metabolism, stress and circadian rhythms are particularly vulnerable, showing notable changes in both volumes and gene expression during ageing and AD. At the molecular level, machine learning models identified the inflammatory response and regulators of circadian rhythms as key cellular predictors of AD. These signatures were reflected in specific cell types: microglia transitioned to a pro-inflammatory state, whereas inhibitory neurons within sleep-regulating and circadian-regulating hypothalamic subregions showed the most profound transcriptional alterations, including disruptions in ligand-receptor interactions and G-protein-coupled receptor signalling. HypoAD provides a high-resolution volumetric map and a transcriptomic atlas of the human hypothalamus in ageing and AD, relating lifestyle and behavioural changes to the relevant volumetric and molecular pathways. In addition, HypoAD provides a framework to investigate hypothalamic dysfunction and establishes a roadmap for targeted interventions aimed at mitigating physiological disruptions to potentially slow disease progression.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
     </item>
@@ -170,6 +190,17 @@ Asymmetry on the left-right axis is an organizing principle of the human brain t
 Delirium is a frequent and distressing neuropsychiatric syndrome characterized by acute disturbances of attention, awareness and cognition. Delirium emerges in response to diverse medical insults, particularly in hospitalized patients. Despite its high prevalence and association with accelerated cognitive decline, dementia and mortality, the neurobiology of delirium remains incompletely understood, and there are no treatments for delirium. Evidence from electrophysiology, neuroimaging, biomarkers and emerging animal models has begun to clarify the pathophysiological mechanisms underlying delirium. Delirium can be conceptualized as the interaction of acute systemic or cerebral stressors with pre-existing vulnerabilities, creating a 'perfect storm' for brain dysfunction. Generalized electroencephalographic slowing and network disintegration are convergent signatures across diverse types of delirium. Disruptions in neuromodulatory systems, energy metabolism and neuroimmune signalling may underlie impairment of large-scale brain function. The mechanisms that drive acute delirium may also contribute to subsequent brain injury and long-term decline, compounding its broad personal and societal impact.</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Alpha coherence is a network signature of cognitive recovery from disorders of consciousness.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.11.009</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.11.009</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Alpha (8-12 Hz) frequency band oscillations are among the most informative features in electroencephalographic (EEG) assessment of patients with disorders of consciousness (DoC). Because interareal alpha synchrony is thought to facilitate long-range communication in healthy brains, coherence measures of resting-state alpha oscillations may provide insights into a patient's capacity for higher-order cognition beyond channel-wise estimates of alpha power. In multi-channel EEG, global coherence methods may be used to augment standard spectral analysis methods by assessing both the strength and spatiotemporal structure of coherent oscillatory networks. We performed global coherence analysis in 95 separate clinical EEG recordings (28 healthy controls and 33 patients with acute or chronic DoC, 25 of whom returned for follow-up) collected between two academic medical centers. We found that posterior alpha coherence is associated with recovery of cognitive status represented by a CRS-R total score of 22 or above. We developed a measure of network organization based on the principal eigenvector of the cross-spectral matrix in the alpha band. This network measure performs well in classifying recovery from DoC (AUC = .78) compared to measures of functional connectivity based on the weighted phase lag index (AUC = .45 - .53). Our findings suggest that normalization of network activity in the alpha band may represent a sensitive signature of cognitive recovery in patients with DoC and that network-based methods may augment the utility of EEG assessments for DoC.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Personalized Functional Network Mapping Across the Lifespan.</title>
@@ -378,6 +409,17 @@ Post-stroke depressive symptoms are common, but studies on the contributions of 
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Altered interhemispheric functional cooperation in persistent postural-perceptual dizziness.</title>
+      <link>https://doi.org/10.3389/fneur.2026.1901273</link>
+      <guid isPermaLink="false">doi:10.3389/fneur.2026.1901273</guid>
+      <description>Frontiers in neurology
+
+BACKGROUND: Persistent postural-perceptual dizziness (PPPD) is associated with altered multisensory processing, but its hemispheric functional organization remains poorly understood. We investigated hemispheric functional lateralization and interhemispheric cooperation in PPPD and explored their associations with clinical symptoms and neurotransmitter density maps. METHODS: A total of 47 patients with PPPD and 52 healthy controls (HCs) underwent resting-state functional magnetic resonance imaging. Whole-brain maps of the autonomy index (AI) and connectivity between functionally homotopic voxels (CFH) were generated. Between-group differences were assessed using permutation-based analyses adjusted for age, sex, and mean framewise displacement (FD). Associations with clinical measures and spatial correspondence with 13 neurotransmitter density maps were also examined. RESULTS: The PPPD and HC groups did not differ significantly in age, sex, or educational level (all p &gt; 0.05). Patients with PPPD had lower MoCA-BJ scores and higher HAMA-14, HAMD-24, PSQI, and DHI scores than HCs, whereas MMSE scores did not differ significantly. No between-group differences in AI survived family-wise error (FWE) correction. By contrast, in the primary analysis, patients with PPPD showed significantly reduced CFH in the right calcarine cortex, right cuneus, left inferior and middle occipital gyri, left inferior parietal lobule, and right middle temporal gyrus. However, no CFH clusters survived cluster-level FWE correction after separately adjusting for HAMA-14, HAMD-24, or PSQI scores. After adjustment for age, sex, and mean FD, CFH in the right calcarine cortex and left inferior parietal lobule showed negative associations with DHI total and DHI-E scores, respectively (Shepherd's π = -0.363 and -0.452), but neither association remained significant after false discovery rate (FDR) correction. The CFH group-difference map showed nominal positive spatial correlations with the D2R and VAChT density maps, but these associations were not significant after FDR correction. CONCLUSION: In primary analysis, PPPD patients exhibited reduced interhemispheric functional cooperation in visual, visuospatial and multisensory regions, while no AI differences survived FWE correction. However, these CFH findings were sensitive to adjustment for affective symptoms and sleep quality; the relative contributions of PPPD, affective symptoms and sleep disturbance remain uncertain. Clinical and neurotransmitter density-map associations did not survive FDR correction and are exploratory.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Brain-heart decoupling in somatic depression: Desynchronization between salience network neuropsychological connectivity and heart rate variability.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122331</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122331</guid>
@@ -505,51 +547,6 @@ Animals must continuously evaluate their surroundings and select adaptive respon
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Age-dependent structural brain aging in medication-free major depressive disorder: A multi-site analysis from COORDINATE-MDD consortium.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.028</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.028</guid>
-      <description>Biological psychiatry
-
-Background Major depressive disorder (MDD) is associated with altered brain structure and accelerated brain aging. However, previous studies have been limited by clinical samples with mixed medication status and multiple mood states, modest sample sizes, underrepresentation of older adults with MDD, and/or reliance on summary-level data. Methods Harmonized T1-weighted MRI from MDD (n = 645), all medication-free and in a current depressive episode, and matched healthy controls (n = 645), segmented into 145 regional volumes, from 11 sites in COORDINATE-MDD consortium. Brain age gap (BAG) was estimated cross-sectionally using gradient boosting regression with nested cross-validation. Group differences in BAG (and age-corrected BAG [cBAG]) were examined across age strata. Regional contributions were evaluated using SHAP values. Results MDD was associated with significantly elevated cBAG compared with healthy controls (mean difference + 2.0 years [95% CI 1.251, 2.774], Cohen's d -0.289 [95% CI -0.399, -0.179]). Age-stratified analyses showed no differences before mid-30s, with progressively larger gaps thereafter, reaching +6.8 years in MDD aged 55 and older in unadjusted analyses (4.3 years after accounting for site). cBAG differed across neuroanatomical phenotypes previously identified using COORDINATE-MDD data. Key contributing regions included lateral and medial prefrontal regions, middle temporal gyrus, putamen, supplementary motor cortex, central operculum, and cerebellum. Conclusions Structural brain aging in MDD is age-dependent and most pronounced in a neuroanatomical phenotype associated with poorer key clinical outcomes. The findings are consistent with, but do not establish, neuroprogression models of MDD and demonstrate that cBAG is not a uniform feature of MDD, being more strongly expressed in a specifically clinically vulnerable disease phenotype.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Cerebrospinal fluid TNF-α, regional degree centrality, and depressive symptoms after herpes simplex encephalitis: a cross-sectional observational study</title>
-      <link>https://europepmc.org/article/PMC/PMC13725786</link>
-      <guid isPermaLink="false">PMC:PMC13725786</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The application of brain-computer interface on cognitive function and activities of daily living in stroke patients: a systematic review and meta-analysis</title>
-      <link>https://europepmc.org/article/PMC/PMC13725544</link>
-      <guid isPermaLink="false">PMC:PMC13725544</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Voxel-wise functional-to-gray matter volume ratios reveal distinct brain patterns in cirrhosis stratified by hepatic encephalopathy history and clinical status</title>
-      <link>https://europepmc.org/article/PMC/PMC13724522</link>
-      <guid isPermaLink="false">PMC:PMC13724522</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>

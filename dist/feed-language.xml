@@ -5,16 +5,47 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 21:48:19 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reading Abilities and Visual Evoked Potentials in Hearing-Impaired Children: A Comparative Study of Cochlear Implant and Hearing Aid Users.</title>
-      <link>https://doi.org/10.1159/aud/abnag001</link>
-      <guid isPermaLink="false">doi:10.1159/aud/abnag001</guid>
-      <description>Audiology &amp; neuro-otology
+      <title>The Dual Nature of Syntactic Node Count: Facilitating and Inhibiting Sentence Comprehension</title>
+      <link>https://doi.org/10.31234/osf.io/9msby_v3</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/9msby_v3</guid>
+      <description>[预印本] PsyArXiv
 
-INTRODUCTION: This study aimed to evaluate reading comprehension skills, visual evoked potentials (VEP), and saccadic eye movements in hearing aid (HA) users, cochlear implant (CI) users, and individuals with normal hearing (NH), to investigate the relationship between sensory processing and reading ability. METHODS: The study included 45 participants, 15 HA users, 15 CI users, and 15 NH. VEP, a saccadic test, and a reading comprehension test were performed. VEP recordings were conducted with and without the hearing device for HA and CI users. RESULTS: Reading comprehension scores in the CI group were significantly lower than those in the NH and HA groups (p &lt; 0.001). Rightward saccade velocity was consistently lower than leftward velocity across all groups. Notably, VEP amplitudes in HA users (N1-P1: p = 0.048) and CI users (N1-P1: p = 0.005, 0.019, 0.001; P1-N2: p = 0.010, 0.008, 0.022) were significantly larger in the unaided condition (without device) compared to the aided condition. Correlation analyses did not reveal a consistent pattern of association between reading comprehension scores and VEP parameters. CONCLUSION: While reading skills were found to be weaker in the CI group, the absence of a direct correlation between VEP/saccadic parameters and reading scores suggests that lower level sensory processing and higher order reading comprehension may operate through distinct mechanisms. The increased VEP amplitudes observed without hearing devices suggest a cross-modal neuroplastic compensation in the visual cortex during auditory deprivation.</description>
+Neurolinguistic research on syntactic processing has used Node Count, the number of syntactic nodes assumed to be built at each word, to investigate how structure-building effort affects brain activity. However, several recent studies cast doubt on the presumed link between Node Count and processing effort; they observe negative correlations between Node Count and reading times. These facilitatory effects raise an alternative hypothesis: rather than reflecting structure-building effort, Node Count may index structure-mediated predictability. To test this hypothesis, we first relate Node Count to an information-theoretic measure of contextual support, the pointwise mutual information (PMI) between a word and its context. We then evaluate the relationship between Node Count and reading times from three large-scale naturalistic English datasets. For these analyses, we derive Node Count under three grammar formalisms (phrase-structure grammar, dependency grammar, and combinatory categorial grammar) and multiple parsing strategies. Variants whose count reflects integrative parsing steps correlate positively with PMI and show a dual behavioral profile: robust facilitation in immediate regions, consistent with structure-mediated predictability, and a delayed slowdown in spillover regions, most consistent with the cost of contextual semantic integration. The facilitatory effect explains reading-time variance beyond GPT-2 surprisal, indicating that Node Count has unique psycholinguistic value as an index of human prediction. These results highlight the role of structural representations in human language processing and underscore the need for a careful interpretation of the observed correlations between Node Count and brain activity in neurolinguistic studies.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Beyond the Group Average: Interindividual Variability in Neural Activity During Written Word Processing</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11350881/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11350881/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract The processing of language and reading has been a subject of interest for neuropsychologists for many decades. Nevertheless, variability between subjects within the language network has received comparatively little attention. In this study, we employed a precision fMRI approach to examine between-subject variability in neural activity during single-word reading. In order to assess the similarity between subjects' activation patterns, two methods were utilised: Spearman's rank correlation and the Jaccard index. Following this, an exploratory correlation was performed between the similarity and subjects' characteristics. As part of the quantification of between-subject variance, the brain regions characterised by the most variance were identified using interclass correlation coefficients (ICC). The participants exhibited a moderate similarity in their activation patterns, which was correlated with their reading performance and psychopathological traits. Brain regions exhibiting notably high interindividual variability were predominantly located within or adjacent to the language network, suggesting variability in the precise location and extent of the language network among subjects. A comparison of the group-level activation map derived from the same sample revealed that it provided only a moderate representation of the individual maps. The findings underscore the significance of integrating group-level analyses with individual-centred methodologies to achieve more precise characterisation of the neural organisation of language and advance our understanding of the brain-behaviour relation.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Pinpointing planned speech.</title>
+      <link>https://doi.org/10.1126/science.aem7976</link>
+      <guid isPermaLink="false">doi:10.1126/science.aem7976</guid>
+      <description>Science (New York, N.Y.)
+
+Specific neurons in the human temporal cortex plan for impending speech.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>A neural code for generative speech production in human Wernicke's area.</title>
+      <link>https://doi.org/10.1126/science.aef8963</link>
+      <guid isPermaLink="false">doi:10.1126/science.aef8963</guid>
+      <description>Science (New York, N.Y.)
+
+Wernicke's area in the posterior temporal lobe is classically defined by its role in speech comprehension, yet a paradox remains: Why does damage here also profoundly impair speech production? Using direct human brain recordings, cortical stimulation, and lesion analysis, we found that this region is not solely for perception. A discrete subzone within Wernicke's area, the left posterior superior temporal gyrus (lpSTG), becomes active before speech, is causally necessary for speech production, and codes features of whole upcoming words rather than low-level acoustics or articulatory information. Its neural activity is distinct from the auditory-feedback responses nearby and can decode intended speech in people with paralysis. Thus, while Wernicke's area is a key part of auditory cortex, it contains a dedicated subregion for speech generation.</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -40,6 +71,26 @@ The developmental impact of screen use on young children remains an active area 
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
+    </item>
+    <item>
+      <title>A "Basin of Attraction" Theory of Speech Initiation and Stuttering.</title>
+      <link>https://doi.org/10.1044/2026_jslhr-26-00118</link>
+      <guid isPermaLink="false">doi:10.1044/2026_jslhr-26-00118</guid>
+      <description>Journal of speech, language, and hearing research : JSLHR
+
+Recent work in motor neuroscience suggests that well-learned actions are implemented as stable, stereotyped trajectories in neural state space. The purpose of this article was to propose a theory of the neural basis of speech initiation that extends this idea to speech production and identifies a specific disruption that may underlie speech dysfluencies in stuttering. We advance a conceptual framework in which the motor program for a familiar word corresponds to a stable neural trajectory with an associated basin of attraction. We integrate findings from primate motor control, human speech neuroscience, and basal ganglia physiology to specify the role of the cortico-basal ganglia-thalamo-cortical (BGTC) circuit in initiating these trajectories. We propose that fluent speech depends on the ability of the BGTC circuit to steer the distributed speech motor network into the basin of attraction of the upcoming word's motor program. Stuttering arises when this process is unreliable or poorly coordinated, preventing the motor program from being executed until the neural state is corrected or the effective basin of attraction is broadened through compensatory mechanisms. The basin of attraction framework provides a mechanistic description of the proximal neural processes responsible for stuttering events that can account for a wide range of behavioral and neurophysiological findings in stuttering. It also aligns stuttering theory with contemporary dynamical systems approaches to motor control and generates testable predictions for future neurophysiological and neuroimaging studies.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Differential Impacts of Acoustic Challenge on Three Language-Related Event-Related Brain Potential Components During Speech Processing: Evidence From the N400, the P600, and a Late Frontal Response.</title>
+      <link>https://doi.org/10.1044/2026_jslhr-26-00073</link>
+      <guid isPermaLink="false">doi:10.1044/2026_jslhr-26-00073</guid>
+      <description>Journal of speech, language, and hearing research : JSLHR
+
+When listening to acoustically challenging speech, listeners may strategically shift neural resources across multiple language-related cognitive processes in order to compensate for the additional demands. In the current study, we examined the impact of acoustic challenge (via speech-shaped background noise) on three language-related event-related brain potentials (ERPs): the N400 and two late positivities following the N400-a posterior P600 to syntactic violations and a late frontal effect sensitive to word expectancy. Young, normal-hearing adults (N = 48) listened in quiet and in noise (+3 dB SNR speech-shaped stationary noise) to contextually constraining sentences that ended in an expected word, an unexpected word, or a morphosyntactic violation of the expected word, while electroencephalography data were collected. Replicating prior work, we showed that an N400 expectancy effect was both reduced in amplitude and delayed in onset latency in noise. Providing novel insights into late ERP components, we found that a P600 syntax effect was reduced in amplitude by the presence of background noise. We additionally observed that the P600 response was only present for trials in which the listener successfully identified syntactic violations (irrespective of noise). In contrast to the reductions in the N400 and P600, the late frontal response was not reduced in noise. Collectively, this suggests that, while semantic retrieval and syntactic integration may be impaired by acoustic challenge, young, normal-hearing listeners may still prioritize neural resources toward prediction-related processes to help compensate for increased perceptual demands.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
     </item>
     <item>
       <title>Timing and meaning in spoken thought relate to distinct patterns of brain dynamics</title>
@@ -172,7 +223,7 @@ Proficient reading fluency, which is critical for intact reading comprehension, 
       <guid isPermaLink="false">doi:10.64898/2026.11.13.762800</guid>
       <description>[预印本] bioRxiv
 
-Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately across modalities (vision vs language) and types (models vs human behaviour). It remains unclear to what extent these predictors explain shared or unique aspects of visual brain responses, how these contributions vary along the visual hierarchy and category-selective regions, and whether vision-language convergence depends on the stimulus type. We used three fMRI datasets progressing toward naturalistic visual experience, from objects (THINGS) to scenes (NSD) to dynamic events (BMD). For each dataset, we collected similarity judgements of visual stimuli and of their language descriptions from human participants (N = 21-35), extracted vision DNN features and LLM embeddings, and related similarity judgements and model representations to visual brain responses using representational similarity analysis (RSA) and variance partitioning. Vision-language convergence was higher within behaviour than within models. From objects to dynamic events, LLM alignment with vision-based similarity judgements increased, whereas vision DNN alignment remained stable. A shared, predominantly cross-modal component increased along the visual hierarchy and dominated explained variance in high-level visual cortex. LLMs made their largest unique contributions in face- and body-selective regions (FFA and EBA), where shared representations of vision- and language-based human similarity judgements also explained variance beyond the models. In summary, we find a partially shared representational space for vision and language in high-level visual cortex, most clearly in regions representing social information related to people and their actions. As each predictor retained unique variance, combining computational models and human behaviour across vision and language may offer a more comprehensive account of high-level visual representations.</description>
+ABSTRACT Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately across modalities (vision vs language) and types (models vs human behaviour). It remains unclear to what extent these predictors explain shared or unique aspects of visual brain responses, how these contributions vary along the visual hierarchy and category-selective regions, and whether vision-language convergence depends on the stimulus type. We used three fMRI datasets progressing toward naturalistic visual experience, from objects (THINGS) to scenes (NSD) to dynamic events (BMD). For each dataset, we collected similarity judgements of visual stimuli and of their language descriptions from human participants (N = 21-35), extracted vision DNN features and LLM embeddings, and related similarity judgements and model representations to visual brain responses using representational similarity analysis (RSA) and variance partitioning. Vision-language convergence was higher within behaviour than within models. From objects to dynamic events, LLM alignment with vision-based similarity judgements increased, whereas vision DNN alignment remained stable. A shared, predominantly cross-modal component increased along the visual hierarchy and dominated explained variance in high-level visual cortex. LLMs made their largest unique contributions in face– and body-selective regions (FFA and EBA), where shared representations of vision– and language-based human similarity judgements also explained variance beyond the models. In summary, we find a partially shared representational space for vision and language in high-level visual cortex, most clearly in regions representing social information related to people and their actions. As each predictor retained unique variance, combining computational models and human behaviour across vision and language may offer a more comprehensive account of high-level visual representations.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -250,6 +301,16 @@ Background Children who are HIV-exposed but uninfected (HEU) are at increased ri
       <category>语言与脑</category>
     </item>
     <item>
+      <title>Brain2voice 2.0: High-performance voice synthesis brain-computer interface.</title>
+      <link>https://doi.org/10.64898/2026.06.30.735633</link>
+      <guid isPermaLink="false">doi:10.64898/2026.06.30.735633</guid>
+      <description>[预印本] bioRxiv : the preprint server for biology
+
+Brain-computer interfaces (BCIs) offer a promising solution to speech loss due to neurological injury by decoding intended speech directly from brain activity. While recent BCIs have restored high-accuracy text-based communication, they fail to provide instantaneous voice output essential for the natural flow of conversation. Brain-to-voice BCIs address this gap by decoding voice directly from neural signals. However, even the state-of-the-art (SOTA) BCI-synthesized voice is not yet intelligible enough for real-world adoption. We introduce brain2voice 2.0, a new multimodal Transformer-based BCI decoder architecture capable of synthesizing highly intelligible voice from intracortical neural signals in real-time. Brain2voice 2.0 is trained on continuous and custom-tokenized acoustic targets and phoneme targets, leveraging their complementary speech information. We use self-supervised and adversarial training objectives that enhance acoustic feature quality and improve synthesis intelligibility. At each 10 ms timestep, the model causally outputs continuous and tokenized acoustic features for real-time voice synthesis as well as time-aligned phoneme predictions (raw phoneme error rate: 7%, comparable to the latest brain-to-text models). We evaluated this new approach on our prior intracortical brain-to-voice benchmark dataset (Wairagkar et al. 2025). Naive human listeners transcribed brain2voice 2.0 synthesized voice with a word error rate of 5.24%-an 8× improvement in intelligibility over previous SOTA results (43.75%). Brain2voice 2.0 demonstrates that highly intelligible real-time voice synthesis from neural signals is achievable, for the first time crossing the intelligibility threshold necessary for clinically viable brain-to-voice BCIs for people with paralysis.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Central Motor Injury as Interlayer Decoupling: An Evolutionary Information Layering Framework for Neurorehabilitation</title>
       <link>https://doi.org/10.20944/preprints202611.1442.v1</link>
       <guid isPermaLink="false">doi:10.20944/preprints202611.1442.v1</guid>
@@ -286,6 +347,16 @@ Summary This review examines developmental perspectives on the use of stereoelec
       <description>Acta psychologica
 
 Co-speech gestures are an important source of visual-semantic information in communication, yet how the semantic relatedness of speech and gesture influences both comprehension and production during consecutive interpreting (CI) remains insufficiently understood. To this end, the present study combined behavioral and event-related potential (ERP) measure to examine how semantically related and semantically unrelated co-speech gestures affect source-language comprehension and target-language production in English-to-Chinese CI through a cue-recall task and oral translation. The comprehension-related results showed that gesture condition did not significantly affect cue-recall accuracy, but semantically related gestures were associated with faster responses than semantically unrelated gestures. ERP results during real-time comprehension further showed that semantically related gestures elicited less negative N400 amplitudes, which were distributed along the anterior-posterior scalp axis and maximal over parietal sites. The production-related results showed translation scores were also higher in the semantically related gesture condition. These effects remained stable after verbal working memory was included as a covariate. Overall, the findings provide initial behavioral and neurocognitive evidence that co-speech gestures are integrated with speech during CI, and that reduced semantic relatedness between speech and gesture increases online semantic processing demands with downstream consequences for target-language production. The study advances a multimodal account of consecutive interpreting by showing that visually available co-speech gestures shape both source-language comprehension and subsequent target-language production.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43060886/</link>
+      <guid isPermaLink="false">MED:43060886</guid>
+      <description>[预印本] ArXiv
+
+Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes at the cost of using a compute-intensive language modeling stack, presenting a major bottleneck for real-world use. Further, current language models incur highly variable and disruptive inference latencies, limiting communication throughput and preventing users from reliably participating in natural conversation. We introduce FETTUCCINE, an end-to-end brain-to-text framework that leverages the speed and portability of automatic speech recognition (ASR) models to address the aforementioned practical challenges, while achieving usable (&lt;10%) word error rates (WER), efficient adaptation to neural non-stationarities, and reliable performance on mobile devices. When evaluated using publicly available data from an intracortical speech neuroprosthesis user, FETTUCCINE outperforms previous end-to-end methods, achieving as low as 4.39% WER. Most notably, our models successfully run on a commercially-available mobile device with throughput reaching up to 370x real-time, providing the first demonstration of brain-to-text decoding on a mobile device. We also show that our models can be successfully finetuned to extend usable performance to future days. Beyond performance, our approach enables localization of the neural features most relevant for decoding via gradient-based saliency maps, which we show align with well-established physiological priors across different ASR model families. Taken together, our results show that FETTUCCINE overcomes core infrastructural and computational barriers, yielding a new class of portable brain-to-text communication.</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -455,76 +526,6 @@ In a recent article, Davydova et al. showed that affect labeling fails in a seco
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Orthographic repetition elicits enhancement without suppression at both the word- and character-levels in Chinese.</title>
-      <link>https://doi.org/10.1016/j.ijpsycho.2026.113514</link>
-      <guid isPermaLink="false">doi:10.1016/j.ijpsycho.2026.113514</guid>
-      <description>International journal of psychophysiology : official journal of the International Organization of Psychophysiology
-
-In Chinese, orthographic repetition (e.g., ""-"") modulates neural activity associated with orthographic processing around 200 ms after target onset, as indexed by the N200 enhancement effect. The present study combined time-frequency analysis with priming paradigms in two EEG experiments to determine whether orthographic repetition is accompanied by oscillatory power enhancement or suppression. In Experiment 1, complete repetition priming of two-character words elicited both a significant N200 enhancement effect and significant theta power enhancement relative to the control condition, whereas no significant N200 or theta-power enhancement was detected for semantic or phonological priming. To separate orthographic overlap from the concomitant phonological and semantic repetition inherent in complete repetition, Experiment 2 used partial orthographic repetition with single-character prime-target pairs that differed in phonology and semantics and replicated both effects. Exploratory participant-level correlations between the N200 and total theta effects were positive but nonsignificant in both experiments. A positive correlation between N200 enhancement and evoked theta enhancement reached the unadjusted significance threshold only in Experiment 2. These findings indicate that orthographic repetition is associated with enhancement rather than suppression of theta-band activity and that this pattern extends across word and character levels.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Candidate Magnetic Resonance Imaging Biomarkers of Language Recovery in Post-Stroke Aphasia: A Framework for Future Acupuncture-Response Prediction.</title>
-      <link>https://doi.org/10.3791/73435</link>
-      <guid isPermaLink="false">doi:10.3791/73435</guid>
-      <description>Journal of visualized experiments : JoVE
-
-Language recovery after post-stroke aphasia (PSA) shows substantial interindividual variability, creating a need for objective markers that can characterize recovery potential and support individualized rehabilitation. This narrative review synthesizes magnetic resonance imaging (MRI) evidence relevant to language recovery and rehabilitation response in PSA, including structural MRI, diffusion MRI, functional MRI, and multimodal imaging. Existing studies indicate that lesion characteristics, white-matter integrity, regional functional activity, functional connectivity, and dynamic network organization are associated with aphasia severity, subsequent language recovery, or response to conventional rehabilitation. Multimodal approaches integrating imaging with clinical and behavioral information may provide a more comprehensive representation of individual recovery potential. Given the growing interest in applying neuroimaging to individualized acupuncture rehabilitation for PSA, an important question is whether these recovery-related MRI features can also inform acupuncture-response prediction. However, these findings primarily concern general prognosis or conventional rehabilitation outcomes and should not be interpreted as evidence of acupuncture-specific responsiveness. Acupuncture-related neuroimaging studies have mainly characterized treatment-associated changes in brain activity and functional connectivity rather than prospectively testing whether pretreatment MRI features predict individual treatment response. Accordingly, these MRI findings are better regarded as candidate imaging features for future acupuncture-response research than as validated predictors of acupuncture-specific benefit. We therefore propose a hypothesis-driven framework in which multimodal MRI is integrated with clinical and treatment information and evaluated within prospective controlled designs to distinguish general recovery potential from additional benefit attributable to acupuncture. Rigorous model development, external validation, and prospective testing will be required before imaging-based approaches can be considered for individualized acupuncture-response stratification.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Altered pre-supplementary motor area recruitment during semantic inhibition in individuals with elevated obsessive–compulsive traits</title>
-      <link>https://doi.org/10.31234/osf.io/45rm7_v1</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/45rm7_v1</guid>
-      <description>[预印本] PsyArXiv
-
-Background: Inhibitory control dysfunction has been implicated in obsessive–compulsive disorder (OCD), but neuroimaging research has focused predominantly on motor response inhibition. Whether obsessive–compulsive traits are associated with altered neural recruitment during semantic inhibition remains unclear. Methods: Forty right-handed participants with lower or elevated obsessive–compulsive traits performed an fMRI adaptation of the Hayling Sentence Completion Task. Participants either selected an expected sentence completion (initiation) or suppressed this strongly prepotent response to select an unrelated word (inhibition). Whole-brain and anatomically defined region-of-interest (ROI) analyses examined task-related activation and Group × Condition interactions, with particular interest in the pre-supplementary motor area (preSMA) and SMA proper. Results: Semantic inhibition produced a robust behavioural cost in reaction times and error rates, with no significant differences between groups. Whole-brain analysis identified the strongest inhibition-related activation in the left preSMA. The exploratory Group × Condition analysis also yielded its peak interaction in this region. Anatomically defined ROI analysis showed a significant Group × Condition interaction in the preSMA after family-wise error correction (t = 2.56, pFWE = .012), reflecting a larger inhibition-related increase in controls compared to individuals with elevated obsessive–compulsive traits. The corresponding interaction in SMA proper did not reach statistical significance (t = 1.74, pFWE = .084). Conclusions: Elevated obsessive–compulsive traits were associated with altered preSMA recruitment during semantic inhibition in absence of behavioural impairment. This extends neural markers of obsessive–compulsive alterations from the domain of motor inhibition to that of semantic inhibition.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Altered pre-supplementary motor area recruitment during semantic inhibition in individuals with elevated obsessive–compulsive traits</title>
-      <link>https://doi.org/10.31234/osf.io/45rm7</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/45rm7</guid>
-      <description>[预印本] PsyArXiv
-
-Background: Inhibitory control dysfunction has been implicated in obsessive–compulsive disorder (OCD), but neuroimaging research has focused predominantly on motor response inhibition. Whether obsessive–compulsive traits are associated with altered neural recruitment during semantic inhibition remains unclear. Methods: Forty right-handed participants with lower or elevated obsessive–compulsive traits performed an fMRI adaptation of the Hayling Sentence Completion Task. Participants either selected an expected sentence completion (initiation) or suppressed this strongly prepotent response to select an unrelated word (inhibition). Whole-brain and anatomically defined region-of-interest (ROI) analyses examined task-related activation and Group × Condition interactions, with particular interest in the pre-supplementary motor area (preSMA) and SMA proper. Results: Semantic inhibition produced a robust behavioural cost in reaction times and error rates, with no significant differences between groups. Whole-brain analysis identified the strongest inhibition-related activation in the left preSMA. The exploratory Group × Condition analysis also yielded its peak interaction in this region. Anatomically defined ROI analysis showed a significant Group × Condition interaction in the preSMA after family-wise error correction (t = 2.56, pFWE = .012), reflecting a larger inhibition-related increase in controls compared to individuals with elevated obsessive–compulsive traits. The corresponding interaction in SMA proper did not reach statistical significance (t = 1.74, pFWE = .084). Conclusions: Elevated obsessive–compulsive traits were associated with altered preSMA recruitment during semantic inhibition in absence of behavioural impairment. This extends neural markers of obsessive–compulsive alterations from the domain of motor inhibition to that of semantic inhibition.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Dorsolateral Prefrontal Cortex Causally Supports the Memory Advantage of Reading Aloud</title>
-      <link>https://doi.org/10.31234/osf.io/2d894_v1</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/2d894_v1</guid>
-      <description>[预印本] PsyArXiv
-
-Reading words aloud improves later recognition relative to reading them silently, a phenomenon known as the production effect. This advantage may reflect not only the distinctive sensorimotor information generated by production, but also cognitive control processes that prioritise this information during encoding. Given the central role of the dorsolateral prefrontal cortex (DLPFC) in supporting cognitive control, we tested whether this region causally contributes to the production effect using transcranial magnetic stimulation (TMS). In a preregistered within-participant study, 40 adults completed three sessions in which TMS was delivered bilaterally to the DLPFC. They received continuous theta-burst stimulation (cTBS), expected to reduce DLPFC excitability; intermittent theta-burst stimulation (iTBS), expected to increase it; or sham stimulation. Participants then read words aloud or silently before completing an old/new recognition test with confidence and recollection judgements. There was a clear production effect: words read aloud were recognised more accurately and quickly, with greater confidence and more frequent recollection ratings, than words read silently. Crucially, cTBS reduced the accuracy advantage for aloud words relative to sham and iTBS. Exploratory receiver-operating-characteristic (ROC) and unequal-variance signal-detection (UVSD) modeling approaches provided converging evidence that cTBS reduced the memory advantage for words read aloud. Stimulation did not reliably affect responses to new words. These findings provide the first causal evidence that the DLPFC helps make words read aloud more memorable, consistent with a role for cognitive control in prioritising the distinctive information generated by speaking.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Dorsolateral Prefrontal Cortex Causally Supports the Memory Advantage of Reading Aloud</title>
-      <link>https://doi.org/10.31234/osf.io/2d894</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/2d894</guid>
-      <description>[预印本] PsyArXiv
-
-Reading words aloud improves later recognition relative to reading them silently, a phenomenon known as the production effect. This advantage may reflect not only the distinctive sensorimotor information generated by production, but also cognitive control processes that prioritise this information during encoding. Given the central role of the dorsolateral prefrontal cortex (DLPFC) in supporting cognitive control, we tested whether this region causally contributes to the production effect using transcranial magnetic stimulation (TMS). In a preregistered within-participant study, 40 adults completed three sessions in which TMS was delivered bilaterally to the DLPFC. They received continuous theta-burst stimulation (cTBS), expected to reduce DLPFC excitability; intermittent theta-burst stimulation (iTBS), expected to increase it; or sham stimulation. Participants then read words aloud or silently before completing an old/new recognition test with confidence and recollection judgements. There was a clear production effect: words read aloud were recognised more accurately and quickly, with greater confidence and more frequent recollection ratings, than words read silently. Crucially, cTBS reduced the accuracy advantage for aloud words relative to sham and iTBS. Exploratory receiver-operating-characteristic (ROC) and unequal-variance signal-detection (UVSD) modeling approaches provided converging evidence that cTBS reduced the memory advantage for words read aloud. Stimulation did not reliably affect responses to new words. These findings provide the first causal evidence that the DLPFC helps make words read aloud more memorable, consistent with a role for cognitive control in prioritising the distinctive information generated by speaking.</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Efficacy of a motor speech intervention in children with cerebral palsy: A randomized controlled trial.</title>
-      <link>https://doi.org/10.1111/dmcn.70621</link>
-      <guid isPermaLink="false">doi:10.1111/dmcn.70621</guid>
-      <description>Developmental medicine and child neurology
-
-来源未提供摘要。</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
     </item>
   </channel>
 </rss>

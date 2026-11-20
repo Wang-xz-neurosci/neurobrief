@@ -5,9 +5,112 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=rest-naturalistic</link>
     <description>静息态，以及电影、故事、自然语音与语篇理解中的脑活动</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 21:48:19 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-rest-naturalistic.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory.</title>
+      <link>https://doi.org/10.7554/elife.111304</link>
+      <guid isPermaLink="false">doi:10.7554/elife.111304</guid>
+      <description>eLife
+
+Emerging evidence suggests that the hippocampus contributes to visual short-term memory (VSTM). However, the neural mechanisms through which hippocampal activity supports the maintenance of VSTM representations remain largely unknown. Here, using intracranial EEG recordings from human participants performing a delayed match-to-sample task for naturalistic objects, we investigated the role of hippocampal ripple activity-brief high-frequency oscillations associated with memory replay-in VSTM maintenance and hippocampal-neocortical communication. We found that hippocampal ripple rates progressively ramped up during the maintenance period and supported successful VSTM. More critically, hippocampal ripples were temporally coupled with the ripples in the lateral temporal lobe (LTL), and these coupled ripples were associated with memory reactivation in the LTL. These findings provide direct evidence that hippocampal-neocortical interaction via coupled ripples supports VSTM, extending the role of hippocampal ripples from long-term consolidation to short-term mnemonic processes and offering new insights into the dynamic coding mechanisms of working memory.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Frontal Low-Frequency Electroencephalographic Coherence in Bipolar Disorder: A Covariate-Controlled Secondary Analysis of a Public Resting-State EEG Feature Dataset.</title>
+      <link>https://doi.org/10.1177/15500594261503347</link>
+      <guid isPermaLink="false">doi:10.1177/15500594261503347</guid>
+      <description>Clinical EEG and neuroscience
+
+ObjectiveTo test whether bipolar disorder (BD) is associated with predefined frontal/frontopolar low-frequency scalp electroencephalography (EEG) coherence differences relative to healthy controls (HC), depressive disorder (DD), and schizophrenia (SZ) in a covariate-controlled reanalysis of a public resting-state EEG feature dataset.MethodsThe covariate-complete sample included 472 participants (93 HC, 66 BD, 196 DD, and 117 SZ). Analysis of covariance (ANCOVA) models adjusted for age, sex, education, and intelligence quotient (IQ). Primary outcomes were predefined frontal/frontopolar delta, theta, and combined delta-theta coherence means. Electrode-pair, regional, all-frequency, distributional, global-reference, frontopolar, and age sensitivity analyses assessed robustness.ResultsBD had higher adjusted coherence than all comparison groups across the three primary measures (partial η2 = .037-.040); Holm-adjusted BD-HC, BD-DD, and BD-SZ contrasts were significant for each measure. Features surviving false discovery rate correction were concentrated in the delta and theta bands. Findings were robust to distributional, outlier, and global-coherence analyses, but effects were strongest in frontopolar pairs and attenuated as anterior electrodes were excluded.ConclusionsBD showed higher covariate-adjusted frontal/frontopolar low-frequency scalp coherence than HC within this dataset. Differences from DD and SZ were smaller and concentrated in frontopolar pairs susceptible to ocular artifacts. Because only scalp-level coherence features were available and participant-level artifact-rejection data were unavailable, the findings do not establish a diagnostic biomarker, diagnostic specificity, or source-level mechanism. Artifact-controlled replication is required.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Depressive symptoms moderate daily anticipated and momentary emotion dynamics and associate with complex brain network topology: Resting-state EEG and ecological momentary assessment evidence.</title>
+      <link>https://doi.org/10.1017/s0033291726106527</link>
+      <guid isPermaLink="false">doi:10.1017/s0033291726106527</guid>
+      <description>Psychological medicine
+
+BACKGROUND: The dynamic linkage between anticipated and momentary emotion is a core daily regulatory process, yet the psychopathological and neurophysiological mechanisms disrupting this linkage in depression remain unclear. By bridging macroscopic neural topology with microscopic behavioral dynamics, this study investigated the within-person dynamics of these emotions and their cross-level associations with depressive symptoms and brain network topology. METHODS: Integrating resting-state electroencephalography (rs-EEG) with a 14-day ecological momentary assessment (EMA; 3 assessments/day), we recruited 96 young adults. Minimum spanning tree (MST) analysis was applied to characterize baseline brain network topology across multiple frequency bands. Dynamic structural equation modeling (DSEM) was employed to examine within-person dynamics and cross-level statistical moderation. RESULTS: Anticipated emotion prospectively predicted subsequent momentary positive emotion (β = .191) and inversely predicted momentary negative emotion (β = -.125). However, baseline depressive symptoms significantly moderated this prospective affective dynamic: Johnson-Neyman analyses identified empirical transition ranges (PHQ-9 scores 5.7-9.7; mild symptom range) beyond which the prospective emotional link attenuated to non-significance. Furthermore, topological metrics in the theta and delta bands exhibited indirect statistical associations with daily emotional dynamics via their cross-sectional relationship with baseline depressive symptoms. CONCLUSIONS: An attenuated prospective association between positive anticipation and subsequent momentary emotional experience represents a key affective alteration in depressive distress. This daily emotional attenuation co-occurs with elevated depressive distress and is indirectly associated with a centralized topological organization in low-frequency resting-state brain networks. These findings provide novel neurophysiological indicators and highlight the critical window for ecological interventions before symptom severity reaches the moderate range.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>The information architecture of the naturalistic human brain</title>
+      <link>https://doi.org/10.64898/2026.11.18.767548</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.18.767548</guid>
+      <description>[预印本] bioRxiv
+
+How does the brain orchestrate its central currency, information, for complex adaptive cognition in the real world? Here we provide a comprehensive investigation into the spatiotemporal structure of qualitatively distinct modes of information dynamics in the human brain under ecological conditions. Applying a novel framework for information decomposition to fMRI data from individuals watching full-length feature films, we reveal a multidimensional large-scale information architecture, wherein different schemes for storing, transferring, and transforming representations occupy disjoint topographic and network profiles. Further, this architecture reveals a computational division of labour, with certain regions acting as generalists that support multiple information-processing schemes and others specialising in a few. We show how these interactions reconfigure over time, coalescing into a structured cycle synchronised by sensory input, whose elements are tuned to semantic kinematics. Finally, we replicate these findings in an independent, large-scale dataset. Together, we provide a formal and empirical foundation for understanding the principles that govern distributed computation in the human brain during everyday life.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Rage bait: a neurofunctional signature of moral outrage elicited by social media</title>
+      <link>https://doi.org/10.64898/2026.11.18.767526</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.18.767526</guid>
+      <description>[预印本] bioRxiv
+
+Moral outrage is ubiquitous online, with powerful emotional and motivational consequences for social life. Combining naturalistic fMRI during exposure to short-form social-media videos depicting moral violations with predictive modeling, we developed a neurofunctional signature of subjective moral outrage (MONS) in discovery/validation (n=80/30) cohorts. MONS predicted experienced outrage and punishment tendencies across cohorts. Positive predictive weights encompassed regions implicated in mentalizing, threat detection and action initiation (precuneus, posterior cingulate, periaqueductal gray, hypothalamus, cerebellum), whereas negative weights involved valuation and behavioral flexibility systems (amygdala, orbitofrontal cortex). Across 11 datasets (n=478), MONS captured anger and disgust but was dissociable from general negative affect and affective arousal. Notably, MONS did not predict perceived moral wrongness in conventional moral judgment paradigms, suggesting that moral outrage is not reducible to more cognitive moral evaluation. Findings provide a moral outrage neurofunctional model that delineates its relationship to other affective states and distinguishes it from traditional moral judgment.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Modelling vortex interactions reveals distinct patterns of brain reconfiguration following psilocybin and escitalopram</title>
+      <link>https://doi.org/10.64898/2026.11.06.764626</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.06.764626</guid>
+      <description>[预印本] bioRxiv
+
+Major depressive disorder is a leading cause of disability, yet how interventions reorganise brain dynamics remains poorly understood. Here, we investigated how psilocybin and escitalopram reshape brain dynamics in depression using pre- and post-treatment resting-state functional magnetic resonance imaging (fMRI) from a double-blind randomised controlled trial ( NCT03429075 ). We compared two whole-brain modelling approaches: conventional signal-space modelling describing interactions between regional brain signals, and vortex-space modelling capturing interactions between evolving patterns of local synchronisation. This represents the first application of vortex-space modelling to a psychiatric disorder. Vortex space was more sensitive than signal space in most analyses, including distinguishing treatment-related brain states, relating baseline connectivity to clinical improvement and predicting response to escitalopram. Our results further revealed distinct patterns of reorganisation following the two interventions. Psilocybin produced widespread increases in vortex-space effective connectivity and reduced network modularity, whereas escitalopram showed no comparable changes. Despite these differences, greater increases in brain turbulence (i.e., spatiotemporal variability in local synchronisation) were associated with greater symptom reduction in both treatments, with a significant post-treatment increase in responders. These findings suggest that psilocybin and escitalopram may reorganise brain dynamics in markedly different ways and yet share dynamical features associated with clinical improvement. Overall, vortex-space modelling offers a promising framework for characterising brain dynamics in depression and its successful treatment.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>The Dual Nature of Syntactic Node Count: Facilitating and Inhibiting Sentence Comprehension</title>
+      <link>https://doi.org/10.31234/osf.io/9msby_v3</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/9msby_v3</guid>
+      <description>[预印本] PsyArXiv
+
+Neurolinguistic research on syntactic processing has used Node Count, the number of syntactic nodes assumed to be built at each word, to investigate how structure-building effort affects brain activity. However, several recent studies cast doubt on the presumed link between Node Count and processing effort; they observe negative correlations between Node Count and reading times. These facilitatory effects raise an alternative hypothesis: rather than reflecting structure-building effort, Node Count may index structure-mediated predictability. To test this hypothesis, we first relate Node Count to an information-theoretic measure of contextual support, the pointwise mutual information (PMI) between a word and its context. We then evaluate the relationship between Node Count and reading times from three large-scale naturalistic English datasets. For these analyses, we derive Node Count under three grammar formalisms (phrase-structure grammar, dependency grammar, and combinatory categorial grammar) and multiple parsing strategies. Variants whose count reflects integrative parsing steps correlate positively with PMI and show a dual behavioral profile: robust facilitation in immediate regions, consistent with structure-mediated predictability, and a delayed slowdown in spillover regions, most consistent with the cost of contextual semantic integration. The facilitatory effect explains reading-time variance beyond GPT-2 surprisal, indicating that Node Count has unique psycholinguistic value as an index of human prediction. These results highlight the role of structural representations in human language processing and underscore the need for a careful interpretation of the observed correlations between Node Count and brain activity in neurolinguistic studies.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Correspondence Between Structural and Functional Connectivity Within White Matter</title>
+      <link>https://doi.org/10.21203/rs.3.rs-11473390/v1</link>
+      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11473390/v1</guid>
+      <description>[预印本] Research Square
+
+Abstract White matter functional networks (WMFNs) derived from resting-state BOLD fluctuations have been identified across multiple datasets, but whether they correspond to coherent anatomical units defined by the underlying axonal architecture remains untested. Here we tested WM structural connectivity-functional connectivity (SC-FC) coupling directly by asking whether regions co-assigned to the same WMFN are preferentially linked by WM tracts. Using resting-state fMRI and diffusion MRI from the Human Connectome Project 7T dataset (N = 161), we derived 11 WMFNs per session (after exclusion of one boundary network) via k-means clustering of voxel-level functional connectivity (FC), constructed structural connectivity (SC) using multi-shell multi-tissue constrained spherical deconvolution with anatomically constrained tractography, and quantified the correlation between SC and FC across within- and between-network edges. Within-network coupling was two to three times higher than between-network coupling in both sessions (Session 1: r within = 0.59 vs. r between = 0.20; Session 2: r within = 0.66 vs. r between = 0.28; p &lt; 0.001). The increased coupling was also observed across subjects, in terms of survived matching of edge counts, and disappeared when network labels were permuted. Network-level coupling was heterogeneous and concentrated in projection pathways spanning the midbrain and medulla oblongata, with rank ordering of the six highest-coupling networks identical across sessions. These findings provide structural support that WMFNs are coherent anatomical-functional units and support reconceptualising WM as a structured contributor to the brain's functional architecture rather than a passive transmission medium.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>The diastole-systole transition as a regulatory window for heart-brain coupling in major depressive disorder: Evidence from cardiac phase-dependent 1/f slope and periodic neural dynamics.</title>
+      <link>https://doi.org/10.1111/pcn.70170</link>
+      <guid isPermaLink="false">doi:10.1111/pcn.70170</guid>
+      <description>Psychiatry and clinical neurosciences
+
+BACKGROUND: Cardiac rhythms dynamically modulate neural activity and information processing. Disruptions in heart-brain coupling (HBC) may contribute to affective dysregulation in major depressive disorder (MDD), yet their effects on periodic and aperiodic neural activity remain unclear. This study investigated cardiac cycle-dependent modulation of oscillatory and 1/f neural components in MDD. METHODS: Resting-state magnetoencephalography (MEG) and electrocardiography (ECG) were simultaneously recorded from 60 patients with MDD and 60 matched healthy controls. Patients underwent a 6-month follow-up, and remission status was assessed using the Hamilton Depression Rating Scale (HAMD-17). The Spectral Parameterization Resolved in Time (SPRiNT) algorithm was used to separate periodic and aperiodic neural activity. Linear mixed-effects models and permutation-based statistics were applied to examine cardiac phase-dependent neural modulation and between-group differences. RESULTS: Cardiac phase modulated both oscillatory power and aperiodic 1/f dynamics. Compared with controls, patients with MDD exhibited attenuated steepening of the aperiodic 1/f spectrum in the left insula during the diastole-to-systole transition and a greater reduction in δ-band power in the left anterior cingulate cortex during late systole. In addition, patients with MDD showed earlier α-band peak activity in the posterior cingulate cortex. Exploratory longitudinal analyses showed an increase in left insular 1/f modulation within remitters, although the formal group × time interaction was not significant. CONCLUSIONS: MDD is characterized by disrupted cardiac cycle-dependent neural dynamics involving both periodic and aperiodic activity. Altered insular aperiodic modulation may reflect impaired excitation-inhibition balance and abnormal heart-brain synchronization in depression, highlighting cardiac rhythms as potential state-dependent targets for closed-loop neuromodulation.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Deep Clustering of fMRI with Global-Local Feature Extraction for Functional Brain Activity Analysis.</title>
+      <link>https://doi.org/10.1109/tbme.2026.3748037</link>
+      <guid isPermaLink="false">doi:10.1109/tbme.2026.3748037</guid>
+      <description>IEEE transactions on bio-medical engineering
+
+Clustering is essential for identifying patterns in data. In neuroscience, it is widely used on functional Magnetic Resonance Imaging (fMRI) data to uncover brain activity patterns during cognitive tasks and rest. However, traditional methods like K-means struggle with the high dimensionality and temporal complexity of fMRI data, and often fail to capture spatial or contextual structures in image data, limiting their effectiveness. To address these challenges, we propose a deep clustering model that leverages the complementary strengths of Sparse Autoencoder (SAE) and Masked Autoencoder (MAE) for comprehensive feature extraction. The SAE captures global features and reduces data dimensionality while preserving overall structure. In parallel, the MAE reconstructs masked input patches to learn local contextual features-temporal for sequential data like fMRI, and spatial for imagedata. The combination of global and local features yields a more informative representation of the data. These fused features are then fed into a Deep Embedded Clustering (DEC) module, which iteratively refines cluster centers and feature representations using Kullback-Leibler (KL) divergence loss, improving clustering accuracy and robust ness. Experimental results show that our model effectively identifies functional brain activity patterns in task based fMRI and differentiates hippocampal subregions in resting-state fMRI. Overall, our approach offers a unified and versatile deep clustering framework capable of handling various data modalities, enabling more accurate and interpretable analysis in both neuroimaging and general high-dimensional data applications. The proposed framework explicitly decomposes global and local feature learning, overcoming limitations of single path deep clustering methods and providing physiologically meaningful clustering patterns.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Reading the night between the epochs: continuous decoding of sleep microstructure.</title>
       <link>https://doi.org/10.1093/sleep/zsag306</link>
@@ -17,6 +120,17 @@
 来源未提供摘要。</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Right-to-left shunt burden and altered white matter functional networks in stroke-free patients with patent foramen ovale.</title>
+      <link>https://doi.org/10.1016/j.neuroscience.2026.11.033</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.033</guid>
+      <description>Neuroscience
+
+Resting-state functional MRI (rsfMRI) is a useful technique for investigating the functional organization of human brain networks. Nevertheless, most rsfMRI studies in patent foramen ovale (PFO) have focused on gray-matter connectivity or structural imaging, whereas white-matter functional networks remain poorly characterized. PFO has been hypothesized to expose the brain to recurrent right-to-left shunt (RLS)-related microembolic, vasoactive and hemodynamic stressors, but whether these stressors are associated with altered white-matter functional organization in patients without overt stroke is unclear. The current study used rsfMRI to evaluate white-matter functional networks in stroke-free PFO patients and healthy controls. In the PFO group, RLS severity and anatomical features were characterized using contrast-enhanced transcranial Doppler and transesophageal echocardiography. Nine large-scale white-matter networks were identified by K-means clustering of voxel-wise white-matter functional connectivity. Evaluation of spontaneous oscillations and inter-network functional connectivity showed that PFO patients had widespread reductions in fast Fourier transform-derived band-averaged amplitude, mainly involving motor, occipital, cerebellar, deep and cingulum networks, and consistently reduced inferior frontal-to-fronto-temporal connectivity across frequency bands. Higher RLS grade was associated with lower white-matter amplitude in several networks, whereas PFO anatomical measurements showed no independent associations after multiple-comparison correction. Exploratory mediation analyses showed no significant indirect pathways after FDR correction. In this cross-sectional study, these findings suggest that RLS burden may be relevant to subclinical white-matter functional vulnerability in stroke-free PFO.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>静息态与自然刺激</category>
     </item>
@@ -219,6 +333,26 @@ Connectome fingerprinting (CF) is a machine-learning technique that uses an indi
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Exploring the modulatory role of oxytocin on resting-state functional connectivity within the emotion regulation network: An fMRI study.</title>
+      <link>https://doi.org/10.1016/j.psyneuen.2026.108076</link>
+      <guid isPermaLink="false">doi:10.1016/j.psyneuen.2026.108076</guid>
+      <description>Psychoneuroendocrinology
+
+Oxytocin (OT) is a neuropeptide responsible for modulation and regulation of social cognition and emotion regulation. While the effects of OT have been found to modify the rs-FC in a number of brain networks, little is known about the way OT modifies the structure of the emotion regulation network and if this depends on age. This was done through exploring the role of aging in modulating OT effects on rs-FC in emotion regulation network using publicly available data from a randomized, double-blinded, placebo-controlled trial. The sample included 87 healthy participants aged 20-70 years who received intranasal OT or placebo before resting-state fMRI. We tested the Age × Treatment interaction using a two-way between-subjects ANOVA and analyzed seed-to-voxel and region-of-interest (ROI-to-ROI) connectivity. A significant Age × Treatment interaction was observed in the bilateral amygdala (p-FWE &lt; 0.05), indicating that the effect of OT on amygdala connectivity depends on age. In young adults, OT was associated with widespread increases in rs-FC within prefrontal, limbic, cerebellar, and temporal regions, including connections between the amygdala and cerebellum. In older adults, OT effects were more focal and involved frontoparietal and cingulate cortices, with no significant decreases in connectivity. Notably, the Age × Treatment interaction did not reach significance in frontoparietal, cingulate, or cerebellar circuits (p = 0.06), restricting formal evidence for age-dependent modulation to the bilateral amygdala. These findings indicate that OT acts as an age-sensitive and region-specific modulator of the emotion regulation network, promoting broad network integration in younger adults and more selective changes in preserved cortical circuits in older adults. Accounting for age is therefore essential for understanding OT's neural mechanisms and for its potential clinical application.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Increased temporal persistence of reference-invariant bilateral EEG states in adult ADHD.</title>
+      <link>https://doi.org/10.1016/j.pscychresns.2026.112393</link>
+      <guid isPermaLink="false">doi:10.1016/j.pscychresns.2026.112393</guid>
+      <description>Psychiatry research. Neuroimaging
+
+Attention-deficit/hyperactivity disorder (ADHD) is associated with heterogeneous EEG abnormalities, but the short-timescale persistence of bilateral relational states remains unclear. Resting EEG from 56 adults with ADHD and 179 healthy adults was studied across 10 homologous pairs and four frequency bands. Eyes-closed (EC) recordings were used exclusively for target discovery, and the EC-frozen targets were evaluated in eyes-open (EO) recordings from largely the same participants. Effects were then examined under common-average re-referencing and using homologous voltage differences formed before nonlinear envelope extraction. Initial sensor-envelope analysis identified 44 EC effects, 35 of which generalized to EO under the released reference, but none survived common-average re-referencing. In the distinct, algebraically reference-invariant bipolar-envelope representation, four of 24 frozen difference targets were significant in the same direction in both EC and EO: Fp1-Fp2 theta and beta, C3-C4 delta, and P3-P4 delta. All four remained significant in age-overlap analyses, including nonlinear age adjustment. Adult ADHD is associated with increased short-lag retention of a restricted set of common-reference-invariant bilateral voltage-difference envelope states. The broad sensor-envelope findings were representation dependent, not necessarily artefactual. EC-to-EO generalization and within-sample reference-invariance testing do not constitute independent-cohort replication.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Functional connectivity profile of the amygdala subfields associates with emotional well-being in aging.</title>
       <link>https://doi.org/10.1007/s11357-026-02658-1</link>
       <guid isPermaLink="false">doi:10.1007/s11357-026-02658-1</guid>
@@ -313,10 +447,10 @@ Resting-state functional connectivity (FC) is increasingly used to probe individ
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>Complex Spatial and Temporal Organization of Functional Brain Networks</title>
+      <title>Complex Spatial and Temporal Organization of Functional Brain Networks.</title>
       <link>https://doi.org/10.64898/2026.11.12.766207</link>
       <guid isPermaLink="false">doi:10.64898/2026.11.12.766207</guid>
-      <description>[预印本] bioRxiv
+      <description>[预印本] bioRxiv : the preprint server for biology
 
 Recent research exploring brain-behavior associations has relied on the language of complex systems to understand how stable behavioral individual differences emerge from brain function. At the same time, advances in neuroimaging have provided greater insight into both the topological and temporal properties of macroscale cortical networks. These new approaches offer a potential avenue for understanding how functional activity in the brain might behave in a manner that aligns with complex-systems interpretations of psychological traits. The present study used resting-state data from the Human Connectome project ( N = 994) to explore associations between the spatial and temporal features of functional brain networks. Using an adaptive frequency approach to explore brain function at different timescales together with a family of methods from complex systems theory, we identified patterns of brain state organization reflecting a state-trait continuum, with more stable trait-like dynamics and greater functional coupling between networks in lower frequency oscillations. Additionally, we found evidence of greater coupling across timescales in brain networks associated with higher-order cognition. This research supports interpretations of brain organization as a spatiotemporal hierarchy and provides future avenues for exploring brain-behavior associations from a complex system perspective.</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
@@ -375,12 +509,12 @@ Purpose Parkinson's disease (PD) is a neurodegenerative disorder characterized b
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>EEG Microstate Alterations and Their Association with Cognitive Performance in Late-Onset Epilepsy of Unknown Etiology: Comparison with Alzheimer's Disease.</title>
+      <title>EEG microstate alterations and their association with cognitive performance in late-onset epilepsy of unknown etiology: Comparison with Alzheimer's disease.</title>
       <link>https://doi.org/10.1016/j.brainresbull.2026.112220</link>
       <guid isPermaLink="false">doi:10.1016/j.brainresbull.2026.112220</guid>
       <description>Brain research bulletin
 
-Background Cognitive impairment is common in late-onset epilepsy of unknown etiology (LOEU), but its electrophysiological correlates and relationship to Alzheimer's disease (AD) remain unclear. We compared resting-state electroencephalogram (EEG) microstate dynamics among LOEU, AD, and cognitively normal (CN) groups and examined their associations with cognitive performance. Methods Eyes-closed 32-channel resting-state EEG recordings were analyzed from 60 patients with LOEU, 65 with AD, and 60 CN participants. Four canonical microstate classes (A-D) were identified. Group differences in microstate parameters were tested with false discovery rate correction. Associations with Montreal Cognitive Assessment (MoCA) and Mini-Mental State Examination (MMSE) scores were examined using multivariable interaction models adjusted for age, sex, education, and cerebral small vessel disease burden. Results Microstate B duration was longer in LOEU and AD than in CN (Holm-adjusted p=0.011 and 0.016), whereas microstate C occurrence was lower in both patient groups (p=0.001 and 0.018). Microstate D duration was longer in LOEU than in CN and AD (both p=0.038). For microstate A duration, the group interaction survived false discovery rate correction for MMSE (q=0.0255) but not MoCA (q=0.122). In LOEU, longer microstate A duration was associated with lower MoCA and MMSE scores. Pairwise slope comparisons were more negative in LOEU than in CN for both outcomes, whereas LOEU-AD slope differences were not significant. Conclusions LOEU showed altered resting-state EEG microstate dynamics that partly overlapped with those observed in AD, alongside a group difference in microstate D duration. Microstate A duration was associated with cognitive performance in LOEU, although this association did not significantly differ from that observed in AD. These findings support further investigation of EEG microstates as electrophysiological correlates of cognitive dysfunction in LOEU while also highlighting overlap with AD.</description>
+Background Cognitive impairment is common in late-onset epilepsy of unknown etiology (LOEU), but its electrophysiological correlates and relationship to Alzheimer's disease (AD) remain unclear. We compared resting-state electroencephalogram (EEG) microstate dynamics among LOEU, AD, and cognitively normal (CN) groups and examined their associations with cognitive performance. Methods Eyes-closed 32-channel resting-state EEG recordings were analyzed from 60 patients with LOEU, 65 with AD, and 60 CN participants. Four canonical microstate classes (A-D) were identified. Group differences in microstate parameters were tested with false discovery rate correction. Associations with Montreal Cognitive Assessment (MoCA) and Mini-Mental State Examination (MMSE) scores were examined using multivariable interaction models adjusted for age, sex, education, and cerebral small vessel disease burden. Results Microstate B duration was longer in LOEU and AD than in CN (Holm-adjusted p = 0.011 and 0.016), whereas microstate C occurrence was lower in both patient groups (p = 0.001 and 0.018). Microstate D duration was longer in LOEU than in CN and AD (both p = 0.038). For microstate A duration, the group interaction survived false discovery rate correction for MMSE (q = 0.0255) but not MoCA (q = 0.122). In LOEU, longer microstate A duration was associated with lower MoCA and MMSE scores. Pairwise slope comparisons were more negative in LOEU than in CN for both outcomes, whereas LOEU-AD slope differences were not significant. Conclusions LOEU showed altered resting-state EEG microstate dynamics that partly overlapped with those observed in AD, alongside a group difference in microstate D duration. Microstate A duration was associated with cognitive performance in LOEU, although this association did not significantly differ from that observed in AD. These findings support further investigation of EEG microstates as electrophysiological correlates of cognitive dysfunction in LOEU while also highlighting overlap with AD.</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
@@ -392,141 +526,6 @@ Background Cognitive impairment is common in late-onset epilepsy of unknown etio
 
 Background Schizophrenia is associated with abnormalities in cortical activity and autonomic regulation, but directional brain-heart interaction (BHI) across resting states and frequency bands remains unclear. Methods Resting-state electroencephalography (EEG) and electrocardiography (ECG) were recorded simultaneously in 33 medicated men with schizophrenia and 29 healthy men during eyes-open and eyes-closed conditions. Directional BHI was assessed across two coupling directions, two cardiac frequency components, and five EEG frequency bands. Global-average and spatial cluster-based permutation analyses were performed, with family-wise error rate correction across all 40 predefined BHI features. Results Compared with healthy controls, patients with schizophrenia showed higher theta, alpha, and beta EEG power during eyes-open rest and higher theta and alpha EEG power during eyes-closed rest after false discovery rate correction. Cardiac low-frequency (LF) and high-frequency (HF) spectral power did not differ significantly between groups. During eyes-open rest, patients showed lower global-average brain-to-heart high-frequency (BtH-HF) coupling across all five EEG bands (global family-wise error rate-corrected p = 0.0151-0.0349; Hedges' g = -0.911 to -0.841). This finding was supported by spatial cluster analysis and multitaper sensitivity analysis. No eyes-closed BtH-HF effects survived global correction. Although four eyes-open heart-to-brain (HtB) clusters were initially significant under the fixed-order model, none survived the Bayesian information criterion-based order sensitivity analysis. No significant Condition × Group interaction was detected across the five BtH-HF features. Conclusions Schizophrenia was associated with reduced eyes-open BtH-HF coupling across EEG bands, indicating altered statistical brain-heart coupling.</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>State-dependent structure-function coupling reflects dynamic engagement of the brain’s structural scaffold</title>
-      <link>https://doi.org/10.64898/2026.11.12.766152</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.12.766152</guid>
-      <description>[预印本] bioRxiv
-
-Functional brain organization is shaped by the brain’s anatomical scaffold, yet how structure-function coupling varies across cognitive states remains unclear. Across 723 adults from two independent cohorts, we examined coupling using diffusion and functional magnetic resonance imaging. In the primary cohort, coupling was strongest during movie-watching, intermediate during rest, and weakest during working memory, declining further with increasing working-memory load. The movie–rest difference replicated in an independent sample, challenging the primacy of rest for revealing anatomical constraints. State effects were superimposed on a stable unimodal-to-transmodal cortical hierarchy, with movie-watching preferentially enhancing coupling in sensory and language systems. Regions with more stable functional connectivity across states showed stronger coupling. Older age was associated with lower auditory and somatomotor coupling in both cohorts, alongside heterogeneous increases in association cortex. Together, we show that cognitive context shapes structure-function alignment, supporting a framework of complementary structure-constrained and distributed-integrative modes of communication.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Repeated self-administered EEG recordings enable longitudinal measurement of brain activity at home</title>
-      <link>https://doi.org/10.64898/2026.11.12.766143</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.12.766143</guid>
-      <description>[预印本] bioRxiv
-
-Mobile electroencephalography (EEG) offers new opportunities to investigate brain activity outside the laboratory, but the quality and reliability of self-administered recordings remain important concerns. Here, we evaluated whether repeated at-home recordings using a four-channel consumer EEG device could provide meaningful electrophysiological measurements and characterized the stability of these measures across sessions. Five participants completed repeated recordings across multiple days, including resting-state measurements and an auditory oddball task performed with and without concurrent cognitive load. The recordings captured established spectral signatures of physiological state and task demands, including increased alpha activity during eye closure and changes in theta activity associated with cognitive load. Auditory stimulation elicited clear event-related responses, while exploratory multivariate decoding distinguished standard from target tones across recording sessions. Measurement stability varied across electrophysiological features, and aggregating repeated sessions improved the consistency of individual-level estimates. For example, split-half reliability of the auditory N1-like response increased from r = .22 with one session to r = .76 with seven sessions per half. By demonstrating the feasibility of repeated self-administered EEG measurements, this study provides a step toward investigating how brain activity varies both between individuals and within individuals over time in everyday environments.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Bivariate Multiscale Sample Entropy of Frontoparietal–Subgenual ACC Dynamics in Depression During Accelerated TMS at 7 T</title>
-      <link>https://doi.org/10.64898/2026.11.12.26367710</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.12.26367710</guid>
-      <description>[预印本] medRxiv
-
-Objective To examine whether longitudinal changes in frontoparietal (FP)–subgenual anterior cingulate cortex (sgACC) joint temporal complexity differ between sgACC hemispheres in patients undergoing accelerated TMS (aTMS) and untreated healthy controls. Methods Twenty-four patients with current depressive episodes and fifteen healthy controls underwent 7T resting-state fMRI at baseline and follow-up. Patients received aTMS localized to the left DLPFC using Beam-F3. The same bilateral FP time series was paired separately with left and right sgACC time series. Bivariate multiscale sample entropy (bMSE) across scale factors a1–a10 was summarized by trapezoidal integration as a complexity index (bMSE-CI). The primary test was the Group × Time × sgACC Hemisphere interaction in a mixed repeated- measures ANOVA. Scale-specific interactions and clinical Spearman correlations were evaluated with Benjamini–Hochberg false discovery rate correction. Change scores were follow-up minus baseline. Results The bMSE-CI Group × Time × Hemisphere interaction was significant (F(1,37) = 6.043, p = 0.0188, partial η² = 0.140). Mean left/right bMSE-CI changes were −0.286/+0.124 in patients and +0.323/+0.112 in controls. Of ten scale-specific three-way interactions, only a2 survived FDR correction (q = 0.0435). No baseline or change-score bMSE–MADRS association survived the specified FDR corrections. A random-intercept-only mixed-model sensitivity analysis did not reach statistical significance for the three-way interaction (p = 0.0718). Conclusion FP–sgACC joint temporal complexity showed hemisphere-dependent longitudinal differences between patients undergoing aTMS and healthy controls. These exploratory findings motivate further evaluation of bMSE as a candidate measure of longitudinal neural change in depression. Independent replication, more precise reliability estimates, and prospective validation of clinical relevance are needed.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural and Experiential Dynamics of High-Ventilation Breathwork Mirror Psychedelic States</title>
-      <link>https://doi.org/10.64898/2026.11.11.765965</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.11.765965</guid>
-      <description>[预印本] bioRxiv
-
-High-ventilation breathwork (HVB) is a simple breathing technique that nevertheless frequently triggers experiences resembling psychedelic states. While recent studies have begun to pinpoint physiological and neural changes involved in altered states of consciousness (ASCs) evoked by HVB, the interplay between neural and experiential dynamics throughout an HVB session remains unclear. Here we tracked neural activity (via 64-channel EEG recordings) as well as subjective experience depth and content in 25 experienced HVB practitioners across resting-state recordings interleaved throughout a naturalistic HVB session. We find that neural dynamics evoked by HVB emulate the most robust neural signatures of classical psychedelic states, specifically (1) loosening of temporal structure, including broadband cortical desynchronization, increased signal complexity, and decreased oscillatory power in the Alpha (8 - 13 Hz) range, and (2) reorganization of spatial structure, including a flattening of cortical processing hierarchy. These neural effects directly correlated with participants’ subjective depth with minute resolution, but were not explained by isolated features of HVB such as music listening or active interoception. Together, these results identify unifying neural features of psychedelic-like ASCs regardless of induction method, demonstrating that cortical states triggered by psychedelics can also be accessed by non-pharmacological routes, and breathwork is a powerful way to do so.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The Sv DC Field: Large-Scale and Hierarchical Functions Regulator.</title>
-      <link>https://doi.org/10.34133/research.1476</link>
-      <guid isPermaLink="false">doi:10.34133/research.1476</guid>
-      <description>Research (Washington, D.C.)
-
-Large-scale dynamic reorganization of brain functional networks has been extensively revealed by functional magnetic resonance imaging, yet its direct electrophysiological basis remains unclear. In our prior research on epilepsy, we identified a distinctive electrophysiological phenomenon referred to as the slow-varying direct current (Sv DC, 0.01 to 0.5 Hz) field. This field demonstrates both the stability characteristic of a physical direct current and the slow-varying property of bioelectrical signals, enabling it to reflect the dynamic alterations in relative bioelectric field fluctuations. To further characterize its behavior across different functional states, we recorded intracranial electroencephalography from epilepsy patients implanted with depth electrodes during visual, motor, and language tasks. The Sv DC field exhibited large-scale convergence and suppression, accompanied by information transfer to other frequency bands, during these tasks. In visual functional areas, Sv DC field displayed rhythmic oscillations tightly coupled with gamma activity and increased power, whereas in nonvisual areas, Sv DC field power decreased significantly. During seizures, Sv DC field showed characteristic spatiotemporal spreading dynamics, a phenomenon consistently replicated in macaque monkeys, rats, and mice. These electrophysiological patterns suggest that the Sv DC field exhibits both large-scale cortical functional networks and region-specific modulations, potentially offering a novel understanding on dynamic organization of brain functional networks.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Denoised gray matter BOLD-CSF coupling in aging and its association with markers of preclinical AD</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11368503/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11368503/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract Global gray matter (gGM) blood-oxygen-level-dependent (BOLD) signal fluctuations are temporally coupled with cerebrospinal fluid (CSF) inflow. Reduced gGM BOLD-CSF coupling has been reported in aging and linked to Alzheimer’s disease (AD)-related pathology. Our study aimed to investigate the effect of multi-echo denoising on age-related reductions in coupling and whether coupling is associated with cortical thickness across AD-vulnerable regions and crystallized–fluid ability (‘CF’) discrepancy, markers of preclinical AD. We analyzed an open-access behavioral/MRI dataset (n = 301) cognitively healthy younger and older adults (OpenNeuro ds003592). Coupling scores were calculated as correlations between gGM signal fluctuations and CSF inflow signals, before and after denoising. Linear mixed models tested the effects of age and denoising on coupling, while multiple regression models assessed associations between denoised coupling, cortical thickness, and CFdiscrepancy. Coupling was lower in older versus younger adults. Denoising significantly reduced coupling in younger adults but not in older adults. Both gGM and CSF signal amplitudes were lower in older adults. Denoised coupling was not significantly associated with cortical thickness or CFdiscrepancy, and cortical thickness was not associated with CFdiscrepancy after controlling for age. These findings support age-related differences in BOLD–CSF coupling, which itself may not be related to coarse markers of preclinical AD.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Olfactory network variability is associated with odor identification and cognitive performance in mild cognitive impairment.</title>
-      <link>https://doi.org/10.1177/13872877261502862</link>
-      <guid isPermaLink="false">doi:10.1177/13872877261502862</guid>
-      <description>Journal of Alzheimer's disease : JAD
-
-BackgroundOdor identification impairment is an early marker of Alzheimer's disease pathology and predicts dementia conversion in mild cognitive impairment (MCI). However, the pathophysiological role of dynamic functional connectivity (dFC) variability within olfactory networks remains unclear.ObjectiveTo characterize seed-based dFC variability across olfactory pathways in MCI with odor identification impairment (MCI-OII) and examine its associations with olfactory and cognitive performance.MethodsNinety-seven patients with MCI were recruited and subdivided into MCI-OII and those without odor identification impairment (MCI-NOII), along with 97 age-matched healthy controls (HC). All participants underwent neuropsychological assessment, olfactory testing, and resting-state functional magnetic resonance imaging. Seed-based dFC variability was computed using a sliding window approach. Correlation and exploratory mediation analyses examined associations among abnormal dFC, odor identification, and cognition.ResultsCompared to MCI-NOII and HC, MCI-OII exhibited increased dFC variability between the left piriform cortex/right insula and right caudate nucleus, and between the left insula and left middle frontal gyrus. For the connection between the left insula and left cerebellar lobule VI, dFC variability showed a graded pattern from MCI-OII to HC to MCI-NOII. Increased caudate-centered dFC variability was associated with poorer odor identification, memory, and executive performance. Furthermore, exploratory mediation analyses suggested indirect associations involving odor identification, caudate-centered dFC variability, and memory or executive function.ConclusionsMCI-OII is characterized by increased olfactory-network dFC variability, particularly in caudate-centered pathways. These findings suggest that dFC variability may serve as a candidate network-level marker of concurrent olfactory impairment and cognitive dysfunction in MCI.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The aging human brain exhibits reduced hemodynamic and cerebrospinal fluid flow waves during sleep.</title>
-      <link>https://doi.org/10.1038/s43587-026-01270-4</link>
-      <guid isPermaLink="false">doi:10.1038/s43587-026-01270-4</guid>
-      <description>Nature aging
-
-Aging reduces the quality and quantity of sleep, and sleep disruption is predictive of neurodegeneration and cognitive decline. Sleep loss could affect brain health through disruption of cerebrospinal fluid (CSF) circulation, which is important for brain homeostasis. In young adults, large CSF flow waves appear during non-rapid eye movement sleep; however, whether sleep-dependent brain fluid physiology changes in aging is not known. Here we imaged large-scale CSF flow and hemodynamics in young (18-39 years) and older (60-84 years) adults during nighttime sleep. Sleep-dependent CSF flow was reduced in older adults, and was linked to reduced EEG slow wave power, decreased global hemodynamic oscillations and gray matter atrophy. Using sensory and vasoactive stimuli to drive CSF flow, we found that both neural and cerebrovascular changes contributed to this disruption. These results demonstrate reduced CSF flow during sleep in human aging, before disease onset, and identify parallel neural and hemodynamic mechanisms contributing to this decline.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Thalamic functional dysconnectivity in adolescents with bipolar and major depressive disorders: A thalamic subdivision-seeded functional connectivity study.</title>
-      <link>https://doi.org/10.1016/j.jpsychires.2026.11.033</link>
-      <guid isPermaLink="false">doi:10.1016/j.jpsychires.2026.11.033</guid>
-      <description>Journal of psychiatric research
-
-Background The thalamus, as a central relay in cortico-cortical and cortico-subcortical communication, has been implicated in the pathophysiology underlying both bipolar disorder (BD) and major depressive disorder (MDD). However, the differences in the thalamic subregion-seeded functional dysconnectivity between the two disorders remain unclear among adolescent patients. Methods We examined seed-based resting-state functional connectivity (FC) of seven functionally parcellated thalamic subregions in 27 adolescents with BD, 46 with MDD, and 40 age- and sex-matched healthy controls (HC). Analyses were adjusted for age, sex, medication profiles, and clinical symptoms. Results Both BD and MDD showed increased FC between the DMN-related thalamic subregion (Tha-DMN) and right cerebellar lobule VI; this FC was negatively associated with HDRS scores only in the MDD group (r = -0.370, p-FDR = 0.016). Compared to MDD and HC, BD exhibited greater FCs between the salience network-related thalamic subregion (Tha-SN) and the precuneus. A graded pattern across groups (BD &gt; MDD &gt; HC; all pairwise comparisons significant) was observed for the Tha-SN-right fusiform gyrus and the Tha-DMN-left postcentral gyrus FC. Discussion Our findings suggested that the dysregulation in cortico-thalamo-cerebellar communication may be one of the shared and diagnosis-related patterns in adolescents with mood disorders. Shared Tha-DMN-cerebellar hyperconnectivity was observed across BD and MDD, whereas connectivity involving the Tha-SN and Tha-DMN showed distinct patterns of differentiation between the two disorders.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Distinct cortical functional network alterations in internet gaming disorder and alcohol use disorder: A resting-state EEG graph theory analysis.</title>
-      <link>https://doi.org/10.1016/j.comppsych.2026.152758</link>
-      <guid isPermaLink="false">doi:10.1016/j.comppsych.2026.152758</guid>
-      <description>Comprehensive psychiatry
-
-Internet gaming disorder (IGD) and alcohol use disorder (AUD) are characterized by compulsive behaviors and impaired impulse control. Although IGD is classified as a behavioral addiction and AUD as a substance use disorder, previous studies have suggested potential neurophysiological similarities between the two conditions. However, the frequency-specific topological organization of cortical networks in IGD and AUD remains poorly understood. This study compared the cortical functional networks in IGD and AUD using resting-state electroencephalography (EEG) and graph theory-based network analysis. A total of 151 subjects (49 patients with IGD, 48 with AUD, and 54 healthy controls (HCs)) participated in this study. Resting-state EEG data were preprocessed, followed by source reconstruction and network analysis. We examined global and nodal network characteristics across different frequency bands. At the global network level, IGD exhibited a significantly higher clustering coefficient (CC) and strength (weighted degree) in the beta frequency band compared to AUD and HCs. At the nodal level, the IGD group displayed significantly increased beta-band CCs and strengths in multiple brain regions, particularly the parietal and limbic areas. Notably, beta-band nodal CC and strength in the bilateral superior frontal gyri were significantly lower in AUD than in IGD. Beta-band nodal CC and strength measures showed nominal associations with AUDIT or IAT scores. Our findings suggest that IGD and AUD exhibit distinct cortical network patterns. The results provide further neurophysiological evidence distinguishing IGD, as an example of behavioral addiction, from alcohol-related substance addiction.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Hemisphere-specific neuroplasticity after basal ganglia stroke: divergent patterns of brain reorganization revealed by fALFF and ReHo.</title>
-      <link>https://doi.org/10.1016/j.brainres.2026.150631</link>
-      <guid isPermaLink="false">doi:10.1016/j.brainres.2026.150631</guid>
-      <description>Brain research
-
-Background Lesion laterality modulates post-stroke neuroplasticity following basal ganglia infarction, but hemisphere-specific reorganization patterns of motor circuits remain unclear. Objective To investigate lateralized changes in spontaneous brain activity and local synchronization in patients with left versus right basal ganglia infarction using resting-state functional MRI (rs-fMRI), and to explore their associations with motor recovery. Methods Resting-state fMRI-derived fractional amplitude of low-frequency fluctuations (fALFF) and regional homogeneity (ReHo) were analyzed in 31 patients with left basal ganglia infarction (LBGIS), 33 patients with right basal ganglia infarction (RBGIS), and 33 healthy controls. TFCE-FWE corrected two-sample t-tests and covariate-adjusted partial correlations were used to compare brain activity and link functional alterations to Fugl-Meyer Assessment (FMA) motor scores. Results LBGIS displayed hypoactivity in ipsilesional motor cortices alongside hyperactivation of contralesional cerebellum and prefrontal areas; ipsilesional sensorimotor ReHo positively correlated with FMA, whereas contralesional cerebellar fALFF negatively correlated with FMA. RBGIS showed reduced ipsilesional frontoparietal activity and isolated hyper-synchronization within the ipsilesional frontoparietal motor network without cerebellar recruitment, with elevated ReHo in ipsilesional precentral gyrus/SMA negatively associated with FMA. Direct group comparisons validated stronger bilateral motor-planning and contralesional cerebellar signals in LBGIS, and higher right visual-spatial fALFF in RBGIS. Conclusions Left and right basal ganglia infarctions elicit divergent hemispheric neuroplastic modifications in motor networks. These lateralized functional signatures could serve as imaging biomarkers for lesion-side-customized motor rehabilitation.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Personalized Functional Network Mapping Across the Lifespan.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.11.004</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.004</guid>
-      <description>Biological psychiatry
-
-Functional brain networks vary substantially across individuals, yet this variability is obscured by conventional group-average atlases. Personalized functional network mapping addresses this limitation by characterizing individual-specific network organization, including the spatial topography of network territories, boundaries, and variants. Personalized mapping can be applied across large developmental and aging cohorts to study lifespan changes in such organization. Precision functional mapping (PFM), a specialized form of personalized mapping, uses extensive functional magnetic resonance imaging (fMRI) data per individual to achieve highly reliable and fine-grained characterization of individual functional organization. Here, we review individual-specific functional network organization from infancy through older adulthood. Evidence across life stages suggests a lifespan trajectory in which individual-specific network organization is detectable near birth, continues to refine through childhood and adolescence, and exhibits marked trait-like stability in adulthood, while its evolution in later life remains less well characterized. Across these stages, inter-individual topographic variability is greater in higher-order association than primary sensorimotor systems, positioning the sensorimotor-association axis as a unifying framework for understanding individual-specific network organization across the lifespan. We further review how individualized network features relate to cognition and psychopathology and how they are altered in psychiatric and neurodegenerative disorders. Finally, we discuss advances in MRI acquisition and analysis that facilitate personalized functional network mapping and opportunities for precision clinical translation.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The extended default mode network dysconnectivity in schizophrenia</title>
-      <link>https://doi.org/10.64898/2026.11.10.765658</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.10.765658</guid>
-      <description>[预印本] bioRxiv
-
-The default mode network (DMN) extends beyond cortex into subcortical structures, yet how this extended DMN (eDMN) is causally reorganized in schizophrenia (SZ) remains unclear. Here, resting-state fMRI from 74 healthy controls (HC) and 66 SZ patients was analyzed. Subject-specific eDMNs were identified using spatially-constrained independent component analysis, and effective connectivity among 13 regions was estimated with spectral dynamic causal modeling, with group effects assessed using parametric empirical Bayes. Causal centrality—a dynamics-sensitive and causality-based measure of nodal importance—was computed per region, compared between groups, and correlated with MATRICS cognitive scores in patients. Causal centrality rankings were highly similar across groups (ρ = 0.87), with both favoring subcortical over cortical regions. Group differences were regionally specific: temporal cortex was more causally central in patients, whereas posterior parietal cortex was more causally central in controls. Most connection-level SZ−HC differences originated from ventrolateral prefrontal cortex, prefrontal cortex, basal forebrain, temporal cortex, and thalamus. In patients, temporal causal centrality correlated negatively with reasoning/problem-solving, and ventrolateral prefrontal causal centrality with processing speed and composite cognition. The eDMN’s core causal architecture is preserved in schizophrenia, but temporal influence is enhanced and parietal influence attenuated— alterations that are behaviorally meaningful and consistent with pathological reorganization.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
   </channel>

@@ -5,9 +5,50 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:06:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 21:48:19 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory.</title>
+      <link>https://doi.org/10.7554/elife.111304</link>
+      <guid isPermaLink="false">doi:10.7554/elife.111304</guid>
+      <description>eLife
+
+Emerging evidence suggests that the hippocampus contributes to visual short-term memory (VSTM). However, the neural mechanisms through which hippocampal activity supports the maintenance of VSTM representations remain largely unknown. Here, using intracranial EEG recordings from human participants performing a delayed match-to-sample task for naturalistic objects, we investigated the role of hippocampal ripple activity-brief high-frequency oscillations associated with memory replay-in VSTM maintenance and hippocampal-neocortical communication. We found that hippocampal ripple rates progressively ramped up during the maintenance period and supported successful VSTM. More critically, hippocampal ripples were temporally coupled with the ripples in the lateral temporal lobe (LTL), and these coupled ripples were associated with memory reactivation in the LTL. These findings provide direct evidence that hippocampal-neocortical interaction via coupled ripples supports VSTM, extending the role of hippocampal ripples from long-term consolidation to short-term mnemonic processes and offering new insights into the dynamic coding mechanisms of working memory.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Shared and distinct neural pathways of aversive and appetitive pain-related learning.</title>
+      <link>https://doi.org/10.1038/s42003-026-11323-4</link>
+      <guid isPermaLink="false">doi:10.1038/s42003-026-11323-4</guid>
+      <description>Communications biology
+
+Aversive and appetitive learning are central to adaptive behaviour, and pain and avoidance are powerful examples of such forces shaping human behaviour. Alterations in learning are thought to contribute to the development and maintenance of chronic pain, yet their neural underpinnings remain unclear. In this registered within-subject fMRI study (German Clinical Trials Register, DRKS-ID: DRKS00027448), we examined both aversive and appetitive pain learning during acquisition and extinction in 68 healthy individuals. Ratings confirm successful learning, with exploratory analyses suggesting stronger aversive acquisition and incomplete extinction. Both conditions engage the visual cortex during acquisition, with increased connectivity to the right operculum. Aversive acquisition further elicits stronger mediodorsal thalamus activity and heightened connectivity with the locus coeruleus, alongside sustained parahippocampal activation during extinction. Incomplete aversive extinction is linked to ongoing visual cortex activity during pain anticipation. Findings suggest shared neural substrates, but stronger aversive recruitment of rapid encoding and persistent memory systems.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Mismatch Negativity and General Cognitive Ability - A Meta-Analysis.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107099</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107099</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Intelligence or general cognitive ability (GCA) is fundamental to human behavior and cognition. It impacts important life outcomes like educational success, and even health and longevity have been related to differences in GCA. Understanding the biological basis of such individual variations presents a crucial goal of neuroscience. The mismatch negativity (MMN) is an event-related brain potential that can be measured when-within a series of frequent standard stimuli, rare deviants are presented-and is suggested to reflect conscious (active) or unconscious (passive) detection processes of the brain. Importantly, variations in MMN amplitude and latency have been linked to differences in GCA. Yet findings vary considerably. This preregistered meta-analysis provides a comprehensive and structured overview of the current state of research. Following the study selection process in accordance with the PRISMA guidelines, and the rating of study design quality with the Study Design and Implementation Assessment Device for Individual Difference Research (DIAD-ID), the association between GCA and MMN amplitude and latency was examined in 645 healthy adults across 12 included studies. The estimated across-sample associations between MMN and GCA were small, but significant (MMN amplitude-GCA: r = -0.09, MMN latency-GCA: r = -0.16; p &lt; 0.01) and moderators were identified. Between-sample heterogeneity was moderate, with no evidence of publication bias. Our findings suggest that higher cognitive ability is associated with slightly stronger and faster MMN responses. However, the low estimated across-sample effect sizes and the small number of included studies also highlight the need for more research.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Where could the brain keep a symbol?</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107092</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107092</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Neuroscience routinely describes memories as stored neural symbols, yet durable memory and successful retrieval do not establish a separately accessible symbolic vehicle. I distinguish retention, the claim that a physical change persists and later influences behavior, from symbolic storage, the stronger computational claim that a description can be accessed independently of the operation it specifies. The criterion is functional and system-relative and does not rule out neural activity as access. It requires specifying, before testing, the candidate vehicle, its proposed use, the system boundary, and an endogenous route reaching the vehicle without using it. DNA meets the criterion: replication preserves nucleotide sequence without producing the encoded gene product. Evidence from synapses and circuits establishes persistent, functionally useful organization but has not shown this separation for any neural memory vehicle; in these states, identified reads are executions that modify what they read. Hippocampal replay, neuromodulation, and artificial-network checkpoints show that the verdict depends on the vehicle and operations compared. I agree with Gallistel that intracellular nucleic acid mechanisms could provide a genuine store, but disagree that behavioral precision alone requires one. Maintained coupling, in which memory is sustained by continual recalibration rather than read from a store, offers an alternative whose predictions depend on error source: drift can be corrected where a reference signal remains, but a unique, never-revisited episode offers none. Current evidence favors retention without symbolic storage in synapses and circuits; I propose operational tests that could overturn this verdict. Either way, retention and use remain memory.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels.</title>
       <link>https://doi.org/10.7554/elife.107980</link>
@@ -19,12 +60,52 @@ Making decisions often requires the integration of multiple pieces of informatio
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Aperiodic EEG Activity Is a Domain-Specific Marker of Attentional Aging in Neurotypical Adults.</title>
+      <link>https://doi.org/10.1523/jneurosci.1306-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.1306-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Aperiodic neural activity has been reliably shown to be reduced among older adults, and these reductions are associated with age-related cognitive decline. These results suggest that aperiodic activity, as measured by the spectral exponent, might be a viable electrophysiological biomarker for cognitive aging. However, this has not been tested longitudinally, within participants, during normal aging. Here, we used a longitudinal cohort of either sex to test whether changes in aperiodic activity between two sessions, ∼5 years apart, track behavioral change across two domains: sustained attention (Psychomotor Vigilance Test) and executive function (modified Simon task). We found that aperiodic activity declined within individuals after the interval, independent of age at baseline. This within-person change tracked concurrent changes in reaction times during sustained attention but was not associated with changes in any Simon task measure. Within a resampling framework, the aperiodic-PVT association was stable across cohort resamples and independently fitted partitions, though it was not confirmed in a small, frozen held-out set. These findings suggest the longitudinal decline in aperiodic activity tracks attentional processing speed rather than executive function, supporting its potential as a domain-specific biomarker of attentional aging in neurotypical populations.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Probing the Neural Geometry of Conscious Object Perception in Time.</title>
+      <link>https://doi.org/10.1523/jneurosci.0843-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0843-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Conscious object recognition is a critical brain function, key to making sense of the plethora of visual inputs and guiding adaptive behavior. Yet, the sequence of neural processing underlying conscious object recognition remains unclear. Existing proposals alternatively suggest that conscious object recognition proceeds in a "coarse-to-fine" sequence or a "fine-to-coarse" sequence. Here, we recorded high-density EEG while participants of both sexes performed a threshold-level object recognition task under different viewing conditions. Both superordinate and basic-level category information emerged early in neural activity, followed by a late superordinate category representation in an abstract format that is disentangled from low-level object features. Strikingly, in the early period, while basic-level category information positively correlated with perceptual awareness, superordinate category information negatively predicted perceptual awareness. In contrast, both superordinate and basic-level category information positively correlated with objective categorization accuracy in the early period. In the late period, both levels of category information positively correlated with awareness. These results suggest that neural processing underlying conscious object perception proceeds from the basic to the superordinate category level.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Perception of Tones versus Tone Streams under Random Multi-tone Masking and Its Representation in Auditory Cortex.</title>
+      <link>https://doi.org/10.1523/jneurosci.0416-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0416-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+When repeated tones are presented among random masker tones, their perceptual organization is often variable. In some trials, they cannot be segregated from the masker tones. In other trials, often with a delay, they form coherent streams, segregated from the masker tones. A strong awareness-related negativity is evoked by each segregated tone of the stream in auditory cortex. A similar negative-going response has been observed when subtle, isolated tones are detected versus missed, raising the question of whether target tones that do not form a stream under informational masking are still perceived or not. Here a paradigm is introduced to probe this question while activity in auditory cortex was recorded with magnetoencephalography. Human listeners (13 female, 8 male) were instructed to indicate when they detected an isochronous stream of tones under multi-tone masking while listening to the stimulus. Thereafter, they indicated if a cue tone, presented subsequently to each trial, was comprised in the target and masker combination. Results confirmed that target tones could still be perceived in the subset of trials where they did not form a coherent stream, but the detectability in the cued frequency report was higher for tones forming a stream. A prominent awareness-related negativity was only observed when the tones formed a stream, suggesting that this response reflects the perceptual organization of the tones into streams and beyond the pure perception of the tones themselves. We speculate that the perceptual organization into a stream further enhances the detectability of the tones comprised in the stream.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Representation of Emotional Expressions across the Face and Voice Brain Networks.</title>
+      <link>https://doi.org/10.1523/jneurosci.0366-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0366-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Recognizing emotions from faces and voices is fundamental to successful social interaction, yet how the brain represents emotional information across sensory systems remains unclear. Here, we systematically mapped the contribution of individually defined face- and voice-selective cortical regions in 24 human participants of either sex to unimodal and crossmodal emotion expressions. Using multivariate pattern classification, we show that emotional expressions are robustly decodable from the dominant sensory modality across all individually defined face- and voice-selective areas and that these representations cannot be accounted for by low- and mid-level stimulus properties alone. Strikingly, emotional information from the nondominant modality-vocal expressions within face networks and facial expressions within voice networks-was also represented throughout the network, with the exception of the occipital face areas. Crossmodal decoding further revealed a shared neural code for facial and vocal emotions in the temporal voice areas, posterior superior temporal sulcus, and precentral gyrus, indicating that these regions contain emotion representations that generalize across sensory modalities. Furthermore, in most face- and voice-selective regions, audiovisual emotional expressions could be distinguished from representations elicited by the dominant unimodal modality, indicating that bimodal signals are not simply represented as their strongest sensory component. Together, these findings reveal that emotion representations are distributed broadly across face- and voice-selective regions and identify temporofrontal regions as key sites supporting modality-independent emotion representations.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Neuropathologic Correlates of Cognitive Functions in Patients With Essential Tremor Without Dementia: Beyond the Cerebellum.</title>
       <link>https://doi.org/10.1212/wnl.0000000000218764</link>
       <guid isPermaLink="false">doi:10.1212/wnl.0000000000218764</guid>
       <description>Neurology
 
-BACKGROUND AND OBJECTIVES: Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. METHODS: Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. RESULTS: The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). DISCUSSION: Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
+Background and objectives Essential tremor (ET) is characterized not only by motor disturbances but also, in many cases, by a wide array of cognitive symptoms. Accumulating evidence implicates pathways beyond the cerebellum by which cognitive changes emerge. However, the extracerebellar neuropathologic correlates of specific cognitive symptoms have not been examined. This study evaluated these potential clinicopathologic associations in older adults with ET. Methods Participants were adults ≥55 years with ET who were followed prospectively and longitudinally and donated their brains for neuropathologic evaluation as part of the Clinical-Pathological Study of Cognitive Impairment in Essential Tremor study. Cognitive outcomes included attention, executive function, language, memory, and visuospatial function. Postmortem neuropathologic assessment included Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque scores, Thal β-amyloid A score, Braak and Braak neurofibrillary tangle (NFT) stage, and Braak Lewy pathology stage. Regional cerebral cortical atrophy ratings (neocortical and hippocampal), cerebral amyloid angiopathy, and markers of cerebrovascular health were also rated. Regression models examined neuropathologic correlates of cognitive function, adjusting for numerous confounders. Sensitivity analyses examined robustness of findings. Results The sample consisted of 57 individuals with ET and without dementia (mean age = 88.6 ± 5.4 years; 54.4% female, 71.9% cognitively normal, 28.1% with mild cognitive impairment). Higher amyloid burden was associated with lower attention (CERAD β = -0.48, p &lt; 0.001; Thal β = -0.37, p &lt; 0.01) and lower executive function (CERAD β = -0.40, p 0.01; Thal β = -0.33, p = 0.01). CERAD score was associated with lower language (β = -0.31, p = 0.04). Braak NFT stage was associated with lower attention (β = -0.26, p = 0.04) and lower executive function (β = -0.28, p = 0.03). Hippocampal atrophy was associated with lower memory performance (β = -0.29, p = 0.04). Discussion Core pathologies of AD, amyloid and tau, are associated with decrements in attention and executive function in older adults with ET and without dementia, while hippocampal atrophy is associated with lower memory performance. These results, consistent with a growing literature on extracerebellar pathologies in ET, suggest that multidomain cognitive symptoms among older adults with ET and without dementia may be driven in large part by AD-related cortical degenerative processes. Ongoing work is examining the molecular basis of these processes. Limitations include a highly educated, demographically homogeneous, and relatively small sample, as well as a lack of a control group.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
@@ -453,90 +534,6 @@ The subcortical visual system is traditionally described through a small number 
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Six Challenges for a Mechanistic Science of Human Interoception.</title>
-      <link>https://doi.org/10.1523/jneurosci.1178-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1178-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Human interoception has become a major focus of systems, cognitive, and clinical neuroscience. Work across the past decade has shown that signals originating within the body shape perception, emotion, cognition, behavior, and health. Despite rapid methodological and conceptual progress, which substantially expanded our understanding of how bodily signals are processed and represented, much of the field remains constrained by descriptive methods. As these approaches passively assess bodily signals or subjective awareness, they have limited ability to establish causal mechanisms or translate interoceptive findings into clinically informative frameworks. Here, we identify six challenges and corresponding methodological directions for advancing human interoception research: strengthening integration of animal and human models, developing causal perturbation paradigms, capturing interoception in ecologically valid contexts, standardizing multidimensional measurement across bodily systems, adjudicating between computational accounts, and translating mechanistic insights into clinically informative models of health and disease. These challenges are best understood as linked requirements for moving interoception research from relevance to mechanism. Together, they highlight the need to move beyond predominantly static, passive, and single-modality approaches toward studies that can test how internal bodily signals relate to neural activity, behavior, and health.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Parallel Claustral Networks for Behavioral Control in Health and Disease.</title>
-      <link>https://doi.org/10.1523/jneurosci.1083-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1083-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The claustrum is among the most highly interconnected structures in the mammalian brain, with reciprocal projections spanning the cortical mantle and a growing roster of functions that range from sleep regulation to attentional control. Here we review current understanding of claustral circuit organization and function, synthesizing findings from anatomical, physiological, computational, and behavioral studies. We argue that a unifying logic underlies the apparent diversity of claustral functions: the claustrum operates through projection-defined subnetworks whose input selectivity, output targets, and local circuit interactions collectively determine their functional contribution and whose impact on cortical targets varies with arousal and ongoing brain state. Corticoclaustral connectivity is organized into matched input-output modules, local inhibitory circuits confer spatial filtering properties that amplify strong cortical signals while suppressing weaker ones and claustral output populations differ in their laminar targets, postsynaptic cell-type preferences, and molecular properties, producing diverse and context-dependent effects on cortical dynamics. These circuit properties translate into claustral regulation of cortical population dynamics across multiple timescales, from the moment-to-moment coordination of brain states to the consolidation of frontal control strategies. In pain and addiction, specific claustral projection populations are selectively dysregulated, and distinct subnetworks exert opposing influences on nociceptive sensitivity and drug-related behavior according to their cortical targets. Together, these findings position the claustrum as a modular subcortical hub for the selective regulation of distributed cortical networks and identify it as a candidate therapeutic target for disorders characterized by dysregulated cortical network activity, including chronic pain, addiction, and impulsivity.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Late Integration of Prior Expectations during Precision-Weighted Perceptual Decisions.</title>
-      <link>https://doi.org/10.1523/jneurosci.0612-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0612-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Adaptive perceptual decision-making relies on the ability to combine sensory evidence with prior expectations in a precision-weighted manner. Although Bayesian inference provides a clear normative account of how such integration should occur, the neural mechanisms through which the brain represents and combines priors and likelihoods remain poorly understood. Across two preregistered experiments, we investigated how the precision of learned priors and sensory likelihoods influence visual motion judgments and associated neural activity patterns during a random-dot motion estimation task. Neurotypical adult participants (N = 80, 58 female) reported directions of visual motion stimuli, with motion coherence varying randomly across trials. Prior expectations over the continuous motion direction space were manipulated block-wise by implicitly varying the probabilities with which different motion directions were presented. Consistent with precision-weighted inference, response accuracy improved as motion coherence increased with robust response biases toward the expected motion direction. Neural activity measured using electroencephalography (EEG) revealed reliable effects of prior expectation on the univariate central parietal positivity (CPP), consistent with reduced accumulation of sensory evidence under informative priors. Multivariate analysis using inverted-encoding models revealed robust effects of prior precision on stimulus-specific neural representations, but only late, during response planning stages. Together, these findings suggest that priors learned over a continuous space do not modulate the encoding of sensory evidence and are instead integrated later in the decision process.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Emotional Content Enhances Attentional Tracking of Conversations through Context-Sensitive Modulation of Auditory-Language Networks.</title>
-      <link>https://doi.org/10.1523/jneurosci.0506-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0506-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 females, 14 males) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated midlatency (100-250 ms) responses, whereas late-latency (270-450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>FDTest: Fluctuation-dissipation theorem as a test for memory effects in brain dynamics.</title>
-      <link>https://doi.org/10.1371/journal.pcbi.1014883</link>
-      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014883</guid>
-      <description>PLoS computational biology
-
-A central challenge in neuroscience is to understand how the brain flexibly balances local and distributed information processing to support diverse cognitive and conscious states. We hypothesize that a key signature of this balance is the presence of memory effects, which arise when a brain region's future activity depends not only on its current state, but also on past information fed back from the wider network. Here we introduce the FDTest, a method for assessing local memory effects in multidimensional systems by measuring violations of a generalized Fluctuation-dissipation theorem (FDT). We first apply this framework to whole-brain models fitted to human neuroimaging data, demonstrating that the brain's memory structure reflects its underlying connectivity. We then extend the analysis to individualized models of subjects during wakefulness and deep sleep. Memory effects are consistently stronger in wakefulness, indicating richer inter-regional dependencies and more integrated dynamics. These findings establish local memory as a dynamical marker of brain state and position the FDTest as a principled tool for probing the hidden structure of neural dynamics.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Distributed Neural Dynamics Underlie the Shift from Movement Preparation to Execution.</title>
-      <link>https://doi.org/10.1162/jocn.a.2735</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2735</guid>
-      <description>Journal of cognitive neuroscience
-
-Understanding how neural population activity supports the transition from movement preparation to execution remains a central challenge in systems neuroscience. Invasive recordings in nonhuman primates indicate that motor preparation and execution occupy orthogonal subspaces within the primary motor cortex (M1), yet how these neural dynamics evolve across broader networks and support skilled, memory-guided action remains poorly understood. We used source-resolved magnetoencephalography during a memory-guided finger-sequence task to track population dynamics across a cortico-hippocampal network. Manifold trajectories and decoding revealed that preparation and execution of movement sequences occupy distinct, yet not fully orthogonal, neural subspaces-a separation that generalized across all regions but was most pronounced in motor regions. Crucially, we identified a hierarchical spatio-temporal transition across the brain: The state shift originated in the hippocampus via theta-band modulations and rippled through the pre-SMA, SMA, and lateral premotor areas before culminating in M1 via broadband activity. This progression follows the functional hierarchy of descending motor pathways, with M1 shifting last, 160 msec before the first button press. Although sequence identity could be decoded from all areas during execution, only the hippocampus and M1 maintained predictive representations of upcoming sequences during preparation. These findings demonstrate that the initiation of complex motor sequences relies on a well-timed integration of hippocampal memory systems with primary motor output, rather than being a process localized to the motor cortices alone.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Trust Modulates Speech Entrainment: Enhanced Cortical Tracking for Low-trust Speakers.</title>
-      <link>https://doi.org/10.1162/jocn.a.2734</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2734</guid>
-      <description>Journal of cognitive neuroscience
-
-Trust is a critical component of human communication, providing a foundation for understanding, information exchange, and social coordination. Much of the research on trust in speech communication has focused on how vocal characteristics impact perceived trustworthiness. However, little is known about how trust in a speaker affects the neural processing of speech. Here, we demonstrate a two-stage experimental framework to study that question using noninvasive EEG. First, participants engage in a trust-building stage, where they play an investment game with fictional characters, each paired with a distinctive voice and trustworthiness level (i.e., frequency and magnitude of lies). Next, participants engage in a story-listening stage, in which they are presented with stories from the same characters. Data acquired from 20 young adults confirm a statistically significant correlation between the perceived and actual trustworthiness of the fictional characters. Cortical speech tracking was quantified using a temporal response function analysis on the EEG data. We found that the trustworthiness established during the trust-building stage influenced the cortical tracking of speech in the subsequent story-listening stage, with lower trustworthiness corresponding to a stronger cortical tracking of speech. Interestingly, trustworthiness selectively modulated tracking strength, with no statistically significant changes in the spatial and temporal temporal response function dynamics.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Functional brain signatures of successful cognitive aging.</title>
-      <link>https://doi.org/10.1016/j.tins.2026.10.004</link>
-      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.004</guid>
-      <description>Trends in neurosciences
-
-Cognitive aging trajectories vary markedly. While many older adults experience gradual decline in memory and executive function, some maintain high cognitive performance well into advanced age. Understanding the neural mechanisms underlying this variability carries important implications for early detection of unfavorable aging trajectories and the development of interventions. Here, we review functional brain signatures associated with successful cognitive aging in humans, integrating evidence from functional magnetic resonance imaging and electroencephalography within a unified conceptual framework of brain maintenance and compensation. Across both modalities, evidence increasingly links successful cognitive aging to the preservation of youth-like neural dynamics, while the contribution of compensatory neural recruitment remains empirically contested and methodologically difficult to establish.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>
