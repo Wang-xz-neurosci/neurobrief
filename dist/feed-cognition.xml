@@ -5,9 +5,19 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:48:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 20:29:09 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cognitive control networks in human and macaque.</title>
+      <link>https://doi.org/10.7554/elife.111502</link>
+      <guid isPermaLink="false">doi:10.7554/elife.111502</guid>
+      <description>eLife
+
+A much-replicated finding in human brain imaging is a distributed 'multiple-demand' or MD system, increasing in activity for many kinds of cognitive demand, and centrally involved in cognitive control. MD regions are proposed to encode a distributed mental model of critical task events, bound together in the roles and relationships needed to direct action selection. Though previous data hint at a corresponding network in the macaque, there has been no direct comparison to human data. Here we used functional magnetic resonance imaging to measure whole-brain activation in a multi-step saccadic maze task, compared to a control requiring similar moves but without goal-based decisions. Human data were a close match to the canonical MD network, extended to include adjacent regions, and in particular much of the canonical dorsal attention network. Data from two monkeys suggested correspondences in dorsomedial frontal, insula/orbitofrontal, and posterior temporal cortex. In lateral frontal cortex, there was just a single, largely dorsal activation patch, in contrast to multiple distinct human patches. In one animal, as in humans, there was accompanying activation of dorsal and medial parietal cortex. In macaques, as in humans, together with previous data, our findings suggest an extended and strongly interconnected brain network recruited by increased cognitive challenge.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory.</title>
       <link>https://doi.org/10.7554/elife.111304</link>
@@ -20,12 +30,32 @@ Emerging evidence suggests that the hippocampus contributes to visual short-term
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Cyclin-dependent kinase-like 5 (CDKL5) binds talin and is anchored at the postsynaptic density by direct PDZ interactions.</title>
+      <link>https://doi.org/10.1126/sciadv.aed3338</link>
+      <guid isPermaLink="false">doi:10.1126/sciadv.aed3338</guid>
+      <description>Science advances
+
+Cyclin-dependent kinase-like 5 (CDKL5) is a serine/threonine kinase essential for brain development and function. Mutations in CDKL5 cause CDKL5 deficiency disorder (CDD), a severe early-onset epileptic encephalopathy associated with impaired synapse formation and function. However, how CDKL5 mutations disrupt synaptic function remains unclear. Here, we show that the major neuronal isoform of CDKL5 contains a C-terminal PDZ domain-binding motif that mediates direct binding to PSD-95 and SHANK PDZ domains and recruits CDKL5 to the postsynaptic density. Disrupting this motif mislocalized CDKL5, reduced dendritic spine density, and impaired spine maturation. We also show that the CDKL5 kinase domain binds the R8 rod domain of the mechanosensitive scaffold talin. Mutation of the talin-binding interface or reduced cellular contractility altered CDKL5 positioning relative to focal adhesions. These findings define how CDKL5 is targeted to synapses, suggest that talin mechanoswitching may position CDKL5 kinase activity, and highlight the importance of C-terminal anchoring for interpreting pathogenic truncations.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Shared and distinct neural pathways of aversive and appetitive pain-related learning.</title>
       <link>https://doi.org/10.1038/s42003-026-11323-4</link>
       <guid isPermaLink="false">doi:10.1038/s42003-026-11323-4</guid>
       <description>Communications biology
 
 Aversive and appetitive learning are central to adaptive behaviour, and pain and avoidance are powerful examples of such forces shaping human behaviour. Alterations in learning are thought to contribute to the development and maintenance of chronic pain, yet their neural underpinnings remain unclear. In this registered within-subject fMRI study (German Clinical Trials Register, DRKS-ID: DRKS00027448), we examined both aversive and appetitive pain learning during acquisition and extinction in 68 healthy individuals. Ratings confirm successful learning, with exploratory analyses suggesting stronger aversive acquisition and incomplete extinction. Both conditions engage the visual cortex during acquisition, with increased connectivity to the right operculum. Aversive acquisition further elicits stronger mediodorsal thalamus activity and heightened connectivity with the locus coeruleus, alongside sustained parahippocampal activation during extinction. Incomplete aversive extinction is linked to ongoing visual cortex activity during pain anticipation. Findings suggest shared neural substrates, but stronger aversive recruitment of rapid encoding and persistent memory systems.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>People entering old age now have better memory than their parents did.</title>
+      <link>https://doi.org/10.1038/d41586-026-03783-9</link>
+      <guid isPermaLink="false">doi:10.1038/d41586-026-03783-9</guid>
+      <description>Nature
+
+来源未提供摘要。</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -503,37 +533,6 @@ Recent methodological advances including high-density intracranial recordings an
 The aperiodic, 1/f -like component of electrophysiological activity is increasingly recognized as a meaningful feature of neural function rather than background noise. Meanwhile, many EEG studies interpret transient post-stimulus changes in oscillatory power as signatures of attention, salience, or cognitive control. Such interpretations typically depend on baseline normalization, which assumes aperiodic activity remains stable from pre- to post-stimulus periods. Using high-density EEG from typically developing children, we tested this assumption across two paradigms: an audiovisual simple reaction-time task (n = 36, 19 males and 17 females) and a visual oddball task (n = 38, 20 males and 18 females). In each, conventional spectral analyses were compared with analyses that explicitly modeled and removed aperiodic activity in both windows. Across tasks, stimulus onset produced robust increases in aperiodic exponent and offset, indicating systematic 1/f changes. In the audiovisual task these were modality specific, with central, parieto-occipital, or combined topographies by stimulus type. They diminished but persisted after event-related potential removal, suggesting they were not fully explained by phase-locked activity. Critically, once aperiodic activity was accounted for, the apparent theta increase was largely abolished in both tasks, including the canonical fronto-central enhancement to infrequent targets. The conventional method also overestimated beta desynchronization, especially in the induced signal, indicating a spurious consequence of spectral slope steepening. In contrast, alpha desynchronization remained robust and was enhanced, reflecting genuine suppression. Together, these findings suggest many conventional time-frequency effects, particularly apparent theta synchronization, may reflect stimulus-driven aperiodic changes rather than robust narrowband changes, challenging core assumptions of these analyses.</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>NeuroAI's Next Steps: Balancing Computation and Embodiment.</title>
-      <link>https://doi.org/10.1523/jneurosci.1191-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1191-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Deep neural networks trained at scale now predict neural activity across sensory cortices, raising a question that divides neuroscience: does the convergence between artificial and biological representations constitute understanding, or does understanding require models of biological processes grounded in the embodied, evolved character of natural intelligence? In this Dual Perspectives article, Bing Brunton and Patrick Mineault articulate two research programs-Process and Convergence-to engage this question about the future of NeuroAI research. The conversation is organized around four questions that probe what scaled model-brain alignment reveals, what the brain is coupled to and evolved to do, what success beyond the lab looks like, and where the field should invest over the coming decade. Their exchanges reveal the distance between the two programs to be primarily about the level of analysis and priorities for what to build next. The conversation converges on shared ground: measure broadly, then distill to causal principles.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Embodied Computation: How Does Embodiment Impact Sensorimotor and Cognitive Processing?</title>
-      <link>https://doi.org/10.1523/jneurosci.1188-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1188-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Animals act on the world through a physical body and continually adjust behavior in response to the sensory feedback their actions produce. This closed loop between brain, body, and environment is central to motor control, but its role in other neural computations remains less clear. This review focuses on embodied computation: how the physical body shapes neural activity and behavior across functions ranging from motor control to cognitive processes. We examine the impact of embodiment in several domains, including compositional reuse, intrinsic motivation, metabolic costs, and connectome-constrained computation, with the broader aim of asking when the body can be abstracted away and when it is essential for explaining what the brain computes.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Hidden Vision and Beyond: Multiscale Foundations of Thalamic Organization.</title>
-      <link>https://doi.org/10.1523/jneurosci.1185-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1185-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The subcortical visual system is traditionally described through a small number of canonical pathways, with the dorsal lateral geniculate nucleus (LGN) viewed primarily as a first-order relay to primary visual cortex and additional routes through the superior colliculus, pulvinar and koniocellular LGN considered secondary or residual. Here, we review recent evidence across species, methods, and scales that challenge this framework and suggest that the visual thalamus is an active, dynamically regulated component of visual processing. We first consider primary and nonprimary visual pathways, showing how thalamic inputs shape cortical responses through the timing, spatial arrangement, synaptic organization, laminar targeting, and circuit-level integration of feedforward signals. We then reconsider the "first-order" status of LGN itself, reviewing evidence that nonretinal subcortical inputs, local inhibition, and corticothalamic feedback can alter LGN responses and the signals routed onward to cortex. This shifts the view of LGN from a passive relay supplying a dynamic cortex to a dynamically regulated node in its own right. Next, we review advances in higher-order thalamic organization, highlighting structured thalamocortical connectivity, network-level coordination, and state-dependent dynamics. Finally, we consider how thalamic functions change in the injured brain, where emerging models disentangle acute effects of damage from chronic compensation to reveal how surviving thalamic and downstream pathways may be remodeled, reweighted, or recruited to support residual visual function and recovery. Together, these findings support a multiscale view of the thalamus as a collection of specialized, adaptive nuclei embedded within distributed cortico-subcortical networks, with implications for perception, cognition, sensory disorders, and rehabilitation.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
     </item>
   </channel>
 </rss>
