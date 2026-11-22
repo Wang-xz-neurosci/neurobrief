@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -150,7 +150,7 @@ When people think aloud, their reports vary in duration and in how closely succe
       <guid isPermaLink="false">doi:10.64898/2026.11.12.765375</guid>
       <description>[预印本] bioRxiv
 
-Understanding speech relies on the neural processing of acoustic and linguistic features, which can both be analyzed using Temporal Response Functions (TRFs). While both types of features have been the focus of numerous studies in typical-hearing individuals, much less is known about the neural processing of continuous speech for people with hearing loss, particularly how hearing-impaired listeners process word-level features in noisy environments, where they typically struggle. We recorded EEG from hearing aid (HA, n=29) and cochlear implant (CI, n=24) users, and an age-matched typical-hearing (TH) control group (n=29), while participants listened to audiobook segments in quiet and with a competing speaker, using their personal hearing devices (CI and HA). A hierarchical encoding framework incrementally added word onset, word frequency, and word surprisal as predictors of the EEG signal. Attentional modulation was assessed by comparing encoding scores for attended versus ignored speech. All three groups showed clear neural responses to word onset, frequency, and surprisal for speech in quiet. Surprisal tracking emerged at 400~ms in TH participants, 500~ms in HA users, and 600~ms in CI users, weakest in the CI group. All three groups exhibited attentional modulation of surprisal tracking. Word frequency yielded significant encoding gains in quiet only for TH and HI listeners, not CI users. We show for the first time that CI users exhibit significant, attention-modulated neural responses to word surprisal. More broadly, surprisal tracking was present across all hearing-impaired groups but weakest in CI users, the cohort with the greatest difficulty understanding speech in noise.</description>
+Understanding speech relies on the neural processing of acoustic and linguistic features, which can both be analyzed using Temporal Response Functions (TRFs). While both types of features have been the focus of numerous studies in typical-hearing individuals, much less is known about the neural processing of continuous speech for people with hearing loss, particularly how hearing-impaired listeners process word-level features in noisy environments, where they typically struggle. We recorded EEG from hearing aid (HA, n=29) and cochlear implant (CI, n=24) users, and an age-matched typical-hearing (TH) control group (n=29), while participants listened to audiobook segments in quiet and with a competing speaker, using their personal hearing devices (CI and HA). A hierarchical encoding framework incrementally added word onset, word frequency, and word surprisal as predictors of the EEG signal. Attentional modulation was assessed by comparing encoding scores for attended versus ignored speech. All three groups showed clear neural responses to word onset, frequency, and surprisal for speech in quiet. Surprisal tracking emerged at 400 ms in TH participants, 500 ms in HA users, and 600 ms in CI users, weakest in the CI group. All three groups exhibited attentional modulation of surprisal tracking. Word frequency yielded significant encoding gains in quiet only for TH and HI listeners, not CI users. We show for the first time that CI users exhibit significant, attention-modulated neural responses to word surprisal. More broadly, surprisal tracking was present across all hearing-impaired groups but weakest in CI users, the cohort with the greatest difficulty understanding speech in noise.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -278,6 +278,17 @@ ABSTRACT Deep neural networks (DNNs) and behavioural similarity judgements of vi
 Objectives Rapid emotional perception in speech is crucial to efficient social communication. Cochlear implant (CI) users, constrained by device limitations in transmitting spectro-temporal detail, rely more on semantic than prosodic cues for emotional processing of spoken language. This study investigated whether CI users can rapidly recognize emotional valence based on semantic cues before full semantic comprehension when prosodic information is minimized. Design Chinese monosyllables with negative or positive valence were presented with neutral prosody using an oddball paradigm. Event-related potentials and neural oscillations were recorded in CI users and normal-hearing (NH) listeners. Results Emotional syllables evoked an N400, indicative of semantic processing, in NH listeners. Crucially, NH listeners showed an earlier mismatch negativity (MMN) for negative syllable deviants, reflecting rapid categorical perception of emotional valence. However, the N400 for positive deviants and the MMN were absent in CI users. Furthermore, compared with NH listeners, CI users showed weaker theta-band and alpha-band event-related spectral perturbations (ERSPs) and inter-trial coherences and a greater beta-band ERSP. A lower beta-band ERSP was correlated with greater N400 and late negative component in NH listeners. Personality scores for extraversion and agreeableness correlated with the amplitudes of the MMN and N400 components, respectively. Conclusions The findings portray the dynamics of emotional speech processing and demonstrate that rapid recognition of emotional valence expressed by lexical meaning occurs before complete semantic processing in the NH brain. Theta activity may be associated with early emotional valence recognition, and beta activity corresponds to higher-level semantic and emotional processing. However, these two processes are immature in CI users, as evidenced by absent event-related potentials and altered neural oscillations. Personality traits may modulate emotional sensitivity, further affecting the efficiency of emotional speech processing.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Active L2 immersion is associated with glymphatic-related MRI markers in healthy young adults: A cross-sectional multimodal study.</title>
+      <link>https://doi.org/10.1016/j.ynirp.2026.100435</link>
+      <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100435</guid>
+      <description>Neuroimage. Reports
+
+BACKGROUND: The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. METHODS: 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. RESULTS: Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. CONCLUSIONS: L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Multidimensional psycholinguistic difficulty in Cantonese picture naming: Behavioral, neural, and effective connectivity evidence.</title>
@@ -474,6 +485,16 @@ Object recognition relies on correspondence between whole objects and their subc
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Chirped speech (Cheech) enables rapid assessment of multi-level auditory evoked potentials during speech-in-noise recognition.</title>
+      <link>https://doi.org/10.1016/j.heares.2026.109872</link>
+      <guid isPermaLink="false">doi:10.1016/j.heares.2026.109872</guid>
+      <description>Hearing research
+
+Difficulties understanding speech in noise remain a common complaint even among listeners with normal hearing sensitivity, highlighting the need for objective, more effective measures of real-world listening. The goal of this study was to validate the use of a novel, chirped-speech (Cheech) stimulus-continuous, naturally-spoken speech fused with chirps designed to elicit robust auditory evoked potentials-to characterize relationships between speech recognition, listening effort, and auditory neural encoding. Twenty‑five normal‑hearing adults completed a sentence‑recognition task using both original (unmodified) and Cheech-modified AzBio sentence lists in quiet, +3 dB, and -3 dB signal-to-noise ratio (SNR) conditions while neural responses from the brainstem through cortex were recorded simultaneously. Speech recognition remained near ceiling in quiet but declined with decreasing SNR for both original and Cheech stimuli. Cheech‑modified speech showed poorer recognition performance as SNR decreased and somewhat higher perceived effort overall. Yet, Cheech was highly effective at evoking auditory responses from the brainstem (auditory brainstem response, ABR) through the cortex (including middle- and late-latency responses, MLR and LLR) even with &lt;5 min listening time per condition. Neural responses showed reduced amplitudes and prolonged latencies as SNR decreased. In general, ABR wave I latencies were associated with speech-in-noise recognition performance, whereas cortical responses (MLR Na and LLR P1 latencies) were associated with subjective workload. These findings show that Cheech‑modified speech remains intelligible, particularly in quiet and higher SNR conditions, while yielding robust, multilevel neural recordings during sentence perception, offering a promising approach to examine hierarchical auditory processing under ecologically relevant speech‑in‑noise conditions.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Preferential responses to spectrally degraded sentences in the human cortex revealed by intracranial electrophysiology.</title>
       <link>https://doi.org/10.1016/j.heares.2026.109871</link>
       <guid isPermaLink="false">doi:10.1016/j.heares.2026.109871</guid>
@@ -502,28 +523,6 @@ Despite progress in cochlear implant (CI) technology, there is considerable vari
 来源未提供摘要。</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Levodopa boosts hippocampal activity and strengthens generalizable rule representations in prefrontal cortex during the inference of meaning.</title>
-      <link>https://doi.org/10.1523/jneurosci.1263-25.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1263-25.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Dopamine has long been implicated in a variety of higher-order cognitive functions, including language processing. However, the neural processes and representations by which dopamine influences language processing remain unclear. Here we show that administration of levodopa to young healthy volunteers (n = 70, 47 females) boosts hippocampal processing and neural representations of generalizable abstract rules for successful inference of novel word meaning. We used a novel experimental paradigm that required participants to build new artificial word meanings by inferring and applying abstract affixation rules. A repetition suppression procedure was combined with multivariate representational similarity analyses to isolate the neural locus of both the abstract rules required for the compositional inference process, as well as the novel word meaning representations that were composed based on these abstract rules. Levodopa modulated not only inference-related signals in the hippocampal formation, but also abstract rule representations in the medial frontal cortex. These results support the hypothesis that dopamine boosts hippocampal activity and strengthens prefrontal representations of abstract rules when building novel meaning.Significance statement Dopamine has long been implicated in a variety of higher-order cognitive functions, including language processing. However, the neural processes by which dopamine boosts language processing have remained unclear. Here we show that administration of levodopa to young healthy volunteers enhances hippocampal activity and strengthens prefrontal representations of generalizable abstract rules when building novel word meanings.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Emotional Content Enhances Attentional Tracking of Conversations through Context-Sensitive Modulation of Auditory-Language Networks.</title>
-      <link>https://doi.org/10.1523/jneurosci.0506-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0506-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Engagement in conversation often requires continuous monitoring of relevant speech in a continuously evolving auditory environment. Emotional salience of semantic content may influence this process, but its role in attentional tracking of continuous speech remains unclear. We address this question using an audiovisual "cocktail-party" paradigm combined with source-localized magnetoencephalography and encoding-decoding analyses. Participants (18 females, 14 males) selectively attended to one dialogue while ignoring a concurrent distractor dialogue, with both emotional salience and semantic coherence of the conversations manipulated independently. Decoding analyses revealed that negatively valenced, high-arousal, and socially relevant semantic content strengthened neural speech tracking, but only for attended dialogues. This effect depended on semantic structure, emerging earlier in semantically coherent than incoherent dialogues. Encoding analyses further showed latency- and region-specific effects across temporal, parietal, and frontal cortical regions. Emotional salience and coherence jointly modulated midlatency (100-250 ms) responses, whereas late-latency (270-450 ms) responses were driven primarily by emotional salience. These findings demonstrate that emotional meaning enhances neural prioritization of attended speech and semantic coherence shapes the temporal dynamics of this enhancement. Together, these results indicate context-sensitive emotional modulation of auditory-language processing during selective listening of continuous speech.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>

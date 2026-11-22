@@ -5,9 +5,41 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Motor pre-selection modulates action observation effects in sensorimotor cortices: a MEG study.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122362</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122362</guid>
+      <description>NeuroImage
+
+According to the Motor Simulation theory, observing an action automatically activates matching motor representations. This can explain why, in automatic imitation tasks, responses are faster when the observed action matches the required one, compared to when it differs. However, the automatic imitation task setting represents a very peculiar situation where participants need to pre-select the motor representations corresponding to the actions that they might observe, a situation quite different from daily-life contexts such as sports (e.g., tennis or basketball) where actions pre-selected for output are typically different from those observed, and where imitation errors or tendencies are seldom observed. This leads to the following question: Does the motor cortex response to observed actions depend on whether they match the motor representations pre-selected for output? In the present magnetoencephalography experiment, we studied, within the hand-related primary sensorimotor cortex, the oscillatory dynamics produced by the observation of hand actions in two conditions: either while participants pre-selected motor representations similar to those observed, or while they pre-selected markedly different motor representations, such as those involved in feet actions. Our data show that the motor cortex reacts differently to action observation in the two pre-selection conditions: alpha- and beta-band activity showed stronger desynchronization when the pre-selection involved motor representations matching those observed compared to non-matching ones. Specifically, observing hand actions while pre-selecting non-matching feet movements elicited a late rebound-like increase in alpha- and beta-band activity that was not observed when hand actions were pre-selected.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Explainable multi-group dynamic causal distribution learning framework to disentangle common and specific dynamic effective connectivity across MCI stages.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122342</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122342</guid>
+      <description>NeuroImage
+
+Brain functional networks exhibit an intrinsic architecture that is preserved across brain disorder groups, upon which different groups display distinct patterns of abnormal interactions. Exploring the common and specific network patterns is crucial for revealing common pathological mechanisms, group-specific alterations, and disease progression. Dynamic effective connectivity (dEC) characterizes time-varying causal interactions among brain regions and provides an effective means of investigating common and specific network patterns. However, the disentangled learning of common and specific dEC across multiple groups remains underexplored, limiting a systematic understanding of dynamic causal mechanisms in brain networks across disorders and disease stages. We propose an explainable multi-group dynamic causal distribution learning framework that integrates spatial and temporal information to identify common and specific dEC distributions among different groups. Experiments on synthetic datasets demonstrate that the proposed framework effectively and robustly identifies causality and disentangles common and specific causal structures. When applied to real-world data from the Alzheimer's Disease Neuroimaging Initiative, the proposed framework uncovers common and specific dEC across mild cognitive impairment (MCI) stages. Results show that, as MCI worsens, the dEC within the visual network and among functional hubs of the default mode network remain stable, whereas dEC associated with episodic memory, emotional processing, and interoception shift from compensatory to decompensatory patterns. The code is available at https://github.com/OrangeLY-byte/EMGDCD.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Long-term heading exposure in relation to structural MRI markers and neurocognitive function in retired professional soccer players.</title>
+      <link>https://doi.org/10.1016/j.neurad.2026.101631</link>
+      <guid isPermaLink="false">doi:10.1016/j.neurad.2026.101631</guid>
+      <description>Journal of neuroradiology = Journal de neuroradiologie
+
+BACKGROUND AND PURPOSE: Repetitive head impacts from purposeful heading in soccer have raised concerns about long-term neurological effects, but in vivo MRI markers remain underexplored. Most published imaging studies have involved amateur, youth or currently active players. Retired professionals with a full career of heading exposure and no reported concussion have rarely been investigated. Our objective was to evaluate structural brain differences and neuropsychological performance in retired or late-career professional soccer players without concussion history compared to high-level athletes from non-contact sports. MATERIALS AND METHODS: In this cross-sectional study, male professional soccer players and male non-contact athletes underwent 3T brain MRI and standardized cognitive testing. Imaging included volumetric assessment of the cavum septi pellucidi (CSP) and cavum vergae, automated quantification of white matter hyperintensities (WMH), voxel-based morphometry analysis of regional brain volume, and cerebral microbleed detection. Neuropsychological testing assessed reaction time, memory, attention, and executive functioning. RESULTS: Twenty-nine soccer players (mean age 44.5 years, SD 7.3) and 29 non-contact athletes (mean age 41.9 years, SD 8.0) were included. Players reported 29.7 years of practice, including 13.3 professionally, and 9.9 years since retirement. Soccer players demonstrated significantly greater CSP volume (21 vs 6 mm³; p &lt; 0.001) and greater total WMH volume after age adjustment (3892 vs 2833 mm³; p = 0.046), mainly periventricular. Voxel-based morphometry showed reduced grey matter volume in the right anterior temporal lobe (p = 0.030, corrected), and in other frontotemporal regions and the head of the left caudate nucleus (p &lt; 0.001, uncorrected). No microbleeds were detected in either group. Neuropsychological testing showed no cognitive impairment. CONCLUSIONS: Retired or late-career soccer players showed a pattern of subtle structural MRI differences from non-contact athletes consistent with that reported in populations exposed to repetitive head impacts, without measurable differences in neurocognitive performance.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>Cognitive control networks in human and macaque.</title>
       <link>https://doi.org/10.7554/elife.111502</link>
@@ -38,6 +70,17 @@ Emerging evidence suggests that the hippocampus contributes to visual short-term
 Cyclin-dependent kinase-like 5 (CDKL5) is a serine/threonine kinase essential for brain development and function. Mutations in CDKL5 cause CDKL5 deficiency disorder (CDD), a severe early-onset epileptic encephalopathy associated with impaired synapse formation and function. However, how CDKL5 mutations disrupt synaptic function remains unclear. Here, we show that the major neuronal isoform of CDKL5 contains a C-terminal PDZ domain-binding motif that mediates direct binding to PSD-95 and SHANK PDZ domains and recruits CDKL5 to the postsynaptic density. Disrupting this motif mislocalized CDKL5, reduced dendritic spine density, and impaired spine maturation. We also show that the CDKL5 kinase domain binds the R8 rod domain of the mechanosensitive scaffold talin. Mutation of the talin-binding interface or reduced cellular contractility altered CDKL5 positioning relative to focal adhesions. These findings define how CDKL5 is targeted to synapses, suggest that talin mechanoswitching may position CDKL5 kinase activity, and highlight the importance of C-terminal anchoring for interpreting pathogenic truncations.</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Attention increases the spread of modality-invariant information across the cortex.</title>
+      <link>https://doi.org/10.1162/imag.a.1454</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1454</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Attention shapes our perception by allowing us to focus on relevant stimuli that are selected for conscious processing. In this work we assessed to what degree attention influences the extraction of modality-invariant information, that is, information that is independent of the input stimulus modality. To this end, we analyze fMRI data of subjects viewing naturalistic images and reading short textual descriptions while paying attention to only one of the two modalities. Using cross-modality decoding, we found modality-invariant representations in a small area of the cortex even in the absence of attention, spreading to much larger regions when stimuli are attended. This work demonstrates how state-of-the-art decoding techniques on large-scale data can be used to expand our knowledge on how attention shapes specific high-level representations in the brain.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Shared and distinct neural pathways of aversive and appetitive pain-related learning.</title>
@@ -491,47 +534,6 @@ Natural organisms navigate a world in constant flux and are frequently confronte
 Dopamine has long been implicated in a variety of higher-order cognitive functions, including language processing. However, the neural processes and representations by which dopamine influences language processing remain unclear. Here we show that administration of levodopa to young healthy volunteers (n = 70, 47 females) boosts hippocampal processing and neural representations of generalizable abstract rules for successful inference of novel word meaning. We used a novel experimental paradigm that required participants to build new artificial word meanings by inferring and applying abstract affixation rules. A repetition suppression procedure was combined with multivariate representational similarity analyses to isolate the neural locus of both the abstract rules required for the compositional inference process, as well as the novel word meaning representations that were composed based on these abstract rules. Levodopa modulated not only inference-related signals in the hippocampal formation, but also abstract rule representations in the medial frontal cortex. These results support the hypothesis that dopamine boosts hippocampal activity and strengthens prefrontal representations of abstract rules when building novel meaning.Significance statement Dopamine has long been implicated in a variety of higher-order cognitive functions, including language processing. However, the neural processes by which dopamine boosts language processing have remained unclear. Here we show that administration of levodopa to young healthy volunteers enhances hippocampal activity and strengthens prefrontal representations of generalizable abstract rules when building novel word meanings.</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Capturing Habits in Humans: Neural Circuitry, Computations, and Clinical Mechanisms.</title>
-      <link>https://doi.org/10.1523/jneurosci.1241-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1241-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Habits allow repeated behaviors to be executed efficiently, but habitual control can contribute to maladaptive inflexibility when it dominates despite changing goals or consequences. This review examines recent advances in understanding habitual control across neural circuits, computation, clinical phenotypes, and measurement. We first consider dorsomedial striatal mechanisms that support action-outcome learning and flexible goal-directed behavior and how chronic stress can alter striatal inputs to bias learning toward habitual control. Progress on what computational reinforcement-learning accounts for arbitration between goal-directed and habitual systems is described along prefrontal mechanisms guiding model-based control, action perseveration, and compulsivity in obsessive-compulsive disorder (OCD). A wider behavioral spectrum beyond action initiation is provided, reviewing emerging work on habitual inhibition and frontostriatal circuit dynamics of avoidance in OCD. Recent laboratory paradigms aim to reveal habit formation more sensitively than traditional outcome-devaluation paradigms, whereas real-world digital approaches use smartphones, wearables, and intensive longitudinal measurement to track habit formation and expression in everyday life. Integrating these approaches can help link habits to physiology, symptoms and neural circuits across laboratory to real-world and clinical contexts.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Janus in Thermosensation: The Dual Interoceptive-Exteroceptive Nature of Thermal Signals in Body Ownership.</title>
-      <link>https://doi.org/10.1523/jneurosci.1239-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1239-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Thermosensation has traditionally been studied for its essential role in survival, enabling detection of environmental thermal stimuli and the maintenance of thermal homeostasis. Interestingly, unlike most sensory systems, thermosensation provides information about both the external world and the body's internal physiological state. In this review, we conceptualize these two dimensions as exteroceptive thermosensation, which conveys information about the thermal properties of external objects and the environment, and interoceptive thermosensation, which conveys information about the body's thermal state. Growing evidence suggests that this dual nature serves functions that extend beyond survival and homeostasis. Alterations in both thermal perception and thermoregulation have been associated with changes in body ownership, the experience that one's body belongs to oneself, while manipulations of thermal signals can influence ownership itself. Here, we review the physiological and neural bases of exteroceptive and interoceptive thermosensation, from peripheral encoding to central processing, and examine their relationship with body ownership in healthy and clinical populations. We discuss evidence suggesting partially distinct yet potentially convergent neural substrates for these two dimensions of thermosensation, highlighting the insular cortex and its broader connectivity network as a candidate through which thermal information may sustain body ownership. Finally, we consider how emerging neurotechnologies offer new opportunities to investigate the contribution of thermosensation to body ownership while also opening novel avenues for neurorehabilitation. We propose that thermosensation represents an underexplored contributor to body ownership, opening new avenues for future research on how bodily and environmental thermal signals are integrated to support the sense of self.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Cross-Species Approaches to Understanding Human Cognition.</title>
-      <link>https://doi.org/10.1523/jneurosci.1201-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1201-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Recent methodological advances including high-density intracranial recordings and population-level analytical frameworks enable deeper and more direct integration between animal models and human neuroscience. As a result, there is an increasing need for standardized behavioral paradigms and circuit-level analyses that can be used in both animals and humans. Cross-species approaches provide crucial foundations for treating neurological and psychiatric disorders. Parallel experiments validate therapeutic targets and enable development of mechanistically grounded behavioral biomarkers for early disease detection. Here, we provide a brief review of recent findings that have direct implications for attention deficits, memory impairments, and decision-making dysfunctions. By linking mechanism to behavior, these approaches guide targeted interventions and effective clinical translation. While challenges remain, these integrated approaches are advancing our understanding of the mechanistic foundation of human cognition.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Revisiting Post-stimulus Theta Activity: Evidence for a Broadband Rather Than Narrowband Spectral Origin.</title>
-      <link>https://doi.org/10.1523/jneurosci.1194-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1194-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-The aperiodic, 1/f -like component of electrophysiological activity is increasingly recognized as a meaningful feature of neural function rather than background noise. Meanwhile, many EEG studies interpret transient post-stimulus changes in oscillatory power as signatures of attention, salience, or cognitive control. Such interpretations typically depend on baseline normalization, which assumes aperiodic activity remains stable from pre- to post-stimulus periods. Using high-density EEG from typically developing children, we tested this assumption across two paradigms: an audiovisual simple reaction-time task (n = 36, 19 males and 17 females) and a visual oddball task (n = 38, 20 males and 18 females). In each, conventional spectral analyses were compared with analyses that explicitly modeled and removed aperiodic activity in both windows. Across tasks, stimulus onset produced robust increases in aperiodic exponent and offset, indicating systematic 1/f changes. In the audiovisual task these were modality specific, with central, parieto-occipital, or combined topographies by stimulus type. They diminished but persisted after event-related potential removal, suggesting they were not fully explained by phase-locked activity. Critically, once aperiodic activity was accounted for, the apparent theta increase was largely abolished in both tasks, including the canonical fronto-central enhancement to infrequent targets. The conventional method also overestimated beta desynchronization, especially in the induced signal, indicating a spurious consequence of spectral slope steepening. In contrast, alpha desynchronization remained robust and was enhanced, reflecting genuine suppression. Together, these findings suggest many conventional time-frequency effects, particularly apparent theta synchronization, may reflect stimulus-driven aperiodic changes rather than robust narrowband changes, challenging core assumptions of these analyses.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>

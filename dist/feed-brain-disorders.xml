@@ -5,9 +5,20 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explainable multi-group dynamic causal distribution learning framework to disentangle common and specific dynamic effective connectivity across MCI stages.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122342</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122342</guid>
+      <description>NeuroImage
+
+Brain functional networks exhibit an intrinsic architecture that is preserved across brain disorder groups, upon which different groups display distinct patterns of abnormal interactions. Exploring the common and specific network patterns is crucial for revealing common pathological mechanisms, group-specific alterations, and disease progression. Dynamic effective connectivity (dEC) characterizes time-varying causal interactions among brain regions and provides an effective means of investigating common and specific network patterns. However, the disentangled learning of common and specific dEC across multiple groups remains underexplored, limiting a systematic understanding of dynamic causal mechanisms in brain networks across disorders and disease stages. We propose an explainable multi-group dynamic causal distribution learning framework that integrates spatial and temporal information to identify common and specific dEC distributions among different groups. Experiments on synthetic datasets demonstrate that the proposed framework effectively and robustly identifies causality and disentangles common and specific causal structures. When applied to real-world data from the Alzheimer's Disease Neuroimaging Initiative, the proposed framework uncovers common and specific dEC across mild cognitive impairment (MCI) stages. Results show that, as MCI worsens, the dEC within the visual network and among functional hubs of the default mode network remain stable, whereas dEC associated with episodic memory, emotional processing, and interoception shift from compensatory to decompensatory patterns. The code is available at https://github.com/OrangeLY-byte/EMGDCD.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Causal dynamic resonance reduces false positives in detecting causality.</title>
       <link>https://doi.org/10.1073/pnas.2518099123</link>
@@ -409,6 +420,18 @@ Post-stroke depressive symptoms are common, but studies on the contributions of 
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Lesion-gradient mapping: Effects of stroke on connectivity gradients in semantic aphasia.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.10.017</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.10.017</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Post-stroke semantic aphasia is characterised by multimodal semantic deficits arising from disruption to a distributed network spanning frontal and temporal regions. Although long-term conceptual knowledge is largely preserved, controlled retrieval is impaired because the interaction between control processes and underlying semantic representations is disrupted. Connectivity gradients, which capture major axes of whole-brain functional connectivity variation, offer a useful framework for assessing the global impact of stroke. They provide a dimensional perspective on how stroke disrupts the interaction between the semantic control system and the semantic store across different input modalities. This study examined whether post-stroke changes in connectivity gradients help explain semantic-aphasia deficits. First, we tested whether lesion location and lesion-load information from structural MRI could predict gradient changes observed in resting-state fMRI, in a proof-of-principle analysis of eight cases. Simulated post-stroke gradient changes derived from structural MRI correlated with actual resting-state gradient alterations caused by stroke, particularly for the principal gradient separating unimodal and heteromodal cortex. Second, we assessed whether simulated gradient changes predicted the severity of semantic impairment (N = 21). Semantic deficits were associated with simulated connectivity shifts along this principal gradient: left prefrontal regions supporting controlled semantic retrieval showed stronger connectivity to unimodal cortex in patients with more severe semantic impairment. Overall, these findings demonstrate that connectivity gradients capture a macroscale reorganization of brain networks that is linked to semantic impairment. Furthermore, the ability to approximate these shifts from structural MRI indicates a promising direction for future clinical applications.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Altered interhemispheric functional cooperation in persistent postural-perceptual dizziness.</title>
       <link>https://doi.org/10.3389/fneur.2026.1901273</link>
       <guid isPermaLink="false">doi:10.3389/fneur.2026.1901273</guid>
@@ -525,27 +548,6 @@ Behavioural rigidity, the tendency to persist with inflexible patterns of though
 Copy number variations (CNVs) at the 15q11.2 locus of the human genome have been associated with altered brain structure and increased risk for neurodevelopmental and neuropsychiatric disorders. The cerebellum is increasingly seen as a crucial brain region for neurodevelopmental conditions, yet the effects of 15q11.2 CNVs on cerebellar morphology remain largely unclear. Importantly, 15q11.2 CNVs shows reduced or incomplete penetrance (meaning that not all CNV carriers are affected) and variable expressivity (meaning that symptoms may differ between individuals with the same genetic alteration). Thus, there is a need to not only assess group differences, but also to quantify anatomical variability at the individual level. Here, we address these issues using normative models of brain anatomy trained on large datasets (n &gt; 52k, age range: 3-85) to assess both group and individual-level deviations in cerebellar anatomy in carriers of 15q11.2 deletions (n = 120, mean [SD] age = 64.95 [7.58]) and duplications (n = 149, mean [SD] age = 64.31 [7.21]), compared to non-carriers (n = 19,028, mean [SD] age = 64.31 [7.58]). Group-level case-control analyses revealed significantly smaller total and regional cerebellar volumes in both deletion and duplication carriers, though with small effect sizes. Individual-level deviation analyses, capturing pronounced alterations in specific individuals, revealed a heterogeneous pattern among carriers. Overall, our findings suggest that CNVs at the 15q11.2 locus exert modest and highly individualized effects on cerebellar morphology.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>The Red Nucleus in Motor Control and Autism Spectrum Disorder.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107077</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107077</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Neuromotor differences of motor coordination, timing, postural regulation, and prospective motor control are common and emerge early in autism spectrum disorder (ASD). However, their underlying neural mechanisms remain incompletely understood, with existing research emphasising cortical and cerebellar systems. This review re-examines the red nucleus (RN), a midbrain structure embedded within cortical, cerebellar, and olivary motor pathways, as an underexplored component of distributed sensorimotor networks. We synthesise evidence from comparative neuroanatomy, animal experiments, human neuroimaging, movement disorders, and autism research, distinguishing direct RN findings from broader circuit-level inferences. Neuroimaging studies have reported RN-region susceptibility differences in autistic children, including an exploratory association with fine-motor development, but reproducible links to specific motor processes and RN-related causal mechanisms remain unestablished. We therefore propose a testable hypothesis that differences in RN structure, function, or connectivity may be associated with specific dimensions of motor function in autism. Error-related sensorimotor adaptation provides a primary experimental target, complemented by prospective motor control. Future investigations combining RN-sensitive neuroimaging, quantitative motor assessment, and transdiagnostic comparisons with developmental coordination disorder may determine whether RN-related measures provide explanatory information beyond sensorimotor systems. This framework positions the RN as a candidate component of autism-related motor networks.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>A Dynamic Model of Amygdala Circuits in Threat and Reward: Implications for Affective Disorders.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.10.030</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.10.030</guid>
-      <description>Biological psychiatry
-
-Animals must continuously evaluate their surroundings and select adaptive responses to survive in ever-changing environments. Central to this capacity is the assignment of importance to environmental cues, which guides motivated behavior toward rewarding opportunities and away from potential threats. Here we propose a theoretical framework, a dynamic motivational model based on threat and reward imminence, in which motivational states evolve continuously as a function of imminence rather than shifting between discrete stages. Within this framework, three interacting dimensions define the stimulus relevance of an environmental cue: salience, valence, and value. We leverage the amygdala as a substrate to illustrate the circuit mechanisms underlying importance assignment and examine how stimulus imminence drives motivational state transitions to promote adaptive behavior. Applied to affective disorders, it reframes amygdala dysfunction as projection- and circuit-specific stress adaptation rather than uniform regional hyperactivity, providing a common language for comparing major depressive disorder, anxiety disorders, post-traumatic stress disorder, and substance use disorders. By integrating animal circuit studies with human neuroimaging and clinical evidence, this framework positions amygdala-centered networks as candidate biomarkers for biologically informed subtyping and targets for personalized treatment in depression and related affective disorders.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
       <category>脑疾病机理</category>
     </item>
   </channel>

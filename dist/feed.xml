@@ -5,9 +5,81 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/</link>
     <description>语言与大脑、结构与功能、脑疾病机理、静息态与自然刺激的文献观察</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The relationship between socio-environmental factors, brain growth and cognition in middle childhood.</title>
+      <link>https://doi.org/10.1038/s41390-026-05677-y</link>
+      <guid isPermaLink="false">doi:10.1038/s41390-026-05677-y</guid>
+      <description>Pediatric research
+
+BACKGROUND: The relationship between socio-environmental factors, brain growth, and cognition in childhood is unknown. This study aimed to characterize associations between (i) regional brain growth from birth to 6-8 years and socio-environmental factors; and (ii) regional brain growth and cognitive outcomes in middle childhood. METHODS: One hundred and thirty-seven 6-8-year-old children (25 with congenital heart disease) underwent neonatal and paediatric brain MRI and a full-scale IQ assessment. Data on household income, maternal education, neighborhood deprivation, and early cognitively stimulating home environment were collected. Regional brain growth (extracerebral CSF, ventricles, cortical grey matter, white matter, deep grey matter, cerebellum, brainstem) from the neonatal period to 6-8 years was assessed using Gaussian process regression. RESULTS: Low household income was associated with reduced cortical grey matter growth (B, 95% CI -1.14, -1.88 to -0.396; pFWE = 0.044) and extracerebral CSF expansion (-1.55, -2.51 to -0.585; pFWE = 0.042). Higher cortical grey matter (3.89, 1.12-6.65; pFWE = 0.038) and brainstem (3.24, 0.894-5.58; pFWE = 0.038) growth were associated with better full-scale IQ. Brainstem (p = 0.014), but not cortical grey matter (p = 0.177), remained significant after adjustment for socio-environmental factors. CONCLUSIONS: Support for financially vulnerable families may promote brain growth. Brainstem growth is a brain correlate of childhood cognition independent of the effects of socio-environmental factors. IMPACT: One hundred and thirty-seven children (25 with congenital heart disease) underwent neuroimaging at birth and at 6-8 years and a full-scale IQ assessment at 6-8 years. Household income, maternal education, neighborhood deprivation and early home environment data were collected. After adjustment for other socio-environmental factors and group, low household income was associated with reduced cortical grey matter growth and extracerebral CSF expansion. Higher cortical grey matter and brainstem growth were associated with higher full-scale IQ in middle childhood. Household poverty was linked to reduced brain growth, while cortical grey matter and brainstem growth were associated with cognitive abilities in childhood.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Spatial Heterogeneity of Brain Myelin Aging and Vascular-Metabolic Risk-Associated Alterations: An MR Fingerprinting Study.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122363</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122363</guid>
+      <description>NeuroImage
+
+OBJECTIVE: To characterize spatial patterns of age-related variation in MR fingerprinting (MRF)-derived myelin water fraction (MWF) and its associations with vascular-metabolic risk. METHODS: In this cross-sectional study, neurologically asymptomatic adults underwent MRF scanning at 3T MR. MWF maps were estimated using a three-compartment model. Non-negative matrix factorization identified cortical gray matter (GM) and white matter (WM) clusters in healthy participants; eight subcortical regions were analyzed separately. Generalized additive models were used to generate healthy reference curves. Deviations, aging slopes, and exposure-by-age interactions were compared between healthy controls and participants with vascular-metabolic risk. RESULTS: Among 285 participants (57.2 ± 14.4 years; 168 females), 167 were healthy and 118 had vascular-metabolic risk. Two cortical GM and two WM clusters with distinct aging patterns were identified. GM cluster 2 (frontal-parietal-occipital cortices) showed higher MWF with age, and WM cluster 2 (projection and association fibers) showed marked negative age association after midlife. Compared with healthy participants, the vascular-metabolic risk group had a less positive age association in GM clusters (cluster 1: β = -2.77 × 10-5/year, q = 0.046; cluster 2: β = -4.14 × 10-5/year, q = 0.034) and lower deviation from the healthy reference in WM cluster 2 (β = -0.00351, q = 0.036). Continuous blood-pressure main effects on deviation were nonsignificant after FDR correction, but complementary tertile analyses showed more negative age-related slopes in the highest than the lowest tertiles in WM cluster 2 and the subcortical summary (all FDR-corrected q &lt; 0.01). CONCLUSIONS: MRF-derived MWF imaging revealed regionally distinct myelin aging patterns and selective deviations linked to vascular-metabolic risk, particularly in projection and association WM fibers. Blood pressure may be relevant to regional myelin-related aging patterns, warranting validation in larger longitudinal cohorts.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Motor pre-selection modulates action observation effects in sensorimotor cortices: a MEG study.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122362</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122362</guid>
+      <description>NeuroImage
+
+According to the Motor Simulation theory, observing an action automatically activates matching motor representations. This can explain why, in automatic imitation tasks, responses are faster when the observed action matches the required one, compared to when it differs. However, the automatic imitation task setting represents a very peculiar situation where participants need to pre-select the motor representations corresponding to the actions that they might observe, a situation quite different from daily-life contexts such as sports (e.g., tennis or basketball) where actions pre-selected for output are typically different from those observed, and where imitation errors or tendencies are seldom observed. This leads to the following question: Does the motor cortex response to observed actions depend on whether they match the motor representations pre-selected for output? In the present magnetoencephalography experiment, we studied, within the hand-related primary sensorimotor cortex, the oscillatory dynamics produced by the observation of hand actions in two conditions: either while participants pre-selected motor representations similar to those observed, or while they pre-selected markedly different motor representations, such as those involved in feet actions. Our data show that the motor cortex reacts differently to action observation in the two pre-selection conditions: alpha- and beta-band activity showed stronger desynchronization when the pre-selection involved motor representations matching those observed compared to non-matching ones. Specifically, observing hand actions while pre-selecting non-matching feet movements elicited a late rebound-like increase in alpha- and beta-band activity that was not observed when hand actions were pre-selected.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Explainable multi-group dynamic causal distribution learning framework to disentangle common and specific dynamic effective connectivity across MCI stages.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122342</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122342</guid>
+      <description>NeuroImage
+
+Brain functional networks exhibit an intrinsic architecture that is preserved across brain disorder groups, upon which different groups display distinct patterns of abnormal interactions. Exploring the common and specific network patterns is crucial for revealing common pathological mechanisms, group-specific alterations, and disease progression. Dynamic effective connectivity (dEC) characterizes time-varying causal interactions among brain regions and provides an effective means of investigating common and specific network patterns. However, the disentangled learning of common and specific dEC across multiple groups remains underexplored, limiting a systematic understanding of dynamic causal mechanisms in brain networks across disorders and disease stages. We propose an explainable multi-group dynamic causal distribution learning framework that integrates spatial and temporal information to identify common and specific dEC distributions among different groups. Experiments on synthetic datasets demonstrate that the proposed framework effectively and robustly identifies causality and disentangles common and specific causal structures. When applied to real-world data from the Alzheimer's Disease Neuroimaging Initiative, the proposed framework uncovers common and specific dEC across mild cognitive impairment (MCI) stages. Results show that, as MCI worsens, the dEC within the visual network and among functional hubs of the default mode network remain stable, whereas dEC associated with episodic memory, emotional processing, and interoception shift from compensatory to decompensatory patterns. The code is available at https://github.com/OrangeLY-byte/EMGDCD.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Long-term heading exposure in relation to structural MRI markers and neurocognitive function in retired professional soccer players.</title>
+      <link>https://doi.org/10.1016/j.neurad.2026.101631</link>
+      <guid isPermaLink="false">doi:10.1016/j.neurad.2026.101631</guid>
+      <description>Journal of neuroradiology = Journal de neuroradiologie
+
+BACKGROUND AND PURPOSE: Repetitive head impacts from purposeful heading in soccer have raised concerns about long-term neurological effects, but in vivo MRI markers remain underexplored. Most published imaging studies have involved amateur, youth or currently active players. Retired professionals with a full career of heading exposure and no reported concussion have rarely been investigated. Our objective was to evaluate structural brain differences and neuropsychological performance in retired or late-career professional soccer players without concussion history compared to high-level athletes from non-contact sports. MATERIALS AND METHODS: In this cross-sectional study, male professional soccer players and male non-contact athletes underwent 3T brain MRI and standardized cognitive testing. Imaging included volumetric assessment of the cavum septi pellucidi (CSP) and cavum vergae, automated quantification of white matter hyperintensities (WMH), voxel-based morphometry analysis of regional brain volume, and cerebral microbleed detection. Neuropsychological testing assessed reaction time, memory, attention, and executive functioning. RESULTS: Twenty-nine soccer players (mean age 44.5 years, SD 7.3) and 29 non-contact athletes (mean age 41.9 years, SD 8.0) were included. Players reported 29.7 years of practice, including 13.3 professionally, and 9.9 years since retirement. Soccer players demonstrated significantly greater CSP volume (21 vs 6 mm³; p &lt; 0.001) and greater total WMH volume after age adjustment (3892 vs 2833 mm³; p = 0.046), mainly periventricular. Voxel-based morphometry showed reduced grey matter volume in the right anterior temporal lobe (p = 0.030, corrected), and in other frontotemporal regions and the head of the left caudate nucleus (p &lt; 0.001, uncorrected). No microbleeds were detected in either group. Neuropsychological testing showed no cognitive impairment. CONCLUSIONS: Retired or late-career soccer players showed a pattern of subtle structural MRI differences from non-contact athletes consistent with that reported in populations exposed to repetitive head impacts, without measurable differences in neurocognitive performance.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Spatial Transcriptomics Reveals the Macroscale Signatures of Cortical Cell Types on Anatomic Magnetic Resonance Imaging.</title>
+      <link>https://doi.org/10.1007/s12021-026-09828-8</link>
+      <guid isPermaLink="false">doi:10.1007/s12021-026-09828-8</guid>
+      <description>Neuroinformatics
+
+​Esta​blishing how intensity in magnetic resonance images (MRIs) covaries with molecular factors can help to derive quasi-mechanistic biological insights from neuroimaging. Gray/white matter contrast (GWC) of [Formula: see text]-weighted MRI is an abundantly available phenotype often used to investigate aging and cognition. Despite growing interest in investigating microstructure using GWC, its relationship to cell type-related tissue properties is understudied. We leverage spatially resolved post-mortem transcriptomic data from six donors to identify associations between cell type marker genes and GWC averaged across cognitively normal living adults ([Formula: see text] = 577, mean age = 56.2 years). Astrocyte marker gene transcription is significantly associated with cortical variation in mean GWC, referred to as [Formula: see text]. Additionally, estimated relative astrocyte abundance correlates significantly with [Formula: see text] ([Formula: see text] = 0.409, [Formula: see text] &lt; 0.01). Gene transcription correlations with [Formula: see text] are enriched for oligodendrocyte marker genes only within the frontal lobe, which is known to age fastest. Transcriptions of genes related to iron trafficking and myelination help to identify potential explanations for associations of [Formula: see text] to astrocyte and oligodendrocyte distributions. A multivariate linear model of cell abundances explains 31% ([Formula: see text] = 0.56) of variation in [Formula: see text], of which [Formula: see text]40% is attributable to neurons, ~33% to endothelial cells, and ~15.7% to microglia. Findings are replicated in two additional independent cohorts of cognitive normal adults ([Formula: see text] = 577 in each), indicating that reported associations are not dependent on scanner parameters. Our findings empower interpretation of GWC and its use in studying aging and disease.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Theory of mind, autism-like traits, executive functions, and structural brain MRI findings in children with neurofibromatosis type 1.</title>
+      <link>https://doi.org/10.1007/s00431-026-07629-4</link>
+      <guid isPermaLink="false">doi:10.1007/s00431-026-07629-4</guid>
+      <description>European journal of pediatrics
+
+UNLABELLED: This study aimed to examine social-cognitive difficulties in children with neurofibromatosis type 1 (NF1) by jointly investigating theory of mind (ToM), executive functions, and autism-like traits and to explore whether children with NF1 show structural differences in brain regions commonly implicated in social cognition and executive functioning. In this two-center cross-sectional study, 41 children aged 8-18 years were included, comprising 21 children with NF1 and 20 age- and sex-matched typically developing children. Participants underwent behavioral assessment, including parent-reported autism-like traits, everyday executive functioning, and direct measures of ToM. Structural brain MRI data were analyzed using automated volumetric and cortical thickness measures, focusing on these regions. Children with NF1 showed higher autism-like traits, lower everyday executive functioning in play and social routines, and poorer performance on an advanced ToM task. The NF1 group also had larger global brain volume reflecting widespread white matter expansion; lower cortical gray matter proportion and thickness in frontal, temporal, parietal, cingulate, and limbic regions; and larger subcortical structures including the amygdala, hippocampus, and thalamus. Exploratory within-group brain-behavior correlations were few and selective, none survived multiple-comparison correction, and none involved autism-like traits. CONCLUSION: Children with NF1 display a multidimensional profile of social-cognitive difficulties together with structural differences indicating an imbalance between cortical and subcortical regions typically involved in social cognition. These structural differences offer a possible neurobiological substrate for the social-cognitive difficulties observed in NF1. Whether they account for these difficulties remains to be tested in samples powered to examine brain-behavior associations directly. WHAT IS KNOWN: • Children with neurofibromatosis type 1 (NF1) frequently show executive dysfunction, autism-like traits, and theory of mind (ToM) difficulties. • These domains have rarely been examined jointly, or alongside brain structure, in the same children. WHAT IS NEW: • Autism-like traits, everyday executive difficulties, and poorer ToM co-occurred in children with NF1. • The same children showed reduced cortical thickness and proportion with enlarged subcortical structures in regions implicated in social cognition, a candidate substrate for future brain-behavior studies.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>结构与功能</category>
+    </item>
     <item>
       <title>Cognitive control networks in human and macaque.</title>
       <link>https://doi.org/10.7554/elife.111502</link>
@@ -325,6 +397,17 @@ Abstract The processing of language and reading has been a subject of interest f
       <category>语言与脑</category>
     </item>
     <item>
+      <title>Attention increases the spread of modality-invariant information across the cortex.</title>
+      <link>https://doi.org/10.1162/imag.a.1454</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1454</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Attention shapes our perception by allowing us to focus on relevant stimuli that are selected for conscious processing. In this work we assessed to what degree attention influences the extraction of modality-invariant information, that is, information that is independent of the input stimulus modality. To this end, we analyze fMRI data of subjects viewing naturalistic images and reading short textual descriptions while paying attention to only one of the two modalities. Using cross-modality decoding, we found modality-invariant representations in a small area of the cortex even in the absence of attention, spreading to much larger regions when stimuli are attended. This work demonstrates how state-of-the-art decoding techniques on large-scale data can be used to expand our knowledge on how attention shapes specific high-level representations in the brain.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Pinpointing planned speech.</title>
       <link>https://doi.org/10.1126/science.aem7976</link>
       <guid isPermaLink="false">doi:10.1126/science.aem7976</guid>
@@ -436,87 +519,6 @@ Aversive and appetitive learning are central to adaptive behaviour, and pain and
 The neural extracellular matrix (ECM) is increasingly recognized as an active regulator of brain function and an important contributor to the pathogenesis of neuropsychiatric disorders. This Review examines ECM organization, function and adaptive remodelling in the healthy brain and synthesizes evidence for its pathophysiological alterations in schizophrenia, major depressive disorder and bipolar disorder. Based on findings from human studies and animal models, we propose an ECM-extended conceptual framework of major psychiatric diseases in which polygenic liability, stress exposure and neuroinflammatory signalling converge to remodel the ECM in circuits supporting reward processing, emotion regulation, cognitive control and social cognition. In this model, an early phase of protease-dominant ECM loosening destabilizes microcircuits composed of parvalbumin-expressing inhibitory neurons and principal cells whereas later reactive ECM rebuilding stabilizes dysfunctional network states and contributes to disease persistence, relapse and treatment resistance. This framework positions the ECM as a central hub of genetic, glial, synaptic and systems-level pathogenesis and suggests avenues for the development of ECM-sensitive biomarkers and ECM-directed interventions that may improve the treatment of these disorders.</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>A reproducible structural brain axis of alcohol use severity.</title>
-      <link>https://doi.org/10.1038/s41398-026-04587-1</link>
-      <guid isPermaLink="false">doi:10.1038/s41398-026-04587-1</guid>
-      <description>Translational psychiatry
-
-Alcohol use is linked to distributed structural brain alterations, but population-level alcohol-related neurobiology remains difficult to quantify. We tested whether deep learning-derived MRI representations capture reproducible variation in alcohol consumption severity and converge with clinical and biological markers. Representations were extracted from gray-matter volume maps in the German National Cohort (NAKO; N ≈ 28,000). Ridge-regression scores were derived from structural MRI to estimate alcohol consumption severity, measured with the Alcohol Use Disorders Identification Test-Consumption (AUDIT-C). Models were trained in NAKO, externally validated in UK Biobank (N ≈ 25,000), evaluated in FOR2107 (N ≈ 1900), and tested against ICD-10 alcohol use disorder (AUD), alcohol-related biomarkers, and cognition. In NAKO, the structural MRI-derived ridge-regression score correlated with measured AUDIT-C severity (r = 0.11; 95% CI, 0.09-0.12; qFDR = 1.2 × 10-70 ; MAE = 1.64). This association replicated in UK Biobank (r = 0.09; 95% CI, 0.07-0.10; qFDR = 4.9 × 10-41 ; MAE = 1.96) and generalized to AUD, with higher odds in the highest versus lowest brain-score quintile (OR = 2.28; 95% CI, 1.49-3.48; qFDR = 3.9 × 10-4 ). The score was associated with gamma-glutamyl transferase (β = 1.17 U/L; qFDR = 0.007), mean corpuscular volume (β = 14.26 fL; qFDR = 4.4 × 10-4 ), and slower reaction time (β = 163.40 ms; qFDR = 3.0 × 10-5 ). Deep learning-derived structural MRI representations capture weak but reproducible alcohol-related brain variation that converges with AUD diagnosis, peripheral biomarkers, and cognition, supporting their use in population-level addiction neuroscience while underscoring limits for individual-level prediction.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>People entering old age now have better memory than their parents did.</title>
-      <link>https://doi.org/10.1038/d41586-026-03783-9</link>
-      <guid isPermaLink="false">doi:10.1038/d41586-026-03783-9</guid>
-      <description>Nature
-
-来源未提供摘要。</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Right-to-left shunt burden and altered white matter functional networks in stroke-free patients with patent foramen ovale.</title>
-      <link>https://doi.org/10.1016/j.neuroscience.2026.11.033</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.033</guid>
-      <description>Neuroscience
-
-Resting-state functional MRI (rsfMRI) is a useful technique for investigating the functional organization of human brain networks. Nevertheless, most rsfMRI studies in patent foramen ovale (PFO) have focused on gray-matter connectivity or structural imaging, whereas white-matter functional networks remain poorly characterized. PFO has been hypothesized to expose the brain to recurrent right-to-left shunt (RLS)-related microembolic, vasoactive and hemodynamic stressors, but whether these stressors are associated with altered white-matter functional organization in patients without overt stroke is unclear. The current study used rsfMRI to evaluate white-matter functional networks in stroke-free PFO patients and healthy controls. In the PFO group, RLS severity and anatomical features were characterized using contrast-enhanced transcranial Doppler and transesophageal echocardiography. Nine large-scale white-matter networks were identified by K-means clustering of voxel-wise white-matter functional connectivity. Evaluation of spontaneous oscillations and inter-network functional connectivity showed that PFO patients had widespread reductions in fast Fourier transform-derived band-averaged amplitude, mainly involving motor, occipital, cerebellar, deep and cingulum networks, and consistently reduced inferior frontal-to-fronto-temporal connectivity across frequency bands. Higher RLS grade was associated with lower white-matter amplitude in several networks, whereas PFO anatomical measurements showed no independent associations after multiple-comparison correction. Exploratory mediation analyses showed no significant indirect pathways after FDR correction. In this cross-sectional study, these findings suggest that RLS burden may be relevant to subclinical white-matter functional vulnerability in stroke-free PFO.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Mismatch Negativity and General Cognitive Ability - A Meta-Analysis.</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107099</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107099</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Intelligence or general cognitive ability (GCA) is fundamental to human behavior and cognition. It impacts important life outcomes like educational success, and even health and longevity have been related to differences in GCA. Understanding the biological basis of such individual variations presents a crucial goal of neuroscience. The mismatch negativity (MMN) is an event-related brain potential that can be measured when-within a series of frequent standard stimuli, rare deviants are presented-and is suggested to reflect conscious (active) or unconscious (passive) detection processes of the brain. Importantly, variations in MMN amplitude and latency have been linked to differences in GCA. Yet findings vary considerably. This preregistered meta-analysis provides a comprehensive and structured overview of the current state of research. Following the study selection process in accordance with the PRISMA guidelines, and the rating of study design quality with the Study Design and Implementation Assessment Device for Individual Difference Research (DIAD-ID), the association between GCA and MMN amplitude and latency was examined in 645 healthy adults across 12 included studies. The estimated across-sample associations between MMN and GCA were small, but significant (MMN amplitude-GCA: r = -0.09, MMN latency-GCA: r = -0.16; p &lt; 0.01) and moderators were identified. Between-sample heterogeneity was moderate, with no evidence of publication bias. Our findings suggest that higher cognitive ability is associated with slightly stronger and faster MMN responses. However, the low estimated across-sample effect sizes and the small number of included studies also highlight the need for more research.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Where could the brain keep a symbol?</title>
-      <link>https://doi.org/10.1016/j.neubiorev.2026.107092</link>
-      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107092</guid>
-      <description>Neuroscience and biobehavioral reviews
-
-Neuroscience routinely describes memories as stored neural symbols, yet durable memory and successful retrieval do not establish a separately accessible symbolic vehicle. I distinguish retention, the claim that a physical change persists and later influences behavior, from symbolic storage, the stronger computational claim that a description can be accessed independently of the operation it specifies. The criterion is functional and system-relative and does not rule out neural activity as access. It requires specifying, before testing, the candidate vehicle, its proposed use, the system boundary, and an endogenous route reaching the vehicle without using it. DNA meets the criterion: replication preserves nucleotide sequence without producing the encoded gene product. Evidence from synapses and circuits establishes persistent, functionally useful organization but has not shown this separation for any neural memory vehicle; in these states, identified reads are executions that modify what they read. Hippocampal replay, neuromodulation, and artificial-network checkpoints show that the verdict depends on the vehicle and operations compared. I agree with Gallistel that intracellular nucleic acid mechanisms could provide a genuine store, but disagree that behavioral precision alone requires one. Maintained coupling, in which memory is sustained by continual recalibration rather than read from a store, offers an alternative whose predictions depend on error source: drift can be corrected where a reference signal remains, but a unique, never-revisited episode offers none. Current evidence favors retention without symbolic storage in synapses and circuits; I propose operational tests that could overturn this verdict. Either way, retention and use remain memory.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Microstructural disruption of the forceps minor in schizophrenia: a potential clinical imaging biomarker using translational DTI.</title>
-      <link>https://doi.org/10.1007/s11682-026-01220-z</link>
-      <guid isPermaLink="false">doi:10.1007/s11682-026-01220-z</guid>
-      <description>Brain imaging and behavior
-
-Schizophrenia is one of the most complex brain disorders, arising from multidimensional pathophysiological processes that span genetic vulnerability, neurotransmitter dysregulation, structural brain damage, and large-scale brain network dysfunction. Large-scale neuroimaging studies have consistently demonstrated the critical role of frontal brain regions in schizophrenia. Despite substantial progress, the precise localization of structural damage within these regions and the neurobiological mechanisms linking such alterations to disease pathology remain poorly understood. In this study, we included a total of 115 subjects from two sites of the B-SNIP dataset, comprising 60 healthy controls and 55 individuals with schizophrenia. We employed diffusion tensor imaging (DTI) to precisely characterize specific structural alterations in the frontal brain regions associated with schizophrenia. Our findings reveal significant microstructural abnormalities in the forceps minor, a major commissural white-matter tract that serves as a critical interhemispheric bridge between the bilateral frontal lobes. Network-level mapping further demonstrates that the forceps minor is closely integrated with large-scale brain networks, particularly the default mode network, and maintains strong structural connectivity with orbitofrontal regions-both of which are known to exhibit dysfunction in schizophrenia. Moreover, converging evidence suggests that the forceps minor plays an important role in the regulation of social behavior, a core domain of impairment in schizophrenia. Collectively, these findings identify the forceps minor as a promising structural imaging biomarker for schizophrenia and provide novel insights into the microstructural mechanisms underlying the disorder.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Cortical Hypoperfusion in Acute Anorexia Nervosa Is Graded Along the Sensorimotor-Association Hierarchy.</title>
-      <link>https://doi.org/10.1002/eat.70278</link>
-      <guid isPermaLink="false">doi:10.1002/eat.70278</guid>
-      <description>The International journal of eating disorders
-
-Objective Cortical gray-matter changes in anorexia nervosa (AN) are among the largest reported in psychiatry, but the functional-metabolic state of that tissue is largely unknown. Because cortical energy use is highest in transmodal association cortex (prefrontal, parietal, and temporal regions of the default-mode and frontoparietal networks), a reduced energy supply predicts a graded rather than uniform reduction in perfusion (blood delivery to tissue). Method A total of 44 acutely underweight women with AN and 45 healthy women underwent 3 T pseudo-continuous arterial spin labeling with partial-volume correction. Cerebral blood flow was compared between groups across the Schaefer 100 regions 7 networks atlas, age-adjusted and false-discovery-rate-corrected, and the case-control map was compared with the principal functional gradient (the axis running from sensorimotor to transmodal cortex), with cortical thickness in the same participants, and with 18 PET and SPECT receptor maps. Results Perfusion was lower in AN in 97 of 100 regions and maximal in orbitofrontal and prefrontal cortex (composite d = -0.56). The deficit scaled with position along the principal functional gradient (ρ = -0.56), an axis unrelated to perfusion in health, and was recoverable in individual brains (d = -0.53). Thinning was widespread but unrelated to gradient position, and the two effect maps did not correspond. Hypoperfusion was greater where D1, CB1, mGluR5, M1, 5-HT2A, and μ-opioid systems are dense, the dopaminergic, cannabinoid, glutamatergic, and muscarinic ones persisting after gradient adjustment. Discussion Cortical perfusion in acute AN is not uniformly reduced but organized along the cortex's principal functional axis, dissociable from cortical thinning and aligned with reward-related neurochemistry.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels.</title>
-      <link>https://doi.org/10.7554/elife.107980</link>
-      <guid isPermaLink="false">doi:10.7554/elife.107980</guid>
-      <description>eLife
-
-Making decisions often requires the integration of multiple pieces of information. An extensive body of research has investigated the neural architecture underpinning evidence accumulation in perceptual tasks where information is continuously present, but less is known about how this neural architecture operates in situations affording only intermittent glimpses of an evidence source. In two electroencephalography experiments, human participants judged the direction of up to two pulses of motion evidence separated by gaps of varying duration. Our behavioural analysis found that participants used both pulses but underutilised the second and showed no systematic decrease in accuracy as a function of gap duration. At the neural level, motor beta lateralisation tracked cumulative evidence across pulses, maintaining a sustained representation of the decision variable through the gap and until response. In contrast, the centroparietal positivity (CPP), a previously characterised signature of evidence accumulation, built up transiently to a peak that scaled with each pulse's contribution to the decision variable (i.e. the absolute belief update it produced), falling back to baseline in between pulses. These patterns were recapitulated in a model where pulse-information transiently integrated at the CPP level is fed to and maintained at a bounded motor level. In this model, the evidence in the second pulse is only integrated to the extent that the evidence in the first pulse falls short of the bound, or not integrated at all if a bound has already been hit.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
     </item>
   </channel>
 </rss>
