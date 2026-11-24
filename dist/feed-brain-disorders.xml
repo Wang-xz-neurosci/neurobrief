@@ -5,9 +5,41 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Age-Dependent Efficiency of MRI Monitoring in Treated Multiple Sclerosis.</title>
+      <link>https://doi.org/10.1001/jamaneurol.2026.4318</link>
+      <guid isPermaLink="false">doi:10.1001/jamaneurol.2026.4318</guid>
+      <description>JAMA neurology
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Network Control Theory in Psychiatry: From Connectivity-Derived Controllability to Brain-State Transitions and Interventions.</title>
+      <link>https://doi.org/10.1016/j.neubiorev.2026.107112</link>
+      <guid isPermaLink="false">doi:10.1016/j.neubiorev.2026.107112</guid>
+      <description>Neuroscience and biobehavioral reviews
+
+Psychiatric disorders are increasingly conceptualized as disruptions in brain dynamics, particularly in how activity patterns evolve over time. Network Control Theory (NCT), a framework derived from control engineering, has emerged as a promising approach for studying these dynamics. Yet, despite its growing application in psychiatry, it remains unclear whether NCT has provided mechanistic or clinical insights beyond conventional measures of network topology. Here, we conducted a PRISMA-guided systematic review of NCT applications across major psychiatric disorders in adults. Of 178 records identified, 26 studies met inclusion criteria, representing 17 unique cohorts spanning schizophrenia spectrum disorders, major depressive disorder, bipolar disorder, obsessive-compulsive disorder, and post-traumatic stress disorder. Across studies, a recurring pattern of lower modal controllability was reported in several disorders (3 independent cohorts), although regional findings were heterogeneous and diagnostic specificity was limited. In contrast, task-based analyses under cognitive load (2 cohorts) and energy-based metrics (2 cohorts), though scarce, revealed more extensive case-control abnormalities and between-disorder differentiation. Intervention studies provided preliminary evidence that NCT-derived measures may predict treatment response and inform individualized neuromodulation targets (4 cohorts). However, 21 of 26 studies exclusively relied on connectivity-derived controllability metrics that were closely related to conventional measures of network topology and characterized model-implied control properties rather than directly observed state transitions. Furthermore, translational evidence came largely from single-arm, retrospective and simulation studies. The distinct value of NCT in psychiatry therefore remains to be established. Future progress requires the use of empirically observed brain states, energy-based measures, and prospective intervention studies.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Combined Neuromelanin-Sensitive and Functional Magnetic Resonance Imaging Links Midbrain Dopaminergic Dysfunction to Connectome Architecture in First-Episode, Medication-Naïve Major Depressive Disorder.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.11.008</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.008</guid>
+      <description>Biological psychiatry
+
+Accumulating evidence implicates dopaminergic dysfunction in major depressive disorder (MDD), yet direct evidence of such dysfunction and of its altered coupling with the functional connectome remains limited. Using neuromelanin-sensitive MRI (NM-MRI) and resting-state fMRI, we examined differences in substantia nigra/ventral tegmental area NM-MRI signal (NMSSN/VTA) between first-episode, medication-naïve MDD patients (n = 112) and healthy controls (HC; n = 230). Network-based statistics (NBS) assessed MDD-related alterations in NMSSN/VTA-functional connectivity (FC) coupling. Spatial correspondence analyses examined the spatial convergence of these coupling alterations with normative dopaminergic molecular maps and anhedonia-related connectome patterns in MDD. Patients with MDD showed lower NMSSN/VTA, with more pronounced reductions in lateral and rostral regions. NBS identified a widespread component with altered NMSSN/VTA-FC coupling in MDD, characterized predominantly by higher slopes across attention, control, sensory, and medial temporal systems and lower slopes involving limbic-striatal and default-mode connections. Network-level analysis further identified a diagnosis-dependent NMSSN/VTA-striatal-limbic connectivity relationship, with lower NMSSN/VTA associated with higher FC in MDD. Spatially, these coupling alterations converged with dopaminergic molecular architecture, showing negative correspondence with normative dopaminergic receptor and transporter distributions and positive correspondence with the anticipatory-pleasure-related connectome pattern in MDD. These findings provide in vivo evidence of midbrain dopaminergic dysfunction and widespread disruption of dopaminergic-connectome coupling in MDD, with these coupling alterations spatially converging with anhedonia-related connectome organization. Together, these findings advance our understanding of the role of dopaminergic dysfunction in the pathophysiology of MDD.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Explainable multi-group dynamic causal distribution learning framework to disentangle common and specific dynamic effective connectivity across MCI stages.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122342</link>
@@ -136,7 +168,7 @@ The neural basis of social difficulties in autism spectrum disorder (ASD) remain
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Spatial coupling between anosmia-related cortical alterations and regional gene expression: an imaging transcriptomics study.</title>
+      <title>Spatial coupling between anosmia-related cortical alterations and regional gene expression: An imaging transcriptomics study.</title>
       <link>https://doi.org/10.1016/j.neuroimage.2026.122350</link>
       <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122350</guid>
       <description>NeuroImage
@@ -514,40 +546,6 @@ For a long time, epilepsy has been associated with violent behaviour, acquiring 
 Obsessive-compulsive disorder (OCD) is characterized by widespread executive function impairments linked to disrupted frontostriatal circuits. Ablative therapies such as capsulotomy show promising efficacy in treatment-refractory OCD, yet their effects on executive neural substrates remain poorly understood. This study explores how OCD and capsulotomy influence executive prefrontal function. Twenty-three post-capsulotomy OCD patients, 30 OCD controls and 32 health controls (HC) were recruited in the study. Post-capsulotomy patients were recruited at least 6 months following surgery to allow for postoperative stabilization. Participants completed three executive function tasks assessing distinct cognitive domains: the Extra-Dimensional Intra-Dimensional (EDID) task testing set-shifting, the N-back task testing working memory and the Flanker task measuring conflict processing. The EDID and N-back tasks were administered during concurrent task-based functional MRI, while the Flanker task provided only behavioural measures. In the EDID task, OCD capsulotomy patients demonstrated greater post-error flexibility towards ID versus ED shifting relative to both OCD controls and HC, despite exhibiting more ED errors. OCD controls showed less shifts after errors compared with HC, which was not revealed in the capsulotomy group. OCD patients showed less neural differentiation between ED versus ID in lateral and mesial prefrontal regions relative to HC. Capsulotomy was associated with decreased pre-supplementary motor area activity to ED shifts compared with HC, indicating impairments in neural reactivity to ED shifting. No evidence supported the influence of capsulotomy in the N-back or the Flanker tasks. Specifically, both OCD groups showed impaired working memory performance at high memory load along with dysfunction in the whole frontoparietal network. In the Flanker task, impairments in dissociating congruent and incongruent conditions were found in both OCD groups but not in the HC group. These findings suggest capsulotomy specifically remediates error-monitoring and behavioural flexibility through mesial prefrontal remodelling, while leaving working memory and conflict processing deficits intact. This dissociation implies that cognitive flexibility may represent a state-dependent process amenable to intervention, whereas working memory and conflict processing impairments may reflect trait markers of OCD vulnerability. These results have clinical implications on the relative safety profile of capsulotomy and patient selection for precision neuromodulation.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Blunted response of caudal locus coeruleus to arousing stimuli in Parkinson's disease.</title>
-      <link>https://doi.org/10.1093/brain/awag106</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag106</guid>
-      <description>Brain : a journal of neurology
-
-Parkinson's disease (PD) causes progressive degeneration of noradrenergic neurons in the locus coeruleus (LC), contributing to non-motor symptoms. Using neuromelanin-sensitive ultra-high field (7 T) MRI, we previously identified a reduction in neuromelanin signal in the caudal LC, indicating a rostro-caudal gradient of noradrenergic cell loss. Caudal LC degeneration was associated with greater severity of non-motor symptoms such as orthostatic hypotension and apathy. In the current case-control study, we expanded the PD cohort to further corroborate the structure-symptom relationships within the LC and investigate how degeneration along the rostro-caudal LC axis affects arousal-related functional responsivity. To this end, 71 people with PD in the ON-medication state and 40 age- and sex-matched healthy controls underwent clinical assessments and 7 T magnetization transfer-weighted (MTw) MRI to quantify structural changes along the rostro-caudal LC axis. A subgroup of 30 people with PD and 27 controls underwent 7 T functional MRI to assess LC responsivity to arousing auditory and visual stimuli in two functional MRI sessions on separate days. Healthy controls were scanned twice without medication, while people with PD were studied on and off dopaminergic medication in counterbalanced order. In the PD group, MTw MRI confirmed a significant reduction of the regional neuromelanin signal in the caudal LC relative to the control group (P = 0.010). This structural disintegration correlated with orthostatic hypotension (P = 0.009) and cognitive impairment (P = 0.036), corroborating its clinical relevance. Functional MRI revealed reduced activation of the caudal LC to arousing visual and auditory stimuli in people with PD relative to controls (P = 0.012). This difference reached statistical significance only in the ON-medication state, with a similar but non-significant trend in the OFF-medication state (P = 0.105). In an exploratory analysis of a smaller subsample, structural and functional caudal LC signals were significantly correlated in both people with PD and healthy controls (P = 0.007). Together, the findings provide evidence for a rostro-caudal gradient of LC pathology in PD at both structural and functional levels. While structural MRI provides fine-grained insights into spatial gradients of disease-related pathology, functional MRI captures the impaired functional responsivity of the caudal LC. The presence of arousal-induced hypoactivation of the caudal LC in the ON-medication state indicates that LC dysfunction extends beyond dopamine deficits in PD, highlighting complex interactions between dopaminergic and noradrenergic systems.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Behavioural rigidity as a transdiagnostic marker of nucleus accumbens dysfunction in dementia.</title>
-      <link>https://doi.org/10.1093/brain/awag095</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag095</guid>
-      <description>Brain : a journal of neurology
-
-Behavioural rigidity, the tendency to persist with inflexible patterns of thoughts or actions, is increasingly recognized as a transdiagnostic symptom across psychiatric, neurodevelopmental and neurodegenerative disorders. Empirical studies exploring the prevalence and underlying neural mechanisms of behavioural rigidity in dementia, however, are lacking. This cross-sectional study sought to delineate the structural and functional neural correlates of behavioural rigidity using a transdiagnostic approach looking across the frontotemporal lobar degeneration (FTLD) spectrum and Alzheimer's disease (AD). A total of 204 participants were recruited, including 110 frontotemporal dementia (FTD), 53 AD and 41 healthy older control participants. Within the FTD group, 66 cases were diagnosed with clinically probable behavioural variant FTD (bvFTD), 26 presented with semantic dementia (SD) and 18 cases had progressive non-fluent aphasia (PNFA). Behavioural rigidity was assessed using the Stereotypical and Motor Behaviour subscale of the Cambridge Behavioural Inventory-Revised. Voxel-based morphometry (VBM) was performed to identify grey matter regions associated with behavioural rigidity transdiagnostically, the results of which informed subsequent seed-based voxel-wise functional connectivity analyses. All imaging analyses were adjusted for relevant demographic and technical covariates. Statistical thresholds were set at voxel-level P &lt; 0.001 (uncorrected) and cluster-level P &lt; 0.05 (false discovery rate corrected). Our main finding was that behavioural rigidity is pervasive across dementia subtypes, ranging from most pronounced in bvFTD to milder/relatively absent in PNFA, relative to controls. Whole-brain VBM across the entire patient sample revealed a significant negative association between behavioural rigidity and grey matter intensity exclusively in the bilateral nucleus accumbens. Using the bilateral nucleus accumbens as seeds, resting-state functional connectivity analysis showed that higher levels of behavioural rigidity were associated with stronger connectivity between the left nucleus accumbens and the left supplementary motor area, paracentral lobule and precuneus. This is the first study, to our knowledge, to examine the neural substrates of behavioural rigidity across FTLD syndromes transdiagnostically using structural and functional neuroimaging approaches. Our findings reveal a gradation of rigid and repetitive behaviours, most apparent in bvFTD, which in turn reflects pathological disruption of the nucleus accumbens. Taken together, our findings highlight the need to consider repetitive and rigid behaviours as a transdiagnostic feature in neurodegenerative disorders, and one which indexes underlying nucleus accumbens pathology. More broadly, this study underscores the importance of screening for rigid and repetitive behaviours in the clinic and identifies the nucleus accumbens as a promising neural target to ameliorate these symptoms.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Mapping cerebellar morphology in 15q11.2 CNV carriers using normative modeling.</title>
-      <link>https://doi.org/10.1038/s41380-026-03711-3</link>
-      <guid isPermaLink="false">doi:10.1038/s41380-026-03711-3</guid>
-      <description>Molecular psychiatry
-
-Copy number variations (CNVs) at the 15q11.2 locus of the human genome have been associated with altered brain structure and increased risk for neurodevelopmental and neuropsychiatric disorders. The cerebellum is increasingly seen as a crucial brain region for neurodevelopmental conditions, yet the effects of 15q11.2 CNVs on cerebellar morphology remain largely unclear. Importantly, 15q11.2 CNVs shows reduced or incomplete penetrance (meaning that not all CNV carriers are affected) and variable expressivity (meaning that symptoms may differ between individuals with the same genetic alteration). Thus, there is a need to not only assess group differences, but also to quantify anatomical variability at the individual level. Here, we address these issues using normative models of brain anatomy trained on large datasets (n &gt; 52k, age range: 3-85) to assess both group and individual-level deviations in cerebellar anatomy in carriers of 15q11.2 deletions (n = 120, mean [SD] age = 64.95 [7.58]) and duplications (n = 149, mean [SD] age = 64.31 [7.21]), compared to non-carriers (n = 19,028, mean [SD] age = 64.31 [7.58]). Group-level case-control analyses revealed significantly smaller total and regional cerebellar volumes in both deletion and duplication carriers, though with small effect sizes. Individual-level deviation analyses, capturing pronounced alterations in specific individuals, revealed a heterogeneous pattern among carriers. Overall, our findings suggest that CNVs at the 15q11.2 locus exert modest and highly individualized effects on cerebellar morphology.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
       <category>脑疾病机理</category>
     </item>
   </channel>

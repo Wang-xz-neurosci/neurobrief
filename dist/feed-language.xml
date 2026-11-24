@@ -5,9 +5,19 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Uncommon Communication: Hepatogastric Fistula in a Young Male Patient With a Pyogenic Liver Abscess</title>
+      <link>https://europepmc.org/article/PMC/PMC13789194</link>
+      <guid isPermaLink="false">PMC:PMC13789194</guid>
+      <description>Cureus
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>What's in a Story? Studying Neural Narrative Engagement with Auditory Passages Using EEG Inter-Subject Correlation</title>
       <link>https://doi.org/10.64898/2026.11.19.767982</link>
@@ -133,6 +143,17 @@ Purpose Recent work in motor neuroscience suggests that well-learned actions are
 Purpose When listening to acoustically challenging speech, listeners may strategically shift neural resources across multiple language-related cognitive processes in order to compensate for the additional demands. In the current study, we examined the impact of acoustic challenge (via speech-shaped background noise) on three language-related event-related brain potentials (ERPs): the N400 and two late positivities following the N400-a posterior P600 to syntactic violations and a late frontal effect sensitive to word expectancy. Method Young, normal-hearing adults (N = 48) listened in quiet and in noise (+3 dB SNR speech-shaped stationary noise) to contextually constraining sentences that ended in an expected word, an unexpected word, or a morphosyntactic violation of the expected word, while electroencephalography data were collected. Results Replicating prior work, we showed that an N400 expectancy effect was both reduced in amplitude and delayed in onset latency in noise. Providing novel insights into late ERP components, we found that a P600 syntax effect was reduced in amplitude by the presence of background noise. We additionally observed that the P600 response was only present for trials in which the listener successfully identified syntactic violations (irrespective of noise). In contrast to the reductions in the N400 and P600, the late frontal response was not reduced in noise. Conclusion Collectively, this suggests that, while semantic retrieval and syntactic integration may be impaired by acoustic challenge, young, normal-hearing listeners may still prioritize neural resources toward prediction-related processes to help compensate for increased perceptual demands.</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Subfield-specific hippocampal enlargement in high-functioning autism spectrum disorder.</title>
+      <link>https://doi.org/10.1016/j.jpsychires.2026.11.042</link>
+      <guid isPermaLink="false">doi:10.1016/j.jpsychires.2026.11.042</guid>
+      <description>Journal of psychiatric research
+
+Although previous studies have reported abnormal hippocampal volumes in children and adolescents with autism spectrum disorder (ASD), the specific alterations in hippocampal subfields and their relationships with clinical symptoms in high-functioning ASD (HF-ASD) remain unclear. In this study, we analyzed T1-weighted structural MRI data from the Autism Brain Imaging Data Exchange I (ABIDE-I), including 182 children and adolescents with HF-ASD and 213 age- and sex-matched typically developing controls (TDC). Using a linear mixed-effects model, we compared hippocampal volumes between groups, and examined associations between volumes and clinical measurements. Compared to TDC, the children and adolescents with HF-ASD exhibited significantly increased volumes in the right entire hippocampus, presubiculum, subiculum, and granule cell layer of the dentate gyrus (GC-DG). No significant volumetric differences were observed within the child or adolescent subgroups, nor between these age groups. Notably, presubiculum volume showed a positive correlation with verbal scores and a negative correlation with social scores in the HF-ASD group. These findings indicate subfield-specific hippocampal overgrowth in children and adolescents with HF-ASD and presubiculum volume alteration may be a potential neuroanatomical correlate underlying verbal and social dysfunctions.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>Timing and meaning in spoken thought relate to distinct patterns of brain dynamics</title>
@@ -285,7 +306,7 @@ Objectives Rapid emotional perception in speech is crucial to efficient social c
       <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100435</guid>
       <description>Neuroimage. Reports
 
-BACKGROUND: The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. METHODS: 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. RESULTS: Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. CONCLUSIONS: L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
+The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
@@ -310,6 +331,17 @@ Picture naming is a useful paradigm for studying spoken word production because 
 Background The α-synuclein origin model proposes brain-first and body-first Parkinson's disease (PD) subtypes, with speech potentially revealing their distinct neurodegenerative patterns. Objective We aimed to analyze the possible speech and language differences between untreated PD patients with premotor (putative body-first) and without (putative brain-first) rapid eye movement sleep behavior disorder. Methods Speech samples of reading passages and monologues were automatically analyzed using acoustic and linguistic features. Results We enrolled 23 body-first and 35 brain-first de novo PD patients compared with 35 healthy controls. Brain-first patients showed greater speech impairment severity compared with body-first patients (P = 0.002) and controls (P &lt; 0.001), whereas body-first patients showed greater language impairment severity compared with brain-first patients (P &lt; 0.001) and controls (P &lt; 0.001). Conclusions Putative brain-first subtype had more motor speech abnormalities whereas body-first subtype manifested greater language impairment. Thes finding is consistent with motor-dominant nigrostriatal involvement in brain-first and broader non-motor/cognitive involvement in body-first PD. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Active L2 immersion is associated with glymphatic-related MRI markers in healthy young adults: A cross-sectional multimodal study</title>
+      <link>https://europepmc.org/article/PMC/PMC13788886</link>
+      <guid isPermaLink="false">PMC:PMC13788886</guid>
+      <description>Neuroimage. Reports
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Building Connection Through Conversation: Linguistic Convergence and Neural Complexity in Dyadic Interaction</title>
@@ -491,36 +523,6 @@ Object recognition relies on correspondence between whole objects and their subc
       <description>Hearing research
 
 Difficulties understanding speech in noise remain a common complaint even among listeners with normal hearing sensitivity, highlighting the need for objective, more effective measures of real-world listening. The goal of this study was to validate the use of a novel, chirped-speech (Cheech) stimulus-continuous, naturally-spoken speech fused with chirps designed to elicit robust auditory evoked potentials-to characterize relationships between speech recognition, listening effort, and auditory neural encoding. Twenty‑five normal‑hearing adults completed a sentence‑recognition task using both original (unmodified) and Cheech-modified AzBio sentence lists in quiet, +3 dB, and -3 dB signal-to-noise ratio (SNR) conditions while neural responses from the brainstem through cortex were recorded simultaneously. Speech recognition remained near ceiling in quiet but declined with decreasing SNR for both original and Cheech stimuli. Cheech‑modified speech showed poorer recognition performance as SNR decreased and somewhat higher perceived effort overall. Yet, Cheech was highly effective at evoking auditory responses from the brainstem (auditory brainstem response, ABR) through the cortex (including middle- and late-latency responses, MLR and LLR) even with &lt;5 min listening time per condition. Neural responses showed reduced amplitudes and prolonged latencies as SNR decreased. In general, ABR wave I latencies were associated with speech-in-noise recognition performance, whereas cortical responses (MLR Na and LLR P1 latencies) were associated with subjective workload. These findings show that Cheech‑modified speech remains intelligible, particularly in quiet and higher SNR conditions, while yielding robust, multilevel neural recordings during sentence perception, offering a promising approach to examine hierarchical auditory processing under ecologically relevant speech‑in‑noise conditions.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Preferential responses to spectrally degraded sentences in the human cortex revealed by intracranial electrophysiology.</title>
-      <link>https://doi.org/10.1016/j.heares.2026.109871</link>
-      <guid isPermaLink="false">doi:10.1016/j.heares.2026.109871</guid>
-      <description>Hearing research
-
-Despite progress in cochlear implant (CI) technology, there is considerable variability in outcomes, in part attributed to the function of central auditory pathways. Spectrally degraded sounds presented to normal-hearing listeners can be used to approximate cortical sound processing by CI users. Prior intracranial electroencephalography (iEEG) work identified "clear-preferred" and less common "vocoded-preferred" differential responses to clear and noise-vocoded non-word speech tokens. Better identification of vocoded consonants was associated with activation of the cortical dorsal auditory stream. The present study further characterized these differential responses using sentence stimuli that are expected to engage the ventral processing stream. Participants were neurosurgical epilepsy patients undergoing iEEG monitoring. Sentences were degraded using a 3-band noise vocoder. Analysis of iEEG data focused on event-related band power (ERBP) between 4-150 Hz. Differential responses (ERBP augmentation or suppression) to clear and vocoded sentences were observed both in early and late portions of the sentence, suggesting a sustained, rather than transient, nature of the preferential responses. Clear-preferred responses are likely driven by spectral complexity and intelligibility. Vocoded-preferred responses may reflect increased processing demands associated with challenging listening conditions. These responses occurred primarily in core auditory cortex and regions along the dorsal auditory stream but were virtually absent in prefrontal cortex. Identifying regions involved in the processing of degraded speech has potential clinical utility and may present candidate targets for neuromodulation-based CI rehabilitation strategies.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Reading-induced seizures: Trigger specificity and cortical localization.</title>
-      <link>https://doi.org/10.1002/epd2.70460</link>
-      <guid isPermaLink="false">doi:10.1002/epd2.70460</guid>
-      <description>Epileptic disorders : international epilepsy journal with videotape
-
-来源未提供摘要。</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Kansas City Brain Builders: associations between a multisectoral community language nutrition intervention and change in practices and growth in child language over two years</title>
-      <link>https://europepmc.org/article/PMC/PMC13751951</link>
-      <guid isPermaLink="false">PMC:PMC13751951</guid>
-      <description>Frontiers in public health
-
-来源未提供摘要。</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>

@@ -5,9 +5,40 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=rest-naturalistic</link>
     <description>静息态，以及电影、故事、自然语音与语篇理解中的脑活动</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-rest-naturalistic.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resting-State Imaging of Vestibular Migraine:Integrative Insights from Amplitude,Homogeneity,and Functional Connection.</title>
+      <link>https://doi.org/10.3881/j.issn.1000-503x.17014</link>
+      <guid isPermaLink="false">doi:10.3881/j.issn.1000-503x.17014</guid>
+      <description>Zhongguo yi xue ke xue yuan xue bao. Acta Academiae Medicinae Sinicae
+
+Vestibular migraine (VM) represents a prevalent central vestibular disorder characterized by episodic vertigo and migraine attacks,yet its neuropathological basis remains poorly understood.Resting-state functional magnetic resonance imaging has emerged as a valuable investigative tool for identifying central network dysfunction in VM,given its sensitivity in detecting spontaneous brain activity.Drawing on seed-based functional connectivity studies and measures including amplitude of low-frequency fluctuations,fractional amplitude of low-frequency fluctuations,and regional homogeneity,this review examines aberrant spontaneous activity in VM patients across the thalamus,cerebellum,frontoparietal cortex,and insula.Key pathological circuits include disrupted vestibular-thalamo-cortical projections,dysregulated pain-emotion processing networks,and compensatory recruitment of visual-spatial attention and motor pathways.These findings furnish important neuroimaging evidence for understanding the pathophysiology and identifying the potential diagnostic and therapeutic biomarkers for VM.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Whole-Brain Dynamics and Cognitive Flexibility in Level 1 ASD: An HMM-Based Approach.</title>
+      <link>https://doi.org/10.1007/s10803-026-07623-7</link>
+      <guid isPermaLink="false">doi:10.1007/s10803-026-07623-7</guid>
+      <description>Journal of autism and developmental disorders
+
+PURPOSE: Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder characterized by differences in cognitive flexibility, which are closely associated with restricted and repetitive behaviors (RRB). However, the dynamic brain network mechanisms underlying these differences remain poorly understood. This study investigated the neural correlates of cognitive flexibility difficulties in ASD by analyzing dynamic brain network features and explored their potential as diagnostic biomarkers. METHODS: We applied hidden Markov models (HMMs) to resting-state functional MRI (rs-fMRI) data to characterize dynamic brain network states in children with ASD (n = 69) and typically developing (TD) children (n = 50). Cognitive flexibility was assessed using the Behavior Rating Inventory of Executive Function (BRIEF). An independent ABIDE II dataset was used for external validation. Machine learning models evaluated the diagnostic utility of behavioral and neuroimaging markers. RESULTS: Children with ASD showed atypical brain network dynamics, specifically a reduced brain state switching rate (p &lt; 0.01) and asymmetric activation of the frontoparietal network (FPN). These alterations were significantly associated with cognitive flexibility difficulties and RRB severity in the ASD group (Benjamini-Hochberg FDR q &lt; 0.05) and generalized to the independent sample. Combining cognitive flexibility scores with brain state switching rates yielded high diagnostic accuracy (internal AUC: 0.897 (95% CI 0.812-0.963); external AUC: 0.869 (95% CI 0.781-0.943)). CONCLUSION: This study provides novel insights into the dynamic neural mechanisms underlying cognitive flexibility differences in ASD. The findings support combined behavioral and neuroimaging biomarkers for improving ASD diagnosis and lay the groundwork for individualized intervention research.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Combined Neuromelanin-Sensitive and Functional Magnetic Resonance Imaging Links Midbrain Dopaminergic Dysfunction to Connectome Architecture in First-Episode, Medication-Naïve Major Depressive Disorder.</title>
+      <link>https://doi.org/10.1016/j.biopsych.2026.11.008</link>
+      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.008</guid>
+      <description>Biological psychiatry
+
+Accumulating evidence implicates dopaminergic dysfunction in major depressive disorder (MDD), yet direct evidence of such dysfunction and of its altered coupling with the functional connectome remains limited. Using neuromelanin-sensitive MRI (NM-MRI) and resting-state fMRI, we examined differences in substantia nigra/ventral tegmental area NM-MRI signal (NMSSN/VTA) between first-episode, medication-naïve MDD patients (n = 112) and healthy controls (HC; n = 230). Network-based statistics (NBS) assessed MDD-related alterations in NMSSN/VTA-functional connectivity (FC) coupling. Spatial correspondence analyses examined the spatial convergence of these coupling alterations with normative dopaminergic molecular maps and anhedonia-related connectome patterns in MDD. Patients with MDD showed lower NMSSN/VTA, with more pronounced reductions in lateral and rostral regions. NBS identified a widespread component with altered NMSSN/VTA-FC coupling in MDD, characterized predominantly by higher slopes across attention, control, sensory, and medial temporal systems and lower slopes involving limbic-striatal and default-mode connections. Network-level analysis further identified a diagnosis-dependent NMSSN/VTA-striatal-limbic connectivity relationship, with lower NMSSN/VTA associated with higher FC in MDD. Spatially, these coupling alterations converged with dopaminergic molecular architecture, showing negative correspondence with normative dopaminergic receptor and transporter distributions and positive correspondence with the anticipatory-pleasure-related connectome pattern in MDD. These findings provide in vivo evidence of midbrain dopaminergic dysfunction and widespread disruption of dopaminergic-connectome coupling in MDD, with these coupling alterations spatially converging with anhedonia-related connectome organization. Together, these findings advance our understanding of the role of dopaminergic dysfunction in the pathophysiology of MDD.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
     <item>
       <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory.</title>
       <link>https://doi.org/10.7554/elife.111304</link>
@@ -57,7 +88,7 @@ Abstract Background Cannabis exposure is associated with altered functional conn
       <guid isPermaLink="false">doi:10.1371/journal.pone.0363060</guid>
       <description>PloS one
 
-To determine whether motor imagery (MI) based brain-computer interface (BCI) training improves upper-limb motor function in patients with subacute stroke compared with a high-fidelity sham-BCI control, and to explore accompanying structural and resting-state functional MRI changes. In this participant-blinded randomized controlled trial, 32 patients with subacute stroke were randomized to a MI-based BCI group or a high-fidelity BCI sham-control group (n = 16 each). Both groups received dose-matched training (30 min/session, 5 sessions/week for 4 weeks) in addition to standard rehabilitation. Upper-limb motor outcomes were assessed using the Fugl-Meyer Assessment-Upper Extremity (FMA-UE; primary outcome), Wolf Motor Function Test (WMFT), Motor Assessment Scale (MAS), and Modified Barthel Index (MBI). Structural MRI and resting-state functional MRI were acquired at baseline and post-intervention to assess gray matter volume (GMV) and functional connectivity (FC). Both groups showed significant improvement after the intervention. Compared with the sham-control group, the MI-based BCI group demonstrated greater gains in FMA-UE and secondary motor outcomes (WMFT and MAS), whereas the difference in MBI was not statistically significant. Voxel-based morphometry revealed a within-group increase in GMV in the contralesional supplementary motor area (SMA) in the MI-based BCI group; however, no significant between-group GMV difference was observed. The MI-based BCI group also exhibited increased resting-state FC between the SMA and the ipsilesional cerebellar lobule IX and fusiform gyrus. Changes in FC were associated with improvements in FMA-UE, WMFT, and MBI, but not MAS. Compared with a high-fidelity sham-control group, MI-based BCI group training was associated with greater upper-limb motor recovery in patients with subacute stroke, accompanied by changes in structural and functional neuroimaging measures involving motor-related regions and connections. Larger randomized controlled trials with longer follow-up are required to confirm durability and clinical relevance. Chinese Clinical Trial Registry ChiCTR2100052452.</description>
+Objective To determine whether motor imagery (MI) based brain-computer interface (BCI) training improves upper-limb motor function in patients with subacute stroke compared with a high-fidelity sham-BCI control, and to explore accompanying structural and resting-state functional MRI changes. Method In this participant-blinded randomized controlled trial, 32 patients with subacute stroke were randomized to a MI-based BCI group or a high-fidelity BCI sham-control group (n = 16 each). Both groups received dose-matched training (30 min/session, 5 sessions/week for 4 weeks) in addition to standard rehabilitation. Upper-limb motor outcomes were assessed using the Fugl-Meyer Assessment-Upper Extremity (FMA-UE; primary outcome), Wolf Motor Function Test (WMFT), Motor Assessment Scale (MAS), and Modified Barthel Index (MBI). Structural MRI and resting-state functional MRI were acquired at baseline and post-intervention to assess gray matter volume (GMV) and functional connectivity (FC). Results Both groups showed significant improvement after the intervention. Compared with the sham-control group, the MI-based BCI group demonstrated greater gains in FMA-UE and secondary motor outcomes (WMFT and MAS), whereas the difference in MBI was not statistically significant. Voxel-based morphometry revealed a within-group increase in GMV in the contralesional supplementary motor area (SMA) in the MI-based BCI group; however, no significant between-group GMV difference was observed. The MI-based BCI group also exhibited increased resting-state FC between the SMA and the ipsilesional cerebellar lobule IX and fusiform gyrus. Changes in FC were associated with improvements in FMA-UE, WMFT, and MBI, but not MAS. Conclusion Compared with a high-fidelity sham-control group, MI-based BCI group training was associated with greater upper-limb motor recovery in patients with subacute stroke, accompanied by changes in structural and functional neuroimaging measures involving motor-related regions and connections. Larger randomized controlled trials with longer follow-up are required to confirm durability and clinical relevance. Trial registration Chinese Clinical Trial Registry ChiCTR2100052452.</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>结构与功能</category>
       <category>静息态与自然刺激</category>
@@ -479,6 +510,17 @@ Background Methadone maintenance treatment(MMT) for opioid use disorder(OUD) may
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Active L2 immersion is associated with glymphatic-related MRI markers in healthy young adults: A cross-sectional multimodal study</title>
+      <link>https://europepmc.org/article/PMC/PMC13788886</link>
+      <guid isPermaLink="false">PMC:PMC13788886</guid>
+      <description>Neuroimage. Reports
+
+来源未提供摘要。</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Building Connection Through Conversation: Linguistic Convergence and Neural Complexity in Dyadic Interaction</title>
       <link>https://doi.org/10.31234/osf.io/aqvr7_v1</link>
       <guid isPermaLink="false">doi:10.31234/osf.io/aqvr7_v1</guid>
@@ -487,47 +529,6 @@ Background Methadone maintenance treatment(MMT) for opioid use disorder(OUD) may
 Interpersonal connection emerges through conversation. Theories of interpersonal communication hold that conversational partners increasingly align in how they express meaning, build on one another’s contributions, and experience connection. Yet how such alignment unfolds during a conversation, and how it relates to the experience of a “good” interaction, remains largely untested. Seventy dyads of previously unacquainted individuals held naturalistic conversations while dual functional near-infrared spectroscopy (fNIRS) recorded neural activity. We measured semantic alignment using convergence entropy and substantive exchange, the number of adjacent turns in which both partners contributed contentful talk. Contrary to a convergence account, dyads broadened their semantic range over time. Subjective experience was predicted not by semantic alignment but by substantive exchange, particularly in shallow-prompt conversations. Neurally, inter-brain synchrony tracked substantive exchange, whereas semantic alignment was reflected in partners’ matched turn-to-turn neural dynamics. First conversations build connection through reciprocal, substantive exchange, with distinct linguistic and neural signatures.</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Building Connection Through Conversation: Linguistic Convergence and Neural Complexity in Dyadic Interaction</title>
-      <link>https://doi.org/10.31234/osf.io/aqvr7</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/aqvr7</guid>
-      <description>[预印本] PsyArXiv
-
-Interpersonal connection emerges through conversation. Theories of interpersonal communication hold that conversational partners increasingly align in how they express meaning, build on one another’s contributions, and experience connection. Yet how such alignment unfolds during a conversation, and how it relates to the experience of a “good” interaction, remains largely untested. Seventy dyads of previously unacquainted individuals held naturalistic conversations while dual functional near-infrared spectroscopy (fNIRS) recorded neural activity. We measured semantic alignment using convergence entropy and substantive exchange, the number of adjacent turns in which both partners contributed contentful talk. Contrary to a convergence account, dyads broadened their semantic range over time. Subjective experience was predicted not by semantic alignment but by substantive exchange, particularly in shallow-prompt conversations. Neurally, inter-brain synchrony tracked substantive exchange, whereas semantic alignment was reflected in partners’ matched turn-to-turn neural dynamics. First conversations build connection through reciprocal, substantive exchange, with distinct linguistic and neural signatures.</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Association of scan time with resting-state functional connectivity discriminability: effects of temporal alignment.</title>
-      <link>https://doi.org/10.1016/j.neuroscience.2026.11.004</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.004</guid>
-      <description>Neuroscience
-
-Resting-state functional connectivity (FC) is increasingly used to probe individual differences in brain organization, but individual-level FC discriminability may vary across repeated acquisitions related to arousal, physiology, and endogenous brain state. Acquisition-time variation may be a systematic contributor to this variability, yet its impact on FC discriminability has not been well characterized. Multi-session resting-state fMRI data from the Human Connectome Project were analyzed using minimally preprocessed and ICA-FIX-denoised BOLD time series. Whole-brain and network-level FC matrices were constructed after atlas-based parcellation, and sessions were grouped into one-hour daytime bins. Discriminability was computed to quantify how well repeated FC profiles from the same individual could be distinguished from those of other individuals, and grouped versus ungrouped estimates were compared. Temporal alignment of scans according to acquisition time substantially improved FC discriminability across both test-retest configurations. Whole-brain discriminability increased from 0.29 to 0.61 in one configuration and from 0.31 to 0.60 in the other. Similar gains were observed across canonical networks, with robust improvements in the default mode, dorsal attention, frontoparietal, and visual networks. These findings show that acquisition-time grouping was associated with higher FC discriminability in this HCP sample. Incorporating acquisition-time structure into rs-fMRI acquisition and analysis may enhance connectome fingerprinting and improve FC discriminability.</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Complex Spatial and Temporal Organization of Functional Brain Networks.</title>
-      <link>https://doi.org/10.64898/2026.11.12.766207</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.12.766207</guid>
-      <description>[预印本] bioRxiv : the preprint server for biology
-
-Recent research exploring brain-behavior associations has relied on the language of complex systems to understand how stable behavioral individual differences emerge from brain function. At the same time, advances in neuroimaging have provided greater insight into both the topological and temporal properties of macroscale cortical networks. These new approaches offer a potential avenue for understanding how functional activity in the brain might behave in a manner that aligns with complex-systems interpretations of psychological traits. The present study used resting-state data from the Human Connectome project ( N = 994) to explore associations between the spatial and temporal features of functional brain networks. Using an adaptive frequency approach to explore brain function at different timescales together with a family of methods from complex systems theory, we identified patterns of brain state organization reflecting a state-trait continuum, with more stable trait-like dynamics and greater functional coupling between networks in lower frequency oscillations. Additionally, we found evidence of greater coupling across timescales in brain networks associated with higher-order cognition. This research supports interpretations of brain organization as a spatiotemporal hierarchy and provides future avenues for exploring brain-behavior associations from a complex system perspective.</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Excitation-inhibition imbalance in depression and the limits of observability: cohort-level inference from resting-state EEG with an amortised three-region Wilson-Cowan model</title>
-      <link>https://doi.org/10.31234/osf.io/5cx93_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/5cx93_v2</guid>
-      <description>[预印本] PsyArXiv
-
-Depression is widely thought to involve an imbalance between neuronal excitation and inhibition, but the idea has rarely been tested quantitatively at the level of macroscopic brain networks, because dynamical models are hard to fit to EEG spectra and fitting them person by person is prohibitively slow. We present a complete, reproducible pipeline that makes such a test possible, and we report where it succeeds and where it does not. Using eyes-closed resting-state EEG from 117 participants (22 with lifetime major depressive disorder, 95 without), we fitted a three-region excitatory-inhibitory network model with an amortised Bayesian method, in which a single shared library of simulations serves every participant and reduces inference to milliseconds per person. Depressed participants showed a consistent shift towards excitation in three core networks, together with a stronger inhibitory loop gain and a lower operating-point drive. The model's default-mode resonance frequency rose with symptom severity, whereas the conventional peak-frequency estimate computed from the same recordings did not. We then asked what the model actually buys. For distinguishing groups it did not outperform simple spectral measures, and its per-person low-frequency predictions were poor, so we restrict our claims accordingly. A real-time state observer detected sudden shifts in the network's operating point within milliseconds, yet could not reconstruct the moment-to-moment state, a limit set by the model's intrinsic randomness rather than by our algorithm. Finally, a dose-matched control showed that closed-loop stimulation is no more accurate than a fixed stimulus at the same dose, so we report the real-time feasibility of the loop without claiming an accuracy advantage. The contribution of the paper is therefore a reusable, calibrated inference pipeline together with an explicit map of its limits, including negative findings that we deliberately kept as results.</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
   </channel>
