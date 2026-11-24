@@ -5,9 +5,31 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=brain-disorders</link>
     <description>关注期刊中，借助脑疾病与脑损伤研究认知、脑发育和功能可塑性</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:28:40 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-brain-disorders.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Differential vulnerability of stimulus-locked and persistent gamma oscillations: Implications in schizophrenia.</title>
+      <link>https://doi.org/10.1371/journal.pcbi.1014374</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pcbi.1014374</guid>
+      <description>PLoS computational biology
+
+Working memory depends on gamma oscillations generated across sensory and prefrontal cortices. In primary visual cortex (V1), stimulus-locked gamma oscillations encode stimulus information, while in prefrontal cortex (PFC), persistent gamma oscillations maintain this information after the stimulus is removed. In schizophrenia (SZ), gamma power is reduced in both V1 and PFC, consistent with deficits in sensory encoding and working memory maintenance. Both oscillation regimes arise from a canonical microcircuit involving pyramidal neurons (PNs) and parvalbumin-expressing interneurons (PVIs). Yet, whether the two regimes are similarly or differentially vulnerable to synaptic alterations within this circuit in SZ remains unknown. To investigate this question, we used a mean-field model of the PN-PVI circuit, in which the two regimes were distinguished by NMDA conductance values reflecting the difference in GluN2B expression between human PFC and V1. We then assessed three synaptic alterations quantified using molecular and structural proxies in postmortem SZ brains: lower excitatory inputs to PVIs (E→I), lower inhibitory inputs to PNs (I→E), and greater variability in E→I strength. Each alteration produced larger gamma power deficits in the persistent regime than in the stimulus-locked regime. Applied together, these alterations interacted synergistically to reduce gamma power, with the persistent regime exhibiting a more pronounced deficit. Bifurcation analyses revealed that this differential vulnerability arises from a wider margin of oscillatory stability in the stimulus-locked regime, and that reduced I→E strength additionally abolished the bistability required for the persistent regime. These findings predict that a larger magnitude of synaptic alteration is required to disrupt gamma oscillations in V1 than in PFC, consistent with postmortem reports of more severe alterations in V1 in SZ. Together, they establish a differential vulnerability model of cortical gamma oscillations in SZ, in which regional differences in oscillatory stability determine how much synaptic alteration is required to disrupt oscillations with distinct dynamics.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Poorer inhibition and switching are associated with lower white matter fibre density in the superior longitudinal fasciculus in groups clinically at-risk of probable Alzheimer's disease dementia.</title>
+      <link>https://doi.org/10.1007/s00415-026-14266-2</link>
+      <guid isPermaLink="false">doi:10.1007/s00415-026-14266-2</guid>
+      <description>Journal of neurology
+
+Executive dysfunction and white matter microstructural alterations in the superior longitudinal fasciculus (SLF) may occur in the clinically defined at-risk groups of Alzheimer's disease (AD) dementia and be potentially useful and early markers of risk. We used diffusion-weighted MRI and fixel-based analysis to investigate inhibition/switching executive functioning and white matter properties of three SLF subdivisions (SLF 1, SLF 2, SLF 3) in groups clinically at-risk of AD-dementia: controls (C; n = 35), subjective cognitive decline (SCD; n = 60), single-domain amnestic mild cognitive impairment (aMCI; n = 55), and multiple-domain amnestic MCI (mMCI; n = 52). Individuals with probable AD-dementia (n = 27) were also compared with controls. Linear trend analyses showed increasingly poorer executive functioning performance and lower fibre density (FD) in the right SLF 2 and bilateral SLF 3 across groups. Analysis of covariance (age, sex) revealed SCD and mMCI groups had lower FD bilaterally in the SLF 3 than controls. The AD-dementia group showed more extensively reduced FD in four of the six SLF divisions, and lower fibre density cross-section (FDC) in five of the six SLF divisions than controls. Partial least-squares (PLS) analyses showed that poorer executive functioning, but not processing speed, was associated with lower FD in the SLF in the at-risk sample. This pattern was also found in AD-dementia/controls PLS, which additionally showed this association with FDC. Collectively, our results implicate altered microstructural fibre properties in the SLF and poorer executive functioning in groups at risk of AD-dementia, with FD changes in SLF present in SCD, prior to objective cognitive decline.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Age-Dependent Efficiency of MRI Monitoring in Treated Multiple Sclerosis.</title>
       <link>https://doi.org/10.1001/jamaneurol.2026.4318</link>
@@ -35,7 +57,7 @@ Psychiatric disorders are increasingly conceptualized as disruptions in brain dy
       <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.008</guid>
       <description>Biological psychiatry
 
-Accumulating evidence implicates dopaminergic dysfunction in major depressive disorder (MDD), yet direct evidence of such dysfunction and of its altered coupling with the functional connectome remains limited. Using neuromelanin-sensitive MRI (NM-MRI) and resting-state fMRI, we examined differences in substantia nigra/ventral tegmental area NM-MRI signal (NMSSN/VTA) between first-episode, medication-naïve MDD patients (n = 112) and healthy controls (HC; n = 230). Network-based statistics (NBS) assessed MDD-related alterations in NMSSN/VTA-functional connectivity (FC) coupling. Spatial correspondence analyses examined the spatial convergence of these coupling alterations with normative dopaminergic molecular maps and anhedonia-related connectome patterns in MDD. Patients with MDD showed lower NMSSN/VTA, with more pronounced reductions in lateral and rostral regions. NBS identified a widespread component with altered NMSSN/VTA-FC coupling in MDD, characterized predominantly by higher slopes across attention, control, sensory, and medial temporal systems and lower slopes involving limbic-striatal and default-mode connections. Network-level analysis further identified a diagnosis-dependent NMSSN/VTA-striatal-limbic connectivity relationship, with lower NMSSN/VTA associated with higher FC in MDD. Spatially, these coupling alterations converged with dopaminergic molecular architecture, showing negative correspondence with normative dopaminergic receptor and transporter distributions and positive correspondence with the anticipatory-pleasure-related connectome pattern in MDD. These findings provide in vivo evidence of midbrain dopaminergic dysfunction and widespread disruption of dopaminergic-connectome coupling in MDD, with these coupling alterations spatially converging with anhedonia-related connectome organization. Together, these findings advance our understanding of the role of dopaminergic dysfunction in the pathophysiology of MDD.</description>
+Background Accumulating evidence implicates dopaminergic dysfunction in major depressive disorder (MDD), yet direct evidence of such dysfunction and of its altered coupling with the functional connectome remains limited. Methods Using neuromelanin-sensitive MRI (NM-MRI) and resting-state fMRI, we examined differences in substantia nigra/ventral tegmental area NM-MRI signal (NMSSN/VTA ) between first-episode, medication-naïve MDD patients (n = 112) and healthy controls (HC; n = 230). Network-based statistics (NBS) assessed MDD-related alterations in NMSSN/VTA -functional connectivity (FC) coupling. Spatial correspondence analyses examined the spatial convergence of these coupling alterations with normative dopaminergic molecular maps and anhedonia-related connectome patterns in MDD. Results Patients with MDD showed lower NMSSN/VTA , with more pronounced reductions in lateral and rostral regions. NBS identified a widespread component with altered NMSSN/VTA -FC coupling in MDD, characterized predominantly by higher slopes across attention, control, sensory, and medial temporal systems and lower slopes involving limbic-striatal and default-mode connections. Network-level analysis further identified a diagnosis-dependent NMSSN/VTA -striatal-limbic connectivity relationship, with lower NMSSN/VTA associated with higher FC in MDD. Spatially, these coupling alterations converged with dopaminergic molecular architecture, showing negative correspondence with normative dopaminergic receptor and transporter distributions and positive correspondence with the anticipatory-pleasure-related connectome pattern in MDD. Conclusions These findings provide in vivo evidence of midbrain dopaminergic dysfunction and widespread disruption of dopaminergic-connectome coupling in MDD, with these coupling alterations spatially converging with anhedonia-related connectome organization. Together, these findings advance our understanding of the role of dopaminergic dysfunction in the pathophysiology of MDD.</description>
       <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
       <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
@@ -50,6 +72,18 @@ Brain functional networks exhibit an intrinsic architecture that is preserved ac
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
       <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>MAMBAxBrain: A multi-task neural framework linking brain functional dynamics to individual fingerprints, cognitive and disease states.</title>
+      <link>https://doi.org/10.1162/imag.a.1464</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1464</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Functional magnetic resonance imaging (fMRI) contains rich individual, cognitive, and pathological information, yet no universal model exists for multi-task modeling of these dimensions. Here, we introduce MAMBAxBrain, a multi-task neural framework that integrates Mamba architecture with functional connectivity analysis to jointly model the temporal dynamics and spatial coordination of neural activity. MAMBAxBrain achieves high accuracy across four distinct fMRI objectives, including brain fingerprinting, cognitive task decoding, reaction time prediction, and schizophrenia classification, consistently outperforming state-of-the-art methods with robust cross-session generalization. Interpretability analyses show that each task engages distinct, biologically plausible circuitry: from higher-order association cortex for identity to subcortical-motor loops for reaction time and disrupted control-sensory connectivity for schizophrenia. These findings inform a longstanding debate: rather than operating through wholly separate or entirely shared systems, the brain preferentially recruits task-specific circuits while retaining common representational structure across functions.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Causal dynamic resonance reduces false positives in detecting causality.</title>
@@ -398,6 +432,17 @@ Rich-club organization is a topographical property of functional brain networks 
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Serum uric acid change, regional brain activity, and cognitive impairment after herpes simplex encephalitis: a prospective two-center cohort study.</title>
+      <link>https://doi.org/10.3389/fneur.2026.1952332</link>
+      <guid isPermaLink="false">doi:10.3389/fneur.2026.1952332</guid>
+      <description>Frontiers in neurology
+
+Cognitive impairment is common after herpes simplex encephalitis (HSE). We examined associations of the acute-to-follow-up change in serum uric acid with regional spontaneous brain activity and cognitive status. This prospective two-center cohort included 55 adults with polymerase chain reaction-confirmed HSE and 30 healthy controls. At follow-up, HSE participants underwent neuropsychological testing, serum sampling, and resting-state functional magnetic resonance imaging. Cognitive impairment was defined as a Montreal Cognitive Assessment score below 26 or a memory or executive-function Z-score of -1.5 or lower. The sole primary analysis compared whole-brain fractional amplitude of low-frequency fluctuation (fALFF) between HSE participants with cognitive impairment (HSE-CD) and healthy controls. Secondary analyses used adjusted linear regression, restricted cubic splines and subgroup models and were considered exploratory. Twenty-six participants were classified as HSE-CD and 29 as HSE without cognitive impairment (HSE-noCD). Acute-phase urate was lower in HSE-CD (p = 0.002), whereas follow-up urate (p = 0.116) and ΔUA (p = 0.454) did not differ significantly between HSE groups. Compared with healthy controls, HSE-CD had higher fALFF in the right insula and right lingual gyrus and lower fALFF in the right thalamus and left hippocampus. Of nine evaluated regions, these four remained significant after whole-brain voxelwise FWE correction (P_FWE &lt; 0.05). In adjusted exploratory models, ΔUA was negatively associated with right-insular and right-lingual fALFF and positively associated with left-hippocampal fALFF (all nominal p &lt; 0.05). Regional fALFF was also associated with memory and executive performance in selected regions. Spline models of binary regional abnormality and cognitive impairment showed no significant overall or nonlinear associations. ΔUA was associated with fALFF in three regions, and regional fALFF was associated with domain-specific cognitive performance after HSE. These exploratory associations warrant independent validation and do not establish causality or a clinical urate threshold.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>脑疾病机理</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Load-dependent brain network reconfiguration deficits in childhood ADHD revealed by source-space MEG and Graph Transformer modeling.</title>
       <link>https://doi.org/10.1016/j.dcn.2026.101845</link>
       <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101845</guid>
@@ -486,6 +531,18 @@ Somatic depression is a distinct subtype of major depressive disorder, with a po
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Brain sagging syndrome: Longitudinal imaging and neuropsychological evidence of a potentially reversible disconnection syndrome.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.11.001</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.11.001</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Brain sagging syndrome (BSS) is a rare, potentially reversible disorder caused by downward displacement of the diencephalon and midbrain. It can produce cognitive and behavioural symptoms resembling behavioural variant frontotemporal dementia, but the underlying mechanisms remain unclear. We report a seven-year longitudinal case study combining serial neuropsychological assessment, structural MRI, FDG-PET, and diffusion tractography. The patient developed neurological, cognitive, and behavioural symptoms, including apathy, disinhibition, executive dysfunction, hypersomnolence, and memory impairment. Clinical severity did not closely track MRI-defined sagging. FDG-PET showed frontotemporal cortical, thalamic, and cerebellar hypometabolism, with substantial metabolic recovery during clinical improvement. Tractography revealed abnormalities mainly affecting midbrain projection pathways, while major hemispheric association and commissural tracts were relatively preserved. Neuropsychiatric symptoms ultimately resolved despite persistent structural abnormalities. BSS may be best understood as a network disconnection syndrome. Selective disruption of mesodiencephalic projection pathways and recovery of cortical metabolism support a diaschisis mechanism, explaining both its resemblance to frontotemporal dementia and its potential reversibility.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
       <title>Mapping Individual Brain Deviations in ICD-11 Catatonia: Normative Modeling of Structural and Functional MRI Across Two Independent Cohorts.</title>
       <link>https://doi.org/10.1176/appi.ajp.20260326</link>
       <guid isPermaLink="false">doi:10.1176/appi.ajp.20260326</guid>
@@ -493,59 +550,6 @@ Somatic depression is a distinct subtype of major depressive disorder, with a po
 
 Catatonia is a transdiagnostic psychomotor syndrome cutting across mood disorders (MODs) and schizophrenia spectrum disorders (SSDs). However, its neurobiological profiles remain poorly characterized. The authors examined structural and resting-state functional normative deviations associated with catatonia across two independent clinical cohorts, using hierarchical Bayesian normative modeling. Structural and resting-state functional MRI data were analyzed from two independent deeply phenotyped cohorts of 280 patients with MODs and SSDs. The Mannheim (Germany) sample included 184 patients with MODs or SSDs (58 with ICD-11 catatonia), and the Bern (Switzerland) sample comprised 96 SSD patients (59 with ICD-11 catatonia). Individual deviations from normative models were estimated using the PCNToolkit, based on healthy reference datasets (N=57,000 structural; N=22,000 functional). Catatonia diagnosis was associated with significant ventricular enlargement (third ventricle and left and right lateral ventricles; q&lt;0.05) and cortical thinning in the left dorsal posterior cingulate and insular cortices (q&lt;0.05) across both cohorts. Exploratory analyses identified a significant left orbitofrontal cortex (OFC) difference between MOD and SSD patients with catatonia. In the overall catatonia versus non-catatonia comparison, the OFC association survived false discovery rate correction only in models adjusted for demographic variables. Resting-state functional analyses showed reduced connectivity between sensorimotor, salience, limbic, and executive control networks at the nominal significance level, but did not survive correction for multiple comparisons. In the combined sample, catatonia was characterized by ventricular enlargement and cingulo-insular cortical thinning, supporting a transdiagnostic model implicating distributed motor-salience integration circuits. These findings provide reproducible, individual-level evidence for distributed brain network involvement in catatonia and identify candidate regions for future mechanistic and neuromodulation studies.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Opposing effects of childhood abuse and neglect on neural performance monitoring.</title>
-      <link>https://doi.org/10.1162/imag.a.1439</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1439</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-The dimensional model of adversity proposes that threat (abuse) and deprivation (neglect) exert distinct effects on neurocognitive development. We tested whether these dimensions show opposing associations with neural indices of performance monitoring in a sample of 782 young adults from the CoScience EEG-Personality Project. Participants completed the Childhood Trauma Questionnaire alongside an Eriksen flanker task while electroencephalography was recorded. Performance monitoring was indexed by the error-related negativity and frontal midline theta activity. Consistent with preregistered hypotheses, abuse and neglect showed opposing associations with both neural measures. Higher abuse was associated with enhanced error-related negativity but not theta power, whereas higher neglect was associated with attenuated error-related negativity and reduced theta power. Exploratory analyses indicated that these associations were moderated by sex, with stronger effects observed in males. These findings are consistent with the distinction between threat- and deprivation-related adversity and suggest that different forms of childhood adversity may be linked to variation in neurocognitive processes underlying cognitive control. However, the cross-sectional and retrospective nature of the measures limits causal inference and may introduce reporting biases.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer's disease progression.</title>
-      <link>https://doi.org/10.1126/sciadv.aed9351</link>
-      <guid isPermaLink="false">doi:10.1126/sciadv.aed9351</guid>
-      <description>Science advances
-
-Identifying the neurobiological basis of cognitive vulnerability is essential for preventing Alzheimer's disease (AD). We derived the Alzheimer's Resilience-Vulnerability Connectome (ARC) by contrasting SuperAgers (SA), an extreme phenotype of preserved late-life memory, with AD using resting-state fMRI. ARC distinguished SA from AD in a discovery cohort (N = 290; AUC = 0.85) and replicated independently (N = 143), involving prefrontal, temporal, and insular networks and associating with brain age. Applied to cognitively unimpaired adults (discovery: N = 818; replication: N = 497), ARC-based subtyping revealed SA-like and AD-like subgroups with comparable baseline cognition but divergent longitudinal trajectories. AD-like individuals exhibited faster cognitive decline, greater amyloid-β accumulation, and higher AD conversion risk. Exploratory GWAS nominated CLYBL and FRMD6 as candidate novel loci associated with the subtype difference. These findings suggest that ARC captures a continuous connectomic dimension of cognitive aging spanning SA, cognitively typical aging, and AD, highlighting the potential of functional connectomic variation for early risk stratification in AD.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Mapping brain imaging heterogeneity in multiple sclerosis.</title>
-      <link>https://doi.org/10.1093/brain/awag349</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag349</guid>
-      <description>Brain : a journal of neurology
-
-来源未提供摘要。</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Aggression in epilepsy and sleep: from historical accounts to brain networks and human behaviour.</title>
-      <link>https://doi.org/10.1093/brain/awag212</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag212</guid>
-      <description>Brain : a journal of neurology
-
-For a long time, epilepsy has been associated with violent behaviour, acquiring a highly stigmatizing reputation, shaped mainly by 19th century medical theories that postulated a direct connection between epilepsy and the criminal personality. Such stigma exerts a negative effect on the quality of life of people with epilepsy and remains a significant concern in forensic settings. This narrative review aims to provide a thorough exploration of the relationship between epilepsy and aggression, highlighting the misconceptions that contribute to this stigma. The evidence presented in this review draws on the authors' experience and a PubMed search conducted in December 2024. The manuscript is organized into five sections, addressing: (i) the historical and cultural background of epilepsy and violence; (ii) the clinical features of aggression as a peri-ictal manifestation; (iii) the neural networks underlying aggression in epilepsy; (iv) aggression in sleep-related disorders, an area closely related to epilepsy, where clinical interest and reports of sleep-related violent episodes have increased progressively in recent years; and (v) forensic considerations. In total, 326 records were identified through the PubMed search. Only papers relevant to the topics were included. Relevant publications were also added manually from the authors' own files. One hundred and thirty-two studies were ultimately included in this narrative review. The review, addressing the topic from a historical perspective, traces the evolution of stigma and the concept of the 'epileptic personality', from early observations to contemporary understanding. Next, we explore aggression and violence as peri-ictal manifestations, examining both their clinical characteristics and the brain networks implicated in the generation of aggressive behaviours during seizures. We try to elucidate the neurobiological substrates underlying these manifestations using intracerebral recordings. We then turn to violence associated with parasomnias, analysing and comparing the mechanisms underlying aggression and violence occurring in epileptic seizures with those observed during sleep in parasomnias, integrating evidence from intracranial EEG studies of disorders of arousal. This comparison highlights key similarities, differences and the risk of a misdiagnosis. Finally, we address the legal and forensic implications of seizure- and sleep-related aggression and violence. Epileptic seizures and parasomnias can cause injuries to the affected person or to those nearby, but they can rarely be truly classified as acts of violence. However, although aggressive behaviour is uncommon during seizures, it may lead to legal consequences. Despite efforts from scientific societies and patient organizations, the stigma of epilepsy persists, requiring further action and a deeper scientific understanding of this subject.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Dissociating executive prefrontal substrates following capsulotomy in obsessive-compulsive disorder.</title>
-      <link>https://doi.org/10.1093/brain/awag132</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag132</guid>
-      <description>Brain : a journal of neurology
-
-Obsessive-compulsive disorder (OCD) is characterized by widespread executive function impairments linked to disrupted frontostriatal circuits. Ablative therapies such as capsulotomy show promising efficacy in treatment-refractory OCD, yet their effects on executive neural substrates remain poorly understood. This study explores how OCD and capsulotomy influence executive prefrontal function. Twenty-three post-capsulotomy OCD patients, 30 OCD controls and 32 health controls (HC) were recruited in the study. Post-capsulotomy patients were recruited at least 6 months following surgery to allow for postoperative stabilization. Participants completed three executive function tasks assessing distinct cognitive domains: the Extra-Dimensional Intra-Dimensional (EDID) task testing set-shifting, the N-back task testing working memory and the Flanker task measuring conflict processing. The EDID and N-back tasks were administered during concurrent task-based functional MRI, while the Flanker task provided only behavioural measures. In the EDID task, OCD capsulotomy patients demonstrated greater post-error flexibility towards ID versus ED shifting relative to both OCD controls and HC, despite exhibiting more ED errors. OCD controls showed less shifts after errors compared with HC, which was not revealed in the capsulotomy group. OCD patients showed less neural differentiation between ED versus ID in lateral and mesial prefrontal regions relative to HC. Capsulotomy was associated with decreased pre-supplementary motor area activity to ED shifts compared with HC, indicating impairments in neural reactivity to ED shifting. No evidence supported the influence of capsulotomy in the N-back or the Flanker tasks. Specifically, both OCD groups showed impaired working memory performance at high memory load along with dysfunction in the whole frontoparietal network. In the Flanker task, impairments in dissociating congruent and incongruent conditions were found in both OCD groups but not in the HC group. These findings suggest capsulotomy specifically remediates error-monitoring and behavioural flexibility through mesial prefrontal remodelling, while leaving working memory and conflict processing deficits intact. This dissociation implies that cognitive flexibility may represent a state-dependent process amenable to intervention, whereas working memory and conflict processing impairments may reflect trait markers of OCD vulnerability. These results have clinical implications on the relative safety profile of capsulotomy and patient selection for precision neuromodulation.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
       <category>脑疾病机理</category>
     </item>
   </channel>

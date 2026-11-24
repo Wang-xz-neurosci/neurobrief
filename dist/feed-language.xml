@@ -5,9 +5,122 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:28:40 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal neuroimaging fusion with interpretable deep learning for speech motor dysfunction in Parkinson's disease.</title>
+      <link>https://doi.org/10.1371/journal.pdig.0001864</link>
+      <guid isPermaLink="false">doi:10.1371/journal.pdig.0001864</guid>
+      <description>PLOS digital health
+
+Speech motor dysfunction affects approximately 90% of patients with Parkinson's disease (PD), but multimodal neuroimaging models for prediction of this impairment remain limited. We developed MCTA-FusNet, an interpretable deep learning framework that integrates structural, resting-state functional, and diffusion MRI to predict speech motor dysfunction in PD. The model incorporates modality-specific encoders and a hierarchical triple-attention fusion mechanism to capture channel-, spatial-, and modality-level interactions. Using cross-domain transfer learning, MCTA-FusNet was first pretrained on the PPMI dataset (n = 400) to predict motor symptom severity (UPDRS-III) and then fine-tuned on the FAH-SYSU dataset (n = 81) to predict speech motor dysfunction, indexed by vocal response magnitude (VRMag) to pitch perturbations. MCTA-FusNet outperformed all unimodal and multimodal models with transfer learning, achieving the lowest mean absolute error (1.388 ± 0.62) and highest correlation between predicted and observed VRMag (r = 0.731, p &lt; 0.001). Interpretability analyses identified the superior temporal gyrus, primary motor cortex, premotor cortex, and supplementary motor area as key predictors, with greater coherence and phase synchrony between auditory and premotor regions significantly correlated with exaggerated VRMag. These findings establish a multimodal neuroimaging deep learning model for predicting and explaining speech motor dysfunction in PD, offering a novel framework with potential for symptom-specific monitoring and therapeutic intervention.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Predictors of Recovery From Aphasia After Stroke.</title>
+      <link>https://doi.org/10.1161/strokeaha.126.055602</link>
+      <guid isPermaLink="false">doi:10.1161/strokeaha.126.055602</guid>
+      <description>Stroke
+
+Predicting recovery from aphasia after stroke is challenging, yet essential. Accurate prognoses would enable stroke survivors and families to establish realistic expectations and make informed decisions, allow clinicians to plan rehabilitation, and inform the development and implementation of interventions. This review synthesizes current evidence on predictors of aphasia recovery, integrating diverse biological, behavioral, environmental, and temporal determinants into a unified conceptual framework organized around 3 fundamental determinants: the integrity of the language network, neuroplasticity throughout the remaining brain, and the passage of time. Lesion location and extent are powerful predictors, accounting for more than half of the variance in aphasia outcomes, but other interacting factors contribute to heterogeneous recovery trajectories, including variability in language network organization and effects of diaschisis. The capacity for neuroplasticity depends on the brain health and functionality of surviving tissue, but the realization of this potential depends critically on engagement in language use, which can be promoted by intensive speech-language therapy, social participation and supportive communication environments. Recovery follows a predictable decelerating time course, with rapid early gains driven primarily by reperfusion and resolution of dysfunction in brain regions that support language, and modest but meaningful longer-term improvements deriving from neuroplastic changes. This framework provides a practical heuristic for understanding aphasia recovery, developing clinical prediction tools, and identifying modifiable factors to optimize outcomes.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Hyperactivity of the posterior cingulate cortex during interpreting communicative intentions based on the speaker-listener relationship in autism spectrum disorder.</title>
+      <link>https://doi.org/10.1080/17470919.2026.2765413</link>
+      <guid isPermaLink="false">doi:10.1080/17470919.2026.2765413</guid>
+      <description>Social neuroscience
+
+Speakers' intended meanings are often inferred from extra-linguistic social factors such as the speaker-listener relationship, yet how individuals with autism spectrum disorder (ASD) incorporate such relational cues remains unclear. Using fMRI, we investigated whether and how individuals with autism utilize speaker-listener relationship cues to interpret communicative intentions. Twenty adults with ASD and 20 matched typically developed (TD) controls completed a discourse comprehension task where the interpretation of a target remark depended on the speaker-listener relationship or not. Behaviorally, both groups showed faster reactions in the social factor condition, indicating that the social context facilitated their responses. However, the ASD group was less accurate overall. Across the groups, core discourse regions, including the medial prefrontal cortex and inferior frontal gyrus, were engaged. Critically, ASD participants exhibited increased activation in the posterior cingulate cortex (PCC), whereas TD participants showed PCC deactivation. Functional connectivity analyses further indicated reduced PCC connectivity with the left angular gyrus and right fusiform gyrus in ASD compared with TD. These findings suggest that, despite broadly comparable task engagement, individuals with ASD rely on different PCC-centered neural mechanisms when integrating speaker-listener relationship information to infer communicative intentions.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Content-related motor cortical representation during attempted handwriting.</title>
+      <link>https://doi.org/10.1016/j.celrep.2026.118324</link>
+      <guid isPermaLink="false">doi:10.1016/j.celrep.2026.118324</guid>
+      <description>Cell reports
+
+Humans are superb at handwriting, and we can write in diverse ways, such as with a pen or with a fingertip. Remarkably, although different ways of writing involve divergent muscle activations, we can easily transfer our writing skill from one way to another without deliberate practice. Here, we investigated the neural substrates of this phenomenon by recording single-unit activity from the human motor cortex (MC) while a paralyzed participant attempted to write the same symbols under three effector conditions. Our results show that MC activity contains both content-related and effector-related information. Population analyses further indicate a content-related neural latent space shared across effector conditions. These findings suggest that a shared content-related subspace preserves writing content information across effector conditions and supports cross-effector decoding.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Feature processing for single-trial semantic decoding from EEG: a factorial comparison with pre-registered replication</title>
+      <link>https://doi.org/10.64898/2026.11.20.768234</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.20.768234</guid>
+      <description>[预印本] bioRxiv
+
+Single-trial decoding of semantic processing from EEG is used in cognitive neuroscience, brain–computer interfaces and EEG-to-text research. Because single trials are noisy, the choice of features can determine how much information a decoder uses. Yet these fields use different features that have not been compared systematically: event-related potential studies decode the voltage time course (the waveform), EEG-to-text studies mostly the power of oscillations in frequency bands. We crossed four feature-processing choices—signal representation (waveform or band power), time window, normalization and channel set—into 640 configurations and decoded whether a stimulus fitted its semantic context in three tasks: visual word pairs, objects in visual scenes, and words in spoken sentences (40 participants per task). Eleven pre-specified comparisons were tested jointly. The signal representation had by far the largest effect on accuracy (mean generalized eta squared = 0.165, an order of magnitude above any other effect). Averaged over tasks and other choices, balanced accuracy was 56.6% with the waveform and 50.6% with theta-band power (chance, 50%), and adding band power to the waveform lowered accuracy by 1.8 percentage points, in every task. Both effects replicated, and were larger, in a pre-registered study of 283 new participants from three sites. Neither a finer time–frequency decomposition including the delta band (2–4 Hz) nor a different way of combining power with the waveform changed this conclusion, whereas the time window, normalization and channel set mattered little. For semantic decoding from single EEG trials, the waveform carries the information, and band power does not add to it.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Shared Neural Dynamics of Sentence-Level Language Processing in Verbally Proficient Autistic and Non-Autistic Adults</title>
+      <link>https://doi.org/10.64898/2026.11.20.768199</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.20.768199</guid>
+      <description>[预印本] bioRxiv
+
+Autistic individuals often show atypical language development during childhood, yet many attain typical language proficiency by adulthood. This raises the question of whether the neural processes supporting language differ in autism once language has been acquired. Using electroencephalography (EEG), we compared verbally proficient autistic and non-autistic adults during rapid serial visual presentation of structured sentences and pseudoword lists. Sentence processing elicited oscillatory responses across theta, alpha, beta, and gamma frequency bands, with distinct spatiotemporal profiles and hemispheric lateralization most pronounced in the theta, alpha, and beta bands. Notably, beta-band activity increased over sentence position and was positively associated with verbal ability, consistent with a role in the maintenance and integration of linguistic information. These effects were highly comparable across groups, with similar patterns observed at both the individual and group levels and across sensor- and source-level analyses. Together, these findings indicate largely shared neural dynamics of sentence-level language processing in verbally proficient autistic and non-autistic adults, suggesting that atypical language-related neural organization is not an inevitable feature of autism in adulthood.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>The language network responds stronger to connected than to unconnected sentences</title>
+      <link>https://doi.org/10.64898/2026.11.20.768057</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.20.768057</guid>
+      <description>[预印本] bioRxiv
+
+Purpose: Reliable functional mapping of the language network and preoperative assessment of language lateralization are essential for safe and effective craniotomy in patients with lesions in language‑eloquent brain regions, yet existing fMRI language paradigms are often time‑consuming and place substantial cognitive and economic demands on patients and diagnostic services. Methods: We therefore tested ecologically valid German stimulus sets designed to optimize measurement efficiency. Forty-three healthy participants (mean age = 38 years, range = 20 - 64; 24 women) were scanned on a 3T MRI while reading or listening to 4-, 8-, and 12-word sentences and pseudoword lists or texts, each followed by a decision task. Sentences were selected from German literary classics and text passages from general-interest science magazines and matched across conditions for lexical and structural properties. Results: Region‑of‑interest analyses in subject‑specific, functionally defined language‑sensitive regions showed robust activation of the left‑hemispheric language network across modalities. Within participants, texts elicited significantly larger effect sizes than sentences, and longer sentences generally produced stronger responses than shorter ones. Task manipulations expected to increase cognitive demand (short 4‑word sentences with frequent probes, coherent texts requiring deeper semantic integration) did not enhance responses in the domain‑general multiple demand network, indicating that executive‑control activity did not overshadow language‑selective activation, whereas substantial overlap between default mode and language‑sensitive regions in the left temporal lobe was consistent with relatively automatic processing of connected language. Conclusions: These findings indicate that ecologically valid sentence‑ and text‑based paradigms can provide efficient, language‑specific fMRI protocols for preoperative diagnostics and individualized presurgical planning in patients with lesions near language‑eloquent cortex.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Neural Signatures of Predictive Processing during Natural Mandarin Speech Comprehension.</title>
+      <link>https://doi.org/10.1523/eneuro.0226-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/eneuro.0226-26.2026</guid>
+      <description>eNeuro
+
+Language comprehension requires the continuous transformation of speech into a hierarchy of linguistic units, from phonemes to syllables to words. Because speech unfolds rapidly, listeners are thought to predict upcoming content to keep pace. Previous research has provided empirical evidence for predictive processes operating at multiple linguistic levels during naturalistic listening, including words and phonemes. However, it remains unclear whether prediction also operates concurrently at other levels, such as syllabic and phrasal representation. Here we use Mandarin Chinese to examine the neural signatures of predictive processing across multiple levels of linguistic granularity during natural speech comprehension. Mandarin comprises four representational levels: phoneme, sub-syllabic, character and word, and its lexical identity is largely constrained at the sub-syllabic level, potentially redistributing predictive weight across linguistic representations. We recorded magnetoencephalography (MEG) data while 34 native Mandarin speakers (21 females) listened to a naturalistic audiobook and applied linear regression modeling to examine how linguistic features modulated neural activity. We found that the brain activity of listeners segmented speech into hierarchical units, and that surprisal modulated responses simultaneously across sub-syllabic, character and word levels. In contrast to findings from Indo-European languages, however, we did not observe unique surprisal effects at the lowest, phonemic level. Furthermore, the surprisal of lexical tone in Mandarin modulated brain activity only when integrated with its phonological components. These findings suggest that predictive processing during Mandarin speech comprehension operates concurrently across multiple (though not necessarily all) levels of linguistic granularity, with its implementation shaped by language-specific structural properties.Significance statement Language comprehension involves segmenting a continuous acoustic stream into multiple linguistic units, from phonemes to words, and generating predictions at these levels. However, direct neural evidence remains limited regarding how segmentation and prediction operate simultaneously across levels of linguistic granularity, particularly outside Indo-European languages. Using temporal response function analysis of magnetoencephalography data recorded during naturalistic Mandarin listening, we show that predictive processing occurs across multiple levels of linguistic granularity. Specifically, we find evidence for prediction-related neural responses at sub-syllabic, character, and word levels, but not a reliable unique effect at the phonemic level. These results indicate that predictive processing also operates during Mandarin speech comprehension, and its neural implementation is shaped by language-specific structural properties.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>A shared meaning component across languages in the human brain.</title>
+      <link>https://doi.org/10.1038/s41593-026-02523-6</link>
+      <guid isPermaLink="false">doi:10.1038/s41593-026-02523-6</guid>
+      <description>Nature neuroscience
+
+Human languages differ profoundly in their sounds, words and grammatical systems, yet all support the communication of complex meanings. How the brain handles this diversity remains a fundamental question in language neuroscience. Multilingual neural network models offer a way to answer this question by representing linguistic content across languages in a shared space. Leveraging these advances, we evaluated the similarity of linguistic representations in speakers of 21 languages. Here we combined existing (12 languages across 4 language families) and newly collected functional magnetic resonance imaging data (9 languages across 4 families) to test encoding models predicting brain activity in the language network using representations from multilingual models. Model representations predicted brain responses reliably within each language. Critically, encoding models trained on one set of languages generalized zero-shot to previously unseen languages, accurately predicting neural responses without exposure to the target language. This cross-lingual generalization extended across variation in language family, stimulus type and presentation modality. These findings point to a shared cross-lingual component for meaning across human languages.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Linguistic contextualization in the human hippocampus.</title>
+      <link>https://doi.org/10.1038/s41562-026-02543-z</link>
+      <guid isPermaLink="false">doi:10.1038/s41562-026-02543-z</guid>
+      <description>Nature human behaviour
+
+Word meanings in language are contextualized by surrounding words. Inspired by the self-attention mechanism in transformer-based large language models (LLMs), we hypothesized that structural composition in the brain arises from combining canonical (non-contextual) word representations with those of nearby words. We analysed single unit activity in the human hippocampus, a region involved in semantic and contextual processing, while n = 10 participants listened to podcasts. We found that hippocampal neurons encoded word position within a clause, using both ordinal and frequency-domain positional encoding. Moreover, neural responses to specific words reflected both the lexical semantics of the word and a weighted sum of the embeddings of preceding words. The relative weighting of these contextualizing words correlated with LLM self-attention weights. These findings suggest that contextualization in the brain makes use of vectorial shifts that have a resemblance to attentional reweighting in LLMs, and highlight the role of the mesial temporal lobe within the broader language network.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Manipulating speech perception with amplitude-modulated kilohertz magnetic perturbation (AM-kTMP).</title>
+      <link>https://doi.org/10.1016/j.brs.2026.103264</link>
+      <guid isPermaLink="false">doi:10.1016/j.brs.2026.103264</guid>
+      <description>Brain stimulation
+
+Speech perception has been hypothesized to exploit neural activity that entrains to the rhythmic properties of the utterance. Perceptual sensitivity varies with the phase of oscillatory activity induced by speech, and with an external oscillatory perturbation induced by transcranial alternating current stimulation (tACS) over the temporal lobe. However, current non-invasive brain stimulation (NIBS) methods suffer from limitations that include peripheral nerve stimulation and hinder neural entrainment research. Here we used a new form of NIBS, kilohertz transcranial magnetic perturbation (kTMP), in which a low frequency perturbation is created by the amplitude modulation (AM) of a continuous high-frequency carrier signal (3.5 kHz). As a magnetic induction method, kTMP can produce much higher electrical fields at the cortical surface than tACS and reduces cutaneous co-stimulation. Human participants (n=40) listened to sequences of rhythmic speech while receiving kTMP with an AM component of 3.125 Hz. The phasic modulation of perceptual sensitivity was greater during AM-kTMP than during sham stimulation, consistent with the hypothesis that AM-kTMP entrained neural activity underlying speech perception. Participants' ratings of rhythmic sensations and other side effects did not differ between AM-kTMP and sham stimulation. Together with its reduced peripheral stimulation, our results highlight kTMP as a promising NIBS method for modulating frequency-specific brain dynamics in speech perception.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
     <item>
       <title>An Uncommon Communication: Hepatogastric Fistula in a Young Male Patient With a Pyogenic Liver Abscess</title>
       <link>https://europepmc.org/article/PMC/PMC13789194</link>
@@ -49,6 +162,16 @@ Abstract Disrupted discourse coherence is documented in psychosis, but whether d
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Mesial temporal function during language fMRI in pre-surgical epilepsy patients.</title>
+      <link>https://doi.org/10.1016/j.eplepsyres.2026.107959</link>
+      <guid isPermaLink="false">doi:10.1016/j.eplepsyres.2026.107959</guid>
+      <description>Epilepsy research
+
+Language fMRI paradigms may allow joint assessment of interconnected language and memory function before epilepsy surgery. We characterized activation of a core memory structure, mesial temporal lobe (MTL) during a language fMRI task. We investigated relationships between MTL activation and language and memory performance in individuals with epilepsy. We included 38 left focal epilepsy patients (18 adult, 20 pediatric), and 55 healthy controls (27 adult, 28 pediatric). Participants performed a clinically validated language fMRI task (Auditory Description Decision Task), language, and memory neuropsychological assessments. We computed lateralization index (LI) for bilateral Broca's and Wernicke's language areas and MTL memory regions of Interest (ROIs). We also investigated MTL activation magnitude across participant group (controls, patients), age group (adult, pediatric), MTL side (left, right), and region (anterior/posterior) with a mixed effects model. ANCOVAs assessed relationships between MTL LI or activation magnitude, and language and memory scores. All groups had left-lateralized MTL activation. We found greater MTL activation magnitude in adult than pediatric patients, and in pediatric controls than patients. Controls had greater anterior, and patients had greater posterior, activation magnitude. Left MTL lateralization was related to language, verbal, and visual memory function in children, and activation strength in left posterior MTL to verbal memory in adults. Our language fMRI task evoked left-lateralized language and MTL activation. Relationships between activation and neuropsychological tests suggest this activation is functionally relevant for evaluation of memory function. Our ADDT task may support both language and memory assessment before epilepsy surgery.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
     </item>
     <item>
       <title>Speech and music organize neural activity differently over time in human superior temporal cortex</title>
@@ -145,17 +268,6 @@ Purpose When listening to acoustically challenging speech, listeners may strateg
       <category>语言与脑</category>
     </item>
     <item>
-      <title>Subfield-specific hippocampal enlargement in high-functioning autism spectrum disorder.</title>
-      <link>https://doi.org/10.1016/j.jpsychires.2026.11.042</link>
-      <guid isPermaLink="false">doi:10.1016/j.jpsychires.2026.11.042</guid>
-      <description>Journal of psychiatric research
-
-Although previous studies have reported abnormal hippocampal volumes in children and adolescents with autism spectrum disorder (ASD), the specific alterations in hippocampal subfields and their relationships with clinical symptoms in high-functioning ASD (HF-ASD) remain unclear. In this study, we analyzed T1-weighted structural MRI data from the Autism Brain Imaging Data Exchange I (ABIDE-I), including 182 children and adolescents with HF-ASD and 213 age- and sex-matched typically developing controls (TDC). Using a linear mixed-effects model, we compared hippocampal volumes between groups, and examined associations between volumes and clinical measurements. Compared to TDC, the children and adolescents with HF-ASD exhibited significantly increased volumes in the right entire hippocampus, presubiculum, subiculum, and granule cell layer of the dentate gyrus (GC-DG). No significant volumetric differences were observed within the child or adolescent subgroups, nor between these age groups. Notably, presubiculum volume showed a positive correlation with verbal scores and a negative correlation with social scores in the HF-ASD group. These findings indicate subfield-specific hippocampal overgrowth in children and adolescents with HF-ASD and presubiculum volume alteration may be a potential neuroanatomical correlate underlying verbal and social dysfunctions.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
       <title>Timing and meaning in spoken thought relate to distinct patterns of brain dynamics</title>
       <link>https://doi.org/10.64898/2026.11.18.767520</link>
       <guid isPermaLink="false">doi:10.64898/2026.11.18.767520</guid>
@@ -228,6 +340,17 @@ Neurobiological research indicates that atypical functioning within left-hemisph
       <category>语言与脑</category>
     </item>
     <item>
+      <title>The level of cortical thickening in executive functions and audiovisual integration regions predicts reading comprehension via reading fluency in musically experienced children.</title>
+      <link>https://doi.org/10.1016/j.brainres.2026.150650</link>
+      <guid isPermaLink="false">doi:10.1016/j.brainres.2026.150650</guid>
+      <description>Brain research
+
+Proficient reading fluency, which is critical for intact reading comprehension, is related to efficient audio-visual integration and to executive functions (EF). Interestingly, musical training has been associated with better audio-visual integration, EF, and reading abilities. However, the direct relationship, cognitively and neurobiologically, between these components remains ambiguous. Here, we examined the neurobiological correlates of the predictive role of EF and audio-visual integration on reading comprehension through fluency in children with and without music experience using cortical thickness (CT) measures. A high-resolution T1-weighted anatomical scan was acquired from 8- to 12-year-old children with and without music experience. CT within EF (anterior cingulate cortex) and audio-visual (insula) brain regions was compared between groups. A moderated mediation analysis was conducted with anterior cingulate cortex CT as the predictor variable, reading comprehension as the outcome variable, reading fluency as the mediator, and music experience as the moderator, with age and sex as covariates. Musically inexperienced children demonstrated lower reading fluency, comprehension, and EF abilities compared to experienced children. In experienced children, CT in the anterior cingulate gyrus predicted comprehension via an indirect pathway mediated by fluency (B = 21.63, BootSE = 9.11, 95 % CI [4.56, 40.85]); in inexperienced children, neither the direct nor indirect pathways significantly predicted comprehension (B = 11.53, BootSE = 8.64, 95 % CI [-6.54, 28.80]). The Index of Moderated Mediation was not significant (IMM = - 10.10, BootSE = 11.79, 95 % CI [-34.92, 12.21]); thus, there was no statistical evidence that the indirect effect differed between the groups. Results suggest that musical experience is associated with differences in neural circuits linked to EF and audiovisual integration, which in turn relate to reading fluency and comprehension.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Brain Signal Variability and Brain-Behavior Coupling in Adults with Dyslexia</title>
       <link>https://doi.org/10.64898/2026.11.13.766529</link>
       <guid isPermaLink="false">doi:10.64898/2026.11.13.766529</guid>
@@ -270,17 +393,6 @@ Children with dyslexia show persistent phonological difficulties in controlled e
       <category>语言与脑</category>
     </item>
     <item>
-      <title>The level of cortical thickening in executive functions and audiovisual integration regions predicts reading comprehension via reading fluency in musically experienced children.</title>
-      <link>https://doi.org/10.1016/j.brainres.2026.150650</link>
-      <guid isPermaLink="false">doi:10.1016/j.brainres.2026.150650</guid>
-      <description>Brain research
-
-Proficient reading fluency, which is critical for intact reading comprehension, is related to efficient audio-visual integration and to executive functions (EF). Interestingly, musical training has been associated with better audio-visual integration, EF, and reading abilities. However, the direct relationship, cognitively and neurobiologically, between these components remains ambiguous. Here, we examined the neurobiological correlates of the predictive role of EF and audio-visual integration on reading comprehension through fluency in children with and without music experience using cortical thickness (CT) measures. A high-resolution T1-weighted anatomical scan was acquired from 8- to 12-year-old children with and without music experience. CT within EF (anterior cingulate cortex) and audio-visual (insula) brain regions was compared between groups. A moderated mediation analysis was conducted with anterior cingulate cortex CT as the predictor variable, reading comprehension as the outcome variable, reading fluency as the mediator, and music experience as the moderator, with age and sex as covariates. Musically inexperienced children demonstrated lower reading fluency, comprehension, and EF abilities compared to experienced children. In experienced children, CT in the anterior cingulate gyrus predicted comprehension via an indirect pathway mediated by fluency (B = 21.63, BootSE = 9.11, 95 % CI [4.56, 40.85]); in inexperienced children, neither the direct nor indirect pathways significantly predicted comprehension (B = 11.53, BootSE = 8.64, 95 % CI [-6.54, 28.80]). The Index of Moderated Mediation was not significant (IMM = - 10.10, BootSE = 11.79, 95 % CI [-34.92, 12.21]); thus, there was no statistical evidence that the indirect effect differed between the groups. Results suggest that musical experience is associated with differences in neural circuits linked to EF and audiovisual integration, which in turn relate to reading fluency and comprehension.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
       <title>Partially shared representational space for vision and language across objects, scenes, and visual events</title>
       <link>https://doi.org/10.64898/2026.11.13.762800</link>
       <guid isPermaLink="false">doi:10.64898/2026.11.13.762800</guid>
@@ -306,7 +418,7 @@ Objectives Rapid emotional perception in speech is crucial to efficient social c
       <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100435</guid>
       <description>Neuroimage. Reports
 
-The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
+Background The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. Methods 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. Results Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. Conclusions L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>结构与功能</category>
@@ -413,117 +525,6 @@ Central motor injury is often framed as a loss of cortical command, leading reha
 
 Neural tracking of slow temporal modulations in speech supports extraction of the prosodic and syllabic structure thought to be critical for language acquisition by Temporal Sampling (TS) theory, yet whether these automatic cortical tracking mechanisms are altered in children with developmental language disorder (DLD) remains unclear. We recorded MEG while children with and without DLD listened to a story, and quantified source-level lagged speech-brain coherence and frequency-specific cortical functional connectivity across bilateral cortical regions. As expected a priori by TS theory, children with DLD showed significantly reduced coherence in the 0.9-2.5 Hz range associated with prosodic information in the story, spanning bilateral auditory and speech-related cortex. The strongest regional group differences were in left supramarginal gyrus (p &lt; 0.001) and right inferior frontal gyrus (p = 0.001). In the 2.5-5 Hz range, linked to syllabic-rate modulations in the story, children with DLD showed reduced coherence in right temporal regions (all p &lt; 0.02). Stronger low-frequency speech-brain coherence was associated with better language performance, indicating that individual differences in cortical speech tracking were behaviourally meaningful. No reliable differences were observed at higher modulation rates (5-9 Hz or 12-40 Hz). Exploratory functional connectivity analyses did not reveal network-level group differences that were robust across ROI time-series extraction methods. These findings indicate that atypical low-frequency neural tracking of speech is functionally relevant to language outcomes in DLD.</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Developmental Aspects of Language Mapping with Stereoelectroencephalography.</title>
-      <link>https://doi.org/10.1097/wnp.0000000000001302</link>
-      <guid isPermaLink="false">doi:10.1097/wnp.0000000000001302</guid>
-      <description>Journal of clinical neurophysiology : official publication of the American Electroencephalographic Society
-
-Summary This review examines developmental perspectives on the use of stereoelectroencephalography (SEEG) for delineating language areas and networks in pediatric patients with drug-resistant epilepsy, both as a clinical tool for presurgical evaluation and as a modality for gaining neuroscientific insights into speech and language development. Language development is a dynamic process that begins before birth and continues into adulthood, shaped by the maturation of brain networks. SEEG allows high-resolution study of these networks, providing a unique perspective on the organization of language systems. This review traces language acquisition from early infancy through adolescence and adulthood, highlighting the pivotal role of neural oscillations. We then summarize classical and contemporary neural models of language organization, highlighting the distributed and hierarchical networks, and emphasize the high spatial and temporal resolution of SEEG for presurgical planning that enables clinicians to optimize neurosurgical interventions while preserving essential language areas and the tracts connecting them. Our review also addresses the human brain's remarkable plasticity and capacity for reorganization, which are especially pronounced in children and vital for adaptation to and recovery from neurologic injury or surgery. We focus specifically on developmental reorganization in pediatric patients with drug-resistant epilepsy and its implications for language mapping with SEEG. The review concludes with recommendations for designing language-mapping batteries tailored to the unique needs of pediatric patients.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>The role of semantically related co-speech gestures in English-to-Chinese consecutive interpreting: a behavioral and ERP study.</title>
-      <link>https://doi.org/10.1016/j.actpsy.2026.108148</link>
-      <guid isPermaLink="false">doi:10.1016/j.actpsy.2026.108148</guid>
-      <description>Acta psychologica
-
-Co-speech gestures are an important source of visual-semantic information in communication, yet how the semantic relatedness of speech and gesture influences both comprehension and production during consecutive interpreting (CI) remains insufficiently understood. To this end, the present study combined behavioral and event-related potential (ERP) measure to examine how semantically related and semantically unrelated co-speech gestures affect source-language comprehension and target-language production in English-to-Chinese CI through a cue-recall task and oral translation. The comprehension-related results showed that gesture condition did not significantly affect cue-recall accuracy, but semantically related gestures were associated with faster responses than semantically unrelated gestures. ERP results during real-time comprehension further showed that semantically related gestures elicited less negative N400 amplitudes, which were distributed along the anterior-posterior scalp axis and maximal over parietal sites. The production-related results showed translation scores were also higher in the semantically related gesture condition. These effects remained stable after verbal working memory was included as a covariate. Overall, the findings provide initial behavioral and neurocognitive evidence that co-speech gestures are integrated with speech during CI, and that reduced semantic relatedness between speech and gesture increases online semantic processing demands with downstream consequences for target-language production. The study advances a multimodal account of consecutive interpreting by showing that visually available co-speech gestures shape both source-language comprehension and subsequent target-language production.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43060886/</link>
-      <guid isPermaLink="false">MED:43060886</guid>
-      <description>[预印本] ArXiv
-
-Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes at the cost of using a compute-intensive language modeling stack, presenting a major bottleneck for real-world use. Further, current language models incur highly variable and disruptive inference latencies, limiting communication throughput and preventing users from reliably participating in natural conversation. We introduce FETTUCCINE, an end-to-end brain-to-text framework that leverages the speed and portability of automatic speech recognition (ASR) models to address the aforementioned practical challenges, while achieving usable (&lt;10%) word error rates (WER), efficient adaptation to neural non-stationarities, and reliable performance on mobile devices. When evaluated using publicly available data from an intracortical speech neuroprosthesis user, FETTUCCINE outperforms previous end-to-end methods, achieving as low as 4.39% WER. Most notably, our models successfully run on a commercially-available mobile device with throughput reaching up to 370x real-time, providing the first demonstration of brain-to-text decoding on a mobile device. We also show that our models can be successfully finetuned to extend usable performance to future days. Beyond performance, our approach enables localization of the neural features most relevant for decoding via gradient-based saliency maps, which we show align with well-established physiological priors across different ASR model families. Taken together, our results show that FETTUCCINE overcomes core infrastructural and computational barriers, yielding a new class of portable brain-to-text communication.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Sentence-level neural dynamics in speech motor cortex</title>
-      <link>https://doi.org/10.64898/2026.11.10.765804</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.10.765804</guid>
-      <description>[预印本] bioRxiv
-
-Prior recordings from speech motor cortex have revealed phonemic, syllabic, articulatory and speech-sequence representations, while more recent studies indicate that activity may also reflect higher-order features of speech production. However, whether speech motor cortex is sensitive to the linguistic organization of sentences remains unclear. Here we show that single-unit activity in speech motor cortex contains information about sentence-level linguistic structure. In three BrainGate2 participants with implanted microelectrode arrays in the left precentral gyrus, we recorded neural activity during an instructed-delay speech task comprising English sentences, word lists, syntactically structured nonword sentences and nonword lists. Neural activity in areas 6v and 55b contained speech- and language-related components, with stronger stimulus-condition effects in 55b, and stimulus condition was decodable in all three participants. In two larger datasets, semantic categories of English sentences were decodable from neural activity. These findings demonstrate that speech motor cortex encodes information about linguistic structure and semantic content at the level of sentences.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>From the app to the lexicon: Neurocognitive markers of word integration in a second language</title>
-      <link>https://doi.org/10.31234/osf.io/nx3s2_v2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/nx3s2_v2</guid>
-      <description>[预印本] PsyArXiv
-
-The consolidation of newly learned vocabulary into semantic memory networks is a critical process in word learning, including second-language (L2) acquisition. However, most neurocognitive studies of lexical-semantic integration rely on short, artificial learning paradigms, leaving open the question of whether naturalistic, app-based learning produces comparable neural outcomes. In this study, we combined an ecological learning environment with controlled electrophysiological testing to examine whether vocabulary learned through Duolingo shows neural signatures of semantic integration. Native Spanish speakers studied Guarani vocabulary for five weeks and subsequently completed a semantic decision task during EEG recording that included both L1 (Spanish) and L2 (Guarani) word pairs. Critically, L2 targets were classified as remote (learned earlier during the five-week training and not practiced in the final stage) or recent (learned in the final training stage and tested approximately 10 days later), allowing us to assess consolidation-related differences. Behaviorally, participants responded more accurately and faster to L1 than L2 words, and accuracy for related items was higher for remotely than recently learned items, consistent with consolidation-related strengthening. Electrophysiologically, robust N400 priming effects emerged for remotely learned words—whereas no facilitation was observed for recent words. This graded pattern suggests that only words with extended consolidation time exhibited neural markers of lexical–semantic integration. Together, these findings demonstrate that combining real-world digital learning with controlled neural testing can reveal how naturalistic language experience shapes the neurocognitive dynamics of word learning and consolidation.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>From the app to the lexicon: Neurocognitive markers of word integration in a second language</title>
-      <link>https://doi.org/10.31234/osf.io/nx3s2</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/nx3s2</guid>
-      <description>[预印本] PsyArXiv
-
-The consolidation of newly learned vocabulary into semantic memory networks is a critical process in word learning, including second-language (L2) acquisition. However, most neurocognitive studies of lexical-semantic integration rely on short, artificial learning paradigms, leaving open the question of whether naturalistic, app-based learning produces comparable neural outcomes. In this study, we combined an ecological learning environment with controlled electrophysiological testing to examine whether vocabulary learned through Duolingo shows neural signatures of semantic integration. Native Spanish speakers studied Guarani vocabulary for five weeks and subsequently completed a semantic decision task during EEG recording that included both L1 (Spanish) and L2 (Guarani) word pairs. Critically, L2 targets were classified as remote (learned earlier during the five-week training and not practiced in the final stage) or recent (learned in the final training stage and tested approximately 10 days later), allowing us to assess consolidation-related differences. Behaviorally, participants responded more accurately and faster to L1 than L2 words, and accuracy for related items was higher for remotely than recently learned items, consistent with consolidation-related strengthening. Electrophysiologically, robust N400 priming effects emerged for remotely learned words—whereas no facilitation was observed for recent words. This graded pattern suggests that only words with extended consolidation time exhibited neural markers of lexical–semantic integration. Together, these findings demonstrate that combining real-world digital learning with controlled neural testing can reveal how naturalistic language experience shapes the neurocognitive dynamics of word learning and consolidation.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Neural evidence for intact statistical learning in Developmental Dyslexia in the absence of conclusive behavioral results: an individual differences approach to cognitive correlates</title>
-      <link>https://doi.org/10.31234/osf.io/5duv3_v3</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/5duv3_v3</guid>
-      <description>[预印本] PsyArXiv
-
-Individual differences in Statistical Learning (SL) are associated with reading ability, yet evidence on whether SL is impaired in Developmental Dyslexia (DD) is inconsistent. Furthermore, DD is associated with impairments in Rhythmic Ability (RA) and Working Memory (WM). This study examined SL in adults with self-reported diagnoses of DD compared to Typical Readers (TR), and explored whether individual differences in RA, WM, and vocabulary related to individual SL ability in speech segmentation.A total of 143 participants (N_DD = 25, N_TR = 118) were exposed to an artificial language of trisyllabic nonsense-words while neural entrainment to the words assessed SL via electroencephalography (EEG), followed by behavioral SL outcome measures. Aiming to assess individual differences, we linked the neural measure of SL to a battery of tests measuring musicality, RA, WM, and vocabulary size. Results indicated neural evidence for SL in both groups, with similar neural entrainment to the structure during exposure. Behavioral performance in the DD group on SL seemed below TR, though Bayesian analyses rendered this inconclusive. The DD group obtained lower scores on tasks measuring RA, WM and vocabulary size, which was primarily driven by the latter two. Comparison of relations between neural SL and these tasks indicated no group differences therein. Exploratively combining the groups into one population resulted in anecdotal Bayesian evidence that individual differences in SL related to WM and RA measured by sensorimotor synchronization, which was rendered inconclusive in sensitivity analyses. Our results emphasize the importance of an individual differences approach, moving beyond group comparisons.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Neural evidence for intact statistical learning in Developmental Dyslexia in the absence of conclusive behavioral results: an individual differences approach to cognitive correlates</title>
-      <link>https://doi.org/10.31234/osf.io/5duv3</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/5duv3</guid>
-      <description>[预印本] PsyArXiv
-
-Individual differences in Statistical Learning (SL) are associated with reading ability, yet evidence on whether SL is impaired in Developmental Dyslexia (DD) is inconsistent. Furthermore, DD is associated with impairments in Rhythmic Ability (RA) and Working Memory (WM). This study examined SL in adults with self-reported diagnoses of DD compared to Typical Readers (TR), and explored whether individual differences in RA, WM, and vocabulary related to individual SL ability in speech segmentation.A total of 143 participants (N_DD = 25, N_TR = 118) were exposed to an artificial language of trisyllabic nonsense-words while neural entrainment to the words assessed SL via electroencephalography (EEG), followed by behavioral SL outcome measures. Aiming to assess individual differences, we linked the neural measure of SL to a battery of tests measuring musicality, RA, WM, and vocabulary size. Results indicated neural evidence for SL in both groups, with similar neural entrainment to the structure during exposure. Behavioral performance in the DD group on SL seemed below TR, though Bayesian analyses rendered this inconclusive. The DD group obtained lower scores on tasks measuring RA, WM and vocabulary size, which was primarily driven by the latter two. Comparison of relations between neural SL and these tasks indicated no group differences therein. Exploratively combining the groups into one population resulted in anecdotal Bayesian evidence that individual differences in SL related to WM and RA measured by sensorimotor synchronization, which was rendered inconclusive in sensitivity analyses. Our results emphasize the importance of an individual differences approach, moving beyond group comparisons.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Cross-Condition Transfer Learning for EEG-Based Inner Speech Classification: A Controlled Evaluation of Neural Networks and Temporal Segmentation</title>
-      <link>https://doi.org/10.20944/preprints202611.1290.v1</link>
-      <guid isPermaLink="false">doi:10.20944/preprints202611.1290.v1</guid>
-      <description>[预印本] Preprints.org
-
-Transferring a decoder trained on overt (pronounced) speech to inner speech has been proposed to offset scarce inner-speech EEG. This was re-examined on the “Thinking out loud” dataset (ds003626, 10 participants, four words), with no test trial in training or selection. EEGNet, ShallowConvNet, CSP+LDA and a Riemannian tangent-space pipeline were compared on bidirectional transfer, combined training, overt pre-training with fine-tuning on 25–100% inner-speech subsets, maximum-mean-discrepancy alignment and four trial windows. Shuffled-label controls and an exploratory, post hoc test family were used. Cross-participant, held-out-session, channel, band, external-electrode and second-dataset (ds006104) arms were reference checks. Within participant, overt speech was decodable in the action interval (0.34–0.43, chance 0.250). It survived a held-out session, peaked in 30–100 Hz and did not cross participants. Two lip electrodes alone decoded the pronounced word at 0.67–0.83. Regressing the external electrodes out of the scalp reduced three decoders’ overt accuracy to 0.28–0.40, leaving a residual of undetermined origin. Inner-speech accuracy was not distinguishable from chance. No transfer method, fine-tuned or not, improved reliably on its controls. Effects below about 2–6 percentage points were likely missed. These findings suggest that articulation-related features learned from overt speech may not provide sufficiently transferable information for inner-speech decoding under the present conditions.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Disentangling the Spatiotemporal Neural Dynamics of Conflict Detection and Resolution between Lexical and Sublexical Processes in Oral Word Reading: An Intracranial SEEG Study.</title>
-      <link>https://doi.org/10.1523/jneurosci.1183-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1183-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Object recognition relies on correspondence between whole objects and their subcomponents. When this correspondence is disrupted, accurate recognition requires detecting conflicts and inhibiting misleading subcomponent information, yet the neural basis underlying these processes remain unclear. Written language, with sublexical components that may conflict with whole words, provides an ideal testbed. Using stereo-electroencephalography (SEEG) recorded from 39 participants (both sexes) during Chinese character reading, we revealed a functional dissociation between neural systems supporting conflict detection and inhibitory control. Conflict detection was associated with β band activity in the fusiform gyrus and widespread θ and α band effects across temporal and parietal regions. Inhibitory control was associated with α and β band activity in the inferior frontal and precentral gyri. Granger causality analysis showed increased β band connectivity from conflict-processing to inhibitory-control regions under conflict conditions. These findings demonstrate that disruptions of whole-sublexical correspondence engage dissociable neural systems for conflict detection and inhibitory control, implemented through frequency- and region-specific neural oscillations and coordinated via increased information transfer from posterior to frontal regions.Significance Statement Reading often requires resolving conflicts between competing linguistic representations, yet the neural mechanisms that detect such conflicts and resolve them remain poorly understood. Using stereo-electroencephalography with millimeter-scale spatial and millisecond-scale temporal resolution, we dissociated sublexical conflict detection from inhibitory control during Chinese character reading. We show that these processes are supported by distinct low-frequency oscillatory networks and are linked through directed functional interactions. These findings move beyond traditional accounts of sublexical effects by identifying their underlying cognitive components and neural dynamics, providing a mechanistic framework for understanding how cognitive control supports fluent word recognition.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Chirped speech (Cheech) enables rapid assessment of multi-level auditory evoked potentials during speech-in-noise recognition.</title>
-      <link>https://doi.org/10.1016/j.heares.2026.109872</link>
-      <guid isPermaLink="false">doi:10.1016/j.heares.2026.109872</guid>
-      <description>Hearing research
-
-Difficulties understanding speech in noise remain a common complaint even among listeners with normal hearing sensitivity, highlighting the need for objective, more effective measures of real-world listening. The goal of this study was to validate the use of a novel, chirped-speech (Cheech) stimulus-continuous, naturally-spoken speech fused with chirps designed to elicit robust auditory evoked potentials-to characterize relationships between speech recognition, listening effort, and auditory neural encoding. Twenty‑five normal‑hearing adults completed a sentence‑recognition task using both original (unmodified) and Cheech-modified AzBio sentence lists in quiet, +3 dB, and -3 dB signal-to-noise ratio (SNR) conditions while neural responses from the brainstem through cortex were recorded simultaneously. Speech recognition remained near ceiling in quiet but declined with decreasing SNR for both original and Cheech stimuli. Cheech‑modified speech showed poorer recognition performance as SNR decreased and somewhat higher perceived effort overall. Yet, Cheech was highly effective at evoking auditory responses from the brainstem (auditory brainstem response, ABR) through the cortex (including middle- and late-latency responses, MLR and LLR) even with &lt;5 min listening time per condition. Neural responses showed reduced amplitudes and prolonged latencies as SNR decreased. In general, ABR wave I latencies were associated with speech-in-noise recognition performance, whereas cortical responses (MLR Na and LLR P1 latencies) were associated with subjective workload. These findings show that Cheech‑modified speech remains intelligible, particularly in quiet and higher SNR conditions, while yielding robust, multilevel neural recordings during sentence perception, offering a promising approach to examine hierarchical auditory processing under ecologically relevant speech‑in‑noise conditions.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
   </channel>

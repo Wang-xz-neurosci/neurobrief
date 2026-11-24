@@ -5,9 +5,52 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 01:37:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:28:40 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuropathologic Correlates of Cognitive Decline in Community-Dwelling Elders Who Die as Centenarians.</title>
+      <link>https://doi.org/10.1212/wnl.0000000000218818</link>
+      <guid isPermaLink="false">doi:10.1212/wnl.0000000000218818</guid>
+      <description>Neurology
+
+BACKGROUND AND OBJECTIVES: Brain pathologies are common in the elderly; however, their contribution to Alzheimer dementia risk and cognitive decline in those who die as centenarians remain unclear. This study examines the frequency of Alzheimer disease neuropathologic changes (ADNC), limbic-predominant age-related TDP-43 encephalopathy neuropathologic change (LATE-NC), and other brain pathologies and their association with Alzheimer dementia risk and cognitive decline in centenarians. METHODS: This clinicopathologic study included older participants from the Religious Orders Study and Rush Memory and Aging Project, 2 ongoing clinicopathologic cohort studies of aging and dementia, who underwent annual clinical evaluations and autopsy. Participants were evaluated annually for cognitive status and followed for a mean (SD) of 11.4 (5.3) years before death. Neuropathologic evaluation included ADNC (and separately β-amyloid load and tangle density), LATE-NC, presence or absence of neocortical Lewy bodies (LBs), hippocampal sclerosis of aging (HS-A), primary age-related tauopathy (PART), and 5 cerebrovascular disease (CVD) pathologies including arteriolosclerosis, atherosclerosis, cerebral amyloid angiopathy, macroinfarcts, and microinfarcts. Multivariable regression and linear mixed-effects models were applied. RESULTS: A total of 104 centenarians were included in this study. The mean (SD) age at death was 102 (1.9) years, 84% were female, 58% had Alzheimer dementia, 21% had mild cognitive impairment (MCI), and 21% had no cognitive impairment (NCI). All 3 clinical diagnostic groups exhibited pathologies, including any type of CVD (94%), ADNC (72%; 73% of them were intermediate and 27% of them were high), LATE-NC (58%, 30% of them exhibiting HS-A), HS-A (18%, 95% had LATE-NC), PART (28%), and neocortical LBs (11%). Mixed pathologies, particularly ADNC + LATE-NC + CVD, were common in the Alzheimer dementia group (52%) compared with NCI (36%) and MCI (23%). After adjusted for age at death, sex, education, and other brain pathologies, only LATE-NC and tangles (specifically intermediate/high ADNC with Braak stage V) were associated with more rapid decline in global cognition and increased odds of Alzheimer dementia. DISCUSSION: Brain pathology, but not dementia, is nearly inevitable in those who die as centenarians. LATE-NC and tangles are the key contributors to cognitive decline. Future study investigating resilience factors may inform preventive strategies.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Poorer inhibition and switching are associated with lower white matter fibre density in the superior longitudinal fasciculus in groups clinically at-risk of probable Alzheimer's disease dementia.</title>
+      <link>https://doi.org/10.1007/s00415-026-14266-2</link>
+      <guid isPermaLink="false">doi:10.1007/s00415-026-14266-2</guid>
+      <description>Journal of neurology
+
+Executive dysfunction and white matter microstructural alterations in the superior longitudinal fasciculus (SLF) may occur in the clinically defined at-risk groups of Alzheimer's disease (AD) dementia and be potentially useful and early markers of risk. We used diffusion-weighted MRI and fixel-based analysis to investigate inhibition/switching executive functioning and white matter properties of three SLF subdivisions (SLF 1, SLF 2, SLF 3) in groups clinically at-risk of AD-dementia: controls (C; n = 35), subjective cognitive decline (SCD; n = 60), single-domain amnestic mild cognitive impairment (aMCI; n = 55), and multiple-domain amnestic MCI (mMCI; n = 52). Individuals with probable AD-dementia (n = 27) were also compared with controls. Linear trend analyses showed increasingly poorer executive functioning performance and lower fibre density (FD) in the right SLF 2 and bilateral SLF 3 across groups. Analysis of covariance (age, sex) revealed SCD and mMCI groups had lower FD bilaterally in the SLF 3 than controls. The AD-dementia group showed more extensively reduced FD in four of the six SLF divisions, and lower fibre density cross-section (FDC) in five of the six SLF divisions than controls. Partial least-squares (PLS) analyses showed that poorer executive functioning, but not processing speed, was associated with lower FD in the SLF in the at-risk sample. This pattern was also found in AD-dementia/controls PLS, which additionally showed this association with FDC. Collectively, our results implicate altered microstructural fibre properties in the SLF and poorer executive functioning in groups at risk of AD-dementia, with FD changes in SLF present in SCD, prior to objective cognitive decline.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Linguistic contextualization in the human hippocampus.</title>
+      <link>https://doi.org/10.1038/s41562-026-02543-z</link>
+      <guid isPermaLink="false">doi:10.1038/s41562-026-02543-z</guid>
+      <description>Nature human behaviour
+
+Word meanings in language are contextualized by surrounding words. Inspired by the self-attention mechanism in transformer-based large language models (LLMs), we hypothesized that structural composition in the brain arises from combining canonical (non-contextual) word representations with those of nearby words. We analysed single unit activity in the human hippocampus, a region involved in semantic and contextual processing, while n = 10 participants listened to podcasts. We found that hippocampal neurons encoded word position within a clause, using both ordinal and frequency-domain positional encoding. Moreover, neural responses to specific words reflected both the lexical semantics of the word and a weighted sum of the embeddings of preceding words. The relative weighting of these contextualizing words correlated with LLM self-attention weights. These findings suggest that contextualization in the brain makes use of vectorial shifts that have a resemblance to attentional reweighting in LLMs, and highlight the role of the mesial temporal lobe within the broader language network.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Spatiotemporal brain dynamics of limb ownership perception.</title>
+      <link>https://doi.org/10.1038/s41467-026-79003-9</link>
+      <guid isPermaLink="false">doi:10.1038/s41467-026-79003-9</guid>
+      <description>Nature communications
+
+We experience our limbs as our own, but how does the brain generate this fundamental sense of body ownership? Previous studies have relied mainly on fMRI or lesion mapping, providing a static view of the neural mechanisms underlying body ownership. Using magnetoencephalography, robotically controlled visuotactile stimulation, and multivariate analysis across the rubber hand illusion, a real hand condition, and multiple control conditions, we identified source vector dissimilarity patterns reflecting ownership of the left arm. Three phases of ownership-specific activity patterns emerged: (i) anticipatory patterns in medial frontal cortex, right posterior parietal cortex, and right posterior cerebellum before tactile stimulation; (ii) multisensory integration patterns in right dorsal and ventral premotor cortex, right posterior parietal cortex, and anterior cerebellum at 116-156 ms poststimulus; and (iii) later bilateral insular and left hemisphere patterns at 184-232 ms. These findings provide a whole-brain, time-resolved map of activity patterns underlying body ownership, revealing its dynamic neural construction.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Network Control Theory in Psychiatry: From Connectivity-Derived Controllability to Brain-State Transitions and Interventions.</title>
       <link>https://doi.org/10.1016/j.neubiorev.2026.107112</link>
@@ -41,17 +84,6 @@ Brain functional networks exhibit an intrinsic architecture that is preserved ac
       <category>脑疾病机理</category>
     </item>
     <item>
-      <title>Long-term heading exposure in relation to structural MRI markers and neurocognitive function in retired professional soccer players.</title>
-      <link>https://doi.org/10.1016/j.neurad.2026.101631</link>
-      <guid isPermaLink="false">doi:10.1016/j.neurad.2026.101631</guid>
-      <description>Journal of neuroradiology = Journal de neuroradiologie
-
-Repetitive head impacts from purposeful heading in soccer have raised concerns about long-term neurological effects, but in vivo MRI markers remain underexplored. Most published imaging studies have involved amateur, youth or currently active players. Retired professionals with a full career of heading exposure and no reported concussion have rarely been investigated. Our objective was to evaluate structural brain differences and neuropsychological performance in retired or late-career professional soccer players without concussion history compared to high-level athletes from non-contact sports. In this cross-sectional study, male professional soccer players and male non-contact athletes underwent 3T brain MRI and standardized cognitive testing. Imaging included volumetric assessment of the cavum septi pellucidi (CSP) and cavum vergae, automated quantification of white matter hyperintensities (WMH), voxel-based morphometry analysis of regional brain volume, and cerebral microbleed detection. Neuropsychological testing assessed reaction time, memory, attention, and executive functioning. Twenty-nine soccer players (mean age 44.5 years, SD 7.3) and 29 non-contact athletes (mean age 41.9 years, SD 8.0) were included. Players reported 29.7 years of practice, including 13.3 professionally, and 9.9 years since retirement. Soccer players demonstrated significantly greater CSP volume (21 vs 6 mm³; p &lt; 0.001) and greater total WMH volume after age adjustment (3892 vs 2833 mm³; p = 0.046), mainly periventricular. Voxel-based morphometry showed reduced grey matter volume in the right anterior temporal lobe (p = 0.030, corrected), and in other frontotemporal regions and the head of the left caudate nucleus (p &lt; 0.001, uncorrected). No microbleeds were detected in either group. Neuropsychological testing showed no cognitive impairment. Retired or late-career soccer players showed a pattern of subtle structural MRI differences from non-contact athletes consistent with that reported in populations exposed to repetitive head impacts, without measurable differences in neurocognitive performance.</description>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
       <title>Cognitive control networks in human and macaque.</title>
       <link>https://doi.org/10.7554/elife.111502</link>
       <guid isPermaLink="false">doi:10.7554/elife.111502</guid>
@@ -70,6 +102,18 @@ A much-replicated finding in human brain imaging is a distributed 'multiple-dema
 Emerging evidence suggests that the hippocampus contributes to visual short-term memory (VSTM). However, the neural mechanisms through which hippocampal activity supports the maintenance of VSTM representations remain largely unknown. Here, using intracranial EEG recordings from human participants performing a delayed match-to-sample task for naturalistic objects, we investigated the role of hippocampal ripple activity-brief high-frequency oscillations associated with memory replay-in VSTM maintenance and hippocampal-neocortical communication. We found that hippocampal ripple rates progressively ramped up during the maintenance period and supported successful VSTM. More critically, hippocampal ripples were temporally coupled with the ripples in the lateral temporal lobe (LTL), and these coupled ripples were associated with memory reactivation in the LTL. These findings provide direct evidence that hippocampal-neocortical interaction via coupled ripples supports VSTM, extending the role of hippocampal ripples from long-term consolidation to short-term mnemonic processes and offering new insights into the dynamic coding mechanisms of working memory.</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>MAMBAxBrain: A multi-task neural framework linking brain functional dynamics to individual fingerprints, cognitive and disease states.</title>
+      <link>https://doi.org/10.1162/imag.a.1464</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1464</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+Functional magnetic resonance imaging (fMRI) contains rich individual, cognitive, and pathological information, yet no universal model exists for multi-task modeling of these dimensions. Here, we introduce MAMBAxBrain, a multi-task neural framework that integrates Mamba architecture with functional connectivity analysis to jointly model the temporal dynamics and spatial coordination of neural activity. MAMBAxBrain achieves high accuracy across four distinct fMRI objectives, including brain fingerprinting, cognitive task decoding, reaction time prediction, and schizophrenia classification, consistently outperforming state-of-the-art methods with robust cross-session generalization. Interpretability analyses show that each task engages distinct, biologically plausible circuitry: from higher-order association cortex for identity to subcortical-motor loops for reaction time and disrupted control-sensory connectivity for schizophrenia. These findings inform a longstanding debate: rather than operating through wholly separate or entirely shared systems, the brain preferentially recruits task-specific circuits while retaining common representational structure across functions.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
       <category>静息态与自然刺激</category>
     </item>
     <item>
@@ -450,6 +494,17 @@ Asymmetry on the left-right axis is an organizing principle of the human brain t
       <category>脑疾病机理</category>
     </item>
     <item>
+      <title>Multidimensional relationship between physical health and the brain, mental health, and cognitive development in the ABCD cohort: A 10-year review and future directions.</title>
+      <link>https://doi.org/10.1016/j.dcn.2026.101848</link>
+      <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101848</guid>
+      <description>Developmental cognitive neuroscience
+
+The Adolescent Brain Cognitive Development (ABCD) Study® provides an unprecedented opportunity to examine how physical health, mental health, and neurobiological and neurocognitive developmental trajectories intersect throughout adolescence. Findings to date highlight complex interactions between lifestyle behaviors (e.g., physical activity, screen use, diet, sleep) and cardiometabolic outcomes in relation to neurocognitive development. For example, physical activity and sports participation are linked to enhanced executive functioning and healthier brain morphology, whereas variation in cortical and subcortical structures are associated with obesity and sleep disturbances. Excessive screen use and inadequate sleep further correlate with adverse cardiometabolic profiles and poorer neurocognitive outcomes. These relationships are affected by sociodemographic factors, family and social context, and adverse childhood experiences, which may moderate health behaviors and their relationship to cardiometabolic health and neurocognitive development. For example, dietary patterns vary by sex, socioeconomic status, and race/ethnicity, and signs of poor cardiometabolic health (hypertension, dyslipidemia, and obesity) emerge early, showing disparities across demographic groups. Subsequent alterations in neurobiological pathways may then contribute to the persistence of chronic disease risk in these populations. Additionally, pubertal onset, genetics, and medication use may play a role in neurobiological and neurocognitive trajectories and should be considered when conducting analyses. Together, these findings underscore the bidirectional and potentially cyclical nature of the interaction between physical health, mental health, and neurocognitive development, which are shaped by genetic, biological, and social-environmental factors. Future research leveraging ABCD's longitudinal design will be essential for disentangling causal pathways and informing interventions that promote health equity and optimize adolescent health.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
       <title>Personalized Functional Network Mapping Across the Lifespan.</title>
       <link>https://doi.org/10.1016/j.biopsych.2026.11.004</link>
       <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.004</guid>
@@ -480,60 +535,6 @@ Object recognition relies on correspondence between whole objects and their subc
 
 Humans and other animals develop remarkable perceptual and cognitive specializations for identifying, differentiating, and acting on classes of ecologically important signals. This expertise is flexible enough to support diverse perceptual judgments: a voice, for example, simultaneously conveys what a talker says, as well as myriad cues about her identity and state. Expert perception across complex signals thus involves discovering and learning regularities that best inform diverse perceptual judgments, as well as weighting this information flexibly as task demands change. Here, we test whether this process may involve attentional gain. We use two prospective auditory category learning tasks to relate a complex, entirely novel soundscape to four classes of 'alien identity' and two classes of 'alien size.' Identity, but not size, categorization requires discovery and learning of patterned acoustic input situated in one of two simultaneous, non-overlapping frequency bands. This allows us to capitalize on the coarsely segregated, frequency-band-specific channels tiling auditory cortex. We use fMRI to ask whether category-relevant perceptual information present in one frequency band is prioritized relative to simultaneous, uninformative information in the other frequency band. Only among participants expert at alien identity categorization do we observe neural prioritization of the identity-diagnostic frequency band. This prioritization persists even when the diagnostic information becomes irrelevant in the size categorization task. Tellingly, the neural selectivity evoked implicitly in the identity categorization task aligns with that in an independent task, where activation is driven by explicit and sustained selective attention to pure tones in one or the other frequency band. Additionally, the learning trajectories taken to achieve expert-level categorization leave fingerprints on the patterns of neural activity associated with the diagnostic dimension. In all, this indicates that learning categories can drive attentional gain to category-diagnostic input dimensions.</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Beyond sleep macrostructure: a high-definition review of acupuncture's electrophysiological signatures in modulating sleep microarchitecture (spectral power, spindles, and slow oscillations).</title>
-      <link>https://doi.org/10.1007/s00429-026-03214-5</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03214-5</guid>
-      <description>Brain structure &amp; function
-
-Sleep science has shifted from coarse stage-based metrics toward a microstructural perspective that treats electroencephalographic biomarkers, spectral power, sleep spindles, and slow oscillations as candidate windows onto restorative brain function. This high-definition review evaluates whether acupuncture has been shown to modify these features. Direct evidence from natural overnight sleep is currently very limited: most available electrophysiological studies were conducted during quiet wakefulness, in resting daytime EEG recordings from clinical groups, or under propofol anesthesia. These studies demonstrate that acupuncture or related electrical acupoint stimulation can produce state-, region-, and frequency-dependent changes in EEG power and network organization, but they do not yet establish increased NREM spindle density, improved slow-oscillation-spindle coupling, enhanced slow-wave morphology, memory consolidation, or glymphatic clearance. We therefore distinguish directly observed findings from indirect mechanistic support and from hypotheses that require prospective testing. Plausible pathways include ascending somatosensory influences on thalamocortical excitability, autonomic and hypothalamic effects that may reduce hyperarousal, and peripheral or central neurochemical processes involving adenosine, GABA, serotonin, and BDNF; however, the causal sequence from needling to sleep microarchitecture remains unproven. Future progress requires preregistered, adequately powered, multi-night studies using validated spindle and slow-wave detectors, explicit control estimands, and multimodal measurements. Biomarker-guided and closed-loop acupuncture should presently be regarded as a research framework rather than an established treatment strategy.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval</title>
-      <link>https://europepmc.org/article/PMC/PMC13754277</link>
-      <guid isPermaLink="false">PMC:PMC13754277</guid>
-      <description>eLife
-
-来源未提供摘要。</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Acupuncture-related brain network findings across clinical stages of the Alzheimer’s disease continuum: a critical review of functional MRI evidence</title>
-      <link>https://europepmc.org/article/PMC/PMC13752398</link>
-      <guid isPermaLink="false">PMC:PMC13752398</guid>
-      <description>Frontiers in neurology
-
-来源未提供摘要。</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval.</title>
-      <link>https://doi.org/10.7554/elife.108972</link>
-      <guid isPermaLink="false">doi:10.7554/elife.108972</guid>
-      <description>eLife
-
-Cholinergic dysfunction is a hallmark of Alzheimer's disease and other memory disorders. Yet, the neurophysiological mechanisms linking cholinergic signaling to memory remain poorly understood. In this study, we administered scopolamine, a muscarinic cholinergic antagonist, to neurosurgical patients with intracranial electrodes as they performed an associative recognition memory task. When scopolamine was present at encoding, we observed disruptions to hippocampal slow theta oscillations (2-4 Hz), with selective impairments to recollection-based memory. However, when scopolamine was present during retrieval alone, we observed disruptions to slow theta without impaired memory performance. These disruptions included dose-dependent reductions in theta power, theta phase reset, and encoding-retrieval pattern reinstatement. Together, our results challenge the notion that theta oscillations are necessary for memory retrieval, and instead suggest that theta universally reflects an encoding-related neural state. These findings motivate updates to current models of acetylcholine's role in memory and may inform future therapies targeting rhythmic biomarkers of memory dysfunction.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Learning to Navigate a Changing World: From Brain Systems to Novel Algorithms.</title>
-      <link>https://doi.org/10.1523/jneurosci.1331-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1331-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Natural organisms navigate a world in constant flux and are frequently confronted with sensory ambiguity and shifting goals. While biological systems can adapt rapidly to navigate in novel and nonstationary environments, this challenge remains a significant hurdle for artificial intelligence. In this review, we examine recent progress in understanding neurobiological systems that allow for adaptive, efficient spatial and abstract navigation in dynamic environments and how these observations have informed new developments for the same behavior in machines. We highlight how predictive learning serves as a unifying framework to describe the organization of neural activity across distributed systems for navigation, including the hippocampal formation, parietal cortex, and higher-order associative structures. Specifically, we explore how such neurobiological systems encode expected future states, dynamic target trajectories, action plans, and internal behavioral strategies. Finally, we contrast the diffuse, inefficient exploration of canonical artificial agents with the structured, efficient control policies for goal-directed navigation observed in natural organisms. By grounding learning in the interplay between action, prediction, and natural behavioral statistics, navigation provides a roadmap for building resilient, neurobiologically inspired continual learning in artificial agents.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>
