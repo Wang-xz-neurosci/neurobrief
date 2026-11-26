@@ -5,9 +5,72 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=language</link>
     <description>语言的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 22:56:50 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-language.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frequency-embedded sequence learning for multi-class EEG-to-text interface</title>
+      <link>https://europepmc.org/article/PMC/PMC13796307</link>
+      <guid isPermaLink="false">PMC:PMC13796307</guid>
+      <description>Frontiers in human neuroscience
+
+来源未提供摘要。</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Microstructural Analysis of Language Pathways' Development in Term Neonates</title>
+      <link>https://doi.org/10.64898/2026.11.23.767641</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.23.767641</guid>
+      <description>[预印本] bioRxiv
+
+Understanding the early development of language pathways is essential for elucidating how neonatal brain organization supports the acquisition of linguistic skills. In this study, we investigated microstructural changes in term human neonates scanned at postmenstrual ages (PMA) of 37 to 44 weeks. Using diffusion MRI data from 310 healthy infants in the developing Human Connectome Project, we employed q-space diffeomorphic reconstruction to map major language tracts involved in language processing. Fractional anisotropy, mean diffusivity, and other diffusion-based biomarkers were quantified in pathways such as the arcuate fasciculus, extreme capsule, and inferior fronto-occipital fasciculus. Our results revealed significant weekly differences in microstructural integrity across these tracts, with particularly robust age-related reductions in mean and radial diffusivity. In addition, we observed leftward asymmetries in multiple language pathways, suggesting that hemispheric specialization emerges by this early postnatal stage. Although PMA at scan predicted the most pronounced shifts in diffusion metrics, sex showed minimal impact on developmental trajectories. These findings highlight the rapid and tract-specific organization of language-relevant connections during the first weeks of life, providing normative data against which atypical patterns can be evaluated. More broadly, this work offers new insights into the foundation of language circuitry in neonates, informing future studies of neurodevelopmental disorders and potential early-life interventions.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Can Chimpanzees Imagine a Blue Banana?</title>
+      <link>https://doi.org/10.31234/osf.io/h9fzq_v1</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/h9fzq_v1</guid>
+      <description>[预印本] PsyArXiv
+
+Can a chimpanzee that has learned words for colors and objects find a blue pencil among pencils, straws, and Lego pieces in red, green, and blue? This seemingly simple task requires more than recognizing individual words: it requires integrating the meaning of a color adjective with that of a noun to identify an object possessing both properties. Children typically master this ability by 2.3 years. By age 3, they can integrate two modifiers, such as size and color, to follow instructions like “Find a large green straw.” These achievements mark important milestones in the development of language comprehension, allowing children to combine multiple words into a unified mental representation of an object. Chimpanzees, by contrast, can learn hundreds of words referring to objects, colors, and actions. Yet, despite decades of research, they have not been demonstrated to reliably integrate even a color with a noun. In this paper, we propose a simple neurocognitive account of adjective–noun comprehension. We argue that this ability depends on the development of neural connections that allow the prefrontal cortex to modify sensory representations of objects in posterior cortical regions. This framework offers a testable explanation for a fundamental difference between human and chimpanzee language comprehension.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>Can Chimpanzees Imagine a Blue Banana?</title>
+      <link>https://doi.org/10.31234/osf.io/h9fzq</link>
+      <guid isPermaLink="false">doi:10.31234/osf.io/h9fzq</guid>
+      <description>[预印本] PsyArXiv
+
+Can a chimpanzee that has learned words for colors and objects find a blue pencil among pencils, straws, and Lego pieces in red, green, and blue? This seemingly simple task requires more than recognizing individual words: it requires integrating the meaning of a color adjective with that of a noun to identify an object possessing both properties. Children typically master this ability by 2.3 years. By age 3, they can integrate two modifiers, such as size and color, to follow instructions like “Find a large green straw.” These achievements mark important milestones in the development of language comprehension, allowing children to combine multiple words into a unified mental representation of an object. Chimpanzees, by contrast, can learn hundreds of words referring to objects, colors, and actions. Yet, despite decades of research, they have not been demonstrated to reliably integrate even a color with a noun. In this paper, we propose a simple neurocognitive account of adjective–noun comprehension. We argue that this ability depends on the development of neural connections that allow the prefrontal cortex to modify sensory representations of objects in posterior cortical regions. This framework offers a testable explanation for a fundamental difference between human and chimpanzee language comprehension.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
+      <title>The what, how and where of statistical learning: a neurocognitive synthesis.</title>
+      <link>https://doi.org/10.1038/s41583-026-01100-x</link>
+      <guid isPermaLink="false">doi:10.1038/s41583-026-01100-x</guid>
+      <description>Nature reviews. Neuroscience
+
+The ability to learn environmental regularities - statistical learning - is crucial for language, cognition and behaviour. Despite decades of research, fundamental questions remain about what statistical learning is, how the mind supports it and where in the brain it is implemented. We address these questions with a framework based on Marr's levels of analysis. At the 'what' level, we suggest that statistical learning is best defined in terms of its goal: to learn latent structure in the input across repeated exposures. We focus on three widely studied sequential statistical learning tasks that embody this definition: embedded pattern, artificial grammar and serial reaction time tasks. At the 'how' and 'where' levels, our comprehensive reviews reveal that sequential statistical learning depends on at least two cognitive learning processes (prediction-based learning and chunking) and two well-established neural learning circuits (rooted in the basal ganglia and the medial temporal lobe). We describe empirically motivated 'many-to-many' mappings between the tasks, learning processes and neural circuits that integrate the three levels. Further, we suggest that task, input and learner characteristics can shift the relative reliance on these processes and circuits. Overall, our synthesis elucidates the cognitive and neural substrates of sequential statistical learning and provides predictions to guide future research.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Unraveling the interplay between sensory information and semantic architecture in brain concept representation: the role of abstraction.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122364</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122364</guid>
+      <description>NeuroImage
+
+Understanding how abstract and concrete words are represented in the brain requires disentangling the contribution of sensorimotor information from the organization of semantic knowledge. These dimensions, here referred to as abstractness and abstraction, respectively, are typically confounded, limiting our ability to identify their distinct neural correlates. The present study aimed to dissociate the roles of abstractness and abstraction in word processing by introducing superordinate words as a critical comparison category. Behavioral norming and feature production tasks were used to quantify sensory-related properties and semantic architecture, operationalized in terms of generalizability, feature relevance, and representational specificity. These measures informed computational models capturing abstractness, abstraction, sensorimotor content, and distributional similarity. Neural data were acquired using electroencephalography and analyzed with representational similarity analysis to assess model-brain correspondence over time. Behaviorally, superordinate words patterned with concrete words on sensory properties but with abstract words on measures of semantic architecture. In the electrophysiological data, concrete words elicited stronger negativities than both abstract and superordinate words in the N400 and N700 time windows, whereas the contrast between abstract and superordinate words did not reach significance. Representational similarity analysis revealed that, among the models tested, the abstraction model was significantly associated with the neural response patterns in the N400 and N700 latencies, whereas models based on abstractness, sensorimotor or distributional information did not reach the significance threshold. Within the participants and stimuli tested, these results indicate that semantic architecture provides a useful framework for understanding the neural dynamics of word processing, alongside sensorimotor grounding. They suggest that abstraction may play a central role in structuring conceptual representations, providing a unifying account that bridges embodied and formal theories of semantic representation.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
     <item>
       <title>Age and bilingual language experience are associated with large-scale functional network reorganization</title>
       <link>https://doi.org/10.31234/osf.io/j5zye_v1</link>
@@ -83,16 +146,6 @@ Short segments of perceived speech can be retrieved from non-invasive magnetoenc
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Spasmodic Dysphonia and Muscle Tension Dysphonia: A Review of Neuroimaging and Neurophysiological Evidence.</title>
-      <link>https://doi.org/10.1016/j.jvoice.2026.10.061</link>
-      <guid isPermaLink="false">doi:10.1016/j.jvoice.2026.10.061</guid>
-      <description>Journal of voice : official journal of the Voice Foundation
-
-Spasmodic dysphonia (SD), or laryngeal dystonia (LD), and muscle tension dysphonia (MTD) are clinically overlapping voice disorders with different positions in current pathophysiological models. This review synthesizes multimodal neuroimaging and neurophysiological evidence on their central mechanisms, compares the implicated neural systems, and assesses whether such measures can aid future differential diagnosis. A structured search was conducted in PubMed/MEDLINE, Europe PMC, and Google Scholar (final search, March 29, 2026), limited to English-language publications from January 2000 through March 2026 and supplemented by reference-list screening and forward citation tracking. Evidence was synthesized across task-based and resting-state fMRI, structural MRI and morphometry, diffusion tensor and kurtosis imaging, PET, transcranial magnetic stimulation (TMS), and magnetoencephalography. Studies were appraised qualitatively for design, sample size, diagnostic phenotype, comparator groups, treatment or botulinum toxin washout status, findings, and limitations. The SD/LD literature provided relatively consistent evidence of abnormalities across distributed voice-control networks involving cortical, subcortical, cerebellar, and brainstem systems, recurring in primary sensorimotor cortex, supplementary and premotor regions, inferior frontal and parietal cortices, insula, putamen, thalamus, cerebellum, and their white-matter connections. Some abnormalities persisted outside phonation or before movement onset, supporting a trait-like component; TMS showed impaired cortical inhibition and a shortened cortical silent period (CSP) in SD/LD. The MTD evidence base remained limited, comprising one case-control task-fMRI study of ten women, one single-patient pre-/post-treatment fMRI study, and one TMS study with an MTD comparator. These findings suggested possible central involvement but did not establish a causal mechanism, a stable MTD-specific network, or the contributions of compensation, state-dependent effects, and phonatory effort; comparable CSP shortening was not reported in MTD. SD/LD is best understood as a distributed disorder of central voice-control networks, whereas MTD appears to be a hyperfunctional voice disorder with plausible but incompletely characterized central influences. Unequal evidence volume should not be read as established biological divergence, and the "neurological" versus "non-neurological" distinction remains provisional. Imaging and physiological measures are not yet validated biomarkers, and CSP is only a candidate marker pending replication and validation. Larger, clinically stratified, harmonized multimodal head-to-head studies are needed, potentially integrating neural, physiological, acoustic, and clinical measures for reliable differential diagnosis.</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
     </item>
     <item>
       <title>Content-related motor cortical representation during attempted handwriting.</title>
@@ -202,9 +255,10 @@ Background Speech perception has been hypothesized to exploit neural activity th
       <guid isPermaLink="false">doi:10.1186/s13195-026-02266-3</guid>
       <description>Alzheimer's research &amp; therapy
 
-Repeated monitoring of people at risk of Alzheimer's disease (AD) to detect progressive neurobiological change can place substantial demands on clinical resources, highlighting the need for scalable, low-burden approaches. We therefore examined whether changes in speech-based cognitive measures derived from verbal responses in telephone-based assessments were coupled with long-term brain atrophy trajectories spanning normal aging to mild cognitive impairment. In the German PROSPECT-AD study, 198 participants completed phonebot-guided verbal learning (VLT) and semantic verbal fluency (SVF) tasks at home at least twice. We automatically extracted several fine-grained features from recordings and aggregated them into cognitive-task latent factors and speech-based cognitive (SB-C) scores. Individual change rates of these speech-based cognitive measures were estimated using latent growth curve models and associated with regional gray matter atrophy trajectories in a subsample with longitudinal MRI available (n = 108), using linear mixed-effects models. We also compared the association with atrophy of speech-based and paper-based cognitive measures using predefined comparison-specific non-inferiority margins. SB-C Processing Speed showed the broadest pattern of coupling with atrophy trajectories across all four pre-selected AD-signature regions (hippocampus, parahippocampal gyrus, basal forebrain, and amygdala; βstd. = 0.016-0.043, all pFDR &lt; 0.05), while other measures showed more selective coupling. When we incorporated serial-position information, the VLT Delayed Factor was significantly associated with atrophy in both the hippocampus and parahippocampal gyrus (βstd. = 0.015 and 0.022, respectively). In contrast, VLT Delayed Recall correct count alone was significantly associated only with parahippocampal gyrus atrophy (βstd. = 0.017). Where paper-based cognitive measures showed no association, SB-C Processing Speed and other speech-based cognitive measures were more strongly associated with atrophy trajectories. These findings suggest that speech-based cognitive measures from the automated telephone-based assessment may track cognitive change associated with neurodegeneration in people at risk of AD, offering a scalable monitoring approach. Given our modest sample size, replication in larger cohorts is warranted, including a more precise non-inferiority test.</description>
+Background Repeated monitoring of people at risk of Alzheimer's disease (AD) to detect progressive neurobiological change can place substantial demands on clinical resources, highlighting the need for scalable, low-burden approaches. We therefore examined whether changes in speech-based cognitive measures derived from verbal responses in telephone-based assessments were coupled with long-term brain atrophy trajectories spanning normal aging to mild cognitive impairment. Methods In the German PROSPECT-AD study, 198 participants completed phonebot-guided verbal learning (VLT) and semantic verbal fluency (SVF) tasks at home at least twice. We automatically extracted several fine-grained features from recordings and aggregated them into cognitive-task latent factors and speech-based cognitive (SB-C) scores. Individual change rates of these speech-based cognitive measures were estimated using latent growth curve models and associated with regional gray matter atrophy trajectories in a subsample with longitudinal MRI available (n = 108), using linear mixed-effects models. We also compared the association with atrophy of speech-based and paper-based cognitive measures using predefined comparison-specific non-inferiority margins. Results SB-C Processing Speed showed the broadest pattern of coupling with atrophy trajectories across all four pre-selected AD-signature regions (hippocampus, parahippocampal gyrus, basal forebrain, and amygdala; βstd . = 0.016-0.043, all pFDR &lt; 0.05), while other measures showed more selective coupling. When we incorporated serial-position information, the VLT Delayed Factor was significantly associated with atrophy in both the hippocampus and parahippocampal gyrus (βstd . = 0.015 and 0.022, respectively). In contrast, VLT Delayed Recall correct count alone was significantly associated only with parahippocampal gyrus atrophy (βstd . = 0.017). Where paper-based cognitive measures showed no association, SB-C Processing Speed and other speech-based cognitive measures were more strongly associated with atrophy trajectories. Conclusions These findings suggest that speech-based cognitive measures from the automated telephone-based assessment may track cognitive change associated with neurodegeneration in people at risk of AD, offering a scalable monitoring approach. Given our modest sample size, replication in larger cohorts is warranted, including a more precise non-inferiority test.</description>
       <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
+      <category>结构与功能</category>
     </item>
     <item>
       <title>What's in a Story? Studying Neural Narrative Engagement with Auditory Passages Using EEG Inter-Subject Correlation</title>
@@ -254,7 +308,7 @@ Objective Language fMRI paradigms may allow joint assessment of interconnected l
       <guid isPermaLink="false">doi:10.64898/2026.11.19.767838</guid>
       <description>[预印本] bioRxiv
 
-Speech and music engage overlapping auditory cortex. We asked whether they shape the timing of local activity in ways that regional response strength alone leaves unresolved. In intracranial recordings from 30 participants watching a film with alternating music and speech, 1-10-Hz activity in the superior temporal gyrus (STG) had higher sample entropy during music, indicating that similar short patterns were less likely to persist (mean paired difference = 0.02256, FDR q = 0.00753). The contrast persisted in comparisons of adjacent film blocks and was larger relative to surrogate signals matched for amplitude distribution and approximate power spectrum. Speech elicited higher STG high-frequency power in the intracranial subset and stronger bilateral STG BOLD responses in all 30 participants in the separately acquired fMRI recordings. Together, these findings show that the soundtrack category associated with stronger regional responses differs from the one associated with greater local temporal irregularity. The temporal organisation of local activity therefore adds a dimension to how shared auditory cortex responds to natural sounds.</description>
+Speech and music engage overlapping auditory cortex. We asked whether they shape the timing of local activity in ways that regional response strength alone leaves unresolved. In intracranial recordings from 30 participants watching a film with alternating music and speech, 1–10-Hz activity in the superior temporal gyrus (STG) had higher sample entropy during music, indicating that similar short patterns were less likely to persist (mean paired difference = 0.02256, FDR q = 0.00753). The contrast persisted in comparisons of adjacent film blocks and was larger relative to surrogate signals matched for amplitude distribution and approximate power spectrum. Speech elicited higher STG high-frequency power in the intracranial subset and stronger bilateral STG BOLD responses in all 30 participants in the separately acquired fMRI recordings. Together, these findings show that the soundtrack category associated with stronger regional responses differs from the one associated with greater local temporal irregularity. The temporal organisation of local activity therefore adds a dimension to how shared auditory cortex responds to natural sounds.</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
     </item>
@@ -363,6 +417,16 @@ Understanding speech relies on the neural processing of acoustic and linguistic 
       <category>语言与脑</category>
     </item>
     <item>
+      <title>Long-Term Music Training Is Associated with Auditory-Frontal Cortical Responses in Mandarin-Speaking Children with Cochlear Implants: A Clinical High-Density EEG Study.</title>
+      <link>https://doi.org/10.3390/brainsci16111264</link>
+      <guid isPermaLink="false">doi:10.3390/brainsci16111264</guid>
+      <description>Brain sciences
+
+Background: Children with cochlear implants (CIs) develop speech and language under electrically mediated auditory input, yet it remains unclear whether cumulative musical experience is associated with cortical speech processing. This study examined whether music-training duration was related to prefrontal responses during Mandarin speech-feature processing in children with CIs using high-density electroencephalography (EEG) source localization. Methods: Thirty Mandarin-speaking children with CIs from the Tianjin Little Dolphin Hearing-Loss Children's Choir were grouped by cumulative music-training duration: short (&lt;3 years), medium (3-5 years), and long (&gt;5 years). Participants completed audiological and speech-perception assessments and underwent high-density EEG during a Mandarin multi-feature oddball paradigm including tone, consonant, vowel, duration, and intensity deviants. Mismatch negativity (MMN) responses were source-localized to characterize cortical activation. Results: Behavioral measures, including aided hearing thresholds and speech-perception accuracy, were comparable across groups. In contrast, source analysis showed progressively stronger prefrontal activation with longer music-training duration. This pattern was most evident for vowel and consonant deviants, whereas duration-related responses showed little variation. In adjusted linear models, longer training duration was positively associated with prefrontal activation for intensity (p = 0.002) and tone (p = 0.022), with marginal associations for consonant (p = 0.057) and vowel (p = 0.058) deviants. Conclusions: Longer music-training duration was associated with stronger auditory-frontal cortical responses during Mandarin speech-feature processing in children with CIs, despite comparable behavioral auditory outcomes across groups. These preliminary findings suggest that high-density EEG may provide a complementary clinical neurophysiological tool for evaluating rehabilitation-related cortical differences in pediatric CI users. Future longitudinal studies are needed to determine whether these associations reflect training-related developmental changes.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+    </item>
+    <item>
       <title>Neural sensitivity to musical rhythm is associated with the temporal dynamics of statistical learning in speech</title>
       <link>https://doi.org/10.31234/osf.io/v9xfh_v1</link>
       <guid isPermaLink="false">doi:10.31234/osf.io/v9xfh_v1</guid>
@@ -466,69 +530,6 @@ Children with dyslexia show persistent phonological difficulties in controlled e
 来源未提供摘要。</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Partially shared representational space for vision and language across objects, scenes, and visual events</title>
-      <link>https://doi.org/10.64898/2026.11.13.762800</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.13.762800</guid>
-      <description>[预印本] bioRxiv
-
-ABSTRACT Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately across modalities (vision vs language) and types (models vs human behaviour). It remains unclear to what extent these predictors explain shared or unique aspects of visual brain responses, how these contributions vary along the visual hierarchy and category-selective regions, and whether vision-language convergence depends on the stimulus type. We used three fMRI datasets progressing toward naturalistic visual experience, from objects (THINGS) to scenes (NSD) to dynamic events (BMD). For each dataset, we collected similarity judgements of visual stimuli and of their language descriptions from human participants (N = 21-35), extracted vision DNN features and LLM embeddings, and related similarity judgements and model representations to visual brain responses using representational similarity analysis (RSA) and variance partitioning. Vision-language convergence was higher within behaviour than within models. From objects to dynamic events, LLM alignment with vision-based similarity judgements increased, whereas vision DNN alignment remained stable. A shared, predominantly cross-modal component increased along the visual hierarchy and dominated explained variance in high-level visual cortex. LLMs made their largest unique contributions in face– and body-selective regions (FFA and EBA), where shared representations of vision– and language-based human similarity judgements also explained variance beyond the models. In summary, we find a partially shared representational space for vision and language in high-level visual cortex, most clearly in regions representing social information related to people and their actions. As each predictor retained unique variance, combining computational models and human behaviour across vision and language may offer a more comprehensive account of high-level visual representations.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Immature Valence Recognition of Emotional Speech in Cochlear Implant Users: Evidence From Event-Related Potentials and Neural Oscillations.</title>
-      <link>https://doi.org/10.1097/aud.0000000000001914</link>
-      <guid isPermaLink="false">doi:10.1097/aud.0000000000001914</guid>
-      <description>Ear and hearing
-
-Objectives Rapid emotional perception in speech is crucial to efficient social communication. Cochlear implant (CI) users, constrained by device limitations in transmitting spectro-temporal detail, rely more on semantic than prosodic cues for emotional processing of spoken language. This study investigated whether CI users can rapidly recognize emotional valence based on semantic cues before full semantic comprehension when prosodic information is minimized. Design Chinese monosyllables with negative or positive valence were presented with neutral prosody using an oddball paradigm. Event-related potentials and neural oscillations were recorded in CI users and normal-hearing (NH) listeners. Results Emotional syllables evoked an N400, indicative of semantic processing, in NH listeners. Crucially, NH listeners showed an earlier mismatch negativity (MMN) for negative syllable deviants, reflecting rapid categorical perception of emotional valence. However, the N400 for positive deviants and the MMN were absent in CI users. Furthermore, compared with NH listeners, CI users showed weaker theta-band and alpha-band event-related spectral perturbations (ERSPs) and inter-trial coherences and a greater beta-band ERSP. A lower beta-band ERSP was correlated with greater N400 and late negative component in NH listeners. Personality scores for extraversion and agreeableness correlated with the amplitudes of the MMN and N400 components, respectively. Conclusions The findings portray the dynamics of emotional speech processing and demonstrate that rapid recognition of emotional valence expressed by lexical meaning occurs before complete semantic processing in the NH brain. Theta activity may be associated with early emotional valence recognition, and beta activity corresponds to higher-level semantic and emotional processing. However, these two processes are immature in CI users, as evidenced by absent event-related potentials and altered neural oscillations. Personality traits may modulate emotional sensitivity, further affecting the efficiency of emotional speech processing.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Active L2 immersion is associated with glymphatic-related MRI markers in healthy young adults: A cross-sectional multimodal study.</title>
-      <link>https://doi.org/10.1016/j.ynirp.2026.100435</link>
-      <guid isPermaLink="false">doi:10.1016/j.ynirp.2026.100435</guid>
-      <description>Neuroimage. Reports
-
-Background The brain's glymphatic system plays a vital role in maintaining neural health. However, little is known about whether second language (L2) immersion is associated with glymphatic function. Methods 50 high-proficiency L2 English speakers (mean age: 32.6 years; 78% female) underwent multimodal MRI. Three glymphatic-related markers were derived: BOLD-CSF coupling strength (fMRI), choroid plexus (ChP) ratio (structural MRI), and DTI-ALPS index (diffusion MRI). We examined their associations with L2 immersion duration and age of acquisition (AOA), and active language-use context, controlling for age, education, and sex. Results Longer L2 immersion duration was associated with stronger BOLD-CSF coupling (r = -.316, q = .029; two-tailed q = .059) and smaller ChP ratios (r = -.386, q = .016). An exploratory mediation analysis indicated an indirect association with the ALPS index through ChP ratio and BOLD-CSF coupling. AOA moderated the immersion-coupling association, significant among earlier learners (B = -.134, p &lt; .001) but not later learners. AOA did not moderate the ChP association and ALPS index. Only active L2 use within immersive environments was associated with the markers, whereas passive immersion and non-immersive active use were not. Conclusions L2 immersion duration is associated directly and indirectly with MRI-derived glymphatic-related markers in healthy adults. These findings extend research on bilingualism and brain health to glymphatic-related physiology and motivate longitudinal tests of whether this association contributes to cognitive reserve.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-    </item>
-    <item>
-      <title>Multidimensional psycholinguistic difficulty in Cantonese picture naming: Behavioral, neural, and effective connectivity evidence.</title>
-      <link>https://doi.org/10.1016/j.bandl.2026.105867</link>
-      <guid isPermaLink="false">doi:10.1016/j.bandl.2026.105867</guid>
-      <description>Brain and language
-
-Picture naming is a useful paradigm for studying spoken word production because it requires the transformation of visual object input into a lexical response through coordinated conceptual and lexical processes. This study examined whether inherent psycholinguistic difficulty in picture naming is multidimensional or unitary. Thirty-eight healthy native Cantonese speakers performed an overt object picture-naming task during fMRI. Four psycholinguistic variables were modeled: conceptual familiarity, average neighborhood distance (AND), naming disagreement, and lexical frequency. Mixed-effects models showed that higher conceptual familiarity and lexical frequency facilitated naming, whereas higher AND increased both errors and response times; naming disagreement increased errors but did not significantly affect response times. Importantly, we observed a significant interaction between conceptual familiarity and lexical frequency on response times, indicating the facilitative effect of frequency was modulated by familiarity. For errors, significant interactions were found between conceptual familiarity and lexical frequency, as well as between AND and lexical frequency, and between AND and naming disagreement, revealing complex joint influences on naming accuracy. Whole-brain analyses revealed dissociable neural effects across variables. Conjunction analysis showed that lower conceptual familiarity and higher AND converged in bilateral lateral occipital and ventral occipitotemporal regions, with extension into the left posterior temporal cortex, suggesting shared sensitivity to semantic-level difficulty. In contrast, naming disagreement and lexical frequency did not show significant lexical-level overlap. Effective connectivity analyses further identified a stable directed ROI architecture during naming. Together, the findings support a multidimensional account of picture-naming difficulty in which semantic- and lexical-related item properties impose partially distinct but interacting constraints on spoken word production.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Speech and Language Abnormalities in Putative Brain-First Versus Body-First Parkinson's Disease.</title>
-      <link>https://doi.org/10.1002/mds.70618</link>
-      <guid isPermaLink="false">doi:10.1002/mds.70618</guid>
-      <description>Movement disorders : official journal of the Movement Disorder Society
-
-Background The α-synuclein origin model proposes brain-first and body-first Parkinson's disease (PD) subtypes, with speech potentially revealing their distinct neurodegenerative patterns. Objective We aimed to analyze the possible speech and language differences between untreated PD patients with premotor (putative body-first) and without (putative brain-first) rapid eye movement sleep behavior disorder. Methods Speech samples of reading passages and monologues were automatically analyzed using acoustic and linguistic features. Results We enrolled 23 body-first and 35 brain-first de novo PD patients compared with 35 healthy controls. Brain-first patients showed greater speech impairment severity compared with body-first patients (P = 0.002) and controls (P &lt; 0.001), whereas body-first patients showed greater language impairment severity compared with brain-first patients (P &lt; 0.001) and controls (P &lt; 0.001). Conclusions Putative brain-first subtype had more motor speech abnormalities whereas body-first subtype manifested greater language impairment. Thes finding is consistent with motor-dominant nigrostriatal involvement in brain-first and broader non-motor/cognitive involvement in body-first PD. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-    </item>
-    <item>
-      <title>Active L2 immersion is associated with glymphatic-related MRI markers in healthy young adults: A cross-sectional multimodal study</title>
-      <link>https://europepmc.org/article/PMC/PMC13788886</link>
-      <guid isPermaLink="false">PMC:PMC13788886</guid>
-      <description>Neuroimage. Reports
-
-来源未提供摘要。</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>静息态与自然刺激</category>
     </item>
   </channel>
 </rss>

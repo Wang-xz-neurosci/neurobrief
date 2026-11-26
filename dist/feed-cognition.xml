@@ -5,7 +5,7 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 22:56:50 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -29,6 +29,71 @@ Visual learning, like other kinds of learning, has classically been attributed t
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>The what, how and where of statistical learning: a neurocognitive synthesis.</title>
+      <link>https://doi.org/10.1038/s41583-026-01100-x</link>
+      <guid isPermaLink="false">doi:10.1038/s41583-026-01100-x</guid>
+      <description>Nature reviews. Neuroscience
+
+The ability to learn environmental regularities - statistical learning - is crucial for language, cognition and behaviour. Despite decades of research, fundamental questions remain about what statistical learning is, how the mind supports it and where in the brain it is implemented. We address these questions with a framework based on Marr's levels of analysis. At the 'what' level, we suggest that statistical learning is best defined in terms of its goal: to learn latent structure in the input across repeated exposures. We focus on three widely studied sequential statistical learning tasks that embody this definition: embedded pattern, artificial grammar and serial reaction time tasks. At the 'how' and 'where' levels, our comprehensive reviews reveal that sequential statistical learning depends on at least two cognitive learning processes (prediction-based learning and chunking) and two well-established neural learning circuits (rooted in the basal ganglia and the medial temporal lobe). We describe empirically motivated 'many-to-many' mappings between the tasks, learning processes and neural circuits that integrate the three levels. Further, we suggest that task, input and learner characteristics can shift the relative reliance on these processes and circuits. Overall, our synthesis elucidates the cognitive and neural substrates of sequential statistical learning and provides predictions to guide future research.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Biotin intake and mental health: findings from a large population-based cohort and biological insights from hippocampal and gut-brain pathways.</title>
+      <link>https://doi.org/10.1038/s41380-026-03968-8</link>
+      <guid isPermaLink="false">doi:10.1038/s41380-026-03968-8</guid>
+      <description>Molecular psychiatry
+
+The relationship between biotin and mental health remains largely unexplored. Leveraging data from the UK Biobank prospective cohort, we found that dietary biotin intake in the second quartile was associated with a 15% lower risk of major depressive disorder, while intake in the third quartile was associated with a 14% lower risk of anxiety disorder, compared with the lowest quartile. Furthermore, restricted cubic spline (RCS) analyses revealed nonlinear associations between dietary biotin intake and both outcomes, with the lowest risks of incidence observed at biotin intake levels of approximately 40-50 μg. Neuroimaging analyses further revealed positive associations between dietary biotin intake and fractional anisotropy in the cingulum-hippocampus tract, suggesting a potential link between biotin intake and white matter microstructure in a pathway involved in emotional regulation. We then examined the effects of a 9-week biotin intervention in mice and observed changes consistent with two potential pathways: a hippocampus-related pathway involving enhanced protein biotinylation, reduced neuronal nitric oxide synthase (nNOS) expression, and increased brain-derived neurotrophic factor (BDNF) expression, and a gut-brain axis pathway characterized by greater microbial diversity and an increased relative abundance of Akkermansia muciniphila, which was positively associated with brain 5-hydroxytryptamine (5-HT) levels. These findings provide complementary biological evidence that may help explain the observed association between dietary biotin intake and mental health.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Linking Theory of Mind and Cardiac Vagal Regulation: the Integrative Role of the Posterior Cerebellum.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122367</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122367</guid>
+      <description>NeuroImage
+
+Interpersonal interactions are fundamentally regulated by Social Cognition, a multifaceted construct encompassing the cognitive and neural processes used to navigate the social environment. Within this overarching architecture, Theory of Mind (ToM), or mentalizing, provides a foundational dual-level framework of implicit and explicit systems. Although these functions traditionally rely on a cortical mentalizing network, recent findings support a cerebellar contribution to ToM processes. Given that the cerebellar computational architecture is suited for the rapid, automated processing of visual social cues, investigating lower-level social decoding offers a unique window into the cerebellar contribution to ToM. Building on this framework, the present research explored the relation between cerebellar morphometry and lower-level ToM in healthy subjects. Participants underwent MRI to assess cerebellar Gray Matter volumes and completed the computerized version of the Reading the Mind in the Eyes Test (RMET). Since the lower-level mentalizing is closely tied to complex interactions between the Central and Autonomic Nervous Systems (ANS), the present study also examined the relationships between cerebellar volumes and Heart Rate Variability, namely the variations of Root Mean Square of Successive Differences (RMSSD) values across the RMET procedure. Findings revealed that volumes of cerebellar lobules VI, VIIb, Crus II, and vermis IX predicted the RMET accuracy. Furthermore, the volume of vermis IX selectively predicted RMSSD variation during the rest-recovery transition, with smaller vermis IX volumes associated with a sharper, more progressive RMSSD decline. Overall, these data highlight that posterior cerebellar morphometry is associated with RMET performance and cardiac vagal regulation, thus supporting lower-level mentalizing.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>Neurocomputational Mechanisms Underlying Differential Framing Effects on Generosity and Honesty.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122366</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122366</guid>
+      <description>NeuroImage
+
+The framing effect, a robust cognitive bias, demonstrates that human decision-making is influenced by whether outcomes are presented as gains or losses. Nevertheless, substantial debate remains regarding the extent to which loss frames facilitate or inhibit prosocial behaviors, and the neurocognitive processes through which frames drive these divergent effects remain poorly understood. We combined behavioral analyses, computational modeling, and brain imaging to dissect the neurocognitive substrates underpinning framing effects on two distinct forms of prosociality: generosity and honesty. Fifty-three healthy adult participants completed both the Dictator Game (DG), which primarily captures generosity-related considerations, and the Message Game (MG), which involves honesty-related considerations, allowing us to examine how gain versus loss frames affect choices across these two prosocial decision contexts. Behavioral analyses revealed a significant game type × frame interaction, while computational modeling further identified opposite frame-related changes in the generosity-related parameter β and the honesty-related parameter δ, together revealing differential framing effects across prosocial domains. At the neural level, activations in the amygdala and ventromedial prefrontal cortex (vmPFC) were modulated by frame and game type: both regions showed greater activation for DG in the gain frame and MG in the loss frame than for DG in the loss frame and MG in the gain frame. Moreover, functional coupling between the vmPFC and temporoparietal junction (TPJ) exhibited an interaction effect consistent with the regional activation pattern, while amygdala and TPJ coupling showed a similar interaction trend. Collectively, these findings suggest the involvement of an amygdala-TPJ-vmPFC circuit in framing-related decision-making, with the TPJ potentially participating in interactions between affective and value-related processes that may contribute to differential framing effects on generosity and honesty.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Unraveling the interplay between sensory information and semantic architecture in brain concept representation: the role of abstraction.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122364</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122364</guid>
+      <description>NeuroImage
+
+Understanding how abstract and concrete words are represented in the brain requires disentangling the contribution of sensorimotor information from the organization of semantic knowledge. These dimensions, here referred to as abstractness and abstraction, respectively, are typically confounded, limiting our ability to identify their distinct neural correlates. The present study aimed to dissociate the roles of abstractness and abstraction in word processing by introducing superordinate words as a critical comparison category. Behavioral norming and feature production tasks were used to quantify sensory-related properties and semantic architecture, operationalized in terms of generalizability, feature relevance, and representational specificity. These measures informed computational models capturing abstractness, abstraction, sensorimotor content, and distributional similarity. Neural data were acquired using electroencephalography and analyzed with representational similarity analysis to assess model-brain correspondence over time. Behaviorally, superordinate words patterned with concrete words on sensory properties but with abstract words on measures of semantic architecture. In the electrophysiological data, concrete words elicited stronger negativities than both abstract and superordinate words in the N400 and N700 time windows, whereas the contrast between abstract and superordinate words did not reach significance. Representational similarity analysis revealed that, among the models tested, the abstraction model was significantly associated with the neural response patterns in the N400 and N700 latencies, whereas models based on abstractness, sensorimotor or distributional information did not reach the significance threshold. Within the participants and stimuli tested, these results indicate that semantic architecture provides a useful framework for understanding the neural dynamics of word processing, alongside sensorimotor grounding. They suggest that abstraction may play a central role in structuring conceptual representations, providing a unifying account that bridges embodied and formal theories of semantic representation.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Whole-brain mapping of TMS-induced discomfort with large-scale concurrent TMS-fMRI.</title>
+      <link>https://doi.org/10.1016/j.brs.2026.103271</link>
+      <guid isPermaLink="false">doi:10.1016/j.brs.2026.103271</guid>
+      <description>Brain stimulation
+
+Transcranial magnetic stimulation (TMS) is widely used for causal brain mapping and neuromodulation therapies, yet TMS-induced discomfort remains a prevalent and under-characterized confound that may influence measured neural responses. This study aimed to characterize the whole-brain neural signatures of TMS-induced discomfort and quantify its contribution to TMS-evoked neural activity. A total of 165 participants, including healthy individuals (N = 80) and individuals with elevated depression and/or anxiety symptoms (N = 85), underwent concurrent TMS-fMRI across 11 cortical stimulation sites, yielding 1,535 runs. Following each run, participants rated TMS-induced discomfort using the Subjective Units of Distress Scale (SUDS). Multivariate brain-discomfort associations were modeled using a principal component analysis and sparse canonical correlation analysis (PCA-sCCA) framework with cross-validation. TMS-induced discomfort varied systematically across stimulation sites, with greater discomfort reported for frontal and inferior regions. PCA-sCCA identified distributed neural signatures of TMS-induced discomfort spanning sensorimotor, attentional, limbic, and default mode networks, as well as subcortical regions. Neural signatures differed between healthy and symptomatic groups, demonstrating both shared and group-specific patterns. The discomfort-related activity comprised approximately 12% and 25% of TMS-evoked neural responses in healthy and symptomatic groups, respectively, with greater contributions observed at frontal stimulation sites. Accounting for the discomfort-related component altered estimates of TMS-evoked response magnitude and effect size. TMS-induced discomfort engages distributed brain-wide networks and constitutes a substantial component of TMS-evoked neural responses. These findings identify discomfort-related activity as an important confounding factor in TMS studies and highlight the need to routinely assess TMS-induced discomfort and consider its potential influence when estimating TMS-evoked neural effects, thereby improving the interpretability and rigor of TMS research and therapeutic applications.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Consciousness, complexity, and clinical implications.</title>
       <link>https://doi.org/10.1007/s00429-026-03236-z</link>
       <guid isPermaLink="false">doi:10.1007/s00429-026-03236-z</guid>
@@ -36,6 +101,16 @@ Visual learning, like other kinds of learning, has classically been attributed t
 
 Consciousness remains one of science's most challenging problems because it cannot be exhaustively characterized as a single function, computation, or behavior; it also refers to the presence and organization of subjective experience. This position paper integrates clinical neurology, neurophysiology, psychiatry, psychoanalysis, embodied cognition, moral neuroscience, theoretical physics, philosophy of mind, and neurotechnology. We argue that, despite major advances in identifying neural correlates, computational models, and behavioral markers, contemporary consciousness research has not resolved the explanatory gap between objective description and subjective experience. We propose that claims about consciousness at neurophysiological, embodied, cognitive, social, and ontological levels should be coordinated through explicit cross-level constraints rather than merged into a single unitary theory. These domains have different evidential roles and are not all constituents of consciousness. Perturbational measures of cortical complexity, including the Perturbational Complexity Index (PCI) and its state-transition variant (PCIst), support assessment of preserved conscious capacity in studied human populations. They do not independently determine a clinical diagnosis or phenomenal content. Evidence from aphasia, sleep, anesthesia, and disorders of consciousness also demonstrates dissociations among language, wakefulness, behavioral responsiveness, and conscious experience. Perspectives from embodied simulation, mind-object identity, quantum information, and the philosophy of physics are treated here as heuristic stress tests rather than as mechanistic accounts; they keep open foundational questions concerning subjectivity, representation, and the role of the observer. We advocate constrained pluralism, a methodological framework in which consciousness is conceptualized as an integrated, embodied, relational, and temporally extended process. Such an approach provides a coherent foundation for future research while strengthening the dialogue between neuroscience, clinical practice, philosophy, and neuroethics.</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Krüppel regulates cell cycle exit and limits adult neurogenesis of mushroom body neural progenitors in &lt;i&gt;Drosophila&lt;/i&gt;.</title>
+      <link>https://doi.org/10.7554/elife.106732</link>
+      <guid isPermaLink="false">doi:10.7554/elife.106732</guid>
+      <description>eLife
+
+Neural progenitors typically exit the cell cycle during development, limiting adult neurogenesis. Here, we identify Krüppel (Kr) as a regulator of cell cycle exit and elimination of mushroom body neuroblasts (MBNBs) in Drosophila . Neuroblast (NB)-specific Kr RNAi and the Irregular facet (KrIf-1 ) mutation prolong MBNB lifespan and enable continued adult neurogenesis. Despite low post-embryonic expression, pupal stage-specific Kr depletion or misexpression causes MBNB retention, revealing a role distinct from its established embryonic function. Persistent MBNBs retain the early temporal factor IGF2 mRNA-binding protein (Imp) and fail to fully induce the late temporal factors Syncrip (Syp) and Eip93F (E93). Imp co-depletion suppresses MBNB retention following Kr depletion, identifying Imp as a key downstream effector. Krüppel homolog 1 (Kr-h1), a hormone-responsive transcription factor, functionally antagonises Kr by suppressing E93 expression. Kr-h1 knockdown partially rescues MBNB retention caused by Kr depletion, whereas its overexpression drives tumour-like NB overgrowth. Together, these findings identify Kr as a lineage-specific regulator coordinating the Imp/Syp transition and E93 expression to promote timely MBNB termination. This work reveals how temporal regulators control neural progenitor lifespan and restrict adult neurogenesis, linking intrinsic developmental programmes with hormone-responsive pathways in the Drosophila brain.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
     <item>
@@ -66,9 +141,20 @@ During recall, different features of an experience, such as conceptual meaning a
       <guid isPermaLink="false">doi:10.1523/jneurosci.0573-26.2026</guid>
       <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
 
-Predictive processing enables the brain to anticipate both when and what sensory events will occur. Although temporal and spectral predictions are both known to facilitate perception, their functional contributions and interaction remain poorly understood, particularly in uncertain listening conditions where predictions must be inferred from implicit statistical regularities rather than explicit cues or rhythms. Here, we orthogonalized temporal and spectral predictability in a non-rhythmic auditory detection task and used a signal-detection framework to dissociate perceptual and decisional processes in humans of either sex. Temporal predictions primarily increased response readiness: predictable target timing led to faster responses and more hits but also more false alarms, reflecting a liberal shift in response bias. Spectral predictions, in contrast, selectively enhanced perceptual sensitivity without a comparable speeding of responses. Crucially, despite their distinct behavioral effects, temporal and spectral predictions interacted synergistically, such that perceptual sensitivity was greatest when both sound timing and frequency were predictable, consistent with a spectrotemporal filter mechanism. Furthermore, temporal and spectral variability were encoded differently: performance adapted strongly to the distribution of foreperiod durations but remained largely stable across the spectral distribution, suggesting that the brain exploits temporal and spectral statistics in distinct ways when forming predictions under uncertainty. Together, these findings demonstrate that temporal and spectral predictions make complementary contributions to auditory decision-making, interact synergistically to improve perceptual sensitivity, and rely on distinct encoding strategies for temporal and spectral variability.Significance statement In everyday listening, the brain must predict both when relevant sounds will occur and what they will sound like. Although temporal ("when") and spectral ("what") predictions are both known to support perception, their distinct functions and possible synergies are not well understood. Here, using a non-rhythmic auditory detection task and a signal-detection framework, we show that temporal predictions mainly increase response readiness, whereas spectral predictions selectively enhance perceptual sensitivity. When both are available, they interact synergistically to maximize sensitivity. These findings reveal that temporal and spectral predictions make complementary contributions to auditory decision-making and show how the brain combines multiple predictive dimensions to improve perception under uncertainty.</description>
+Predictive processing enables the brain to anticipate both when and what sensory events will occur. Although temporal and spectral predictions are both known to facilitate perception, their functional contributions and interaction remain poorly understood, particularly in uncertain listening conditions where predictions must be inferred from implicit statistical regularities rather than explicit cues or rhythms. Here, we orthogonalized temporal and spectral predictability in a non-rhythmic auditory detection task and used a signal-detection framework to dissociate perceptual and decisional processes in humans of either sex. Temporal predictions primarily increased response readiness: predictable target timing led to faster responses and more hits but also more false alarms, reflecting a liberal shift in response bias. Spectral predictions, in contrast, selectively enhanced perceptual sensitivity without a comparable speeding of responses. Crucially, despite their distinct behavioral effects, temporal and spectral predictions interacted synergistically, such that perceptual sensitivity was greatest when both sound timing and frequency were predictable, consistent with a spectrotemporal filter mechanism. Furthermore, temporal and spectral variability were encoded differently: performance adapted strongly to the distribution of foreperiod durations but remained largely stable across the spectral distribution, suggesting that the brain exploits temporal and spectral statistics in distinct ways when forming predictions under uncertainty. Together, these findings demonstrate that temporal and spectral predictions make complementary contributions to auditory decision-making, interact synergistically to improve perceptual sensitivity, and rely on distinct encoding strategies for temporal and spectral variability.Significance statement In everyday listening, the brain must predict both when relevant sounds will occur and what they will sound like. Although temporal ("when ") and spectral ("what ") predictions are both known to support perception, their distinct functions and possible synergies are not well understood. Here, using a non-rhythmic auditory detection task and a signal-detection framework, we show that temporal predictions mainly increase response readiness, whereas spectral predictions selectively enhance perceptual sensitivity. When both are available, they interact synergistically to maximize sensitivity. These findings reveal that temporal and spectral predictions make complementary contributions to auditory decision-making and show how the brain combines multiple predictive dimensions to improve perception under uncertainty.</description>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Brain-body dynamics are asymmetric and stable across cognitive states.</title>
+      <link>https://doi.org/10.1162/imag.a.1467</link>
+      <guid isPermaLink="false">doi:10.1162/imag.a.1467</guid>
+      <description>Imaging neuroscience (Cambridge, Mass.)
+
+The human body displays slow, correlated fluctuations in brain activity, autonomic physiology, and incidental behavior. These fluctuations are commonly linked to arousal and cognition, yet it remains unclear whether they reflect task-dependent reconfiguration of brain-body interactions or arise from a stable endogenous dynamic. Here, we used a multivariate dynamical systems approach to analyze simultaneously recorded neural activity, autonomic physiology, and behavior during rest and during attentive and distracted listening to spoken narratives. We found that narrative listening did not substantially alter the endogenous dynamics observed during rest. Instead, peripheral physiology and behavior predicted cortical activity more reliably than the reverse, revealing a pronounced directional asymmetry. In contrast, stimulus-driven physiological responses were primarily mediated by cortical processing rather than direct autonomic drive. Together, these findings indicate that slow brain-body dynamics are stable across cognitive states and provide a structured context through which narratives influence physiology.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
     </item>
     <item>
       <title>Interpretable MEG decoding of perceived speech: Source-space patterns and the stimulus features that drive retrieval.</title>
@@ -80,6 +166,17 @@ Short segments of perceived speech can be retrieved from non-invasive magnetoenc
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
       <category>语言与脑</category>
       <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Structural correlates of paired-pulse TMS in cognitive impairment.</title>
+      <link>https://doi.org/10.1016/j.brs.2026.103267</link>
+      <guid isPermaLink="false">doi:10.1016/j.brs.2026.103267</guid>
+      <description>Brain stimulation
+
+来源未提供摘要。</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
     </item>
     <item>
       <title>Poorer inhibition and switching are associated with lower white matter fibre density in the superior longitudinal fasciculus in groups clinically at-risk of probable Alzheimer's disease dementia.</title>
@@ -435,98 +532,6 @@ Connectome fingerprinting (CF) is a machine-learning technique that uses an indi
 
 Neural activity and eye movements are well-established predictors of human memory performance. Successful memory formation is associated with reduced alpha/beta power and increased eye movements. However, their coupling and combined contribution to memory formation remain largely unknown. Across four experiments combining eye tracking with scalp or intracranial electroencephalography during free or constrained viewing, we identify the degree of visual exploration, rather than subsequent memory performance, as consistent modulator of posterior alpha/beta power. Going beyond correlations, manipulating eye movements dissociated alpha/beta power reductions from memory. Together with the finding that saccade parameters predicted alpha/beta dynamics, our results directly link posterior alpha/beta activity to the oculomotor system. Moreover, the accumulation of saccades over time accounted for reduced alpha/beta power, resembling the canonical post-stimulus alpha/beta pattern. Our work demonstrates that posterior alpha/beta activity strongly reflects eye movements, supporting alternative perspectives on alpha/beta subsequent memory effects and the general function of posterior alpha/beta activity.</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Beyond memory strengthening: noradrenergic control of memory specificity.</title>
-      <link>https://doi.org/10.1016/j.tins.2026.10.005</link>
-      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.005</guid>
-      <description>Trends in neurosciences
-
-Emotionally significant events are typically remembered better and for longer than mundane experiences. This emotional memory enhancement critically depends on arousal-induced norepinephrine release within the brain. Beyond memory strengthening, recent work shows that noradrenergic activity also shapes the specificity, detailedness, and temporal precision of memories during both early consolidation and systems consolidation. In this review, we synthesize recent findings from human and animal research spanning molecular, circuit, systems, and behavioral mechanisms to propose an integrative framework for how emotional arousal-induced noradrenergic activity affects neural systems that regulate memory specificity and systems consolidation dynamics. The proposed framework refines current models of memory under emotional arousal and may have relevant implications for stress-related psychopathologies.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>A theory of generalized vector coding and subicular function.</title>
-      <link>https://doi.org/10.1016/j.cub.2026.10.063</link>
-      <guid isPermaLink="false">doi:10.1016/j.cub.2026.10.063</guid>
-      <description>Current biology : CB
-
-Neural information processing is inextricably linked to the selectivity of individual neurons, as described by their receptive fields. Far from the sensory periphery, neural representations are the result of substantial upstream processing, mixed with internally generated information. Low-dimensional spatial codes in the hippocampal formation offer a handle on understanding these representations. The subiculum, a key but comparatively understudied hippocampal area, exhibits numerous, seemingly unrelated neural codes. Neurons like boundary vector cells, corner cells, or axis-tuned cells are named after the environmental features that appear to drive them, but a common account for their neuronal selectivity is lacking. Here, we propose Disco, a theory explaining subicular functions and related neural codes in other areas. Given the continuous flow of experience, subicular activity can be understood as signaling discontinuities in that flow, coded in a vector base. Geometric discontinuities drive responses to walls, drops, objects, holes, corners, and curved surfaces. The generality of Disco enables predictions for 3D environments, natural scenes, and mixed-modality coding. Discontinuities are not identical to the concept of boundaries (abstract or spatial), as illustrated by non-spatial discontinuities in behavioral state. These yield axis coding in the model (activity along parallel maze arms). Finally, tracking population activity signals event boundaries as discontinuities in neural space. The emergence of diverse neural activity suggests that discontinuity coding may serve as a key principle in the subiculum and related brain areas supporting (spatial) memory and navigation.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Age-related changes in brain connectivity: Cross-sectional and longitudinal effects.</title>
-      <link>https://doi.org/10.1162/imag.a.1456</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1456</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Age-related changes in functional connectivity within and between brain networks may contribute to cognitive and behavioral decline in aging. Prior research has consistently reported declines in within-network connectivity with age, though findings on between-network connectivity change have been mixed. Most studies have relied on cross-sectional designs, making it difficult to disentangle age-related effects from confounding cohort effects. Therefore, this study utilizes both cross-sectional (between-subject) and longitudinal (within-subject) datasets and employs mixed-effects models to elucidate age-related changes in resting-state functional connectivity across eight large-scale brain networks. After clinical screening and motion-based quality control, analyses were based on resting-state fMRI from 53 younger adults and 127 older adults, 45 of whom were rescanned approximately 4 years later. We examined whole-brain within-network connectivity, between-network connectivity, and network segregation. Cross-sectionally, older age was associated with lower within-network (p &lt; 0.001) and between-network connectivity (p = 0.003), whereas segregation showed a more modest cross-sectional reduction that was concentrated in the salience and visual networks. Longitudinally, over approximately 4 years both within-network (p = 0.003) and between-network (p = 0.003) connectivity declined, while segregation did not change (p = 0.546). Declines in within- and between-network connectivity were broad rather than network specific, with the Default Mode and Salience networks most consistently affected.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Hierarchical coding of local and global positions in episodic memory for naturalistic sequences.</title>
-      <link>https://doi.org/10.1162/imag.a.1416</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1416</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Life unfolds continuously across multiple timescales, yet how the brain encodes hierarchical event sequences remains poorly understood. Using magnetoencephalography, we investigated the neural coding of hierarchical positions in naturalistic sequence memory. Participants viewed video sequences with a nested structure and later recalled their serial order. Behavioral analyses revealed transposition errors for items occupying identical global or local position. Multivariate classification and subspace analyses revealed separable neural representations of global and local positions. Local positions were better decoded in sensor space, whereas global positions exhibited greater pattern separability in neural subspace. Brain regions encoding global positions exhibited longer neural timescales, reduced sensitivity to low-level event transitions, and stronger representation for high-level event content, compared to regions encoding local positions. These findings motivate a parallel hierarchical organization of content and context, a novel framework that enables integration of item and order across hierarchical levels and provides principles for hierarchical sequence representation in the brain.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Transferring active inference to newly encountered prism-shifted environments.</title>
-      <link>https://doi.org/10.1038/s42003-026-11152-5</link>
-      <guid isPermaLink="false">doi:10.1038/s42003-026-11152-5</guid>
-      <description>Communications biology
-
-Rapid adaptability to sudden changes in environmental contingencies is a hallmark of biological intelligence. However, how animals flexibly adapt to novel environments remains largely unclear. To investigate the brain's generalizability, this work focuses on prism adaptation, a classical visuomotor phenomenon reflecting rapid recalibration of perception-action coupling. Modeling is conducted based on canonical neural networks that instantiate active inference at the circuit level. Namely, we develop canonical neural networks equipped with multiple policy matrices in parallel, enabling the reuse of previously acquired sensorimotor knowledge. We demonstrate that the proposed model recapitulates key features of prism adaptation in an arm-reaching task, including rapid error reduction and after-effects following prism removal. Networks employing policies pretrained for different target positions adapt substantially faster than naive networks that relearn policies from scratch. These results suggest a biologically plausible mechanism by which neural circuits flexibly reuse prior knowledge to support rapid adaptation.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Causal role of human hippocampus in relational structure learning and inference.</title>
-      <link>https://doi.org/10.1038/s41562-026-02627-w</link>
-      <guid isPermaLink="false">doi:10.1038/s41562-026-02627-w</guid>
-      <description>Nature human behaviour
-
-When meeting new individuals or known individuals in new circumstances, we intuitively map out their relationships-not merely through direct experience, but by inferring new connections on the basis of prior relational knowledge. How such relational knowledge is represented and used in the brain remains a long-standing question in cognitive neuroscience. Here, using a behavioural task and computational modelling, we show that participants (N = 36) leveraged existing knowledge of relational structures to infer new relationships, facilitating adaptation in changing environments. Whole-brain neuroimaging identified consistent representations of relational structure in the hippocampus. To investigate the causal link between hippocampal representations and inference, we used neural network simulations to predict the behavioural effects of disrupting such representations. Consistent with this prediction, transcranial ultrasound stimulation of the human hippocampus (N = 20), transiently modulating its activity, disrupted structure-based inference (P &lt; 0.001, Cohen's d = -0.89, 95% confidence interval -1.41 to -0.36), providing empirical evidence for a causal role of hippocampus in relational-structure learning and structure-based inference.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>From Variability to Synchrony: Non-linear Development of Auditory Neural Responses During the First Year of Life.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122357</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122357</guid>
-      <description>NeuroImage
-
-In humans, the first year of life is characterized by rapid developmental changes, including substantial brain maturation. As a result, neural responses to auditory stimuli undergo marked changes during this period. In this study, we followed 69 infants across their first year of life and recorded high-density electroencephalography (hdEEG) at 2 weeks, 6 months, and 12 months postpartum. Infants were presented with pure beep tones to examine the development of neural responses to auditory stimulation. We analyzed event-related potentials (ERPs), inter-trial phase coherence (ITPC), and event-related spectral perturbation (ERSP) responses to the beep tones and controlled for arousal state during stimulus presentation. We found that with increasing age, neural responses became more pronounced and showed reduced trial-to-trial variability. Phase synchronization increased from 2 weeks to later developmental stages in a broad low-frequency range (0.5 Hz to 13.6 Hz), indicating improved temporal alignment of brain responses over time. However, phase synchronization decreased from 6 to 12 months, suggesting a developmental transition towards more differentiated brain activity. Taken together, these findings demonstrate that auditory maturation during the first year of life follows a non-linear trajectory driven by dynamic changes in neural synchronization, reflecting the progressive refinement of functional neural circuits. Our results thus provide a critical benchmark for understanding the neural dynamics underlying sensory development during this period.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Multidimensional psycholinguistic difficulty in Cantonese picture naming: Behavioral, neural, and effective connectivity evidence.</title>
-      <link>https://doi.org/10.1016/j.bandl.2026.105867</link>
-      <guid isPermaLink="false">doi:10.1016/j.bandl.2026.105867</guid>
-      <description>Brain and language
-
-Picture naming is a useful paradigm for studying spoken word production because it requires the transformation of visual object input into a lexical response through coordinated conceptual and lexical processes. This study examined whether inherent psycholinguistic difficulty in picture naming is multidimensional or unitary. Thirty-eight healthy native Cantonese speakers performed an overt object picture-naming task during fMRI. Four psycholinguistic variables were modeled: conceptual familiarity, average neighborhood distance (AND), naming disagreement, and lexical frequency. Mixed-effects models showed that higher conceptual familiarity and lexical frequency facilitated naming, whereas higher AND increased both errors and response times; naming disagreement increased errors but did not significantly affect response times. Importantly, we observed a significant interaction between conceptual familiarity and lexical frequency on response times, indicating the facilitative effect of frequency was modulated by familiarity. For errors, significant interactions were found between conceptual familiarity and lexical frequency, as well as between AND and lexical frequency, and between AND and naming disagreement, revealing complex joint influences on naming accuracy. Whole-brain analyses revealed dissociable neural effects across variables. Conjunction analysis showed that lower conceptual familiarity and higher AND converged in bilateral lateral occipital and ventral occipitotemporal regions, with extension into the left posterior temporal cortex, suggesting shared sensitivity to semantic-level difficulty. In contrast, naming disagreement and lexical frequency did not show significant lexical-level overlap. Effective connectivity analyses further identified a stable directed ROI architecture during naming. Together, the findings support a multidimensional account of picture-naming difficulty in which semantic- and lexical-related item properties impose partially distinct but interacting constraints on spoken word production.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Spatial and functional organization of the somato-cognitive action network (SCAN) during cue and execution of motor tasks.</title>
-      <link>https://doi.org/10.1007/s00429-026-03226-1</link>
-      <guid isPermaLink="false">doi:10.1007/s00429-026-03226-1</guid>
-      <description>Brain structure &amp; function
-
-The primary motor cortex has traditionally been conceptualized as a somatotopically organized structure, with discrete cortical regions corresponding to specific body parts. However, accumulating evidence suggests that motor cortex organization extends beyond simple effector-based representations to include higher-order functional systems supporting goal-directed behavior. Here, we examine the somato-cognitive action network (SCAN), a set of inter-effector cortical regions located between the classical hand, foot, and face representations of primary motor cortex that has been proposed to integrate cognitive control processes with motor function. Using task-based functional MRI during a motor paradigm that dissociates cue-related and execution-related processes, we investigated the functional role and spatial organization of SCAN in healthy adults. SCAN exhibited preferential activation during the cue phase, greater than during movement execution, indicating a prominent role in action preparation rather than motor output. In contrast, classical effector-specific motor representations corresponding to individual body parts (hand, foot, and face) showed greater engagement during execution, consistent with their role in movement generation. Across these SCAN regions, activation increased systematically from dorsomedial regions (adjacent to leg representations) to ventrolateral regions (adjacent to face representations). This spatial gradient was accompanied by progressively greater dominance of preparatory SCAN activity relative to movement-related activity in the adjacent effector regions. Together, these findings demonstrate that motor cortex organization includes a distinct integrative system that is temporally and spatially dissociable from effector-specific representations. These results support an integrate-isolate framework in which cognitive and motor processes are differentially expressed across the cortical landscape, providing new insight into the functional architecture of human motor control.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>
