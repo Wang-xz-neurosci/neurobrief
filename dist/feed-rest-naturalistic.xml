@@ -5,18 +5,100 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=rest-naturalistic</link>
     <description>静息态，以及电影、故事、自然语音与语篇理解中的脑活动</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 22:56:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:40:01 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-rest-naturalistic.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Limbic circuit alterations in bipolar disorder.</title>
-      <link>https://doi.org/10.1080/19585969.2026.2732800</link>
-      <guid isPermaLink="false">doi:10.1080/19585969.2026.2732800</guid>
-      <description>Dialogues in clinical neuroscience
+      <title>Cumulative Sedentary Behavior is Associated with Increased Default Mode Network-Sensory Coupling in Young Adults.</title>
+      <link>https://doi.org/10.1177/09226028261505045</link>
+      <guid isPermaLink="false">doi:10.1177/09226028261505045</guid>
+      <description>Restorative neurology and neuroscience
 
-INTRODUCTION: This study investigated the spatial and temporal pattern of brain white matter (WM) alterations and their relationship with intrinsic brain activity in bipolar disorder (BD). METHODS: Multimodal magnetic resonance imaging (MRI) data were collected from 67 BD patients (during manic, depressive, or euthymic phases) and 125 healthy controls (HC) at baseline, and from a subsample of 33 BD patients (in a different illness phase) and 23 HC after follow-up. Analyses of diffusion MRI and resting-state functional MRI were performed to characterise fixel-based metrics in WM and their relationship with intrinsic brain activity in BD and HC, as well as across timepoints. RESULTS: BD exhibited a spatial pattern of WM alterations characterised by reductions in fibre density and/or bundle cross-section involving fornix and cingulum (major limbic pathways), alongside portions of other tracts, compared with HC. Reduced fibre density in the fornix was associated with intrinsic activity changes involving midbrain, thalamus, and connected fronto-temporal cortical areas within the default-mode network in BD. These alterations showed no significant changes over time or across illness phases. CONCLUSIONS: These findings converge on limbic circuit alterations and suggest a relationship between structural abnormalities of the fornix and functional changes in intrinsic brain architecture in BD.</description>
+BackgroundSedentary behavior is increasingly recognized as a lifestyle exposure with implications for cardiometabolic and cognitive health, yet its neural correlates in young adulthood remain poorly characterized. Young adulthood represents a developmental period marked by continued refinement of large-scale brain networks, making it a potentially sensitive window for lifestyle-related neural adaptations. The default mode network (DMN), a core intrinsic network supporting self-referential processing, memory, and executive functioning, is metabolically demanding and highly sensitive to both vascular and behavioral influences, positioning it as a plausible neural substrate through which sedentary behavior may impact brain health. This longitudinal study examined whether cumulative sedentary behavior is associated with intrinsic functional connectivity of the DMN in young adults and whether these relationships differ across resting-state conditions.MethodsParticipants were healthy young adults (n = 32) enrolled in the Healthy Student Brain study. Using Fitbit monitoring, sedentary behavior was quantified as total sedentary minutes across an eight-week period (Study Days 1-56). Resting-state fMRI data were acquired under eyes-open and eyes-closed conditions and processed using the NeuroMark pipeline to derive reproducible intrinsic connectivity networks. Post-intervention network-level functional connectivity was computed between the DMN and major large-scale networks and regressed onto baseline connectivity metrics. Pearson correlations assessed associations between total sedentary minutes and DMN coupling for each resting condition.ResultsGreater total sedentary time was associated with stronger DMN coupling with sensory networks. Specifically, sedentary minutes were positively correlated with DMN-visual connectivity during both eyes-open (r = .38, p = .05) and eyes-closed rest (r = .40, p = .05). Sedentary behavior was also associated with increased DMN-sensorimotor connectivity during eyes-closed rest (r = .38, p = .034), but not during eyes-open rest. No significant associations were observed between sedentary time and DMN connectivity with cognitive control, subcortical, cerebellar, or auditory networks.ConclusionsIn this preliminary study of healthy young adults, cumulative sedentary exposure was associated with greater DMN coupling with sensory systems, particularly visual and sensorimotor networks. Given the modest sample size, these findings should be interpreted as hypothesis-generating rather than confirmatory. Larger studies would enable us to determine whether sedentary behavior is robustly associated with state-dependent alterations in intrinsic brain network organization.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Disentangling homogeneous and heterogeneous representation of human functional connectome via graph learning.</title>
+      <link>https://doi.org/10.1088/1741-2552/aebefe</link>
+      <guid isPermaLink="false">doi:10.1088/1741-2552/aebefe</guid>
+      <description>Journal of neural engineering
+
+Objective.Functional connectivity analysis of functional magnetic resonance imaging (fMRI) data provides critical insight into large-scale brain organization; however, conventional approaches often ignore the specific information mixed with population-level structure and individual- or condition-specific variability. We aimed to develop an interpretable framework that separates these shared and heterogeneous components of the human functional connectome.Approach.We developed Joint Individual Graph Learning (JIGL), a multi-view graph learning framework that jointly estimates a low-rank common graph and sparse view-specific graphs across subjects or experimental conditions. We evaluated JIGL using resting-state and task-based fMRI data from 422 individuals across eight conditions and compared it with Pearson correlation, SIMLR (CIMLR), and Simplex. Performance was assessed using alignment with established resting-state network (RSN) organization, associations with age and cognitive phenotypes, task identifiability, and low-dimensional representations of task-specific connectivity.Main results.The common graph learned by JIGL captured a biologically meaningful functional backbone and showed stronger alignment with established RSN organization than the comparison methods. JIGL-derived individual graphs preserved biologically relevant inter-individual variability, yielding stronger associations with age and cognitive phenotypes. The task-specific graphs also showed improved identifiability, as quantified by the intraclass correlation coefficient. Furthermore, low-dimensional embeddings of the connectivity matrices revealed structured, network-dependent task signatures that were consistently distinct from both the common graph and the resting-state condition.Significance.JIGL provides a principled framework for disentangling shared functional architecture from individual- and condition-specific connectivity patterns. This decomposition improves sensitivity to biologically meaningful variability and supports more interpretable analyses of functional brain organization across individuals and cognitive states.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>What shared responses reveal about audience behavior: neural prediction and the emerging potential of peripheral synchrony</title>
+      <link>https://europepmc.org/article/PMC/PMC13809868</link>
+      <guid isPermaLink="false">PMC:PMC13809868</guid>
+      <description>Frontiers in neuroscience
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>The acute effects of decaffeinated coffee on cognitive function and brain activity: a single-center experience</title>
+      <link>https://europepmc.org/article/PMC/PMC13808915</link>
+      <guid isPermaLink="false">PMC:PMC13808915</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Longitudinal Increases in Ventral Attention Network Connectivity Predict Heightened Reward and Punishment Sensitivities via Self-Control Decline in Emerging Adulthood</title>
+      <link>https://doi.org/10.64898/2026.11.25.769126</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.25.769126</guid>
+      <description>[预印本] bioRxiv
+
+Emerging adulthood is a critical developmental window for the maturation of executive control and the reorganization of intrinsic brain networks. However, the longitudinal neurobiological mechanisms underlying changes in cognitive control?and their associations with trait sensitivities?remain poorly understood. In a two-year longitudinal study, 332 emerging adults underwent behavioral assessments and resting-state functional magnetic resonance imaging (fMRI). Latent Change Score Modeling (LCSM) revealed that longitudinal increases in reward and punishment sensitivities were primarily predicted by the progressive decline in self-control, rather than baseline or concurrent impulsivity. Neurally, by targeting the macroscopic connectome utilizing rigorous change score models adjusted for baseline variances and longitudinal head motion, we found that longitudinal increases in intra-network connectivity within the Ventral Attention Network (VAN) specifically and robustly tracked this self-control decline. Furthermore, a unified path analysis revealed a robust full mediation mechanism: heightened VAN intra-network connectivity predicted increased environmental sensitivities strictly through the decline in self-control. These findings identify increased VAN connectivity as a specific neural marker of diminished cognitive control, highlighting the preservation of self-control capacity as a key mechanistic target for promoting adaptive resilience during emerging adulthood.</description>
       <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Multimodal dynamics during naturalistic learning are associated with subsequent performance</title>
+      <link>https://doi.org/10.64898/2026.11.23.768566</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.23.768566</guid>
+      <description>[预印本] bioRxiv
+
+Learning from continuous material involves dynamic coordination of visual sampling, autonomic arousal, and neural activity, yet how these signals jointly organize during successful learning remains unclear. Here, we analysed synchronized eye-tracking, pupillometry, and EEG recordings from 86 participants from the Brain, Body, and Behavior Dataset. Using hidden Markov modelling, we identified recurrent multimodal states after accounting for stable recording-level differences and stimulus-shared responses. Three reproducible states with distinct psychophysiological profiles emerged. Poorer subsequent quiz performance was associated with greater relative expression of a state characterized by longer fixations, reduced fixation and saccade rates, lower gaze entropy, elevated pupil level and variability, and distinct EEG spectral entropy and frontoparietal theta coherence. In contrast, better performance was associated with greater expression of a state characterized primarily by more frequent and larger phasic pupil dilations. Quiz performance was also positively associated with transitions from this phasic-pupil state to the dominant background state, whereas relative expression of the dominant state itself showed no robust association with performance. The transition association did not survive correction in common-record window-length sensitivity analyses. These findings indicate that learning during naturalistic viewing is associated with the dynamic coordination of multiple ocular, pupillary, and neural signals, with relative state balance and directed transition probabilities each associated with subsequent quiz performance.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Superior frontal and precentral atlas label contact and naturalistic saccade amplitude across geometric estimators.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122371</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122371</guid>
+      <description>NeuroImage
+
+We explored whether MRI-derived geometry near the superior frontal-precentral sulcal junction differs between hemispheres and relates to naturalistic saccade amplitude. Structural MRI was available for 38 adults, and 37 had usable eye tracking during movie viewing. We compared two measurements of contact between atlas-defined sulcal regions: the length of their reconstructed shared border and the summed lengths of mesh edges that cross between them. The primary reconstructed-border measure did not provide statistically significant evidence of hemispheric asymmetry or an association with saccade amplitude after correction for the two principal tests. The amplitude estimate was negative (Spearman ρ = -.336; unadjusted bootstrap 95% confidence interval -.566 to -.045; Holm-adjusted P = .084). The crossing-edge measure showed a stronger association, but represents a different geometric quantity. Additional analyses examined mesh resolution, normalization, eye-tracking processing, movie segment, recording quality, anatomical comparison regions, and other saccade characteristics. The additional kinematic associations were nonsignificant after correction. Estimates depended on measurement choices, and regional specificity was not established. The primary analysis therefore did not establish an association between the reconstructed anatomical measure and naturalistic saccade amplitude. This exploratory study illustrates how the definition of an MRI-derived measure can affect brain-behavior results. A nonsignificant result does not demonstrate the absence of an association. Independent anatomical validation and replication with participant-specific functional localization are needed.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
       <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Reorganization of whole-brain functional networks in cervical spinal cord injury: distinct supraspinal connectomic alterations associated with neuropathic pain.</title>
+      <link>https://doi.org/10.1016/j.neulet.2026.138803</link>
+      <guid isPermaLink="false">doi:10.1016/j.neulet.2026.138803</guid>
+      <description>Neuroscience letters
+
+Cervical spinal cord injury (SCI) is associated with supraspinal network reorganization and often with chronic neuropathic pain (NP). We examined whole-brain functional connectivity with 3.0-T resting-state fMRI in 37 patients with chronic cervical SCI (25 with NP, 12 without NP) and 23 matched healthy controls (HC), using 116 cortical, subcortical, and cerebellar regions of the AAL atlas. We applied the network-based statistic (NBS; component-level p_FWE &lt; 0.05) and graph metrics (local, global, and nodal efficiency; AUC across 0.02 &lt;= sparsity &lt;= 0.40). Compared with HC, patients with SCI showed a hyperconnected subnetwork (94 edges, 68 nodes; p = 0.006) spanning sensorimotor, prefrontal, and cerebellar regions. Local efficiency was higher in SCI (p = 0.0010, eta_p^2 = 0.216), whereas global efficiency did not differ (p = 0.2760, eta_p^2 = 0.044). Pain-free patients showed higher connectivity than patients with NP in a subnetwork linking sensorimotor, visual, and cerebellar cortices (23 edges, p = 0.038). Nodal efficiency differed among groups in eight regions; right putamen efficiency was lower in patients with NP than in pain-free patients (p = 0.018) and HC (p = 0.031). These findings suggest that chronic cervical SCI is associated with increased local network efficiency, whereas NP is associated with weaker sensorimotor-cerebellar coupling and reduced right putamen efficiency.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Timing-Specific Deviations in Trajectories of Frontoparietal Network Connectivity in Adolescence Precede the Onset of Depression and Anxiety.</title>
+      <link>https://doi.org/10.1016/j.bpsc.2026.11.009</link>
+      <guid isPermaLink="false">doi:10.1016/j.bpsc.2026.11.009</guid>
+      <description>Biological psychiatry. Cognitive neuroscience and neuroimaging
+
+Adolescence is marked by heightened vulnerability to depression and anxiety, and by continued maturation of cognitive control, which is disrupted in both disorders. It is not yet clear, however, how and when developmental trajectories of the coordination of the frontoparietal network (FPN) with large-scale networks, that together support cognitive control, diverge before the first onset of disorder in youth. We conducted resting-state fMRI scans and clinical interviews with 121 individuals (73 females) up to five times between ages 9 and 21 years. Sixty-three participants remained free of psychiatric diagnosis (diagnosis-free group), whereas 58 developed a first onset of depression or anxiety (diagnosed group) during the study. Using Generalized Additive Mixed Models, we compared trajectories of functional connectivity (FC) of the frontoparietal network (FPN) with the default mode (DMN), dorsal attention (DAN), salience (SN), and reward (RN) networks between groups, while all participants were asymptomatic. We then identified significant windows of divergence using 95% confidence intervals of difference smooths. The diagnosed group had a stronger FPN-DMN FC beginning at age 12.1 (pFDR = .022); both a stronger mean level and a different trajectory of FPN-RN FC (both pFDR ≤ .001), with hyperconnectivity emerging at age 15.3; and a significantly different trajectory of FPN-SN FC (pFDR = .008), with hyperconnectivity emerging at age 16.8. While youth were asymptomatic, network- and timing-specific differences in FPN coupling with the DMN, SN, and RN preceded the onset of depression or anxiety, potentially reflecting aberrant regulation of their self-referential and affective processing.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
     <item>
@@ -26,6 +108,16 @@ INTRODUCTION: This study investigated the spatial and temporal pattern of brain 
       <description>[预印本] bioRxiv
 
 Excitation/inhibition (E/I) imbalance is implicated in the pathophysiology of psychosis, but the extent to which this is evident before the onset of illness is unclear. Here, we investigated E/I-related brain dynamics using the Hurst exponent (HE) derived from resting-state MRI in two longitudinal cohorts of individuals at clinical high risk for psychosis (CHR-P): PSYSCAN (190 CHR-P individuals and 115 controls) and Accelerating Medicines Partnership® Schizophrenia (826 CHR-P individuals and 241 controls). Both cohorts showed lower whole-brain HE in CHR-P individuals than in controls at baseline, with the most prominent differences observed in the somatomotor network and thalamus. In both cohorts, normative receptor distributions significantly predicted the spatial pattern of HE differences, with consistent contributions from norepinephrine, serotonin, and opioid receptors. In PSYSCAN, 21 CHR-P individuals transitioned to psychosis during follow-up. There was preliminary evidence that subsequent transition to psychosis was associated with a longitudinal reduction in HE in the right inferior parietal cortex and that baseline regional HE showed above-chance prediction of subsequent transition at the individual level. Together, these findings suggest that vulnerability to psychosis is associated with reduced HE, consistent with less persistent brain dynamics and increased excitability.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Frontal Cortical Hemodynamic Responses and Inter-Brain Synchrony During Naturalistic Co-Viewing of Differing Movie Types</title>
+      <link>https://doi.org/10.64898/2026.11.17.767060</link>
+      <guid isPermaLink="false">doi:10.64898/2026.11.17.767060</guid>
+      <description>[预印本] bioRxiv
+
+Simultaneous recording during shared stimulus viewing by dyads may reveal underlying cortical hemodynamic alignment arising from common stimulus processing, co-presence of others, and coordinated or correlated movement. Here, we conducted frontal cortical functional near-infrared spectroscopy (fNIRS) recordings from 46 dyads (23 friend and 23 stranger pairs; 92 female participants) during viewing of audio, comic, and horror movie stimuli (fifty mins duration). We measured non-partner inter-subject correlations (ISC) and compared wavelet transform coherence (WTC) in actual and stimulus-matched pseudo-dyads. Primary oxygenated hemoglobin (HbO) ISC was positive in all three audio, comic, and horror conditions. Actual dyads had higher HbO WTC during comic, including after removal of 60 seconds from each boundary. This effect did not survive false discovery rate (FDR) correction after individual head-motion regression in 44 dyads. Complementary deoxygenated hemoglobin (HbR) analyses showed positive ISC and a comic real-minus-pseudo-WTC advantage that persisted after motion regression. Neither chromophore showed a consistent familiarity effect. Overall, our findings indicate shared hemodynamic synchrony across participants and a small but significant increase in inter-brain synchrony in actual dyads compared with pseudo-dyads during the comic condition, observed in both HbO and HbR signals. Although the HbR effect persisted after adjustment for measured head motion, potential contributions from shared-session factors and systemic physiological influences cannot be ruled out, highlighting the need for caution when interpreting inter-brain synchrony during naturalistic co-viewing.</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
@@ -284,6 +376,16 @@ Narrative engagement - a state implicating attention as well as emotional and se
       <category>静息态与自然刺激</category>
     </item>
     <item>
+      <title>Shared Fine-Scale Functional Organization in the Human Subcortex Revealed by Connectivity Hyperalignment.</title>
+      <link>https://doi.org/10.64898/2026.09.29.755436</link>
+      <guid isPermaLink="false">doi:10.64898/2026.09.29.755436</guid>
+      <description>[预印本] bioRxiv : the preprint server for biology
+
+Subcortical structures are central to cognition, emotion, and social processing, and their dysfunction underlies a wide range of neurological and psychiatric conditions. Yet subcortical fine-scale functional organization has remained largely inaccessible to group-level fMRI analysis: nuclei are small and have low-SNR, and their functional topography varies idiosyncratically across individuals in ways that anatomical alignment cannot resolve. This idiosyncrasy carries real stakes. For example, deep brain stimulation targets with more variable functional connectivity across individuals show correspondingly less consistent clinical outcomes. Here we show that this seemingly idiosyncratic subcortical organization in fact reflects shared, fine-grained structure that can be recovered by modeling each individual's connectivity in a common functional space (connectivity hyperalignment, CHA), rather than relying on anatomical correspondence. Applying CHA to fMRI data collected during naturalistic movie viewing, we found that aligning subcortical voxels by their cortical connectivity, rather than their anatomical location, sharply increased cross-subject correspondence in both stimulus-evoked responses and connectivity profiles. Critically, this alignment sharpened rather than blurred local structure: neighboring voxels became more functionally distinct from one another, and cortical connectivity targets became substantially more decodable across subjects. These results indicate that human subcortical nuclei possess a common fine-scale functional architecture that is masked by anatomical variability but recoverable at the individual level. This reframes a central methodological constraint in subcortical neuroimaging: rather than trading spatial resolution for signal quality via smoothing, group-level analyses can achieve voxel-level precision by aligning function rather than anatomy, opening a path to studying cortical-subcortical circuit organization in greater detail.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
       <title>Discourse coherence in first-episode psychosis and depression: shared referential alterations and links to cortical hierarchy</title>
       <link>https://doi.org/10.21203/rs.3.rs-11777052/v1</link>
       <guid isPermaLink="false">doi:10.21203/rs.3.rs-11777052/v1</guid>
@@ -409,17 +511,6 @@ Neurolinguistic research on syntactic processing has used Node Count, the number
       <category>静息态与自然刺激</category>
     </item>
     <item>
-      <title>Correspondence Between Structural and Functional Connectivity Within White Matter</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11473390/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11473390/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract White matter functional networks (WMFNs) derived from resting-state BOLD fluctuations have been identified across multiple datasets, but whether they correspond to coherent anatomical units defined by the underlying axonal architecture remains untested. Here we tested WM structural connectivity-functional connectivity (SC-FC) coupling directly by asking whether regions co-assigned to the same WMFN are preferentially linked by WM tracts. Using resting-state fMRI and diffusion MRI from the Human Connectome Project 7T dataset (N = 161), we derived 11 WMFNs per session (after exclusion of one boundary network) via k-means clustering of voxel-level functional connectivity (FC), constructed structural connectivity (SC) using multi-shell multi-tissue constrained spherical deconvolution with anatomically constrained tractography, and quantified the correlation between SC and FC across within- and between-network edges. Within-network coupling was two to three times higher than between-network coupling in both sessions (Session 1: r within = 0.59 vs. r between = 0.20; Session 2: r within = 0.66 vs. r between = 0.28; p &lt; 0.001). The increased coupling was also observed across subjects, in terms of survived matching of edge counts, and disappeared when network labels were permuted. Network-level coupling was heterogeneous and concentrated in projection pathways spanning the midbrain and medulla oblongata, with rank ordering of the six highest-coupling networks identical across sessions. These findings provide structural support that WMFNs are coherent anatomical-functional units and support reconceptualising WM as a structured contributor to the brain's functional architecture rather than a passive transmission medium.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
       <title>Attention increases the spread of modality-invariant information across the cortex.</title>
       <link>https://doi.org/10.1162/imag.a.1454</link>
       <guid isPermaLink="false">doi:10.1162/imag.a.1454</guid>
@@ -438,101 +529,6 @@ Attention shapes our perception by allowing us to focus on relevant stimuli that
 
 Background Cardiac rhythms dynamically modulate neural activity and information processing. Disruptions in heart-brain coupling (HBC) may contribute to affective dysregulation in major depressive disorder (MDD), yet their effects on periodic and aperiodic neural activity remain unclear. This study investigated cardiac cycle-dependent modulation of oscillatory and 1/f neural components in MDD. Methods Resting-state magnetoencephalography (MEG) and electrocardiography (ECG) were simultaneously recorded from 60 patients with MDD and 60 matched healthy controls. Patients underwent a 6-month follow-up, and remission status was assessed using the Hamilton Depression Rating Scale (HAMD-17). The Spectral Parameterization Resolved in Time (SPRiNT) algorithm was used to separate periodic and aperiodic neural activity. Linear mixed-effects models and permutation-based statistics were applied to examine cardiac phase-dependent neural modulation and between-group differences. Results Cardiac phase modulated both oscillatory power and aperiodic 1/f dynamics. Compared with controls, patients with MDD exhibited attenuated steepening of the aperiodic 1/f spectrum in the left insula during the diastole-to-systole transition and a greater reduction in δ-band power in the left anterior cingulate cortex during late systole. In addition, patients with MDD showed earlier α-band peak activity in the posterior cingulate cortex. Exploratory longitudinal analyses showed an increase in left insular 1/f modulation within remitters, although the formal group × time interaction was not significant. Conclusions MDD is characterized by disrupted cardiac cycle-dependent neural dynamics involving both periodic and aperiodic activity. Altered insular aperiodic modulation may reflect impaired excitation-inhibition balance and abnormal heart-brain synchronization in depression, highlighting cardiac rhythms as potential state-dependent targets for closed-loop neuromodulation.</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Deep Clustering of fMRI with Global-Local Feature Extraction for Functional Brain Activity Analysis.</title>
-      <link>https://doi.org/10.1109/tbme.2026.3748037</link>
-      <guid isPermaLink="false">doi:10.1109/tbme.2026.3748037</guid>
-      <description>IEEE transactions on bio-medical engineering
-
-Objective Clustering is essential for identifying patterns in data. In neuroscience, it is widely used on functional Magnetic Resonance Imaging (fMRI) data to uncover brain activity patterns during cognitive tasks and rest. However, traditional methods like K-means struggle with the high dimensionality and temporal complexity of fMRI data, and often fail to capture spatial or contextual structures in image data, limiting their effectiveness. Methods To address these challenges, we propose a deep clustering model that leverages the complementary strengths of Sparse Autoencoder (SAE) and Masked Autoencoder (MAE) for comprehensive feature extraction. The SAE captures global features and reduces data dimensionality while preserving overall structure. In parallel, the MAE reconstructs masked input patches to learn local contextual features-temporal for sequential data like fMRI, and spatial for imagedata. The combination of global and local features yields a more informative representation of the data. These fused features are then fed into a Deep Embedded Clustering (DEC) module, which iteratively refines cluster centers and feature representations using Kullback-Leibler (KL) divergence loss, improving clustering accuracy and robust ness. Results Experimental results show that our model effectively identifies functional brain activity patterns in task based fMRI and differentiates hippocampal subregions in resting-state fMRI. Conclusion Overall, our approach offers a unified and versatile deep clustering framework capable of handling various data modalities, enabling more accurate and interpretable analysis in both neuroimaging and general high-dimensional data applications. Significance The proposed framework explicitly decomposes global and local feature learning, overcoming limitations of single path deep clustering methods and providing physiologically meaningful clustering patterns.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Reading the night between the epochs: continuous decoding of sleep microstructure.</title>
-      <link>https://doi.org/10.1093/sleep/zsag306</link>
-      <guid isPermaLink="false">doi:10.1093/sleep/zsag306</guid>
-      <description>Sleep
-
-来源未提供摘要。</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Right-to-left shunt burden and altered white matter functional networks in stroke-free patients with patent foramen ovale.</title>
-      <link>https://doi.org/10.1016/j.neuroscience.2026.11.033</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroscience.2026.11.033</guid>
-      <description>Neuroscience
-
-Resting-state functional MRI (rsfMRI) is a useful technique for investigating the functional organization of human brain networks. Nevertheless, most rsfMRI studies in patent foramen ovale (PFO) have focused on gray-matter connectivity or structural imaging, whereas white-matter functional networks remain poorly characterized. PFO has been hypothesized to expose the brain to recurrent right-to-left shunt (RLS)-related microembolic, vasoactive and hemodynamic stressors, but whether these stressors are associated with altered white-matter functional organization in patients without overt stroke is unclear. The current study used rsfMRI to evaluate white-matter functional networks in stroke-free PFO patients and healthy controls. In the PFO group, RLS severity and anatomical features were characterized using contrast-enhanced transcranial Doppler and transesophageal echocardiography. Nine large-scale white-matter networks were identified by K-means clustering of voxel-wise white-matter functional connectivity. Evaluation of spontaneous oscillations and inter-network functional connectivity showed that PFO patients had widespread reductions in fast Fourier transform-derived band-averaged amplitude, mainly involving motor, occipital, cerebellar, deep and cingulum networks, and consistently reduced inferior frontal-to-fronto-temporal connectivity across frequency bands. Higher RLS grade was associated with lower white-matter amplitude in several networks, whereas PFO anatomical measurements showed no independent associations after multiple-comparison correction. Exploratory mediation analyses showed no significant indirect pathways after FDR correction. In this cross-sectional study, these findings suggest that RLS burden may be relevant to subclinical white-matter functional vulnerability in stroke-free PFO.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Distinct developmental organization of intrinsic brain dynamics supports different components of inhibitory control during adolescence</title>
-      <link>https://doi.org/10.64898/2026.11.17.767444</link>
-      <guid isPermaLink="false">doi:10.64898/2026.11.17.767444</guid>
-      <description>[预印本] bioRxiv
-
-Adolescent inhibitory control develops within a changing organization of intrinsic brain activity, yet the signal properties and cortical systems associated with different control demands remain unclear. We studied 101 youths aged 8–18 years using brain entropy (BEN), amplitude of low-frequency fluctuations (ALFF), fractional ALFF (fALFF), and regional homogeneity (ReHo) derived from resting-state functional magnetic resonance imaging. Voxelwise and seven-network models evaluated age associations and task-by-age interactions while adjusting for sex, head motion, and gray-matter anatomy. Spatially standardized ALFF showed age associations in somatomotor and salience/ventral-attention networks. Contextual control, assessed with the AX Continuous Performance Task (AX-CPT), showed the broadest age-dependent coupling: all four spatially standardized measures yielded voxelwise interactions surviving permutation-based cluster false discovery rate correction, and the frontoparietal BEN interaction survived network correction. Better action cancellation was associated with higher frontoparietal BEN without a corrected network age interaction. Independent cortical references further differentiated these patterns: raw BEN age-effect evidence was stronger toward association cortex, whereas the ALFF–AX-CPT age interaction was stronger toward sensorimotor cortex. Additional task interactions aligned with the second and third connectivity gradients. Core voxelwise AX-CPT findings persisted after age trimming. These findings link the differentiation of inhibitory-control demands to the developmental organization of complementary intrinsic signal properties across cortical systems, highlighting contextual control as a prominent locus of age-dependent brain–behavior coupling. Highlights Age shaped links between intrinsic brain activity and contextual control Contextual control showed age interactions across four resting-state measures Frontoparietal brain entropy related to contextual control and action cancellation Selected age and control effects followed distinct cortical organizing axes Core contextual-control interactions persisted after excluding age extremes</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>The Caffeinated Brain Part 4: Effects of Caffeine on Human Functional MRI-Task-Evoked Brain Activity and Intrinsic Functional Networks: A Systematic and Mechanistic Review.</title>
-      <link>https://doi.org/10.3390/nu18223835</link>
-      <guid isPermaLink="false">doi:10.3390/nu18223835</guid>
-      <description>Nutrients
-
-INTRODUCTION: Caffeine is the most widely consumed psychoactive substance and primarily acts through antagonism of adenosine A1 and A2A receptors. Its effects are particularly relevant to functional magnetic resonance imaging (fMRI), because caffeine influences both neuronal activity and cerebrovascular physiology, complicating interpretation of the blood-oxygen-level-dependent (BOLD) signal. This systematic and mechanistic review aimed to synthesize evidence on the effects of caffeine on task-evoked brain activity, resting-state functional connectivity, intrinsic BOLD dynamics, and neurovascular physiology in humans. MATERIALS AND METHODS: A systematic search, reported as covering database inception through 4 July 2026, used PubMed/MEDLINE, Scopus, and Web of Science, with supplementary bibliographic discovery and citation tracking. The published search concepts were translated into database-specific strings for reproducibility; the historical verbatim exports and source-specific counts require verification. Human caffeine-fMRI studies were synthesized qualitatively. Original RoB 2 and ROBINS-I judgments were reviewed for applicability to randomized, non-randomized intervention, and observational exposure designs; observational findings were interpreted separately where the original assessment instrument was unsuitable. RESULTS: Of 111 initially identified records, 39 publications were ultimately included. Caffeine did not produce a uniform increase or decrease in task-evoked BOLD activity. Instead, effects varied according to brain region, cognitive process, task load, habitual caffeine consumption, abstinence status, and physiological state. The most reproducible physiological effect was a reduction in resting cerebral blood flow, commonly by approximately 20-35%. Resting-state studies generally demonstrated reductions in positive functional connectivity and spontaneous low-frequency BOLD fluctuations, particularly within sensory and motor systems, while also showing redistribution of connectivity among large-scale networks, altered network anticorrelation, greater temporal variability, and increased BOLD signal entropy. Neuroimaging changes frequently occurred without corresponding behavioral improvements. Risk-of-bias assessments indicated generally more favorable methodological profiles for randomized crossover studies, whereas non-randomized studies were more susceptible to confounding and exposure-classification bias. CONCLUSIONS: Caffeine should not be regarded as a simple cerebral stimulant or BOLD contrast enhancer. Its fMRI effects emerge from interactions between adenosinergic neuronal modulation, altered arousal and network organization, and pronounced cerebrovascular effects. Consequently, changes in BOLD activity or functional connectivity cannot automatically be interpreted as proportional changes in neuronal activity. Future studies should combine standardized caffeine-exposure protocols with measurements of cerebral perfusion and complementary electrophysiological or multimodal imaging methods to better separate neuronal from vascular contributions to caffeine-related functional brain changes.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>EEG Functional Connectivity Differentiation Between Eyes-Closed and Eyes-Open Resting States Following Posterior Brain Damage.</title>
-      <link>https://doi.org/10.3390/brainsci16111265</link>
-      <guid isPermaLink="false">doi:10.3390/brainsci16111265</guid>
-      <description>Brain sciences
-
-Objectives: Eyes-closed and eyes-open resting states rely on distinct patterns of functional connectivity, particularly within posterior cortical regions. Posterior brain damage affecting the visual system may therefore alter the typical modulation of functional connectivity across resting conditions. Methods: To investigate this issue, EEG recordings were collected during eyes-closed and eyes-open rest from hemianopic patients with left and right posterior lesions, control patients with anterior lesions, and healthy controls. Functional connectivity was assessed across frequency bands using phase-based measures. Results: Within-group analyses showed that the typical EC-EO decrease in posterior alpha-band functional connectivity observed in healthy participants and anterior lesion controls did not reach statistical significance in either hemianopic group. However, direct between-group comparisons revealed a significantly reduced modulation of posterior alpha connectivity across resting conditions only in patients with right posterior lesions relative to other groups. In addition, hemianopic patients with right posterior lesions also exhibited increased theta-band connectivity in the right hemisphere, independently of the resting condition. Conclusions: These findings suggest that posterior brain damage, particularly involving the right hemisphere, may affect the functional mechanisms underlying the state-dependent modulation of posterior alpha-band connectivity, providing insight into the electrophysiological consequences of damage to posterior cortical regions.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset</title>
-      <link>https://doi.org/10.31234/osf.io/tbp5x_v3</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/tbp5x_v3</guid>
-      <description>[预印本] PsyArXiv
-
-The Mainz Network Study provides comprehensive behavioral and multimodal neural data from 215 healthy adults aged 18 to 40 years from the general population, supporting research on interindividual differences in cognitive ability. The multi-indicator design supports latent-variable modeling of all major constructs alongside their structural, functional, and electrophysiological neural correlates. Across three sessions, participants completed the Berlin Intelligence Structure Test and Raven's Advanced Progressive Matrices (general and fluid intelligence), three binding tasks and three complex span tasks (working memory capacity), a cued task-switching paradigm (cognitive control), and three elementary cognitive tasks indexing processing speed (Posner letter matching, Sternberg memory scanning, two-choice reaction time). Electroencephalography (EEG) data was collected during four resting-state blocks and during task performance (cognitive control and processing speed). High-resolution structural magnetic resonance imaging (MRI), multi-shell diffusion-weighted imaging using the SANDI protocol, and multi-band multi-echo functional MRI during rest and task-switching were acquired in a subset. Behavioral, EEG, and MRI data are accessible via a RDC-ZPID repository. All data are BIDS-organized and shared raw.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset</title>
-      <link>https://doi.org/10.31234/osf.io/tbp5x</link>
-      <guid isPermaLink="false">doi:10.31234/osf.io/tbp5x</guid>
-      <description>[预印本] PsyArXiv
-
-The Mainz Network Study provides comprehensive behavioral and multimodal neural data from 215 healthy adults aged 18 to 40 years from the general population, supporting research on interindividual differences in cognitive ability. The multi-indicator design supports latent-variable modeling of all major constructs alongside their structural, functional, and electrophysiological neural correlates. Across three sessions, participants completed the Berlin Intelligence Structure Test and Raven's Advanced Progressive Matrices (general and fluid intelligence), three binding tasks and three complex span tasks (working memory capacity), a cued task-switching paradigm (cognitive control), and three elementary cognitive tasks indexing processing speed (Posner letter matching, Sternberg memory scanning, two-choice reaction time). Electroencephalography (EEG) data was collected during four resting-state blocks and during task performance (cognitive control and processing speed). High-resolution structural magnetic resonance imaging (MRI), multi-shell diffusion-weighted imaging using the SANDI protocol, and multi-band multi-echo functional MRI during rest and task-switching were acquired in a subset. Behavioral, EEG, and MRI data are accessible via a RDC-ZPID repository. All data are BIDS-organized and shared raw.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>结构与功能</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Reconsidering the Psychotomimetic Properties of LSD: Connectome-Based Classification Reveals Partial Overlap with First Episode Psychosis</title>
-      <link>https://doi.org/10.21203/rs.3.rs-11539750/v1</link>
-      <guid isPermaLink="false">doi:10.21203/rs.3.rs-11539750/v1</guid>
-      <description>[预印本] Research Square
-
-Abstract The acute effects of lysergic acid diethylamide (LSD) have long been compared to early psychosis. Despite this, no studies have compared the acute effects of LSD and psychosis on resting-state functional connectivity (RSFC) with parallel approaches. We used connectome-based classification, a data-driven method, to distinguish between medication-naïve, non-affective first episode psychosis (FEP) and the acute effects of LSD. Separate classifiers were trained to distinguish the acute effects of LSD from placebo and FEP patients from matched healthy controls. The LSD-placebo classifier was then validated on an external LSD-placebo dataset. The network-interaction classifiers with good discriminability were then applied across datasets to evaluate whether LSD-related connectivity patterns could classify FEP as being LSD-like and vice versa. Subsequently, we investigated univariate RSFC between select networks, based on which network-interactions the classifiers suggested might overlap in LSD and FEP. Cross-application of externally validated LSD-placebo classifiers revealed partial overlap between LSD and FEP, particularly involving the dorsal attention network (DAN) and sensorimotor network (SMN). Application of the most discriminant FEP-HC network-interaction classifiers revealed that LSD displayed select similarities with FEP. Univariate network analysis also supports between-network DAN and SMN dysconnectivity being a point of convergence. Our findings indicate that neural correlates of FEP might have select overlaps with changes in brain functioning produced by LSD. These results suggest serotonergic dysfunction might play a role in the early stages of psychosis and necessitate future studies directly comparing FEP and LSD.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>静息态与自然刺激</category>
     </item>
   </channel>

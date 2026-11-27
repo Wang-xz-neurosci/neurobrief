@@ -5,9 +5,119 @@
     <link>https://wang-xz-neurosci.github.io/neurobrief/?topic=cognition</link>
     <description>除语言外，其他认知功能的神经机制与结构基础</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 22:56:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:40:01 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://wang-xz-neurosci.github.io/neurobrief/feed-cognition.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D segmentation of brain white matter microstructures from sparsely annotated X-ray Nano-Holotomography data.</title>
+      <link>https://doi.org/10.1007/s00429-026-03210-9</link>
+      <guid isPermaLink="false">doi:10.1007/s00429-026-03210-9</guid>
+      <description>Brain structure &amp; function
+
+We present a multi-class 3D segmentation framework for white matter (WM) microstructures in large field-of-view (FOV) volumes up to (~ 202 × 202 × 780 µm3) acquired using synchrotron X-ray Nano-Holotomography (XNH) imaging. XNH offers wide FOV, nanoscale resolution, and fast volumetric acquisition. However, manual segmentation of tiny and densely packed WM microstructures it resolves is infeasible at this scale. We implemented an expert-in-the-loop deep learning approach for segmenting long-range axons, blood vessels, cells, and vacuoles from large XNH volumes of monkey brain WM. Our initial model, a 3D U-Net, was trained on sparsely annotated corpus callosum (CC) data, a region with relatively homogeneous axonal structure. High-confidence predictions (p ≥ 0.7) from CC and more anatomically complex fiber-crossing regions were refined by an expert and incorporated into an iterative training process, expanding the segmented dataset sixfold within four iterations. Using the expanded dataset, we investigated multiple well-established 3D convolutional and transformer-based architectures with multiple loss functions in this segmentation context. We evaluated model performance at two complementary scales: voxel-wise across entire XNH volumes and object-wise on 3D segmented objects. All trained models performed strongly across every class at both scales, with average voxel-wise Dice &gt; 0.8. This work presents an enabling segmentation framework for XNH-based neuroanatomy, demonstrating feasibility at large FOVs approaching a single MRI voxel. We show that integrating deep learning with iterative expert refinement substantially reduces manual annotation burden, providing a scalable framework for microstructural mapping in XNH data and a basis for informing biophysical models used to interpret MRI.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+    </item>
+    <item>
+      <title>The acute effects of decaffeinated coffee on cognitive function and brain activity: a single-center experience</title>
+      <link>https://europepmc.org/article/PMC/PMC13808915</link>
+      <guid isPermaLink="false">PMC:PMC13808915</guid>
+      <description>Frontiers in neurology
+
+来源未提供摘要。</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Hypoxic pockets in the brain.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.11.001</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.11.001</guid>
+      <description>Trends in neurosciences
+
+Brain oxygenation is commonly studied at the scale of global or regional perfusion, but oxygen reaches neural tissue through individual capillaries, whose flow is heterogeneous and intermittently interrupted. In this article, we propose that the architecture of the capillary network, together with local metabolic demand, leaves some microregions with little oxygen reserves. We argue that brief capillary stalls can push these territories below the threshold for tissue hypoxia, producing hypoxic pockets: transient, spatially restricted oxygen deficits that recur within the same tissue regions. Oxygen imaging and network modeling support elements of this framework, but the proposed causal sequence from a stall to local hypoxia remains to be tested directly. We further argue that aging and neurodegeneration erode vascular resilience and thereby increase the cumulative burden of such events, offering a link between microscale capillary instability and cognitive decline.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Primate area FST: a nexus for synthesizing a world in motion.</title>
+      <link>https://doi.org/10.1016/j.tins.2026.10.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.tins.2026.10.007</guid>
+      <description>Trends in neurosciences
+
+Encoding the content of the dynamic, three-dimensional (3D) world is an overarching function of the visual system. Research on the middle temporal area (MT) has been instrumental in establishing the neural basis of two-dimensional velocity and depth computations in primates. In this review, we explore how the fundus of the superior temporal sulcus (FST), an area downstream of MT, may contribute to the construction of behaviorally relevant representations of where objects are headed, what shape they have, and why they move. We survey structural and functional evidence from macaques and humans that implicates FST in this complex synthesis. Based on the collective evidence, we propose that FST supports the perception of a cohesive 3D world by bridging the dorsal 'where', ventral 'what', and more recently posited lateral 'social' visual pathways.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Disrupted Event Segmentation in Amnestic Mild Cognitive Impairment: Everyday Memory and Entorhinal Correlates.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109629</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109629</guid>
+      <description>Neuropsychologia
+
+Event segmentation-the parsing of continuous experience into meaningful temporal units-supports everyday memory. Although prior research has examined event segmentation and memory in healthy aging and very mild dementia, it remains unclear whether explicit segmentation performance in neuropsychologically characterized amnestic mild cognitive impairment (aMCI) is differentially related to distinct components of episodic memory, including immediate and delayed memory for event gist and specific details, and how it relates to broader cognitive abilities and medial temporal lobe integrity. Healthy older adults (HOA) and individuals with aMCI viewed a naturalistic video, completed immediate memory tests, and performed explicit event segmentation during a second viewing. Structural MRI was available for a subset of participants. Compared with HOA, individuals with aMCI identified fewer event boundaries and showed lower agreement with a young-adult normative pattern. Segmentation agreement was associated with memory and working memory/executive composites in pooled analyses; within-group models were nonsignificant, and pooled associations may reflect group differences. After correction for multiple comparisons, lower segmentation agreement was associated with poorer one-day delayed detail recall in the aMCI group. Both groups showed better recognition of non-boundary than boundary objects, and better temporal order memory for across-event than within-event pairs. In the MRI subset, greater left entorhinal cortical thickness was associated with higher segmentation agreement, whereas hippocampal volume and parahippocampal cortical thickness were not. These findings identify altered explicit segmentation performance in aMCI and associations with broader cognitive functioning, delayed memory for event details, and entorhinal cortical integrity, although their causal organization remains unresolved.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Encoding-related fMRI BOLD activity predicts subsequent memory for studied scenes, but not subsequent identification of perceptually similar lures.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109628</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109628</guid>
+      <description>Neuropsychologia
+
+Pattern separation is widely regarded as a hippocampally mediated process that reduces interference between memories of similar experiences. Performance on the Mnemonic Similarity Task (MST), where the requirement is to discriminate between studied items (targets) and perceptually similar lures, is commonly held to depend on pattern separation. Specifically, it has been proposed that similar lure identification is supported by a recall-to-reject strategy, whereby lures are identified as such as a result of the retrieval of the corresponding studied item. According to this proposal, therefore, the encoding operations that support successful target recollection and successful lure identification should be closely similar, since both mnemonic judgments depend upon subsequent recollection of the study item. Here, using fMRI, we examined this prediction. In samples of cognitively healthy young and older adults, we employed a three-choice MST (target/lure/new) with scene and object images as test items. Using ROI-based univariate analyses, we assessed whether encoding-related activity was predictive of the identification of target and similar lure items on the subsequent memory test. The activity elicited by scene images predicted memory performance for subsequently presented targets but not for corresponding similar lures, arguably contrary to the recall-to-reject hypothesis. No effects could be identified for either class of object test items. The magnitude of the encoding effects for the scene targets was age-invariant, and, moreover, the scene SMEs demonstrated an age-invariant association with the target-lure discriminability metric.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Differences in brain responses to letter-sound and animal-sound in Arabic-speaking children learning to read.</title>
+      <link>https://doi.org/10.1016/j.neuropsychologia.2026.109626</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuropsychologia.2026.109626</guid>
+      <description>Neuropsychologia
+
+Audio-visual integration (AVI), the ability to combine auditory and visual information, is essential for language acquisition and reading. Research on Western languages has demonstrated that tasks such as letter-sound matching are essential for developing print-sound associations and improving reading fluency. This study examined the neurobiological correlates of AVI in Arabic, using two electroencephalography (EEG) tasks: letter-sound and animal-sound congruent vs. incongruent conditions, with 63 first-grade Arabic-speaking children. Latencies and amplitudes of the N200 and P300 components were compared using an RM-ANOVA across congruent and incongruent letter-sound and animal-sound conditions. Results demonstrated significantly larger N200 amplitudes during animal-sound integration, with no significant congruency effect. In contrast, the P300 showed a robust congruency effect across stimulus categories, with a larger P300 amplitude for the incongruent condition than for the congruent condition. Importantly, greater letter-animal congruency differences in N200 latency during letter-sound processing were associated with faster rapid automatized naming, stronger naming abilities, and better working memory performance. These findings suggest that letter-specific N200 latency differentiation during audiovisual integration is associated with early processing-efficiency markers that precede fluent reading development.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Superior frontal and precentral atlas label contact and naturalistic saccade amplitude across geometric estimators.</title>
+      <link>https://doi.org/10.1016/j.neuroimage.2026.122371</link>
+      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122371</guid>
+      <description>NeuroImage
+
+We explored whether MRI-derived geometry near the superior frontal-precentral sulcal junction differs between hemispheres and relates to naturalistic saccade amplitude. Structural MRI was available for 38 adults, and 37 had usable eye tracking during movie viewing. We compared two measurements of contact between atlas-defined sulcal regions: the length of their reconstructed shared border and the summed lengths of mesh edges that cross between them. The primary reconstructed-border measure did not provide statistically significant evidence of hemispheric asymmetry or an association with saccade amplitude after correction for the two principal tests. The amplitude estimate was negative (Spearman ρ = -.336; unadjusted bootstrap 95% confidence interval -.566 to -.045; Holm-adjusted P = .084). The crossing-edge measure showed a stronger association, but represents a different geometric quantity. Additional analyses examined mesh resolution, normalization, eye-tracking processing, movie segment, recording quality, anatomical comparison regions, and other saccade characteristics. The additional kinematic associations were nonsignificant after correction. Estimates depended on measurement choices, and regional specificity was not established. The primary analysis therefore did not establish an association between the reconstructed anatomical measure and naturalistic saccade amplitude. This exploratory study illustrates how the definition of an MRI-derived measure can affect brain-behavior results. A nonsignificant result does not demonstrate the absence of an association. Independent anatomical validation and replication with participant-specific functional localization are needed.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>结构与功能</category>
+      <category>静息态与自然刺激</category>
+    </item>
+    <item>
+      <title>Multimodal signals of multiparty audience design in moderate-severe traumatic brain injury: Divergent patterns in spoken language, gesture, and eye gaze.</title>
+      <link>https://doi.org/10.1016/j.bandl.2026.105834</link>
+      <guid isPermaLink="false">doi:10.1016/j.bandl.2026.105834</guid>
+      <description>Brain and language
+
+Multiparty communication challenges speakers to adjust their messages for multiple addressees with varying knowledge levels. Such studies of multiparty audience design in both typical and clinical populations have narrowly focused on spoken language only. In the current study, we extend this analysis to examine how speakers with and without TBI adjust their gesture and eye gaze behaviors for multiparty audience design. 30 adults with moderate-severe TBI and 30 non-injured participants played a referential communication game with two Matchers. In the Sorting phase, they described abstract images repeatedly across four rounds. In a subsequent Test phase, participants described the images again to groups of two Matchers who were either both knowledgeable, both naïve, or mixed. We used video-based motion tracking to quantify adjustments in gesture form kinematics for groups of listeners with different levels of knowledge and manually annotated gaze events toward Matchers. Non-injured participants demonstrated a coordinated effort for multiparty audience design across modalities, maximizing the informativeness of their spoken and gestural descriptions and using gaze to monitor understanding in naïve and mixed group conditions. In contrast, despite showing reduced spoken language adjustment, participants with TBI showed preserved adjustment of kinematic features of gesture form and appropriately allocated gaze to naïve Matchers, signaling awareness of partner-specific knowledge representations. Participants with TBI produced gestures at significantly higher rates than non-injured peers. The results highlight the importance of a multimodal approach to studying cognitive-communication disorders and new insights into cognitive mechanisms underlying disruptions to multiparty audience design.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>语言与脑</category>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
+    <item>
+      <title>Neurocognitive Characteristics of Perceptual Feedback Processing Differ in Autism.</title>
+      <link>https://doi.org/10.1523/jneurosci.0315-26.2026</link>
+      <guid isPermaLink="false">doi:10.1523/jneurosci.0315-26.2026</guid>
+      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
+
+Autistic individuals often show reduced adaptation to changing environmental demands, but the neurocognitive mechanisms underlying this difference remain unclear. We asked whether it may be explained by reduced sensitivity to external feedback and changes in task difficulty. Autistic and non-autistic adults of either sex, matched for cognitive ability, performed a pitch discrimination task in which their response was immediately followed by feedback. Accuracy was similar between the two groups, yet autistic participants exhibited a markedly reduced feedback-related negativity (FRN), an event-related EEG potential differentiating explicit negative versus positive feedback. They also showed weaker modulation of feedback-evoked EEG responses by perceptual difficulty. Lastly, they showed reduced trial-by-trial behavioral updating of perceptual bias following recent correct and easy trials. These effects were replicated in a follow-up experiment conducted 1-2 years later. When combined they classified autistic and non-autistic participants with ∼80% accuracy. Together, our findings indicate that multiple processes for evaluating perceptual decisions and adjusting subsequent behavior differ in autism and likely contribute to slow updating in changing contexts.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+      <category>脑疾病机理</category>
+    </item>
     <item>
       <title>Probabilistic neural code for subjective value and metacognition in human cortex.</title>
       <link>https://doi.org/10.1126/sciadv.aej2870</link>
@@ -73,23 +183,12 @@ The framing effect, a robust cognitive bias, demonstrates that human decision-ma
       <category>其他认知与脑</category>
     </item>
     <item>
-      <title>Unraveling the interplay between sensory information and semantic architecture in brain concept representation: the role of abstraction.</title>
-      <link>https://doi.org/10.1016/j.neuroimage.2026.122364</link>
-      <guid isPermaLink="false">doi:10.1016/j.neuroimage.2026.122364</guid>
-      <description>NeuroImage
-
-Understanding how abstract and concrete words are represented in the brain requires disentangling the contribution of sensorimotor information from the organization of semantic knowledge. These dimensions, here referred to as abstractness and abstraction, respectively, are typically confounded, limiting our ability to identify their distinct neural correlates. The present study aimed to dissociate the roles of abstractness and abstraction in word processing by introducing superordinate words as a critical comparison category. Behavioral norming and feature production tasks were used to quantify sensory-related properties and semantic architecture, operationalized in terms of generalizability, feature relevance, and representational specificity. These measures informed computational models capturing abstractness, abstraction, sensorimotor content, and distributional similarity. Neural data were acquired using electroencephalography and analyzed with representational similarity analysis to assess model-brain correspondence over time. Behaviorally, superordinate words patterned with concrete words on sensory properties but with abstract words on measures of semantic architecture. In the electrophysiological data, concrete words elicited stronger negativities than both abstract and superordinate words in the N400 and N700 time windows, whereas the contrast between abstract and superordinate words did not reach significance. Representational similarity analysis revealed that, among the models tested, the abstraction model was significantly associated with the neural response patterns in the N400 and N700 latencies, whereas models based on abstractness, sensorimotor or distributional information did not reach the significance threshold. Within the participants and stimuli tested, these results indicate that semantic architecture provides a useful framework for understanding the neural dynamics of word processing, alongside sensorimotor grounding. They suggest that abstraction may play a central role in structuring conceptual representations, providing a unifying account that bridges embodied and formal theories of semantic representation.</description>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
       <title>Whole-brain mapping of TMS-induced discomfort with large-scale concurrent TMS-fMRI.</title>
       <link>https://doi.org/10.1016/j.brs.2026.103271</link>
       <guid isPermaLink="false">doi:10.1016/j.brs.2026.103271</guid>
       <description>Brain stimulation
 
-Transcranial magnetic stimulation (TMS) is widely used for causal brain mapping and neuromodulation therapies, yet TMS-induced discomfort remains a prevalent and under-characterized confound that may influence measured neural responses. This study aimed to characterize the whole-brain neural signatures of TMS-induced discomfort and quantify its contribution to TMS-evoked neural activity. A total of 165 participants, including healthy individuals (N = 80) and individuals with elevated depression and/or anxiety symptoms (N = 85), underwent concurrent TMS-fMRI across 11 cortical stimulation sites, yielding 1,535 runs. Following each run, participants rated TMS-induced discomfort using the Subjective Units of Distress Scale (SUDS). Multivariate brain-discomfort associations were modeled using a principal component analysis and sparse canonical correlation analysis (PCA-sCCA) framework with cross-validation. TMS-induced discomfort varied systematically across stimulation sites, with greater discomfort reported for frontal and inferior regions. PCA-sCCA identified distributed neural signatures of TMS-induced discomfort spanning sensorimotor, attentional, limbic, and default mode networks, as well as subcortical regions. Neural signatures differed between healthy and symptomatic groups, demonstrating both shared and group-specific patterns. The discomfort-related activity comprised approximately 12% and 25% of TMS-evoked neural responses in healthy and symptomatic groups, respectively, with greater contributions observed at frontal stimulation sites. Accounting for the discomfort-related component altered estimates of TMS-evoked response magnitude and effect size. TMS-induced discomfort engages distributed brain-wide networks and constitutes a substantial component of TMS-evoked neural responses. These findings identify discomfort-related activity as an important confounding factor in TMS studies and highlight the need to routinely assess TMS-induced discomfort and consider its potential influence when estimating TMS-evoked neural effects, thereby improving the interpretability and rigor of TMS research and therapeutic applications.</description>
+Background Transcranial magnetic stimulation (TMS) is widely used for causal brain mapping and neuromodulation therapies, yet TMS-induced discomfort remains a prevalent and under-characterized confound that may influence measured neural responses. This study aimed to characterize the whole-brain neural signatures of TMS-induced discomfort and quantify its contribution to TMS-evoked neural activity. Methods A total of 165 participants, including healthy individuals (N = 80) and individuals with elevated depression and/or anxiety symptoms (N = 85), underwent concurrent TMS-fMRI across 11 cortical stimulation sites, yielding 1,535 runs. Following each run, participants rated TMS-induced discomfort using the Subjective Units of Distress Scale (SUDS). Multivariate brain-discomfort associations were modeled using a principal component analysis and sparse canonical correlation analysis (PCA-sCCA) framework with cross-validation. Results TMS-induced discomfort varied systematically across stimulation sites, with greater discomfort reported for frontal and inferior regions. PCA-sCCA identified distributed neural signatures of TMS-induced discomfort spanning sensorimotor, attentional, limbic, and default mode networks, as well as subcortical regions. Neural signatures differed between healthy and symptomatic groups, demonstrating both shared and group-specific patterns. The discomfort-related activity comprised approximately 12% and 25% of TMS-evoked neural responses in healthy and symptomatic groups, respectively, with greater contributions observed at frontal stimulation sites. Accounting for the discomfort-related component altered estimates of TMS-evoked response magnitude and effect size. Conclusions TMS-induced discomfort engages distributed brain-wide networks and constitutes a substantial component of TMS-evoked neural responses. These findings identify discomfort-related activity as an important confounding factor in TMS studies and highlight the need to routinely assess TMS-induced discomfort and consider its potential influence when estimating TMS-evoked neural effects, thereby improving the interpretability and rigor of TMS research and therapeutic applications.</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -208,6 +307,16 @@ Word meanings in language are contextualized by surrounding words. Inspired by t
       <description>Nature communications
 
 We experience our limbs as our own, but how does the brain generate this fundamental sense of body ownership? Previous studies have relied mainly on fMRI or lesion mapping, providing a static view of the neural mechanisms underlying body ownership. Using magnetoencephalography, robotically controlled visuotactile stimulation, and multivariate analysis across the rubber hand illusion, a real hand condition, and multiple control conditions, we identified source vector dissimilarity patterns reflecting ownership of the left arm. Three phases of ownership-specific activity patterns emerged: (i) anticipatory patterns in medial frontal cortex, right posterior parietal cortex, and right posterior cerebellum before tactile stimulation; (ii) multisensory integration patterns in right dorsal and ventral premotor cortex, right posterior parietal cortex, and anterior cerebellum at 116-156 ms poststimulus; and (iii) later bilateral insular and left hemisphere patterns at 184-232 ms. These findings provide a whole-brain, time-resolved map of activity patterns underlying body ownership, revealing its dynamic neural construction.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
+      <title>Neural correlates of inhibitory control and contributions of value-driven attentional capture in early childhood.</title>
+      <link>https://doi.org/10.1016/j.dcn.2026.101859</link>
+      <guid isPermaLink="false">doi:10.1016/j.dcn.2026.101859</guid>
+      <description>Developmental cognitive neuroscience
+
+The neural substrates of inhibitory control in early childhood are poorly understood. Behavioral studies suggest that in early childhood, stimulus salience may engage context monitoring processes that support successful response inhibition rather than distract from it, though the underlying neural correlates of this process have not been examined during this early period of development. The present fMRI study addresses these gaps in a developmental sample of N = 158 children aged 4 - 8 years (M = 6.48 years, SD = 0.9, 48.7% female). Participants completed a Go/No-Go paradigm in which the salience of one no-go target was manipulated through conditioned reward history while the other no-go target was not. During inhibitory control, we observed neural activation generally consistent with patterns observed in older children and adults. We observed expected age-related improvement in overall task performance and increases in bilateral inferior frontal gyrus activation during correct No-Go compared to Go trials. Contrary to our hypotheses, we did not observe a difference in errors of commission for previously rewarded compared to previously neutral No-Go targets. We did observe age-related decreases in errors of commission to previously rewarded No-Go targets and increases in activation in regions associated with value-driven attentional capture during correctly inhibited previously rewarded no-go trials compared to previously neutral no-go trials. Taken together, our findings replicate and extend other developmental studies of neural correlates of inhibitory control to an early childhood sample. The findings also suggest a unique pattern of value-driven attentional capture that may facilitate inhibitory control during this developmental period.</description>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
@@ -338,6 +447,16 @@ Neuroscience routinely describes memories as stored neural symbols, yet durable 
       <category>其他认知与脑</category>
     </item>
     <item>
+      <title>Pre-stimulus cortical state predicts behavioral performance differently across distractor-learning contexts.</title>
+      <link>https://doi.org/10.1016/j.cortex.2026.11.007</link>
+      <guid isPermaLink="false">doi:10.1016/j.cortex.2026.11.007</guid>
+      <description>Cortex; a journal devoted to the study of the nervous system and behavior
+
+Performance during distractor-laden visual search may vary with learned attentional settings and ongoing brain state. We reanalyzed an fMRI visual-search dataset (N = 34) to test whether pre-stimulus global signal (GS), a broad state-sensitive BOLD measure, predicts subsequent performance and cortical responsivity across two distractor-learning groups. Participants searched for an orientation target while ignoring (same-dimension) orientation or (different-dimension) color distractors. The spatially biased, more frequent distractor dimension was orientation in one group and color in the other; so, the groups differed in both spatial regularity and relative exposure to each dimension. Same-dimension distractors produced strong behavioral interference and recruited Dorsal Attention and Salience/Ventral Attention networks, whereas different-dimension distractors produced little interference. Spatial learning was also more robust when regularity applied to the target-relevant same dimension. Pre-stimulus GS predicted response speed in opposite directions across groups: higher GS preceded slower responses in the same-dimension spatial-bias group, but faster responses in the different-dimension spatial-bias group. Pre-stimulus Default-Mode Network activity showed a convergent group-dependent pattern. Higher pre-stimulus GS generally preceded reduced activity in Dorsal Attention, Salience/Ventral Attention, Control, Early Visual, and Default Mode regions. Exploratory analyses suggested that associations between neural attenuation and the GS-performance relationship varied by group, particularly on different-dimension trials. Together, these findings reveal the relationship between pre-stimulus cortical state and subsequent attentional performance to differ across distractor-learning contexts, even though GS-related cortical attenuation is largely context-general.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>其他认知与脑</category>
+    </item>
+    <item>
       <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels.</title>
       <link>https://doi.org/10.7554/elife.107980</link>
       <guid isPermaLink="false">doi:10.7554/elife.107980</guid>
@@ -416,122 +535,6 @@ The degree to which information from distinct sensory modalities can interact in
 
 An enduring topic of scientific interest since the beginning of cognitive psychological research is visual attention. This phenomenon describes the process by which certain visual percepts are prioritized for deeper processing in the brain, while others receive reduced processing and thereby exert less influence on perception and behavior. In our daily lives, visual attention is critical to performance across countless situations-from navigating busy traffic to maintaining focus on a friend in a crowded room. Therefore, understanding the neural mechanisms that dictate how we select relevant visual information and filter out distractions is central to understanding one of the brain's most fundamental cognitive abilities. Because these attentional processes unravel rapidly in time and are reflected in dynamic patterns of cortical activity, encephalographic measures (i.e., electro- and magneto-encephalography) have been popular tools for their study. In 2025, attention researchers from across Europe gathered in Amsterdam for 2 days of meetings, discussion, and debate on current issues and future avenues in the encephalographic investigation of attention. This perspective piece distills the ideas and topics that emerged from that meeting into a field guide to contemporary encephalographic research on visual attention. It provides a partial snapshot of several ongoing research fields related to the study of visual attention, highlights where they are heading, and highlights which questions are likely to shape their future. We hope that this piece will be especially useful for early career researchers looking to enter the field but unsure about what their next research question should be.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>The Effect of Musical Groove on Sensorimotor Network Cortical Dynamics during Active Tapping and Passive Listening.</title>
-      <link>https://doi.org/10.1162/jocn.a.2751</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2751</guid>
-      <description>Journal of cognitive neuroscience
-
-Musical groove, defined as the urge to move in response to rhythmic stimuli, drives spontaneous entrainment and engagement with music. Recent studies have investigated the activation of the sensorimotor network (SMN), focusing on the μ rhythm, an oscillatory activity in the alpha (8-12 Hz) and beta (16-24 Hz) ranges that reflects motor system engagement, during music listening. Although the strength of the μ rhythm differs between passive listening and active movement, it is unclear whether these responses can be shaped by the level of musical groove. Clarifying this relationship is critical for understanding how neural oscillations transform rhythmic perception into embodied movement and how auditory and motor systems interact to generate the spontaneous urge to move. The present study investigates SMN dynamics by examining μ modulation across two factors: mode of engagement, that is, active motor entrainment (finger tapping) versus passive listening, and groove level, that is, low versus high. EEG recordings were used to assess SMN activity, with a focus on μ rhythm modulation. Channel and cluster-based EEG analyses revealed stronger μ suppression during active tapping compared with passive listening, as well as an effect of musical groove. Self-reported groove ratings remained higher for high-groove than low-groove music during both active tapping and passive listening. Taken together, these findings highlight the modulation of the μ rhythm in the SMN, describing distinctive patterns of neural engagement during the experience of musical groove.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Distinct Amygdala-Frontopolar and Amygdala-Medial Temporal Pathways Support Temporal Memory for Emotional Events.</title>
-      <link>https://doi.org/10.1162/jocn.a.2737</link>
-      <guid isPermaLink="false">doi:10.1162/jocn.a.2737</guid>
-      <description>Journal of cognitive neuroscience
-
-Growing evidence suggests that emotion shapes temporal aspects of memory-such as remembering when an event occurred-yet the neural bases of these effects remain unclear. Prior work indicates that temporal context representations in memory are supported by the functions of the medial temporal lobe (MTL) and prefrontal regions, including hippocampus, perirhinal cortex, and lateral frontopolar cortex (FPl). These regions have privileged access to amygdala-originated affective signals that may mediate emotional influences on temporal memory. To test whether these candidate pathways shape temporal memory for emotional events, participants encoded trial-unique negative and positive images in the scanner, followed by a surprise temporal memory task. We found that more negative stimuli were associated with greater amygdala activation and lower temporal memory error for when emotional images occurred. Replicating and extending prior work, higher stimulus-evoked multivoxel pattern similarity in the hippocampus and FPl was associated with higher temporal memory error. Notably, greater amygdala responding to emotional images predicted higher between-trial pattern similarity in the hippocampus but lower within- and between-trial similarity in FPl. Amygdala engagement was also correlated with greater perirhinal activation, which in turn predicted stronger item memory and a recency bias in temporal memory estimates. Collectively, these findings reveal distinct-and opposing-modulatory effects of amygdala-FPl and amygdala-MTL pathways on temporal memory, with the potential to sharpen and blur memory for when emotional events occurred.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Cross-domain encoding models reveal shared and domain-specific neural representations across language and mathematics.</title>
-      <link>https://doi.org/10.1126/sciadv.aej5555</link>
-      <guid isPermaLink="false">doi:10.1126/sciadv.aej5555</guid>
-      <description>Science advances
-
-Whether language and mathematics rely on shared or distinct neural representations remains unresolved in cognitive neuroscience. Here, we combined latent features from a large language model with functional magnetic resonance imaging encoding models to test cross-domain generalization in 32 participants performing sentence comprehension and calculation tasks. Cross-domain prediction identified cortical regions showing partially shared representations, most consistently in the left area 55b, while control analyses suggested that these effects could not be fully explained by low-level visual or task-general factors. Domain-specificity contrasts revealed stronger language-related prediction in the left superior temporal sulcus and angular gyrus and math-related prediction in the left precentral sulcus and bilateral intraparietal sulci. Model-weight analyses revealed distinct weight profiles associated with shared and domain-specific prediction patterns. Cross-domain regions also exhibited task-dependent functional coupling with language- and math-related networks. Together, these findings suggest that language and mathematics involve partially shared neural representations alongside domain-specific cortical organization, helping reconcile previous contrasting views on their neural basis.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music.</title>
-      <link>https://doi.org/10.1126/sciadv.aed8025</link>
-      <guid isPermaLink="false">doi:10.1126/sciadv.aed8025</guid>
-      <description>Science advances
-
-Auditory processing is typically described as hierarchical, culminating in neural representation of abstract categories. However, it remains unclear whether category-selective responses in auditory cortex require representational mechanisms beyond the coding of acoustic features or whether the acoustic representations already available in the auditory cortex are sufficient to account for categorization. Here, we test whether cortical coding of spectrotemporal modulation (STM) features is sufficient to support speech-music categorization by combining human intracranial recordings with continuous behavioral judgments of a naturalistic soundtrack in which speech and music occur both separately and simultaneously. We show that temporal and spectral modulation patterns largely characterize speech and music, respectively, and that cortical auditory regions robustly track these features over time, with distinct oscillatory frequency bands preferentially encoding temporal and spectral modulations. Critically, cortical representations of STMs predicted perceptual categorical judgments gathered in an independent sample. Last, speech- and music-related STM representations showed stronger tracking of category-specific acoustical features in left versus right cortical auditory regions, respectively. These findings indicate that the efficient neural coding of acoustical features provides a sufficient basis for the categorical distinction between speech and music and that the temporal and spectral components of this representation are implemented through distinct oscillatory mechanisms.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语言与脑</category>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>The hippocampus as a latent diffusion engine for memory, perception and cognitive dysfunction.</title>
-      <link>https://doi.org/10.1093/brain/awag325</link>
-      <guid isPermaLink="false">doi:10.1093/brain/awag325</guid>
-      <description>Brain : a journal of neurology
-
-The hippocampus is a central cognitive hub whose dysfunction contributes to most neurodegenerative dementias. Despite extensive knowledge of its anatomy, physiology and circuitry, a unifying account that links hippocampal dynamics to cognition and clinical syndromes remains lacking. Drawing on systems neuroscience and recent advances in generative artificial intelligence, we conceptualize the hippocampus as a latent diffusion engine that compresses sensory, interoceptive and cognitive inputs into low-dimensional representations and regenerates percepts, episodic memories and imagined scenes for cortical integration. Travelling waves of cortico-hippocampal oscillations, aligned with large-scale functional gradients, schedule and structure this generative process and organize distributed neural activity into coherent, semantically grounded constructs. We formalize this proposal as stochastic latent oscillatory diffusion (SLOD), a biologically grounded framework that maps hippocampal-cortical computations onto specific anatomical substrates and dynamical processes. While we do not suggest that the hippocampus implements diffusion algorithms per se, we show that its computations can be decomposed into homologous operations including compression, stochastic exploration, conditioning and reconstruction, whose formal structure closely parallels that of latent diffusion models. Finally, we demonstrate how major neurodegenerative dementias, including the Alzheimer's disease spectrum, dementia with Lewy bodies and frontotemporal dementia, can be understood as selective breakdowns of distinct components of this generative architecture.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-    </item>
-    <item>
-      <title>Remodeling stress-responsive networks following early life adversity: Insights from preclinical models.</title>
-      <link>https://doi.org/10.1016/j.biopsych.2026.11.007</link>
-      <guid isPermaLink="false">doi:10.1016/j.biopsych.2026.11.007</guid>
-      <description>Biological psychiatry
-
-Early life adversity (ELA) is a leading risk factor for the development of mental illness worldwide. While the association between experiencing developmental stress and psychopathology is robust, the underlying brain mechanisms remain unclear. Evidence from clinical and preclinical studies suggests that ELA may hijack typical developmental plasticity mechanisms, leading to maladaptive functional network changes. Understanding the nature and magnitude of these changes is complicated by several key dimensions, including the timing, type, and severity of ELA, as well as biological factors such as sex and genetic makeup. Preclinical models using primates and rodents have allowed for fine control over these variables, providing substantial evidence of pathways and related biomarkers impacted by ELA. The present review aims to bridge findings from human clinical data with preclinical research, highlighting well-supported ELA-induced changes in the functional connectivity of stress-sensitive pathways, as well as alterations in additional cortical and subcortical pathways which are susceptible to disturbances during development. We also present key neuromodulatory mechanisms contributing to connectivity changes observed in preclinical models, and sex-specific nuances. Addressing these critical gaps could enhance the potential of connectivity-based therapeutic approaches. Lastly, we consider the translatability of functional connectivity analyses using various preclinical techniques for studying the influence of ELA on the developing brain.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>脑疾病机理</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Hierarchical neural circuit theory of normalization and inter-areal communication.</title>
-      <link>https://doi.org/10.7554/elife.111297</link>
-      <guid isPermaLink="false">doi:10.7554/elife.111297</guid>
-      <description>eLife
-
-The primate brain exhibits a hierarchical, modular architecture with conserved microcircuits executing canonical computations across reciprocally connected cortical areas. We present a hierarchical neural circuit theory with feedback connections that dynamically implements divisive normalization across its hierarchy. In a two-stage instantiation (V1 ↔ V2), increasing feedback from V2 to V1 amplifies responses in both areas. We analytically derive power spectra (V1) and coherence spectra (V1-V2) as functions of frequency (f ) and compare them with experimental observations: peaks in both spectra shift to higher frequencies with increased stimulus contrast, and power decays as 1/f 4 at high frequencies. The closed-form spectra are validated against direct stochastic simulation of the full nonlinear circuit across contrasts. The theory further predicts distinctive spectral signatures of feedback and input gain modulation. Crucially, the theory offers a unified view of inter-areal communication, defined as the ability to linearly predict neural activity in one brain area from neural activity in another, with emergent features consistent with empirical observations of both communication subspaces and inter-areal coherence. It admits a low-dimensional communication subspace, where inter-areal communication is lower-dimensional than within-area communication. It further predicts that: (1) increasing feedback strength enhances inter-areal communication and diminishes within-area communication, without altering the subspace dimensionality; (2) communication is strongest, and the subspace dimensionality lowest, at the frequencies at which V1-V2 coherence peaks; (3) normalization reduces the subspace dimensionality. Finally, a three-area (V1 ↔ V4 and V1 ↔ V5) instantiation of the theory demonstrates that differential feedback from higher to lower cortical areas dictates their dynamic functional connectivity. Altogether, our theory provides a robust and analytically tractable framework for generating experimentally testable predictions about normalization, inter-areal communication, and functional connectivity.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Intervening contexts reshape hippocampal-cortical retrieval states and later source attribution.</title>
-      <link>https://doi.org/10.1523/jneurosci.1413-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.1413-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Memories are often reactivated in one context and only later judged with respect to where they originally occurred. We tested how an intervening retrieval context shapes neural representations and later source memory. In two fMRI tasks, participants (both male and female) encoded objects within contextual backgrounds, completed an immediate retrieval test in which object cues appeared against either the original background or a different background, and subsequently judged each object's original context on a neutral screen. Shifted cueing contexts reduced source accuracy and biased errors toward the intervening context, despite no detectable difference in immediate recognition or associative-memory performance. Representational similarity analyses showed that encoding patterns reflected original-context structure, whereas immediate-cue-period patterns were broadly organized by the cued (i.e., currently visible) context. On shifted trials, activity patterns showed greater similarity to encoding-derived templates for the cued context than for the original context. Across participants, greater differentiation of original-context similarity between consistent and shifted cueing in posterior hippocampus, parahippocampal cortex, and dorsal anterior cingulate cortex was associated with better source memory after a contextual shift. Within participants, precuneus contextual engagement and dorsal anterior cingulate context alignment predicted later source choices, with similar relationships after adjustment for immediate recognition responses. Later source attribution therefore depended on the contextual state expressed when an item was re-encountered, not simply on reinstatement of the original event.Significance statement Remembering is often described as bringing up the past, but memories are frequently reactivated in new contexts before we judge where they came from. We show that this intervening context can bias later source attribution even when that context is no longer visible at final test. Using two fMRI tasks, representational similarity analysis and trial-level source-choice models, we found that cue-period activity was organized by the context present during cueing and that specific context-state signals predicted later memory choices, whereas item reinstatement did not. Source-memory errors can therefore reflect contextual information encountered after the original event, not only failures to recover the original context.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Multidimensional dynamics of object representations in the human visual system.</title>
-      <link>https://doi.org/10.1523/jneurosci.0623-26.2026</link>
-      <guid isPermaLink="false">doi:10.1523/jneurosci.0623-26.2026</guid>
-      <description>The Journal of neuroscience : the official journal of the Society for Neuroscience
-
-Natural image representations are distributed across many dimensions of visual cortex activity, but little is known about how the multidimensional structure of these representations evolves over time following stimulus onset. Herewe examined the temporal dynamics and latent dimensional structure of natural object representations in large-scale EEG and MEG data from male and female human participants. We also compared these datawith leading representational models derived from large-scale human similarity judgments and deep neural networks. Our findings reveal a rapid expansion of stimulus dimensionality in the brain, which peaks within 100 milliseconds and gradually decays over hundreds of milliseconds. The dynamics of these dimensionality changes tracked the decoding accuracy for both behavioral embeddings and neural network features, suggesting that dimensionality may be a general indicator of representational expressivity. Interestingly, the dimensionality of the neural representations could not be fully explained by a leading behavior-based model or deep neural network. Follow-up experiments showed that the remaining neural variance carried additional perceptually relevant information not yet explained by leading models. Together, these findings reveal previously unrecognized complexity in measurements of dynamic human brain responses to natural objects.Significance Statement When we look at an object, our brains rapidly construct a rich internal representation of what we see. Using large-scale, time-resolved brain recordings from people viewing thousands of natural images, we find that the brain rapidly expands its representational complexity within the first 100 milliseconds, sustaining this richness for hundreds of milliseconds thereafter. A leading behavioral model and a large-scale deep neural network do not fully account for this complexity - yet the unexplained brain activity is not noise: people can reliably use these residual neural patterns to judge image similarity. These findings challenge the assumption that such brain recordings are informationally limited and reveal structure in the human visual system that future models will need to explain.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-    </item>
-    <item>
-      <title>Connectome fingerprinting predicts prefrontal cortical activation during abstract reasoning.</title>
-      <link>https://doi.org/10.1162/imag.a.1460</link>
-      <guid isPermaLink="false">doi:10.1162/imag.a.1460</guid>
-      <description>Imaging neuroscience (Cambridge, Mass.)
-
-Connectome fingerprinting (CF) is a machine-learning technique that uses an individual's unique brain connectivity profile to make predictions about their individual brain activity patterns. Previous studies have successfully employed CF using sensory, working memory, and auditory/visual functional Magnetic Resonance Imaging (fMRI) data. Here, we demonstrate that this technique can be used to examine higher-order cognition and evaluate the effectiveness of the CF method in the prefrontal cortex (PFC), an area where brain function and structure has been shown to be exceptionally variable across individuals. We designed a CF model, using a leave-one-out cross-validation scheme, to predict individually-specific blood-oxygen-level-dependent (BOLD) activation in the lateral PFC. We used an abstract reasoning task designed to probe higher-order cognitive function specific to the lateral PFC. Our results demonstrated that CF better predicts abstract reasoning activation in the lateral PFC compared to the group average. We also tested whether task-evoked BOLD activity could be predicted using a model trained on a subset of the functional connectome. We demonstrate that CF models trained on a partial connectome from associative brain networks achieved similar levels of model performance compared to models trained on the full connectome. We observed that model performance varied across participants, suggesting that within-participant reliability in task activation, and deviation from the group average influence the model. Overall, we used CF to characterize individuals' task-evoked BOLD activation during abstract reasoning, demonstrating a link between resting-state functional architecture and brain activations and identifying key networks that contribute to higher-order cognition.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>其他认知与脑</category>
-      <category>静息态与自然刺激</category>
-    </item>
-    <item>
-      <title>Posterior alpha/beta oscillations reflect oculomotor dynamics underlying subsequent memory effects.</title>
-      <link>https://doi.org/10.1038/s41467-026-79403-x</link>
-      <guid isPermaLink="false">doi:10.1038/s41467-026-79403-x</guid>
-      <description>Nature communications
-
-Neural activity and eye movements are well-established predictors of human memory performance. Successful memory formation is associated with reduced alpha/beta power and increased eye movements. However, their coupling and combined contribution to memory formation remain largely unknown. Across four experiments combining eye tracking with scalp or intracranial electroencephalography during free or constrained viewing, we identify the degree of visual exploration, rather than subsequent memory performance, as consistent modulator of posterior alpha/beta power. Going beyond correlations, manipulating eye movements dissociated alpha/beta power reductions from memory. Together with the finding that saccade parameters predicted alpha/beta dynamics, our results directly link posterior alpha/beta activity to the oculomotor system. Moreover, the accumulation of saccades over time accounted for reduced alpha/beta power, resembling the canonical post-stimulus alpha/beta pattern. Our work demonstrates that posterior alpha/beta activity strongly reflects eye movements, supporting alternative perspectives on alpha/beta subsequent memory effects and the general function of posterior alpha/beta activity.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <category>其他认知与脑</category>
     </item>
   </channel>
